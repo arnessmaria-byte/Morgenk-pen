@@ -1,0 +1,54 @@
+# Installerer PlanBuild med avhengigheter i Valheim og legger inn Solnes-tegningene.
+# Lim inn hele blokka i PowerShell med Valheim lukket. Endrer ingen eksisterende filer.
+& {
+  $ErrorActionPreference = 'Stop'
+  $ProgressPreference = 'SilentlyContinue'
+  [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+  $V = "${env:ProgramFiles(x86)}\Steam\steamapps\common\Valheim"
+  if (-not (Test-Path "$V\valheim.exe")) { throw "Fant ikke Valheim i $V" }
+  if (Get-Process valheim -ErrorAction SilentlyContinue) { throw 'Lukk Valheim først, og lim inn skriptet på nytt.' }
+  if ((Test-Path "$V\winhttp.dll") -or (Test-Path "$V\BepInEx")) { throw 'BepInEx ligger der allerede. Stopper uten å endre noe.' }
+
+  $W = "$HOME\valheim-analyse\mods"
+  New-Item -ItemType Directory -Force $W | Out-Null
+  $pakker = @(
+    @{ n = 'denikson/BepInExPack_Valheim/5.4.2351'; h = 'bce631497976a93977ceb08e166712e6c31d15244956f89f17df092a9b62e29f' },
+    @{ n = 'ValheimModding/Jotunn/2.30.2';          h = '8aae92da2be0eb6820cd4cf57e2f6c1d6ad0d738d4915966e7c3d7a94e9a9b0f' },
+    @{ n = 'ValheimModding/HookGenPatcher/0.0.4';   h = '4f920c9b43d6cd8a808d4f7f6cda5b0fce5930f021e693f2bc034a7c39f6f0e4' },
+    @{ n = 'ShelledGhost/PlanBuild/0.18.8';         h = '2750bc85e436cc576f0699437fa8b58090ea41140d91f644b1ee383bd36474c8' }
+  )
+  foreach ($p in $pakker) {
+    $navn = $p.n -replace '/', '-'
+    $zip = "$W\$navn.zip"
+    Invoke-WebRequest "https://thunderstore.io/package/download/$($p.n)/" -OutFile $zip -UseBasicParsing
+    if ((Get-FileHash $zip -Algorithm SHA256).Hash -ne $p.h) { throw "Feil sjekksum for $navn. Stopper." }
+    Expand-Archive $zip "$W\$navn" -Force
+    Write-Host "Lastet ned  $navn"
+  }
+
+  $B = "$W\denikson-BepInExPack_Valheim-5.4.2351\BepInExPack_Valheim"
+  Copy-Item "$B\winhttp.dll", "$B\doorstop_config.ini", "$B\.doorstop_version" $V
+  Copy-Item "$B\BepInEx" $V -Recurse
+  New-Item -ItemType Directory -Force "$V\BepInEx\plugins\Jotunn", "$V\BepInEx\patchers", "$V\BepInEx\config\PlanBuild\blueprints" | Out-Null
+  Copy-Item "$W\ValheimModding-Jotunn-2.30.2\plugins\*" "$V\BepInEx\plugins\Jotunn"
+  Copy-Item "$W\ValheimModding-HookGenPatcher-0.0.4\patchers\BepInEx.MonoMod.HookGenPatcher" "$V\BepInEx\patchers" -Recurse
+  Copy-Item "$W\ValheimModding-HookGenPatcher-0.0.4\config\HookGenPatcher.cfg" "$V\BepInEx\config"
+  Copy-Item "$W\ShelledGhost-PlanBuild-0.18.8\plugins\PlanBuild" "$V\BepInEx\plugins" -Recurse
+  Write-Host 'Installert  BepInEx, Jotunn, HookGenPatcher og PlanBuild'
+
+  $R = 'https://raw.githubusercontent.com/arnessmaria-byte/Morgenk-pen/claude/valheim-save-analysis-s5y2sa/valheim/planbuild'
+  $tegninger = @{
+    'Solnes_Kongesalen.blueprint' = '170370d53e1d5a9caf1a5d4b8b7079dc93f134239b9207d4aef8bc00532f59f0'
+    'Solnes_Vestporten.blueprint' = '673fa9b6e1788be87354397fdde7eadf6356d4c68e6f311b9515374836414dbd'
+    'Solnes_Grav22m.blueprint'    = 'e5bb96912e055528f32e226f2712fa9e865b86eefaef7db3aa8265253b713cde'
+  }
+  foreach ($t in $tegninger.Keys) {
+    $f = "$V\BepInEx\config\PlanBuild\blueprints\$t"
+    Invoke-WebRequest "$R/$t" -OutFile $f -UseBasicParsing
+    if ((Get-FileHash $f -Algorithm SHA256).Hash -ne $tegninger[$t]) { Remove-Item $f; throw "Feil sjekksum for $t" }
+    Write-Host "Tegning     $t"
+  }
+  Write-Host ''
+  Write-Host 'Ferdig. Start Valheim fra Steam som vanlig.' -ForegroundColor Green
+}
