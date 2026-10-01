@@ -4,13 +4,15 @@ Byggetegninger til borgen i verdenen MantleOfElias (Valheim 1.0.16). De lastes i
 
 | Fil | Hva | Materialer |
 |---|---|---|
-| `Solnes_Kongesalen.blueprint` | Storsalen, 12 × 18 m. Steinmurer med trappegavler, stråtak, hearth, Raven throne på steinpodium, seng, langbord og tre armor stands. Bakken jevnes og brolegges. | 353 Stone, 298 Wood, 32 Core wood, 64 Fine wood, 42 Iron nails, 2 Tar, 2 Iron, 8 Resin, 6 Leather scraps, bjørneteppe |
-| `Solnes_Vestporten.blueprint` | Porthus med to steintårn, skyteplattform med murtinder, portgård og steinbro. Graver 12 m grav på hver side av broa og setter påler. | 290 Stone, 116 Wood, 40 Core wood, 2 Iron, 8 Resin |
+| `Solnes_Kongesalen.blueprint` | Storsalen, 12 × 18 m. Steinmurer med trappegavler, stråtak, hearth, Raven throne på steinpodium, seng, langbord og tre armor stands. Bakken jevnes og brolegges. | 393 Stone, 302 Wood, 32 Core wood, 64 Fine wood, 42 Iron nails, 2 Tar, 2 Iron, 8 Resin, 6 Leather scraps, bjørneteppe |
+| `Solnes_Vestporten.blueprint` | Porthus med to steintårn, to jernporter, skyteplattform med murtinder, portgård og steinbro. Graver 12 m grav på hver side av broa og setter påler. | 376 Stone, 116 Wood, 40 Core wood, 10 Iron, 8 Resin |
 | `Solnes_Grav22m.blueprint` | 22 m tørr vollgrav, 6 m bred og 6 m dyp, med påler langs ytterkanten. | 60 Wood, 40 Core wood |
 
 ## Installering
 
 Filene legges i `<Valheim>\BepInEx\config\PlanBuild\blueprints\`. PlanBuild trenger BepInExPack_Valheim, Jötunn og HookGenPatcher.
+
+`installer.ps1` gjør alt i én operasjon: lim inn `irm <rå-URL til installer.ps1> | iex` i PowerShell med Valheim lukket. `oppdater_tegninger.ps1` henter bare nye versjoner av tegningene.
 
 ## Bruk i spillet
 
@@ -25,6 +27,6 @@ Planer som mangler støtte, er mer gjennomsiktige og kan ikke bygges ferdig. Med
 
 ## Usikre punkter
 
-Geometrien er målt fra egne bygg i lagringen. Dører og jernporter er ikke med ennå, og de settes inn med vanlig hammer i åpningene (2 × 2 m). Stigen i Vestporten og mønekappene på taket er de delene det er størst sjanse for at må justeres.
+Geometrien bygger på snappunktene og kolliderne til byggedelene, lest rett fra spillets egne prefabs (Valheim 1.0.16). Steinmurene er 1 m tykke, og hjørnesteiner (stone_pillar) fyller hjørnene der to murer møtes. Retningen på tronen, senga, langbordet og armor stands er ikke kontrollert mot spillet, så de kan stå vendt feil vei.
 
 `bp_gen.py` lager filene på nytt: `python bp_gen.py`.

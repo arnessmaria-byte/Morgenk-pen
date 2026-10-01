@@ -39,9 +39,9 @@
 
   $R = 'https://raw.githubusercontent.com/arnessmaria-byte/Morgenk-pen/claude/valheim-save-analysis-s5y2sa/valheim/planbuild'
   $tegninger = @{
-    'Solnes_Kongesalen.blueprint' = '170370d53e1d5a9caf1a5d4b8b7079dc93f134239b9207d4aef8bc00532f59f0'
-    'Solnes_Vestporten.blueprint' = '673fa9b6e1788be87354397fdde7eadf6356d4c68e6f311b9515374836414dbd'
-    'Solnes_Grav22m.blueprint'    = 'e5bb96912e055528f32e226f2712fa9e865b86eefaef7db3aa8265253b713cde'
+    'Solnes_Kongesalen.blueprint' = 'dd14e3fdf6ac7636d6167e4cea3c453496a4b39108d59d7fa6c2c43c8b6448e3'
+    'Solnes_Vestporten.blueprint' = '1d2533a2cf2e0c74ce5c329cd8e856f3f055930e3beac71fb3f3e27101252643'
+    'Solnes_Grav22m.blueprint'    = '4d163349d43249dd67d0650082c5fcfaf23e534622d951b67bf221fbe4f753c9'
   }
   foreach ($t in $tegninger.Keys) {
     $f = "$V\BepInEx\config\PlanBuild\blueprints\$t"

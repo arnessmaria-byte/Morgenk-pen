@@ -4,22 +4,26 @@ Koordinater: x = øst/høyre, y = opp, z = nord/forover (Unity, venstrehendt).
 Tegningens origo (0,0,0) = punktet du sikter på når du plasserer.
 yaw i grader rundt y; lokal +z peker da mot (sin yaw, 0, cos yaw).
 
-Geometri (fra målinger av Elias' egne bygg, se geometri.txt):
-  woodwall 2x2, pivot i senter, strekker seg langs lokal x
-  wood_floor 2x2, pivot = snapplanet (vegger står med bunn i pivot-planet)
-  stone_wall_* pivot i senter (1x1 og 2x1 bekreftet, 4x2 antatt likt)
-  stone_floor_2x2 1 m tykk, pivot i senter (topp = +0.5)
-  wood_pole_log_4 pivot i senter (4 m høy)
-  wood_roof (26 grader): lav kant i lokal +z, 1 m under pivot og 1 m ut;
-      neste takplate oppover = (0, +1, -2) lokalt
-  wood_roof_top: 0.5 m over toppkanten, på mønelinja, langs lokal x
+Geometri (snappunkter lest fra spillets egne prefabs, Valheim 1.0.16):
+  stone_wall_1x1/2x1/4x2  pivot i senter, 1 m tykke
+  stone_pillar            1 x 2 x 1, pivot i senter
+  stone_floor_2x2         2 x 1 x 2, pivot i senter (topp = +0.5)
+  wood_floor              snapplan = pivot, kollider -0.035..+0.095
+  wood_pole_log_4         pivot i senter, 4 m
+  wood_roof (26 grader)   lav kant (±1, 0, +1), høy kant (±1, 1, -1)
+  wood_roof_top           nedre kanter (±1, 0, ±1), møne (±1, 0.5, 0)
+  wood_door               åpning 2 x 2, pivot i senter
+  iron_grate              åpning 2 x 3, pivot 1 m over bunnen
+  wood_stepladder         bunn (±0.5, 0, +1), topp (±0.5, 2, -1)
+  piece_sharpstakes       pivot på bakken, piggene peker mot lokal -z
 """
 import math
 import json
 import os
 
 SINK = 0.05   # murer og steingulv senkes 5 cm så de sikkert står i bakken
-FLOOR = 0.05  # tregulv ligger 5 cm over bakken så terrenget ikke dekker det
+FLOOR = 0.0   # tregulvets kollider går 3,5 cm ned i bakken og 9,5 cm opp
+FURN = 0.08   # møbler står 1,5 cm ned i tregulvet
 
 
 def quat(yaw):
@@ -106,9 +110,9 @@ def roof_side(bp, ridge_x, eave_x, eave_y, zs, overhang=True):
     steps = int(round(abs(ridge_x - eave_x) / 2))
     for z in zs:
         if overhang:
-            bp.add('wood_roof', eave_x - d * 1, eave_y, z, yaw)
+            bp.add('wood_roof', eave_x - d * 1, eave_y - 1, z, yaw)
         for k in range(steps):
-            bp.add('wood_roof', eave_x + d * (2 * k + 1), eave_y + 1 + k, z, yaw)
+            bp.add('wood_roof', eave_x + d * (2 * k + 1), eave_y + k, z, yaw)
 
 
 # ---------------------------------------------------------------- Kongesalen
@@ -146,6 +150,12 @@ def kongesalen():
             bp.add('stone_wall_1x1', x, y, 9, 0)
     for x in (-4, 0, 4):
         bp.add('stone_wall_4x2', x, 3, 9, 0)
+    bp.add('wood_door', 0, 1, 9, 0)
+    # hjørnesteiner fyller hakket der to 1 m tykke murer møtes
+    for x in (-6, 6):
+        for z in (-9, 9):
+            for y in (1, 3):
+                bp.add('stone_pillar', x, y, z, 0)
 
     # trappegavler over takfoten (4 m) i begge ender
     for z in (-9, 9):
@@ -163,7 +173,7 @@ def kongesalen():
     roof_side(bp, 0, 6, EAVE, zs_roof)
     roof_side(bp, 0, -6, EAVE, zs_roof)
     for z in zs_roof:
-        bp.add('wood_roof_top', 0, EAVE + 3.5, z, 90)
+        bp.add('wood_roof_top', 0, EAVE + 2.5, z, 90)
 
     # tregulv, unntatt under podiet
     for x in (-5, -3, -1, 1, 3, 5):
@@ -185,7 +195,7 @@ def kongesalen():
         bp.add('wood_pole_log_4', x * 1.15, 2, -8.35, 0)   # rammer inn podiet
 
     # innredning (står 2 cm ned i gulvet så de får støtte)
-    F = FLOOR - 0.02
+    F = FURN
     bp.add('hearth', 0, F, 0, 0, 'Furniture', sink=False)
     bp.add('piece_throne01', 0, 0.5 - 0.02, -7.5, 0, 'Furniture')
     bp.add('rug_Bjorn', 0, F, -3.8, 0, 'Furniture', sink=False)
@@ -210,7 +220,7 @@ def vestporten():
     bp = Blueprint(
         'Vestporten',
         'Porthus med to steintårn, skyteplattform med murtinder (4 m), portgård '
-        '8 x 6 m og steinbro over grava. Sikt på fakkellinja midt i porten og '
+        'og steinbro over grava. Sikt på fakkellinja midt i porten og '
         'roter til broa peker ut mot havet. Graver også 12 m grav på hver side av broa.')
 
     # terreng
@@ -239,15 +249,19 @@ def vestporten():
             bp.add('stone_wall_4x2', cx, y, 4, 0)       # bak
             bp.add('stone_wall_4x2', 6 * sx, y, 2, 90)  # ytterside
             bp.add('stone_wall_4x2', 2 * sx, y, 2, 90)  # mot portrommet
-        for y in (0.5, 1.5):
+        for y in (0.5, 1.5, 2.5):
             bp.add('stone_wall_1x1', 1.5 * sx, y, 0, 0)  # porthullets kanter
-    bp.add('stone_wall_4x2', 0, 3, 0, 0)                 # overligger over port 1
+        for (x, z) in ((6, 0), (6, 4), (2, 4), (4, 10)):  # hjørnesteiner
+            for y in (1, 3):
+                bp.add('stone_pillar', x * sx, y, z, 0)
+    bp.add('stone_wall_4x2', 0, 4, 0, 0)                 # overligger over port 1, brystvern over porten
+    bp.add('iron_grate', 0, 1, 0, 0)                     # port 1 (2 x 3 m)
 
     # plattform og murtinder
     for x in (-5, -3, -1, 1, 3, 5):
         for z in (1, 3):
             bp.add('wood_floor', x, 4, z, 0)
-    for x in (-5.5, -3.5, -1.5, 1.5, 3.5, 5.5):
+    for x in (-5.5, -3.5, 3.5, 5.5):
         bp.add('stone_wall_1x1', x, 4.5, 0, 0)
     for x in (-6, 6):
         for z in (1.5, 3.5):
@@ -260,13 +274,14 @@ def vestporten():
         for y in (0.5, 1.5, 2.5, 3.5):
             bp.add('stone_wall_2x1', 4 * sx, y, 9, 90)
             bp.add('stone_wall_2x1', 3 * sx, y, 10, 0)
-        for y in (0.5, 1.5):
+        for y in (0.5, 1.5, 2.5):
             bp.add('stone_wall_1x1', 1.5 * sx, y, 10, 0)
-    bp.add('stone_wall_4x2', 0, 3, 10, 0)                # overligger over port 2
+    bp.add('stone_wall_4x2', 0, 4, 10, 0)                # overligger over port 2
+    bp.add('iron_grate', 0, 1, 10, 0)                    # port 2
 
     # stige opp til plattformen, bak det ostre taarnet (utenfor portgaarden)
-    bp.add('wood_stepladder', 5.2, 0, 8, 0)
-    bp.add('wood_stepladder', 5.2, 2, 6, 0)
+    bp.add('wood_stepladder', 5.2, 0, 7, 0)
+    bp.add('wood_stepladder', 5.2, 2, 5, 0)
 
     # lys og arbeidsbenk
     for x in (-4.8, -1.2, 1.2, 4.8):
@@ -276,7 +291,7 @@ def vestporten():
 
     # paaler langs ytterkanten av grava
     for x in stake_x:
-        bp.add('piece_sharpstakes', x, 0, -10.5, 180)
+        bp.add('piece_sharpstakes', x, 0, -10.5, 0)
     return bp
 
 
@@ -294,7 +309,7 @@ def grav():
     for x in xs:
         bp.level('square', x, 0, -10.5, 1.5, 0, 0.6, '')
     for x in xs:
-        bp.add('piece_sharpstakes', x, 0, -10.5, 180)
+        bp.add('piece_sharpstakes', x, 0, -10.5, 0)
     return bp
 
 
@@ -312,6 +327,7 @@ COSTS = {
     'piece_workbench': {'Wood': 10},
     'piece_stonecutter': {'Wood': 10, 'Iron': 2, 'Stone': 4},
     'piece_sharpstakes': {'Wood': 6, 'Core wood': 4},
+    'stone_pillar': {'Stone': 5}, 'wood_door': {'Wood': 4}, 'iron_grate': {'Iron': 4},
 }
 
 
