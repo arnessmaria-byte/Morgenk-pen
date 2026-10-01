@@ -1,0 +1,30 @@
+#Name:Grav 22 m
+#Creator:Claude for Elias
+#Description:"Tørr vollgrav, 22 m lang, 6 m bred og 6 m dyp, med påler langs ytterkanten. Sikt på fakkellinja og roter til pålene peker utover. Grava havner 3–9 m utenfor. Legg neste bit i forlengelsen, gjerne med litt overlapp."
+#Category:Solnes
+#Terrain
+square;-8.25;-6;-6;3;0;0;
+square;-2.75;-6;-6;3;0;0;
+square;2.75;-6;-6;3;0;0;
+square;8.25;-6;-6;3;0;0;
+square;-9.9;0;-10.5;1.5;0;0.6;
+square;-7.7;0;-10.5;1.5;0;0.6;
+square;-5.5;0;-10.5;1.5;0;0.6;
+square;-3.3;0;-10.5;1.5;0;0.6;
+square;-1.1;0;-10.5;1.5;0;0.6;
+square;1.1;0;-10.5;1.5;0;0.6;
+square;3.3;0;-10.5;1.5;0;0.6;
+square;5.5;0;-10.5;1.5;0;0.6;
+square;7.7;0;-10.5;1.5;0;0.6;
+square;9.9;0;-10.5;1.5;0;0.6;
+#Pieces
+piece_sharpstakes;Building;-9.9;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;-7.7;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;-5.5;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;-3.3;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;-1.1;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;1.1;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;3.3;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;5.5;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;7.7;-0.05;-10.5;0;1;0;0;
+piece_sharpstakes;Building;9.9;-0.05;-10.5;0;1;0;0;
