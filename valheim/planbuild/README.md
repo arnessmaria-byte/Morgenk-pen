@@ -10,7 +10,7 @@ Byggetegninger til borgen i verdenen MantleOfElias (Valheim 1.0.16). De lastes i
 
 ## Installering
 
-Filene legges i `<Valheim>\BepInEx\config\PlanBuild\blueprints\`. PlanBuild trenger BepInExPack_Valheim, Jötunn og HookGenPatcher.
+Filene legges i `<Valheim>\BepInEx\config\PlanBuild\blueprints\`. Bruk PlanBuild 0.20.0 fra MathiasDecrock. Versjon 0.18.8 fra ShelledGhost har en feil som gjør at planer på bakken står som «Not enough support». `oppdater_planbuild.ps1` bytter den ut.
 
 `installer.ps1` gjør alt i én operasjon: lim inn `irm <rå-URL til installer.ps1> | iex` i PowerShell med Valheim lukket. `oppdater_tegninger.ps1` henter bare nye versjoner av tegningene.
 

@@ -16,7 +16,7 @@
     @{ n = 'denikson/BepInExPack_Valheim/5.4.2351'; h = 'bce631497976a93977ceb08e166712e6c31d15244956f89f17df092a9b62e29f' },
     @{ n = 'ValheimModding/Jotunn/2.30.2';          h = '8aae92da2be0eb6820cd4cf57e2f6c1d6ad0d738d4915966e7c3d7a94e9a9b0f' },
     @{ n = 'ValheimModding/HookGenPatcher/0.0.4';   h = '4f920c9b43d6cd8a808d4f7f6cda5b0fce5930f021e693f2bc034a7c39f6f0e4' },
-    @{ n = 'ShelledGhost/PlanBuild/0.18.8';         h = '2750bc85e436cc576f0699437fa8b58090ea41140d91f644b1ee383bd36474c8' }
+    @{ n = 'MathiasDecrock/PlanBuild/0.20.0';       h = '79859e5f3989d86e316563a652aa817d5821903fe53ca69b14f89563defaffdd' }
   )
   foreach ($p in $pakker) {
     $navn = $p.n -replace '/', '-'
@@ -34,7 +34,7 @@
   Copy-Item "$W\ValheimModding-Jotunn-2.30.2\plugins\*" "$V\BepInEx\plugins\Jotunn"
   Copy-Item "$W\ValheimModding-HookGenPatcher-0.0.4\patchers\BepInEx.MonoMod.HookGenPatcher" "$V\BepInEx\patchers" -Recurse
   Copy-Item "$W\ValheimModding-HookGenPatcher-0.0.4\config\HookGenPatcher.cfg" "$V\BepInEx\config"
-  Copy-Item "$W\ShelledGhost-PlanBuild-0.18.8\plugins\PlanBuild" "$V\BepInEx\plugins" -Recurse
+  Copy-Item "$W\MathiasDecrock-PlanBuild-0.20.0\plugins\PlanBuild" "$V\BepInEx\plugins" -Recurse
   Write-Host 'Installert  BepInEx, Jotunn, HookGenPatcher og PlanBuild'
 
   $R = 'https://raw.githubusercontent.com/arnessmaria-byte/Morgenk-pen/claude/valheim-save-analysis-s5y2sa/valheim/planbuild'
