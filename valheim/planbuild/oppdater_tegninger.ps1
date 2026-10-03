@@ -10,6 +10,10 @@
     'Solnes_Kongesalen.blueprint' = 'dd14e3fdf6ac7636d6167e4cea3c453496a4b39108d59d7fa6c2c43c8b6448e3'
     'Solnes_Vestporten.blueprint' = '1d2533a2cf2e0c74ce5c329cd8e856f3f055930e3beac71fb3f3e27101252643'
     'Solnes_Grav22m.blueprint'    = '4d163349d43249dd67d0650082c5fcfaf23e534622d951b67bf221fbe4f753c9'
+    'Solnes_Stabburet.blueprint'  = '3a6e0bff79df83668d1116f7f52ab03a6d6dfde8de88d1dab1a3eb6423285233'
+    'Solnes_Mjodstua.blueprint'   = '6f0703f0b6081dd748c6c3ee460f16df264824a209a4ba8a6521eef0601b4f16'
+    'Solnes_Tingstua.blueprint'   = 'ae194c261b54ac5126faea55c93c388bbb26a82389cfc63943564d61356b6116'
+    'Solnes_Lysthuset.blueprint'  = '63f538e6e326d100e58622e67737c7e4246ef0667a764ee89ffb51eeac2ea0e0'
   }
   foreach ($t in $tegninger.Keys) {
     $tmp = "$env:TEMP\$t"
