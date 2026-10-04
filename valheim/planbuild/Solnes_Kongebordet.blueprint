@@ -1,0 +1,14 @@
+#Name:Kongebordet
+#Creator:Claude for Elias
+#Description:"Langbord på 4 m med fem stoler og et hjorteteppe under, til midten av Velkomsthallen under det hengende fyrfatet. Bordet gir komfort sammen med bålet og teppet når du kommer hjem gjennom portalene."
+#Category:Solnes
+#Terrain
+#Pieces
+rug_deer;Furniture;0;0;0;0;0;0;1;
+piece_table;Furniture;-1;0;0;0;0;0;1;
+piece_table;Furniture;1;0;0;0;0;0;1;
+piece_chair02;Furniture;-1;0;-0.9;0;0;0;1;
+piece_chair02;Furniture;1;0;-0.9;0;0;0;1;
+piece_chair02;Furniture;-1;0;0.9;0;1;0;0;
+piece_chair02;Furniture;1;0;0.9;0;1;0;0;
+piece_chair02;Furniture;-2.7;0;0;0;0.707;0;0.707;

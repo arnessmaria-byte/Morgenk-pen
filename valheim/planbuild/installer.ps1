@@ -46,6 +46,10 @@
     'Solnes_Mjodstua.blueprint'   = '6f0703f0b6081dd748c6c3ee460f16df264824a209a4ba8a6521eef0601b4f16'
     'Solnes_Tingstua.blueprint'   = 'ae194c261b54ac5126faea55c93c388bbb26a82389cfc63943564d61356b6116'
     'Solnes_Lysthuset.blueprint'  = '63f538e6e326d100e58622e67737c7e4246ef0667a764ee89ffb51eeac2ea0e0'
+    'Solnes_Akerbed.blueprint'   = '4cb838d4319c8b10532badc824025e315de05c8a7c3df16c9fb98522172a140f'
+    'Solnes_Bigarden.blueprint'  = '042b68777f6f5288ba14395410cec60f1574f83bfdb41ba40229520ae108b47a'
+    'Solnes_Folden.blueprint'    = 'bc211279481924a41cf1766200f96b880e8bc3f66efcd2135a19ac1f91ce7c8b'
+    'Solnes_Kongebordet.blueprint' = '00a341b7735d7eda7da7f446a4a8abd3b9c14893afdc4fd3bcaa25aa04006689'
   }
   foreach ($t in $tegninger.Keys) {
     $f = "$V\BepInEx\config\PlanBuild\blueprints\$t"

@@ -1,0 +1,22 @@
+#Name:Åkerbed
+#Creator:Claude for Elias
+#Description:"Åkermodul på 6 x 10 m: et dyrket bed på 4 x 10 m og en brolagt sti på 2 m langs høyre side, med en fakkel ved enden av stien. Bakken jevnes til der du sikter. Sett modulene side om side, så får du bed, sti, bed, sti. Legg bedene på tvers av bakken, så blir trinnene små."
+#Category:Solnes
+#Terrain
+square;-2;0;-4;1;0;0;Cultivate
+square;0;0;-4;1;0;0;Cultivate
+square;2;0;-4;1;0;0;Paved
+square;-2;0;-2;1;0;0;Cultivate
+square;0;0;-2;1;0;0;Cultivate
+square;2;0;-2;1;0;0;Paved
+square;-2;0;0;1;0;0;Cultivate
+square;0;0;0;1;0;0;Cultivate
+square;2;0;0;1;0;0;Paved
+square;-2;0;2;1;0;0;Cultivate
+square;0;0;2;1;0;0;Cultivate
+square;2;0;2;1;0;0;Paved
+square;-2;0;4;1;0;0;Cultivate
+square;0;0;4;1;0;0;Cultivate
+square;2;0;4;1;0;0;Paved
+#Pieces
+piece_groundtorch_wood;Furniture;2;0;4.6;0;0;0;1;
