@@ -27,7 +27,7 @@ Hver terrenglinje i en PlanBuild-tegning jevner bakken til siktehøyden og maler
 
 Grav 22 m graver grava og setter pålene i samme avtrykk. Grava graves 6 m under punktet du sikter på, og PlanBuild har ikke spillets grense på 8 m. Sikter du ned i en grav som alt finnes, blir den 6 m dypere for hvert avtrykk, og hvert avtrykk legger ti nye pålplaner i siktehøyden, også oppå de gamle. Bruk Pålerad langs en ferdig grav. Den endrer ikke terrenget, og raden er så kort at pålene ikke svever eller går i jorda der bakken heller. Sikt på bakken der pålene skal stå, med framsiden mot grava.
 
-Slik sletter du planer med Blueprint Rune og verktøyet **Delete plans**:
+Slik sletter du planer med Blueprint Rune og verktøyet **Remove planned pieces** i fanen Tools. Ikke bruk **Deletion tools** ved siden av: med Ctrl sletter den bygde ting i hele sirkelen.
 
 - Hold Ctrl og scroll for å endre radius, fra 2 til 100 m.
 - Planene som blir røde mens du holder Ctrl, er de som slettes. Hold Ctrl og venstreklikk for å slette dem.
