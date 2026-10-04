@@ -1,0 +1,11 @@
+#Name:Pålerad
+#Creator:Claude for Elias
+#Description:"Fem påler på rad, 9 m lang, uten terrengendring. Sikt på bakken der pålene skal stå, med framsiden mot vollgrava, så peker pålene utover som i Grav 22 m. Legg neste rad i forlengelsen, og sikt på nytt der bakken heller. Hver rad trenger 30 Wood og 20 Core wood, og en arbeidsbenk innen 20 m."
+#Category:Solnes
+#Terrain
+#Pieces
+piece_sharpstakes;Building;-4.4;-0.05;0;0;0;0;1;
+piece_sharpstakes;Building;-2.2;-0.05;0;0;0;0;1;
+piece_sharpstakes;Building;0;-0.05;0;0;0;0;1;
+piece_sharpstakes;Building;2.2;-0.05;0;0;0;0;1;
+piece_sharpstakes;Building;4.4;-0.05;0;0;0;0;1;

@@ -50,6 +50,7 @@
     'Solnes_Bigarden.blueprint'  = '042b68777f6f5288ba14395410cec60f1574f83bfdb41ba40229520ae108b47a'
     'Solnes_Folden.blueprint'    = 'bc211279481924a41cf1766200f96b880e8bc3f66efcd2135a19ac1f91ce7c8b'
     'Solnes_Kongebordet.blueprint' = '00a341b7735d7eda7da7f446a4a8abd3b9c14893afdc4fd3bcaa25aa04006689'
+    'Solnes_Palerad.blueprint'   = '8ee6cd856e2e1a56ad3ec3c336f98a384b92456b81d194c751d0a1321f35dfc8'
   }
   foreach ($t in $tegninger.Keys) {
     $f = "$V\BepInEx\config\PlanBuild\blueprints\$t"
