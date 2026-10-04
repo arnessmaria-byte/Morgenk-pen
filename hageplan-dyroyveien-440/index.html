@@ -1,5 +1,5 @@
 <title>Hageplan Dyrøyveien 440</title>
-<meta name="description" content="Hageplan med ekte mål, byggeoppskrifter, prislapp og prosjektplan for uteområdet i Dyrøyveien 440 på Frøya.">
+<meta name="description" content="Plan for å sette i stand Bethel, Røykeriet, fuglekassene og resten av uteområdet i Dyrøyveien 440 på Frøya, med ekte mål, materialer, priser og månedsplan.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -8,7 +8,7 @@
 :root{
   --paper:#F2F4EF; --sheet:#FBFCF9; --ink:#1C2521; --muted:#56635B; --line:#C9D1C6;
   --spruce:#2D684C; --spruce-soft:#DDE9E1; --falu:#A1392B; --falu-soft:#F3DEDA; --sea:#2C6C93; --sea-soft:#DCEAF2;
-  --forest:#D6E2D3; --forest-dot:#9DB79E; --kote:#B7A98A; --kote-major:#97865F; --sand:#E9E2CF;
+  --forest:#D6E2D3; --forest-dot:#9DB79E; --kote:#B7A98A; --kote-major:#97865F; --sand:#E9E2CF; --plank:#E3D3B4;
   --f-display:"Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
   --f-body:"Source Sans 3", "Segoe UI", Roboto, sans-serif;
   --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -16,11 +16,11 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#121815; --sheet:#18201C; --ink:#E2E8E1; --muted:#9BA79F; --line:#2D3833;
   --spruce:#72C29A; --spruce-soft:#1F3229; --falu:#E9806C; --falu-soft:#3A2420; --sea:#74B4DC; --sea-soft:#1B2C37;
-  --forest:#1C2A21; --forest-dot:#355A41; --kote:#6C6450; --kote-major:#8F8462; --sand:#2A2A21; color-scheme:dark}}
+  --forest:#1C2A21; --forest-dot:#355A41; --kote:#6C6450; --kote-major:#8F8462; --sand:#2A2A21; --plank:#3A3326; color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#121815; --sheet:#18201C; --ink:#E2E8E1; --muted:#9BA79F; --line:#2D3833;
   --spruce:#72C29A; --spruce-soft:#1F3229; --falu:#E9806C; --falu-soft:#3A2420; --sea:#74B4DC; --sea-soft:#1B2C37;
-  --forest:#1C2A21; --forest-dot:#355A41; --kote:#6C6450; --kote-major:#8F8462; --sand:#2A2A21; color-scheme:dark}
+  --forest:#1C2A21; --forest-dot:#355A41; --kote:#6C6450; --kote-major:#8F8462; --sand:#2A2A21; --plank:#3A3326; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.55;margin:0}
 .wrap{max-width:64rem;margin:0 auto;padding-inline:clamp(16px,4vw,40px);padding-block:2.5rem 4rem;display:grid;gap:3.25rem}
@@ -145,7 +145,7 @@ details .tbl-wrap{border:none}
 
 /* timeline */
 .tl-wrap{overflow-x:auto;border:1px solid var(--line);background:var(--sheet)}
-.tl{display:grid;grid-template-columns:11.5rem repeat(13,minmax(2.6rem,1fr));min-width:760px;font-size:.88rem}
+.tl{display:grid;grid-template-columns:11.5rem repeat(12,minmax(2.6rem,1fr));min-width:760px;font-size:.88rem}
 .tl > div{border-bottom:1px solid var(--line);padding:.4rem .3rem;min-height:2.2rem}
 .tl .mh{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;text-align:center}
 .tl .rh{font-weight:600;padding-left:.7rem;display:flex;align-items:center}
@@ -173,6 +173,18 @@ details .tbl-wrap{border:none}
 .check li::before{content:"→";color:var(--falu);font-weight:700}
 footer{border-top:2px solid var(--ink);padding-top:1.2rem;display:grid;gap:.6rem;font-size:.92rem;color:var(--muted)}
 footer ul{margin:0;padding-left:1.1rem;display:grid;gap:.25rem}
+
+.kultur{fill:url(#hatch);stroke:var(--falu);stroke-width:.12;stroke-dasharray:.6 .4}
+.hatchline{stroke:var(--falu);stroke-width:.12;opacity:.55}
+.lbl-kultur{font:600 1.15px var(--f-display);fill:var(--falu)}
+.platting{fill:var(--plank);stroke:var(--ink);stroke-width:.08}
+.eksist{fill:var(--spruce-soft);stroke:var(--spruce);stroke-width:.22}
+.eksist-mur{fill:var(--sheet);stroke:var(--ink);stroke-width:.14}
+.lbl-eks{font:700 1.3px var(--f-display);fill:var(--spruce)}
+.stakitt{fill:none;stroke:var(--ink);stroke-width:.14;stroke-dasharray:.25 .2}
+.d-bench{fill:var(--plank);stroke:var(--ink);stroke-width:.02}
+.d-espalier{stroke:var(--spruce);stroke-width:.09}
+.sw.eks{background:var(--spruce-soft);border-color:var(--spruce)} .sw.plank{background:var(--plank)} .sw.kult{background:repeating-linear-gradient(-50deg,var(--falu) 0 1.5px,transparent 1.5px 5px);border-color:var(--falu);border-style:dashed}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -180,40 +192,40 @@ footer ul{margin:0;padding-left:1.1rem;display:grid;gap:.25rem}
 <header>
   <div class="eyebrow">Gnr. 56 / bnr. 30 · Frøya kommune · plan for uteområdet 2026–27</div>
   <h1>Hageplan Dyrøyveien 440</h1>
-  <p class="lead">Et kart over tomta med ekte mål, tre byggeoppskrifter (Bethel, Røykbua og fuglekassene), noen forbedringer av uteområdet, prislapp og en månedsplan som én person klarer å gjennomføre alene på ett år.</p>
-  <div class="meta"><span>Tomt 1 510,4 m²</span><span>Terreng kote 20,8–27,0</span><span>Kommuneplan: LNF</span><span>Utarbeidet 4. oktober 2026</span></div>
+  <p class="lead">Bethel, Røykeriet, fuglekassene, plattingen og peisen Østvang står der allerede. Denne planen handler om å sette dem i stand og ta dem mer i bruk, med ekte mål, materialer, prislapp og en månedsplan som én person klarer alene.</p>
+  <div class="meta"><span>Tomt 1 510,4 m²</span><span>Terreng kote 20,8–27,0</span><span>Kommuneplan: LNF</span><span>Revidert 4. oktober 2026</span></div>
 </header>
 
 <section aria-labelledby="kort">
   <h2 id="kort">Kort fortalt</h2>
   <div class="keyfigs">
-    <div><span>Grunnpakke inkl. 15 % buffer</span><b class="mono">105 438 kr</b><span>Bethel, Røykbua, fuglekasser, overvann og høybed</span></div>
-    <div><span>Arbeidstimer, én person</span><b class="mono">ca. 220 t</b><span>Om lag 4–5 timer i uka i snitt</span></div>
-    <div><span>Ferdig</span><b>Oktober 2027</b><span>Start nå med avklaringer og overvann</span></div>
-    <div><span>Valgfrie tillegg</span><b class="mono">44 800 kr</b><span>Isolering, sauegjerde, lebusker, fanggrøft</span></div>
+    <div><span>Alt i planen inkl. 15 % buffer</span><b class="mono">45 409 kr</b><span>Materialer. Arbeidet gjøres selv.</span></div>
+    <div><span>Arbeidstimer, én person</span><b class="mono">ca. 120 t</b><span>Om lag 2–3 timer i uka i snitt</span></div>
+    <div><span>Første røyking</span><b>November 2026</b><span>Røykeriet kan tas i bruk i vinter</span></div>
+    <div><span>Valgfrie tillegg</span><b class="mono">31 000 kr</b><span>Sedertak, maling av stakitt, fanggrøft</span></div>
   </div>
   <div class="callouts">
-    <div class="callout sea"><h3>Vannet først</h3><p>Tilstandsrapporten fra 2024 ga drenering TG2: terrenget faller inn mot huset på vestsiden, og nedløpene slutter over bakken. Det er den billigste og viktigste jobben, og den gjøres i oktober.</p></div>
-    <div class="callout"><h3>Bygg under 15 m²</h3><p>Bethel er tegnet til 14,4 m² bebygd areal og ca. 3,6 m mønehøyde. Det holder seg innenfor det som normalt er søknadsfritt. Tomta ligger i LNF-område, så send kommunen en kort e-post før dere bestiller materialer. Teksten står nederst.</p></div>
-    <div class="callout spruce"><h3>Grav lite</h3><p>Eiendommen ligger i et område registrert med arkeologisk kulturminne. Planen bruker skruefundament og heller i stedet for støp og graving. Finner dere noe som ser gammelt ut, stopp og ring fylkeskommunen.</p></div>
+    <div class="callout sea"><h3>Vannet først</h3><p>Tilstandsrapporten fra 2024 ga drenering TG2: terrenget heller inn mot huset på vestsiden, og nedløpene slutter over bakken. Dette er den billigste og viktigste jobben, og den gjøres i oktober.</p></div>
+    <div class="callout"><h3>Kulturminnet går gjennom tomta</h3><p>Kartvedlegget i salgsoppgaven viser et kulturminne over huset, plattingen, Røykeriet og den sørøstlige halvdelen av tomta. Der skal det ikke graves. Høybedene er derfor lagt på vestplenen, som ligger utenfor.</p></div>
+    <div class="callout spruce"><h3>Vedlikehold er søknadsfritt</h3><p>Nytt tak, nytt gulv og maling på bygg som allerede står der krever ikke søknad, så lenge størrelse og bruk ikke endres.</p></div>
   </div>
 </section>
 
 <section aria-labelledby="tomta">
   <h2 id="tomta">Tomta i tall</h2>
-  <p>Tallene under er hentet fra salgsoppgaven fra Heimdal Eiendomsmegling (2024), tilstandsrapporten fra Takst-Forum Trøndelag og Kartverkets åpne kart- og høydedata. Kartet er tegnet rett fra matrikkelgrensen og laserhøydene.</p>
+  <p>Tallene er hentet fra salgsoppgaven fra Heimdal Eiendomsmegling (2024), tilstandsrapporten, kartvedlegget fra Ambita og Kartverkets åpne data. Plasseringen av Bethel, plattingen og gjerdene er lest av kartvedlegget. Røykeriet og Østvang er plassert etter salgsbildene.</p>
   <div class="facts">
     <dl>
       <dt>Tomteareal</dt><dd>1 510,4 m² (matrikkel)</dd>
       <dt>Grenselinjer</dt><dd>24,3 · 44,9 · 39,0 · 35,5 · 13,4 m</dd>
       <dt>Hus</dt><dd>ca. 9,0 × 16,0 m, byggeår 1967</dd>
-      <dt>Bruksareal</dt><dd>BRA 192 m² · terrasse ca. 97 m²</dd>
+      <dt>Terrasse og veranda</dt><dd>ca. 97 m², platting fra 2023</dd>
       <dt>Garasje</dt><dd>ca. 5,7 × 4,4 m, i nordøst</dd>
     </dl>
     <dl>
-      <dt>Høyde vest for huset</dt><dd>kote 25,5–26,8</dd>
-      <dt>Høyde øst for huset</dt><dd>kote 21,1–21,9</dd>
-      <dt>Fall over tomta</dt><dd>ca. 4–5 m fra vest mot øst</dd>
+      <dt>Vestplenen</dt><dd>kote 25,5–26,5, nesten flat</dd>
+      <dt>Gårdsplass i øst</dt><dd>kote 21,1–21,9</dd>
+      <dt>Gjerde</dt><dd>langs nord-, vest- og sørgrensen</dd>
       <dt>Vann og avløp</dt><dd>offentlig vann, privat septik</dd>
       <dt>Vei</dt><dd>privat, brukes av sauebonde</dd>
     </dl>
@@ -222,305 +234,10 @@ footer ul{margin:0;padding-left:1.1rem;display:grid;gap:.25rem}
 
 <section aria-labelledby="kart">
   <h2 id="kart">Hageplanen</h2>
-  <p>Kartet er i målestokk og nord opp. Rødt er nytt. Huset står i en skråning: øvre del mot vest er skog på kote 26, nedre del mot øst er åpen flate på kote 21–22 der veien kommer inn.</p>
+  <p>Kartet er i målestokk med nord opp. Grønt er det som står der i dag, rødt er nytt. Huset står i en skråning: plenen, verandaen og plattingen ligger på oversiden mot vest og sør, mens sokkelen, gårdsplassen og garasjen ligger nede mot øst.</p>
   <div class="map-box">
-    <svg viewBox="0 0 80 62" role="img" aria-label="Tomtekart for Dyrøyveien 440 med høydekoter, hus, garasje og planlagte tiltak"><defs><marker id="tick" viewBox="0 0 2 2" refX="1" refY="1" markerWidth="2" markerHeight="2" orient="auto"><path d="M1,0 L1,2" class="tick"/></marker><marker id="arrow" viewBox="0 0 4 4" refX="3.5" refY="2" markerWidth="3" markerHeight="3" orient="auto"><path d="M0,0 L4,2 L0,4 z" class="arrowhead"/></marker><pattern id="skog" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="0.32" class="skogdot"/></pattern><pattern id="hatch" width="1.2" height="1.2" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="1.2" class="hatchline"/></pattern></defs>
+    <svg viewBox="0 0 80 62" role="img" aria-label="Tomtekart for Dyrøyveien 440 med høydekoter, hus, garasje, Bethel, Røykeriet, platting, kulturminne og nye høybed"><defs><marker id="tick" viewBox="0 0 2 2" refX="1" refY="1" markerWidth="2" markerHeight="2" orient="auto"><path d="M1,0 L1,2" class="tick"/></marker><pattern id="hatch" width="1.4" height="1.4" patternUnits="userSpaceOnUse" patternTransform="rotate(-50)"><line x1="0" y1="0" x2="0" y2="1.4" class="hatchline"/></pattern><clipPath id="vb"><rect x="0" y="0" width="80" height="62"/></clipPath></defs>
 <rect x="0" y="0" width="80" height="62" class="map-bg"/>
-<rect x="22.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="1.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="4.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="7.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="10.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="13.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="16.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="16.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="16.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="16.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="16.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="16.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="16.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="16.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="19.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="19.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="19.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="19.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="19.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="19.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="19.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="19.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="22.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="22.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="22.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="22.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="22.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="22.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="22.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="22.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="25.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="25.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="25.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="25.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="25.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="25.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="25.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="25.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="28.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="31.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="34.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="37.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="40.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="43.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="46.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="49.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="67.5" y="52.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="55.5" width="3" height="3" class="skogcell"/>
-<rect x="7.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="10.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="13.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="16.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="19.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="22.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="25.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="28.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="31.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="34.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="37.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="40.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="43.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="46.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="49.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="52.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="55.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="58.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="61.5" y="58.5" width="3" height="3" class="skogcell"/>
-<rect x="64.5" y="58.5" width="3" height="3" class="skogcell"/>
 <path d="M63.00,5.08L60.96,3.00 M66.00,8.48L64.15,6.00 M64.15,6.00L63.00,5.08 M69.00,9.19L68.14,9.00 M68.14,9.00L66.00,8.48" class="kote kote-major"/>
 <path d="M57.00,17.83L56.09,15.00 M56.09,15.00L56.58,12.00 M56.58,12.00L56.18,9.00 M56.18,9.00L56.90,6.00 M56.90,6.00L54.99,3.00 M60.00,21.95L58.69,21.00 M58.69,21.00L57.20,18.00 M57.20,18.00L57.00,17.83 M63.00,22.62L60.00,21.95 M66.00,23.25L63.00,22.62 M68.70,21.00L66.00,23.25 M68.70,21.00L69.00,20.90" class="kote"/>
 <path d="M45.00,45.57L44.59,45.00 M44.59,45.00L45.00,44.37 M45.00,38.20L44.60,36.00 M44.60,36.00L44.62,33.00 M44.62,33.00L44.91,30.00 M44.91,30.00L44.56,27.00 M44.56,27.00L45.00,25.42 M48.00,46.16L45.00,45.57 M46.29,42.00L45.00,44.37 M46.29,42.00L45.39,39.00 M45.39,39.00L45.00,38.20 M45.71,24.00L45.00,25.42 M45.71,24.00L48.00,22.57 M49.64,45.00L48.00,46.16 M49.64,45.00L51.00,43.93 M50.34,21.00L48.00,22.57 M50.34,21.00L51.00,20.46 M54.00,42.29L51.00,43.93 M52.26,18.00L51.00,20.46 M52.26,18.00L51.42,15.00 M51.42,15.00L54.00,13.24 M54.00,9.57L53.62,9.00 M53.62,9.00L54.00,8.43 M54.00,4.74L52.39,3.00 M54.82,42.00L54.00,42.29 M54.82,42.00L57.00,40.59 M54.78,12.00L54.00,13.24 M54.78,12.00L54.00,9.57 M54.87,6.00L54.00,8.43 M54.87,6.00L54.00,4.74 M58.38,39.00L57.00,40.59 M58.38,39.00L60.00,36.58 M60.33,36.00L60.00,36.58 M60.33,36.00L63.00,34.52 M64.35,33.00L63.00,34.52 M64.35,33.00L66.00,30.92 M66.83,30.00L66.00,30.92 M66.83,30.00L69.00,28.04" class="kote kote-major"/>
@@ -535,211 +252,206 @@ footer ul{margin:0;padding-left:1.1rem;display:grid;gap:.25rem}
 <text x="30.5" y="57.0" class="kote-lbl">25</text>
 <text x="57.0" y="39.0" class="kote-lbl">22</text>
 <text x="67.0" y="4.0" class="kote-lbl">20</text>
+<g clip-path="url(#vb)"><polygon points="33.78,25.37 39.73,21.38 48.29,22.44 54.88,26.02 63.46,22.03 67.43,20.04 75.27,42.58 54.07,73.09 44.74,104.93 9.14,104.95 18.43,83.72 27.75,55.87 29.77,42.61" class="kultur" /></g>
 <polygon points="36.93,55.46 13.40,49.57 26.91,6.72 64.76,16.24 47.45,47.23" class="tomt" />
+<polyline points="36.93,55.46 13.40,49.57 26.91,6.72" class="gjerde"/>
+<polyline points="26.91,6.72 51.00,12.80" class="gjerde"/>
 <polyline points="124.16,-71.40 121.49,-68.49 120.01,-66.90 118.01,-63.53 110.53,-44.70 107.79,-41.00 98.55,-31.62 96.88,-29.12 94.11,-22.48 91.67,-13.80 88.83,-7.34 86.85,-4.81 74.62,5.77 72.33,8.73 58.31,29.42" class="vei"/>
 <text x="67.00" y="22.00" class="lbl lbl-vei" text-anchor="start">Privat vei</text>
 <text x="67.00" y="23.80" class="lbl lbl-small" text-anchor="start">må ikke sperres</text>
-<polygon points="31.89,39.81 34.85,40.33 37.91,22.99 34.95,22.47" class="drenzone" />
+<polygon points="36.00,38.60 44.90,40.20 43.70,47.40 34.80,45.80" class="platting" />
+<polygon points="36.00,38.60 37.30,23.10 34.80,22.70 33.50,38.20" class="platting" />
 <polygon points="47.35,24.52 37.70,22.88 36.66,29.02 37.46,29.16 35.83,38.78 44.69,40.28" class="hus" />
 <polygon points="52.56,18.08 57.98,19.75 59.28,15.53 53.86,13.85" class="hus" />
 <text x="41.6" y="31.2" class="lbl lbl-hus" text-anchor="middle">Hus</text>
 <text x="41.6" y="32.7" class="lbl lbl-small" text-anchor="middle">9 × 16 m</text>
 <text x="56.00" y="16.70" class="lbl lbl-small" text-anchor="middle">Garasje</text>
-<polyline points="36.93,55.46 13.40,49.57 26.91,6.72" class="gjerde"/>
-<polyline points="33.20,41.50 34.60,21.50 36.00,19.00 49.60,21.40" class="groft"/>
-<rect x="49.90" y="20.50" width="1" height="1" class="stenkiste"/>
+<text x="39.60" y="44.40" class="lbl lbl-small" text-anchor="middle">Platting 2023</text>
+<text x="30.80" y="33.00" class="lbl lbl-small" text-anchor="end">overbygd veranda</text>
+<polyline points="31.50,46.30 32.70,22.40" class="stakitt"/>
 <circle cx="47.35" cy="24.52" r="0.45" class="nedlop"/>
 <circle cx="37.70" cy="22.88" r="0.45" class="nedlop"/>
 <circle cx="35.83" cy="38.78" r="0.45" class="nedlop"/>
 <circle cx="44.69" cy="40.28" r="0.45" class="nedlop"/>
-<polygon points="22.72,32.43 26.66,33.12 27.28,29.57 23.34,28.88" class="nytt" />
-<text x="24.7" y="28.4" class="lbl lbl-nytt" text-anchor="middle">Bethel</text>
-<rect x="26.77" y="30.90" width="0.4" height="0.9" class="dor"/>
-<circle cx="27.60" cy="31.40" r="0.35" class="stein"/>
-<polygon points="34.92,12.99 36.10,13.20 36.28,12.21 35.10,12.00" class="nytt" />
-<polygon points="41.34,15.12 42.12,15.26 42.26,14.48 41.48,14.34" class="fyr" />
-<line x1="41.80" y1="14.80" x2="35.60" y2="12.60" class="ror"/>
-<text x="35.00" y="10.40" class="lbl lbl-nytt" text-anchor="middle">Røykbu</text>
-<text x="43.20" y="14.40" class="lbl lbl-small" text-anchor="start">fyrkasse</text>
-<polygon points="39.50,45.22 40.29,45.36 40.50,44.18 39.71,44.04" class="bed" />
-<polygon points="39.50,43.22 40.29,43.36 40.50,42.18 39.71,42.04" class="bed" />
-<polygon points="41.30,45.22 42.09,45.36 42.30,44.18 41.51,44.04" class="bed" />
-<polygon points="41.30,43.22 42.09,43.36 42.30,42.18 41.51,42.04" class="bed" />
-<polyline points="38.60,46.80 39.10,41.00" class="levegg"/>
-<text x="41.20" y="48.40" class="lbl lbl-nytt" text-anchor="middle">Høybed</text>
-<circle cx="18.00" cy="18.00" r="0.6" class="kasse"/><text x="18.00" y="18.32" class="kasse-lbl" text-anchor="middle">1</text>
-<circle cx="28.00" cy="10.00" r="0.6" class="kasse"/><text x="28.00" y="10.32" class="kasse-lbl" text-anchor="middle">2</text>
-<circle cx="18.50" cy="43.00" r="0.6" class="kasse"/><text x="18.50" y="43.32" class="kasse-lbl" text-anchor="middle">3</text>
-<circle cx="27.90" cy="28.70" r="0.6" class="kasse"/><text x="27.90" y="29.02" class="kasse-lbl" text-anchor="middle">4</text>
-<circle cx="44.00" cy="50.50" r="0.6" class="kasse"/><text x="44.00" y="50.82" class="kasse-lbl" text-anchor="middle">5</text>
-<rect x="29.50" y="23.50" width="1" height="1" class="brett"/>
-<text x="30.00" y="23.10" class="lbl lbl-small" text-anchor="middle">fuglebrett</text>
-<line x1="27.00" y1="31.35" x2="36.66" y2="29.02" class="dim" marker-start="url(#tick)" marker-end="url(#tick)"/><text x="31.83" y="29.58" class="dim-lbl" text-anchor="middle">9,9 m</text>
-<line x1="41.80" y1="15.20" x2="40.42" y2="23.34" class="dim" marker-start="url(#tick)" marker-end="url(#tick)"/><text x="41.11" y="18.77" class="dim-lbl" text-anchor="middle">8,3 m</text>
-<line x1="23.00" y1="29.80" x2="19.94" y2="28.83" class="dim" marker-start="url(#tick)" marker-end="url(#tick)"/><text x="21.47" y="28.82" class="dim-lbl" text-anchor="middle">3,2 m</text>
+<polygon points="19.36,36.61 19.97,37.50 19.79,38.56 18.90,39.17 17.84,38.99 17.23,38.10 17.41,37.04 18.30,36.43" class="eksist" />
+<text x="18.60" y="34.70" class="lbl lbl-eks" text-anchor="middle">Bethel</text>
+<text x="18.60" y="42.00" class="lbl lbl-small" text-anchor="middle">lysthus</text>
+<polygon points="33.30,51.89 34.49,52.10 34.70,50.91 33.51,50.70" class="eksist" />
+<text x="28.60" y="52.40" class="lbl lbl-eks" text-anchor="middle">Røykeriet</text>
+<polygon points="34.40,45.07 35.28,45.22 35.40,44.53 34.52,44.38" class="eksist-mur" />
+<text x="31.00" y="45.00" class="lbl lbl-small" text-anchor="end">Østvang</text>
+<polygon points="24.70,25.52 25.49,25.66 25.70,24.48 24.91,24.34" class="bed" />
+<polygon points="24.70,23.52 25.49,23.66 25.70,22.48 24.91,22.34" class="bed" />
+<polygon points="26.50,25.52 27.29,25.66 27.50,24.48 26.71,24.34" class="bed" />
+<polygon points="26.50,23.52 27.29,23.66 27.50,22.48 26.71,22.34" class="bed" />
+<polyline points="23.70,26.10 24.00,20.80" class="levegg"/>
+<text x="26.20" y="19.80" class="lbl lbl-nytt" text-anchor="middle">Høybed</text>
+<text x="53.0" y="51.0" class="lbl lbl-kultur" text-anchor="middle">Kulturminne</text>
+<text x="53.0" y="52.3" class="lbl lbl-small" text-anchor="middle">ikke grav her</text>
 <g transform="translate(73,8)"><path d="M0,-4 L1.6,1.6 L0,0.6 L-1.6,1.6 z" class="nord"/><text x="0" y="4.2" class="lbl" text-anchor="middle">N</text></g>
 <g transform="translate(55,59)"><rect x="0" y="-0.5" width="5" height="1" class="skala-a"/><rect x="5" y="-0.5" width="5" height="1" class="skala-b"/><rect x="10" y="-0.5" width="10" height="1" class="skala-a"/><text x="0" y="-1.2" class="lbl lbl-small" text-anchor="middle">0</text><text x="10" y="-1.2" class="lbl lbl-small" text-anchor="middle">10</text><text x="20" y="-1.2" class="lbl lbl-small" text-anchor="middle">20 m</text></g>
 <text x="1.00" y="58.00" class="lbl lbl-small" text-anchor="start">Gnr. 56 / bnr. 30 · 1 510,4 m²</text>
 <text x="1.00" y="59.70" class="lbl lbl-small" text-anchor="start">Høydekoter 1 m (Kartverket DTM1)</text></svg>
   </div>
   <div class="legend">
-    <span><i class="sw nytt"></i>Nytt bygg</span><span><i class="sw hus"></i>Eksisterende bygg</span><span><i class="sw bed"></i>Høybed</span>
-    <span><i class="sw dren"></i>Sone med fall bort fra muren</span><span><i class="sw line kote"></i>Høydekote, 1 m</span><span><i class="sw skog"></i>Skog</span>
-    <span><i class="sw line vei"></i>Privat vei</span><span><i class="sw line gjerde"></i>Sauegjerde (valgfritt)</span>
+    <span><i class="sw eks"></i>Står der i dag</span><span><i class="sw hus"></i>Hus og garasje</span><span><i class="sw plank"></i>Platting og veranda</span>
+    <span><i class="sw bed"></i>Nye høybed</span><span><i class="sw kult"></i>Kulturminne, omtrentlig</span><span><i class="sw line kote"></i>Høydekote, 1 m</span>
+    <span><i class="sw line vei"></i>Privat vei</span><span><i class="sw line gjerde"></i>Gjerde langs grensen</span>
   </div>
-  <p class="small">Terrassen er ikke tegnet inn fordi plasseringen ikke står i dokumentene. Ligger den på sørsiden der høybedene er plassert, flytt bedene noen meter østover langs samme kote. Nedløpene er antatt å stå i hjørnene. Sjekk dem på stedet.</p>
+  <p class="small">Fuglekassene er ikke tegnet inn, fordi de ikke vises på kart eller bilder. Nedløpene er antatt å stå i hjørnene. Grensen til kulturminnet er tegnet av fra kartvedlegget og er omtrentlig. Sjekk den på kulturminnesok.no før dere graver noe sted på tomta.</p>
 </section>
 
 <section class="build" aria-labelledby="bethel">
-  <div class="build-head"><h2 id="bethel">Bethel</h2><span class="price-tag">60 609 kr</span></div>
-  <p>Et uthus i skogkanten på den flate delen vest for huset, med døra mot huset og vinduer mot sør og vest. Plassen ligger på kote 26,0–26,5, så underlaget faller bare ca. 0,5 m over grunnflaten. Noen trær må felles, og de blir ved til Røykbua. Ved inngangen foreslås en reist stein, slik Jakob gjorde i Betel. Ta den fra egen tomt, men ikke fra gamle steingjerder eller røyser, for de kan være kulturminner.</p>
-  <div class="drawing-box"><svg viewBox="-0.9 -1.2 17.2 6.6" class="drawing" role="img" aria-label="Bethel sett ovenfra og østgavl med mål"><g><text x="0" y="-0.6" class="d-title">Plan · fundament og bjelkelag</text><rect x="0" y="0" width="4.0" height="3.6" class="d-wall"/><line x1="0" y1="0.0" x2="4.0" y2="0.0" class="d-beam"/><line x1="0" y1="1.8" x2="4.0" y2="1.8" class="d-beam"/><line x1="0" y1="3.6" x2="4.0" y2="3.6" class="d-beam"/><line x1="0.0" y1="0" x2="0.0" y2="3.6" class="d-joist"/><line x1="0.5" y1="0" x2="0.5" y2="3.6" class="d-joist"/><line x1="1.0" y1="0" x2="1.0" y2="3.6" class="d-joist"/><line x1="1.5" y1="0" x2="1.5" y2="3.6" class="d-joist"/><line x1="2.0" y1="0" x2="2.0" y2="3.6" class="d-joist"/><line x1="2.5" y1="0" x2="2.5" y2="3.6" class="d-joist"/><line x1="3.0" y1="0" x2="3.0" y2="3.6" class="d-joist"/><line x1="3.5" y1="0" x2="3.5" y2="3.6" class="d-joist"/><line x1="4.0" y1="0" x2="4.0" y2="3.6" class="d-joist"/><circle cx="0.05" cy="0.05" r="0.13" class="d-fund"/><circle cx="0.05" cy="1.8" r="0.13" class="d-fund"/><circle cx="0.05" cy="3.55" r="0.13" class="d-fund"/><circle cx="2.0" cy="0.05" r="0.13" class="d-fund"/><circle cx="2.0" cy="1.8" r="0.13" class="d-fund"/><circle cx="2.0" cy="3.55" r="0.13" class="d-fund"/><circle cx="3.95" cy="0.05" r="0.13" class="d-fund"/><circle cx="3.95" cy="1.8" r="0.13" class="d-fund"/><circle cx="3.95" cy="3.55" r="0.13" class="d-fund"/><rect x="3.93" y="1.35" width="0.14" height="0.9" class="d-door"/><rect x="1.7" y="3.53" width="0.6" height="0.14" class="d-win"/><rect x="-0.07" y="1.5" width="0.14" height="0.6" class="d-win"/><line x1="0" y1="4.15" x2="4.0" y2="4.15" class="d-dim"/><text x="2.0" y="4.65" class="d-lbl" text-anchor="middle">4,0 m</text><line x1="4.45" y1="0" x2="4.45" y2="3.6" class="d-dim"/><text x="4.65" y="1.9" class="d-lbl">3,6 m</text><text x="5.6" y="0.4" class="d-note">● 9 skruefundament</text><text x="5.6" y="0.95" class="d-note">━ 3 bærebjelker 48×198</text><text x="5.6" y="1.5" class="d-note">┆ gulvbjelker 48×148 c/c 50</text><text x="5.6" y="2.05" class="d-note">dør i østgavl, mot huset</text></g><text x="10.4" y="-0.6" class="d-title">Østgavl</text><line x1="9.8" y1="5.2" x2="14.600000000000001" y2="5.2" class="d-ground"/><rect x="10.4" y="2.6999999999999997" width="3.6" height="2.4500000000000006" class="d-wall"/><polygon points="10.0,2.9 12.200000000000001,1.6099999999999999 14.4,2.9" class="d-roof"/><rect x="11.75" y="2.8" width="0.9" height="2.0" class="d-door-e"/><rect x="10.6" y="4.8" width="0.12" height="0.40000000000000036" class="d-pile"/><rect x="12.15" y="4.8" width="0.12" height="0.40000000000000036" class="d-pile"/><rect x="13.7" y="4.8" width="0.12" height="0.40000000000000036" class="d-pile"/><line x1="14.9" y1="5.2" x2="14.9" y2="1.6099999999999999" class="d-dim"/><text x="15.05" y="3.41" class="d-lbl">møne ca. 3,6 m</text><line x1="9.65" y1="5.2" x2="9.65" y2="2.6999999999999997" class="d-dim"/><text x="9.55" y="3.95" class="d-lbl" text-anchor="end">gesims 2,5</text><line x1="9.8" y1="1.2000000000000002" x2="14.600000000000001" y2="1.2000000000000002" class="d-limit"/><text x="14.65" y="1.35" class="d-lbl d-lbl-limit">grense 4,0 m</text><text x="12.200000000000001" y="5.75" class="d-lbl" text-anchor="middle">27° saltak · 3,6 m bred</text></svg></div>
+  <div class="build-head"><h2 id="bethel">Bethel</h2><span class="price-tag">13 941 kr</span></div>
+  <p>Det åttekantede lysthuset står helt inntil vestgrensen, på den flate plenen og utenfor kulturminnet. På bildene fra 2024 er taket grått og værslitt, og slyngplanten har vokst over halve taket. Planter på et tretak holder på fuktigheten og gir råte. Planen er å gi Bethel nytt tak og gulv, sette inn en benk og la slyngplanten vokse på espalier i stedet for på taket.</p>
+  <div class="drawing-box"><svg viewBox="-0.9 -0.9 16.4 5.6" class="drawing" role="img" aria-label="Bethel sett ovenfra og fra siden med mål"><text x="0" y="-0.4" class="d-title">Plan · åtte stolper, nytt gulv og benk</text><polygon points="3.300,2.938 2.538,3.700 1.462,3.700 0.700,2.938 0.700,1.862 1.462,1.100 2.538,1.100 3.300,1.862" class="d-wall"/><rect x="0.831" y="1.563" width="0.905" height="0.24" transform="rotate(-45.0 1.283 1.683)" class="d-bench"/><rect x="1.548" y="1.266" width="0.905" height="0.24" transform="rotate(0.0 2.000 1.386)" class="d-bench"/><rect x="2.265" y="1.563" width="0.905" height="0.24" transform="rotate(45.0 2.717 1.683)" class="d-bench"/><rect x="2.562" y="2.280" width="0.905" height="0.24" transform="rotate(90.0 3.014 2.400)" class="d-bench"/><rect x="3.240" y="2.878" width="0.12" height="0.12" class="d-fund"/><rect x="2.478" y="3.640" width="0.12" height="0.12" class="d-fund"/><rect x="1.402" y="3.640" width="0.12" height="0.12" class="d-fund"/><rect x="0.640" y="2.878" width="0.12" height="0.12" class="d-fund"/><rect x="0.640" y="1.802" width="0.12" height="0.12" class="d-fund"/><rect x="1.402" y="1.040" width="0.12" height="0.12" class="d-fund"/><rect x="2.478" y="1.040" width="0.12" height="0.12" class="d-fund"/><rect x="3.240" y="1.802" width="0.12" height="0.12" class="d-fund"/><line x1="2.538" y1="3.700" x2="1.462" y2="3.700" class="d-espalier"/><line x1="3.300" y1="2.938" x2="2.538" y2="3.700" class="d-espalier"/><line x1="0.70" y1="4.05" x2="3.30" y2="4.05" class="d-dim"/><text x="2.00" y="4.40" class="d-lbl" text-anchor="middle">ca. 2,6 m mellom sidene · side ca. 1,08 m</text><text x="4.0" y="0.6" class="d-note">■ 8 stolper på stolpesko</text><text x="4.0" y="1.1" class="d-note">▬ benk langs fire sider</text><text x="4.0" y="1.6" class="d-note">┃ espalier for slyngplanten</text><text x="4.0" y="2.1" class="d-note">gulv 28×120 på bjelker 48×148</text><text x="8.2" y="-0.4" class="d-title">Fra siden</text><line x1="7.799999999999999" y1="4.6" x2="11.399999999999999" y2="4.6" class="d-ground"/><rect x="8.20" y="2.40" width="0.12" height="2.2" class="d-pile"/><rect x="8.95" y="2.40" width="0.12" height="2.2" class="d-pile"/><rect x="10.05" y="2.40" width="0.12" height="2.2" class="d-pile"/><rect x="10.68" y="2.40" width="0.12" height="2.2" class="d-pile"/><rect x="8.20" y="3.60" width="2.60" height="0.08" class="d-pile"/><polygon points="7.85,2.45 9.50,1.55 11.15,2.45" class="d-roof"/><circle cx="9.50" cy="1.50" r="0.09" class="d-fund"/><rect x="8.15" y="4.52" width="0.22" height="0.1" class="d-fire"/><rect x="10.75" y="4.52" width="0.22" height="0.1" class="d-fire"/><text x="11.30" y="2.00" class="d-lbl">nytt undertak og shingel</text><text x="11.30" y="4.50" class="d-lbl">stolpesko på helle</text><text x="9.50" y="5.05" class="d-lbl" text-anchor="middle">mål høyde og diameter før bestilling</text></svg></div>
   <div class="two">
     <div>
       <h3>Byggeoppskrift</h3>
       <ul class="specs">
-        <li><b>Mål</b><span class="mono">4,0 × 3,6 m = 14,4 m² BYA</span></li>
-        <li><b>Plassering</b><span>3,2 m fra grensen, 9,9 m fra huset</span></li>
-        <li><b>Fundament</b><span>9 skruefundament Ø76 × 1000 mm. Der det er fjell: stolpesko boltet i berget med kjemisk anker.</span></li>
-        <li><b>Bjelkelag</b><span>3 bærebjelker 48×198 impregnert, gulvbjelker 48×148 impregnert c/c 50</span></li>
-        <li><b>Gulv</b><span>22 mm fuktbestandig gulvspon (P5)</span></li>
-        <li><b>Vegger</b><span>48×98 gran c/c 60, høyde 2,1 m, vindsperreduk, lekter 23×48, liggende dobbeltfals 19×148 som på huset</span></li>
-        <li><b>Tak</b><span>27° saltak, sperrer 48×148 c/c 60, takstål med antikondens, takrenner til nedløp med utkaster</span></li>
-        <li><b>Høyder</b><span>gesims ca. 2,5 m, møne ca. 3,6 m (grensen er 3,0 og 4,0 m)</span></li>
-        <li><b>Åpninger</b><span>Plankedør 0,9 × 2,0 m i østgavlen, to bodvinduer 60×60</span></li>
+        <li><b>Mål</b><span>ca. 2,6 m mellom motstående sider. Mål selv før dere bestiller, så justeres mengdene.</span></li>
+        <li><b>Stolper</b><span>8 stolper. Skjær bort råte i foten og sett stolpen i stolpesko på betonghelle.</span></li>
+        <li><b>Gulv</b><span>terrassebord 28×120 impregnert på bjelker 48×148</span></li>
+        <li><b>Tak</b><span>15 mm kryssfiner skåret i åtte trekanter, underlagsbelegg, asfaltshingel og topphatt av sink. Alternativet er trespon av sedertre.</span></li>
+        <li><b>Benk</b><span>langs fire av de åtte sidene, 45 cm høy og 30 cm dyp</span></li>
+        <li><b>Overflate</b><span>vask med mosefjerner og to strøk oljebeis</span></li>
+        <li><b>Slyngplante</b><span>beskjæres etter løvfall og bindes opp på espalier på to sider mot vest og sørvest. Der gir den også le.</span></li>
       </ul>
     </div>
     <div>
       <h3>Rekkefølge</h3>
       <ol class="steps">
-        <li>Stikk ut med snor og 3-4-5-metoden for rette hjørner. Diagonalene skal være like, ca. 5,38 m.</li>
-        <li>Skru ned fundamentene og still dem i vater med laser eller slangevater.</li>
-        <li>Legg bærebjelker og bjelkelag, deretter gulvspon. Da har du en arbeidsplattform.</li>
-        <li>Bygg veggene liggende på gulvet, én om gangen. Få hjelp i to timer til å reise dem.</li>
-        <li>Sett opp mønebord og sperrer, og fest hver sperre med stormbeslag. Frøya-vinden river løse tak.</li>
-        <li>Legg takstål en dag med under 8 m/s vind. Platene tar vind som et seil.</li>
-        <li>Vindsperre, lekter, kledning, vinduer og dør. Mal to strøk på en tørr periode over 10 °C.</li>
+        <li>Klipp slyngplanten fri fra taket i oktober eller november, når bladene har falt.</li>
+        <li>Stikk en skrutrekker inn i hver stolpefot. Der den går lett inn, er det råte.</li>
+        <li>Støtt taket med en midlertidig stolpe og bytt én stolpefot om gangen. Ta aldri bort to naboføtter samtidig.</li>
+        <li>Rive gammelt gulv og legg bjelker og terrassebord.</li>
+        <li>Ta taket en tørr dag i mai eller juni over 10 °C, så limstripene på shingelen fester. Begynn ved takfoten og arbeid deg opp mot toppen.</li>
+        <li>Vask, beis to strøk, sett inn benk, espalier og solcellelys.</li>
       </ol>
     </div>
   </div>
-  <details><summary>Materialliste og priser for Bethel</summary><div class="tbl-wrap"><table class="pris" id="p-bethel"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Fundament</th><th class="num">8 206</th></tr><tr><td>Skruefundament 76 × 1000 mm m/ U-holder</td><td class="num">9 stk</td><td class="num">450</td><td class="num">4 050</td></tr><tr><td>Bærebjelker 48×198 impregnert</td><td class="num">12 m</td><td class="num">85</td><td class="num">1 020</td></tr><tr><td>Gulvbjelker og randbjelker 48×148 impregnert</td><td class="num">42 m</td><td class="num">58</td><td class="num">2 436</td></tr><tr><td>Bjelkesko 48×148 + bolter M12 til fundament</td><td class="num">1 pakke</td><td class="num">700</td><td class="num">700</td></tr><tr class="grp"><th colspan="3">Gulv og vegger</th><th class="num">22 333</th></tr><tr><td>Gulvsponplate 22 mm P5 (60×240)</td><td class="num">11 plater</td><td class="num">330</td><td class="num">3 630</td></tr><tr><td>Stendere, svill og losholt 48×98 C24 gran</td><td class="num">138 m</td><td class="num">30</td><td class="num">4 140</td></tr><tr><td>Vindsperreduk 1,5 × 50 m</td><td class="num">1 rull</td><td class="num">1 400</td><td class="num">1 400</td></tr><tr><td>Lekter 23×48 (lufting bak kledning)</td><td class="num">82 m</td><td class="num">9</td><td class="num">738</td></tr><tr><td>Kledning 19×148 dobbeltfals, grunnet</td><td class="num">300 m</td><td class="num">36</td><td class="num">10 800</td></tr><tr><td>Hjørnekasser, vannbord, foringer 19×98/19×148 grunnet</td><td class="num">65 m</td><td class="num">25</td><td class="num">1 625</td></tr><tr class="grp"><th colspan="3">Tak</th><th class="num">13 720</th></tr><tr><td>Sperrer 48×148 C24 (8 par à 2,5 m)</td><td class="num">40 m</td><td class="num">48</td><td class="num">1 920</td></tr><tr><td>Mønebord 48×198 C24</td><td class="num">4,6 m</td><td class="num">60</td><td class="num">276</td></tr><tr><td>Hanebjelker 36×98</td><td class="num">13 m</td><td class="num">22</td><td class="num">286</td></tr><tr><td>Taklekter 36×48</td><td class="num">37 m</td><td class="num">14</td><td class="num">518</td></tr><tr><td>Takstål 0,5 mm med antikondens (inkl. 2 m² til Røykbua)</td><td class="num">27 m²</td><td class="num">210</td><td class="num">5 670</td></tr><tr><td>Mønebeslag, vindskibeslag, takskruer</td><td class="num">1 sett</td><td class="num">2 750</td><td class="num">2 750</td></tr><tr><td>Takrenner og nedløp (Plastmo, begge langsider)</td><td class="num">1 sett</td><td class="num">2 300</td><td class="num">2 300</td></tr><tr class="grp"><th colspan="3">Åpninger og overflate</th><th class="num">9 850</th></tr><tr><td>Bodvindu 60×60, 2-lags</td><td class="num">2 stk</td><td class="num">1 800</td><td class="num">3 600</td></tr><tr><td>Plankedør: bord, Z-ramme, T-hengsler, stalldørslås</td><td class="num">1 sett</td><td class="num">1 300</td><td class="num">1 300</td></tr><tr><td>Jotun Demidekk Ultimate dekkende, 10 l + 3 l</td><td class="num">1 sett</td><td class="num">4 550</td><td class="num">4 550</td></tr><tr><td>Pensler, rull, tape</td><td class="num">1 sett</td><td class="num">400</td><td class="num">400</td></tr><tr class="grp"><th colspan="3">Festemidler og frakt</th><th class="num">6 500</th></tr><tr><td>Skruer, kledningsspiker, vinkel- og stormbeslag</td><td class="num">1 sett</td><td class="num">3 500</td><td class="num">3 500</td></tr><tr><td>Frakt av byggepakke til Frøya</td><td class="num">1 levering</td><td class="num">3 000</td><td class="num">3 000</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">60 609 kr</th></tr></tfoot></table></div></details>
+  <details><summary>Materialliste og priser for Bethel</summary><div class="tbl-wrap"><table class="pris" id="p-bethel"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Fundament og gulv</th><th class="num">3 626</th></tr><tr><td>Stolpesko/forankring for 8 stolper, varmforsinket</td><td class="num">8 stk</td><td class="num">150</td><td class="num">1 200</td></tr><tr><td>Betongheller 40×40 under stolpeskoene</td><td class="num">8 stk</td><td class="num">60</td><td class="num">480</td></tr><tr><td>Gulvbjelker 48×148 impregnert</td><td class="num">12 m</td><td class="num">58</td><td class="num">696</td></tr><tr><td>Terrassebord 28×120 impregnert til nytt gulv</td><td class="num">50 m</td><td class="num">25</td><td class="num">1 250</td></tr><tr class="grp"><th colspan="3">Tak</th><th class="num">4 715</th></tr><tr><td>Kryssfiner 15 mm til nytt undertak (2 plater)</td><td class="num">2 plater</td><td class="num">520</td><td class="num">1 040</td></tr><tr><td>Underlagsbelegg for shingel, 1 rull</td><td class="num">1 rull</td><td class="num">700</td><td class="num">700</td></tr><tr><td>Asfaltshingel, pakker à 3 m²</td><td class="num">3 pakker</td><td class="num">650</td><td class="num">1 950</td></tr><tr><td>Topphatt for åttekantet tak, sink</td><td class="num">1 stk</td><td class="num">450</td><td class="num">450</td></tr><tr><td>Takfotlist 19×98 grunnet</td><td class="num">11 m</td><td class="num">25</td><td class="num">275</td></tr><tr><td>Pappspiker og shingellim</td><td class="num">1 sett</td><td class="num">300</td><td class="num">300</td></tr><tr class="grp"><th colspan="3">Benk, espalier og overflate</th><th class="num">5 600</th></tr><tr><td>Benk langs fire sider: 48×98 imp. og 28×120</td><td class="num">1 sett</td><td class="num">1 200</td><td class="num">1 200</td></tr><tr><td>Reparasjon av rekkverk og spiler</td><td class="num">1 sett</td><td class="num">600</td><td class="num">600</td></tr><tr><td>Espalier til slyngplanten, to felt</td><td class="num">2 stk</td><td class="num">300</td><td class="num">600</td></tr><tr><td>Mosefjerner og husvask</td><td class="num">1 sett</td><td class="num">600</td><td class="num">600</td></tr><tr><td>Oljebeis 2,7 l (to bokser)</td><td class="num">2 boks</td><td class="num">800</td><td class="num">1 600</td></tr><tr><td>Solcellelys under taket</td><td class="num">1 sett</td><td class="num">400</td><td class="num">400</td></tr><tr><td>Skruer og beslag</td><td class="num">1 sett</td><td class="num">600</td><td class="num">600</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">13 941 kr</th></tr></tfoot></table></div></details>
 </section>
 
 <section class="build" aria-labelledby="royk">
-  <div class="build-head"><h2 id="royk">Røykbua</h2><span class="price-tag">15 546 kr</span></div>
-  <p>En kaldrøykbu i nordskråningen mellom huset og garasjen. Fyrkassen står nederst på kote 23,0 og røykskapet ca. 5 m lenger opp på kote 24,0, så røyken trekker selv oppover gjennom røret og rekker å kjøles. Med vanlig sørvestvind driver røyken bort fra huset og ut over skogen. Bruk den ikke på dager med nordavind.</p>
-  <div class="drawing-box"><svg viewBox="-1.1 -0.9 9.9 4.6" class="drawing" role="img" aria-label="Røykbua i snitt: fyrkasse, røykrør i stigning og røykskap"><polyline points="-0.4,1.9 1.6,2.0 6.2,3.0 8.6,3.05" class="d-ground"/><rect x="0.3" y="0.0" width="1.2" height="1.95" class="d-wall"/><polygon points="0.15,0.05 1.65,-0.15 1.65,-0.05 0.15,0.15" class="d-roof"/><line x1="0.38" y1="0.45" x2="1.42" y2="0.45" class="d-rack"/><line x1="0.38" y1="0.8" x2="1.42" y2="0.8" class="d-rack"/><line x1="0.38" y1="1.15" x2="1.42" y2="1.15" class="d-rack"/><rect x="0.75" y="-0.32" width="0.12" height="0.25" class="d-pile"/><rect x="1.0" y="-0.32" width="0.12" height="0.25" class="d-pile"/><line x1="6.3" y1="2.7" x2="1.3" y2="1.9" class="d-pipe"/><rect x="6.2" y="2.25" width="0.8" height="0.75" class="d-fire"/><rect x="6.95" y="2.5" width="0.1" height="0.35" class="d-door"/><text x="0.9" y="-0.55" class="d-lbl" text-anchor="middle">2 ventiler Ø100</text><text x="1.75" y="0.7" class="d-lbl">3 rister</text><text x="4.5" y="1.95" class="d-lbl" text-anchor="middle">4 m røykrør Ø150, stiger ca. 1 m</text><text x="6.6" y="3.55" class="d-lbl" text-anchor="middle">fyrkasse (kote 23,0)</text><text x="0.9" y="2.5" class="d-lbl" text-anchor="middle">skap (kote 24,0)</text><line x1="-0.25" y1="0" x2="-0.25" y2="1.95" class="d-dim"/><text x="-0.35" y="1.0" class="d-lbl" text-anchor="end">1,9</text><line x1="0.3" y1="3.05" x2="1.5" y2="3.05" class="d-dim"/><text x="0.9" y="3.45" class="d-lbl" text-anchor="middle">1,2 × 1,0 m</text></svg></div>
+  <div class="build-head"><h2 id="royk">Røykeriet</h2><span class="price-tag">7 605 kr</span></div>
+  <p>Den røde bua med skiltet «Røykeriet» står i skogkanten ved plattingen, ca. 12,2 m fra huset og innenfor kulturminnet. Malingen er slitt og taket er gammelt. Den største forbedringen er en kaldrøykgenerator: en stålspiral med flis som ulmer i 8–10 timer uten åpen flamme. Den er tryggere med ny treplatting rett ved, og gir jevn kaldrøyk til laks, sei, makrell og pølser.</p>
+  <div class="drawing-box"><svg viewBox="-1.4 -0.9 8.8 3.9" class="drawing" role="img" aria-label="Røykeriet i snitt med kaldrøykgenerator og rister"><line x1="-1.2" y1="2.6" x2="6.4" y2="2.6" class="d-ground"/><rect x="0" y="0.2" width="1.2" height="2.25" class="d-wall"/><polygon points="-0.15,0.25 1.35,0.0 1.35,0.1 -0.15,0.35" class="d-roof"/><line x1="0.08" y1="0.7" x2="1.12" y2="0.7" class="d-rack"/><line x1="0.08" y1="1.05" x2="1.12" y2="1.05" class="d-rack"/><rect x="0.35" y="2.15" width="0.5" height="0.12" class="d-fire"/><rect x="0.3" y="2.27" width="0.6" height="0.08" class="d-pile"/><rect x="-0.05" y="2.45" width="1.3" height="0.12" class="d-pile"/><rect x="0.55" y="-0.18" width="0.12" height="0.22" class="d-pile"/><text x="1.6" y="0.1" class="d-lbl">nytt tak: kryssfiner + takstål</text><text x="1.6" y="0.6" class="d-lbl">ventil med spjeld</text><text x="1.6" y="0.95" class="d-lbl">2 rustfrie rister + termometer</text><text x="1.6" y="1.6" class="d-lbl">rødmaling utvendig, ubehandlet innvendig</text><text x="1.6" y="2.2" class="d-lbl">kaldrøykgenerator på steinhelle</text><text x="1.6" y="2.95" class="d-lbl">ny bunnsvill på betongheller og singel</text><line x1="-0.3" y1="0.2" x2="-0.3" y2="2.45" class="d-dim"/><text x="-0.4" y="1.4" class="d-lbl" text-anchor="end">ca. 2,2</text></svg></div>
   <div class="two">
     <div>
       <h3>Byggeoppskrift</h3>
       <ul class="specs">
-        <li><b>Røykskap</b><span class="mono">1,2 × 1,0 × 1,9 m</span></li>
-        <li><b>Avstand</b><span>fyrkassen står 8,3 m fra huset og ca. 11 m fra garasjen</span></li>
-        <li><b>Innvendig</b><span>bare ubehandlet gran: ramme 48×48 og panel 19×123. Aldri impregnert, malt eller limt plate der maten henger.</span></li>
-        <li><b>Utvendig</b><span>grunnet kledning, malt med resten fra Bethel. Tak av kryssfiner og takstål.</span></li>
-        <li><b>Fyrkasse</b><span>30 ildfaste stein og sotluke av støpejern på betongheller</span></li>
-        <li><b>Røykrør</b><span>4 m sort stålrør Ø150, uten galvanisering. Sinkbelegg avgir giftig røyk når det blir varmt.</span></li>
-        <li><b>Utstyr</b><span>3 rustfrie rister, hengestenger, 2 ventiler med spjeld, termometer</span></li>
-        <li><b>Ekstra</b><span>tørkehjell på østveggen for fisk som skal tørkes i kald luft fra februar til april</span></li>
+        <li><b>Fot</b><span>Løft bua og bytt bunnsvillen med 48×98 impregnert på betongheller i singel. Gjør det uten å grave, fordi bua står på kulturminnet.</span></li>
+        <li><b>Tak</b><span>12 mm kryssfiner og takstål med vindskibeslag</span></li>
+        <li><b>Maling</b><span>rødmaling, slamfarge eller linoljemaling, to strøk utvendig. Skrap bort løs maling først.</span></li>
+        <li><b>Innvendig</b><span>bare ubehandlet tre og rustfritt stål. Aldri maling, impregnering eller limt plate der maten henger.</span></li>
+        <li><b>Utstyr</b><span>kaldrøykgenerator på steinhelle, 2 rustfrie rister, hengestenger, termometer og ventil med spjeld</span></li>
+        <li><b>Tørkehjell</b><span>stativ på utsiden for fisk som skal tørke i kald luft fra februar til april</span></li>
       </ul>
     </div>
     <div>
       <h3>Bruk og sikkerhet</h3>
       <ol class="steps">
-        <li>Rydd kratt og lyng i 3 m rundt fyrkassen og legg singel i en ring på 1,5 m.</li>
-        <li>Kaldrøyk holder under 30 °C i skapet. Det passer best fra september til april.</li>
-        <li>Fyr med or, bjørk eller bøkeflis. Gran og furu gir sot og bitter smak.</li>
-        <li>Ha en bøtte vann eller et brannteppe ved fyrkassen, og gå aldri fra glør.</li>
-        <li>Mellom 15. april og 15. september er det forbudt å gjøre opp ild nær skog og utmark. Spør brannvesenet om røykbua er unntatt før du fyrer om sommeren.</li>
+        <li>Kaldrøyk skal holde under 30 °C i bua. Det går best fra oktober til april.</li>
+        <li>Bruk flis av or eller bøk. Gran og furu gir sot og bitter smak.</li>
+        <li>Generatoren står på steinhelle, minst 30 cm fra veggene.</li>
+        <li>Heng et pulverapparat på husveggen ved plattingen.</li>
+        <li>Mellom 15. april og 15. september er det forbudt å gjøre opp ild nær skog og utmark. Spør brannvesenet om røyking med generator er greit om sommeren.</li>
       </ol>
     </div>
   </div>
-  <details><summary>Materialliste og priser for Røykbua</summary><div class="tbl-wrap"><table class="pris" id="p-royk"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Røykskap</th><th class="num">9 076</th></tr><tr><td>Bunnramme 48×98 impregnert (utenfor røyken)</td><td class="num">6,5 m</td><td class="num">37</td><td class="num">240</td></tr><tr><td>Ramme 48×48 gran, ubehandlet</td><td class="num">25 m</td><td class="num">15</td><td class="num">375</td></tr><tr><td>Innvendig panel 19×123 gran, ubehandlet</td><td class="num">98 m</td><td class="num">16</td><td class="num">1 568</td></tr><tr><td>Utvendig kledning 19×148 dobbeltfals, grunnet</td><td class="num">72 m</td><td class="num">36</td><td class="num">2 592</td></tr><tr><td>Kryssfiner 12 mm til tak + vindskibeslag</td><td class="num">1 sett</td><td class="num">1 020</td><td class="num">1 020</td></tr><tr><td>Betongheller 40×40 og singel</td><td class="num">1 sett</td><td class="num">400</td><td class="num">400</td></tr><tr><td>Dør: hengsler, vrider, filtlist</td><td class="num">1 sett</td><td class="num">550</td><td class="num">550</td></tr><tr><td>Rister rustfri 60×40 (3) + hengestenger og kroker</td><td class="num">1 sett</td><td class="num">1 580</td><td class="num">1 580</td></tr><tr><td>Avtrekksventil Ø100 med spjeld (2)</td><td class="num">2 stk</td><td class="num">200</td><td class="num">400</td></tr><tr><td>Røykovnstermometer 0–120 °C</td><td class="num">1 stk</td><td class="num">350</td><td class="num">350</td></tr><tr class="grp"><th colspan="3">Fyrkasse og røykkanal</th><th class="num">5 470</th></tr><tr><td>Ildfast stein (chamotte) 230×114×64</td><td class="num">30 stk</td><td class="num">45</td><td class="num">1 350</td></tr><tr><td>Ildfast mørtel 5 kg</td><td class="num">1 spann</td><td class="num">350</td><td class="num">350</td></tr><tr><td>Sotluke i støpejern 20×25 cm</td><td class="num">1 stk</td><td class="num">700</td><td class="num">700</td></tr><tr><td>Betongheller under fyrkassen</td><td class="num">2 stk</td><td class="num">60</td><td class="num">120</td></tr><tr><td>Røykrør Ø150 sort stål (ugalvanisert), 1 m</td><td class="num">4 stk</td><td class="num">650</td><td class="num">2 600</td></tr><tr><td>Bend 45° Ø150 sort stål</td><td class="num">1 stk</td><td class="num">350</td><td class="num">350</td></tr><tr class="grp"><th colspan="3">Diverse</th><th class="num">1 000</th></tr><tr><td>Rustfrie skruer og spiker</td><td class="num">1 sett</td><td class="num">400</td><td class="num">400</td></tr><tr><td>Tørkehjell på østveggen: 48×98 imp. + 2 rustfrie stenger</td><td class="num">1 sett</td><td class="num">600</td><td class="num">600</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">15 546 kr</th></tr></tfoot></table></div></details>
+  <details><summary>Materialliste og priser for Røykeriet</summary><div class="tbl-wrap"><table class="pris" id="p-royk"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Fot og tak</th><th class="num">3 605</th></tr><tr><td>Betongheller og singel under ny bunnsvill</td><td class="num">1 sett</td><td class="num">400</td><td class="num">400</td></tr><tr><td>Bunnsvill 48×98 impregnert</td><td class="num">5 m</td><td class="num">37</td><td class="num">185</td></tr><tr><td>Kryssfiner 12 mm til tak</td><td class="num">1 plate</td><td class="num">520</td><td class="num">520</td></tr><tr><td>Takstål 0,5 mm med beslag og skruer, ca. 2,5 m²</td><td class="num">1 sett</td><td class="num">1 100</td><td class="num">1 100</td></tr><tr><td>Rødmaling (slamfarge eller linoljebasert), 10 l</td><td class="num">1 spann</td><td class="num">1 100</td><td class="num">1 100</td></tr><tr><td>Skrape, børste og pensel</td><td class="num">1 sett</td><td class="num">300</td><td class="num">300</td></tr><tr class="grp"><th colspan="3">Innredning og kaldrøyk</th><th class="num">4 000</th></tr><tr><td>Kaldrøykgenerator (spiral for flis)</td><td class="num">1 stk</td><td class="num">550</td><td class="num">550</td></tr><tr><td>Steinhelle under generatoren</td><td class="num">1 stk</td><td class="num">100</td><td class="num">100</td></tr><tr><td>Rustfrie rister 60×40 (2) og hengestenger</td><td class="num">1 sett</td><td class="num">1 300</td><td class="num">1 300</td></tr><tr><td>Røykovnstermometer 0–120 °C</td><td class="num">1 stk</td><td class="num">350</td><td class="num">350</td></tr><tr><td>Avtrekksventil med spjeld Ø100</td><td class="num">1 stk</td><td class="num">200</td><td class="num">200</td></tr><tr><td>Røykeflis or og bøk, 3 kg</td><td class="num">1 sett</td><td class="num">300</td><td class="num">300</td></tr><tr><td>Pulverapparat 6 kg til veggen ved plattingen</td><td class="num">1 stk</td><td class="num">600</td><td class="num">600</td></tr><tr><td>Tørkehjell for fisk: 48×98 imp. og rustfrie stenger</td><td class="num">1 sett</td><td class="num">600</td><td class="num">600</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">7 605 kr</th></tr></tfoot></table></div></details>
 </section>
 
 <section class="build" aria-labelledby="fugl">
-  <div class="build-head"><h2 id="fugl">Fuglekassene</h2><span class="price-tag">1 636 kr</span></div>
-  <p>Fire meisekasser og én stærkasse, pluss et fuglebrett vest for huset. Kassene henges i skogkanten med minst 10 m mellom meisekassene, fordi meisene forsvarer reviret sitt. Dette er et godt vinterprosjekt i garasjen, og kassene bør henge før midten av februar når meisene begynner å lete etter reirplass.</p>
-  <div class="drawing-box"><svg viewBox="-10 -46 1290 160" class="drawing" role="img" aria-label="Kappliste for én meisekasse av bord 19×148"><text x="0" y="-22" class="f-title">Kappliste meisekasse · bord 19 × 148 mm · 1 190 mm inkl. sagsnitt</text><rect x="0" y="0" width="330" height="70" class="f-part"/><text x="165.0" y="32" class="f-lbl" text-anchor="middle">Bak</text><text x="165.0" y="54" class="f-sub" text-anchor="middle">330 mm</text><rect x="340" y="0" width="230" height="70" class="f-part"/><text x="455.0" y="32" class="f-lbl" text-anchor="middle">Front</text><text x="455.0" y="54" class="f-sub" text-anchor="middle">230 mm</text><circle cx="455.0" cy="35" r="16" class="f-hole"/><rect x="580" y="0" width="250" height="70" class="f-part"/><text x="705.0" y="32" class="f-lbl" text-anchor="middle">Side</text><text x="705.0" y="54" class="f-sub" text-anchor="middle">250 mm</text><line x1="580" y1="0" x2="830" y2="0" class="f-cut"/><rect x="840" y="0" width="250" height="70" class="f-part"/><text x="965.0" y="32" class="f-lbl" text-anchor="middle">Side</text><text x="965.0" y="54" class="f-sub" text-anchor="middle">250 mm</text><line x1="840" y1="0" x2="1090" y2="0" class="f-cut"/><rect x="1100" y="0" width="110" height="70" class="f-part"/><text x="1155.0" y="32" class="f-lbl" text-anchor="middle">Bunn</text><text x="1155.0" y="54" class="f-sub" text-anchor="middle">110 mm</text><text x="0" y="100" class="f-sub">Sidene kappes 110 mm brede og skrås fra 250 til 230 mm. Bunnen er 110 × 110 mm. Inngangshull: meis 28/32 mm, stær 45 mm, senter 170 mm over bunnen.</text></svg></div>
+  <div class="build-head"><h2 id="fugl">Fuglekassene</h2><span class="price-tag">1 445 kr</span></div>
+  <p>Kassene henger allerede, så jobben er årlig stell, flytting av de som henger dårlig, og to nye kasser der det mangler. Oktober er riktig måned for å tømme dem.</p>
   <div class="two">
     <div>
-      <h3>Byggeoppskrift</h3>
+      <h3>Sjekkliste for hver kasse</h3>
       <ul class="specs">
-        <li><b>Materiale</b><span>ubehandlet gran eller furu 19 mm, rustfrie skruer, aldri impregnert</span></li>
-        <li><b>Meisekasse</b><span class="mono">bunn 11 × 11 cm · høyde 23–25 cm</span></li>
-        <li><b>Stærkasse</b><span class="mono">bunn 15 × 15 cm · høyde 35 cm · hull 45 mm</span></li>
-        <li><b>Hull</b><span>blåmeis 28 mm, kjøttmeis 32 mm, senter 17 cm over bunnen</span></li>
-        <li><b>Detaljer</b><span>4 hull Ø6 mm i bunnen, ru innside under inngangshullet, lokk på hengsel for rengjøring</span></li>
+        <li><b>Tøm</b><span>Ta ut gammelt reir og skyll med kokende vann, uten såpe. Gjør det i september eller oktober.</span></li>
+        <li><b>Hull</b><span>blåmeis 28 mm, kjøttmeis 32 mm, stær 45 mm. Er hullet gnagd større, skru en plate med riktig hull utenpå.</span></li>
+        <li><b>Retning</b><span>Hullet bør vende mot øst eller sørøst, bort fra regn og vind fra sørvest.</span></li>
+        <li><b>Høyde</b><span>2–4 m, fritt fra greiner som katter kan klatre på</span></li>
+        <li><b>Avstand</b><span>Minst 10 m mellom meisekassene, fordi meisene forsvarer reviret sitt.</span></li>
+        <li><b>Feste</b><span>Bytt jernspiker med ståltråd i en bit hageslange, så treet ikke vokser rundt festet.</span></li>
+        <li><b>Tak og bunn</b><span>Bytt råtne deler, og legg takpapp over lokket på kasser som lekker.</span></li>
       </ul>
     </div>
     <div>
-      <h3>Henging</h3>
+      <h3>To nye kasser og et fuglebrett</h3>
       <ul class="specs">
-        <li><b>K1, K3, K5</b><span>kjøttmeis, på trær i skogkanten mot vest og sør</span></li>
-        <li><b>K2</b><span>blåmeis, i nordskogen</span></li>
-        <li><b>K4</b><span>stær, på østgavlen til Bethel under mønet</span></li>
-        <li><b>Høyde</b><span>2–4 m. Hullet vender mot øst eller sørøst, bort fra regn og vind fra sørvest.</span></li>
-        <li><b>Feste</b><span>aluminiumspiker eller ståltråd i en bit hageslange, så treet ikke skades</span></li>
-        <li><b>Stell</b><span>tøm og rengjør kassene i september eller oktober hvert år</span></li>
+        <li><b>Meisekasse</b><span class="mono">bunn 11 × 11 cm · høyde 23–25 cm · hull 32 mm</span></li>
+        <li><b>Stærkasse</b><span class="mono">bunn 15 × 15 cm · høyde 35 cm · hull 45 mm</span></li>
+        <li><b>Stær på Bethel</b><span>Stæren liker åpent terreng. Heng stærkassen under taket på Bethel, mot plenen.</span></li>
+        <li><b>Fuglebrett</b><span>på stolpe ved verandaen, minst 3 m fra vinduene</span></li>
+        <li><b>Materiale</b><span>ubehandlet gran eller furu 19 mm og rustfrie skruer</span></li>
       </ul>
     </div>
   </div>
-  <details><summary>Materialliste og priser for fuglekassene</summary><div class="tbl-wrap"><table class="pris" id="p-fugl"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Fem kasser og ett fuglebrett</th><th class="num">1 636</th></tr><tr><td>Bord 19×148 gran/furu, ubehandlet</td><td class="num">8 m</td><td class="num">22</td><td class="num">176</td></tr><tr><td>Bord 19×198 gran/furu, ubehandlet (tak)</td><td class="num">2 m</td><td class="num">30</td><td class="num">60</td></tr><tr><td>Rustfrie skruer 4×40, 200 stk</td><td class="num">1 eske</td><td class="num">280</td><td class="num">280</td></tr><tr><td>Hengsler og hekter til lokket (5 sett)</td><td class="num">5 sett</td><td class="num">54</td><td class="num">270</td></tr><tr><td>Aluminiumspiker, ståltråd, gammel hageslange</td><td class="num">1 sett</td><td class="num">200</td><td class="num">200</td></tr><tr><td>Fuglebrett: stolpe 48×98 imp., bord, nedslagsfot</td><td class="num">1 sett</td><td class="num">400</td><td class="num">400</td></tr><tr><td>Hullsag Ø28/32/45 mm</td><td class="num">1 sett</td><td class="num">250</td><td class="num">250</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">1 636 kr</th></tr></tfoot></table></div></details>
+  <div class="drawing-box"><svg viewBox="-10 -46 1290 160" class="drawing" role="img" aria-label="Kappliste for én meisekasse av bord 19×148"><text x="0" y="-22" class="f-title">Kappliste ny meisekasse · bord 19 × 148 mm · 1 190 mm inkl. sagsnitt</text><rect x="0" y="0" width="330" height="70" class="f-part"/><text x="165.0" y="32" class="f-lbl" text-anchor="middle">Bak</text><text x="165.0" y="54" class="f-sub" text-anchor="middle">330 mm</text><rect x="340" y="0" width="230" height="70" class="f-part"/><text x="455.0" y="32" class="f-lbl" text-anchor="middle">Front</text><text x="455.0" y="54" class="f-sub" text-anchor="middle">230 mm</text><circle cx="455.0" cy="35" r="16" class="f-hole"/><rect x="580" y="0" width="250" height="70" class="f-part"/><text x="705.0" y="32" class="f-lbl" text-anchor="middle">Side</text><text x="705.0" y="54" class="f-sub" text-anchor="middle">250 mm</text><line x1="580" y1="0" x2="830" y2="0" class="f-cut"/><rect x="840" y="0" width="250" height="70" class="f-part"/><text x="965.0" y="32" class="f-lbl" text-anchor="middle">Side</text><text x="965.0" y="54" class="f-sub" text-anchor="middle">250 mm</text><line x1="840" y1="0" x2="1090" y2="0" class="f-cut"/><rect x="1100" y="0" width="110" height="70" class="f-part"/><text x="1155.0" y="32" class="f-lbl" text-anchor="middle">Bunn</text><text x="1155.0" y="54" class="f-sub" text-anchor="middle">110 mm</text><text x="0" y="100" class="f-sub">Sidene kappes 110 mm brede og skrås fra 250 til 230 mm. Bunnen er 110 × 110 mm. Inngangshull: meis 28/32 mm, stær 45 mm, senter 170 mm over bunnen.</text></svg></div>
+  <details><summary>Materialliste og priser for fuglekassene</summary><div class="tbl-wrap"><table class="pris" id="p-fugl"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Vedlikehold og to nye kasser</th><th class="num">1 445</th></tr><tr><td>Bord 19×148 gran/furu, ubehandlet</td><td class="num">3,5 m</td><td class="num">22</td><td class="num">77</td></tr><tr><td>Bord 19×198 gran/furu, ubehandlet</td><td class="num">1 m</td><td class="num">30</td><td class="num">30</td></tr><tr><td>Rustfrie skruer 4×40</td><td class="num">1 eske</td><td class="num">280</td><td class="num">280</td></tr><tr><td>Hengsler og hekter til lokk</td><td class="num">2 sett</td><td class="num">54</td><td class="num">108</td></tr><tr><td>Reservetak av takpapp til gamle kasser</td><td class="num">1 sett</td><td class="num">150</td><td class="num">150</td></tr><tr><td>Aluminiumspiker og ståltråd i hageslange</td><td class="num">1 sett</td><td class="num">200</td><td class="num">200</td></tr><tr><td>Fuglebrett på stolpe med nedslagsfot</td><td class="num">1 sett</td><td class="num">400</td><td class="num">400</td></tr><tr><td>Hullsag Ø32/45 mm</td><td class="num">1 sett</td><td class="num">200</td><td class="num">200</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">1 445 kr</th></tr></tfoot></table></div></details>
 </section>
 
 <section class="build" aria-labelledby="ute">
-  <div class="build-head"><h2 id="ute">Forbedringer av uteområdet</h2><span class="price-tag">13 895 kr</span></div>
+  <div class="build-head"><h2 id="ute">Resten av uteområdet</h2><span class="price-tag">16 495 kr</span></div>
   <div class="two">
     <div>
       <h3>Overvann rundt huset</h3>
-      <p>Takstmannen fant at terrenget heller inn mot huset på vestsiden, og at nedløpene slutter over bakken uten å lede vannet bort. Gjør dette selv i oktober:</p>
+      <p>Mellom tørrmurene og verandaen på vestsiden går en grusgang. Den er det naturlige stedet der vannet fra skråningen samles.</p>
       <ol class="steps">
-        <li>Sett utkaster og skvettrenne på alle nedløp, slik at vannet treffer bakken minst 1 m fra muren.</li>
-        <li>Lag fall bort fra muren i en 3 m bred sone på vestsiden, minst 1:50 (6 cm over 3 m). Fyll på jord og grus og tråkk det fast.</li>
-        <li>Led nedløpene på vestsiden i 110 mm overvannsrør på bakken rundt hushjørnet og ned mot den lave flaten i øst.</li>
-        <li>Se etter fukt i underetasjen etter kraftig regn. Ser du fukt, er neste steg en fanggrøft med drensrør. Den bør en entreprenør med gravemaskin lage. Den er tegnet stiplet i kartet.</li>
+        <li>Sett utkaster og skvettrenne på alle nedløp, så vannet treffer bakken minst 1 m fra muren.</li>
+        <li>Hold grusgangen åpen og sørg for at den heller bort fra huset, minst 1:50. Rak bort jord og løv som har sklidd ned fra bedene.</li>
+        <li>Led nedløpene på vestsiden i 110 mm rør oppå bakken rundt hjørnet og ned mot gårdsplassen i øst.</li>
+        <li>Se etter fukt i underetasjen etter kraftig regn. Kommer det fukt, trengs det en fanggrøft, og den bør en entreprenør lage. Langs huset ligger den i kulturminnet, så fylkeskommunen må spørres først.</li>
       </ol>
+      <h3>Platting, Østvang og tørrmurer</h3>
+      <ul class="specs">
+        <li><b>Platting 2023</b><span>Vask og olje med terrasseolje én gang i året, en tørr dag i juni.</span></li>
+        <li><b>Østvang</b><span>Den murte peisen får hvit murmaling og rustfri grillrist. Ha alltid helle foran åpningen mot plattingen.</span></li>
+        <li><b>Tørrmurer</b><span>Luke bedene, legg løse steiner tilbake og fyll på jord og bark. Ikke flytt store steiner i det skraverte området.</span></li>
+      </ul>
     </div>
     <div>
-      <h3>Kjøkkenhage og le</h3>
-      <p>Fire høybed av pallekarmer sør for huset. De står langs høydekoten, så hvert bed står nesten plant. Huset gir le for nordavind, og en 4 m leskjerm av spileverk på vestsiden bremser sørvestvinden.</p>
+      <h3>Kjøkkenhage på vestplenen</h3>
+      <p>Fire høybed av pallekarmer på den nordre delen av vestplenen, på kote 25,7–25,8. Der er det nesten flatt, sola kommer fra sør og vest, og stedet ligger utenfor kulturminnet. En leskjerm på 5 m mot vest bremser sørvestvinden.</p>
       <ul class="specs">
         <li><b>Bed</b><span class="mono">4 × (0,8 × 1,2 m), 3 karmer høye ≈ 0,6 m</span></li>
         <li><b>Fyll</b><span>Bunnen fylles med kvist og løv fra tomta, toppen med 2 m³ plantejord</span></li>
         <li><b>Passer på Frøya</b><span>potet, grønnkål, salat, reddik, ertebelg, rabarbra, jordbær og urter</span></li>
         <li><b>Lebusker</b><span>Plant stedegne arter: rogn, selje, einer og havtorn. Rynkerose og sitkagran står på svartelista over fremmede arter.</span></li>
-        <li><b>Sauegjerde</b><span>Tomta har en tinglyst gjerdebestemmelse fra 1963, og sau beiter i utmarka. Er gjerdet dårlig, kan det fornyes mot vest og sør. Sett grind der veien går, for den skal ikke sperres.</span></li>
       </ul>
     </div>
   </div>
-  <details><summary>Materialliste og priser for uteområdet</summary><div class="tbl-wrap"><table class="pris" id="p-ute"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Overvann rundt huset (gjør selv)</th><th class="num">4 935</th></tr><tr><td>Nedløpsbend og utkastere</td><td class="num">4 stk</td><td class="num">180</td><td class="num">720</td></tr><tr><td>Skvettrenner i betong</td><td class="num">4 stk</td><td class="num">200</td><td class="num">800</td></tr><tr><td>Overvannsrør 110 mm + bend</td><td class="num">1 sett</td><td class="num">915</td><td class="num">915</td></tr><tr><td>Jord/grus for fall bort fra muren, levert i storsekk</td><td class="num">1 levering</td><td class="num">2 500</td><td class="num">2 500</td></tr><tr class="grp"><th colspan="3">Kjøkkenhage og le</th><th class="num">8 960</th></tr><tr><td>Pallekarmer 80×120 (3 per bed)</td><td class="num">12 stk</td><td class="num">180</td><td class="num">2 160</td></tr><tr><td>Plast og jordduk mot treverket</td><td class="num">1 sett</td><td class="num">500</td><td class="num">500</td></tr><tr><td>Plantejord i storsekk 1 m³</td><td class="num">2 sekk</td><td class="num">1 400</td><td class="num">2 800</td></tr><tr><td>Levering av jord</td><td class="num">1 levering</td><td class="num">1 200</td><td class="num">1 200</td></tr><tr><td>Leskjerm 4 m: stolper, spileverk 23×73 imp., nedslagsføtter</td><td class="num">1 sett</td><td class="num">1 700</td><td class="num">1 700</td></tr><tr><td>Frø og småplanter første sesong</td><td class="num">1 sett</td><td class="num">600</td><td class="num">600</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">13 895 kr</th></tr></tfoot></table></div></details>
+  <details><summary>Materialliste og priser for uteområdet</summary><div class="tbl-wrap"><table class="pris" id="p-ute"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Overvann rundt huset</th><th class="num">3 935</th></tr><tr><td>Nedløpsbend og utkastere</td><td class="num">4 stk</td><td class="num">180</td><td class="num">720</td></tr><tr><td>Skvettrenner i betong</td><td class="num">4 stk</td><td class="num">200</td><td class="num">800</td></tr><tr><td>Overvannsrør 110 mm + bend, lagt på bakken</td><td class="num">1 sett</td><td class="num">915</td><td class="num">915</td></tr><tr><td>Pukk og grus til fall bort fra muren</td><td class="num">1 levering</td><td class="num">1 500</td><td class="num">1 500</td></tr><tr class="grp"><th colspan="3">Platting, Østvang og tørrmurer</th><th class="num">3 400</th></tr><tr><td>Terrassevask</td><td class="num">1 kanne</td><td class="num">300</td><td class="num">300</td></tr><tr><td>Terrasseolje 10 l (ca. 90 m², ett strøk)</td><td class="num">1 spann</td><td class="num">1 500</td><td class="num">1 500</td></tr><tr><td>Murmaling hvit 3 l til Østvang</td><td class="num">1 boks</td><td class="num">600</td><td class="num">600</td></tr><tr><td>Rustfri grillrist</td><td class="num">1 stk</td><td class="num">400</td><td class="num">400</td></tr><tr><td>Jord og bark til bedene i tørrmurene</td><td class="num">1 sett</td><td class="num">600</td><td class="num">600</td></tr><tr class="grp"><th colspan="3">Kjøkkenhage på vestplenen</th><th class="num">9 160</th></tr><tr><td>Pallekarmer 80×120 (3 per bed)</td><td class="num">12 stk</td><td class="num">180</td><td class="num">2 160</td></tr><tr><td>Plast og jordduk mot treverket</td><td class="num">1 sett</td><td class="num">500</td><td class="num">500</td></tr><tr><td>Plantejord i storsekk 1 m³</td><td class="num">2 sekk</td><td class="num">1 400</td><td class="num">2 800</td></tr><tr><td>Levering av jord</td><td class="num">1 levering</td><td class="num">1 200</td><td class="num">1 200</td></tr><tr><td>Leskjerm 5 m mot sørvest</td><td class="num">1 sett</td><td class="num">1 900</td><td class="num">1 900</td></tr><tr><td>Frø og småplanter første sesong</td><td class="num">1 sett</td><td class="num">600</td><td class="num">600</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">16 495 kr</th></tr></tfoot></table></div></details>
 </section>
 
 <section aria-labelledby="pris">
   <h2 id="pris">Prislapp</h2>
-  <p>Prisene er veiledende hyllepriser høsten 2026 inkludert mva., på nivå med Byggmax, Monter og Obs Bygg. Samler dere alt i én bestilling, kan dere be om prosjektpris. Det gir ofte 10–20 % rabatt. Arbeid er ikke regnet med, fordi alt gjøres selv.</p>
+  <p>Prisene er veiledende hyllepriser høsten 2026 inkludert mva., på nivå med Byggmax, Monter og Obs Bygg. Samler dere alt i én bestilling, kan dere be om prosjektpris. Arbeid er ikke regnet med.</p>
   <div class="tbl-wrap">
     <table class="sum">
       <thead><tr><th>Del</th><th class="num">Materialer</th></tr></thead>
       <tbody>
-        <tr><td>Bethel</td><td class="num">60 609</td></tr>
-        <tr><td>Røykbua</td><td class="num">15 546</td></tr>
-        <tr><td>Fuglekasser og fuglebrett</td><td class="num">1 636</td></tr>
-        <tr><td>Overvann, høybed og leskjerm</td><td class="num">13 895</td></tr>
-        <tr><td>Buffer 15 % for svinn, feilkapp og prisøkning</td><td class="num">13 753</td></tr>
-        <tr class="total"><th>Grunnpakke</th><td class="num">105 438 kr</td></tr>
-        <tr><td>Valgfrie tillegg (se under)</td><td class="num">44 800</td></tr>
-        <tr><td>Verktøy, bare hvis dere ikke har det</td><td class="num">10 100</td></tr>
+        <tr><td>Bethel: tak, gulv, benk og beis</td><td class="num">13 941</td></tr>
+        <tr><td>Røykeriet: fot, tak, maling og kaldrøyk</td><td class="num">7 605</td></tr>
+        <tr><td>Fuglekasser: stell og to nye</td><td class="num">1 445</td></tr>
+        <tr><td>Overvann, platting, Østvang og høybed</td><td class="num">16 495</td></tr>
+        <tr><td>Buffer 15 % for svinn og prisøkning</td><td class="num">5 923</td></tr>
+        <tr class="total"><th>Sum</th><td class="num">45 409 kr</td></tr>
+        <tr><td>Valgfrie tillegg (se under)</td><td class="num">31 000</td></tr>
+        <tr><td>Verktøy, bare hvis dere ikke har det</td><td class="num">6 750</td></tr>
       </tbody>
     </table>
   </div>
-  <details><summary>Valgfrie tillegg</summary><div class="tbl-wrap"><table class="pris" id="p-valg"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Valgfritt</th><th class="num">44 800</th></tr><tr><td>Isolering av Bethel til helårs bruk (glassull, dampsperre, innerpanel)</td><td class="num">1 sett</td><td class="num">12 500</td><td class="num">12 500</td></tr><tr><td>Sauegjerde 70 m langs vest og sør (netting, stolper, stifter)</td><td class="num">1 sett</td><td class="num">6 000</td><td class="num">6 000</td></tr><tr><td>Grind 3 m, hvis gjerdet krysser sauebondens vei</td><td class="num">1 stk</td><td class="num">2 500</td><td class="num">2 500</td></tr><tr><td>Lebusker, 12 stk (rogn, selje, einer, havtorn)</td><td class="num">12 stk</td><td class="num">150</td><td class="num">1 800</td></tr><tr><td>Fanggrøft med drensrør og pukk, utført av entreprenør (anslag)</td><td class="num">1 jobb</td><td class="num">22 000</td><td class="num">22 000</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">44 800 kr</th></tr></tfoot></table></div></details>
-  <details><summary>Verktøy du kan trenge</summary><div class="tbl-wrap"><table><thead><tr><th>Verktøy</th><th class="num">Pris</th></tr></thead><tbody><tr><td>Gjærsag 10&quot;</td><td class="num">2 500</td></tr><tr><td>Håndsirkelsag</td><td class="num">1 800</td></tr><tr><td>Drill/skrutrekker 18 V, to batterier</td><td class="num">2 000</td></tr><tr><td>Vater 120 cm, vinkel, målebånd, snor</td><td class="num">750</td></tr><tr><td>To bukker og stige</td><td class="num">1 500</td></tr><tr><td>Verneutstyr: briller, hørselvern, hansker, vernesko</td><td class="num">1 200</td></tr><tr><td>Leie av borhammer ved fjell, 1 dag</td><td class="num">350</td></tr></tbody></table></div></details>
+  <details><summary>Valgfrie tillegg</summary><div class="tbl-wrap"><table class="pris" id="p-valg"><thead><tr><th>Materiale</th><th class="num">Mengde</th><th class="num">Enhetspris</th><th class="num">Sum</th></tr></thead><tbody><tr class="grp"><th colspan="3">Valgfritt</th><th class="num">31 000</th></tr><tr><td>Trespon av sedertre i stedet for shingel på Bethel (ca. 8 m²)</td><td class="num">1 sett</td><td class="num">4 500</td><td class="num">4 500</td></tr><tr><td>Male det hvite stakittet, 10 l + 3 l</td><td class="num">1 sett</td><td class="num">4 500</td><td class="num">4 500</td></tr><tr><td>Fanggrøft med drensrør vest for huset, entreprenør (anslag)</td><td class="num">1 jobb</td><td class="num">22 000</td><td class="num">22 000</td></tr></tbody><tfoot><tr><th colspan="3">Sum materialer</th><th class="num">31 000 kr</th></tr></tfoot></table></div></details>
+  <details><summary>Verktøy du kan trenge</summary><div class="tbl-wrap"><table><thead><tr><th>Verktøy</th><th class="num">Pris</th></tr></thead><tbody><tr><td>Drill/skrutrekker 18 V</td><td class="num">2 000</td></tr><tr><td>Stikksag eller håndsirkelsag</td><td class="num">1 500</td></tr><tr><td>Vater, vinkel, målebånd</td><td class="num">750</td></tr><tr><td>Stige og to bukker</td><td class="num">1 500</td></tr><tr><td>Høytrykksspyler (lån eller leie)</td><td class="num">lån</td></tr><tr><td>Verneutstyr</td><td class="num">1 000</td></tr></tbody></table></div></details>
 </section>
 
 <section aria-labelledby="plan">
   <h2 id="plan">Prosjektplan</h2>
-  <p>Planen følger været på Frøya. Graving og overvann gjøres om høsten, snekring av små ting i garasjen om vinteren, og Bethel bygges fra mars til august når dagene er lange. Takarbeid trenger rolige dager. Timene er anslag for én person uten mye erfaring.</p>
+  <p>Planen følger været på Frøya. Overvann og opprydding gjøres om høsten. Røykeriet kan brukes allerede i vinter, og fuglekassene lages i garasjen. Tak og beis tas fra mai til juli, når det er tørt og over 10 °C. Timene er anslag for én person.</p>
   <div class="tl-wrap"><div class="tl" id="tl"></div></div>
   <div class="progress" id="progress" aria-live="polite"></div>
   <div class="months" id="months"></div>
@@ -749,60 +461,37 @@ footer ul{margin:0;padding-left:1.1rem;display:grid;gap:.25rem}
 <section aria-labelledby="for">
   <h2 id="for">Før dere starter</h2>
   <ul class="check">
-    <li><span><b>Kommunen.</b> Tomta ligger i LNF-område, og huset mangler ferdigattest. Spør derfor kommunen om Bethel kan settes opp uten søknad. Teksten under er klar til å sendes til postmottak@froya.kommune.no.</span></li>
-    <li><span><b>Kulturminne.</b> Søk opp eiendommen på kulturminnesok.no og se hvor registreringen ligger. Hold deg unna den med spade og fundament. Funn skal meldes til Trøndelag fylkeskommune etter kulturminneloven § 8.</span></li>
-    <li><span><b>Kabler og rør.</b> Send gravemelding gratis via Ledningsportalen før skruefundamentene settes. Finn ut hvor septiktanken og avløpsrøret ligger. Kvalvær Maskin byttet røret, så de vet det.</span></li>
-    <li><span><b>Veien.</b> Sauebondens vei skal ikke sperres, verken av materialleveranse, tilhenger eller gjerde.</span></li>
-    <li><span><b>Arbeid alene.</b> Ha mobilen på deg og si fra når du går på taket. Bruk briller og hørselvern ved saging. Løft aldri tyngre enn 25 kg alene: en veggramme på 4 m til Bethel veier 50–70 kg før kledningen er på. Brenn aldri avkapp av impregnert virke.</span></li>
+    <li><span><b>Kulturminne.</b> Søk opp eiendommen på kulturminnesok.no og se hvor grensen går. I det skraverte området skal det ikke graves eller flyttes stein. Funn skal meldes til Trøndelag fylkeskommune etter kulturminneloven § 8.</span></li>
+    <li><span><b>Kabler og rør.</b> Send gratis gravemelding via Ledningsportalen før dere slår ned noe i bakken. Finn ut hvor septiktanken og avløpsrøret ligger. Kvalvær Maskin byttet røret, så de vet det.</span></li>
+    <li><span><b>Veien.</b> Sauebondens vei skal ikke sperres, heller ikke av materialleveranser.</span></li>
+    <li><span><b>Arbeid alene.</b> Ha mobilen på deg og si fra når du går på stige eller tak. Bruk briller og hørselvern ved saging. Brenn aldri avkapp av impregnert virke, verken i Østvang eller i Røykeriet.</span></li>
   </ul>
-  <pre class="mail" id="mail">Til: postmottak@froya.kommune.no
-Emne: Spørsmål om søknadsfritt uthus – gnr. 56 bnr. 30, Dyrøyveien 440
-
-Hei,
-
-Vi planlegger et frittliggende uthus på vår eiendom gnr. 56 bnr. 30
-(Dyrøyveien 440) og ber om en bekreftelse på at tiltaket kan
-gjennomføres uten søknad etter byggesaksforskriften § 4-1 bokstav a,
-selv om eiendommen ligger i LNF-område i kommuneplanens arealdel.
-
-- Bebygd areal 14,4 m² (4,0 x 3,6 m), ikke til beboelse
-- Gesimshøyde ca. 2,5 m, mønehøyde ca. 3,6 m
-- Ca. 3 m fra nærmeste eiendomsgrense, ca. 10 m fra bolighuset
-- Fundament på skruefundament, uten graving eller støp
-- Bruk: bod/hobbyrom og bønnerom for familien
-
-I tillegg setter vi opp en liten røykbu på ca. 1,2 m².
-Situasjonsplan med mål legges ved.
-
-Vennlig hilsen</pre>
-  <button class="btn" id="copy" type="button">Kopier e-posten</button>
 </section>
 
 <footer>
-  <p><b>Kilder.</b> Salgsoppgave og tilstandsrapport for Dyrøyveien 440 (Heimdal Eiendomsmegling, oppdrag 1-24-0249, 2024) fra Google Drive. Eiendomsgrense fra Kartverkets eiendomstjeneste (teig 56/30, nøyaktighetsklasse «gul»). Terrenghøyder fra Kartverkets DTM1 i et rutenett på 3 × 3 m. Bygningsomriss fra OpenStreetMap, bygningsnummer 183365576 og 10608252. Regler fra Frøya kommunes planbestemmelser (vedlagt salgsoppgaven) og byggesaksforskriften § 4-1.</p>
-  <p>Grensen har nøyaktighetsklasse «gul», så avvik på en meter eller mer er mulig. Mål opp fra grensemerkene på stedet før dere setter fundamenter. Bygningsomrissene fra OpenStreetMap er tegnet etter flyfoto og er ikke målt opp.</p>
+  <p><b>Kilder.</b> Salgsoppgave med bilder, tilstandsrapport og kartvedlegg for Dyrøyveien 440 (Heimdal Eiendomsmegling, oppdrag 1-24-0249, 2024, og Ambita-kart datert 28.5.2024). Eiendomsgrense fra Kartverkets eiendomstjeneste (teig 56/30). Terrenghøyder fra Kartverkets DTM1 i et rutenett på 3 × 3 m. Bygningsomriss fra OpenStreetMap, kontrollert mot kartvedlegget.</p>
+  <p>Grensen har nøyaktighetsklasse «gul», så avvik på en meter eller mer er mulig. Røykeriet og Østvang er plassert etter bilder og kan stå et par meter fra der de er tegnet.</p>
 </footer>
 </div>
 
 <script>
 (function(){
-  var M = ["Okt","Nov","Des","Jan","Feb","Mar","Apr","Mai","Jun","Jul","Aug","Sep","Okt"];
+  var M = ["Okt","Nov","Des","Jan","Feb","Mar","Apr","Mai","Jun","Jul","Aug","Sep"];
   var rows = [
-    {n:"Avklaringer", c:"b-plan", s:0, e:1},
     {n:"Overvann rundt huset", c:"b-sea", s:0, e:2},
-    {n:"Fuglekasser", c:"b-falu", s:1, e:5},
-    {n:"Bethel: fundament og gulv", c:"b-falu", s:5, e:7},
-    {n:"Bethel: vegger og tak", c:"b-falu", s:7, e:9},
-    {n:"Bethel: kledning og maling", c:"b-falu", s:9, e:11},
+    {n:"Fuglekasser: stell og nye", c:"b-falu", s:0, e:5},
+    {n:"Røykeriet: kaldrøyk inne", c:"b-falu", s:1, e:2},
+    {n:"Bethel: stolper og gulv", c:"b-falu", s:5, e:7},
     {n:"Høybed og leskjerm", c:"b-spruce", s:6, e:8},
-    {n:"Røykbua", c:"b-falu", s:10, e:12},
-    {n:"Lebusker og gjerde (valgfritt)", c:"b-spruce", s:11, e:13}
+    {n:"Bethel: tak og beis", c:"b-falu", s:7, e:9},
+    {n:"Røykeriet: fot, tak, maling", c:"b-falu", s:8, e:10},
+    {n:"Platting, Østvang, tørrmurer", c:"b-spruce", s:8, e:11}
   ];
   var tl = document.getElementById("tl"), h = '<div class="mh"></div>';
   M.forEach(function(m,i){ h += '<div class="mh">'+m+'<br>'+(i<3?"2026":"2027")+'</div>'; });
   rows.forEach(function(r){
     h += '<div class="rh">'+r.n+'</div>';
-    for (var i=0;i<13;i++){
+    for (var i=0;i<12;i++){
       if (i===r.s){ h += '<div class="bar '+r.c+'" style="grid-column:span '+(r.e-r.s)+'"></div>'; i = r.e-1; }
       else h += '<div></div>';
     }
@@ -810,26 +499,25 @@ Vennlig hilsen</pre>
   tl.innerHTML = h;
 
   var plan = [
-    ["Oktober 2026", [["Send e-posten til kommunen og søk opp kulturminnet",1],["Send gravemelding og finn septik og avløpsrør",1],["Rengjør gamle fuglekasser og felle trær på Bethel-plassen (veden lagres til Røykbua)",6],["Utkastere, skvettrenner og fall bort fra muren på vestsiden",8]]],
-    ["November", [["Led nedløpene på vestsiden i rør rundt hjørnet",4],["Kjøp bord og bygg de to første fuglekassene i garasjen",4]]],
-    ["Desember–januar", [["Bygg resten av fuglekassene og fuglebrettet",6],["Gå gjennom materiallisten for Bethel og be om prosjektpris",2]]],
-    ["Februar 2027", [["Heng opp fuglekassene innen 15. februar",2],["Bestill byggepakke til Bethel for levering i mars",1]]],
-    ["Mars", [["Stikk ut Bethel og sett ned 9 skruefundament",12],["Legg bærebjelkene",6]]],
-    ["April", [["Bjelkelag og gulvspon",10],["Sett opp høybed og leskjerm, og fyll med kvist, løv og jord",14]]],
-    ["Mai", [["Bygg og reis veggene til Bethel, med hjelp i to timer",24],["Så og plant i høybedene i slutten av mai",3]]],
-    ["Juni", [["Mønebord, sperrer og stormbeslag",12],["Takstål og takrenner på en rolig dag",12]]],
-    ["Juli", [["Vindsperre, lekter og kledning",30],["Vinduer og plankedør",10]]],
-    ["August", [["Mal Bethel med to strøk i tørt vær",16],["Mur fyrkassen og legg røykrøret til Røykbua",10]]],
-    ["September", [["Bygg røykskapet og gjør en prøvefyring",20],["Plant lebusker og eventuelt sauegjerde",16]]],
-    ["Oktober 2027", [["Første kaldrøyking",4],["Rengjør fuglekassene og ta en vedlikeholdsrunde",3]]]
+    ["Oktober 2026", [["Tøm og rengjør fuglekassene, og noter hvilke som må flyttes eller repareres",3],["Utkastere, skvettrenner og rens av grusgangen på vestsiden",6],["Klipp slyngplanten fri fra taket på Bethel",2],["Sjekk stolpeføttene på Bethel og fot og tak på Røykeriet",1]]],
+    ["November", [["Led nedløpene på vestsiden i rør rundt hjørnet",4],["Rister, termometer og kaldrøykgenerator i Røykeriet, og første kaldrøyking",4]]],
+    ["Desember–januar", [["Bygg en ny meisekasse, en stærkasse og et fuglebrett i garasjen",6],["Reparer gamle kasser og bytt feste til ståltråd",2]]],
+    ["Februar 2027", [["Heng opp nye kasser innen 15. februar",2],["Mål Bethel og bestill materialer",1],["Sett opp tørkehjell for fisk ved Røykeriet",2]]],
+    ["Mars", [["Bytt stolpeføtter på Bethel, én om gangen",8]]],
+    ["April", [["Nytt gulv i Bethel",8],["Sett opp høybed og leskjerm på vestplenen",12]]],
+    ["Mai", [["Undertak og shingel på Bethel en tørr dag over 10 °C",14],["Så og plant i høybedene",3]]],
+    ["Juni", [["Vask og beis Bethel, sett inn benk, espalier og lys",10],["Vask og olje plattingen",8]]],
+    ["Juli", [["Røykeriet: ny bunnsvill på heller og nytt tak",6],["Skrap og rødmal Røykeriet",5]]],
+    ["August", [["Østvang: murmaling og grillrist",4],["Tørrmurer: luke, legg tilbake stein, fyll på jord",6]]],
+    ["September", [["Plant lebusker og bind opp slyngplanten på espalieret",4],["Ta en runde og se om underetasjen har vært fuktig i høstregnet",1]]]
   ];
-  var key = "dyroy440-plan-v1", done = {};
+  var key = "dyroy440-plan-v2", done = {};
   try { done = JSON.parse(localStorage.getItem(key) || "{}") || {}; } catch(e){ done = {}; }
   var box = document.getElementById("months"), out = "", id = 0, totalH = 0;
   plan.forEach(function(p){
     out += '<div class="month"><h3>'+p[0]+'</h3><ul>';
     p[1].forEach(function(t){
-      var tid = "t"+(id++); totalH += t[1];
+      var tid = "v"+(id++); totalH += t[1];
       out += '<li><label for="'+tid+'"><input type="checkbox" id="'+tid+'" data-h="'+t[1]+'"'+(done[tid]?" checked":"")+'><span>'+t[0]+'</span><span class="h">'+t[1]+' t</span></label></li>';
     });
     out += '</ul></div>';
@@ -846,14 +534,5 @@ Vennlig hilsen</pre>
     update();
   });
   update();
-
-  var btn = document.getElementById("copy");
-  btn.addEventListener("click", function(){
-    var txt = document.getElementById("mail").textContent;
-    function sel(){ var r = document.createRange(); r.selectNodeContents(document.getElementById("mail")); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = "Teksten er markert. Kopier med Ctrl+C"; }
-    try {
-      navigator.clipboard.writeText(txt).then(function(){ btn.textContent = "Kopiert"; }, sel);
-    } catch(e){ sel(); }
-  });
 })();
 </script>
