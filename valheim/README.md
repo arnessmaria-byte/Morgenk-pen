@@ -26,6 +26,10 @@ Begge inneholder bare metadatafilen `_main.0.fwl2`. Resten av verdenen bygges av
 
 ## Installering
 
+Enklest på Windows: dobbeltklikk `Installer-Bossrush.bat`. Den legger begge verdenene på riktig sted og hopper over dem som allerede finnes.
+
+Manuelt:
+
 1. Lukk Valheim.
 2. Kopier mappen eller mappene fra `worlds_local/` inn i:
    - Windows: `%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds_local\`
