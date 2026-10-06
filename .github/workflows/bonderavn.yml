@@ -1,0 +1,26 @@
+name: BondeRavn
+
+on:
+  push:
+    paths:
+      - "valheim-bonderavn/**"
+      - ".github/workflows/bonderavn.yml"
+  pull_request:
+    paths:
+      - "valheim-bonderavn/**"
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: valheim-bonderavn
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - name: Bygg modden mot stubber (syntaks- og typekontroll)
+        run: dotnet build BondeRavn/BondeRavn.csproj -c Release
+      - name: Kjør scenariotester for ravnens hjerne
+        run: dotnet run --project tests/CoachBrain.Tests/CoachBrain.Tests.csproj -c Release
