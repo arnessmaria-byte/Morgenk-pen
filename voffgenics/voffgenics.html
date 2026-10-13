@@ -1,0 +1,1922 @@
+<title>Voffgenics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: kennelens oppslagstavle med stamtavlekort på kraftpapir; kampen er en inngjerdet bakgård sett ovenfra. Én bevisst lys verden. */
+:root {
+  color-scheme: light;
+  --kraft: #c99c66;
+  --kraft-2: #b4834c;
+  --paper: #f7ecd6;
+  --paper-2: #eadab7;
+  --ink: #24180d;
+  --ink-2: #5e4630;
+  --rosette: #2a52be;
+  --danger: #c3362b;
+  --heal: #2e8745;
+  --gold: #e2a524;
+  --lawn: #7aa446;
+  --lawn-2: #6f9a3e;
+  --fence: #7d4f2a;
+  --on-dark: #fff8ea;
+  --c-slass: #c3362b;
+  --c-vokt: #2a52be;
+  --c-jakt: #2e8745;
+  --c-myst: #7b3fb0;
+  --c-pleie: #e2a524;
+  --font-display: "Bagel Fat One", "Arial Black", Impact, sans-serif;
+  --font-body: "Bricolage Grotesque", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --tile: clamp(34px, calc((100vw - 52px) / 8), 66px);
+  --shadow: 3px 3px 0 var(--ink);
+}
+* { box-sizing: border-box; }
+body {
+  background-color: var(--kraft);
+  background-image: radial-gradient(rgba(70, 40, 10, .13) 1px, transparent 1.5px), radial-gradient(rgba(255, 244, 220, .16) 1px, transparent 1.5px);
+  background-size: 7px 7px, 11px 11px;
+  background-position: 0 0, 3px 5px;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.45;
+  margin: 0;
+  overflow-x: hidden;
+}
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+p { margin: 0; }
+
+.top, .wrap, .battle { max-width: 1180px; margin: 0 auto; padding-inline: 16px; }
+.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 10px 16px; padding-block: 14px 6px; }
+.logo {
+  font-family: var(--font-display); font-weight: 400; font-size: clamp(30px, 7vw, 48px); line-height: .95;
+  color: var(--paper); -webkit-text-stroke: 2.5px var(--ink); paint-order: stroke fill; text-shadow: 3px 3px 0 var(--ink);
+  letter-spacing: .01em;
+}
+.tagline { font-weight: 600; color: var(--ink-2); font-size: 13px; margin-top: 4px; }
+.meters { display: flex; flex-wrap: wrap; gap: 8px; }
+.meter {
+  background: var(--paper); border: 2px solid var(--ink); border-radius: 999px; padding: 4px 12px;
+  font-weight: 800; box-shadow: 2px 2px 0 var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.wrap { padding-block: 12px 48px; display: flex; flex-direction: column; gap: 22px; }
+.wrap.narrow { max-width: 760px; }
+.top.narrow { max-width: 760px; }
+
+.btn {
+  font: 800 15px/1.1 var(--font-body); background: var(--rosette); color: var(--on-dark); border: 2px solid var(--ink);
+  border-radius: 10px; padding: 11px 16px; box-shadow: var(--shadow); cursor: pointer;
+  transition: transform .08s, box-shadow .08s;
+}
+.btn:hover:not(:disabled) { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
+.btn:active:not(:disabled) { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.btn.ghost { background: var(--paper); color: var(--ink); }
+.btn.warn { background: var(--danger); }
+.btn.go { background: var(--heal); }
+.btn.small { padding: 6px 10px; font-size: 13px; box-shadow: 2px 2px 0 var(--ink); border-radius: 8px; }
+.btn.big { font-size: 17px; padding: 13px 20px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+
+.eyebrow { font: 600 12px/1.2 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); }
+.screen-title { font-family: var(--font-display); font-weight: 400; font-size: clamp(28px, 5vw, 40px); line-height: 1.05; }
+h2.sec { font-family: var(--font-display); font-weight: 400; font-size: 26px; line-height: 1.1; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 12px; margin-bottom: 12px; }
+.muted { color: var(--ink-2); }
+.mono { font-family: var(--font-mono); font-size: 12px; font-variant-numeric: tabular-nums; }
+
+.panel { background: var(--paper); border: 2px solid var(--ink); border-radius: 8px; box-shadow: var(--shadow); padding: 14px; min-width: 0; }
+.panel h3 { font-size: 16px; font-weight: 800; }
+.news ul { margin: 6px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 3px; }
+.intro { display: grid; gap: 10px; }
+.intro ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 70ch; }
+
+.pill {
+  display: inline-block; font: 800 10.5px/1.5 var(--font-body); text-transform: uppercase; letter-spacing: .07em;
+  border: 1.5px solid var(--ink); border-radius: 4px; padding: 0 6px; background: var(--paper); white-space: nowrap;
+}
+.pill.klar { background: #bfe0b4; }
+.pill.valp { background: #f6dc8b; }
+.pill.veteran { background: var(--ink); color: var(--paper); }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip {
+  font: 700 12px/1.2 var(--font-body); border: 1.5px solid var(--ink); border-radius: 999px; padding: 3px 9px;
+  background: #fffaf0; cursor: help;
+}
+.chip.mut { background: #dbe4fb; }
+.chip.bad { background: #f6cfc8; }
+.chip.abil { background: #fbe9b4; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 272px), 1fr)); gap: 16px; }
+.dog { background: var(--paper); border: 2px solid var(--ink); border-radius: 8px; box-shadow: var(--shadow); padding: 12px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.dog.veteran { background: var(--paper-2); }
+.dog.dim { opacity: .5; }
+.dog.cand { outline: 3px dashed var(--rosette); outline-offset: 3px; }
+.dog-head { display: flex; gap: 12px; align-items: center; }
+.pic {
+  width: 84px; height: 84px; flex: none; border: 2px solid var(--ink); border-radius: 50%; overflow: hidden;
+  background: radial-gradient(circle at 50% 40%, #fff9ee 0, var(--paper-2) 70%);
+}
+.pic.big { width: 120px; height: 120px; }
+.pic.sm { width: 52px; height: 52px; border-width: 1.5px; }
+.portrait { width: 100%; height: 100%; display: block; }
+.dog h3 { font-size: 19px; font-weight: 800; line-height: 1.1; }
+.sex { font-weight: 800; color: var(--ink-2); }
+.reg { font: 500 11.5px var(--font-mono); color: var(--ink-2); letter-spacing: .02em; }
+.id { min-width: 0; display: grid; gap: 4px; }
+.stats { display: grid; gap: 3px; }
+.stat { display: grid; grid-template-columns: 34px 1fr 20px; align-items: center; gap: 6px; font: 600 11.5px var(--font-mono); cursor: help; }
+.stat .v { text-align: right; font-variant-numeric: tabular-nums; }
+.pips { display: grid; grid-template-columns: repeat(10, 1fr); gap: 2px; }
+.pips i { height: 8px; border: 1.5px solid var(--ink); border-radius: 2px; }
+.pips i.on { background: var(--ink-2); }
+.pips i.plus { background: var(--rosette); }
+.pips i.minus { background: repeating-linear-gradient(45deg, var(--danger) 0 2px, transparent 2px 4px); }
+.lineage { font-size: 12.5px; color: var(--ink-2); }
+.derived { font: 500 11.5px var(--font-mono); color: var(--ink-2); }
+.card-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.warnline { font-size: 12.5px; font-weight: 700; }
+.warnline.naer { color: var(--danger); }
+.warnline.fjern { color: #9a5b00; }
+
+.pairs { display: flex; flex-wrap: wrap; gap: 12px; }
+.pair { display: flex; align-items: center; gap: 8px; background: #fffaf0; border: 2px solid var(--ink); border-radius: 999px; padding: 4px 6px 4px 4px; flex-wrap: wrap; }
+.pair .heart { font-family: var(--font-display); color: var(--danger); font-size: 18px; }
+.banner { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--rosette); color: var(--on-dark); border: 2px solid var(--ink); border-radius: 8px; padding: 10px 14px; box-shadow: var(--shadow); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; font-weight: 700; }
+
+details.fold summary { cursor: pointer; font-weight: 800; }
+.grave { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; font-size: 13.5px; }
+
+/* Oppsett av tur */
+.picks { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 14px; }
+.pick { background: var(--paper); border: 2px solid var(--ink); border-radius: 8px; box-shadow: var(--shadow); padding: 10px; display: grid; gap: 10px; min-width: 0; }
+.pick.on { background: #dfe7fb; }
+.pick-top { display: flex; gap: 10px; align-items: center; width: 100%; text-align: left; background: none; border: 0; padding: 0; cursor: pointer; }
+.pick-top .mono { display: block; margin-top: 3px; }
+.check { margin-left: auto; width: 26px; height: 26px; border: 2px solid var(--ink); border-radius: 6px; background: var(--paper); display: grid; place-items: center; font-weight: 800; flex: none; }
+.pick.on .check { background: var(--rosette); color: var(--on-dark); }
+.clsrow { display: flex; flex-wrap: wrap; gap: 6px; }
+.cls-btn { border: 2px solid var(--ink); background: var(--paper); border-radius: 999px; padding: 4px 10px 4px 6px; font-weight: 700; font-size: 13px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.cls-btn::before { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--cc); border: 1.5px solid var(--ink); }
+.cls-btn.on { background: var(--cc); color: var(--on-dark); }
+.cls-btn.on::before { background: var(--paper); }
+.legend { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: 10px; }
+.legend div { border-left: 6px solid var(--cc); padding-left: 10px; font-size: 13.5px; }
+.legend b { display: block; }
+.sticky-bar { position: sticky; bottom: env(safe-area-inset-bottom, 0px); background: var(--paper); border: 2px solid var(--ink); border-radius: 10px; box-shadow: var(--shadow); padding: 10px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: center; z-index: 10; }
+
+/* Turløypa */
+.party { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr)); gap: 10px; }
+.pm { display: flex; gap: 10px; align-items: center; background: var(--paper); border: 2px solid var(--ink); border-radius: 8px; padding: 8px; box-shadow: 2px 2px 0 var(--ink); min-width: 0; }
+.pm.dead { opacity: .45; }
+.pm .nm { font-weight: 800; }
+.bar { height: 9px; border: 1.5px solid var(--ink); border-radius: 4px; background: #fff6; overflow: hidden; margin-top: 4px; }
+.bar i { display: block; height: 100%; background: var(--heal); }
+.route { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.step { display: grid; grid-template-columns: 70px 1fr; gap: 10px; align-items: center; }
+.step-label { font: 600 12px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
+.nodes { display: flex; flex-wrap: wrap; gap: 10px; }
+.node { flex: 1 1 200px; display: flex; gap: 10px; align-items: center; text-align: left; background: var(--paper); border: 2px solid var(--ink); border-radius: 10px; padding: 10px 12px; min-width: 0; }
+button.node { cursor: pointer; box-shadow: var(--shadow); transition: transform .08s, box-shadow .08s; }
+button.node:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
+.node.future { border-style: dashed; background: transparent; opacity: .75; }
+.node.past { opacity: .4; background: transparent; }
+.node.chosen { opacity: 1; background: var(--paper-2); }
+.node b { display: block; }
+.node small { display: block; color: var(--ink-2); font-size: 12.5px; }
+.ico { width: 36px; height: 36px; flex: none; }
+
+/* Hendelse og nivå */
+.story { display: grid; gap: 14px; }
+.story .lead { font-size: 18px; max-width: 60ch; }
+.result { font-size: 17px; font-weight: 600; background: #fffaf0; border: 2px dashed var(--ink); border-radius: 8px; padding: 12px; }
+.lvl { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.offers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; }
+.offer { text-align: left; display: grid; gap: 6px; align-content: start; background: var(--paper); border: 2px solid var(--ink); border-radius: 10px; padding: 14px; cursor: pointer; box-shadow: var(--shadow); }
+.offer:hover { background: #fff6dc; }
+.offer b { font-size: 18px; }
+.offer small { color: var(--ink-2); font-size: 13px; }
+.offer .pill { justify-self: start; }
+.res { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.res .dead { color: var(--danger); }
+
+/* Kamp */
+.battle { padding-block: 10px 40px; display: flex; flex-direction: column; gap: 12px; }
+.bt-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 8px; }
+.bt-top h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(24px, 4.5vw, 34px); line-height: 1.05; }
+.bt-main { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
+.board-wrap { flex: none; padding: 6px; background: repeating-linear-gradient(90deg, #8a5a32 0 11px, #6c4322 11px 13px); border: 2px solid var(--ink); border-radius: 6px; box-shadow: var(--shadow); max-width: 100%; }
+.board { position: relative; display: grid; grid-template-columns: repeat(8, var(--tile)); grid-template-rows: repeat(6, var(--tile)); }
+.tile { appearance: none; border: 0; margin: 0; padding: 0; width: var(--tile); height: var(--tile); background: var(--lawn); position: relative; cursor: pointer; display: block; }
+.tile.alt { background: var(--lawn-2); }
+.tile svg { position: absolute; inset: 7%; width: 86%; height: 86%; }
+.tile.hl-move::after { content: ""; position: absolute; inset: 3px; border-radius: 7px; background: rgba(255, 252, 235, .42); border: 2px dashed rgba(36, 24, 13, .55); }
+.tile.hl-tgt::after { content: ""; position: absolute; inset: 2px; border-radius: 50%; border: 3px solid var(--danger); background: rgba(195, 54, 43, .2); }
+.tile.hl-ally::after { content: ""; position: absolute; inset: 2px; border-radius: 50%; border: 3px solid var(--heal); background: rgba(46, 135, 69, .22); }
+.tile.hl-area::after { content: ""; position: absolute; inset: 1px; border-radius: 4px; border: 2px dotted rgba(123, 63, 176, .9); }
+.tile.hl-aoe::before { content: ""; position: absolute; inset: 0; background: rgba(123, 63, 176, .42); }
+.units, .fxl { position: absolute; inset: 0; pointer-events: none; }
+.unit { position: absolute; left: 0; top: 0; width: var(--tile); height: var(--tile); transform: translate(calc(var(--x) * var(--tile)), calc(var(--y) * var(--tile))); transition: transform .09s linear; }
+.unit::after { content: ""; position: absolute; left: 14%; right: 14%; bottom: 9%; height: 16%; border-radius: 50%; background: var(--ring, var(--ink)); opacity: .6; z-index: -1; }
+.u-pic { position: absolute; inset: 3% 5% 15% 5%; transition: transform .2s, filter .2s; }
+.u-hp { position: absolute; left: 12%; right: 12%; bottom: 4%; height: 7px; background: rgba(36, 24, 13, .45); border: 1.5px solid var(--ink); border-radius: 3px; overflow: hidden; }
+.u-hp i { display: block; height: 100%; background: #6fd36a; }
+.unit.foe .u-hp i { background: #ff6a55; }
+.unit.sel::before { content: ""; position: absolute; inset: 1px; border: 3px solid var(--gold); border-radius: 50%; animation: pulse 1s ease-in-out infinite alternate; }
+.unit.done .u-pic { filter: saturate(.3) brightness(.92); }
+.unit.down .u-pic { transform: rotate(90deg) scale(.85); filter: grayscale(1) opacity(.7); }
+.unit.dead { animation: poof .45s forwards; }
+.unit.hit .u-pic { animation: shake .3s; }
+.badges { position: absolute; top: 0; right: 0; display: flex; gap: 1px; }
+.badge { font: 800 10px/1 var(--font-body); min-width: 15px; height: 15px; border-radius: 8px; border: 1.5px solid var(--ink); display: grid; place-items: center; padding: 0 2px; color: var(--on-dark); }
+.badge.sh { background: var(--rosette); }
+.badge.po { background: var(--heal); }
+.badge.ta { background: var(--gold); color: var(--ink); }
+.float { position: absolute; left: 0; top: 0; width: var(--tile); text-align: center; font: 400 19px/1 var(--font-display); color: var(--on-dark); -webkit-text-stroke: 2px var(--ink); paint-order: stroke fill; transform: translate(calc(var(--x) * var(--tile)), calc(var(--y) * var(--tile))); animation: rise .95s ease-out forwards; }
+.float.heal { color: #8cf08a; }
+.float.crit { font-size: 25px; color: #ffd23a; }
+.float.miss { font-size: 14px; }
+.legend-line { font-size: 12.5px; color: var(--ink-2); max-width: calc(var(--tile) * 8 + 12px); }
+.bt-side { flex: 1 1 290px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.sel-head { display: flex; gap: 10px; align-items: center; }
+.sub { font-size: 13px; color: var(--ink-2); }
+.hint { font-size: 13.5px; margin: 8px 0; }
+.acts { display: grid; gap: 6px; }
+.act { display: grid; grid-template-columns: 1fr auto; gap: 1px 8px; text-align: left; width: 100%; background: #fffaf0; border: 2px solid var(--ink); border-radius: 8px; padding: 7px 10px; cursor: pointer; }
+.act:hover:not(:disabled) { background: #fff1c9; }
+.act.on { background: var(--gold); }
+.act:disabled { opacity: .42; cursor: not-allowed; }
+.act b { font-weight: 800; }
+.act .cd { font: 600 11.5px var(--font-mono); align-self: center; }
+.act small { grid-column: 1 / -1; font-size: 12.5px; color: var(--ink-2); }
+.roster { display: grid; gap: 6px; }
+.roster button { display: flex; align-items: center; gap: 8px; text-align: left; border: 2px solid var(--ink); border-radius: 8px; padding: 4px 8px 4px 4px; background: #fffaf0; cursor: pointer; }
+.roster .pic.sm { width: 38px; height: 38px; }
+.log ol { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 3px; font-size: 13px; }
+.log li:first-child { font-weight: 700; }
+.endturn { width: 100%; }
+
+.overlay { position: fixed; inset: 0; background: rgba(36, 24, 13, .55); display: grid; place-items: center; padding: 16px; z-index: 50; }
+.modal { background: var(--paper); border: 3px solid var(--ink); border-radius: 12px; box-shadow: 6px 6px 0 var(--ink); max-width: 520px; width: 100%; padding: 20px; max-height: 90vh; overflow: auto; display: grid; gap: 12px; }
+.modal h2 { font-family: var(--font-display); font-weight: 400; font-size: 30px; line-height: 1.05; }
+.toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--paper); padding: 10px 16px; border-radius: 10px; width: max-content; max-width: calc(100vw - 32px); z-index: 60; font-weight: 600; box-shadow: 3px 3px 0 rgba(0, 0, 0, .25); }
+
+@keyframes pulse { from { transform: scale(.94); } to { transform: scale(1.02); } }
+@keyframes rise { from { translate: 0 0; opacity: 1; } to { translate: 0 -30px; opacity: 0; } }
+@keyframes poof { to { opacity: 0; scale: .4; } }
+@keyframes shake { 0%, 100% { translate: 0 0; } 25% { translate: -3px 0; } 75% { translate: 3px 0; } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition: none !important; }
+}
+@media (max-width: 520px) {
+  .step { grid-template-columns: 1fr; gap: 4px; }
+  .dog-head .pic { width: 72px; height: 72px; }
+}
+</style>
+
+<div id="app"></div>
+<div id="modal-root"></div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script>
+(() => {
+'use strict';
+// ===== 01-core.js =====
+// ---------- Tilfeldighet (seedet, så tester kan gjentas) ----------
+let rngState = 1;
+function seed(n) { rngState = (n >>> 0) || 1; }
+function rnd() {
+  rngState = (rngState + 0x6D2B79F5) >>> 0;
+  let t = rngState;
+  t = Math.imul(t ^ (t >>> 15), t | 1);
+  t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+  return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+}
+const ri = (a, b) => a + Math.floor(rnd() * (b - a + 1));
+const pick = arr => arr[Math.floor(rnd() * arr.length)];
+const chance = p => rnd() < p;
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
+  return arr;
+}
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const pct = p => Math.round(p * 100) + ' %';
+const man = (ax, ay, bx, by) => Math.abs(ax - bx) + Math.abs(ay - by);
+
+// ---------- Regler og data ----------
+const CAP = 12;          // plasser i kennelen
+const STEPS = 6;         // 5 steg + Kattekongen
+const ADOPT_COST = 12;
+const KURS_COST = 8;
+const GIVE_BONES = 3;
+
+const STATS = ['sty', 'smi', 'uth', 'int', 'hur', 'fla'];
+const STAT_NAME = { sty: 'Styrke', smi: 'Smidighet', uth: 'Utholdenhet', int: 'Intelligens', hur: 'Hurtighet', fla: 'Flaks' };
+const STAT_ABBR = { sty: 'STY', smi: 'SMI', uth: 'UTH', int: 'INT', hur: 'HUR', fla: 'FLA' };
+const STAT_HELP = {
+  sty: 'Skade med bitt', smi: 'Unnvikelse og kast', uth: 'Helse', int: 'Magi og helbredelse',
+  hur: 'Hvor langt hunden går', fla: 'Kritiske treff og å overleve fall',
+};
+
+const NAMES_M = ['Bamse', 'Rufus', 'Tassen', 'Pølse', 'Kuling', 'Snurre', 'Pjokk', 'Fido', 'Brutus', 'Laban', 'Trofast', 'Kasper', 'Tuppen', 'Gubben', 'Bjeffe', 'Odin', 'Rambo', 'Knøttet', 'Sjefen', 'Pluto', 'Krølle', 'Grim', 'Bølle', 'Doffen', 'Fant', 'Smulen', 'Klumpen', 'Tjukken', 'Vaffel', 'Ruskus'];
+const NAMES_F = ['Molly', 'Luna', 'Tiril', 'Bella', 'Frøya', 'Trine', 'Saga', 'Nala', 'Mira', 'Ronja', 'Dott', 'Lady', 'Tøffa', 'Snuppa', 'Bikkja', 'Perle', 'Lykke', 'Gullet', 'Mynta', 'Kanel', 'Vimsa', 'Fia', 'Tulla', 'Hera', 'Rosa', 'Sussi', 'Bitte', 'Snella', 'Polly', 'Lefse'];
+
+const FURS = [
+  { name: 'Gylden', c: '#d9a441' }, { name: 'Sjokolade', c: '#6e4225' }, { name: 'Svart', c: '#342c27' },
+  { name: 'Hvit', c: '#f4efe6' }, { name: 'Grå', c: '#9b958c' }, { name: 'Rødbrun', c: '#a8532c' },
+  { name: 'Krem', c: '#ead1a2' }, { name: 'Blåmerle', c: '#7e8ca3' },
+];
+const PATTERNS = ['ingen', 'flekker', 'maske', 'lapp', 'blis'];
+const EARS = ['heng', 'spiss', 'rund', 'lange'];
+const SNOUTS = ['kort', 'lang'];
+const EYES = ['#5a3415', '#3b6fb5', '#c98a1b'];
+
+const MUTS = {
+  treoye: { name: 'Tredje øye', desc: '+2 Intelligens', mods: { int: 2 } },
+  horn: { name: 'Horn', desc: '+2 Styrke, -1 Smidighet', mods: { sty: 2, smi: -1 } },
+  kjempetunge: { name: 'Kjempetunge', desc: 'Bitt rekker 2 ruter', mods: {} },
+  hjertenese: { name: 'Hjertenese', desc: '+2 Flaks', mods: { fla: 2 } },
+  pigg: { name: 'Pigghår', desc: 'Den som biter hunden, tar 1 skade', mods: {} },
+  kjempehode: { name: 'Kjempehode', desc: '+3 Intelligens, -2 Hurtighet', mods: { int: 3, hur: -2 } },
+  glod: { name: 'Glødeøyne', desc: '+2 Smidighet', mods: { smi: 2 } },
+  tenner: { name: 'Sabeltenner', desc: '+1 skade med bitt', mods: {} },
+  flaksorer: { name: 'Flaksører', desc: 'Ører som vinger. +2 Hurtighet', mods: { hur: 2 } },
+  kyklop: { name: 'Kyklop', desc: '+1 Styrke, -2 Smidighet', mods: { sty: 1, smi: -2 }, bad: true },
+  skjeloyd: { name: 'Skjeløyd', desc: '-2 Smidighet', mods: { smi: -2 }, bad: true },
+  harlos: { name: 'Hårløs', desc: '-2 Utholdenhet', mods: { uth: -2 }, bad: true },
+  ettore: { name: 'Ett øre', desc: '-1 Flaks, -1 Hurtighet', mods: { fla: -1, hur: -1 }, bad: true },
+  lopper: { name: 'Lopper', desc: '-1 Utholdenhet, -1 Flaks', mods: { uth: -1, fla: -1 }, bad: true },
+  skjevkjeve: { name: 'Skjev kjeve', desc: '-2 Styrke', mods: { sty: -2 }, bad: true },
+};
+const GOOD_MUTS = Object.keys(MUTS).filter(k => !MUTS[k].bad);
+const BAD_MUTS = Object.keys(MUTS).filter(k => MUTS[k].bad);
+
+const CLASSES = {
+  slass: { name: 'Slåsshund', hex: '#c3362b', hp: 2, attack: 'bitt', skill: 'storm', desc: 'Biter hardt. Stormløp: løper i rett linje og biter for ekstra skade.' },
+  vokt: { name: 'Vokter', hex: '#2a52be', hp: 6, attack: 'bitt', skill: 'vakt', desc: 'Tåler mye. Vaktbjeff: 4 skjold, og fiender i nærheten går etter vokteren.' },
+  jakt: { name: 'Jakthund', hex: '#2e8745', hp: 0, attack: 'pinne', skill: 'apport', desc: 'Kaster pinner på avstand. Apport!: treffer og dytter fienden bakover.' },
+  myst: { name: 'Mystiker', hex: '#7b3fb0', hp: 0, attack: 'gnist', skill: 'maane', desc: 'Magi som ikke kan unnvikes. Månehyl treffer et helt område, også egne.' },
+  pleie: { name: 'Pleier', hex: '#e2a524', hp: 2, attack: 'nafs', skill: 'slikk', desc: 'Slikk sår: helbreder og vekker hunder som ligger nede.' },
+};
+const CLS_ORDER = ['slass', 'vokt', 'jakt', 'myst', 'pleie'];
+
+const PASSIVES = {
+  klor: { name: 'Skarpe klør', desc: 'Passiv: +1 skade med bitt.' },
+  tykkpels: { name: 'Tykk pels', desc: 'Passiv: +4 maks helse.' },
+  snute: { name: 'Supersnute', desc: 'Passiv: +10 % sjanse for kritisk treff.' },
+  poter: { name: 'Lette poter', desc: 'Passiv: går 1 rute lenger.' },
+  seig: { name: 'Seigpining', desc: 'Passiv: +25 % sjanse for å overleve når den faller.' },
+};
+const LEARNED = ['halespinn', 'grav', 'baesj', 'rull', 'skremme', 'loppe', 'glefs', 'klor', 'tykkpels', 'snute', 'poter', 'seig'];
+
+const ENEMIES = {
+  rotte: { name: 'Rotte', hp: 5, dmg: 2, move: 3, range: [1, 1], dodge: 0.10, cost: 2 },
+  maake: { name: 'Måke', hp: 4, dmg: 2, move: 4, range: [1, 1], dodge: 0.20, cost: 2, fly: true },
+  katt: { name: 'Gatekatt', hp: 9, dmg: 3, move: 3, range: [1, 1], dodge: 0.15, cost: 4 },
+  hvese: { name: 'Hvesekatt', hp: 6, dmg: 2, move: 2, range: [2, 3], dodge: 0.10, cost: 3 },
+  kloakk: { name: 'Kloakkrotta', hp: 18, dmg: 3, move: 3, range: [1, 1], dodge: 0.05, cost: 8, poison: true },
+  konge: { name: 'Kattekongen', hp: 40, dmg: 4, move: 2, range: [1, 1], dodge: 0.05, boss: true },
+};
+const ENEMY_INFO = {
+  rotte: 'Rask og svak.', maake: 'Flyr over hindringer.', katt: 'Tøff nærkjemper.',
+  hvese: 'Hveser på avstand 2-3.', kloakk: 'Bittet gir lopper: 1 skade per runde.',
+  konge: 'Tilkaller katter hver tredje runde. Kan ikke dyttes.',
+};
+
+const PLACES = {
+  kamp: ['Bakgården', 'Parkeringsplassen', 'Lekeplassen', 'Skolegården', 'Havna', 'Søppelfyllinga', 'Kolonihagen'],
+  elite: ['Kloakken'],
+  boss: ['Kattekongens loft'],
+  hvil: ['under et epletre', 'i en varm garasje', 'på en solrik trapp', 'bak bensinstasjonen'],
+  hendelse: ['Et sted langs veien'],
+};
+const NODE_INFO = {
+  kamp: { name: 'Kamp', desc: 'Rotter, måker og katter.' },
+  elite: { name: 'Elitekamp', desc: 'Kloakkrotta. Dobbel erfaring og flere bein.' },
+  hendelse: { name: 'Hendelse', desc: 'Noe rart skjer. Dere velger hva dere gjør.' },
+  hvil: { name: 'Hvil', desc: 'Alle får tilbake 60 % helse.' },
+  boss: { name: 'Kattekongen', desc: 'Sjefen selv. Han tilkaller hjelp hver tredje runde.' },
+};
+
+// ===== 02-dogs.js =====
+// ---------- Tilstand ----------
+const SAVE_KEY = 'voffgenics-save-v1';
+let S = null;
+let HEADLESS = false; // brukes av testene: ingen tegning, ingen lagring
+let SPEED = 1;        // animasjonsfart; 0 i tester
+const UI = { pairing: null, confirm: null, setup: [], sel: null, mode: 'move', hover: null, busy: false, info: null, toastTimer: 0 };
+
+function newGame(seedVal) {
+  seed(seedVal ?? (Date.now() % 2147483647));
+  S = { v: 1, day: 1, bones: 20, wins: 0, heat: 0, nextId: 1, dogs: [], reg: {}, grave: [], pairs: [], news: [], screen: 'kennel', run: null, intro: true, bcount: 0 };
+  for (const sx of ['M', 'M', 'M', 'F', 'F', 'F']) addDog(makeStray(sx));
+  S.news = ['Seks gatehunder har flyttet inn i kennelen. Par dem, eller send dem på tur.'];
+  UI.pairing = null; UI.setup = []; UI.sel = null; UI.mode = 'move'; UI.confirm = null;
+}
+function addDog(d) { S.dogs.push(d); S.reg[d.id] = { name: d.name, mom: d.mom, dad: d.dad, sex: d.sex }; return d; }
+function newId() { return 'd' + (S.nextId++); }
+function regNo(n, day) { return `VK ${String(n).padStart(4, '0')}/${String(day).padStart(2, '0')}`; }
+const dogById = id => S.dogs.find(d => d.id === id);
+const roman = i => ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'][i] || String(i);
+function freshName(sex) {
+  const list = sex === 'F' ? NAMES_F : NAMES_M;
+  const used = new Set(S.dogs.map(d => d.name));
+  const free = list.filter(n => !used.has(n));
+  if (free.length) return pick(free);
+  const base = pick(list); let i = 2;
+  while (used.has(`${base} ${roman(i)}`)) i++;
+  return `${base} ${roman(i)}`;
+}
+function randomLook() {
+  const fur = ri(0, FURS.length - 1);
+  let patc = ri(0, FURS.length - 1); if (patc === fur) patc = (patc + 3) % FURS.length;
+  return { fur, patc, pat: pick(PATTERNS), ears: pick(EARS), snout: pick(SNOUTS), eye: ri(0, EYES.length - 1) };
+}
+function randomMut(pGood, exclude = []) {
+  const pool = (chance(pGood) ? GOOD_MUTS : BAD_MUTS).filter(m => !exclude.includes(m));
+  return pool.length ? pick(pool) : null;
+}
+function makeStray(sex) {
+  const id = newId(); const n = S.nextId - 1;
+  sex = sex || (chance(0.5) ? 'M' : 'F');
+  const stats = {}; for (const k of STATS) stats[k] = ri(2, 6);
+  const muts = []; if (chance(0.25)) muts.push(randomMut(0.7));
+  const learned = []; if (chance(0.2)) learned.push(pick(LEARNED));
+  return {
+    id, reg: regNo(n, S.day), name: freshName(sex), sex, stats, look: randomLook(), muts, learned,
+    level: 1, xp: 0, status: 'voksen', bornDay: S.day, mom: null, dad: null, gen: 0, kurs: false, scars: 0, runs: 0, wins: 0,
+  };
+}
+
+// ---------- Egenskaper ----------
+function eff(d, k) { let v = d.stats[k]; for (const m of d.muts) v += (MUTS[m].mods[k] || 0); return clamp(v, 1, 12); }
+function derive(d, cls) {
+  const st = k => eff(d, k), has = a => d.learned.includes(a), mut = m => d.muts.includes(m);
+  return {
+    maxHp: 6 + st('uth') * 2 + (cls ? CLASSES[cls].hp : 0) + (has('tykkpels') ? 4 : 0),
+    melee: 1 + Math.ceil(st('sty') / 2) + (has('klor') ? 1 : 0) + (mut('tenner') ? 1 : 0),
+    ranged: 1 + Math.floor(st('smi') / 2),
+    magic: 1 + Math.floor(st('int') / 2),
+    heal: 2 + Math.floor(st('int') / 2),
+    selfHeal: 3 + Math.floor(st('int') / 3),
+    move: 2 + Math.floor(st('hur') / 3) + (has('poter') ? 1 : 0),
+    dodge: Math.min(0.4, st('smi') * 0.03),
+    crit: Math.min(0.6, 0.03 + st('fla') * 0.04 + (has('snute') ? 0.1 : 0)),
+    save: Math.min(0.95, 0.45 + st('fla') * 0.05 + (has('seig') ? 0.25 : 0)),
+    reach: mut('kjempetunge') ? 2 : 1,
+    thorns: mut('pigg') ? 1 : 0,
+  };
+}
+function bump(d, k, n) { d.stats[k] = clamp(d.stats[k] + n, 1, 10); }
+function addMut(d, m) { if (m && !d.muts.includes(m) && d.muts.length < 3) { d.muts.push(m); return true; } return false; }
+function scar(d) {
+  const ks = STATS.filter(k => d.stats[k] > 1);
+  if (!ks.length) return 'uth';
+  const k = pick(ks); d.stats[k]--; d.scars++; return k;
+}
+function killDog(d, cause) {
+  S.dogs = S.dogs.filter(x => x.id !== d.id);
+  S.pairs = S.pairs.filter(p => !p.includes(d.id));
+  S.grave.unshift({ name: d.name, reg: d.reg, day: S.day, cause, level: d.level, gen: d.gen });
+}
+
+// ---------- Slekt og avl ----------
+function parentsOf(id) { const r = S.reg[id]; return r ? [r.mom, r.dad].filter(Boolean) : []; }
+function relation(a, b) {
+  const pa = parentsOf(a), pb = parentsOf(b);
+  if (pa.includes(b) || pb.includes(a)) return 'naer';
+  if (pa.some(x => pb.includes(x))) return 'naer';
+  const ga = pa.flatMap(parentsOf), gb = pb.flatMap(parentsOf);
+  if (ga.includes(b) || gb.includes(a)) return 'fjern';
+  if (ga.some(x => gb.includes(x))) return 'fjern';
+  if (pa.some(x => gb.includes(x)) || pb.some(x => ga.includes(x))) return 'fjern';
+  return 'ingen';
+}
+const REL_TXT = { naer: 'Nær slekt: stor risiko for defekter', fjern: 'Fjern slekt: litt risiko for defekter', ingen: 'Ikke i slekt' };
+
+function makePuppy(mom, dad) {
+  const rel = relation(mom.id, dad.id);
+  const risk = rel === 'naer' ? 0.55 : rel === 'fjern' ? 0.2 : 0;
+  const id = newId(); const n = S.nextId - 1;
+  const sex = chance(0.5) ? 'M' : 'F';
+  const stats = {};
+  for (const k of STATS) {
+    const hi = Math.max(mom.stats[k], dad.stats[k]), lo = Math.min(mom.stats[k], dad.stats[k]);
+    const v = chance(0.6) ? hi : lo;
+    let drift = 0;
+    if (chance(0.15)) drift = chance(0.5) ? 1 : -1;
+    if (risk && chance(risk * 0.5)) drift = -1;
+    stats[k] = clamp(v + drift, 1, 10);
+  }
+  const pool = [...new Set([...mom.learned, ...dad.learned])];
+  const learned = [];
+  if (pool.length && chance(0.7)) {
+    learned.push(pool.splice(Math.floor(rnd() * pool.length), 1)[0]);
+    if (pool.length && chance(0.25)) learned.push(pool.splice(Math.floor(rnd() * pool.length), 1)[0]);
+  }
+  let muts = [];
+  for (const m of new Set([...mom.muts, ...dad.muts])) if (chance(0.5)) muts.push(m);
+  let defect = null;
+  if (risk && chance(risk)) { defect = randomMut(0, muts); if (defect) muts.push(defect); }
+  if (chance(0.10)) { const m = randomMut(0.65, muts); if (m) muts.push(m); }
+  if (muts.length > 3) muts = (defect ? [defect, ...shuffle(muts.filter(m => m !== defect))] : shuffle(muts)).slice(0, 3);
+  const look = {};
+  for (const g of ['fur', 'patc', 'pat', 'ears', 'snout', 'eye']) look[g] = chance(0.5) ? mom.look[g] : dad.look[g];
+  if (chance(0.08)) look.fur = ri(0, FURS.length - 1);
+  if (chance(0.08)) look.pat = pick(PATTERNS);
+  if (chance(0.06)) look.ears = pick(EARS);
+  return {
+    id, reg: regNo(n, S.day + 1), name: freshName(sex), sex, stats, look, muts, learned,
+    level: 1, xp: 0, status: 'valp', bornDay: S.day + 1, mom: mom.id, dad: dad.id,
+    gen: Math.max(mom.gen, dad.gen) + 1, kurs: false, scars: 0, runs: 0, wins: 0, rel, defect,
+  };
+}
+function litterSize() { const r = rnd(); return r < 0.45 ? 1 : r < 0.85 ? 2 : 3; }
+const canBreed = d => d && (d.status === 'voksen' || d.status === 'veteran');
+function pairedWith(id) { const p = S.pairs.find(p => p.includes(id)); return p ? (p[0] === id ? p[1] : p[0]) : null; }
+function pairProblem(a, b) {
+  if (!a || !b) return 'Finnes ikke';
+  if (a.id === b.id) return 'Samme hund';
+  if (!canBreed(b)) return b.status === 'valp' ? 'Er valp til i morgen' : 'Kan ikke pare seg';
+  if (a.sex === b.sex) return 'Samme kjønn';
+  if (pairedWith(b.id)) return 'Allerede paret';
+  return null;
+}
+
+// Natten: valper vokser opp, parede hunder får valper, dagen går.
+function nightFall() {
+  const news = [];
+  for (const d of S.dogs) if (d.status === 'valp') { d.status = 'voksen'; news.push(`${d.name} er blitt voksen og klar for tur.`); }
+  for (const [a, b] of S.pairs) {
+    const A = dogById(a), Bd = dogById(b);
+    if (!A || !Bd) continue;
+    const mom = A.sex === 'F' ? A : Bd, dad = A.sex === 'F' ? Bd : A;
+    const free = CAP - S.dogs.length;
+    if (free <= 0) { news.push(`Det var ikke plass til valpene til ${mom.name} og ${dad.name}.`); continue; }
+    const n = Math.min(free, litterSize());
+    const pups = [];
+    for (let i = 0; i < n; i++) pups.push(addDog(makePuppy(mom, dad)));
+    let line = `${mom.name} og ${dad.name} fikk ${n === 1 ? 'én valp' : n + ' valper'}: ${pups.map(p => p.name).join(', ')}.`;
+    const def = pups.filter(p => p.defect);
+    if (def.length) line += ` Innavl: ${def.map(p => `${p.name} fikk ${MUTS[p.defect].name.toLowerCase()}`).join(', ')}.`;
+    news.push(line);
+  }
+  S.pairs = [];
+  S.day++;
+  if (!S.dogs.some(d => d.status === 'voksen' || d.status === 'valp') && S.dogs.length < CAP) {
+    const s = addDog(makeStray());
+    news.push(`En gatehund, ${s.name}, sto og ventet ved porten i morges.`);
+  }
+  S.news = news.length ? news : ['En rolig natt. Ingen nye valper.'];
+}
+
+// ---------- Portretter (tegnes fra genene) ----------
+let svgN = 0;
+function shade(hex, amt) {
+  const n = parseInt(hex.slice(1), 16);
+  let r = n >> 16, g = (n >> 8) & 255, b = n & 255;
+  const t = amt < 0 ? 0 : 255, p = Math.abs(amt);
+  r = Math.round((t - r) * p + r); g = Math.round((t - g) * p + g); b = Math.round((t - b) * p + b);
+  return '#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+}
+const INK = '#24180d';
+function eyeSVG(cx, cy, r, c, off) {
+  return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="#fff" stroke-width="2"/>` +
+    `<circle cx="${cx + off}" cy="${cy + 0.6}" r="${(r * 0.62).toFixed(2)}" fill="${c}" stroke="none"/>` +
+    `<circle cx="${cx + off}" cy="${cy + 0.6}" r="${(r * 0.3).toFixed(2)}" fill="${INK}" stroke="none"/>` +
+    `<circle cx="${(cx + off - r * 0.22).toFixed(2)}" cy="${(cy - r * 0.15).toFixed(2)}" r="${(r * 0.15).toFixed(2)}" fill="#fff" stroke="none"/>`;
+}
+function dogSVG(d, o = {}) {
+  const L = d.look, M = new Set(d.muts), id = 'vc' + (svgN++);
+  const hairless = M.has('harlos');
+  const fur = hairless ? '#ebb7a8' : FURS[L.fur].c;
+  const fur2 = hairless ? '#d99a8a' : FURS[L.patc].c;
+  const earC = shade(fur, -0.2), muz = shade(fur, 0.5);
+  const pup = d.status === 'valp';
+  const sc = (M.has('kjempehode') ? 1.1 : 1) * (pup ? 0.86 : 1);
+  const one = M.has('ettore');
+  const ears = M.has('flaksorer') ? 'vinge' : L.ears;
+  let s = `<svg class="portrait" viewBox="0 0 100 100" aria-hidden="true"><defs><clipPath id="${id}"><ellipse cx="50" cy="54" rx="31" ry="28"/></clipPath></defs>`;
+  s += `<g transform="translate(50 ${pup ? 58 : 54}) scale(${sc}) translate(-50 -54)" stroke="${INK}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">`;
+  if (ears === 'spiss') {
+    s += `<path d="M24 44 L25 12 L45 30 Z" fill="${earC}"/><path d="M29 36 L29.5 21 L39 30 Z" fill="#e7a3a0" stroke="none"/>`;
+    if (!one) s += `<path d="M76 44 L75 12 L55 30 Z" fill="${earC}"/><path d="M71 36 L70.5 21 L61 30 Z" fill="#e7a3a0" stroke="none"/>`;
+  }
+  if (ears === 'rund') { s += `<circle cx="27" cy="30" r="12" fill="${earC}"/>`; if (!one) s += `<circle cx="73" cy="30" r="12" fill="${earC}"/>`; }
+  if (ears === 'vinge') {
+    s += `<path d="M27 42 Q4 34 5 12 Q13 22 20 20 Q13 28 22 30 Q16 36 31 38 Z" fill="#f6f2ea"/>`;
+    if (!one) s += `<path d="M73 42 Q96 34 95 12 Q87 22 80 20 Q87 28 78 30 Q84 36 69 38 Z" fill="#f6f2ea"/>`;
+  }
+  if (M.has('horn')) s += `<path d="M37 30 Q30 14 38 7 Q37 19 45 27 Z" fill="#efe3c8"/><path d="M63 30 Q70 14 62 7 Q63 19 55 27 Z" fill="#efe3c8"/>`;
+  if (M.has('pigg')) s += `<path d="M27 38 L29 21 L36 30 L41 14 L47 27 L53 12 L58 27 L65 16 L69 32 Z" fill="${shade(fur2, -0.1)}"/>`;
+  s += `<ellipse cx="50" cy="54" rx="31" ry="28" fill="${fur}"/>`;
+  const pats = {
+    flekker: '<circle cx="34" cy="40" r="6"/><circle cx="66" cy="63" r="7"/><circle cx="60" cy="34" r="4"/><circle cx="27" cy="64" r="4.5"/>',
+    maske: '<ellipse cx="50" cy="47" rx="27" ry="10"/>',
+    lapp: '<circle cx="63" cy="46" r="11"/>',
+    blis: '<path d="M45 24 h10 l-1.5 32 h-7 Z"/>',
+  };
+  if (pats[L.pat]) s += `<g clip-path="url(#${id})" fill="${L.pat === 'blis' ? muz : fur2}" stroke="none">${pats[L.pat]}</g>`;
+  s += `<ellipse cx="50" cy="54" rx="31" ry="28" fill="none"/>`;
+  if (hairless) s += `<path d="M38 32 q12 -5 24 0 M41 37 q9 -4 18 0" fill="none" stroke-width="1.6"/>`;
+  if (ears === 'heng') {
+    s += `<ellipse cx="22" cy="52" rx="9" ry="18" transform="rotate(16 22 52)" fill="${earC}"/>`;
+    if (!one) s += `<ellipse cx="78" cy="52" rx="9" ry="18" transform="rotate(-16 78 52)" fill="${earC}"/>`;
+  }
+  if (ears === 'lange') {
+    s += `<ellipse cx="21" cy="62" rx="9" ry="25" transform="rotate(10 21 62)" fill="${earC}"/>`;
+    if (!one) s += `<ellipse cx="79" cy="62" rx="9" ry="25" transform="rotate(-10 79 62)" fill="${earC}"/>`;
+  }
+  const long = L.snout === 'lang';
+  s += long ? `<ellipse cx="50" cy="69" rx="14" ry="14" fill="${muz}" stroke-width="2.2"/>` : `<ellipse cx="50" cy="66" rx="17" ry="11.5" fill="${muz}" stroke-width="2.2"/>`;
+  const glow = M.has('glod');
+  const ec = glow ? '#ffd23a' : EYES[L.eye];
+  const er = pup ? 6.6 : 5.5;
+  if (M.has('kyklop')) {
+    if (glow) s += `<circle cx="50" cy="45" r="14" fill="#ffe46b" opacity=".5" stroke="none"/>`;
+    s += eyeSVG(50, 45, 9.5, ec, 0);
+  } else {
+    if (glow) s += `<circle cx="38" cy="47" r="9.5" fill="#ffe46b" opacity=".5" stroke="none"/><circle cx="62" cy="47" r="9.5" fill="#ffe46b" opacity=".5" stroke="none"/>`;
+    const off = M.has('skjeloyd') ? 1.9 : 0;
+    s += eyeSVG(38, 47, er, ec, off) + eyeSVG(62, 47, er, ec, -off);
+  }
+  if (M.has('treoye')) s += `<ellipse cx="50" cy="31" rx="4.4" ry="5.6" fill="#fff" stroke-width="2"/><circle cx="50" cy="31.6" r="2.7" fill="${ec}" stroke="none"/><circle cx="50" cy="31.6" r="1.25" fill="${INK}" stroke="none"/>`;
+  const ny = long ? 62 : 60;
+  s += M.has('hjertenese')
+    ? `<path d="M50 ${ny + 6} C40 ${ny - 1} 43 ${ny - 7} 50 ${ny - 2} C57 ${ny - 7} 60 ${ny - 1} 50 ${ny + 6} Z" fill="#d6456a" stroke-width="2"/>`
+    : `<ellipse cx="50" cy="${ny}" rx="6.2" ry="4.4" fill="${INK}"/><ellipse cx="48" cy="${ny - 1.5}" rx="1.8" ry="1" fill="#fff" stroke="none"/>`;
+  const my = ny + 4.5;
+  if (M.has('kjempetunge')) s += `<path d="M45 ${my + 4} Q45 ${my + 24} 50 ${my + 24} Q55 ${my + 24} 55 ${my + 4} Z" fill="#e8657e" stroke-width="2"/><path d="M50 ${my + 6} v10" stroke-width="1.4"/>`;
+  s += M.has('skjevkjeve')
+    ? `<path d="M50 ${my} v3 q-5 6 -11 1 M50 ${my + 3} q6 1 10 6" fill="none" stroke-width="2.4"/>`
+    : `<path d="M50 ${my} v3 q-5 5 -10 1 M50 ${my + 3} q5 5 10 1" fill="none" stroke-width="2.4"/>`;
+  if (M.has('tenner')) s += `<path d="M43 ${my + 4} l2 7 l2.5 -6 Z M53.5 ${my + 4.5} l2.5 6.5 l2 -7 Z" fill="#fff" stroke-width="1.6"/>`;
+  if (M.has('lopper')) s += `<g fill="${INK}" stroke="none"><circle cx="30" cy="40" r="1.4"/><circle cx="70" cy="38" r="1.3"/><circle cx="25" cy="58" r="1.2"/><circle cx="74" cy="64" r="1.4"/><circle cx="58" cy="78" r="1.2"/></g>`;
+  s += `</g>`;
+  if (o.cls) s += `<path d="M30 85 Q50 95 70 85 L70 92 Q50 102 30 92 Z" fill="${CLASSES[o.cls].hex}" stroke="${INK}" stroke-width="2.5"/><circle cx="50" cy="96" r="3.6" fill="#e2a524" stroke="${INK}" stroke-width="1.8"/>`;
+  return s + `</svg>`;
+}
+
+function foeSVG(type) {
+  const open = `<svg class="portrait" viewBox="0 0 100 100" aria-hidden="true"><g stroke="${INK}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">`;
+  const close = '</g></svg>';
+  if (type === 'rotte' || type === 'kloakk') {
+    const c = type === 'kloakk' ? '#6a625a' : '#a39d96', inner = '#e9a2a8';
+    let s = open + `<circle cx="27" cy="32" r="13" fill="${c}"/><circle cx="27" cy="32" r="7" fill="${inner}" stroke="none"/><circle cx="73" cy="32" r="13" fill="${c}"/><circle cx="73" cy="32" r="7" fill="${inner}" stroke="none"/>` +
+      `<path d="M24 50 Q26 30 50 30 Q74 30 76 50 Q72 70 50 90 Q28 70 24 50 Z" fill="${c}"/>` +
+      `<circle cx="40" cy="50" r="3.8" fill="#d23a2e"/><circle cx="60" cy="50" r="3.8" fill="#d23a2e"/><circle cx="50" cy="86" r="4.2" fill="#e78a95"/>` +
+      `<path d="M43 72 L21 67 M43 76 L23 81 M57 72 L79 67 M57 76 L77 81" stroke-width="1.5" fill="none"/>`;
+    if (type === 'kloakk') s += `<path d="M33 39 L47 57" stroke="#efe0c8" stroke-width="2.5"/><path d="M36 44 l5 -2 M39 49 l5 -2" stroke="#efe0c8" stroke-width="1.6"/><path d="M62 62 q2 8 0 12 q-2 -4 0 -12" fill="#8bc34a" stroke-width="1.5"/>`;
+    return s + close;
+  }
+  if (type === 'maake') {
+    return open + `<path d="M22 54 Q22 26 50 24 Q78 26 78 54 Q78 76 50 78 Q22 76 22 54 Z" fill="#f6f5ef"/>` +
+      `<path d="M30 37 L46 44 M70 37 L54 44" stroke-width="3.5"/>` +
+      `<circle cx="40" cy="49" r="4.2" fill="#f1d34a"/><circle cx="40" cy="49" r="1.8" fill="${INK}" stroke="none"/><circle cx="60" cy="49" r="4.2" fill="#f1d34a"/><circle cx="60" cy="49" r="1.8" fill="${INK}" stroke="none"/>` +
+      `<path d="M37 58 L50 93 L63 58 Q50 54 37 58 Z" fill="#f2c12e"/><circle cx="52" cy="79" r="3" fill="#d2342b" stroke="none"/>` + close;
+  }
+  const c = type === 'konge' ? '#e08a3a' : type === 'hvese' ? '#3b3533' : '#8d8478';
+  const eyeC = type === 'hvese' ? '#7fd14b' : '#d6e04a';
+  let s = open + `<path d="M24 46 L24 12 L46 30 Z" fill="${c}"/><path d="M76 46 L76 12 L54 30 Z" fill="${c}"/>` +
+    `<path d="M28 37 L28 22 L38 30 Z" fill="#e7a3a0" stroke="none"/><path d="M72 37 L72 22 L62 30 Z" fill="#e7a3a0" stroke="none"/>` +
+    `<ellipse cx="50" cy="56" rx="30" ry="26" fill="${c}"/>`;
+  if (type === 'katt') s += `<path d="M42 33 l2 8 M50 31 v9 M58 33 l-2 8" fill="none" stroke-width="2.5"/>`;
+  if (type !== 'katt') s += `<path d="M29 43 L44 48 M71 43 L56 48" fill="none"/>`;
+  s += `<ellipse cx="38" cy="54" rx="6.5" ry="5" fill="${eyeC}"/><ellipse cx="38" cy="54" rx="1.4" ry="4.2" fill="${INK}" stroke="none"/>` +
+    `<ellipse cx="62" cy="54" rx="6.5" ry="5" fill="${eyeC}"/><ellipse cx="62" cy="54" rx="1.4" ry="4.2" fill="${INK}" stroke="none"/>` +
+    `<path d="M46 63 L54 63 L50 68 Z" fill="#e78a95" stroke-width="2"/>`;
+  s += type === 'hvese'
+    ? `<path d="M40 71 Q50 85 60 71 Z" fill="#7a2230" stroke-width="2.4"/><path d="M43 72 l2 5 l2 -4.5 M53 72.5 l2 4.5 l2 -5" fill="#fff" stroke-width="1.4"/>`
+    : `<path d="M50 68 v3 q-4 4 -8 1 M50 71 q4 4 8 1" fill="none" stroke-width="2.4"/>`;
+  s += `<path d="M35 67 L15 63 M35 71 L17 75 M65 67 L85 63 M65 71 L83 75" fill="none" stroke-width="1.5"/>`;
+  if (type === 'konge') s += `<path d="M30 31 L27 7 L40 20 L50 3 L60 20 L73 7 L70 31 Z" fill="#e2a524"/><circle cx="50" cy="21" r="3.2" fill="#c3362b" stroke-width="1.5"/>`;
+  return s + close;
+}
+
+// ===== 03-battle.js =====
+// ---------- Kampmotor ----------
+const DIRS = [[1, 0], [-1, 0], [0, 1], [0, -1]];
+const inB = (B, x, y) => x >= 0 && y >= 0 && x < B.w && y < B.h;
+const tileAt = (B, x, y) => B.tiles[y * B.w + x];
+const unitAt = (B, x, y) => B.units.find(u => !u.dead && u.x === x && u.y === y);
+const foesOf = (B, u) => B.units.filter(o => !o.dead && !o.down && o.side !== u.side);
+const isFree = (B, x, y) => inB(B, x, y) && tileAt(B, x, y) === 0 && !unitAt(B, x, y);
+function say(B, txt) { B.log.push(txt); if (B.log.length > 40) B.log.shift(); }
+function fx(B, t, u, v) { if (!HEADLESS) B.fx.push({ t, id: u.id, x: u.x, y: u.y, v }); }
+function foesWithin(B, u, min, max) {
+  return foesOf(B, u).filter(o => { const d = man(u.x, u.y, o.x, o.y); return d >= min && d <= max; }).map(o => ({ x: o.x, y: o.y }));
+}
+const self = u => [{ x: u.x, y: u.y }];
+
+const ACTIONS = {
+  bitt: { name: 'Bitt', cd: 0, desc: 'Biter en fiende inntil seg.', val: u => `${u.melee} skade`,
+    targets: (B, u) => foesWithin(B, u, 1, u.reach),
+    exec(B, u, x, y) { strike(B, u, unitAt(B, x, y), u.melee, { melee: true }); } },
+  nafs: { name: 'Nafs', cd: 0, desc: 'Et lite bitt i en fiende inntil seg.', val: u => `${Math.max(1, u.melee - 1)} skade`,
+    targets: (B, u) => foesWithin(B, u, 1, u.reach),
+    exec(B, u, x, y) { strike(B, u, unitAt(B, x, y), Math.max(1, u.melee - 1), { melee: true }); } },
+  pinne: { name: 'Kast pinne', cd: 0, desc: 'Treffer en fiende 1-4 ruter unna.', val: u => `${u.ranged} skade`,
+    targets: (B, u) => foesWithin(B, u, 1, 4),
+    exec(B, u, x, y) { strike(B, u, unitAt(B, x, y), u.ranged, {}); } },
+  gnist: { name: 'Gnistsnute', cd: 0, desc: 'Magi 1-3 ruter unna. Kan ikke unnvikes.', val: u => `${u.magic} skade`,
+    targets: (B, u) => foesWithin(B, u, 1, 3),
+    exec(B, u, x, y) { strike(B, u, unitAt(B, x, y), u.magic, { magic: true }); } },
+  storm: { name: 'Stormløp', cd: 2, desc: 'Løper i rett linje mot en fiende 2-5 ruter unna og biter.', val: u => `${u.melee + 2} skade`,
+    targets(B, u) {
+      const out = [];
+      for (const o of foesOf(B, u)) {
+        if (o.x !== u.x && o.y !== u.y) continue;
+        const d = man(u.x, u.y, o.x, o.y); if (d < 2 || d > 5) continue;
+        const sx = Math.sign(o.x - u.x), sy = Math.sign(o.y - u.y); let ok = true;
+        for (let i = 1; i < d; i++) if (!isFree(B, u.x + sx * i, u.y + sy * i)) { ok = false; break; }
+        if (ok) out.push({ x: o.x, y: o.y });
+      }
+      return out;
+    },
+    exec(B, u, x, y) { const sx = Math.sign(x - u.x), sy = Math.sign(y - u.y); u.x = x - sx; u.y = y - sy; say(B, `${u.name} stormer fram!`); strike(B, u, unitAt(B, x, y), u.melee + 2, { melee: true }); } },
+  vakt: { name: 'Vaktbjeff', cd: 2, self: true, desc: 'Får 4 skjold. Fiender i nærheten går etter vokteren.', val: () => '4 skjold',
+    targets: (B, u) => self(u),
+    exec(B, u) { u.shield += 4; u.taunt = true; say(B, `${u.name} bjeffer: VOFF! Kom igjen!`); fx(B, 'shield', u, 4); } },
+  apport: { name: 'Apport!', cd: 1, desc: 'Treffer 1-4 ruter unna og dytter målet ett hakk bakover.', val: u => `${u.ranged + 1} skade`,
+    targets: (B, u) => foesWithin(B, u, 1, 4),
+    exec(B, u, x, y) { const t = unitAt(B, x, y); strike(B, u, t, u.ranged + 1, {}); if (t && !t.dead) push(B, u, t); } },
+  maane: { name: 'Månehyl', cd: 2, area: true, desc: 'Treffer alle i et 3x3-område opptil 3 ruter unna, også egne hunder.', val: u => `${u.magic} skade`,
+    targets(B, u) {
+      const out = [];
+      for (let y = 0; y < B.h; y++) for (let x = 0; x < B.w; x++) if (man(u.x, u.y, x, y) <= 3) out.push({ x, y });
+      return out;
+    },
+    exec(B, u, x, y) {
+      say(B, `${u.name} hyler mot månen!`);
+      for (const o of B.units.slice()) if (o !== u && !o.dead && !o.down && Math.abs(o.x - x) <= 1 && Math.abs(o.y - y) <= 1) strike(B, u, o, u.magic, { magic: true });
+    } },
+  slikk: { name: 'Slikk sår', cd: 1, ally: true, desc: 'Helbreder seg selv eller en hund inntil seg. Vekker hunder som ligger nede.', val: u => `+${u.heal} helse`,
+    targets: (B, u) => B.units.filter(o => o.side === 'dog' && !o.dead && man(u.x, u.y, o.x, o.y) <= 1 && o.hp < o.maxHp).map(o => ({ x: o.x, y: o.y })),
+    exec(B, u, x, y) { const t = unitAt(B, x, y); if (t) { say(B, `${u.name} slikker ${t === u ? 'sine egne' : t.name + ' sine'} sår.`); healUnit(B, t, u.heal); } } },
+  halespinn: { name: 'Halespinn', cd: 2, self: true, desc: 'Treffer alle fiender rundt seg, også på skrå.', val: u => `${Math.max(1, u.melee - 1)} skade`,
+    targets: (B, u) => foesOf(B, u).some(o => Math.max(Math.abs(o.x - u.x), Math.abs(o.y - u.y)) <= 1) ? self(u) : [],
+    exec(B, u) { say(B, `${u.name} jager halen sin i full fart!`); for (const o of foesOf(B, u)) if (Math.max(Math.abs(o.x - u.x), Math.abs(o.y - u.y)) <= 1) strike(B, u, o, Math.max(1, u.melee - 1), { melee: true }); } },
+  grav: { name: 'Grav tunnel', cd: 2, desc: 'Graver seg til en ledig rute opptil 5 ruter unna.', val: () => 'flytt',
+    targets(B, u) { const out = []; for (let y = 0; y < B.h; y++) for (let x = 0; x < B.w; x++) { const d = man(u.x, u.y, x, y); if (d >= 1 && d <= 5 && isFree(B, x, y)) out.push({ x, y }); } return out; },
+    exec(B, u, x, y) { u.x = x; u.y = y; say(B, `${u.name} graver seg under bakken og dukker opp et annet sted.`); } },
+  baesj: { name: 'Legg bæsj', cd: 2, desc: 'Lager en hindring ved siden av seg. Fiender inntil den tar 1 skade hver runde.', val: () => 'hindring',
+    targets: (B, u) => DIRS.map(([dx, dy]) => ({ x: u.x + dx, y: u.y + dy })).filter(t => isFree(B, t.x, t.y)),
+    exec(B, u, x, y) { B.tiles[y * B.w + x] = 2; say(B, `${u.name} legger en bæsj. Det lukter fryktelig.`); } },
+  rull: { name: 'Rull i gresset', cd: 3, self: true, desc: 'Helbreder seg selv.', val: u => `+${u.selfHeal} helse`,
+    targets: (B, u) => u.hp < u.maxHp ? self(u) : [],
+    exec(B, u) { say(B, `${u.name} ruller seg i gresset.`); healUnit(B, u, u.selfHeal); } },
+  skremme: { name: 'Skremmebjeff', cd: 1, self: true, desc: 'Fiender inntil hunden tar 1 skade og dyttes ett hakk unna.', val: () => '1 skade',
+    targets: (B, u) => foesWithin(B, u, 1, 1).length ? self(u) : [],
+    exec(B, u) { say(B, `${u.name} bjeffer så det runger!`); for (const o of foesOf(B, u)) if (man(u.x, u.y, o.x, o.y) === 1) { hurt(B, o, 1, false); if (!o.dead) push(B, u, o); } } },
+  loppe: { name: 'Loppeskyss', cd: 1, desc: 'Gir en fiende 1-2 ruter unna lopper: 1 skade per runde i 3 runder.', val: () => '3 skade over tid',
+    targets: (B, u) => foesWithin(B, u, 1, 2),
+    exec(B, u, x, y) { const t = unitAt(B, x, y); if (t) { t.poison = 3; say(B, `${u.name} rister lopper over på ${t.name}.`); } } },
+  glefs: { name: 'Dobbeltglefs', cd: 1, desc: 'Biter samme fiende to ganger.', val: u => `2 x ${Math.max(1, u.melee - 1)} skade`,
+    targets: (B, u) => foesWithin(B, u, 1, u.reach),
+    exec(B, u, x, y) { const t = unitAt(B, x, y); strike(B, u, t, Math.max(1, u.melee - 1), { melee: true }); if (t && !t.dead && !u.down) strike(B, u, t, Math.max(1, u.melee - 1), { melee: true }); } },
+};
+const abil = id => ACTIONS[id] || PASSIVES[id];
+
+function strike(B, src, tgt, base, o = {}) {
+  if (!tgt || tgt.dead || tgt.down) return;
+  if (!o.magic && chance(tgt.dodge || 0)) { say(B, `${tgt.name} unnviker ${src.name}.`); fx(B, 'miss', tgt, 0); return; }
+  let dmg = base, crit = false;
+  if (chance(src.crit || 0)) { dmg *= 2; crit = true; }
+  say(B, `${src.name} treffer ${tgt.name} for ${dmg}${crit ? ' (kritisk!)' : ''}.`);
+  hurt(B, tgt, dmg, crit);
+  if (o.melee && tgt.thorns && !src.dead && !src.down) { say(B, `Au! ${src.name} stikker seg på pigghåret.`); hurt(B, src, tgt.thorns, false); }
+  if (o.poison && !tgt.dead && !tgt.down) tgt.poison = 3;
+}
+function hurt(B, tgt, dmg, crit) {
+  if (tgt.dead || tgt.down) return;
+  if (tgt.shield > 0) { const a = Math.min(tgt.shield, dmg); tgt.shield -= a; dmg -= a; }
+  tgt.hp = Math.max(0, tgt.hp - dmg);
+  fx(B, crit ? 'crit' : 'dmg', tgt, dmg);
+  if (tgt.hp <= 0) {
+    if (tgt.side === 'dog') { tgt.down = true; tgt.poison = 0; tgt.taunt = false; tgt.shield = 0; tgt.acted = true; say(B, `${tgt.name} ligger nede!`); }
+    else { tgt.dead = true; say(B, `${tgt.name} er beseiret.`); }
+  }
+  checkOver(B);
+}
+function healUnit(B, t, amt) {
+  const before = t.hp;
+  t.hp = Math.min(t.maxHp, t.hp + amt);
+  if (t.down && t.hp > 0) { t.down = false; t.moved = true; t.acted = true; say(B, `${t.name} reiser seg igjen!`); }
+  fx(B, 'heal', t, t.hp - before);
+}
+function push(B, src, tgt) {
+  if (tgt.dead || tgt.down) return;
+  if (tgt.boss) { say(B, `${tgt.name} rikker seg ikke.`); return; }
+  let dx = Math.sign(tgt.x - src.x), dy = Math.sign(tgt.y - src.y);
+  if (dx && dy) { if (Math.abs(tgt.x - src.x) >= Math.abs(tgt.y - src.y)) dy = 0; else dx = 0; }
+  if (!dx && !dy) return;
+  const nx = tgt.x + dx, ny = tgt.y + dy;
+  if (isFree(B, nx, ny)) { tgt.x = nx; tgt.y = ny; }
+  else { say(B, `${tgt.name} smeller inn i noe.`); hurt(B, tgt, 1, false); }
+}
+function checkOver(B) {
+  if (B.over) return;
+  if (!B.units.some(u => u.side === 'enemy' && !u.dead)) B.over = 'win';
+  else if (!B.units.some(u => u.side === 'dog' && !u.down && !u.dead)) B.over = 'loss';
+}
+
+// Bevegelse: bredde-først-søk. Egne enheter kan passeres, fiender ikke. Flygere går over alt.
+function reach(B, u) {
+  const map = new Map(), ends = new Map();
+  map.set(u.x + ',' + u.y, { d: 0, prev: null });
+  const q = [[u.x, u.y]];
+  while (q.length) {
+    const [x, y] = q.shift(); const d = map.get(x + ',' + y).d;
+    if (d >= u.move) continue;
+    for (const [dx, dy] of DIRS) {
+      const nx = x + dx, ny = y + dy; if (!inB(B, nx, ny)) continue;
+      const k = nx + ',' + ny; if (map.has(k)) continue;
+      const t = tileAt(B, nx, ny), o = unitAt(B, nx, ny);
+      if (!u.fly && t !== 0) continue;
+      if (!u.fly && o && o.side !== u.side && !o.down) continue; // nede hunder kan man gå over, men ikke stå på
+      map.set(k, { d: d + 1, prev: x + ',' + y }); q.push([nx, ny]);
+      if (t === 0 && !o) ends.set(k, d + 1);
+    }
+  }
+  return { map, ends };
+}
+function pathTo(map, x, y) {
+  const out = []; let k = x + ',' + y;
+  while (k) { const n = map.get(k); if (!n || n.prev === null) break; out.push(k.split(',').map(Number)); k = n.prev; }
+  return out.reverse();
+}
+// Avstandskart fra målene, uten å ta hensyn til enheter (de flytter seg uansett).
+function distField(B, targets, fly) {
+  const f = new Array(B.w * B.h).fill(-1); const q = [];
+  for (const t of targets) { f[t.y * B.w + t.x] = 0; q.push([t.x, t.y]); }
+  while (q.length) {
+    const [x, y] = q.shift(); const d = f[y * B.w + x];
+    for (const [dx, dy] of DIRS) {
+      const nx = x + dx, ny = y + dy; if (!inB(B, nx, ny)) continue;
+      const i = ny * B.w + nx; if (f[i] >= 0) continue;
+      if (!fly && B.tiles[i] !== 0) continue;
+      f[i] = d + 1; q.push([nx, ny]);
+    }
+  }
+  return f;
+}
+
+function makeDogUnit(B, pm, x, y) {
+  const d = dogById(pm.dogId), D = derive(d, pm.cls), C = CLASSES[pm.cls];
+  const actions = [C.attack, C.skill, ...d.learned.filter(a => ACTIONS[a])];
+  return Object.assign({
+    id: 'u' + (B.uid++), side: 'dog', dogId: d.id, name: d.name, cls: pm.cls, x, y,
+    hp: clamp(pm.hp, 1, D.maxHp), actions, cds: {}, shield: 0, taunt: false, poison: 0,
+    down: false, dead: false, moved: false, acted: false, from: null,
+  }, D);
+}
+function makeEnemy(B, type, x, y, scale) {
+  const T = ENEMIES[type], hp = Math.round(T.hp * scale.hp);
+  return {
+    id: 'e' + (B.uid++), side: 'enemy', type, name: T.name, x, y, hp, maxHp: hp, dmg: T.dmg + scale.dmg,
+    move: T.move, range: T.range, dodge: T.dodge, crit: 0.05, fly: !!T.fly, boss: !!T.boss, poisonAtk: !!T.poison,
+    poison: 0, shield: 0, dead: false, acted: false, thorns: 0,
+  };
+}
+function connected(tiles, W, H) {
+  const start = tiles.indexOf(0); if (start < 0) return false;
+  const seen = new Set([start]); const q = [start];
+  while (q.length) {
+    const i = q.shift(); const x = i % W, y = (i / W) | 0;
+    for (const [dx, dy] of DIRS) {
+      const nx = x + dx, ny = y + dy; if (nx < 0 || ny < 0 || nx >= W || ny >= H) continue;
+      const j = ny * W + nx; if (tiles[j] !== 0 || seen.has(j)) continue;
+      seen.add(j); q.push(j);
+    }
+  }
+  return seen.size === tiles.filter(t => t === 0).length;
+}
+function encounter(node, step) {
+  if (node.t === 'boss') return S.heat > 0 ? ['katt', 'katt', 'hvese'] : ['katt', 'katt'];
+  const list = []; let budget = 5 + step * 3;
+  if (node.t === 'elite') { list.push('kloakk'); budget = Math.max(3, budget - 6); }
+  const pool = step === 0 ? ['rotte', 'rotte', 'maake'] : step === 1 ? ['rotte', 'maake', 'hvese', 'katt'] : ['rotte', 'maake', 'hvese', 'katt', 'katt'];
+  let guard = 0;
+  while (budget >= 2 && list.length < 6 && guard++ < 60) { const t = pick(pool); if (ENEMIES[t].cost <= budget) { list.push(t); budget -= ENEMIES[t].cost; } }
+  return list;
+}
+function makeBattle(node, step) {
+  S.bcount = (S.bcount || 0) + 1;
+  const W = 8, H = 6;
+  let tiles, deco;
+  for (let tries = 0; tries < 40; tries++) {
+    tiles = new Array(W * H).fill(0); deco = new Array(W * H).fill(0);
+    const n = ri(4, 7);
+    for (let i = 0; i < n; i++) { const x = ri(2, 5), y = ri(0, H - 1); tiles[y * W + x] = 1; deco[y * W + x] = ri(0, 2); }
+    if (connected(tiles, W, H)) break;
+    tiles.fill(0);
+  }
+  const scale = { hp: 1 + 0.06 * step + 0.2 * S.heat, dmg: Math.floor(S.heat / 2) + (step >= 4 ? 1 : 0) };
+  const B = { id: 'b' + S.bcount, w: W, h: H, tiles, deco, units: [], uid: 1, round: 0, phase: 'player', log: [], fx: [], over: null, kind: node.t, place: node.place, scale, ticked: false };
+  const dogSpots = []; for (let y = 0; y < H; y++) for (let x = 0; x <= 1; x++) dogSpots.push([x, y]);
+  shuffle(dogSpots);
+  alive().forEach((pm, i) => { const [x, y] = dogSpots[i]; B.units.push(makeDogUnit(B, pm, x, y)); });
+  let foeSpots = []; for (let y = 0; y < H; y++) for (let x = 6; x <= 7; x++) foeSpots.push([x, y]);
+  if (node.t === 'boss') {
+    const by = ri(2, 3); B.units.push(makeEnemy(B, 'konge', 7, by, scale));
+    foeSpots = foeSpots.filter(([x, y]) => !(x === 7 && y === by));
+  }
+  shuffle(foeSpots);
+  for (const t of encounter(node, step)) { const sp = foeSpots.pop(); if (sp) B.units.push(makeEnemy(B, t, sp[0], sp[1], scale)); }
+  say(B, `${B.place}: ${B.units.filter(u => u.side === 'enemy').map(u => u.name).join(', ')}.`);
+  startPlayerPhase(B);
+  return B;
+}
+
+function startPlayerPhase(B) {
+  B.round++; B.phase = 'player'; B.ticked = false;
+  B.units = B.units.filter(u => !u.dead);
+  for (const u of B.units) {
+    if (u.side !== 'dog') continue;
+    u.shield = 0; u.taunt = false; u.from = null;
+    for (const k in u.cds) if (u.cds[k] > 0) u.cds[k]--;
+    if (u.poison > 0 && !u.down) { u.poison--; say(B, `${u.name} klør seg (lopper).`); hurt(B, u, 1, false); }
+    u.moved = u.down; u.acted = u.down;
+  }
+  if (!B.over) say(B, `Runde ${B.round}. Din tur.`);
+}
+function execAction(B, u, id, x, y) {
+  const A = ACTIONS[id];
+  A.exec(B, u, x, y);
+  if (A.cd) u.cds[id] = A.cd + 1;
+  u.acted = true; u.moved = true;
+  checkOver(B);
+}
+
+// ---------- Fiendenes hjerne ----------
+function planEnemy(B, e) {
+  const dogs = B.units.filter(u => u.side === 'dog' && !u.down && !u.dead);
+  if (!dogs.length) return { path: [], target: null };
+  const R = reach(B, e);
+  const spots = [[e.x, e.y, 0], ...[...R.ends].map(([k, d]) => [...k.split(',').map(Number), d])];
+  const taunters = dogs.filter(d => d.taunt && man(e.x, e.y, d.x, d.y) <= e.move + e.range[1] + 2);
+  const pool = taunters.length ? taunters : dogs;
+  let best = null;
+  for (const [x, y, steps] of spots) {
+    for (const d of pool) {
+      const dist = man(x, y, d.x, d.y);
+      if (dist < e.range[0] || dist > e.range[1]) continue;
+      const score = -d.hp * 2 + (e.range[1] > 1 ? dist * 3 : 0) - steps * 0.1 + rnd() * 0.5;
+      if (!best || score > best.score) best = { score, x, y, target: d };
+    }
+  }
+  if (best) return { path: pathTo(R.map, best.x, best.y), target: best.target };
+  const field = distField(B, pool, e.fly);
+  let bt = null;
+  for (const [x, y, steps] of spots) {
+    const f = field[y * B.w + x]; const v = f < 0 ? 999 : f;
+    if (!bt || v < bt.v || (v === bt.v && steps < bt.steps)) bt = { v, x, y, steps };
+  }
+  return { path: bt ? pathTo(R.map, bt.x, bt.y) : [], target: null };
+}
+function nearPoop(B, e) { return DIRS.some(([dx, dy]) => inB(B, e.x + dx, e.y + dy) && tileAt(B, e.x + dx, e.y + dy) === 2); }
+function freeTiles(B) { const out = []; for (let y = 0; y < B.h; y++) for (let x = 0; x < B.w; x++) if (isFree(B, x, y)) out.push([x, y]); return out; }
+
+const wait = ms => (SPEED <= 0 || HEADLESS) ? Promise.resolve() : new Promise(r => setTimeout(r, ms * SPEED));
+async function animatePath(B, u, path) {
+  for (const [x, y] of path) { u.x = x; u.y = y; render(); await wait(85); }
+}
+async function enemyAct(B, e) {
+  if (e.boss && B.round % 3 === 0) {
+    const n = B.units.filter(o => o.side === 'enemy' && !o.dead).length;
+    if (n < 7) {
+      const spots = shuffle(freeTiles(B).filter(([x]) => x >= 5)).slice(0, 2);
+      for (const [x, y] of spots) { const c = makeEnemy(B, 'katt', x, y, B.scale); c.acted = true; B.units.push(c); }
+      if (spots.length) { say(B, 'Kattekongen roper på hjelp! Nye katter dukker opp.'); render(); await wait(400); return; }
+    }
+  }
+  const plan = planEnemy(B, e);
+  if (plan.path.length) await animatePath(B, e, plan.path);
+  if (plan.target && !plan.target.down && !e.dead) {
+    await wait(120);
+    strike(B, e, plan.target, e.dmg, { melee: e.range[1] === 1, poison: e.poisonAtk });
+    render(); await wait(280);
+  }
+}
+async function enemyPhase(B) {
+  B.phase = 'enemy'; UI.busy = true; render();
+  if (!B.ticked) {
+    B.ticked = true;
+    for (const e of B.units.filter(o => o.side === 'enemy' && !o.dead)) {
+      if (e.poison > 0) { e.poison--; say(B, `${e.name} klør seg (lopper).`); hurt(B, e, 1, false); }
+      if (!e.dead && nearPoop(B, e)) { say(B, `${e.name} kveles av bæsjestank.`); hurt(B, e, 1, false); }
+    }
+    render(); await wait(250);
+  }
+  for (const e of B.units.filter(o => o.side === 'enemy' && !o.dead && !o.acted)) {
+    if (B.over) break;
+    if (e.dead) continue;
+    await enemyAct(B, e);
+    e.acted = true;
+    render(); await wait(120);
+  }
+  for (const e of B.units) if (e.side === 'enemy') e.acted = false;
+  UI.busy = false;
+  if (!B.over) startPlayerPhase(B);
+  render();
+}
+
+// ---------- Autospiller (brukes av testene og til balansering) ----------
+function actionDamage(u, id) {
+  return { bitt: u.melee, nafs: Math.max(1, u.melee - 1), pinne: u.ranged, gnist: u.magic, storm: u.melee + 2, apport: u.ranged + 1, glefs: 2 * Math.max(1, u.melee - 1) }[id] || 0;
+}
+function scoreAction(B, u, id, t) {
+  const tu = unitAt(B, t.x, t.y);
+  const adj8 = o => Math.max(Math.abs(o.x - u.x), Math.abs(o.y - u.y)) <= 1;
+  switch (id) {
+    case 'slikk': if (!tu) return 0; if (tu.down) return 30; return (tu.maxHp - tu.hp) >= 3 ? (tu.maxHp - tu.hp) * 1.5 : 0;
+    case 'rull': return (u.maxHp - u.hp) >= 5 ? 6 : 0;
+    case 'vakt': return foesOf(B, u).some(e => man(e.x, e.y, u.x, u.y) <= 4) ? 5 : 0;
+    case 'grav': return 0;
+    case 'baesj': return foesOf(B, u).some(e => man(e.x, e.y, t.x, t.y) <= 1) ? 2.5 : 0;
+    case 'loppe': return tu && !tu.poison ? Math.min(3, tu.hp) : 0;
+    case 'maane': {
+      let s = 0;
+      for (const o of B.units) if (!o.dead && !o.down && o !== u && Math.abs(o.x - t.x) <= 1 && Math.abs(o.y - t.y) <= 1)
+        s += o.side === 'enemy' ? Math.min(o.hp, u.magic) + (o.hp <= u.magic ? 4 : 0) : -u.magic * 2;
+      return s;
+    }
+    case 'halespinn': { let s = 0; for (const e of foesOf(B, u)) if (adj8(e)) s += Math.min(e.hp, Math.max(1, u.melee - 1)) + 0.5; return s > 3 ? s : 0; }
+    case 'skremme': { let s = 0; for (const e of foesOf(B, u)) if (man(e.x, e.y, u.x, u.y) === 1) s += 1.5; return s; }
+    default: {
+      if (!tu || tu.side === u.side) return 0;
+      const d = actionDamage(u, id);
+      return Math.min(tu.hp, d) + (tu.hp <= d ? 5 : 0) + (ACTIONS[id].cd ? 0.5 : 0);
+    }
+  }
+}
+function autoDog(B, u) {
+  const R = reach(B, u);
+  const ox = u.x, oy = u.y;
+  const spots = [[ox, oy], ...[...R.ends.keys()].map(k => k.split(',').map(Number))];
+  let best = null;
+  for (const [x, y] of spots) {
+    u.x = x; u.y = y;
+    for (const id of u.actions) {
+      if ((u.cds[id] || 0) > 0) continue;
+      for (const t of ACTIONS[id].targets(B, u)) {
+        const sc = scoreAction(B, u, id, t) - man(ox, oy, x, y) * 0.01;
+        if (sc > 0 && (!best || sc > best.sc)) best = { sc, x, y, id, t };
+      }
+    }
+  }
+  u.x = ox; u.y = oy;
+  if (best) { u.x = best.x; u.y = best.y; execAction(B, u, best.id, best.t.x, best.t.y); return; }
+  const foes = foesOf(B, u);
+  if (foes.length) {
+    const field = distField(B, foes, false); let bt = null;
+    for (const [x, y] of spots) { const f = field[y * B.w + x]; const v = f < 0 ? 999 : f; if (!bt || v < bt.v) bt = { v, x, y }; }
+    if (bt) { u.x = bt.x; u.y = bt.y; }
+  }
+  u.acted = true; u.moved = true;
+}
+function autoDogs(B) {
+  for (const u of B.units.filter(o => o.side === 'dog' && !o.down && !o.acted)) { if (B.over) return; if (!u.down) autoDog(B, u); }
+}
+async function simBattle(B) {
+  while (!B.over && B.round <= 60) {
+    autoDogs(B);
+    if (B.over) break;
+    await enemyPhase(B);
+  }
+  return B;
+}
+function battleProblems(B) {
+  const errs = [], seen = new Set();
+  for (const u of B.units) {
+    if (u.dead) continue;
+    const k = u.x + ',' + u.y;
+    if (seen.has(k)) errs.push(`to enheter på ${k}`); seen.add(k);
+    if (!inB(B, u.x, u.y)) errs.push(`${u.name} utenfor brettet`);
+    else if (tileAt(B, u.x, u.y) !== 0) errs.push(`${u.name} står på hindring ${k}`);
+    if (!Number.isFinite(u.hp) || u.hp < 0 || u.hp > u.maxHp) errs.push(`${u.name} har ugyldig helse ${u.hp}/${u.maxHp}`);
+  }
+  return errs;
+}
+
+// ===== 04-run.js =====
+// ---------- Turen ----------
+const alive = () => S.run ? S.run.party.filter(p => !p.dead) : [];
+const pmOf = id => S.run && S.run.party.find(p => p.dogId === id);
+const maxHpOf = pm => derive(dogById(pm.dogId), pm.cls).maxHp;
+const healPm = (pm, n) => { pm.hp = clamp(pm.hp + n, 1, maxHpOf(pm)); };
+
+function rollNode(step, avoid) {
+  const w = [['kamp', 40], ['hendelse', 25], ['hvil', step >= 2 ? 15 : 8], ['elite', step >= 2 ? 20 : 0]];
+  for (let tries = 0; tries < 20; tries++) {
+    let r = rnd() * w.reduce((s, x) => s + x[1], 0), t = 'kamp';
+    for (const [k, v] of w) { if (r < v) { t = k; break; } r -= v; }
+    if (!avoid || t !== avoid.t || t === 'kamp') return { t, place: pick(PLACES[t]) };
+  }
+  return { t: 'kamp', place: pick(PLACES.kamp) };
+}
+function genNodes() {
+  const steps = [];
+  const a = pick(PLACES.kamp); let b = pick(PLACES.kamp); if (b === a) b = PLACES.kamp[(PLACES.kamp.indexOf(a) + 1) % PLACES.kamp.length];
+  steps.push([{ t: 'kamp', place: a }, { t: 'kamp', place: b }]);
+  for (let s = 1; s < STEPS - 1; s++) { const x = rollNode(s); steps.push([x, rollNode(s, x)]); }
+  steps.push([{ t: 'boss', place: PLACES.boss[0] }]);
+  return steps;
+}
+function suggestClass(d, used) {
+  const st = k => eff(d, k);
+  const score = { slass: st('sty') * 1.2 + st('uth') * 0.3, vokt: st('uth') * 1.2 + st('sty') * 0.3, jakt: st('smi') * 1.2 + st('hur') * 0.3, myst: st('int') * 1.2, pleie: st('int') * 0.9 + st('uth') * 0.3 };
+  const order = CLS_ORDER.slice().sort((a, b) => score[b] - score[a]);
+  return order.find(c => !used.includes(c)) || order[0];
+}
+function startRun(team) {
+  team = team.filter(t => { const d = dogById(t.dogId); return d && d.status === 'voksen'; }).slice(0, 4);
+  if (!team.length) return false;
+  const used = [];
+  for (const t of team) { if (!t.cls) t.cls = suggestClass(dogById(t.dogId), used); used.push(t.cls); }
+  const party = team.map(t => { const d = dogById(t.dogId); return { dogId: d.id, cls: t.cls, hp: derive(d, t.cls).maxHp, dead: false, name: d.name }; });
+  S.pairs = S.pairs.filter(p => !p.some(id => team.some(t => t.dogId === id)));
+  S.run = { party, step: 0, nodes: genNodes(), choice: [], bones: 0, screen: 'map', battle: null, battleResult: null, event: null, levelQueue: [], used: [], note: null, current: null, next: 'map', result: null };
+  S.screen = 'run';
+  UI.pairing = null;
+  return true;
+}
+function chooseNode(i) {
+  const run = S.run; if (!run || run.screen !== 'map') return;
+  const node = (run.nodes[run.step] || [])[i]; if (!node) return;
+  run.choice[run.step] = i; run.current = node; run.note = null;
+  if (node.t === 'kamp' || node.t === 'elite' || node.t === 'boss') {
+    run.battle = makeBattle(node, run.step); run.battleResult = null; run.screen = 'battle';
+    UI.info = null; autoSelect();
+  } else if (node.t === 'hendelse') {
+    const fresh = EVENTS.filter(e => !run.used.includes(e.id));
+    const ev = fresh.length ? pick(fresh) : pick(EVENTS);
+    run.used.push(ev.id); run.event = { id: ev.id, result: null }; run.screen = 'event';
+  } else if (node.t === 'hvil') {
+    for (const pm of alive()) healPm(pm, Math.ceil(maxHpOf(pm) * 0.6));
+    run.note = `Dere hvilte ${node.place}. Alle fikk tilbake helse.`;
+    run.step++; run.screen = 'map';
+  }
+}
+function finishBattle() {
+  const run = S.run, B = run && run.battle;
+  if (!B || !B.over || run.battleResult) return;
+  const win = B.over === 'win', node = run.current, lines = [];
+  for (const u of B.units.filter(o => o.side === 'dog')) {
+    const pm = pmOf(u.dogId), d = dogById(u.dogId);
+    if (!pm || !d) continue;
+    if (u.down) {
+      if (chance(win ? u.save : u.save - 0.15)) {
+        const k = scar(d); pm.hp = 1;
+        lines.push({ who: d.name, txt: `kom seg på beina igjen, men fikk et arr (-1 ${STAT_NAME[k]}).`, kind: 'scar' });
+      } else {
+        pm.dead = true; killDog(d, `falt i ${B.place}`);
+        lines.push({ who: d.name, txt: 'døde. Den blir husket i minnelunden.', kind: 'dead' });
+      }
+    } else {
+      pm.hp = clamp(u.hp + (win ? 2 : 0), 1, maxHpOf(pm));
+      if (win) {
+        d.xp += node.t === 'elite' ? 2 : 1;
+        if (d.xp >= 2) { d.xp -= 2; d.level++; const offers = makeOffers(d); if (offers.length) run.levelQueue.push({ dogId: d.id, level: d.level, offers }); }
+      }
+    }
+  }
+  let bones = 0;
+  if (win) {
+    bones = node.t === 'boss' ? 25 + S.heat * 5 : node.t === 'elite' ? 10 + run.step * 2 : 4 + run.step * 2;
+    S.bones += bones; run.bones += bones;
+  }
+  run.battleResult = { win, lines, bones, boss: node.t === 'boss' };
+}
+function makeOffers(d) {
+  const offers = [];
+  if (d.learned.length < 2) for (const id of shuffle(LEARNED.filter(a => !d.learned.includes(a))).slice(0, 2)) offers.push({ kind: 'learn', id });
+  const ks = shuffle(STATS.filter(k => d.stats[k] < 10));
+  while (offers.length < 3 && ks.length) offers.push({ kind: 'stat', k: ks.pop() });
+  return offers;
+}
+function continueAfterBattle() {
+  const run = S.run; if (!run || !run.battleResult) return;
+  const res = run.battleResult;
+  run.battle = null; run.battleResult = null; UI.sel = null; UI.mode = 'move'; UI.info = null;
+  if (!res.win) return endRun('tap');
+  run.next = res.boss ? 'seier' : 'map';
+  if (!res.boss) run.step++;
+  proceed();
+}
+function proceed() {
+  const run = S.run;
+  if (!alive().length) return endRun('tap');
+  run.levelQueue = run.levelQueue.filter(q => dogById(q.dogId));
+  if (run.levelQueue.length) { run.screen = 'levelup'; return; }
+  if (run.next === 'seier') return endRun('seier');
+  run.screen = 'map';
+}
+function chooseOffer(i) {
+  const run = S.run, q = run && run.levelQueue[0]; if (!q) return;
+  const o = q.offers[i], d = dogById(q.dogId); if (!o || !d) return;
+  const pm = pmOf(d.id), before = pm ? maxHpOf(pm) : 0;
+  if (o.kind === 'learn' && d.learned.length < 2 && !d.learned.includes(o.id)) d.learned.push(o.id);
+  if (o.kind === 'stat') d.stats[o.k] = Math.min(10, d.stats[o.k] + 1);
+  if (pm) pm.hp = clamp(pm.hp + Math.max(0, maxHpOf(pm) - before), 1, maxHpOf(pm));
+  run.levelQueue.shift();
+  proceed();
+}
+function chooseEvent(i) {
+  const run = S.run; if (!run || !run.event || run.event.result) return;
+  const ev = EVENTS.find(e => e.id === run.event.id), o = ev && ev.opts[i];
+  if (!o || (o.need && !o.need())) return;
+  run.event.result = o.go();
+}
+function continueEvent() {
+  const run = S.run; if (!run || !run.event || !run.event.result) return;
+  run.event = null; run.step++; run.next = 'map'; proceed();
+}
+function endRun(kind) {
+  const run = S.run, lines = [];
+  for (const pm of run.party) {
+    if (pm.dead) { lines.push({ who: pm.name, txt: 'døde på turen.', kind: 'dead' }); continue; }
+    const d = dogById(pm.dogId); if (!d) continue;
+    d.status = 'veteran'; d.runs++; if (kind === 'seier') d.wins++;
+    lines.push({ who: d.name, txt: `kom hjem som veteran (nivå ${d.level}).`, kind: 'ok' });
+  }
+  if (kind === 'seier') { S.wins++; S.heat++; }
+  run.battle = null; run.battleResult = null; run.event = null; run.levelQueue = [];
+  run.result = { kind, lines, bones: run.bones };
+  run.screen = 'end';
+  nightFall();
+}
+function closeRun() { S.run = null; S.screen = 'kennel'; UI.sel = null; UI.mode = 'move'; }
+
+// ---------- Hendelser ----------
+const dogOf = pm => dogById(pm.dogId);
+const EVENTS = [
+  { id: 'soppel', title: 'Veltet søppelkasse', text: 'En søppelkasse har veltet bak en pizzarestaurant. Det lukter himmelsk.',
+    opts: [
+      { label: 'Rot gjennom den', go() {
+        const pm = pick(alive()), d = dogOf(pm), r = rnd();
+        if (r < 0.45) { bump(d, 'fla', 1); return `${d.name} fant et halvt kyllinglår og føler seg heldig. +1 Flaks.`; }
+        if (r < 0.75) { S.bones += 8; S.run.bones += 8; return 'Dere fant 8 bein under en pizzaeske.'; }
+        if (addMut(d, 'lopper')) return `${d.name} kom ut med lopper. Mutasjonen Lopper: ${MUTS.lopper.desc}.`;
+        healPm(pm, -3); return `${d.name} fikk en boks i hodet. -3 helse.`;
+      } },
+      { label: 'Gå forbi', go: () => 'Dere går forbi. Det var nok lurt.' },
+    ] },
+  { id: 'kjottbein', title: 'Selvlysende kjøttbein', text: 'Bak et laboratorium ligger et grønt, selvlysende kjøttbein. Det summer svakt.',
+    opts: [
+      { label: 'La en hund spise det', go() {
+        const d = dogOf(pick(alive())), m = randomMut(0.6, d.muts);
+        if (!m || !addMut(d, m)) return `${d.name} spiste beinet. Ingenting skjedde, bortsett fra en lang rap.`;
+        return `${d.name} spiste beinet og fikk mutasjonen ${MUTS[m].name}: ${MUTS[m].desc}.`;
+      } },
+      { label: 'La det ligge', go: () => 'Dere lar beinet ligge. Det fortsetter å summe.' },
+    ] },
+  { id: 'vet', title: 'Omreisende veterinær', text: 'En veterinær med campingvogn tilbyr helsesjekk. Hun tar betalt i bein.',
+    opts: [
+      { label: 'Betal 8 bein for full helse', need: () => S.bones >= 8, go() { S.bones -= 8; for (const pm of alive()) pm.hp = maxHpOf(pm); return 'Alle hundene er friske og raske igjen.'; } },
+      { label: 'Nei takk', go: () => 'Veterinæren trekker på skuldrene og kjører videre.' },
+    ] },
+  { id: 'pinne', title: 'Den perfekte pinnen', text: 'Midt på stien ligger verdens beste pinne. Alle vil ha den.',
+    opts: [
+      { label: 'La dem slåss om den', go() {
+        const p = shuffle(alive().slice());
+        if (p.length < 2) { const d = dogOf(p[0]); bump(d, 'sty', 1); return `${d.name} vant pinnen uten kamp. +1 Styrke.`; }
+        const w = dogOf(p[0]), l = dogOf(p[1]); bump(w, 'sty', 1); healPm(p[1], -3);
+        return `${w.name} vant pinnen (+1 Styrke). ${l.name} fikk et bitt i øret (-3 helse).`;
+      } },
+      { label: 'Del den', go() { for (const pm of alive()) healPm(pm, 2); return 'Dere deler pinnen. Alle er glade. +2 helse til alle.'; } },
+    ] },
+  { id: 'postbud', title: 'Postbudet', text: 'Et postbud står helt stille ved en postkasse og stirrer på dere.',
+    opts: [
+      { label: 'Bjeff!', go() {
+        if (chance(0.6)) { S.bones += 10; S.run.bones += 10; return 'Postbudet slipper matpakka og løper. Dere bytter den mot 10 bein.'; }
+        const pm = pick(alive()); healPm(pm, -4); return `Postbudet hadde pepperspray. ${dogOf(pm).name} mister 4 helse.`;
+      } },
+      { label: 'Logre', go() { const d = dogOf(pick(alive())); bump(d, 'int', 1); return `Postbudet klør ${d.name} bak øret og lærer bort et triks. +1 Intelligens.`; } },
+    ] },
+  { id: 'dam', title: 'Gjørmete dam', text: 'En dam full av varm, deilig gjørme.',
+    opts: [
+      { label: 'Bad!', go() {
+        for (const pm of alive()) healPm(pm, 3);
+        if (chance(0.35)) { const d = dogOf(pick(alive())); bump(d, 'uth', 1); return `Alle får +3 helse. ${d.name} ble ekstra seig av gjørma. +1 Utholdenhet.`; }
+        return 'Alle får +3 helse og lukter forferdelig.';
+      } },
+      { label: 'Hold dere tørre', go: () => 'Dere går rundt dammen. Kjedelig.' },
+    ] },
+  { id: 'katteluke', title: 'Ulåst katteluke', text: 'En katteluke står på gløtt. Innenfor hører dere snorking.',
+    opts: [
+      { label: 'Snik inn og stjel kattemat', go() {
+        if (chance(0.5)) { S.bones += 12; S.run.bones += 12; return 'Dere stjeler en hel sekk kattemat og bytter den mot 12 bein.'; }
+        for (const pm of alive()) healPm(pm, -3); return 'Katten våknet. Alle får klor over snuten (-3 helse).';
+      } },
+      { label: 'La katten sove', go: () => 'Dere lar katten sove. Den drømmer om dere.' },
+    ] },
+];
+
+// ---------- Kennel-handlinger ----------
+function adopt() {
+  if (S.bones < ADOPT_COST || S.dogs.length >= CAP) return null;
+  S.bones -= ADOPT_COST; return addDog(makeStray());
+}
+function addPair(aId, bId) {
+  const a = dogById(aId), b = dogById(bId);
+  if (!a || !canBreed(a) || pairedWith(aId) || pairProblem(a, b)) return false;
+  S.pairs.push([aId, bId]); return true;
+}
+function puppyCourse(id) {
+  const d = dogById(id); if (!d || d.status !== 'valp' || d.kurs || S.bones < KURS_COST) return null;
+  const ks = STATS.filter(k => d.stats[k] < 10); if (!ks.length) return null;
+  S.bones -= KURS_COST; d.kurs = true; const k = pick(ks); d.stats[k]++; return k;
+}
+function giveAway(id) {
+  const d = dogById(id); if (!d) return;
+  S.dogs = S.dogs.filter(x => x.id !== id); S.pairs = S.pairs.filter(p => !p.includes(id)); S.bones += GIVE_BONES;
+}
+
+// ---------- Autospill av en hel tur (tester) ----------
+function autoTeam() {
+  return shuffle(S.dogs.filter(d => d.status === 'voksen')).slice(0, 4).map(d => ({ dogId: d.id, cls: null }));
+}
+async function autoRun(team) {
+  if (!startRun(team || autoTeam())) return null;
+  for (let guard = 0; guard < 300 && S.run; guard++) {
+    const run = S.run;
+    if (run.screen === 'map') {
+      const opts = run.nodes[run.step];
+      const hurtAvg = alive().reduce((s, pm) => s + pm.hp / maxHpOf(pm), 0) / Math.max(1, alive().length);
+      let i = Math.floor(rnd() * opts.length);
+      const rest = opts.findIndex(o => o.t === 'hvil'); if (rest >= 0 && hurtAvg < 0.6) i = rest;
+      chooseNode(i);
+    } else if (run.screen === 'battle') {
+      if (!run.battle.over) await simBattle(run.battle);
+      if (!run.battle.over) run.battle.over = 'loss';
+      finishBattle(); continueAfterBattle();
+    } else if (run.screen === 'event') {
+      if (!run.event.result) { const ev = EVENTS.find(e => e.id === run.event.id); const ok = ev.opts.map((o, j) => j).filter(j => !ev.opts[j].need || ev.opts[j].need()); chooseEvent(pick(ok)); }
+      else continueEvent();
+    } else if (run.screen === 'levelup') chooseOffer(Math.floor(rnd() * run.levelQueue[0].offers.length));
+    else if (run.screen === 'end') { const res = run.result; closeRun(); return res; }
+  }
+  return { kind: 'stuck' };
+}
+
+// ===== 05-views.js =====
+// ---------- Visninger ----------
+const SEX = { M: '♂', F: '♀' };
+const STATUS_TXT = { voksen: 'Klar for tur', valp: 'Valp', veteran: 'Veteran' };
+const STATUS_CLS = { voksen: 'klar', valp: 'valp', veteran: 'veteran' };
+
+function topBar(narrow) {
+  return `<header class="top${narrow ? ' narrow' : ''}"><div><div class="logo">Voffgenics</div><div class="tagline">Avl, mutasjoner og bakgårdskrig mot kattene</div></div>
+  <div class="meters"><span class="meter">Dag ${S.day}</span><span class="meter">${S.bones} bein</span><span class="meter">Kongen slått: ${S.wins}</span></div></header>`;
+}
+function infoChip(cls, name, text) { return `<button class="chip ${cls}" data-act="info" data-text="${esc(name + ': ' + text)}">${esc(name)}</button>`; }
+function statRows(d) {
+  return STATS.map(k => {
+    const base = d.stats[k], e = eff(d, k);
+    let pips = '';
+    for (let i = 1; i <= 10; i++) {
+      let c = '';
+      if (i <= Math.min(base, e)) c = 'on';
+      else if (i <= e) c = 'plus';
+      else if (i <= base) c = 'minus';
+      pips += `<i class="${c}"></i>`;
+    }
+    return `<div class="stat" title="${STAT_NAME[k]}: ${STAT_HELP[k]}"><span>${STAT_ABBR[k]}</span><span class="pips">${pips}</span><span class="v">${e}</span></div>`;
+  }).join('');
+}
+function chipsFor(d) {
+  const m = d.muts.map(id => infoChip(MUTS[id].bad ? 'mut bad' : 'mut', MUTS[id].name, MUTS[id].desc));
+  const a = d.learned.map(id => infoChip('abil', abil(id).name, abil(id).desc));
+  return m.concat(a).join('') || '<span class="muted" style="font-size:12.5px">Ingen evner eller mutasjoner ennå</span>';
+}
+function lineage(d) {
+  if (!d.mom && !d.dad) return 'Gatehund, ukjente foreldre';
+  const n = id => (S.reg[id] && S.reg[id].name) || 'ukjent';
+  return `Mor: ${esc(n(d.mom))} · Far: ${esc(n(d.dad))} · Gen. ${d.gen}`;
+}
+function dogCard(d) {
+  const D = derive(d);
+  let cls = `dog ${d.status}`, actions = '';
+  if (UI.pairing) {
+    const a = dogById(UI.pairing);
+    if (d.id === UI.pairing) actions = `<button class="btn ghost small" data-act="cancel-pair">Avbryt</button>`;
+    else {
+      const prob = pairProblem(a, d);
+      if (prob) { cls += ' dim'; actions = `<span class="muted" style="font-size:12.5px">${prob}</span>`; }
+      else {
+        const rel = relation(a.id, d.id); cls += ' cand';
+        actions = `<button class="btn small go" data-act="pair-with" data-id="${d.id}">Par med ${esc(a.name)}</button><span class="warnline ${rel}">${REL_TXT[rel]}</span>`;
+      }
+    }
+  } else {
+    const p = pairedWith(d.id);
+    if (p) actions += `<span class="warnline">Paret med ${esc(dogById(p).name)} i natt</span>`;
+    else if (canBreed(d)) actions += `<button class="btn small" data-act="pair" data-id="${d.id}">Finn partner</button>`;
+    if (d.status === 'valp' && !d.kurs) actions += `<button class="btn small ghost" data-act="kurs" data-id="${d.id}" ${S.bones >= KURS_COST ? '' : 'disabled'}>Valpekurs · ${KURS_COST} bein</button>`;
+    actions += `<button class="btn small ghost" data-act="give" data-id="${d.id}">Gi bort</button>`;
+  }
+  return `<article class="${cls}" data-dog="${d.id}">
+    <div class="dog-head"><div class="pic">${dogSVG(d)}</div>
+      <div class="id"><h3>${esc(d.name)} <span class="sex">${SEX[d.sex]}</span></h3><div class="reg">${d.reg}</div>
+      <div class="row" style="gap:5px"><span class="pill ${STATUS_CLS[d.status]}">${STATUS_TXT[d.status]}</span><span class="pill">Nivå ${d.level}</span>${d.scars ? `<span class="pill">${d.scars} arr</span>` : ''}</div></div></div>
+    <div class="stats">${statRows(d)}</div>
+    <div class="derived">Helse ${D.maxHp} · Går ${D.move} · Bitt ${D.melee}</div>
+    <div class="chips">${chipsFor(d)}</div>
+    <div class="lineage">${lineage(d)}</div>
+    <div class="card-actions">${actions}</div>
+  </article>`;
+}
+function helpList() {
+  return `<ol>
+    <li><b>Avl.</b> Par en hann og en tispe. I natt får de valper som arver egenskaper, lærte evner og mutasjoner. Nær slekt gir defekter.</li>
+    <li><b>Tur.</b> Send opptil fire voksne hunder ut. Hvert halsbånd gir en klasse. Slå Kattekongen på slutten.</li>
+    <li><b>Kamp.</b> Trykk på en hund, trykk på en lys rute for å gå, velg en handling og et mål. Avslutt turen når du er ferdig.</li>
+    <li><b>Død.</b> Hunder som faller, kan dø for godt. De som kommer hjem, blir veteraner og kan bare brukes til avl.</li>
+  </ol>`;
+}
+function viewKennel() {
+  const order = { voksen: 0, valp: 1, veteran: 2 };
+  const dogs = S.dogs.slice().sort((a, b) => order[a.status] - order[b.status] || (+a.id.slice(1)) - (+b.id.slice(1)));
+  const ready = S.dogs.filter(d => d.status === 'voksen').length;
+  const pairs = S.pairs.map(([a, b]) => {
+    const A = dogById(a), Bd = dogById(b); if (!A || !Bd) return '';
+    const rel = relation(a, b);
+    return `<div class="pair"><div class="pic sm">${dogSVG(A)}</div><span class="heart">+</span><div class="pic sm">${dogSVG(Bd)}</div>
+      <div><b>${esc(A.name)} og ${esc(Bd.name)}</b><div class="warnline ${rel}">${REL_TXT[rel]}</div></div>
+      <button class="btn small ghost" data-act="unpair" data-id="${a}">Fjern</button></div>`;
+  }).join('');
+  const pairing = UI.pairing && dogById(UI.pairing);
+  return `${topBar()}<main class="wrap">
+    ${S.intro ? `<section class="panel intro"><h2 class="sec">Velkommen til kennelen</h2>${helpList()}<div><button class="btn" data-act="intro-ok">Skjønner, la oss starte</button></div></section>` : ''}
+    <section class="panel news"><div class="eyebrow">${S.day === 1 ? 'Dag 1' : `I natt · nå er det dag ${S.day}`}</div><ul>${S.news.map(n => `<li>${esc(n)}</li>`).join('')}</ul></section>
+    <section class="row">
+      <button class="btn big" data-act="setup" ${ready ? '' : 'disabled'}>Send på tur</button>
+      <button class="btn" data-act="adopt" ${S.bones >= ADOPT_COST && S.dogs.length < CAP ? '' : 'disabled'}>Adopter gatehund · ${ADOPT_COST} bein</button>
+      <button class="btn ghost" data-act="sleep">Sov til i morgen</button>
+    </section>
+    ${pairing ? `<div class="banner"><span>Velg en partner til ${esc(pairing.name)} ${SEX[pairing.sex]}</span><button class="btn small ghost" data-act="cancel-pair">Avbryt</button></div>` : ''}
+    ${pairs ? `<section><div class="sec-head"><h2 class="sec">Parringer i natt</h2><span class="muted">Valpene kommer når dere sover</span></div><div class="pairs">${pairs}</div></section>` : ''}
+    <section><div class="sec-head"><h2 class="sec">Kennelen</h2><span class="mono">${S.dogs.length}/${CAP} plasser</span></div>
+      <div class="grid">${dogs.map(dogCard).join('')}</div></section>
+    <section class="panel"><details class="fold"><summary>Minnelunden (${S.grave.length})</summary>
+      ${S.grave.length ? `<ul class="grave">${S.grave.map(g => `<li><b>${esc(g.name)}</b> <span class="reg">${g.reg}</span>, nivå ${g.level}, ${esc(g.cause)} på dag ${g.day}.</li>`).join('')}</ul>` : '<p class="muted" style="margin-top:6px">Ingen har dødd ennå.</p>'}
+    </details></section>
+    ${S.intro ? '' : `<section class="panel"><details class="fold"><summary>Slik spiller du</summary><div style="margin-top:8px">${helpList()}</div></details></section>`}
+    <div><button class="btn small ghost" data-act="new-game">Start et nytt spill</button></div>
+  </main>`;
+}
+
+function viewSetup() {
+  const dogs = S.dogs.filter(d => d.status === 'voksen');
+  const cards = dogs.map(d => {
+    const sel = UI.setup.find(s => s.dogId === d.id);
+    const clsRow = sel ? `<div class="clsrow">${CLS_ORDER.map(c => `<button class="cls-btn ${sel.cls === c ? 'on' : ''}" style="--cc:var(--c-${c})" data-act="set-cls" data-id="${d.id}" data-cls="${c}">${CLASSES[c].name}</button>`).join('')}</div>` : '';
+    return `<div class="pick ${sel ? 'on' : ''}"><button class="pick-top" data-act="toggle-dog" data-id="${d.id}" aria-pressed="${sel ? 'true' : 'false'}">
+      <div class="pic sm">${dogSVG(d, sel ? { cls: sel.cls } : {})}</div>
+      <div style="min-width:0"><b>${esc(d.name)} ${SEX[d.sex]}</b><span class="mono">${STATS.map(k => `${STAT_ABBR[k]} ${eff(d, k)}`).join(' · ')}</span></div>
+      <span class="check">${sel ? '✓' : ''}</span></button>${clsRow}</div>`;
+  }).join('');
+  return `${topBar()}<main class="wrap">
+    <div><div class="eyebrow">Dag ${S.day}</div><h1 class="screen-title">Velg turlaget</h1>
+    <p class="muted" style="max-width:62ch;margin-top:6px">Velg opptil fire voksne hunder og gi hver et halsbånd. De som kommer hjem, blir veteraner og går aldri på tur igjen.</p></div>
+    <div class="picks">${cards || '<p>Ingen voksne hunder er klare. Sov en natt, eller adopter en gatehund.</p>'}</div>
+    <section class="panel"><h3 style="margin-bottom:8px">Halsbånd</h3><div class="legend">${CLS_ORDER.map(c => `<div style="--cc:var(--c-${c})"><b>${CLASSES[c].name}</b>${CLASSES[c].desc}</div>`).join('')}</div></section>
+    <div class="sticky-bar"><button class="btn ghost" data-act="cancel-setup">Tilbake</button>
+      <button class="btn big go" data-act="start-run" ${UI.setup.length ? '' : 'disabled'}>Start turen${UI.setup.length ? ` med ${UI.setup.length}` : ''}</button></div>
+  </main>`;
+}
+
+function hpBar(hp, max) { return `<div class="bar"><i style="width:${Math.round(100 * hp / max)}%"></i></div>`; }
+function partyStrip() {
+  return `<div class="party">${S.run.party.map(pm => {
+    const d = dogById(pm.dogId);
+    if (pm.dead || !d) return `<div class="pm dead"><div><div class="nm">${esc(pm.name)}</div><div class="sub">Død</div></div></div>`;
+    const mx = maxHpOf(pm);
+    return `<div class="pm"><div class="pic sm">${dogSVG(d, { cls: pm.cls })}</div><div style="flex:1;min-width:0"><div class="nm">${esc(d.name)}</div>
+      <div class="sub">${CLASSES[pm.cls].name} · nivå ${d.level}</div>${hpBar(pm.hp, mx)}<div class="mono">${pm.hp}/${mx} helse</div></div></div>`;
+  }).join('')}</div>`;
+}
+function nodeIcon(t) {
+  const c = { kamp: '#c3362b', elite: '#7b3fb0', hendelse: '#2a52be', hvil: '#2e8745', boss: '#e2a524' }[t];
+  const inner = {
+    kamp: '<path d="M12 26 L26 12 M12 12 L26 26" stroke="#fff8ea" stroke-width="3.5" stroke-linecap="round"/>',
+    elite: '<path d="M10 24 Q19 6 28 24 Z" fill="#fff8ea"/><circle cx="16" cy="20" r="1.6" fill="#24180d"/><circle cx="22" cy="20" r="1.6" fill="#24180d"/>',
+    hendelse: '<text x="19" y="26" text-anchor="middle" font-size="18" font-family="Arial Black, sans-serif" fill="#fff8ea">?</text>',
+    hvil: '<path d="M11 22 Q19 30 27 22" stroke="#fff8ea" stroke-width="3" fill="none" stroke-linecap="round"/><text x="25" y="15" font-size="9" font-family="Arial Black, sans-serif" fill="#fff8ea">z</text>',
+    boss: '<path d="M10 26 L9 12 L15 18 L19 9 L23 18 L29 12 L28 26 Z" fill="#fff8ea" stroke="#24180d" stroke-width="1.5"/>',
+  }[t];
+  return `<svg class="ico" viewBox="0 0 38 38" aria-hidden="true"><circle cx="19" cy="19" r="17" fill="${c}" stroke="#24180d" stroke-width="2.5"/>${inner}</svg>`;
+}
+function nodeLabel(n) { return `${nodeIcon(n.t)}<span><b>${NODE_INFO[n.t].name}${n.t === 'kamp' || n.t === 'elite' ? `: ${esc(n.place)}` : ''}</b><small>${NODE_INFO[n.t].desc}</small></span>`; }
+function runTop() {
+  const run = S.run;
+  return `<header class="top narrow"><div><div class="logo">Voffgenics</div><div class="tagline">På tur · steg ${Math.min(run.step + 1, STEPS)} av ${STEPS}</div></div>
+  <div class="meters"><span class="meter">Dag ${S.day}</span><span class="meter">${S.bones} bein</span><span class="meter">Funnet: ${run.bones}</span></div></header>`;
+}
+function viewMap() {
+  const run = S.run;
+  const steps = run.nodes.map((opts, s) => {
+    const label = s === STEPS - 1 ? 'Sjef' : `Steg ${s + 1}`;
+    let body;
+    if (s < run.step) body = opts.map((n, i) => `<div class="node past ${run.choice[s] === i ? 'chosen' : ''}">${nodeLabel(n)}</div>`).join('');
+    else if (s === run.step) body = opts.map((n, i) => `<button class="node" data-act="choose-node" data-i="${i}">${nodeLabel(n)}</button>`).join('');
+    else body = opts.map(n => `<div class="node future">${nodeLabel(n)}</div>`).join('');
+    return `<li class="step"><span class="step-label">${label}</span><div class="nodes">${body}</div></li>`;
+  }).join('');
+  return `${runTop()}<main class="wrap narrow">
+    <div><h1 class="screen-title">Turløypa</h1><p class="muted" style="margin-top:4px">Velg hvor laget går videre. Kattekongen venter på slutten.</p></div>
+    ${partyStrip()}
+    ${run.note ? `<p class="result">${esc(run.note)}</p>` : ''}
+    <ol class="route">${steps}</ol>
+    <div><button class="btn ghost" data-act="go-home">Gå hjem med laget</button></div>
+  </main>`;
+}
+function viewEvent() {
+  const run = S.run, ev = EVENTS.find(e => e.id === run.event.id);
+  const body = run.event.result
+    ? `<p class="result">${esc(run.event.result)}</p><div><button class="btn big" data-act="event-next">Gå videre</button></div>`
+    : `<div class="row">${ev.opts.map((o, i) => `<button class="btn ${i ? 'ghost' : ''}" data-act="event-opt" data-i="${i}" ${o.need && !o.need() ? 'disabled' : ''}>${esc(o.label)}</button>`).join('')}</div>`;
+  return `${runTop()}<main class="wrap narrow"><section class="panel story">
+    <div class="eyebrow">Hendelse</div><h1 class="screen-title">${esc(ev.title)}</h1><p class="lead">${esc(ev.text)}</p>${body}</section>${partyStrip()}</main>`;
+}
+function viewLevel() {
+  const run = S.run, q = run.levelQueue[0], d = dogById(q.dogId), pm = pmOf(q.dogId);
+  const offers = q.offers.map((o, i) => o.kind === 'learn'
+    ? `<button class="offer" data-act="offer" data-i="${i}"><span class="pill">Ny evne</span><b>${abil(o.id).name}</b><small>${abil(o.id).desc}</small></button>`
+    : `<button class="offer" data-act="offer" data-i="${i}"><span class="pill">Egenskap</span><b>+1 ${STAT_NAME[o.k]}</b><small>${d.stats[o.k]} blir ${d.stats[o.k] + 1}. ${STAT_HELP[o.k]}.</small></button>`).join('');
+  return `${runTop()}<main class="wrap narrow">
+    <div class="lvl"><div class="pic big">${dogSVG(d, pm ? { cls: pm.cls } : {})}</div>
+    <div style="flex:1;min-width:0"><div class="eyebrow">Nivå ${q.level}</div><h1 class="screen-title">${esc(d.name)} blir sterkere</h1>
+    <p class="muted" style="margin-top:6px;max-width:52ch">Velg én belønning. Lærte evner og egenskaper kan arves av valpene. En hund kan kunne to evner.</p></div></div>
+    <div class="offers">${offers}</div></main>`;
+}
+function viewEnd() {
+  const r = S.run.result;
+  const title = { seier: 'Kattekongen er slått!', tap: 'Laget falt', hjem: 'Hjemme igjen' }[r.kind];
+  const text = {
+    seier: 'De overlevende er nå veteraner. Kattekongen kommer tilbake, og han blir sterkere for hver gang.',
+    tap: 'Hundene som overlevde, ble båret hjem. De er nå veteraner og kan brukes til avl.',
+    hjem: 'Laget gikk hjem før det ble for farlig. De er nå veteraner og kan brukes til avl.',
+  }[r.kind];
+  return `${topBar(true)}<main class="wrap narrow"><section class="panel story">
+    <div class="eyebrow">Turen er over</div><h1 class="screen-title">${title}</h1><p class="lead">${text}</p>
+    <ul class="res">${r.lines.map(l => `<li class="${l.kind}"><b>${esc(l.who)}</b> ${esc(l.txt)}</li>`).join('')}</ul>
+    <p>Bein funnet på turen: <b>${r.bones}</b>.</p>
+    <div><button class="btn big" data-act="close-run">Tilbake til kennelen</button></div></section></main>`;
+}
+
+// ---------- Kampvisning ----------
+const POOP_SVG = `<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M11 32 Q6 32 7.5 27.5 Q9 24 13 24 Q11 19.5 16 18 Q16 12 21 10 Q23 14.5 25 16.5 Q30.5 18 28.5 23 Q33 24 32 28.5 Q31.5 32 27 32 Z" fill="#6b4422" stroke="#24180d" stroke-width="2"/><path d="M13 9 q2 -3 0 -6 M28 10 q2 -3 0 -6" stroke="#4d5e1f" stroke-width="1.6" fill="none"/></svg>`;
+const OBSTACLES = [
+  `<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M7 31 Q4 18 14 11 Q23 5 31 13 Q38 21 33 31 Z" fill="#a39c92" stroke="#24180d" stroke-width="2.5"/><path d="M14 17 q4 -3 8 -1" stroke="#24180d" stroke-width="1.5" fill="none" opacity=".5"/></svg>`,
+  `<svg viewBox="0 0 40 40" aria-hidden="true"><rect x="7" y="8" width="26" height="25" rx="2" fill="#b47a44" stroke="#24180d" stroke-width="2.5"/><path d="M7 8 L33 33 M33 8 L7 33" stroke="#24180d" stroke-width="2"/></svg>`,
+  `<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="13" cy="23" r="9" fill="#3f6b2a" stroke="#24180d" stroke-width="2.5"/><circle cx="27" cy="23" r="9" fill="#3f6b2a" stroke="#24180d" stroke-width="2.5"/><circle cx="20" cy="14" r="9" fill="#4b7c31" stroke="#24180d" stroke-width="2.5"/><circle cx="17" cy="13" r="1.6" fill="#c3362b"/><circle cx="25" cy="22" r="1.6" fill="#c3362b"/></svg>`,
+];
+function tilesHTML(B) {
+  let h = '';
+  for (let y = 0; y < B.h; y++) for (let x = 0; x < B.w; x++) {
+    const t = tileAt(B, x, y);
+    h += `<button class="tile ${(x + y) % 2 ? 'alt' : ''}" data-act="tile" data-x="${x}" data-y="${y}" aria-label="Rute ${x + 1},${y + 1}">${t === 1 ? OBSTACLES[clamp(B.deco[y * B.w + x], 0, 2)] : t === 2 ? POOP_SVG : ''}</button>`;
+  }
+  return h;
+}
+const selUnit = B => B && UI.sel ? B.units.find(u => u.id === UI.sel && !u.dead && u.side === 'dog') : null;
+function viewBattle() {
+  const run = S.run, B = run.battle, node = run.current;
+  return `<div class="battle" data-battle="${B.id}">
+    <header class="bt-top"><div><div class="eyebrow">${esc(B.place)} · steg ${Math.min(run.step + 1, STEPS)} av ${STEPS}${node.t === 'elite' ? ' · elitekamp' : ''}</div><h1 id="turn-title"></h1></div>
+      <div class="meters"><span class="meter">${S.bones} bein</span></div></header>
+    <div class="bt-main">
+      <div><div class="board-wrap"><div class="board" id="board">${tilesHTML(B)}<div class="units" id="units"></div><div class="fxl" id="fxl"></div></div></div>
+      <p class="legend-line" style="margin-top:8px">Lys rute: kan gå. Rød ring: kan angripes. Grønn ring: kan helbredes. Trykk på en fiende for å se hva den gjør.</p></div>
+      <aside class="bt-side" id="bt-side"></aside>
+    </div>
+    <div id="bt-overlay"></div>
+  </div>`;
+}
+function battlePanel(B) {
+  const sel = selUnit(B);
+  let h = '';
+  if (B.phase === 'enemy') h += `<div class="panel"><h3>Fiendens tur</h3><p class="hint">Rotter, måker og katter flytter seg.</p></div>`;
+  else if (sel) h += selPanel(B, sel);
+  else h += `<div class="panel"><h3>Velg en hund</h3><p class="hint">Trykk på en hund på brettet eller i lista.</p><div class="roster">${B.units.filter(u => u.side === 'dog').map(u =>
+    `<button data-act="sel-dog" data-id="${u.id}" ${u.down ? 'disabled' : ''}><div class="pic sm">${dogSVG(dogById(u.dogId), { cls: u.cls })}</div><span><b>${esc(u.name)}</b><span class="sub" style="display:block">${u.down ? 'Ligger nede' : u.acted ? 'Ferdig denne runden' : 'Klar'} · ${u.hp}/${u.maxHp}</span></span></button>`).join('')}</div></div>`;
+  const info = UI.info && B.units.find(u => u.id === UI.info && !u.dead && u.side === 'enemy');
+  if (info) h += `<div class="panel"><div class="sel-head"><div class="pic sm">${foeSVG(info.type)}</div><div><h3>${esc(info.name)}</h3>
+    <div class="sub">${info.hp}/${info.maxHp} helse · ${info.dmg} skade · rekker ${info.range[0] === info.range[1] ? info.range[0] : info.range.join('-')} · går ${info.move}</div>
+    <div class="sub">Unnviker ${pct(info.dodge)}. ${ENEMY_INFO[info.type]}${info.poison ? ` Har lopper (${info.poison}).` : ''}</div></div></div></div>`;
+  h += `<button class="btn big endturn" data-act="end-turn" ${B.phase !== 'player' || UI.busy || B.over ? 'disabled' : ''}>Avslutt tur</button>`;
+  h += `<div class="panel log"><h3>Logg</h3><ol>${B.log.slice(-7).reverse().map(l => `<li>${esc(l)}</li>`).join('')}</ol></div>`;
+  return h;
+}
+function selPanel(B, u) {
+  const d = dogById(u.dogId);
+  const acts = u.actions.map(id => {
+    const A = ACTIONS[id], cd = u.cds[id] || 0;
+    const ok = !u.acted && cd === 0 && B.phase === 'player' && A.targets(B, u).length > 0;
+    return `<button class="act ${UI.mode === 'act:' + id ? 'on' : ''}" data-act="action" data-id="${id}" ${ok ? '' : 'disabled'}>
+      <b>${A.name}</b><span class="cd">${cd > 0 ? `klar om ${cd}` : A.val(u)}</span><small>${A.desc}</small></button>`;
+  }).join('');
+  let hint;
+  if (u.acted) hint = `${esc(u.name)} har gjort sitt denne runden.`;
+  else if (UI.mode.startsWith('act:')) hint = 'Trykk på et markert mål. Trykk på handlingen igjen for å avbryte.';
+  else hint = u.moved ? 'Velg en handling, eller trykk på en fiende for å angripe.' : 'Trykk på en lys rute for å gå, eller angrip direkte.';
+  return `<div class="panel">
+    <div class="sel-head"><div class="pic sm">${dogSVG(d, { cls: u.cls })}</div><div style="min-width:0"><h3>${esc(u.name)}</h3>
+      <div class="sub">${CLASSES[u.cls].name} · ${u.hp}/${u.maxHp} helse${u.shield ? ` · ${u.shield} skjold` : ''}${u.poison ? ` · lopper ${u.poison}` : ''}</div>
+      <div class="sub mono">Går ${u.move} · unnviker ${pct(u.dodge)} · krit ${pct(u.crit)}</div></div></div>
+    <p class="hint">${hint}</p>
+    <div class="acts">${acts}</div>
+    <div class="row" style="margin-top:10px">${u.moved && !u.acted && u.from ? '<button class="btn ghost small" data-act="undo">Angre flytt</button>' : ''}${!u.acted ? `<button class="btn ghost small" data-act="wait">Ferdig med ${esc(u.name)}</button>` : ''}</div>
+  </div>`;
+}
+function resultOverlay(res) {
+  return `<div class="overlay"><div class="modal" role="dialog" aria-modal="true"><h2>${res.win ? (res.boss ? 'Kattekongen er slått!' : 'Seier!') : 'Laget falt'}</h2>
+    <p>${res.win ? `Dere fant ${res.bones} bein.` : 'Alle hundene ligger nede. Turen er over.'}</p>
+    ${res.lines.length ? `<ul class="res">${res.lines.map(l => `<li class="${l.kind}"><b>${esc(l.who)}</b> ${esc(l.txt)}</li>`).join('')}</ul>` : ''}
+    <div><button class="btn big" data-act="battle-continue">Fortsett</button></div></div></div>`;
+}
+function highlights(B) {
+  const sel = selUnit(B), H = { move: new Set(), tgt: new Set(), ally: new Set(), area: new Set(), aoe: new Set() };
+  if (B.phase !== 'player' || !sel || sel.acted || UI.busy || B.over) return H;
+  if (UI.mode === 'move') {
+    if (!sel.moved) for (const k of reach(B, sel).ends.keys()) H.move.add(k);
+    const atk = sel.actions[0];
+    if (!(sel.cds[atk] > 0)) for (const t of ACTIONS[atk].targets(B, sel)) H.tgt.add(t.x + ',' + t.y);
+  } else if (UI.mode.startsWith('act:')) {
+    const id = UI.mode.slice(4), A = ACTIONS[id], ts = A.targets(B, sel);
+    for (const t of ts) {
+      const k = t.x + ',' + t.y;
+      if (A.area) H.area.add(k);
+      else if (A.ally) H.ally.add(k);
+      else if (id === 'grav' || id === 'baesj') H.move.add(k);
+      else H.tgt.add(k);
+    }
+    if (A.area && UI.hover && H.area.has(UI.hover.x + ',' + UI.hover.y))
+      for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) H.aoe.add((UI.hover.x + dx) + ',' + (UI.hover.y + dy));
+  }
+  return H;
+}
+function refreshTiles(B) {
+  const H = highlights(B);
+  for (const el of document.querySelectorAll('#board .tile')) {
+    const k = el.dataset.x + ',' + el.dataset.y;
+    el.classList.toggle('hl-move', H.move.has(k)); el.classList.toggle('hl-tgt', H.tgt.has(k));
+    el.classList.toggle('hl-ally', H.ally.has(k)); el.classList.toggle('hl-area', H.area.has(k)); el.classList.toggle('hl-aoe', H.aoe.has(k));
+    const t = tileAt(B, +el.dataset.x, +el.dataset.y);
+    if (t === 2 && !el.dataset.poop) { el.dataset.poop = '1'; el.innerHTML = POOP_SVG; }
+  }
+}
+function syncUnits(B) {
+  const layer = $('#units'); if (!layer) return;
+  const sel = selUnit(B), ids = new Set();
+  for (const u of B.units) {
+    ids.add(u.id);
+    let el = layer.querySelector(`[data-uid="${u.id}"]`);
+    if (!el) {
+      el = document.createElement('div'); el.className = `unit ${u.side === 'dog' ? 'ally' : 'foe'}`; el.dataset.uid = u.id;
+      el.style.setProperty('--ring', u.side === 'dog' ? CLASSES[u.cls].hex : '#c3362b');
+      el.innerHTML = `<div class="u-pic">${u.side === 'dog' ? dogSVG(dogById(u.dogId) || { look: randomLook(), muts: [], status: 'voksen' }, { cls: u.cls }) : foeSVG(u.type)}</div><div class="u-hp"><i></i></div><div class="badges"></div>`;
+      layer.appendChild(el);
+    }
+    el.style.setProperty('--x', u.x); el.style.setProperty('--y', u.y);
+    el.classList.toggle('sel', !!sel && sel.id === u.id);
+    el.classList.toggle('done', u.side === 'dog' && u.acted && !u.down && B.phase === 'player');
+    el.classList.toggle('down', !!u.down); el.classList.toggle('dead', !!u.dead);
+    el.querySelector('.u-hp i').style.width = Math.round(100 * u.hp / u.maxHp) + '%';
+    el.querySelector('.badges').innerHTML = (u.shield ? `<span class="badge sh">${u.shield}</span>` : '') + (u.poison ? `<span class="badge po">${u.poison}</span>` : '') + (u.taunt ? '<span class="badge ta">!</span>' : '');
+    el.setAttribute('title', `${u.name}: ${u.hp}/${u.maxHp}`);
+  }
+  for (const el of [...layer.children]) if (!ids.has(el.dataset.uid)) el.remove();
+  const fxl = $('#fxl');
+  for (const f of B.fx) {
+    const unitEl = layer.querySelector(`[data-uid="${f.id}"]`);
+    const u = B.units.find(o => o.id === f.id);
+    if (f.t === 'dmg' || f.t === 'crit') { if (unitEl) { unitEl.classList.remove('hit'); void unitEl.offsetWidth; unitEl.classList.add('hit'); } }
+    const txt = f.t === 'miss' ? 'Bom!' : f.t === 'heal' ? `+${f.v}` : f.t === 'shield' ? `+${f.v}` : `-${f.v}${f.t === 'crit' ? '!' : ''}`;
+    if ((f.t === 'dmg' || f.t === 'heal') && !f.v) continue;
+    const el = document.createElement('div'); el.className = `float ${f.t}`; el.textContent = txt;
+    el.style.setProperty('--x', u ? u.x : f.x); el.style.setProperty('--y', u ? u.y : f.y);
+    fxl.appendChild(el); setTimeout(() => el.remove(), 1000);
+  }
+  B.fx = [];
+}
+function updateBattle() {
+  const run = S.run, B = run.battle;
+  const title = $('#turn-title');
+  if (title) title.textContent = B.over ? (B.over === 'win' ? 'Seier!' : 'Laget falt') : B.phase === 'player' ? `Runde ${B.round} · din tur` : `Runde ${B.round} · fiendens tur`;
+  refreshTiles(B); syncUnits(B);
+  const side = $('#bt-side'); if (side) side.innerHTML = battlePanel(B);
+  const ov = $('#bt-overlay'); if (ov) ov.innerHTML = run.battleResult ? resultOverlay(run.battleResult) : '';
+}
+
+// ===== 06-app.js =====
+// ---------- Tegning ----------
+function render() {
+  if (HEADLESS || !S) return;
+  const app = $('#app');
+  if (S.screen === 'run' && S.run && S.run.screen === 'battle' && S.run.battle) {
+    const B = S.run.battle;
+    if (!app.querySelector(`[data-battle="${B.id}"]`)) { app.innerHTML = viewBattle(); window.scrollTo(0, 0); }
+    updateBattle();
+  } else {
+    let html;
+    if (S.screen === 'setup') html = viewSetup();
+    else if (S.screen === 'run' && S.run) html = { map: viewMap, event: viewEvent, levelup: viewLevel, end: viewEnd }[S.run.screen]();
+    else html = viewKennel();
+    const key = S.screen + ':' + (S.run ? S.run.screen + S.run.step : '');
+    app.innerHTML = html;
+    if (app.dataset.key !== key) { app.dataset.key = key; window.scrollTo(0, 0); }
+  }
+  $('#modal-root').innerHTML = UI.confirm ? `<div class="overlay"><div class="modal" role="dialog" aria-modal="true"><h2>${esc(UI.confirm.title)}</h2><p>${esc(UI.confirm.text)}</p>
+    <div class="row"><button class="btn warn" data-act="confirm-yes">${esc(UI.confirm.yesLabel)}</button><button class="btn ghost" data-act="confirm-no">Avbryt</button></div></div></div>` : '';
+  if (!UI.busy) save();
+}
+function toast(txt) {
+  if (HEADLESS) return;
+  const el = $('#toast'); el.textContent = txt; el.hidden = false;
+  clearTimeout(UI.toastTimer); UI.toastTimer = setTimeout(() => { el.hidden = true; }, 3800);
+}
+function ask(title, text, yesLabel, yes) { UI.confirm = { title, text, yesLabel, yes }; }
+
+// ---------- Kampinput ----------
+function autoSelect() {
+  const B = S.run && S.run.battle; if (!B) return;
+  const d = B.units.find(u => u.side === 'dog' && !u.down && !u.acted);
+  UI.sel = d ? d.id : null; UI.mode = 'move';
+}
+const canClick = B => B && !B.over && B.phase === 'player' && !UI.busy;
+async function onTile(x, y) {
+  const B = S.run && S.run.battle; if (!canClick(B)) return;
+  const sel = selUnit(B), u = unitAt(B, x, y);
+  if (sel && UI.mode.startsWith('act:')) {
+    const id = UI.mode.slice(4);
+    if (ACTIONS[id].targets(B, sel).some(t => t.x === x && t.y === y)) return playerAction(sel, id, x, y);
+    UI.mode = 'move';
+    if (!u) return;
+  }
+  if (u && u.side === 'dog' && !u.down) { UI.sel = u.id; UI.mode = 'move'; return; }
+  if (sel && !sel.acted) {
+    if (!sel.moved && !u) {
+      const R = reach(B, sel);
+      if (R.ends.has(x + ',' + y)) {
+        sel.from = { x: sel.x, y: sel.y }; sel.moved = true; UI.busy = true;
+        await animatePath(B, sel, pathTo(R.map, x, y));
+        UI.busy = false; return;
+      }
+    }
+    if (u && u.side === 'enemy') {
+      const atk = sel.actions[0];
+      if (!(sel.cds[atk] > 0) && ACTIONS[atk].targets(B, sel).some(t => t.x === x && t.y === y)) return playerAction(sel, atk, x, y);
+    }
+  }
+  if (u) { UI.info = u.id; return; }
+  UI.info = null;
+}
+async function playerAction(u, id, x, y) {
+  const B = S.run.battle;
+  execAction(B, u, id, x, y);
+  UI.mode = 'move';
+  await afterDogDone(B);
+}
+async function afterDogDone(B) {
+  render();
+  if (B.over) { finishBattle(); return; }
+  const next = B.units.find(o => o.side === 'dog' && !o.down && !o.acted);
+  if (next) { UI.sel = next.id; return; }
+  UI.busy = true; render(); await wait(350); UI.busy = false;
+  await endTurn();
+}
+function onAction(id) {
+  const B = S.run && S.run.battle, u = selUnit(B);
+  if (!canClick(B) || !u || u.acted) return;
+  const A = ACTIONS[id]; if (!A || (u.cds[id] || 0) > 0) return;
+  if (UI.mode === 'act:' + id) { UI.mode = 'move'; return; }
+  const ts = A.targets(B, u); if (!ts.length) return;
+  if (A.self) return playerAction(u, id, u.x, u.y);
+  UI.mode = 'act:' + id;
+}
+async function endTurn() {
+  const B = S.run && S.run.battle;
+  if (!B || B.over || B.phase !== 'player' || UI.busy) return;
+  UI.sel = null; UI.mode = 'move'; UI.info = null;
+  for (const u of B.units) if (u.side === 'dog') u.acted = true;
+  await enemyPhase(B);
+  if (B.over) finishBattle(); else autoSelect();
+  render();
+}
+
+// ---------- Handlinger fra knapper ----------
+const H = {
+  'intro-ok'() { S.intro = false; },
+  info(ds) { toast(ds.text); },
+  setup() { UI.setup = []; UI.pairing = null; S.screen = 'setup'; },
+  'cancel-setup'() { S.screen = 'kennel'; },
+  'toggle-dog'(ds) {
+    const i = UI.setup.findIndex(s => s.dogId === ds.id);
+    if (i >= 0) UI.setup.splice(i, 1);
+    else if (UI.setup.length >= 4) toast('Maks fire hunder på tur.');
+    else UI.setup.push({ dogId: ds.id, cls: suggestClass(dogById(ds.id), UI.setup.map(s => s.cls)) });
+  },
+  'set-cls'(ds) { const s = UI.setup.find(x => x.dogId === ds.id); if (s) s.cls = ds.cls; },
+  'start-run'() { if (startRun(UI.setup.map(s => ({ dogId: s.dogId, cls: s.cls })))) UI.setup = []; },
+  adopt() { const d = adopt(); if (d) toast(`${d.name} flyttet inn i kennelen.`); },
+  sleep() { nightFall(); UI.pairing = null; toast(`God morgen! Dag ${S.day}.`); },
+  pair(ds) { UI.pairing = ds.id; },
+  'pair-with'(ds) { if (addPair(UI.pairing, ds.id)) toast('Paret. Valpene kommer når dere sover.'); UI.pairing = null; },
+  'cancel-pair'() { UI.pairing = null; },
+  unpair(ds) { S.pairs = S.pairs.filter(p => !p.includes(ds.id)); },
+  kurs(ds) { const k = puppyCourse(ds.id); if (k) toast(`${dogById(ds.id).name} lærte mye på valpekurset. +1 ${STAT_NAME[k]}.`); },
+  give(ds) { const d = dogById(ds.id); if (d) ask(`Gi bort ${d.name}?`, `${d.name} flytter til en snill familie på landet, og du får ${GIVE_BONES} bein. Hunden kommer ikke tilbake.`, 'Gi bort', () => giveAway(d.id)); },
+  'new-game'() { ask('Starte på nytt?', 'Kennelen, alle hundene og minnelunden forsvinner.', 'Start nytt spill', () => newGame()); },
+  'confirm-yes'() { const f = UI.confirm && UI.confirm.yes; UI.confirm = null; if (f) f(); },
+  'confirm-no'() { UI.confirm = null; },
+  'choose-node'(ds) { chooseNode(+ds.i); },
+  'go-home'() { ask('Gå hjem?', 'Laget går hjem nå. Hundene blir veteraner og kan ikke gå på tur igjen.', 'Gå hjem', () => endRun('hjem')); },
+  'event-opt'(ds) { chooseEvent(+ds.i); },
+  'event-next'() { continueEvent(); },
+  offer(ds) { chooseOffer(+ds.i); },
+  'close-run'() { closeRun(); },
+  tile(ds) { return onTile(+ds.x, +ds.y); },
+  action(ds) { return onAction(ds.id); },
+  'end-turn'() { return endTurn(); },
+  'sel-dog'(ds) { UI.sel = ds.id; UI.mode = 'move'; },
+  wait() { const B = S.run && S.run.battle, u = selUnit(B); if (!canClick(B) || !u) return; u.acted = true; u.moved = true; return afterDogDone(B); },
+  undo() {
+    const B = S.run && S.run.battle, u = selUnit(B);
+    if (canClick(B) && u && u.from && u.moved && !u.acted && !unitAt(B, u.from.x, u.from.y)) { u.x = u.from.x; u.y = u.from.y; u.from = null; u.moved = false; }
+  },
+  'battle-continue'() { continueAfterBattle(); },
+};
+let pending = Promise.resolve();
+function dispatch(act, ds = {}) {
+  const h = H[act]; if (!h) return pending;
+  const r = h(ds);
+  render();
+  if (r && r.then) pending = r.then(() => render());
+  return pending;
+}
+
+// ---------- Lagring ----------
+function save() { if (HEADLESS) return; try { localStorage.setItem(SAVE_KEY, JSON.stringify({ S, rng: rngState })); } catch (e) { /* lagring er valgfri */ } }
+function load() {
+  try {
+    const raw = localStorage.getItem(SAVE_KEY); if (!raw) return false;
+    const o = JSON.parse(raw); if (!o || !o.S || o.S.v !== 1) return false;
+    S = o.S; rngState = (o.rng >>> 0) || 1; return true;
+  } catch (e) { return false; }
+}
+function resume() {
+  const B = S.run && S.run.battle; if (!B) return;
+  UI.busy = false;
+  if (B.over) { finishBattle(); render(); return; }
+  if (B.phase === 'enemy') enemyPhase(B).then(() => { if (B.over) finishBattle(); else autoSelect(); render(); });
+  else autoSelect();
+}
+
+// ---------- Oppstart ----------
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-act]');
+  if (!el || el.disabled) return;
+  dispatch(el.dataset.act, { ...el.dataset });
+});
+document.addEventListener('mouseover', e => {
+  const el = e.target.closest('.tile'); const B = S && S.run && S.run.battle;
+  if (!el || !B || !UI.mode.startsWith('act:')) return;
+  UI.hover = { x: +el.dataset.x, y: +el.dataset.y }; refreshTiles(B);
+});
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  if (UI.confirm) UI.confirm = null; else if (UI.pairing) UI.pairing = null; else if (UI.mode !== 'move') UI.mode = 'move'; else return;
+  render();
+});
+function start(data) {
+  if (data && data.S && data.S.v === 1) { S = data.S; rngState = (data.rng >>> 0) || 1; }
+  else if (!load()) newGame();
+  render();
+  try { if (window.claude && window.claude.hot && window.claude.hot.snapshot) window.claude.hot.snapshot(() => ({ S, rng: rngState })); } catch (e) { /* ikke i en visning */ }
+  resume();
+  render();
+}
+
+// Test-API: lar Playwright kjøre de samme funksjonene som knappene bruker.
+window.VOFF = {
+  get S() { return S; }, set S(v) { S = v; }, UI,
+  seed, rnd, newGame, makePuppy, makeStray, addDog, relation, derive, eff, dogById,
+  makeBattle, simBattle, battleProblems, autoRun, startRun, chooseNode, finishBattle, continueAfterBattle,
+  nightFall, addPair, dispatch, render, MUTS, STATS, LEARNED,
+  idle: () => pending,
+  headless(v) { HEADLESS = !!v; },
+  speed(v) { SPEED = v; },
+};
+
+const hot = window.claude && window.claude.hot;
+if (hot && hot.ready) hot.ready(start); else start((hot && hot.data) || {});
+
+})();
+</script>
