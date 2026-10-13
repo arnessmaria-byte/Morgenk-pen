@@ -62,3 +62,6 @@ Automatisk testet med Playwright mot den ekte siden (`tests/playtest.mjs`):
 7. Én ekte kamp spilles med museklikk i DOM (velg hund, flytt, angrip, avslutt tur), og et parringsløp
    gjøres med klikk, med skjermbilder av hver skjerm.
 8. Lagring overlever omlasting av siden.
+9. Regresjoner fra en uavhengig kodegjennomgang: en død hund i kamplista krasjer ikke spillet (heller ikke
+   etter omlasting), neste hund arver ikke forrige hunds valgte handling, "Angre flytt" lander ikke på bæsj,
+   og omlasting midt i fiendens tur fører ikke kampen tilbake. Hver av disse testene feiler mot første versjon.

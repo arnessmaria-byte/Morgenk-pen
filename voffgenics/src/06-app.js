@@ -38,7 +38,8 @@ async function onTile(x, y) {
   const sel = selUnit(B), u = unitAt(B, x, y);
   if (sel && UI.mode.startsWith('act:')) {
     const id = UI.mode.slice(4);
-    if (ACTIONS[id].targets(B, sel).some(t => t.x === x && t.y === y)) return playerAction(sel, id, x, y);
+    const usable = !sel.acted && sel.actions.includes(id) && !(sel.cds[id] > 0);
+    if (usable && ACTIONS[id].targets(B, sel).some(t => t.x === x && t.y === y)) return playerAction(sel, id, x, y);
     UI.mode = 'move';
     if (!u) return;
   }
@@ -69,6 +70,7 @@ async function playerAction(u, id, x, y) {
 async function afterDogDone(B) {
   render();
   if (B.over) { finishBattle(); return; }
+  UI.mode = 'move';
   const next = B.units.find(o => o.side === 'dog' && !o.down && !o.acted);
   if (next) { UI.sel = next.id; return; }
   UI.busy = true; render(); await wait(350); UI.busy = false;
@@ -77,7 +79,7 @@ async function afterDogDone(B) {
 function onAction(id) {
   const B = S.run && S.run.battle, u = selUnit(B);
   if (!canClick(B) || !u || u.acted) return;
-  const A = ACTIONS[id]; if (!A || (u.cds[id] || 0) > 0) return;
+  const A = ACTIONS[id]; if (!A || !u.actions.includes(id) || (u.cds[id] || 0) > 0) return;
   if (UI.mode === 'act:' + id) { UI.mode = 'move'; return; }
   const ts = A.targets(B, u); if (!ts.length) return;
   if (A.self) return playerAction(u, id, u.x, u.y);
@@ -131,7 +133,7 @@ const H = {
   wait() { const B = S.run && S.run.battle, u = selUnit(B); if (!canClick(B) || !u) return; u.acted = true; u.moved = true; return afterDogDone(B); },
   undo() {
     const B = S.run && S.run.battle, u = selUnit(B);
-    if (canClick(B) && u && u.from && u.moved && !u.acted && !unitAt(B, u.from.x, u.from.y)) { u.x = u.from.x; u.y = u.from.y; u.from = null; u.moved = false; }
+    if (canClick(B) && u && u.from && u.moved && !u.acted && isFree(B, u.from.x, u.from.y)) { u.x = u.from.x; u.y = u.from.y; u.from = null; u.moved = false; }
   },
   'battle-continue'() { continueAfterBattle(); },
 };
@@ -145,7 +147,12 @@ function dispatch(act, ds = {}) {
 }
 
 // ---------- Lagring ----------
-function save() { if (HEADLESS) return; try { localStorage.setItem(SAVE_KEY, JSON.stringify({ S, rng: rngState })); } catch (e) { /* lagring er valgfri */ } }
+let lastSave = null;
+function save() {
+  if (HEADLESS) return;
+  lastSave = JSON.stringify({ S, rng: rngState });
+  try { localStorage.setItem(SAVE_KEY, lastSave); } catch (e) { /* lagring er valgfri */ }
+}
 function load() {
   try {
     const raw = localStorage.getItem(SAVE_KEY); if (!raw) return false;
@@ -164,7 +171,7 @@ function resume() {
 // ---------- Oppstart ----------
 document.addEventListener('click', e => {
   const el = e.target.closest('[data-act]');
-  if (!el || el.disabled) return;
+  if (!el || el.disabled || e.detail > 1) return; // andre klikk i et dobbeltklikk skal ikke treffe neste hunds knapp
   dispatch(el.dataset.act, { ...el.dataset });
 });
 document.addEventListener('mouseover', e => {
@@ -181,7 +188,7 @@ function start(data) {
   if (data && data.S && data.S.v === 1) { S = data.S; rngState = (data.rng >>> 0) || 1; }
   else if (!load()) newGame();
   render();
-  try { if (window.claude && window.claude.hot && window.claude.hot.snapshot) window.claude.hot.snapshot(() => ({ S, rng: rngState })); } catch (e) { /* ikke i en visning */ }
+  try { if (window.claude && window.claude.hot && window.claude.hot.snapshot) window.claude.hot.snapshot(() => (lastSave ? JSON.parse(lastSave) : { S, rng: rngState })); } catch (e) { /* ikke i en visning */ }
   resume();
   render();
 }

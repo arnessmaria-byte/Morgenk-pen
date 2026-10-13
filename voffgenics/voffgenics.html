@@ -743,7 +743,7 @@ const ACTIONS = {
     exec(B, u) { u.shield += 4; u.taunt = true; say(B, `${u.name} bjeffer: VOFF! Kom igjen!`); fx(B, 'shield', u, 4); } },
   apport: { name: 'Apport!', cd: 1, desc: 'Treffer 1-4 ruter unna og dytter målet ett hakk bakover.', val: u => `${u.ranged + 1} skade`,
     targets: (B, u) => foesWithin(B, u, 1, 4),
-    exec(B, u, x, y) { const t = unitAt(B, x, y); strike(B, u, t, u.ranged + 1, {}); if (t && !t.dead) push(B, u, t); } },
+    exec(B, u, x, y) { const t = unitAt(B, x, y); if (strike(B, u, t, u.ranged + 1, {}) && !t.dead) push(B, u, t); } },
   maane: { name: 'Månehyl', cd: 2, area: true, desc: 'Treffer alle i et 3x3-område opptil 3 ruter unna, også egne hunder.', val: u => `${u.magic} skade`,
     targets(B, u) {
       const out = [];
@@ -763,9 +763,9 @@ const ACTIONS = {
   grav: { name: 'Grav tunnel', cd: 2, desc: 'Graver seg til en ledig rute opptil 5 ruter unna.', val: () => 'flytt',
     targets(B, u) { const out = []; for (let y = 0; y < B.h; y++) for (let x = 0; x < B.w; x++) { const d = man(u.x, u.y, x, y); if (d >= 1 && d <= 5 && isFree(B, x, y)) out.push({ x, y }); } return out; },
     exec(B, u, x, y) { u.x = x; u.y = y; say(B, `${u.name} graver seg under bakken og dukker opp et annet sted.`); } },
-  baesj: { name: 'Legg bæsj', cd: 2, desc: 'Lager en hindring ved siden av seg. Fiender inntil den tar 1 skade hver runde.', val: () => 'hindring',
+  baesj: { name: 'Legg bæsj', cd: 2, desc: 'Lager en hindring ved siden av seg i 3 runder. Fiender inntil den tar 1 skade hver runde.', val: () => 'hindring',
     targets: (B, u) => DIRS.map(([dx, dy]) => ({ x: u.x + dx, y: u.y + dy })).filter(t => isFree(B, t.x, t.y)),
-    exec(B, u, x, y) { B.tiles[y * B.w + x] = 2; say(B, `${u.name} legger en bæsj. Det lukter fryktelig.`); } },
+    exec(B, u, x, y) { B.tiles[y * B.w + x] = 2; (B.poops = B.poops || {})[y * B.w + x] = B.round + 3; say(B, `${u.name} legger en bæsj. Det lukter fryktelig.`); } },
   rull: { name: 'Rull i gresset', cd: 3, self: true, desc: 'Helbreder seg selv.', val: u => `+${u.selfHeal} helse`,
     targets: (B, u) => u.hp < u.maxHp ? self(u) : [],
     exec(B, u) { say(B, `${u.name} ruller seg i gresset.`); healUnit(B, u, u.selfHeal); } },
@@ -782,14 +782,15 @@ const ACTIONS = {
 const abil = id => ACTIONS[id] || PASSIVES[id];
 
 function strike(B, src, tgt, base, o = {}) {
-  if (!tgt || tgt.dead || tgt.down) return;
-  if (!o.magic && chance(tgt.dodge || 0)) { say(B, `${tgt.name} unnviker ${src.name}.`); fx(B, 'miss', tgt, 0); return; }
+  if (!tgt || tgt.dead || tgt.down) return false;
+  if (!o.magic && chance(tgt.dodge || 0)) { say(B, `${tgt.name} unnviker ${src.name}.`); fx(B, 'miss', tgt, 0); return false; }
   let dmg = base, crit = false;
   if (chance(src.crit || 0)) { dmg *= 2; crit = true; }
   say(B, `${src.name} treffer ${tgt.name} for ${dmg}${crit ? ' (kritisk!)' : ''}.`);
   hurt(B, tgt, dmg, crit);
   if (o.melee && tgt.thorns && !src.dead && !src.down) { say(B, `Au! ${src.name} stikker seg på pigghåret.`); hurt(B, src, tgt.thorns, false); }
   if (o.poison && !tgt.dead && !tgt.down) tgt.poison = 3;
+  return true;
 }
 function hurt(B, tgt, dmg, crit) {
   if (tgt.dead || tgt.down) return;
@@ -935,6 +936,7 @@ function makeBattle(node, step) {
 function startPlayerPhase(B) {
   B.round++; B.phase = 'player'; B.ticked = false;
   B.units = B.units.filter(u => !u.dead);
+  for (const i in (B.poops || {})) if (B.poops[i] <= B.round) { B.tiles[i] = 0; delete B.poops[i]; }
   for (const u of B.units) {
     if (u.side !== 'dog') continue;
     u.shield = 0; u.taunt = false; u.from = null;
@@ -1003,7 +1005,7 @@ async function enemyAct(B, e) {
   }
 }
 async function enemyPhase(B) {
-  B.phase = 'enemy'; UI.busy = true; render();
+  B.phase = 'enemy'; UI.busy = true; render(); save();
   if (!B.ticked) {
     B.ticked = true;
     for (const e of B.units.filter(o => o.side === 'enemy' && !o.dead)) {
@@ -1017,7 +1019,7 @@ async function enemyPhase(B) {
     if (e.dead) continue;
     await enemyAct(B, e);
     e.acted = true;
-    render(); await wait(120);
+    save(); render(); await wait(120);
   }
   for (const e of B.units) if (e.side === 'enemy') e.acted = false;
   UI.busy = false;
@@ -1231,6 +1233,7 @@ function chooseEvent(i) {
   const ev = EVENTS.find(e => e.id === run.event.id), o = ev && ev.opts[i];
   if (!o || (o.need && !o.need())) return;
   run.event.result = o.go();
+  for (const pm of alive()) healPm(pm, 0);
 }
 function continueEvent() {
   const run = S.run; if (!run || !run.event || !run.event.result) return;
@@ -1599,13 +1602,15 @@ function viewBattle() {
     <div id="bt-overlay"></div>
   </div>`;
 }
+const unitPic = u => { const d = dogById(u.dogId); return d ? dogSVG(d, { cls: u.cls }) : ''; };
 function battlePanel(B) {
   const sel = selUnit(B);
   let h = '';
-  if (B.phase === 'enemy') h += `<div class="panel"><h3>Fiendens tur</h3><p class="hint">Rotter, måker og katter flytter seg.</p></div>`;
+  if (B.over) h += `<div class="panel"><h3>${B.over === 'win' ? 'Kampen er vunnet' : 'Kampen er tapt'}</h3></div>`;
+  else if (B.phase === 'enemy') h += `<div class="panel"><h3>Fiendens tur</h3><p class="hint">Rotter, måker og katter flytter seg.</p></div>`;
   else if (sel) h += selPanel(B, sel);
   else h += `<div class="panel"><h3>Velg en hund</h3><p class="hint">Trykk på en hund på brettet eller i lista.</p><div class="roster">${B.units.filter(u => u.side === 'dog').map(u =>
-    `<button data-act="sel-dog" data-id="${u.id}" ${u.down ? 'disabled' : ''}><div class="pic sm">${dogSVG(dogById(u.dogId), { cls: u.cls })}</div><span><b>${esc(u.name)}</b><span class="sub" style="display:block">${u.down ? 'Ligger nede' : u.acted ? 'Ferdig denne runden' : 'Klar'} · ${u.hp}/${u.maxHp}</span></span></button>`).join('')}</div></div>`;
+    `<button data-act="sel-dog" data-id="${u.id}" ${u.down ? 'disabled' : ''}><div class="pic sm">${unitPic(u)}</div><span><b>${esc(u.name)}</b><span class="sub" style="display:block">${u.down ? 'Ligger nede' : u.acted ? 'Ferdig denne runden' : 'Klar'} · ${u.hp}/${u.maxHp}</span></span></button>`).join('')}</div></div>`;
   const info = UI.info && B.units.find(u => u.id === UI.info && !u.dead && u.side === 'enemy');
   if (info) h += `<div class="panel"><div class="sel-head"><div class="pic sm">${foeSVG(info.type)}</div><div><h3>${esc(info.name)}</h3>
     <div class="sub">${info.hp}/${info.maxHp} helse · ${info.dmg} skade · rekker ${info.range[0] === info.range[1] ? info.range[0] : info.range.join('-')} · går ${info.move}</div>
@@ -1615,7 +1620,6 @@ function battlePanel(B) {
   return h;
 }
 function selPanel(B, u) {
-  const d = dogById(u.dogId);
   const acts = u.actions.map(id => {
     const A = ACTIONS[id], cd = u.cds[id] || 0;
     const ok = !u.acted && cd === 0 && B.phase === 'player' && A.targets(B, u).length > 0;
@@ -1627,7 +1631,7 @@ function selPanel(B, u) {
   else if (UI.mode.startsWith('act:')) hint = 'Trykk på et markert mål. Trykk på handlingen igjen for å avbryte.';
   else hint = u.moved ? 'Velg en handling, eller trykk på en fiende for å angripe.' : 'Trykk på en lys rute for å gå, eller angrip direkte.';
   return `<div class="panel">
-    <div class="sel-head"><div class="pic sm">${dogSVG(d, { cls: u.cls })}</div><div style="min-width:0"><h3>${esc(u.name)}</h3>
+    <div class="sel-head"><div class="pic sm">${unitPic(u)}</div><div style="min-width:0"><h3>${esc(u.name)}</h3>
       <div class="sub">${CLASSES[u.cls].name} · ${u.hp}/${u.maxHp} helse${u.shield ? ` · ${u.shield} skjold` : ''}${u.poison ? ` · lopper ${u.poison}` : ''}</div>
       <div class="sub mono">Går ${u.move} · unnviker ${pct(u.dodge)} · krit ${pct(u.crit)}</div></div></div>
     <p class="hint">${hint}</p>
@@ -1670,6 +1674,7 @@ function refreshTiles(B) {
     el.classList.toggle('hl-ally', H.ally.has(k)); el.classList.toggle('hl-area', H.area.has(k)); el.classList.toggle('hl-aoe', H.aoe.has(k));
     const t = tileAt(B, +el.dataset.x, +el.dataset.y);
     if (t === 2 && !el.dataset.poop) { el.dataset.poop = '1'; el.innerHTML = POOP_SVG; }
+    else if (t === 0 && el.dataset.poop) { delete el.dataset.poop; el.innerHTML = ''; }
   }
 }
 function syncUnits(B) {
@@ -1756,7 +1761,8 @@ async function onTile(x, y) {
   const sel = selUnit(B), u = unitAt(B, x, y);
   if (sel && UI.mode.startsWith('act:')) {
     const id = UI.mode.slice(4);
-    if (ACTIONS[id].targets(B, sel).some(t => t.x === x && t.y === y)) return playerAction(sel, id, x, y);
+    const usable = !sel.acted && sel.actions.includes(id) && !(sel.cds[id] > 0);
+    if (usable && ACTIONS[id].targets(B, sel).some(t => t.x === x && t.y === y)) return playerAction(sel, id, x, y);
     UI.mode = 'move';
     if (!u) return;
   }
@@ -1787,6 +1793,7 @@ async function playerAction(u, id, x, y) {
 async function afterDogDone(B) {
   render();
   if (B.over) { finishBattle(); return; }
+  UI.mode = 'move';
   const next = B.units.find(o => o.side === 'dog' && !o.down && !o.acted);
   if (next) { UI.sel = next.id; return; }
   UI.busy = true; render(); await wait(350); UI.busy = false;
@@ -1795,7 +1802,7 @@ async function afterDogDone(B) {
 function onAction(id) {
   const B = S.run && S.run.battle, u = selUnit(B);
   if (!canClick(B) || !u || u.acted) return;
-  const A = ACTIONS[id]; if (!A || (u.cds[id] || 0) > 0) return;
+  const A = ACTIONS[id]; if (!A || !u.actions.includes(id) || (u.cds[id] || 0) > 0) return;
   if (UI.mode === 'act:' + id) { UI.mode = 'move'; return; }
   const ts = A.targets(B, u); if (!ts.length) return;
   if (A.self) return playerAction(u, id, u.x, u.y);
@@ -1849,7 +1856,7 @@ const H = {
   wait() { const B = S.run && S.run.battle, u = selUnit(B); if (!canClick(B) || !u) return; u.acted = true; u.moved = true; return afterDogDone(B); },
   undo() {
     const B = S.run && S.run.battle, u = selUnit(B);
-    if (canClick(B) && u && u.from && u.moved && !u.acted && !unitAt(B, u.from.x, u.from.y)) { u.x = u.from.x; u.y = u.from.y; u.from = null; u.moved = false; }
+    if (canClick(B) && u && u.from && u.moved && !u.acted && isFree(B, u.from.x, u.from.y)) { u.x = u.from.x; u.y = u.from.y; u.from = null; u.moved = false; }
   },
   'battle-continue'() { continueAfterBattle(); },
 };
@@ -1863,7 +1870,12 @@ function dispatch(act, ds = {}) {
 }
 
 // ---------- Lagring ----------
-function save() { if (HEADLESS) return; try { localStorage.setItem(SAVE_KEY, JSON.stringify({ S, rng: rngState })); } catch (e) { /* lagring er valgfri */ } }
+let lastSave = null;
+function save() {
+  if (HEADLESS) return;
+  lastSave = JSON.stringify({ S, rng: rngState });
+  try { localStorage.setItem(SAVE_KEY, lastSave); } catch (e) { /* lagring er valgfri */ }
+}
 function load() {
   try {
     const raw = localStorage.getItem(SAVE_KEY); if (!raw) return false;
@@ -1882,7 +1894,7 @@ function resume() {
 // ---------- Oppstart ----------
 document.addEventListener('click', e => {
   const el = e.target.closest('[data-act]');
-  if (!el || el.disabled) return;
+  if (!el || el.disabled || e.detail > 1) return; // andre klikk i et dobbeltklikk skal ikke treffe neste hunds knapp
   dispatch(el.dataset.act, { ...el.dataset });
 });
 document.addEventListener('mouseover', e => {
@@ -1899,7 +1911,7 @@ function start(data) {
   if (data && data.S && data.S.v === 1) { S = data.S; rngState = (data.rng >>> 0) || 1; }
   else if (!load()) newGame();
   render();
-  try { if (window.claude && window.claude.hot && window.claude.hot.snapshot) window.claude.hot.snapshot(() => ({ S, rng: rngState })); } catch (e) { /* ikke i en visning */ }
+  try { if (window.claude && window.claude.hot && window.claude.hot.snapshot) window.claude.hot.snapshot(() => (lastSave ? JSON.parse(lastSave) : { S, rng: rngState })); } catch (e) { /* ikke i en visning */ }
   resume();
   render();
 }

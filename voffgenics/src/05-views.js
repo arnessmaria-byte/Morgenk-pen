@@ -232,13 +232,15 @@ function viewBattle() {
     <div id="bt-overlay"></div>
   </div>`;
 }
+const unitPic = u => { const d = dogById(u.dogId); return d ? dogSVG(d, { cls: u.cls }) : ''; };
 function battlePanel(B) {
   const sel = selUnit(B);
   let h = '';
-  if (B.phase === 'enemy') h += `<div class="panel"><h3>Fiendens tur</h3><p class="hint">Rotter, måker og katter flytter seg.</p></div>`;
+  if (B.over) h += `<div class="panel"><h3>${B.over === 'win' ? 'Kampen er vunnet' : 'Kampen er tapt'}</h3></div>`;
+  else if (B.phase === 'enemy') h += `<div class="panel"><h3>Fiendens tur</h3><p class="hint">Rotter, måker og katter flytter seg.</p></div>`;
   else if (sel) h += selPanel(B, sel);
   else h += `<div class="panel"><h3>Velg en hund</h3><p class="hint">Trykk på en hund på brettet eller i lista.</p><div class="roster">${B.units.filter(u => u.side === 'dog').map(u =>
-    `<button data-act="sel-dog" data-id="${u.id}" ${u.down ? 'disabled' : ''}><div class="pic sm">${dogSVG(dogById(u.dogId), { cls: u.cls })}</div><span><b>${esc(u.name)}</b><span class="sub" style="display:block">${u.down ? 'Ligger nede' : u.acted ? 'Ferdig denne runden' : 'Klar'} · ${u.hp}/${u.maxHp}</span></span></button>`).join('')}</div></div>`;
+    `<button data-act="sel-dog" data-id="${u.id}" ${u.down ? 'disabled' : ''}><div class="pic sm">${unitPic(u)}</div><span><b>${esc(u.name)}</b><span class="sub" style="display:block">${u.down ? 'Ligger nede' : u.acted ? 'Ferdig denne runden' : 'Klar'} · ${u.hp}/${u.maxHp}</span></span></button>`).join('')}</div></div>`;
   const info = UI.info && B.units.find(u => u.id === UI.info && !u.dead && u.side === 'enemy');
   if (info) h += `<div class="panel"><div class="sel-head"><div class="pic sm">${foeSVG(info.type)}</div><div><h3>${esc(info.name)}</h3>
     <div class="sub">${info.hp}/${info.maxHp} helse · ${info.dmg} skade · rekker ${info.range[0] === info.range[1] ? info.range[0] : info.range.join('-')} · går ${info.move}</div>
@@ -248,7 +250,6 @@ function battlePanel(B) {
   return h;
 }
 function selPanel(B, u) {
-  const d = dogById(u.dogId);
   const acts = u.actions.map(id => {
     const A = ACTIONS[id], cd = u.cds[id] || 0;
     const ok = !u.acted && cd === 0 && B.phase === 'player' && A.targets(B, u).length > 0;
@@ -260,7 +261,7 @@ function selPanel(B, u) {
   else if (UI.mode.startsWith('act:')) hint = 'Trykk på et markert mål. Trykk på handlingen igjen for å avbryte.';
   else hint = u.moved ? 'Velg en handling, eller trykk på en fiende for å angripe.' : 'Trykk på en lys rute for å gå, eller angrip direkte.';
   return `<div class="panel">
-    <div class="sel-head"><div class="pic sm">${dogSVG(d, { cls: u.cls })}</div><div style="min-width:0"><h3>${esc(u.name)}</h3>
+    <div class="sel-head"><div class="pic sm">${unitPic(u)}</div><div style="min-width:0"><h3>${esc(u.name)}</h3>
       <div class="sub">${CLASSES[u.cls].name} · ${u.hp}/${u.maxHp} helse${u.shield ? ` · ${u.shield} skjold` : ''}${u.poison ? ` · lopper ${u.poison}` : ''}</div>
       <div class="sub mono">Går ${u.move} · unnviker ${pct(u.dodge)} · krit ${pct(u.crit)}</div></div></div>
     <p class="hint">${hint}</p>
@@ -303,6 +304,7 @@ function refreshTiles(B) {
     el.classList.toggle('hl-ally', H.ally.has(k)); el.classList.toggle('hl-area', H.area.has(k)); el.classList.toggle('hl-aoe', H.aoe.has(k));
     const t = tileAt(B, +el.dataset.x, +el.dataset.y);
     if (t === 2 && !el.dataset.poop) { el.dataset.poop = '1'; el.innerHTML = POOP_SVG; }
+    else if (t === 0 && el.dataset.poop) { delete el.dataset.poop; el.innerHTML = ''; }
   }
 }
 function syncUnits(B) {

@@ -43,7 +43,7 @@ const ACTIONS = {
     exec(B, u) { u.shield += 4; u.taunt = true; say(B, `${u.name} bjeffer: VOFF! Kom igjen!`); fx(B, 'shield', u, 4); } },
   apport: { name: 'Apport!', cd: 1, desc: 'Treffer 1-4 ruter unna og dytter målet ett hakk bakover.', val: u => `${u.ranged + 1} skade`,
     targets: (B, u) => foesWithin(B, u, 1, 4),
-    exec(B, u, x, y) { const t = unitAt(B, x, y); strike(B, u, t, u.ranged + 1, {}); if (t && !t.dead) push(B, u, t); } },
+    exec(B, u, x, y) { const t = unitAt(B, x, y); if (strike(B, u, t, u.ranged + 1, {}) && !t.dead) push(B, u, t); } },
   maane: { name: 'Månehyl', cd: 2, area: true, desc: 'Treffer alle i et 3x3-område opptil 3 ruter unna, også egne hunder.', val: u => `${u.magic} skade`,
     targets(B, u) {
       const out = [];
@@ -63,9 +63,9 @@ const ACTIONS = {
   grav: { name: 'Grav tunnel', cd: 2, desc: 'Graver seg til en ledig rute opptil 5 ruter unna.', val: () => 'flytt',
     targets(B, u) { const out = []; for (let y = 0; y < B.h; y++) for (let x = 0; x < B.w; x++) { const d = man(u.x, u.y, x, y); if (d >= 1 && d <= 5 && isFree(B, x, y)) out.push({ x, y }); } return out; },
     exec(B, u, x, y) { u.x = x; u.y = y; say(B, `${u.name} graver seg under bakken og dukker opp et annet sted.`); } },
-  baesj: { name: 'Legg bæsj', cd: 2, desc: 'Lager en hindring ved siden av seg. Fiender inntil den tar 1 skade hver runde.', val: () => 'hindring',
+  baesj: { name: 'Legg bæsj', cd: 2, desc: 'Lager en hindring ved siden av seg i 3 runder. Fiender inntil den tar 1 skade hver runde.', val: () => 'hindring',
     targets: (B, u) => DIRS.map(([dx, dy]) => ({ x: u.x + dx, y: u.y + dy })).filter(t => isFree(B, t.x, t.y)),
-    exec(B, u, x, y) { B.tiles[y * B.w + x] = 2; say(B, `${u.name} legger en bæsj. Det lukter fryktelig.`); } },
+    exec(B, u, x, y) { B.tiles[y * B.w + x] = 2; (B.poops = B.poops || {})[y * B.w + x] = B.round + 3; say(B, `${u.name} legger en bæsj. Det lukter fryktelig.`); } },
   rull: { name: 'Rull i gresset', cd: 3, self: true, desc: 'Helbreder seg selv.', val: u => `+${u.selfHeal} helse`,
     targets: (B, u) => u.hp < u.maxHp ? self(u) : [],
     exec(B, u) { say(B, `${u.name} ruller seg i gresset.`); healUnit(B, u, u.selfHeal); } },
@@ -82,14 +82,15 @@ const ACTIONS = {
 const abil = id => ACTIONS[id] || PASSIVES[id];
 
 function strike(B, src, tgt, base, o = {}) {
-  if (!tgt || tgt.dead || tgt.down) return;
-  if (!o.magic && chance(tgt.dodge || 0)) { say(B, `${tgt.name} unnviker ${src.name}.`); fx(B, 'miss', tgt, 0); return; }
+  if (!tgt || tgt.dead || tgt.down) return false;
+  if (!o.magic && chance(tgt.dodge || 0)) { say(B, `${tgt.name} unnviker ${src.name}.`); fx(B, 'miss', tgt, 0); return false; }
   let dmg = base, crit = false;
   if (chance(src.crit || 0)) { dmg *= 2; crit = true; }
   say(B, `${src.name} treffer ${tgt.name} for ${dmg}${crit ? ' (kritisk!)' : ''}.`);
   hurt(B, tgt, dmg, crit);
   if (o.melee && tgt.thorns && !src.dead && !src.down) { say(B, `Au! ${src.name} stikker seg på pigghåret.`); hurt(B, src, tgt.thorns, false); }
   if (o.poison && !tgt.dead && !tgt.down) tgt.poison = 3;
+  return true;
 }
 function hurt(B, tgt, dmg, crit) {
   if (tgt.dead || tgt.down) return;
@@ -235,6 +236,7 @@ function makeBattle(node, step) {
 function startPlayerPhase(B) {
   B.round++; B.phase = 'player'; B.ticked = false;
   B.units = B.units.filter(u => !u.dead);
+  for (const i in (B.poops || {})) if (B.poops[i] <= B.round) { B.tiles[i] = 0; delete B.poops[i]; }
   for (const u of B.units) {
     if (u.side !== 'dog') continue;
     u.shield = 0; u.taunt = false; u.from = null;
@@ -303,7 +305,7 @@ async function enemyAct(B, e) {
   }
 }
 async function enemyPhase(B) {
-  B.phase = 'enemy'; UI.busy = true; render();
+  B.phase = 'enemy'; UI.busy = true; render(); save();
   if (!B.ticked) {
     B.ticked = true;
     for (const e of B.units.filter(o => o.side === 'enemy' && !o.dead)) {
@@ -317,7 +319,7 @@ async function enemyPhase(B) {
     if (e.dead) continue;
     await enemyAct(B, e);
     e.acted = true;
-    render(); await wait(120);
+    save(); render(); await wait(120);
   }
   for (const e of B.units) if (e.side === 'enemy') e.acted = false;
   UI.busy = false;

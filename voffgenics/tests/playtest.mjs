@@ -249,6 +249,59 @@ await page.screenshot({ path: join(shots, '14-kennel-veteraner.png'), fullPage: 
 
 check('ingen konsollfeil under hele testen', errors.length === 0, errors.slice(0, 3).join(' | '));
 
+// 10. Regresjoner fra kodegjennomgangen
+async function battleSetup(seedNo, classes, tweak) {
+  await page.evaluate(([s, cls, src]) => {
+    const V = window.VOFF; V.headless(false); V.speed(0); V.newGame(s); V.S.intro = false;
+    V.startRun(cls.map((c, i) => ({ dogId: V.S.dogs[i].id, cls: c }))); V.chooseNode(0);
+    const B = V.S.run.battle; B.tiles.fill(0);
+    new Function('V', 'B', src)(V, B); V.render();
+  }, [seedNo, classes, tweak]);
+}
+const errBefore = errors.length;
+// a) Siste hund dør av lopper ved rundestart: ingen krasj, resultatet vises, og lagringen kan lastes
+await battleSetup(11, ['slass', 'vokt'], `
+  B.units.filter(u => u.side === 'dog').forEach((u, i) => { u.x = 0; u.y = i; u.hp = 1; u.poison = 2; u.save = 0; });
+  B.units.filter(u => u.side === 'enemy').forEach((e, i) => { e.x = 7; e.y = i; e.move = 0; });`);
+await page.locator('[data-act="end-turn"]').click();
+const shown1 = await page.waitForSelector('#bt-overlay .overlay', { timeout: 5000 }).then(() => true, () => false);
+await page.reload();
+const shown2 = await page.waitForSelector('#bt-overlay .overlay', { timeout: 5000 }).then(() => true, () => false);
+check('regresjon: død hund i kamplista krasjer ikke, heller ikke etter omlasting', shown1 && shown2 && errors.length === errBefore, errors.slice(errBefore, errBefore + 2).join(' | '));
+const errAfterA = errors.length;
+// b) Valgt handling arves ikke av neste hund
+await battleSetup(12, ['myst', 'jakt'], `
+  const [a, b] = B.units.filter(u => u.side === 'dog'); a.x = 0; a.y = 0; b.x = 0; b.y = 5;
+  B.units.filter(u => u.side === 'enemy').forEach((e, i) => { e.x = 7; e.y = i; });
+  V.UI.sel = a.id;`);
+await page.locator('[data-act="action"][data-id="maane"]').click();
+await page.locator('[data-act="wait"]').click();
+await page.locator('#board .tile[data-x="1"][data-y="4"]').click(); // innenfor Månehyls rekkevidde fra jakthunden
+check('regresjon: neste hund kan ikke bruke forrige hunds handling', await page.evaluate(() => {
+  const B = window.VOFF.S.run.battle, j = B.units.find(u => u.cls === 'jakt');
+  return !j.acted && !j.cds.maane && window.VOFF.UI.mode === 'move';
+}));
+// c) Angre flytt kan ikke lande på bæsj
+await battleSetup(13, ['slass', 'pleie'], `
+  const [a, b] = B.units.filter(u => u.side === 'dog'); a.x = 1; a.y = 2; a.moved = true; a.from = { x: 0, y: 2 };
+  b.x = 0; b.y = 3; B.tiles[2 * B.w + 0] = 2;
+  B.units.filter(u => u.side === 'enemy').forEach((e, i) => { e.x = 7; e.y = i; });
+  V.UI.sel = a.id;`);
+await page.evaluate(() => window.VOFF.dispatch('undo'));
+check('regresjon: angre flytt lander ikke på bæsj', await page.evaluate(() => { const a = window.VOFF.S.run.battle.units.find(u => u.cls === 'slass'); return a.x === 1 && a.y === 2; }));
+// d) Omlasting midt i fiendens tur angrer den ikke
+await battleSetup(14, ['slass', 'vokt'], `
+  B.units.filter(u => u.side === 'dog').forEach((u, i) => { u.x = 0; u.y = i; });
+  B.units.filter(u => u.side === 'enemy').forEach((e, i) => { e.x = 2; e.y = i; });`);
+await page.evaluate(() => { window.VOFF.speed(3); window.VOFF.dispatch('end-turn'); });
+await page.waitForFunction(() => window.VOFF.S.run.battle.units.some(u => u.side === 'enemy' && u.acted));
+await page.reload(); await page.waitForSelector('#board .unit', { timeout: 5000 }).catch(() => null);
+await page.waitForFunction(() => { const B = window.VOFF.S.run.battle; return !B || B.over || (B.phase === 'player' && !window.VOFF.UI.busy); }, null, { timeout: 30000 });
+check('regresjon: omlasting midt i fiendens tur fører ikke tilbake til runde 1',
+  await page.evaluate(() => { const r = window.VOFF.S.run, B = r.battle; return !!r.battleResult || (B && B.round >= 2); }));
+check('regresjon: ingen konsollfeil i regresjonstestene', errors.length === errAfterA, errors.slice(errAfterA).join(' | '));
+await page.evaluate(() => window.VOFF.speed(1));
+
 // Mobil kamp-skjermbilde
 const mob = await openPage({ width: 390, height: 844 });
 await mob.page.evaluate(() => { const V = window.VOFF; V.newGame(3); V.S.intro = false; V.startRun(V.S.dogs.slice(0, 4).map(d => ({ dogId: d.id, cls: null }))); V.chooseNode(0); V.render(); });

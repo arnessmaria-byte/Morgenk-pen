@@ -125,6 +125,7 @@ function chooseEvent(i) {
   const ev = EVENTS.find(e => e.id === run.event.id), o = ev && ev.opts[i];
   if (!o || (o.need && !o.need())) return;
   run.event.result = o.go();
+  for (const pm of alive()) healPm(pm, 0);
 }
 function continueEvent() {
   const run = S.run; if (!run || !run.event || !run.event.result) return;
