@@ -1,0 +1,964 @@
+<title>Ravnebladet</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Uncial+Antiqua&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: et spillblad i Mantelens hus-stil. Pergament i lys modus (og på trykk), mørk sjø i mørk modus.
+   Smal spalte (760) for løpende tekst, bred spalte (1120) for tabeller, kort og diagrammer. */
+:root{
+  --bg:#ece3cf; --surface:#f7f1e4; --surface-2:#e6dbc2; --ink:#1d1a16; --ink-2:#5c5345; --mute:#857b69;
+  --rust:#a8401c; --gull:#8f6f22; --gull-svak:rgba(143,111,34,.35); --hav:#131F38; --hav-ink:#F2EDE3; --line:rgba(29,26,22,.16);
+  --god:#2e7d3a; --varsel:#b36a00; --fare:#b3261e;
+  --h:#e34948; --e:#2a78d6; --s:#eda100; --grid:rgba(29,26,22,.12);
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --display:'Uncial Antiqua','Newsreader',Georgia,serif;
+  --sans:'Inter',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  --mono:'JetBrains Mono','SF Mono',Consolas,monospace;
+  --shadow:0 18px 40px -24px rgba(0,0,0,.45);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0B1526; --surface:#131F38; --surface-2:#1b2a49; --ink:#F2EDE3; --ink-2:#c4cadb; --mute:#8E9BB3;
+    --rust:#d2653a; --gull:#C8A44D; --gull-svak:rgba(200,164,77,.32); --hav:#0B1526; --hav-ink:#F2EDE3; --line:rgba(200,164,77,.28);
+    --god:#6cc77a; --varsel:#e0a24a; --fare:#ef7a72;
+    --h:#e66767; --e:#3987e5; --s:#c98500; --grid:rgba(242,237,227,.14);
+    --shadow:0 18px 40px -24px rgba(0,0,0,.8);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0B1526; --surface:#131F38; --surface-2:#1b2a49; --ink:#F2EDE3; --ink-2:#c4cadb; --mute:#8E9BB3;
+  --rust:#d2653a; --gull:#C8A44D; --gull-svak:rgba(200,164,77,.32); --hav:#0B1526; --hav-ink:#F2EDE3; --line:rgba(200,164,77,.28);
+  --god:#6cc77a; --varsel:#e0a24a; --fare:#ef7a72;
+  --h:#e66767; --e:#3987e5; --s:#c98500; --grid:rgba(242,237,227,.14);
+  --shadow:0 18px 40px -24px rgba(0,0,0,.8);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:17.5px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,h4{margin:0;text-wrap:balance;font-weight:500}
+p{margin:0}
+a{color:var(--gull);text-decoration:none;border-bottom:1px solid var(--gull-svak)}
+a:hover{color:var(--rust)}
+:focus-visible{outline:3px solid var(--gull);outline-offset:2px}
+.container{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wide{max-width:1120px}
+.mono{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+.sans{font-family:var(--sans)}
+.muted{color:var(--mute)}
+.small{font-size:14px}
+
+/* Mastehode */
+.masthead{background:var(--hav);color:var(--hav-ink)}
+.mast-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:16px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-size:30px;letter-spacing:.06em;color:var(--hav-ink);border:0}
+.brand small{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;color:#C8A44D;margin-top:2px}
+.mast-tag{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:#C8A44D;text-transform:uppercase}
+.rope-edge{height:6px;background:#F5F0E6;border-top:2px solid #A8401C;border-bottom:1px solid #C8A44D}
+.ribbon{background:var(--rust);color:#F5F0E6}
+.ribbon-inner{padding-block:12px;font-family:var(--sans);font-size:13.5px;line-height:1.5}
+.ribbon b{letter-spacing:.06em;text-transform:uppercase;font-size:12px}
+
+/* Innholdsstripe */
+.toc{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 6px 18px -14px rgba(0,0,0,.5)}
+.toc-inner{display:flex;gap:6px;overflow-x:auto;padding-block:8px;scrollbar-width:thin}
+.toc a{flex:none;font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.02em;padding:6px 11px;border:1px solid var(--line);border-radius:999px;color:var(--ink-2);background:transparent;white-space:nowrap}
+.toc a:hover{color:var(--rust);border-color:var(--rust)}
+
+/* Forside */
+.arthead{padding-block:clamp(48px,8vh,88px) clamp(32px,5vh,52px)}
+.kicker{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--gull)}
+.kicker::before{content:"";display:inline-block;width:26px;height:1px;background:var(--gull);vertical-align:middle;margin-right:12px}
+h1{font-size:clamp(38px,6vw,64px);line-height:1.02;letter-spacing:-.01em;margin-top:18px}
+.ingress{font-style:italic;font-size:clamp(18px,2.2vw,22px);line-height:1.5;color:var(--ink-2);margin-top:22px;max-width:34em}
+.byline{font-family:var(--sans);font-size:13px;color:var(--mute);margin-top:20px}
+.byline b{color:var(--ink);font-weight:500}
+.hero-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:end}
+.hero-fig{margin:0}
+.hero-fig svg{width:100%;height:auto;display:block}
+.hero-fig figcaption{font-family:var(--sans);font-size:12.5px;color:var(--mute);margin-top:8px}
+@media (max-width:760px){.hero-grid{grid-template-columns:1fr}}
+
+/* Seksjoner */
+section.sec{padding-block:clamp(40px,6vh,64px);border-top:1px solid var(--line)}
+section.sec.band{background:var(--surface)}
+.sec-head{display:grid;gap:10px;margin-bottom:26px;max-width:760px}
+.sec-head h2{font-size:clamp(28px,3.6vw,40px);line-height:1.08}
+.sec-head h2::before{content:"";display:block;width:56px;height:2px;background:var(--rust);margin-bottom:14px}
+.sec-head .lede{font-size:18px;color:var(--ink-2);max-width:60ch}
+h3{font-size:22px;margin:36px 0 12px}
+h4{font-family:var(--sans);font-size:14px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);margin:0 0 8px}
+.prose{max-width:66ch}
+.prose p{margin:0 0 18px}
+.prose ul,.prose ol{margin:0 0 18px;padding-left:22px}
+.prose li{margin-bottom:6px}
+
+/* Bokser */
+.fakta{border:1px solid var(--line);border-left:3px solid var(--gull);border-radius:2px;padding:16px 20px;background:var(--surface);margin:22px 0}
+.fakta .fk-label{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gull);margin-bottom:8px}
+.fakta p{font-size:15.5px;line-height:1.55;margin:0 0 8px}
+.fakta p:last-child{margin:0}
+.fakta.advarsel{border-left-color:var(--fare)}
+.fakta.advarsel .fk-label{color:var(--fare)}
+.fakta.raad{border-left-color:var(--god)}
+.fakta.raad .fk-label{color:var(--god)}
+.pull{font-size:clamp(21px,2.8vw,26px);line-height:1.35;color:var(--gull);border-top:1px solid var(--gull-svak);border-bottom:1px solid var(--gull-svak);padding:20px 0;margin:34px 0;max-width:30em}
+.note{font-family:var(--sans);font-size:13.5px;color:var(--mute);border:1px dashed var(--gull-svak);border-radius:2px;padding:14px 18px;margin:0 0 26px;line-height:1.6}
+
+/* Kort */
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.grid.two{grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:18px 20px;display:flex;flex-direction:column;gap:10px;min-width:0;box-shadow:var(--shadow)}
+.card h3{margin:0;font-size:21px}
+.card .eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gull)}
+.card p{font-size:15.5px;line-height:1.5}
+.card .kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-family:var(--sans);font-size:13.5px}
+.card .kv dt{color:var(--mute);font-weight:600}
+.card .kv dd{margin:0;min-width:0}
+.card ul{margin:0;padding-left:18px;font-size:15px}
+.card li{margin-bottom:4px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.02em;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--ink-2);background:var(--surface-2)}
+.chip.svak{border-color:var(--god);color:var(--god);background:transparent}
+.chip.sterk{border-color:var(--fare);color:var(--fare);background:transparent}
+.chip.immun{border-color:var(--mute);color:var(--mute);background:transparent;text-decoration:line-through}
+.chip.gull{border-color:var(--gull);color:var(--gull);background:transparent}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.big{font-family:var(--sans);font-size:34px;font-weight:700;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.big small{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);display:block;margin-top:4px}
+
+/* Tabeller */
+.tbl-wrap{overflow-x:auto;margin:14px 0 22px;border:1px solid var(--line);border-radius:3px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:13.5px;min-width:560px}
+th,td{padding:8px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+th{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);font-weight:700;background:var(--surface-2);position:sticky;top:0}
+td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td b{font-weight:600}
+.tbl-cap{font-family:var(--sans);font-size:12.5px;color:var(--mute);padding:8px 12px;border-top:1px solid var(--line)}
+
+/* Figurer og diagrammer */
+figure.fig{margin:22px 0;background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:16px}
+figure.fig svg{width:100%;height:auto;display:block;max-width:100%}
+figure.fig figcaption{font-family:var(--sans);font-size:13px;color:var(--mute);margin-top:10px;line-height:1.5}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-family:var(--sans);font-size:12.5px;color:var(--ink-2);margin-top:8px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin-right:6px}
+
+/* Verktøy */
+.tool{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--rust);border-radius:3px;padding:18px 20px;margin:22px 0}
+.tool h3{margin:0 0 6px}
+.tool .row{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin:10px 0}
+.tool label{font-family:var(--sans);font-size:14px;display:inline-flex;gap:8px;align-items:center}
+.tool select{font:inherit;font-family:var(--sans);font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:3px;background:var(--bg);color:var(--ink)}
+.tool input[type=checkbox]{width:17px;height:17px;accent-color:var(--rust)}
+.checks{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:6px 18px;margin:10px 0}
+.result{display:flex;flex-wrap:wrap;gap:22px;align-items:flex-end;margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+.bars{display:grid;gap:6px;margin-top:8px}
+.bar{display:grid;grid-template-columns:84px 1fr 52px;gap:10px;align-items:center;font-family:var(--sans);font-size:13px}
+.bar i{display:block;height:12px;border-radius:2px;background:var(--c);width:var(--w);min-width:2px;transition:width .3s}
+.bar .num{text-align:right}
+
+/* Oppskrifter */
+details.fold{border:1px solid var(--line);border-radius:3px;background:var(--surface);margin:10px 0}
+details.fold summary{cursor:pointer;padding:12px 16px;font-family:var(--sans);font-weight:600;font-size:14.5px;list-style:none;display:flex;justify-content:space-between;gap:10px}
+details.fold summary::after{content:"+";font-family:var(--mono);color:var(--gull)}
+details.fold[open] summary::after{content:"\2212"}
+details.fold .inner{padding:0 16px 14px}
+details.fold .tbl-wrap{margin:0;border:0;border-top:1px solid var(--line);border-radius:0}
+
+/* Bunn */
+footer{background:var(--hav);color:var(--hav-ink);padding-block:36px 48px;text-align:center}
+footer .fb{font-family:var(--display);letter-spacing:.08em;font-size:18px}
+footer .legal{font-family:var(--sans);font-size:12.5px;color:#8E9BB3;margin-top:8px;line-height:1.6}
+.kilder ol{font-family:var(--sans);font-size:13.5px;line-height:1.55;padding-left:22px;columns:2;column-gap:32px}
+.kilder li{break-inside:avoid;margin-bottom:5px;overflow-wrap:anywhere}
+@media (max-width:700px){.kilder ol{columns:1}}
+
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+
+/* Trykk (PDF) */
+@page{size:A4;margin:14mm 12mm 16mm}
+@media print{
+  :root{--bg:#f3ecdc;--surface:#fbf7ee;--surface-2:#ebe2cc;--shadow:none}
+  body{font-size:10pt;line-height:1.45}
+  .card{padding:10px 12px;gap:6px}
+  .card p,.card ul,.card .kv{font-size:9.5pt}
+  .card h3{font-size:14pt}
+  h3{font-size:15pt;margin:18px 0 8px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:9px}
+  .grid.two{grid-template-columns:repeat(2,1fr)}
+  .sec-head .lede,.ingress{font-size:11pt}
+  .fakta p{font-size:9.5pt}
+  .big{font-size:20pt}
+  .toc,.tool .row,.tool .checks{display:none!important}
+  .masthead,.ribbon,.rope-edge,footer{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  section.sec{break-before:auto;padding-block:8mm}
+  .sec-head,h2,h3,h4{break-after:avoid-page}
+  p,li{orphans:3;widows:3}
+  .grid{break-inside:auto}
+  .card,figure.fig,.fakta,.tbl-wrap,details.fold{break-inside:avoid}
+  details.fold{display:block}
+  details.fold summary::after{display:none}
+  details.fold .inner{display:block!important}
+  table{min-width:0;width:100%;table-layout:auto;font-size:8.5pt}
+  th,td{padding:3px 5px}
+  td.num,th.num{white-space:normal}
+  th{position:static}
+  .tbl-wrap{overflow:hidden}
+  a{color:inherit;border-bottom:0}
+  .kilder ol{columns:2;font-size:8.5pt}
+  h1{font-size:40pt}
+}
+</style>
+
+<header class="masthead">
+<div class="container wide mast-inner">
+<a class="brand" href="#topp">RAVNEBLADET<small>EN HÅNDBOK FRA MANTELENS SPILLBORD</small></a>
+<span class="mast-tag">Valheim 1.0 &middot; Avl &middot; Bosser &middot; Builds &middot; Base</span>
+</div>
+</header>
+<div class="rope-edge"></div>
+<div class="ribbon"><div class="container wide ribbon-inner">
+<b>Privat forhåndsvisning.</b> Utgave 1, 15. oktober 2026. Alle tall er sjekket mot Valheim Wiki (valheim.fandom.com og speilet valheim.weirdgloop.org) og Iron Gates egne patchnotater for versjon 1.0.20. Der kildene spriker eller mangler (særlig Deep North), står det «ikke verifisert» i teksten.
+</div></div>
+
+<nav class="toc" aria-label="Innhold"><div class="container wide toc-inner">
+<a href="#status">1.0-status</a><a href="#krefter">Bosskreftene</a><a href="#bosser">Bossguiden</a><a href="#builds">Builds og lag</a><a href="#utstyr">Utstyr</a><a href="#mat">Mat og mjød</a><a href="#mynter">Mynter</a><a href="#oppdrag">Sideoppdrag og raid</a><a href="#base">Base og komfort</a><a href="#dyr">Dyrehold</a><a href="#kilder">Kilder</a>
+</div></nav>
+
+<section class="arthead" id="topp">
+<div class="container wide hero-grid">
+<div>
+<p class="kicker">Spillblad &middot; Utgave 1</p>
+<h1>Fra villsvin til Fimbulvinter</h1>
+<p class="ingress">Alt du trenger for å vinne Valheim 1.0, samlet på ett sted: de sju bosskreftene og hvordan du får dem, bossene slag for slag, seks builds som faktisk holder, mat og mjød med tall, raske mynter, sideoppdragene, basen som ikke faller ned, og en avlsguide som gir deg to-stjerners dyr i hver innhegning.</p>
+<p class="byline">Av <b>Ravnen</b>, med research fra Mantelens spillbord &middot; Valheim 1.0.20 &middot; 15. oktober 2026</p>
+</div>
+<figure class="hero-fig">
+<svg viewBox="0 0 360 306" role="img" aria-label="Åtte bosser i rekkefølge fra Eikthyr til Kall Fimbulbringer, tegnet som en trapp av stigende livspoeng">
+<defs><marker id="pil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="currentColor"/></marker></defs>
+<g fill="none" stroke="currentColor" stroke-width="1.2" font-family="Inter,sans-serif" font-size="11">
+<g id="trinn">
+<rect x="18" y="246" width="38" height="22" fill="var(--surface-2)"/><text x="37" y="286" text-anchor="middle" fill="currentColor" stroke="none">Eikthyr</text><text x="37" y="240" text-anchor="middle" fill="currentColor" stroke="none" font-family="JetBrains Mono,monospace" font-size="10">500</text>
+<rect x="60" y="226" width="38" height="42" fill="var(--surface-2)"/><text x="79" y="298" text-anchor="middle" fill="currentColor" stroke="none">Elder</text><text x="79" y="220" text-anchor="middle" fill="currentColor" stroke="none" font-family="JetBrains Mono,monospace" font-size="10">2 500</text>
+<rect x="102" y="206" width="38" height="62" fill="var(--surface-2)"/><text x="121" y="286" text-anchor="middle" fill="currentColor" stroke="none">Bonemass</text><text x="121" y="200" text-anchor="middle" fill="currentColor" stroke="none" font-family="JetBrains Mono,monospace" font-size="10">5 000</text>
+<rect x="144" y="186" width="38" height="82" fill="var(--surface-2)"/><text x="163" y="298" text-anchor="middle" fill="currentColor" stroke="none">Moder</text><text x="163" y="180" text-anchor="middle" fill="currentColor" stroke="none" font-family="JetBrains Mono,monospace" font-size="10">7 500</text>
+<rect x="186" y="166" width="38" height="102" fill="var(--surface-2)"/><text x="205" y="286" text-anchor="middle" fill="currentColor" stroke="none">Yagluth</text><text x="205" y="160" text-anchor="middle" fill="currentColor" stroke="none" font-family="JetBrains Mono,monospace" font-size="10">10 000</text>
+<rect x="228" y="146" width="38" height="122" fill="var(--surface-2)"/><text x="247" y="298" text-anchor="middle" fill="currentColor" stroke="none">Queen</text><text x="247" y="140" text-anchor="middle" fill="currentColor" stroke="none" font-family="JetBrains Mono,monospace" font-size="10">12 500</text>
+<rect x="270" y="106" width="38" height="162" fill="var(--rust)" stroke="currentColor"/><text x="289" y="286" text-anchor="middle" fill="currentColor" stroke="none">Fader</text><text x="289" y="100" text-anchor="middle" fill="currentColor" stroke="none" font-family="JetBrains Mono,monospace" font-size="10">25 000</text>
+<rect x="312" y="36" width="38" height="232" fill="var(--surface-2)" stroke-dasharray="4 3"/><text x="331" y="298" text-anchor="middle" fill="currentColor" stroke="none">Kall</text><text x="331" y="30" text-anchor="middle" fill="currentColor" stroke="none" font-family="JetBrains Mono,monospace" font-size="10">~47 000?</text>
+</g>
+<line x1="18" y1="268" x2="352" y2="268"/>
+</g>
+</svg>
+<figcaption>Bossenes livspoeng i rekkefølge. Fader er markert fordi det er der de fleste løp stopper. Kall Fimbulbringer (Deep North) har ingen offisielle tall ennå, stiplet er fansidenes anslag.</figcaption>
+</figure>
+</div>
+</section>
+
+<section class="sec first" id="status">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Hvor står spillet</p><h2>Valheim 1.0 er ute. Dette er nytt.</h2><p class="lede">Spillet forlot early access 9. september 2026 med Deep North. Siste patch er 1.0.20 fra 15. oktober. Alt i dette bladet er skrevet for den versjonen.</p></div>
+<div class="grid">
+<div class="card"><p class="eyebrow">Nytt biom</p><h3>Deep North</h3><p>Frost overalt (1 livspoeng i sekundet uten frostvern), bossen Kall Fimbulbringer, jotun-invasjoner, grottene Winding Tunnels og Mörkhalla, elg og sel, gripekrok og snøskuffe. Våpen støpes av Bloodgold i former og herdes i Frost Foundry.</p></div>
+<div class="card"><p class="eyebrow">Nye våpenlinjer</p><h3>Nord, Frostfire og Thunderblood</h3><p>Over 40 våpen og fire staver. Nord er grunnlinjen, Thunderblood legger på lyn (og chain-lightning i 25 prosent av treffene), Frostfire legger på frost og ild. Ingen av dem kan oppgraderes til kvalitet 4 ennå; wiki sier Black Forge nivå 7 «ikke tilgjengelig».</p></div>
+<div class="card"><p class="eyebrow">Nye rustninger</p><h3>Protector, Vanguard, Caller, Lox Fur</h3><p>Protector er tung (150 rustning på settet), Vanguard lett (120, med stamina-rabatt og +10 prosent pierce), Caller er mageset med +160 prosent eitr-regenerering. Lox Fur er et lett Plains-sett med +30 snik og +15 bue.</p></div>
+<div class="card"><p class="eyebrow">Fra Call to Arms (sept. 2025)</p><h3>Smykker og adrenalin</h3><p>Ett smykke om gangen. Adrenalin bygges av parering, unnamanøver og treff, og utløser smykkets effekt. Nytt Dodge-skill. Bosskreftene ble rebalansert samtidig.</p></div>
+<div class="card"><p class="eyebrow">Lommer og lomme-penger</p><h3>Wider og Deeper Pockets</h3><p>Haldor selger én ekstra inventarrad for 1000 mynter etter Moder og én til for 2000 etter Dronningen. De fleste spillere bør spare til dette før Megingjord.</p></div>
+<div class="card"><p class="eyebrow">Patch 1.0.20</p><h3>Trofeer og sjeldne drops</h3><p>Trofésjansen øker nå med stjernenivå, og sjeldne-drop-telleren huskes mellom økter. Forge of Potential-eksploiten er tettet. Mac App Store er forsinket, så krysspill mot Mac er midlertidig brutt.</p></div>
+</div>
+<div class="fakta advarsel"><p class="fk-label">Forbehold</p><p>Valheim Wiki er ikke ferdig oppdatert for 1.0. Deep North-sidene er stubber, og Kall Fimbulbringer har ingen egen side. Der dette bladet oppgir Deep North-tall, kommer de fra spillfiler sitert av fansider (timesaver.gg, beebom, valheim.fans) og er merket som ikke verifisert.</p></div>
+</div>
+</section>
+
+<section class="sec band" id="krefter">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Valheims «collars»</p><h2>De sju bosskreftene, og hvordan du får alle</h2><p class="lede">Hver boss etterlater et trofé. Heng det på steinen sin ved Offersteinene midt i verden, trykk F, og du og alle innen 10 meter får kraften i 5 minutter. Nedkjølingen er 20 minutter, deles av alle kreftene, og nullstilles ikke av utlogging eller søvn. Bare én kraft kan være valgt om gangen.</p></div>
+<div class="grid">
+<div class="card"><p class="eyebrow">1 &middot; Meadows &middot; 2 hjortetrofeer</p><h3>Eikthyr</h3><p><b>Minus 60 prosent stamina</b> på løping, hopp og svømming.</p><ul><li>Beste bruk: utforsking, flukt, hele Black Forest og Swamp.</li><li>Wiki anbefaler den mot både Elder og Bonemass, fordi begge kampene handler om å løpe.</li></ul></div>
+<div class="card"><p class="eyebrow">2 &middot; Black Forest &middot; 3 Ancient seeds</p><h3>The Elder</h3><p><b>Pluss 60 prosent</b> hogge- og hakkeskade, pluss 30 prosent livsregenerering.</p><ul><li>Beste bruk: gruvedrift og tømmer. En kvalitet 4-hakke med Elder på ett-skudder Flametal-noder.</li></ul></div>
+<div class="card"><p class="eyebrow">3 &middot; Swamp &middot; 10 Withered bones</p><h3>Bonemass</h3><p><b>Minus 25 prosent</b> fysisk skade (blunt, slash, pierce). Blokkering koster null stamina og gir 5 tilbake.</p><ul><li>Beste bruk: alle bosskamper i nærkamp. Wiki anbefaler den mot Yagluth, Dronningen, Fader og Lord Reto.</li><li>Stabler ikke med Crystal Heart-smykket.</li></ul></div>
+<div class="card"><p class="eyebrow">4 &middot; Mountains &middot; 3 drageegg</p><h3>Moder</h3><p>Alltid <b>medvind</b> mens du styrer, <b>pluss 300 bæreevne</b>, pluss 10 prosent fart, frostresistent.</p><ul><li>Beste bruk: seiling, malmfrakt, bygging. Vinden skifter bare retning, ikke styrke, og virker ikke nær verdenskanten.</li></ul></div>
+<div class="card"><p class="eyebrow">5 &middot; Plains &middot; 5 Fuling totems</p><h3>Yagluth</h3><p>Lynresistent, <b>pluss 25 Farming</b>, <b>pluss 10 prosent skade</b> av alle typer.</p><ul><li>Beste bruk: farming-økter og alle som sloss uten skjold. Pluss 10 prosent på alt er sterkere enn det høres ut.</li></ul></div>
+<div class="card"><p class="eyebrow">6 &middot; Mistlands &middot; 3 Seeker soldier-trofeer</p><h3>The Queen</h3><p><b>Pluss 100 prosent eitr-regenerering</b>, sniking koster null stamina, giftresistent.</p><ul><li>Beste bruk: alle magikere, og snikere. Første kamp mot Dronningen krever Sealbreaker (9 fragmenter fra Infested Mines), ikke offer.</li></ul></div>
+<div class="card"><p class="eyebrow">7 &middot; Ashlands &middot; 3 bjeller (9 fragmenter)</p><h3>Fader</h3><p><b>Pluss 100 prosent adrenalin</b>, halvert stagger, ildresistent.</p><ul><li>Beste bruk: Ashlands-utforsking og smykkebyggere. Bjellefragmentene finnes i Charred Fortresses.</li></ul></div>
+<div class="card"><p class="eyebrow">8 &middot; Deep North &middot; 3 Malicious Blood</p><h3>Kall Fimbulbringer</h3><p><b>Gir ingen kraft.</b> Dropper Sacrificial Blood (tas til Offersteinene for slutten) og Crown Jewel, som med 5 Bloodgold blir Crown of Valheim: 50 rustning, pluss 5 prosent fart, og vanlige skapninger flykter fra deg.</p><p class="small muted">Ikke verifisert mot wiki, tre fansider er enige.</p></div>
+</div>
+
+<h3>Hvilken kraft til hva</h3>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Aktivitet</th><th>Førstevalg</th><th>Alternativ</th><th>Hvorfor</th></tr></thead>
+<tbody>
+<tr><td>Gruve og tømmer</td><td><b>Elder</b></td><td>Moder</td><td>60 prosent mer hakkeskade. Moder tar lasten hjem.</td></tr>
+<tr><td>Seiling og frakt</td><td><b>Moder</b></td><td>Eikthyr</td><td>Medvind og 300 ekstra bæreevne, pluss frostvern på havet.</td></tr>
+<tr><td>Bygging</td><td><b>Moder</b></td><td>Elder</td><td>Bæreevne og fart teller mest når du flytter stein.</td></tr>
+<tr><td>Bosser, nærkamp</td><td><b>Bonemass</b></td><td>Fader</td><td>Gratis blokkering og 25 prosent mindre fysisk skade.</td></tr>
+<tr><td>Bosser, bue</td><td><b>Eikthyr</b></td><td>Yagluth</td><td>Du løper hele kampen. Yagluth gir 10 prosent mer skade.</td></tr>
+<tr><td>Mistlands</td><td><b>Queen</b> (mage)</td><td>Bonemass (nærkamp)</td><td>Dobbel eitr-regenerering, gratis sniking i tåka.</td></tr>
+<tr><td>Ashlands</td><td><b>Fader</b></td><td>Bonemass</td><td>Ildresistens. Bonemass holder mot Fader selv, men ikke mot ilden hans.</td></tr>
+<tr><td>Deep North</td><td><b>Moder</b></td><td>Bonemass</td><td>Frostvern og fart i et biom der alt er frost. (Vårt råd ut fra effektene, ikke wiki.)</td></tr>
+<tr><td>Farming</td><td><b>Yagluth</b></td><td>&ndash;</td><td>Pluss 25 Farming betyr flere avlinger per plante.</td></tr>
+</tbody></table></div>
+<div class="fakta raad"><p class="fk-label">Lagtriks</p><p>Alle innen 10 meter får kraften, men nedkjølingen er per spiller. Et lag på fire kan derfor holde én kraft oppe nesten hele tiden ved å aktivere etter tur hvert femte minutt.</p></div>
+</div>
+</section>
+
+<section class="sec" id="bosser">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Slag for slag</p><h2>Bossguiden</h2><p class="lede">Hver boss har én svakhet og én felle. Skadetyper: «svak» betyr 1,5 ganger skade, «resistent» halv skade, «immun» null. Bosser kan aldri bli staggret, og alle får 30 prosent mer liv og 4 prosent mer skade per ekstra spiller innen 100 meter.</p></div>
+
+<div class="grid two">
+<div class="card"><p class="eyebrow">Meadows &middot; 500 HP &middot; 2 hjortetrofeer</p><h3>Eikthyr</h3>
+<div class="chips"><span class="chip immun">Stagger</span><span class="chip">Ingen svakheter</span></div>
+<dl class="kv"><dt>Angrep</dt><dd>Gevirslag 20 pierce, lynstråle 15, lyn-AoE 15 i 10 meters radius.</dd><dt>Utstyr</dt><dd>Lærrustning, treskjold, flintøks eller Crude bow.</dd><dt>Taktikk</dt><dd>Alt kan blokkeres med treskjold. Skyt fra bak steinene ved alteret om du vil ha det trygt.</dd><dt>Drops</dt><dd>Trofé, 3 Hard antler (hakke).</dd></dl></div>
+<div class="card"><p class="eyebrow">Black Forest &middot; 2 500 HP &middot; 3 Ancient seeds</p><h3>The Elder</h3>
+<div class="chips"><span class="chip svak">Ild (x2)</span><span class="chip immun">Gift</span><span class="chip immun">Spirit</span></div>
+<dl class="kv"><dt>Angrep</dt><dd>Vinesalve 25 x 35 pierce på 15 til 50 meter, stamp 60 blunt innen 3 meter, 15 røtter i 15 meter.</dd><dt>Utstyr</dt><dd>Bronse. Finewood bow med ildpiler (solo: regn med rundt 200), eller Bronze buckler i nærkamp.</dd><dt>Taktikk</dt><dd>Stå bak de fire uknuselige søylene. Han bruker ikke vinene på deg i nærkamp. Eikthyr-kraft for løpingen.</dd><dt>Drops</dt><dd>Trofé, Swamp key (én per spiller).</dd></dl></div>
+<div class="card"><p class="eyebrow">Swamp &middot; 5 000 HP &middot; 10 Withered bones</p><h3>Bonemass</h3>
+<div class="chips"><span class="chip svak">Blunt</span><span class="chip svak">Frost</span><span class="chip sterk">Slash (halv)</span><span class="chip sterk">Ild og pierce (kvart)</span><span class="chip immun">Gift</span></div>
+<dl class="kv"><dt>Angrep</dt><dd>Giftspy 130 i 9 meter, kan ikke blokkeres. Slag 80 blunt pluss 50 gift. Kaster skjeletter og blobs.</dd><dt>Utstyr</dt><dd>Jern. Iron mace, Iron sledge eller Stagbreaker. Frostner er ideell om du har sølv.</dd><dt>Taktikk</dt><dd>Giftmjød er obligatorisk (minus 75 prosent gift). Jevn ut bakken med hakka. Stå på baksiden av alteret med tohåndskølle og slå småkrypet utfor.</dd><dt>Drops</dt><dd>Trofé, Wishbone (finner sølv og skatter).</dd></dl></div>
+<div class="card"><p class="eyebrow">Mountains &middot; 7 500 HP &middot; 3 drageegg</p><h3>Moder</h3>
+<div class="chips"><span class="chip svak">Ild</span><span class="chip immun">Frost</span><span class="chip immun">Spirit</span></div>
+<dl class="kv"><dt>Angrep</dt><dd>Bitt 120, klo 110, 16 istapper à 30 pierce pluss 200 frost, kuldepust 200 frost i 30 meters linje. Alt fryser.</dd><dt>Utstyr</dt><dd>Ulv eller sølv. Draugr Fang med Needle-piler, eller Silver sword. Frostner er ubrukelig her.</dd><dt>Taktikk</dt><dd>Reis en søyle med hakka som dekning. Rydd draker og golemer først. Start ikke om natten. Eggene veier 200, Megingjord hjelper.</dd><dt>Drops</dt><dd>10 Dragon tear (Artisan table), trofé.</dd></dl></div>
+<div class="card"><p class="eyebrow">Plains &middot; 10 000 HP &middot; 5 Fuling totems</p><h3>Yagluth</h3>
+<div class="chips"><span class="chip sterk">Ild (halv)</span><span class="chip sterk">Pierce (kvart)</span><span class="chip immun">Gift</span><span class="chip gull">Tar spirit</span></div>
+<dl class="kv"><dt>Angrep</dt><dd>Ildstråle 40 meter, 20 prosjektiler à 40 ild pluss 20 lyn. Meteorer 40 blunt pluss 120 ild. Nova 65 ild pluss 65 lyn i 10 meter.</dd><dt>Utstyr</dt><dd>Padded. Black metal sword, Silver sword eller Frostner (spirit). Frostpiler om du skyter.</dd><dt>Taktikk</dt><dd>Fire resistance barley wine er kampen balansert rundt. Rull unna novaen. Stå foran ansiktet, så blokkerer hodet meteorene. Rydd fuling-landsbyene rundt først.</dd><dt>Drops</dt><dd>3 Torn spirit (Wisp fountain), trofé.</dd></dl></div>
+<div class="card"><p class="eyebrow">Mistlands &middot; 12 500 HP &middot; Sealbreaker, så 3 Seeker soldier-trofeer</p><h3>The Queen</h3>
+<div class="chips"><span class="chip sterk">Pierce (halv)</span><span class="chip immun">Spirit</span><span class="chip gull">Magi virker fullt</span></div>
+<dl class="kv"><dt>Angrep</dt><dd>Slag 130, pierce-AoE 150, bitt 140 pluss 100 gift, spy som klekker yngel, tilkaller Seekers fra hullene, graver seg vekk.</dd><dt>Utstyr</dt><dd>Carapace og Krom i nærkamp, eller Eitr-weave og Staff of Embers. Feather cape og Wisplight uansett.</dd><dt>Taktikk</dt><dd>Inngangskorridoren er trygg å helbrede i. Major healing, giftmjød, Lingering stamina. Bonemass-kraft første gang.</dd><dt>Drops</dt><dd>5 Majestic carapace, trofé.</dd></dl></div>
+<div class="card"><p class="eyebrow">Ashlands &middot; 25 000 HP &middot; 3 bjeller</p><h3>Fader</h3>
+<div class="chips"><span class="chip sterk">Pierce (halv)</span><span class="chip immun">Ild</span><span class="chip immun">Spirit</span><span class="chip gull">Tar gift</span></div>
+<dl class="kv"><dt>Angrep</dt><dd>Bitt 210, klo 200, spinn 140, ildpust 60 lingrende, meteorer, ildring, og «Fissure»: 12 til 16 spir med flammer 120 ild pluss 80 spirit som ikke kan unngås eller blokkeres.</dd><dt>Utstyr</dt><dd>Flametal eller Ask pluss Ashen cape. Berserkir axes gir mest skade. Magi er «klart lettest»: Staff of the Wild, Trollstav, Staff of Protection, Embla.</dd><dt>Taktikk</dt><dd>Barley wine er obligatorisk. Bygg jordvoller rundt arenaen og en portal i et avlukke. Berserkir-mjød pluss Bonemass for nærkamp, Lingering eitr pluss Queen for magi.</dd><dt>Drops</dt><dd>5 Fader relic, trofé.</dd></dl></div>
+<div class="card"><p class="eyebrow">Deep North &middot; HP ukjent &middot; 3 Malicious Blood</p><h3>Kall Fimbulbringer</h3>
+<div class="chips"><span class="chip sterk">Pierce, ild, frost, lyn (halv)</span><span class="chip immun">Spirit</span><span class="chip gull">Blunt og slash nøytralt</span></div>
+<dl class="kv"><dt>Slik</dt><dd>Hvert Malicious Blood krever en fullført jotun-invasjon: åpne en Mörkhalla med Intricate Key (form fra Elaking, støpt med 5 Bloodgold) og knus iskjernen inni. Blodet ofres i «Strange Bowl» ved en Aesir Passage.</dd><dt>Faser</dt><dd>1: kjedeangrep. 2: immun mens han kaller «aspekter» av de sju forrige bossene, to om gangen. 3: elementskade og tentakler som Elders røtter.</dd><dt>Utstyr</dt><dd>Protector eller Vanguard, Thunderblood eller Nord sledge/mace/greatsword, ild- og frostvern, portal ved inngangen.</dd><dt>Ikke verifisert</dt><dd>HP oppgis som ~47 000 (beebom) eller 52 800 (valheim.fans). Wiki har ingen side.</dd></dl></div>
+</div>
+
+<h3>Hildirs minibosser og Lord Reto</h3>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Boss</th><th>Sted</th><th class="num">HP</th><th>Svak</th><th>Immun</th><th>Taktikk</th><th>Gir</th></tr></thead>
+<tbody>
+<tr><td><b>Brenna</b></td><td>Smouldering Tombs, Black Forest</td><td class="num">1 200</td><td>Blunt, frost</td><td>Ild, gift</td><td>Begge angrep kan pareres. Barley wine. Staff of Frost er svært effektiv.</td><td>Hildirs messingkiste</td></tr>
+<tr><td><b>Geirrhafa</b></td><td>Howling Caverns, Mountains</td><td class="num">3 700</td><td>Ild</td><td>Frost</td><td>Frostkjeglen (100 frost, kan ikke blokkeres) slås av ved å klemme deg inntil ham. Angrip fra siden.</td><td>Sølvkiste</td></tr>
+<tr><td><b>Zil og Thungr</b></td><td>Sealed Tower, Plains, nederste etasje</td><td class="num">4 200 / 2 400</td><td>&ndash;</td><td>Spirit</td><td>Skyt fra spiraltrappa, rygg oppover. Drep Thungr først, da blir Zil en vanlig sjaman. Vent ut skjoldet hans.</td><td>Bronsekiste</td></tr>
+<tr><td><b>Lord Reto</b></td><td>Tomb of Lord Reto, Ashlands</td><td class="num">7 500 (alltid 2 stjerner)</td><td>Spirit</td><td>Gift</td><td>Slag på 420 til 500. Bonemass-kraft og full Flametal. Ikke et Hildir-oppdrag.</td><td>Dyrnwyn-fragment</td></tr>
+</tbody></table></div>
+</div>
+</section>
+
+<section class="sec band" id="builds">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Seks måter å overleve på</p><h2>Builds, og laget som tar alt</h2><p class="lede">En build er et våpen, en rustning, tre matretter, én mjød, én bosskraft og ett smykke som trekker i samme retning. Her er de seks som holder gjennom hele spillet, med utstyrsstigen fra Swamp til Deep North.</p></div>
+
+<div class="grid two">
+<div class="card"><p class="eyebrow">Tank</p><h3>Skjoldveggen</h3>
+<dl class="kv"><dt>Våpen</dt><dd>Iron mace → Frostner → Porcupine → Flametal mace → Thunderblood mace. Tårnskjold hele veien: Iron → Black metal → Flametal → Nord Greatshield (170 blokk).</dd><dt>Rustning</dt><dd>Iron → Wolf → Padded → Carapace → Flametal → Protector (150).</dd><dt>Mat</dt><dd>To liv, én stamina. Meat in bread, Seal meat soup, Pancakes.</dd><dt>Mjød og kraft</dt><dd>Major healing, Lingering healing. <b>Bonemass</b>.</dd><dt>Smykke</dt><dd>Neckstabber (pluss 100 liv, pluss 20 rustning). Tidlig: Iron brooch.</dd><dt>Skills</dt><dd>Blocking (pluss 50 prosent blokk på 100), Clubs, Running.</dd></dl>
+<p>Hvorfor: tårnskjold har høyest blokk, blunt er nøytralt eller sterkt mot nesten alt, også Kall. Prisen: kan ikke parere, minus 10 prosent fart.</p></div>
+<div class="card"><p class="eyebrow">Kontroll</p><h3>Atgeir-spinneren</h3>
+<dl class="kv"><dt>Våpen</dt><dd>Bronze → Iron → Black metal atgeir → Himminafl (lyn i spinnet) → Thunderblood atgeir.</dd><dt>Rustning</dt><dd>Fenris for fart, Ask eller Vanguard for pierce og billig stamina.</dd><dt>Mat</dt><dd>Én liv, to stamina. Spinnet koster 40 stamina.</dd><dt>Mjød og kraft</dt><dd>Medium eller Lingering stamina. Eikthyr tidlig, <b>Yagluth</b> senere.</dd><dt>Smykke</dt><dd>Wolf Sight (pluss 20 Spears og Bows, pluss 10 prosent pierce).</dd><dt>Skills</dt><dd>Polearms, Dodge, Running.</dd></dl>
+<p>Hvorfor: sekundærangrepet staggrer hele grupper. Unngå alt som er pierce-resistent: skjeletter, Charred, Krigen, Barka, Kall.</p></div>
+<div class="card"><p class="eyebrow">Avstand</p><h3>Bueskytteren</h3>
+<dl class="kv"><dt>Våpen</dt><dd>Finewood → Huntsman → Draugr Fang → Spinesnap → Ash Fang → Thunderblood bow. Armbrøst som åpner: Arbalest → Ripper → Nord crossbow (264).</dd><dt>Rustning</dt><dd>Root (pluss 15 Bows) → Lox Fur (pluss 30 Sneak, pluss 15 Bows) → Ask → Vanguard. Feather cape i Mistlands.</dd><dt>Mat</dt><dd>Én liv, to stamina.</dd><dt>Mjød og kraft</dt><dd>Lingering stamina. <b>Eikthyr</b> eller Moder.</dd><dt>Smykke</dt><dd>Wolf Sight.</dd><dt>Skills</dt><dd>Bows (minus 80 prosent trekktid på 100), Crossbows, Sneaking.</dd></dl>
+<p>Hvorfor: pilen avgjør mer enn buen. Ild mot grådverger, Hexen og elg. Frost mot blobs og surtlinger. Needle, Carapace, Charred og Bloodgold for rå pierce.</p></div>
+<div class="card"><p class="eyebrow">Magi</p><h3>Eitr-magikeren</h3>
+<dl class="kv"><dt>Staver</dt><dd>Mistlands: Staff of Embers pluss Staff of Protection, Dead Raiser som tank. Ashlands: Dundr mot Morgen, Staff of the Wild, Trollstav. Deep North: Lightning Strike, Northern Vengeance, Spirit Caller.</dd><dt>Rustning</dt><dd>Eitr-weave (pluss 100 prosent regen) → Embla (130) → Caller pluss Cape of the Caller (180).</dd><dt>Mat</dt><dd>To eitr, én liv. Fish soup eller Oven pancake pluss Meat in bread.</dd><dt>Mjød og kraft</dt><dd>Minor eitr, Lingering eitr, Major healing (blodmagi koster liv). <b>The Queen</b>.</dd><dt>Smykke</dt><dd>Jörmundling (pluss 100 eitr, pluss 20 i begge magiskills).</dd><dt>Skills</dt><dd>Elemental Magic, Blood Magic (skjold på 700 ved 100).</dd></dl>
+<p>Hvorfor: Staff of Protection gir hele laget 700 liv i barriere. Wiki kaller magi «klart lettest» mot Fader.</p></div>
+<div class="card"><p class="eyebrow">Nærkamp uten skjold</p><h3>Fenris-nevekjemperen</h3>
+<dl class="kv"><dt>Våpen</dt><dd>Flesh Rippers (Mountains) → Vilebone Maulclaws (Plains) → Thunderblood knucklechains.</dd><dt>Rustning</dt><dd>Fenris-settet (pluss 15 Fists, pluss 9 prosent fart, ildresistent) → Vanguard.</dd><dt>Mat</dt><dd>Én liv, to stamina.</dd><dt>Mjød og kraft</dt><dd>Berserkir-mjød (minus 80 prosent angrepsstamina i 20 sekunder), Lingering stamina. Bonemass eller <b>Fader</b>.</dd><dt>Smykke</dt><dd>Evasion Mantle eller Nimble Anklet.</dd><dt>Skills</dt><dd>Fists, Blocking, Dodge.</dd></dl>
+<p>Hvorfor: never har 6 ganger parerbonus og 6 ganger ryggstikk, null fartsstraff, og sparket staggrer nesten alt. Svak blokk, så timingen er alt.</p></div>
+<div class="card"><p class="eyebrow">Snik</p><h3>Trollsnikeren</h3>
+<dl class="kv"><dt>Våpen</dt><dd>Kniver: Abyssal razor → Silver knife → Black metal knife → Skoll and Hati → Nord dagger (dual). Armbrøst for åpningsskudd.</dd><dt>Rustning</dt><dd>Troll leather pluss cape (pluss 15 Sneak) → Lox Fur (pluss 30) → Vanguard.</dd><dt>Mat</dt><dd>Liv og stamina.</dd><dt>Mjød og kraft</dt><dd>Lingering stamina. Eikthyr, så <b>The Queen</b> (gratis sniking).</dd><dt>Smykke</dt><dd>Nimble Anklet (pluss 15 prosent fart).</dd><dt>Skills</dt><dd>Sneaking (minus 60 prosent synlighet på 100), Knives, Dodge.</dd></dl>
+<p>Hvorfor: 6 ganger ryggstikk ganger 3 ganger snikangrep. Ikke bruk lysende våpen (Mistwalker, Jotun Bane, Himminafl, staver gjør deg 10 til 20 prosent mer synlig).</p></div>
+</div>
+
+<h3>Laget på fire</h3>
+<figure class="fig">
+<svg viewBox="0 0 720 300" role="img" aria-label="Fire roller rundt en boss: tanken holder aggro foran, magikeren legger barriere på alle, bueskytteren treffer svakheten på avstand, og nærkampskaden slår fra siden">
+<defs><marker id="pil2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="currentColor"/></marker></defs>
+<g font-family="Inter,sans-serif" font-size="12" fill="currentColor" stroke="currentColor" stroke-width="1.2">
+<circle cx="360" cy="110" r="46" fill="var(--rust)" stroke="currentColor"/><text x="360" y="106" text-anchor="middle" stroke="none" fill="#F5F0E6" font-weight="700">BOSS</text><text x="360" y="122" text-anchor="middle" stroke="none" fill="#F5F0E6" font-size="10">+30 % HP per ekstra spiller</text>
+<rect x="300" y="222" width="120" height="48" rx="3" fill="var(--surface-2)"/><text x="360" y="242" text-anchor="middle" stroke="none" font-weight="700">Skjoldvegg</text><text x="360" y="258" text-anchor="middle" stroke="none" font-size="10.5">Bonemass, Neckstabber</text>
+<rect x="40" y="110" width="140" height="48" rx="3" fill="var(--surface-2)"/><text x="110" y="130" text-anchor="middle" stroke="none" font-weight="700">Eitr-magiker</text><text x="110" y="146" text-anchor="middle" stroke="none" font-size="10.5">Queen, Staff of Protection</text>
+<rect x="540" y="110" width="140" height="48" rx="3" fill="var(--surface-2)"/><text x="610" y="130" text-anchor="middle" stroke="none" font-weight="700">Bueskytter</text><text x="610" y="146" text-anchor="middle" stroke="none" font-size="10.5">Eikthyr, Wolf Sight, elementpiler</text>
+<rect x="520" y="222" width="160" height="48" rx="3" fill="var(--surface-2)"/><text x="600" y="242" text-anchor="middle" stroke="none" font-weight="700">Nærkampskade</text><text x="600" y="258" text-anchor="middle" stroke="none" font-size="10.5">Yagluth, Berserkir axes / atgeir</text>
+<line x1="360" y1="222" x2="360" y2="160" marker-end="url(#pil2)"/><text x="372" y="196" stroke="none" font-size="10.5">holder aggro, parerer</text>
+<line x1="180" y1="134" x2="310" y2="118" marker-end="url(#pil2)" stroke-dasharray="4 3"/><text x="196" y="112" stroke="none" font-size="10.5">barriere 700 HP på alle</text>
+<line x1="540" y1="134" x2="410" y2="118" marker-end="url(#pil2)"/><text x="436" y="100" stroke="none" font-size="10.5">treffer svakheten</text>
+<line x1="520" y1="236" x2="400" y2="140" marker-end="url(#pil2)"/><text x="452" y="196" stroke="none" font-size="10.5">slår fra siden</text>
+<path d="M110 158 Q110 246 300 246" fill="none" stroke-dasharray="4 3" marker-end="url(#pil2)"/><text x="150" y="268" stroke="none" font-size="10.5">Dead Raiser / Spirit Caller som ekstra kropper</text>
+</g>
+</svg>
+<figcaption>Fire roller rundt én boss. Kreftene deles innen 10 meter, så laget roterer aktivering: Bonemass først, så Queen, Eikthyr og Yagluth hvert femte minutt. To spillere: tank pluss magiker. Tre: legg til bueskytter.</figcaption>
+</figure>
+
+<div class="fakta"><p class="fk-label">Dødsstraff og skills</p><p>Ved død mister du 5 prosent av hvert skill-nivå (Casual 1, Easy 2,5, Hard 7,5) pluss all fremgang mot neste nivå. Etterpå har du «No skill drain» i 10 minutter, så et nytt dødsfall koster ingenting. Rested gir pluss 50 prosent skill-XP, så sov før du trener. Spyd gir mest XP per treff (2,25), Dundr og Staff of Fracturing levler elementmagi raskest (12 treff per kast).</p></div>
+</div>
+</section>
+
+<section class="sec" id="utstyr">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Delt opp etter funksjon</p><h2>Utstyret: hva som er best, og hvorfor</h2><p class="lede">Skadetall er kvalitet 1 til kvalitet 4 der ikke annet står. Deep North-våpen stopper i praksis på kvalitet 3 i dag. Våpenskill på 100 gir cirka 141 prosent mer skade, så ett våpen du kan er bedre enn tre du ikke kan.</p></div>
+
+<h3>Det beste våpenet per klasse og tier</h3>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Klasse</th><th>Swamp</th><th>Mountains</th><th>Plains</th><th>Mistlands</th><th>Ashlands</th><th>Deep North</th></tr></thead>
+<tbody>
+<tr><td><b>Sverd</b> (slash, parer 2x)</td><td>Iron sword 55–73</td><td>Silver sword 75–93 + 30–45 spirit</td><td>Black metal sword 95–113</td><td><b>Mistwalker</b> 75 + 40–58 frost (sprer tåke 9 m). Krom (2H) 150–168</td><td><b>Dyrnwyn</b> 145–163 + 10 ild (tre fragmenter). Slayer (2H) 170–188</td><td><b>Thunderblood sword</b> 180 + 45 lyn. Greatsword 220 + 45</td></tr>
+<tr><td><b>Øks</b> (slash + hogg)</td><td>Iron axe 60–75, Battleaxe 70–88</td><td>Crystal battleaxe 90–108 + 30 spirit</td><td>Black metal axe 100–115</td><td><b>Jotun Bane</b> 80–95 + 40 gift. Skull Splittur (2H) 130–148</td><td><b>Berserkir axes</b> 140–155, 6-slags kombo, siste slag dobbelt</td><td>Nord axe 176–196, Thunderblood axe 186 + 45 lyn</td></tr>
+<tr><td><b>Kølle</b> (blunt)</td><td>Iron mace 55–73, Iron sledge (2H, AoE)</td><td><b>Frostner</b> 35 blunt + 40–58 frost + 20 spirit, knockback 100</td><td>Porcupine 50 blunt + 45–63 pierce</td><td><b>Demolisher</b> (2H) 145–163, 4 m AoE, 2x stagger</td><td>Flametal mace 135–153</td><td><b>Thunderblood mace</b> 180 + 45 lyn. Nord sledge 225–255 AoE. Beste mot Kall.</td></tr>
+<tr><td><b>Spyd</b> (pierce, kast 1,5x)</td><td>Ancient bark 55–73</td><td>Fang 75–93</td><td>&ndash;</td><td>Carapace 115–133</td><td><b>Splitnir</b> 135–153 (kast 202–229)</td><td>Thunderblood spear 180 + 45 lyn</td></tr>
+<tr><td><b>Kniv</b> (parer 4x, ryggstikk 6x)</td><td>Abyssal razor 20–23</td><td>Silver knife 25–28 + 12 spirit</td><td>Black metal knife 34–37</td><td><b>Skoll and Hati</b> 45–48 x2 (dual)</td><td>&ndash;</td><td><b>Nord dagger</b> 75–90 slash + 75–90 pierce (dual)</td></tr>
+<tr><td><b>Atgeir</b> (pierce, spinn)</td><td>Iron 65–83</td><td>&ndash;</td><td>Black metal 105–123</td><td><b>Himminafl</b> 85 + 40–58 lyn, spinnet kaller lyn</td><td>&ndash;</td><td>Thunderblood atgeir 192 + 45 lyn</td></tr>
+<tr><td><b>Bue</b> (pierce)</td><td>Huntsman 42–51</td><td><b>Draugr Fang</b> 47–56 + 5–20 gift</td><td>(Draugr Fang)</td><td><b>Spinesnap</b> 72–84 + spirit, sprer tåke</td><td>Ash Fang 82–94</td><td>Thunderblood bow 110 + 45 lyn + 10 spirit</td></tr>
+<tr><td><b>Armbrøst</b> (3,5 s lading)</td><td colspan="3">&ndash;</td><td><b>Arbalest</b> 200–209 (10 Wood, 8 Iron, 4 Root)</td><td>Ripper 220–229</td><td>Nord crossbow 264–288, Thunderblood 274 + 45</td></tr>
+<tr><td><b>Never</b> (parer 6x)</td><td>&ndash;</td><td><b>Flesh Rippers</b> 60–72</td><td>Vilebone Maulclaws 60 pierce + 20–32 slash</td><td colspan="2">&ndash;</td><td>Nord knucklechains 114 blunt, Thunderblood 122 + 45</td></tr>
+</tbody></table><p class="tbl-cap">Kilde: Weapons-tabellen og hver våpenside på Valheim Wiki (weirdgloop-speilet, revisjon 12. oktober 2026). Arbalest er det beste kjøpet i hele Mistlands: 200 pierce for 8 jern og 4 røtter.</p></div>
+
+<h3>Skjold: rund, buckler eller tårn</h3>
+<div class="grid">
+<div class="card"><p class="eyebrow">Tårnskjold &middot; kan ikke parere</p><h3>Mest blokk</h3><p>Iron tower 52–64, Black metal tower 104–116, Flametal tower 140–152, <b>Nord Greatshield 158–170</b>. Minus 10 prosent fart. For bosser og store slag.</p></div>
+<div class="card"><p class="eyebrow">Buckler &middot; parer 2,5x</p><h3>Mest parering</h3><p>Bronze buckler 16–28, Iron buckler 28–40, Carapace buckler 78–90, <b>Nord buckler 88–100</b>. Parert blokk er blokk ganger 2,5: Nord buckler på kvalitet 4 parerer 250.</p></div>
+<div class="card"><p class="eyebrow">Rundskjold &middot; parer 1,5x</p><h3>Midt imellom</h3><p>Banded 42–54, Silver 60–72, Black metal 78–90, Carapace 96–108, Flametal 114–126, <b>Nord shield 132–144</b>. Shield of Roots (48–60, null fartsstraff) kan lages uten Frost Foundry.</p></div>
+</div>
+
+<h3>Rustningssett på kvalitet 4</h3>
+<figure class="fig" id="rustning-fig">
+<svg id="armor-chart" viewBox="0 0 720 420" role="img" aria-label="Horisontale stolper for rustningsverdi per sett på kvalitet 4, fra Leather 24 til Protector 150"></svg>
+<figcaption>Rustning for de tre plaggene samlet, kvalitet 4. Tunge sett i rustfarge koster 10 prosent fart, lette sett i gull er nøytrale eller raskere, magesett i blått gir eitr-regenerering. Lox Fur og Vanguard er nye i 1.0.</figcaption>
+</figure>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Sett</th><th>Biom</th><th class="num">Rustning Q4</th><th>Bonus</th><th>Fart</th></tr></thead>
+<tbody>
+<tr><td><b>Troll leather</b></td><td>Black Forest</td><td class="num">36</td><td>Pluss 15 Sneak med cape</td><td>0</td></tr>
+<tr><td>Bear</td><td>Black Forest</td><td class="num">39</td><td>Pluss 30 prosent livregen, 15 prosent staminaregen, 10 prosent slash. Svak mot fysisk.</td><td>0</td></tr>
+<tr><td><b>Root</b></td><td>Swamp</td><td class="num">42</td><td>Pluss 15 Bows, maske halverer gift, harnesk halverer pierce. Svak mot ild.</td><td>minus 4 %</td></tr>
+<tr><td>Iron</td><td>Swamp</td><td class="num">60</td><td>&ndash;</td><td>minus 10 %</td></tr>
+<tr><td><b>Fenris</b></td><td>Mountains</td><td class="num">48</td><td>Pluss 15 Fists, halverer ild, frakken halverer frost</td><td>pluss 9 %</td></tr>
+<tr><td>Wolf</td><td>Mountains</td><td class="num">78</td><td>Brystet halverer frost</td><td>minus 10 %</td></tr>
+<tr><td><b>Lox Fur</b> (1.0)</td><td>Plains</td><td class="num">66</td><td>Pluss 30 Sneak, pluss 15 Bows</td><td>0</td></tr>
+<tr><td>Padded</td><td>Plains</td><td class="num">96</td><td>&ndash;</td><td>minus 10 %</td></tr>
+<tr><td><b>Eitr-weave</b></td><td>Mistlands</td><td class="num">66</td><td>Pluss 100 prosent eitr-regen</td><td>minus 4 %</td></tr>
+<tr><td>Carapace</td><td>Mistlands</td><td class="num">114</td><td>&ndash;</td><td>minus 10 %</td></tr>
+<tr><td><b>Ask</b></td><td>Ashlands</td><td class="num">102</td><td>Minus 10 prosent løp- og hoppstamina, minus 20 angrepsstamina, pluss 10 prosent pierce</td><td>0</td></tr>
+<tr><td>Embla</td><td>Ashlands</td><td class="num">75</td><td>Pluss 130 prosent eitr-regen</td><td>minus 4 %</td></tr>
+<tr><td>Flametal</td><td>Ashlands</td><td class="num">132</td><td>Pluss 20 prosent varmeresistens (lava, aske)</td><td>minus 10 %</td></tr>
+<tr><td><b>Vanguard</b> (1.0)</td><td>Deep North</td><td class="num">120</td><td>Minus 10 løp, minus 20 unnamanøver, pluss 10 prosent liv- og staminaregen, pluss 10 prosent pierce, brystet halverer frost</td><td>0</td></tr>
+<tr><td>Caller (1.0)</td><td>Deep North</td><td class="num">84</td><td>Pluss 160 prosent eitr-regen (180 med Cape of the Caller)</td><td>minus 4 %</td></tr>
+<tr><td>Protector (1.0)</td><td>Deep North</td><td class="num">150</td><td>Brystet halverer frost. Fartsstraff ikke oppgitt på wiki.</td><td>ukjent</td></tr>
+</tbody></table></div>
+
+<h3>Kapper, belter og smykker</h3>
+<div class="grid">
+<div class="card"><p class="eyebrow">Kapper</p><h3>Frost er det kapper gjør</h3><p>Wolf fur, Lox cape, Feather cape, Asksvin cloak, Ashen cape og Moose hide cape halverer alle frost. <b>Feather cape</b> fjerner fallskade (Galdr table: 10 Feathers, 5 Scale hide, 20 Refined eitr). <b>Ashen cape</b> gir 12–18 rustning og minus 20 prosent blokkstamina. Cape of the Caller gir pluss 20 prosent eitr-regen.</p></div>
+<div class="card"><p class="eyebrow">Beltet</p><h3>Én ting i beltet</h3><p><b>Megingjord</b> 950 mynter, pluss 150 bæreevne. <b>Wishbone</b> fra Bonemass finner sølv, skrapjern og skatter innen 20 meter. <b>Wisplight</b> (1 Silver, 1 Wisp) rydder tåke i 15 meter. Dverger circlet 620 mynter gir lys, men nuller snikbonusen.</p></div>
+<div class="card"><p class="eyebrow">Smykker (ett om gangen)</p><h3>Adrenalin utløser dem</h3><p>Pluss 10 adrenalin per bosskraft, 5 per parering og unnamanøver, 3 per stagger. <b>Neckstabber</b> (65): pluss 100 liv, 20 rustning. <b>Evasion Mantle</b> (60): halv blokkstamina, pluss 50 prosent parering. <b>Jörmundling</b> (70): pluss 100 eitr. <b>Brimstone</b> (100): pluss 100 liv og stamina på stedet. <b>Witch Crown</b>: pluss 50 stamina og eitr, pluss 10 prosent all regen.</p></div>
+</div>
+</div>
+</section>
+
+<section class="sec band" id="mat">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Tre tallerkener og en flaske</p><h2>Mat og mjød med tall</h2><p class="lede">Du har tre matplasser og kan fylle dem fritt: tre livretter er lov, men ikke samme rett to ganger. Buffen faller sakte, du har fortsatt 81 prosent igjen på halv tid. Sult finnes ikke, men en tom tallerken betyr 25 liv og 50 stamina.</p></div>
+
+<div class="tool">
+<h3>Matplanleggeren</h3>
+<p class="small muted sans">Velg hvor du er og hva du gjør. Tallene er summen av de tre beste rettene fra det biomet eller tidligere, hentet fra Food-tabellen på wiki.</p>
+<div class="row">
+<label for="mp-stage">Biom <select id="mp-stage"></select></label>
+<label for="mp-role">Rolle <select id="mp-role"><option value="h">Nærkamp (liv)</option><option value="s">Bue og utforsking (stamina)</option><option value="e">Magi (eitr)</option></select></label>
+</div>
+<div id="mp-out"></div>
+</div>
+
+<figure class="fig">
+<svg id="food-chart" viewBox="0 0 720 300" role="img" aria-label="Grupperte stolper per biom for beste liv-kombinasjon, beste eitr-kombinasjon og beste stamina-kombinasjon, fra Meadows 90 liv til Ashlands 300 liv"></svg>
+<div class="legend"><span><i style="background:var(--h)"></i>Liv, beste tre-retters</span><span><i style="background:var(--e)"></i>Eitr, beste tre-retters</span><span><i style="background:var(--s)"></i>Stamina, beste tre-retters</span></div>
+<figcaption>Toppen av hver matplass per biom. Fra Mistlands finnes det eitr-mat, og i Ashlands når en ren livbuild 300. Deep North-tallene på wiki er stubber og er holdt utenfor.</figcaption>
+</figure>
+
+<h3>Det du faktisk bør lage</h3>
+<div class="grid">
+<div class="card"><p class="eyebrow">Black Forest</p><h3>Deer stew, Minced meat sauce, Carrot soup</h3><p>Hjortegryte 45 liv, kjøttsaus 40 liv (3 i helbredelse), gulrotsuppe 45 stamina. Alt fra gryte nivå 1. Dronningens syltetøy (14 liv, 40 stamina) er den billigste staminaretten i spillet.</p></div>
+<div class="card"><p class="eyebrow">Swamp</p><h3>Sausages, Black soup, Turnip stew</h3><p>Pølser gir 4 per bryggeri: 55 liv i 25 minutter. Svart suppe 50 liv. Nepegryte 55 stamina. Sjøormgryte (80 liv) er beste kjøtt helt til Plains, om du tør fiske den.</p></div>
+<div class="card"><p class="eyebrow">Mountains</p><h3>Wolf skewer, Eyescream, Onion soup</h3><p>Ulvespyd 65 liv. Eyescream 65 stamina av 3 grådvergøyne og 1 frostkjertel. Løksuppe 60 stamina for 3 løk, gryte nivå 2.</p></div>
+<div class="card"><p class="eyebrow">Plains</p><h3>Lox meat pie, Fish wraps, Blood pudding</h3><p>Loxpai 75 liv (ovn). Fiskewrap 70 liv. Blodpudding 75 stamina. Brød gir 2 per deig og 70 stamina. Det er her Windmill og Stone oven betaler seg.</p></div>
+<div class="card"><p class="eyebrow">Mistlands</p><h3>Misthare supreme, Meat platter, Seeker aspic</h3><p>Misthare 85 liv, kjøttfat 80 liv, begge 5 i helbredelse. Seeker aspic 85 eitr, 2 per koking. Mushroom omelette 85 stamina av 3 egg. Her lønner det seg å ha høner.</p></div>
+<div class="card"><p class="eyebrow">Ashlands</p><h3>Piquant pie, Mashed meat, Marinated greens</h3><p>Piquant pie 105 liv, Mashed meat 100 liv, Fiery svinstew 95: 300 liv samlet. Marinated greens 95 eitr. Roasted crust pie 100 stamina. Alt fra gryte nivå 5 og 6 (Mortar and pestle, Rolling pins).</p></div>
+</div>
+
+<details class="fold"><summary>Hele mattabellen, Meadows til Ashlands <span class="muted">liv / stamina / eitr, varighet, helbredelse per tikk</span></summary><div class="inner">
+<div class="tbl-wrap"><table>
+<thead><tr><th>Rett</th><th>Biom</th><th class="num">Liv</th><th class="num">Stam.</th><th class="num">Eitr</th><th class="num">Min</th><th class="num">Helb.</th><th>Ingredienser</th><th>Stasjon</th></tr></thead>
+<tbody>
+<tr><td>Cooked deer meat</td><td>Meadows</td><td class="num">35</td><td class="num">12</td><td class="num">–</td><td class="num">20</td><td class="num">2</td><td>Deer meat</td><td>Cooking station</td></tr>
+<tr><td>Cooked boar meat</td><td>Meadows</td><td class="num">30</td><td class="num">10</td><td class="num">–</td><td class="num">20</td><td class="num">2</td><td>Boar meat</td><td>Cooking station</td></tr>
+<tr><td>Honey</td><td>Meadows</td><td class="num">8</td><td class="num">35</td><td class="num">–</td><td class="num">15</td><td class="num">1</td><td>Bikube</td><td>–</td></tr>
+<tr><td>Deer stew</td><td>Black Forest</td><td class="num">45</td><td class="num">15</td><td class="num">–</td><td class="num">25</td><td class="num">3</td><td>1 Blueberries, 1 Carrot, 1 Cooked deer meat</td><td>Gryte 1</td></tr>
+<tr><td>Minced meat sauce</td><td>Black Forest</td><td class="num">40</td><td class="num">13</td><td class="num">–</td><td class="num">25</td><td class="num">3</td><td>1 Boar meat, 1 Neck tail, 1 Carrot</td><td>Gryte 1</td></tr>
+<tr><td>Carrot soup</td><td>Black Forest</td><td class="num">15</td><td class="num">45</td><td class="num">–</td><td class="num">25</td><td class="num">2</td><td>1 Mushroom, 3 Carrot</td><td>Gryte 1</td></tr>
+<tr><td>Queen's jam (x4)</td><td>Black Forest</td><td class="num">14</td><td class="num">40</td><td class="num">–</td><td class="num">20</td><td class="num">2</td><td>8 Raspberries, 6 Blueberries</td><td>Gryte 1</td></tr>
+<tr><td>Boar jerky (x2)</td><td>Black Forest</td><td class="num">23</td><td class="num">23</td><td class="num">–</td><td class="num">30</td><td class="num">2</td><td>1 Boar meat, 1 Honey</td><td>Gryte 1</td></tr>
+<tr><td>Sausages (x4)</td><td>Swamp</td><td class="num">55</td><td class="num">18</td><td class="num">–</td><td class="num">25</td><td class="num">3</td><td>4 Entrails, 1 Boar meat, 1 Thistle</td><td>Gryte 2</td></tr>
+<tr><td>Black soup</td><td>Swamp</td><td class="num">50</td><td class="num">17</td><td class="num">–</td><td class="num">20</td><td class="num">3</td><td>1 Bloodbag, 1 Honey, 1 Turnip</td><td>Gryte 2</td></tr>
+<tr><td>Turnip stew</td><td>Swamp</td><td class="num">18</td><td class="num">55</td><td class="num">–</td><td class="num">25</td><td class="num">2</td><td>1 Boar meat, 3 Turnip</td><td>Gryte 2</td></tr>
+<tr><td>Muckshake</td><td>Swamp</td><td class="num">16</td><td class="num">50</td><td class="num">–</td><td class="num">20</td><td class="num">1</td><td>1 Ooze, 2 Raspberries, 2 Blueberries</td><td>Gryte 2</td></tr>
+<tr><td>Serpent stew</td><td>Swamp</td><td class="num">80</td><td class="num">26</td><td class="num">–</td><td class="num">30</td><td class="num">4</td><td>1 Mushroom, 1 Cooked serpent meat, 2 Honey</td><td>Gryte 2</td></tr>
+<tr><td>Wolf skewer</td><td>Mountains</td><td class="num">65</td><td class="num">21</td><td class="num">–</td><td class="num">25</td><td class="num">3</td><td>1 Wolf meat, 2 Mushroom, 1 Onion</td><td>Gryte 3</td></tr>
+<tr><td>Eyescream</td><td>Mountains</td><td class="num">21</td><td class="num">65</td><td class="num">–</td><td class="num">25</td><td class="num">1</td><td>3 Greydwarf eye, 1 Freeze gland</td><td>Gryte 3</td></tr>
+<tr><td>Onion soup</td><td>Mountains</td><td class="num">20</td><td class="num">60</td><td class="num">–</td><td class="num">20</td><td class="num">1</td><td>3 Onion</td><td>Gryte 2</td></tr>
+<tr><td>Wolf jerky (x2)</td><td>Mountains</td><td class="num">33</td><td class="num">33</td><td class="num">–</td><td class="num">30</td><td class="num">3</td><td>1 Wolf meat, 1 Honey</td><td>Gryte 3</td></tr>
+<tr><td>Lox meat pie</td><td>Plains</td><td class="num">75</td><td class="num">24</td><td class="num">–</td><td class="num">30</td><td class="num">4</td><td>4 Barley flour, 2 Cloudberries, 2 Lox meat</td><td>Ovn</td></tr>
+<tr><td>Fish wraps</td><td>Plains</td><td class="num">70</td><td class="num">23</td><td class="num">–</td><td class="num">25</td><td class="num">4</td><td>2 Cooked fish, 4 Barley flour</td><td>Gryte 4</td></tr>
+<tr><td>Blood pudding</td><td>Plains</td><td class="num">25</td><td class="num">75</td><td class="num">–</td><td class="num">30</td><td class="num">2</td><td>2 Thistle, 2 Bloodbag, 4 Barley flour</td><td>Gryte 4</td></tr>
+<tr><td>Bread (x2)</td><td>Plains</td><td class="num">23</td><td class="num">70</td><td class="num">–</td><td class="num">25</td><td class="num">2</td><td>Bread dough (4 Barley flour)</td><td>Ovn</td></tr>
+<tr><td>Cooked chicken meat</td><td>Plains</td><td class="num">60</td><td class="num">20</td><td class="num">–</td><td class="num">20</td><td class="num">5</td><td>Chicken meat</td><td>Iron cooking station</td></tr>
+<tr><td>Misthare supreme</td><td>Mistlands</td><td class="num">85</td><td class="num">28</td><td class="num">–</td><td class="num">25</td><td class="num">5</td><td>1 Hare meat, 3 Jotun puffs, 2 Carrot</td><td>Ovn</td></tr>
+<tr><td>Meat platter</td><td>Mistlands</td><td class="num">80</td><td class="num">26</td><td class="num">–</td><td class="num">30</td><td class="num">5</td><td>1 Seeker meat, 1 Lox meat, 1 Hare meat</td><td>Ovn</td></tr>
+<tr><td>Honey glazed chicken</td><td>Mistlands</td><td class="num">80</td><td class="num">26</td><td class="num">–</td><td class="num">30</td><td class="num">5</td><td>1 Chicken meat, 3 Honey, 2 Jotun puffs</td><td>Ovn</td></tr>
+<tr><td>Mushroom omelette</td><td>Mistlands</td><td class="num">28</td><td class="num">85</td><td class="num">–</td><td class="num">25</td><td class="num">3</td><td>3 Egg, 3 Jotun puffs</td><td>Gryte 5</td></tr>
+<tr><td>Fish 'n' bread</td><td>Mistlands</td><td class="num">30</td><td class="num">90</td><td class="num">–</td><td class="num">30</td><td class="num">3</td><td>1 Anglerfish, 2 Bread dough</td><td>Ovn</td></tr>
+<tr><td>Salad (x3)</td><td>Mistlands</td><td class="num">26</td><td class="num">80</td><td class="num">–</td><td class="num">25</td><td class="num">3</td><td>3 Jotun puffs, 3 Onion, 3 Cloudberries</td><td>Gryte 5</td></tr>
+<tr><td>Seeker aspic (x2)</td><td>Mistlands</td><td class="num">28</td><td class="num">14</td><td class="num">85</td><td class="num">30</td><td class="num">3</td><td>2 Seeker meat, 2 Magecap, 2 Royal jelly</td><td>Gryte 5</td></tr>
+<tr><td>Yggdrasil porridge</td><td>Mistlands</td><td class="num">27</td><td class="num">13</td><td class="num">80</td><td class="num">25</td><td class="num">3</td><td>4 Sap, 3 Barley, 2 Royal jelly</td><td>Gryte 5</td></tr>
+<tr><td>Stuffed mushroom</td><td>Mistlands</td><td class="num">25</td><td class="num">12</td><td class="num">75</td><td class="num">25</td><td class="num">3</td><td>3 Magecap, 1 Blood clot, 2 Turnip</td><td>Ovn</td></tr>
+<tr><td>Piquant pie</td><td>Ashlands</td><td class="num">105</td><td class="num">35</td><td class="num">–</td><td class="num">30</td><td class="num">6</td><td>2 Asksvin tail, 2 Vineberry cluster, 4 Barley flour</td><td>Ovn</td></tr>
+<tr><td>Mashed meat</td><td>Ashlands</td><td class="num">100</td><td class="num">34</td><td class="num">–</td><td class="num">25</td><td class="num">6</td><td>1 Asksvin tail, 1 Volture meat, 1 Fiddlehead</td><td>Gryte 6</td></tr>
+<tr><td>Fiery svinstew</td><td>Ashlands</td><td class="num">95</td><td class="num">32</td><td class="num">–</td><td class="num">25</td><td class="num">6</td><td>1 Asksvin tail, 2 Vineberry cluster, 1 Smoke puff</td><td>Gryte 5</td></tr>
+<tr><td>Roasted crust pie</td><td>Ashlands</td><td class="num">34</td><td class="num">100</td><td class="num">–</td><td class="num">30</td><td class="num">4</td><td>1 Volture egg, 2 Vineberry cluster, 4 Barley flour</td><td>Ovn</td></tr>
+<tr><td>Scorching medley (x3)</td><td>Ashlands</td><td class="num">32</td><td class="num">95</td><td class="num">–</td><td class="num">25</td><td class="num">4</td><td>3 Jotun puffs, 3 Onion, 3 Fiddlehead</td><td>Gryte 6</td></tr>
+<tr><td>Spicy marmalade</td><td>Ashlands</td><td class="num">30</td><td class="num">90</td><td class="num">–</td><td class="num">25</td><td class="num">4</td><td>3 Vineberry cluster, 1 Honey, 1 Fiddlehead</td><td>Gryte 5</td></tr>
+<tr><td>Marinated greens</td><td>Ashlands</td><td class="num">32</td><td class="num">16</td><td class="num">95</td><td class="num">30</td><td class="num">4</td><td>3 Sap, 2 Magecap, 2 Fiddlehead, 2 Smoke puff</td><td>Gryte 6</td></tr>
+<tr><td>Sparkling shroomshake</td><td>Ashlands</td><td class="num">30</td><td class="num">15</td><td class="num">90</td><td class="num">25</td><td class="num">4</td><td>4 Sap, 2 Magecap, 2 Vineberry cluster, 2 Smoke puff</td><td>Gryte 6</td></tr>
+<tr><td>Sizzling berry broth</td><td>Ashlands</td><td class="num">28</td><td class="num">14</td><td class="num">85</td><td class="num">25</td><td class="num">4</td><td>3 Sap, 2 Vineberry cluster, 2 Fiddlehead</td><td>Gryte 5</td></tr>
+</tbody></table><p class="tbl-cap">Deep North (ikke verifisert, wiki-stubb): Meat in bread 110/37, Seal meat soup 110/37, Smoked moose meat 105/35, Pancakes 39/115, Oatmeal 39/115, Meatballs and poteitr 35/18/105, Oven pancake 37/18/105.</p></div>
+</div></details>
+
+<h3>Mjød: hva du trenger hvor</h3>
+<p class="prose small muted sans">Mjødbase lages på Mead ketill (4 Tin, 6 Copper, 2 Leather scraps, må ha ild under), gjæres i Fermenter i to spilldøgn og gir 6 flasker (Berserkir 3). Alle helbredelsesmjøder deler nedkjøling, det samme gjør alle stamina- og alle eitr-mjøder.</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Mjød</th><th>Effekt</th><th class="num">Varer</th><th class="num">Nedkj.</th><th>Base</th><th>Trenger du til</th></tr></thead>
+<tbody>
+<tr><td><b>Poison resistance</b></td><td>Minus 75 prosent giftskade og -varighet</td><td class="num">10 min</td><td class="num">10 min</td><td>10 Honey, 5 Thistle, 1 Neck tail, 10 Coal</td><td>Swamp, krypter, Bonemass, Dronningen</td></tr>
+<tr><td><b>Frost resistance</b></td><td>Halv frostskade, ingen kulde eller frysing</td><td class="num">10 min</td><td class="num">10 min</td><td>10 Honey, 5 Thistle, 2 Bloodbag, 1 Greydwarf eye</td><td>Første fjellturer, til du har ulvekappe</td></tr>
+<tr><td><b>Fire resistance barley wine</b></td><td>Halv ildskade</td><td class="num">10 min</td><td class="num">10 min</td><td>10 Barley, 10 Cloudberries</td><td>Yagluth, Ashlands, Fader, Brenna</td></tr>
+<tr><td>Minor / Medium / <b>Major healing</b></td><td>50 / 75 / 125 liv over 10 s</td><td class="num">10 s</td><td class="num">2 min</td><td>Major: 10 Honey, 4 Blood clot, 5 Royal jelly</td><td>Alle bosser fra Bonemass</td></tr>
+<tr><td>Lingering healing</td><td>Pluss 25 prosent livregen</td><td class="num">5 min</td><td class="num">5 min</td><td>10 Sap, 10 Vineberry cluster, 10 Smoke puff</td><td>Ashlands-tanker</td></tr>
+<tr><td>Minor / <b>Medium stamina</b></td><td>80 / 160 stamina over 2 s</td><td class="num">2 s</td><td class="num">2 min</td><td>Medium: 10 Honey, 10 Cloudberries, 10 Yellow mushroom</td><td>Moder, Yagluth, bueskyttere</td></tr>
+<tr><td><b>Lingering stamina</b></td><td>Pluss 25 prosent staminaregen, avbrytes ikke av løping</td><td class="num">5 min</td><td class="num">5 min</td><td>10 Sap, 10 Cloudberries, 10 Jotun puffs</td><td>Mistlands og alt etter</td></tr>
+<tr><td>Minor eitr / Lingering eitr</td><td>125 eitr over 10 s / pluss 25 prosent eitr-regen</td><td class="num">10 s / 5 min</td><td class="num">2 / 5 min</td><td>10 Honey, 5 Sap, 2 Jotun puffs, 5 Magecap</td><td>Magikere, kjed dem</td></tr>
+<tr><td>Tasty</td><td>Dobbel staminaregen, halv livregen</td><td class="num">10 s</td><td class="num">ingen</td><td>10 Honey, 10 Raspberries, 5 Blueberries</td><td>Bosskamper, ingen nedkjøling</td></tr>
+<tr><td>Berserkir</td><td>Minus 80 prosent angreps-, blokk- og unnastamina. 1,5 ganger fysisk skade tatt</td><td class="num">20 s</td><td class="num">2 min</td><td>10 Mushroom, 10 Yellow mushroom, 1 Toadstool (Myrheksa, etter Moder)</td><td>Fader-nærkamp, burst</td></tr>
+<tr><td>Brew of animal whispers</td><td>Dobbel temmehastighet, 60 m rundt deg</td><td class="num">10 min</td><td class="num">ingen</td><td>5 Onion, 10 Carrot, 1 Pungent pebbles (Myrheksa)</td><td>Temming: 30 min blir 15</td></tr>
+<tr><td>Anti-sting concoction</td><td>Deathsquitos angriper ikke</td><td class="num">10 min</td><td class="num">ingen</td><td>10 Cloudberries, 3 Grouper, 1 Fragrant bundle</td><td>Plains-utforsking</td></tr>
+<tr><td>Mead of Troll endurance</td><td>Pluss 250 bæreevne</td><td class="num">5 min</td><td class="num">2 min</td><td>2 Trollfish, 10 Honey, 1 Powdered dragon eggshells</td><td>Malmfrakt</td></tr>
+<tr><td>Tonic of Ratatosk</td><td>Pluss 15 prosent fart</td><td class="num">10 min</td><td class="num">ingen</td><td>10 Honey, 10 Blueberries, 1 Cured squirrel hamstring</td><td>Fader, flukt</td></tr>
+</tbody></table></div>
+</div>
+</section>
+
+<section class="sec" id="mynter">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Nytteverdi til raske mynter</p><h2>Mynter, og hva de skal gå til</h2><p class="lede">Alle tre handelsmennene betaler det samme. Mynter faller fra troll, fulinger og dverger og ligger i kister. Alt annet må selges.</p></div>
+<div class="grid">
+<div class="card"><p class="eyebrow">Verdi per stykk</p><div class="big">5 <small>Amber</small></div><div class="big">10 <small>Amber pearl</small></div><div class="big">20 <small>Ruby</small></div><div class="big">30 <small>Silver necklace</small></div><p class="small muted">En full stabel rav er 100 mynter, perler 500, rubiner 400, halskjeder 600.</p></div>
+<div class="card"><p class="eyebrow">Tidlig</p><h3>Burial chambers og trollhuler</h3><p>Gravkamre: kister med 10 til 30 mynter, 1 til 3 rav, 1 til 2 rubiner, pluss løse mynter på gulvet. Trollhuler: 0 til 2 kister med 20 til 50 mynter og rubiner, rav og perler på bakken. Troll dropper 20 til 29 mynter (2 stjerner: 80 til 100).</p></div>
+<div class="card"><p class="eyebrow">Midt</p><h3>Sunken crypts</h3><p>Kister med 20 til 60 mynter, 1 til 5 rav, 1 til 3 perler, 1 til 3 rubiner, og skrapjernet du uansett er der for. Giftmjød og et bål i inngangen (krypter er ly, så bålet gir 10 minutter Rested).</p></div>
+<div class="card"><p class="eyebrow">Best</p><h3>Fuling-landsbyer</h3><p>Hver fuling kan droppe mynter (25 prosent, 5 til 9), sjamaner 20 til 39, berserkere alltid 5 til 19. Og black metal scrap samtidig. Sealed Tower-kistene gir 44 til 165 mynter hver. Dette er mynt-loopen.</p></div>
+<div class="card"><p class="eyebrow">Sølvkjeder</p><h3>Gravplasser og Wishbone</h3><p>Stone graves, vikinggravplasser, fjellgraver, frostgrotter, Stonehenge-kister og nedgravde skatter du finner med Wishbone. Fisk gir bonus: abbor rav, gjedde perler, tunfisk rubiner.</p></div>
+<div class="card"><p class="eyebrow">Trollfarm</p><h3>Love potion</h3><p>Myrheksa selger 5 Love potion for 110. Den øker trollspawn i 5 minutter: mynter og trollskinn i samme loop. Obliteratoren gjør 1000 mynter til 100 kull og er aldri verdt det.</p></div>
+</div>
+<h3>Innkjøpslista i riktig rekkefølge</h3>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Kjøp</th><th class="num">Pris</th><th>Når</th><th>Hvorfor i denne rekkefølgen</th></tr></thead>
+<tbody>
+<tr><td><b>Megingjord</b> (Haldor)</td><td class="num">950</td><td>Før Swamp</td><td>Pluss 150 bæreevne. Første jernlast betaler seg selv.</td></tr>
+<tr><td><b>Wider Pockets</b> (Haldor)</td><td class="num">1 000</td><td>Etter Moder</td><td>Én ekstra inventarrad for alltid.</td></tr>
+<tr><td><b>Serving tray</b> (Myrheksa)</td><td class="num">140</td><td>Når du har Food preparation table</td><td>Uten den kan du ikke sette fram feaster.</td></tr>
+<tr><td><b>Egg</b> (Haldor)</td><td class="num">1 500 x 2</td><td>Etter Yagluth</td><td>To høner starter en evig eggfarm. Alternativ: to egg i Sealed Tower-kister.</td></tr>
+<tr><td><b>Deeper Pockets</b> (Haldor)</td><td class="num">2 000</td><td>Etter Dronningen</td><td>Rad nummer to.</td></tr>
+<tr><td>Dverger circlet</td><td class="num">620</td><td>Valgfritt</td><td>Lys i grotter, men nuller snikbonus.</td></tr>
+<tr><td>Barber kit (Hildir)</td><td class="num">600</td><td>Valgfritt</td><td>Barberstasjonen gir også 1 komfort.</td></tr>
+<tr><td>Crown of Roots (Myrheksa)</td><td class="num">3 000</td><td>Etter Writhan (1.0)</td><td>Kosmetisk.</td></tr>
+</tbody></table></div>
+</div>
+</section>
+
+<section class="sec band" id="oppdrag">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Sideoppdrag</p><h2>Hildir, Haldor, Myrheksa og raidene</h2><p class="lede">Valheim har ett ekte sideoppdrag: Hildirs tre kister. Resten er handelsmenn som låser opp varer etter hvilke bosser du har felt, og raid som kommer når du minst vil.</p></div>
+
+<h3>Hildirs tre kister</h3>
+<figure class="fig">
+<svg viewBox="0 0 720 230" role="img" aria-label="Tre grotter gir tre kister som hver låser opp nye varer hos Hildir og hver utløser et nytt raid">
+<defs><marker id="pil3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="currentColor"/></marker></defs>
+<g font-family="Inter,sans-serif" font-size="11.5" fill="currentColor" stroke="currentColor" stroke-width="1.2">
+<rect x="20" y="30" width="190" height="54" rx="3" fill="var(--surface-2)"/><text x="115" y="50" text-anchor="middle" stroke="none" font-weight="700">Smouldering Tombs</text><text x="115" y="66" text-anchor="middle" stroke="none" font-size="10.5">Black Forest · Brenna 1 200 HP</text>
+<rect x="20" y="100" width="190" height="54" rx="3" fill="var(--surface-2)"/><text x="115" y="120" text-anchor="middle" stroke="none" font-weight="700">Howling Caverns</text><text x="115" y="136" text-anchor="middle" stroke="none" font-size="10.5">Mountains over 200 m · Geirrhafa 3 700</text>
+<rect x="20" y="170" width="190" height="54" rx="3" fill="var(--surface-2)"/><text x="115" y="190" text-anchor="middle" stroke="none" font-weight="700">Sealed Tower</text><text x="115" y="206" text-anchor="middle" stroke="none" font-size="10.5">Plains, inn fra taket · Zil og Thungr</text>
+<line x1="210" y1="57" x2="300" y2="57" marker-end="url(#pil3)"/><line x1="210" y1="127" x2="300" y2="127" marker-end="url(#pil3)"/><line x1="210" y1="197" x2="300" y2="197" marker-end="url(#pil3)"/>
+<text x="255" y="48" text-anchor="middle" stroke="none" font-size="10">messing</text><text x="255" y="118" text-anchor="middle" stroke="none" font-size="10">sølv</text><text x="255" y="188" text-anchor="middle" stroke="none" font-size="10">bronse</text>
+<rect x="302" y="36" width="96" height="42" rx="3" fill="var(--rust)"/><text x="350" y="61" text-anchor="middle" stroke="none" fill="#F5F0E6" font-weight="700">Kiste 200 kg</text>
+<rect x="302" y="106" width="96" height="42" rx="3" fill="var(--rust)"/><text x="350" y="131" text-anchor="middle" stroke="none" fill="#F5F0E6" font-weight="700">Kiste 200 kg</text>
+<rect x="302" y="176" width="96" height="42" rx="3" fill="var(--rust)"/><text x="350" y="201" text-anchor="middle" stroke="none" fill="#F5F0E6" font-weight="700">Kiste 200 kg</text>
+<line x1="398" y1="57" x2="488" y2="57" marker-end="url(#pil3)"/><line x1="398" y1="127" x2="488" y2="127" marker-end="url(#pil3)"/><line x1="398" y1="197" x2="488" y2="197" marker-end="url(#pil3)"/>
+<text x="443" y="48" text-anchor="middle" stroke="none" font-size="10">båt eller steinportal</text><text x="443" y="118" text-anchor="middle" stroke="none" font-size="10">ikke treportal</text><text x="443" y="188" text-anchor="middle" stroke="none" font-size="10">én av hver</text>
+<rect x="490" y="20" width="210" height="190" rx="3" fill="var(--surface-2)"/><text x="595" y="44" text-anchor="middle" stroke="none" font-weight="700">Hildir, Meadows</text>
+<text x="500" y="70" stroke="none" font-size="10.5">Messing: Harvest-sett (+25 Farming med</text><text x="500" y="84" stroke="none" font-size="10.5">stråhatt), kjoler, pelslue</text>
+<text x="500" y="110" stroke="none" font-size="10.5">Sølv: sjalkjoler, kapper, grønn lue</text>
+<text x="500" y="136" stroke="none" font-size="10.5">Bronse: perlekjoler, fyrverkeri 50</text>
+<text x="500" y="166" stroke="none" font-size="10.5" font-weight="700">Hver kiste slår på et nytt raid</text><text x="500" y="180" stroke="none" font-size="10.5">der minibossen invaderer basen din</text>
+<text x="500" y="200" stroke="none" font-size="10.5">Alltid: Barber kit 600, Sparkler 150</text>
+</g>
+</svg>
+<figcaption>Hildir står i Meadows, 3 000 til 5 100 meter fra midten. Karttavla foran henne markerer alle tre grottetypene. Kistene veier 200, stables ikke, og går ikke gjennom treportaler (steinportal virker). Plaggene gir minus 20 prosent grunnstamina på kroppen og minus 15 på hodet.</figcaption>
+</figure>
+
+<h3>Handelsmennene, hva som låses opp når</h3>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Etter</th><th>Haldor (Black Forest)</th><th>Myrheksa (Swamp)</th><th>Hildir (Meadows)</th></tr></thead>
+<tbody>
+<tr><td>Start</td><td>Megingjord 950, Dverger circlet 620, Fishing rod 350, Bait 20 for 10, Yule hat 100, Barrel hoops 100</td><td>Serving tray 140, Love potion 5/110, Pungent pebbles 5/125, Powdered dragon eggshells 5/120, Cured squirrel hamstring 5/80, Fresh seaweed 5/75, Candle wick 50/100, Ivy seeds 3/65</td><td>Simple dress 250, caps 150, Headband 175, Sparkler 150, Iron pit 75, Barber kit 600</td></tr>
+<tr><td>Elder</td><td>Ymir flesh 120, Thunder stone 50</td><td>Woodland herb blend 5/120 (feaster), Corked vial 5/150 (blob-bomber)</td><td>&ndash;</td></tr>
+<tr><td>Sjøorm felt</td><td>&ndash;</td><td>Seafarer's herbs 5/130</td><td>&ndash;</td></tr>
+<tr><td>Moder</td><td><b>Wider Pockets 1 000</b></td><td>Toadstool 85 (Berserkir), Scythe handle 200, Fragrant bundle 5/140, Mountain peak pepper powder 5/140</td><td>&ndash;</td></tr>
+<tr><td>Yagluth</td><td><b>Egg 1 500</b></td><td>Grasslands herbalist harvest 5/160</td><td>&ndash;</td></tr>
+<tr><td>Dronningen</td><td><b>Deeper Pockets 2 000</b></td><td>Herbs of the hidden hills 5/180</td><td>&ndash;</td></tr>
+<tr><td>Fader</td><td>&ndash;</td><td>Fiery spice powder 5/200</td><td>&ndash;</td></tr>
+<tr><td>Writhan (1.0)</td><td>&ndash;</td><td>Crown of Roots 3 000</td><td>&ndash;</td></tr>
+</tbody></table><p class="tbl-cap">Hildirs klær låses opp av kistene, ikke av bosser. Myrheksa har ingen oppdrag, hun grynter. Alle tre har et trygt kuppelområde der fiender ikke kommer inn, og tamme dyr følger deg inn i Haldors.</p></div>
+
+<h3>Raidene</h3>
+<p class="prose">Hvert 46. minutt er det 20 prosent sjanse for et raid, forutsatt at en spiller står i et gyldig biom, ikke i en grotte, og innen 40 meter fra minst tre basedeler. Unntaket er «You are being hunted», som kommer uansett hvor du er i Mountains eller Plains. Raidet spawner fiender 40 til 80 meter unna, og klokka går bare mens du er inne i sirkelen.</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Melding</th><th>Hvem</th><th>Slås på av</th><th>Slås av av</th><th class="num">Varer</th><th>Tips</th></tr></thead>
+<tbody>
+<tr><td>Eikthyr rallies the creatures of the forest</td><td>Villsvin, necks</td><td>Start</td><td>Eikthyr</td><td class="num">90 s</td><td>Gratis kjøtt.</td></tr>
+<tr><td>The forest is moving</td><td>Grådverger, bruter, sjamaner</td><td>Eikthyr</td><td>Elder</td><td class="num">120 s</td><td>Ild. Hold workbenches innenfor veggen.</td></tr>
+<tr><td>A foul smell from the swamp</td><td>Draugr og skjeletter, etter Bonemass blobs</td><td>Elder</td><td>Bonemass</td><td class="num">150 s</td><td>Blob-varianten kan ikke skade bygg: lukk døra.</td></tr>
+<tr><td>The ground is shaking</td><td>Troll</td><td>Troll felt pluss Elder</td><td>aldri</td><td class="num">80 s</td><td>Jordvoller. Troll kan ikke grave.</td></tr>
+<tr><td>A cold wind blows from the mountains</td><td>Draker, alt fryser</td><td>Bonemass</td><td>Moder</td><td class="num">150 s</td><td>Tak over dyrene. Draker flyr over vegger.</td></tr>
+<tr><td><b>You are being hunted</b></td><td>Opptil 6 ulver, ny hvert 2. sekund</td><td>Bonemass</td><td>aldri</td><td class="num">120 s</td><td>Bare i Mountains og Plains, trenger ingen base. Klokka går selv om du flykter.</td></tr>
+<tr><td>You stirred the cauldron</td><td>10 flaggermus</td><td>Flaggermus felt pluss Bonemass</td><td>aldri</td><td class="num">120 s</td><td>Flyr over vegger og dreper tamme dyr. Tak.</td></tr>
+<tr><td>The horde is attacking</td><td>Fulinger, berserkere, sjamaner</td><td>Moder</td><td>Yagluth</td><td class="num">120 s</td><td>Meadows, Black Forest, Plains. Mynter.</td></tr>
+<tr><td>What's up, Gjall?!</td><td>Gjall og ticks</td><td>Yagluth</td><td>Dronningen</td><td class="num">90 s</td><td>Bare i Mistlands.</td></tr>
+<tr><td>They sought you out</td><td>Seekers og yngel</td><td>Yagluth</td><td>Dronningen</td><td class="num">90 s</td><td>Blunt halveres: bruk sverd eller spyd.</td></tr>
+<tr><td>The undead army marches / The dead have been summoned</td><td>Charred, Monuments of Torment</td><td>Dronningen</td><td>Fader</td><td class="num">90 s</td><td>Monumentene blir stående etter raidet. Riv dem.</td></tr>
+<tr><td>She's hot on your tail / You get the chills / They were bros, man</td><td>Brenna / Geirrhafa / Zil og Thungr med stjernefølge</td><td>Levert kiste</td><td>aldri</td><td class="num">90 s</td><td>Prisen for Hildirs klær.</td></tr>
+<tr><td>The Jotun have found you / They emerge from below</td><td>Deep North</td><td colspan="3">Ikke dokumentert på wiki ennå</td><td>Patch 1.0.16 rettet at raid spawnet altfor mange.</td></tr>
+</tbody></table></div>
+<div class="fakta raad"><p class="fk-label">Forsvar som virker</p><p>Skapninger kan ikke grave. En jordvoll hevet med hakka (2 stein per løft) eller en grøft tre blokker dyp er uknuselig. Stakewall (4 Wood, 1000 holdbarhet, råtner ikke i regn) holder resten, sett den på en liten forhøyning så blobs ikke hopper over. Workbenches og bål stopper spawn i sin radius. Fiender angriper lyskilder og verkstasjoner, så hold dem innenfor. En port kan knuses, et hopp-gap kan ikke.</p></div>
+</div>
+</section>
+
+<section class="sec" id="base">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Rom-oppsett og møbler</p><h2>Basen som står, og komforten som lønner seg</h2><p class="lede">To regler styrer alt du bygger: stein kan ikke henge, og tak er ikke pynt. Og én tabell styrer hvor lenge du er Rested: komfortnivået.</p></div>
+
+<h3>Bæreevne: hvor høyt kan du bygge</h3>
+<figure class="fig">
+<svg viewBox="0 0 720 266" role="img" aria-label="Tre søyler viser maksimal høyde før en rett vertikal stolpe bærer ingenting: tre og stein 16 meter, kjernevedstokk 24 meter, jernbeslått tre 50 meter, med fargeskalaen fra blå grunnet til rød">
+<g font-family="Inter,sans-serif" font-size="11.5" fill="currentColor" stroke="currentColor" stroke-width="1.2">
+<line x1="40" y1="220" x2="680" y2="220"/>
+<text x="40" y="256" stroke="none" font-size="10.5">bakke, trær og steinblokker teller som grunn</text>
+<rect x="90" y="156" width="40" height="64" fill="var(--surface-2)"/><text x="110" y="148" text-anchor="middle" stroke="none" font-family="JetBrains Mono,monospace">16 m</text><text x="110" y="236" text-anchor="middle" stroke="none">tre, stein</text>
+<rect x="230" y="124" width="40" height="96" fill="var(--surface-2)"/><text x="250" y="116" text-anchor="middle" stroke="none" font-family="JetBrains Mono,monospace">24 m</text><text x="250" y="236" text-anchor="middle" stroke="none">kjernevedstokk</text>
+<rect x="370" y="20" width="40" height="200" fill="var(--surface-2)"/><text x="390" y="12" text-anchor="middle" stroke="none" font-family="JetBrains Mono,monospace">50 m</text><text x="390" y="236" text-anchor="middle" stroke="none">jernbeslått tre</text>
+<g transform="translate(470 40)">
+<text x="0" y="0" stroke="none" font-weight="700">Fargen når du peker på en del</text>
+<rect x="0" y="12" width="18" height="12" fill="#2a78d6" stroke="none"/><text x="26" y="22" stroke="none">blå: grunnet, 100 prosent</text>
+<rect x="0" y="32" width="18" height="12" fill="#2e7d3a" stroke="none"/><text x="26" y="42" stroke="none">grønn: god støtte</text>
+<rect x="0" y="52" width="18" height="12" fill="#eda100" stroke="none"/><text x="26" y="62" stroke="none">gul og oransje: svakere</text>
+<rect x="0" y="72" width="18" height="12" fill="#e34948" stroke="none"/><text x="26" y="82" stroke="none">rød: knekker snart</text>
+<text x="0" y="110" stroke="none" font-size="10.5">Stein mister all støtte vannrett:</text><text x="0" y="124" stroke="none" font-size="10.5">den må bæres nedenfra, aldri ut i lufta.</text>
+<text x="0" y="146" stroke="none" font-size="10.5">Tre uten tak råtner til 50 prosent i regn.</text><text x="0" y="160" stroke="none" font-size="10.5">Stakewall, stein og marmor gjør det ikke.</text>
+</g>
+</g>
+</svg>
+<figcaption>Maksimal høyde for en rett, vertikal stolpe før toppen bærer ingenting, fra wikiens datamined støttetabell. I praksis: bygg stein på hevet jord, og bruk jernbeslått tre i de høye hallene.</figcaption>
+</figure>
+
+<h3>Komfortkalkulatoren</h3>
+<div class="tool">
+<p class="small muted sans">Bare det høyeste i hver kategori teller, og alt må stå innen 10 meter fra der du hviler. Rested varer 7 minutter pluss komfortnivået, og gir pluss 50 prosent liv-regen, pluss 100 prosent stamina- og eitr-regen, og pluss 50 prosent skill-XP. Hak av det du har.</p>
+<div class="checks" id="komfort-list"></div>
+<div class="result"><div class="big"><span id="komfort-sum">0</span><small>Komfort</small></div><div class="big"><span id="komfort-min">0</span><small>Minutter rested</small></div><div class="small muted sans" id="komfort-tip"></div></div>
+</div>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Kategori</th><th>Billigste 1</th><th>Beste (verdi)</th><th>Pris for beste</th></tr></thead>
+<tbody>
+<tr><td>Ly og ild</td><td>Bål ute: 1</td><td>Under tak ved ild: 2</td><td>Tak med 80 prosent dekning</td></tr>
+<tr><td>Ildsted</td><td>Bål, bonfire, fakkelstativ: 1</td><td>Hearth: 2 (innen 8 m, under tak)</td><td>15 Stone, Stonecutter</td></tr>
+<tr><td>Seng</td><td>Bed, Ashwood bed: 1</td><td>Dragon bed: 2</td><td>40 Finewood, 7 Deer hide, 4 Wolf pelt, 10 Feathers, 15 Iron nails</td></tr>
+<tr><td>Stol</td><td>Benk, krakk: 1. Chair: 2</td><td>Raven throne, Stone throne, Black marble throne, Bone throne: 3</td><td>Raven throne: 20 Finewood, 10 Iron nails</td></tr>
+<tr><td>Bord</td><td>Table: 1</td><td>Round table eller Long heavy table: 2</td><td>10 Finewood, 2 Tar, 20 Iron nails</td></tr>
+<tr><td>Teppe</td><td>Deer rug, Hare rug, jute: 1</td><td>Wolf rug, Lox rug, Bearskin rug (1.0): 2</td><td>4 Wolf pelt</td></tr>
+<tr><td>Banner</td><td>Banner: 1</td><td>Red eller Blue jute curtain: 2</td><td>4 jute, 1 Finewood</td></tr>
+<tr><td>Krans</td><td>Flower garland, Fey lights: 1</td><td>1</td><td>&ndash;</td></tr>
+<tr><td>Kar</td><td>Barber station: 1</td><td>Hot tub, fyrt: 2</td><td>20 Wood, 6 Tar, 10 Iron, 8 Stone</td></tr>
+<tr><td>Lykt</td><td>Dvergr lantern: 1</td><td>Lava lantern: 2</td><td>1 Flametal, 1 Proustite powder, 1 Sulfur</td></tr>
+<tr><td>Potte</td><td>Green pots (Ashlands), Asksvin-skjelett: 1</td><td>1</td><td>3 til 5 Pot shards</td></tr>
+<tr><td>Stativ</td><td>Item stand eller Armor stand: 1</td><td>1</td><td>8 Finewood, 4 Iron nails, 2 Leather scraps</td></tr>
+<tr><td>Sesong</td><td>Maypole 1, Yule tree 1</td><td colspan="2">Gir 23 og 24 i sommer- og julesesong</td></tr>
+</tbody></table><p class="tbl-cap">Maks i vanlig spill er 22, altså 29 minutter. Wikiens tak per biom: Meadows 5, Black Forest 11, Swamp 14, Mountains 16, Plains 19, Mistlands 20, Ashlands 22. Det billigste trikset tidlig: et bål i en grotteinngang gir komfort 3 og 10 minutter Rested for 5 stein og 2 ved.</p></div>
+
+<h3>Stasjonene og hva hver oppgradering åpner</h3>
+<div class="grid two">
+<div class="card"><p class="eyebrow">Workbench, maks nivå 5, radius 20 til 36 m</p><h3>Fire oppgraderinger innen 2 meter</h3><ul><li>Chopping block (10 Wood, 10 Flint) → nivå 2</li><li>Tanning rack (10 Wood, 15 Flint, 20 Leather scraps, 5 Deer hide) → 3</li><li>Adze (10 Finewood, 3 Bronze, krever Forge) → 4</li><li>Tool shelf (10 Finewood, 4 Iron, 4 Obsidian) → 5</li></ul><p class="small muted">Trenger tak og 70 prosent dekning for å lage og reparere, ikke for å bygge.</p></div>
+<div class="card"><p class="eyebrow">Forge, maks nivå 7</p><h3>Seks oppgraderinger</h3><ul><li>Forge bellows (5 Wood, 5 Deer hide, 4 Chain)</li><li>Anvils (5 Wood, 2 Bronze)</li><li>Forge cooler (25 Finewood, 10 Copper)</li><li>Smith's anvil (20 Iron, 5 Wood)</li><li>Forge toolrack (15 Iron, 10 Wood, på vegg)</li><li>Grinding wheel (25 Wood, 1 Sharpening stone)</li></ul><p class="small muted">Belgen og slipesteinen inneholder ikke metall og kan portaleres.</p></div>
+<div class="card"><p class="eyebrow">Cauldron, maks nivå 6</p><h3>Hver hylle er en ny meny</h3><ul><li>Spice rack → 2: Sausages, Black soup, Turnip stew, Serpent stew</li><li>Butcher's table (2 Ancient bark, 4 Corewood, 4 Finewood, 2 Silver) → 3: Wolf skewer, Eyescream</li><li>Pots and pans (5 Iron, 5 Copper, 5 Black metal, 10 Finewood) → 4: Fish wraps, Blood pudding</li><li>Mortar and pestle (8 Black marble, 6 Finewood, 4 Corewood) → 5: Seeker aspic, Salad, Fiery svinstew</li><li>Rolling pins and cutting boards (8 Ashwood, 6 Finewood, 4 Flametal) → 6: Mashed meat, Marinated greens</li></ul></div>
+<div class="card"><p class="eyebrow">Etter Moder: Artisan table (2 Dragon tear, 10 Wood)</p><h3>Fabrikken</h3><ul><li>Blast furnace (20 Stone, 5 Surtling core, 10 Iron, 20 Finewood): black metal og flametal</li><li>Windmill (20 Stone, 30 Wood, 30 Iron nails): bygg til mel, 50 om gangen</li><li>Spinning wheel (20 Finewood, 10 Iron nails, 5 Leather scraps): lin til tråd</li><li>Stone oven (15 Iron, 20 Stone, 4 Surtling core): 4 paier om gangen, 50 s hver</li><li>Artisan press (etter Dronningen): Ceramic plate og Shield core til Drakkaren</li></ul></div>
+<div class="card"><p class="eyebrow">Mistlands</p><h3>Galdr table, Black forge, Eitr refinery</h3><ul><li>Galdr table (10 Black metal, 20 Yggdrasil wood, 5 Black core, 5 Refined eitr): staver, magerober, Feather cape</li><li>Black forge (10 Black marble, 10 Yggdrasil wood, 5 Black core): alle Mistlands- og Ashlands-våpen, oppgraderinger til nivå 6 med Smith's aprons (1.0)</li><li>Eitr refinery (20 Black marble, 5 Black metal, 10 Yggdrasil wood, 5 Black core, 3 Sap): 20 Sap pluss 20 Soft tissue gir 20 Refined eitr. Slipper lyn og gift: ingen tre i nærheten.</li></ul></div>
+<div class="card"><p class="eyebrow">Portaler</p><h3>Treportal, steinportal, modifikator</h3><ul><li>Treportal (10 Greydwarf eye, 20 Finewood, 2 Surtling core). Tag maks 10 tegn, store og små bokstaver teller.</li><li><b>Kan ikke portaleres:</b> all malm og alle barrer, skrap, Dragon egg, Dvergr extractor, Mechanical spring, Charred cogwheel, Hildirs kister.</li><li>Portal stone (10 Greydwarf eye, 30 Grausten, 2 Molten core, Stonecutter, på steingulv) tar metall, men bare den portalen du går inn i. Bygg én hjemme først, bær jern til en Stonecutter gjennom den, bygg nummer to i Ashlands. Så seiler du aldri dit igjen.</li><li>Verdensmodifikatoren «Portal items» (TeleportAll) fjerner hele regelen, unntatt tamme dyr.</li></ul></div>
+</div>
+</div>
+</section>
+
+<section class="sec band" id="dyr">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Bondens side</p><h2>Dyrehold: to stjerner i hver innhegning</h2><p class="lede">Alle dyr temmes på 30 minutter rolig, mett tid, og alle avlsregler er like: kjærlighetspoeng hvert 30. sekund med 33 prosent sjanse, en plassgrense innenfor en radius, og en unge som arver stjernene til den som føder. Resten er tall per art.</p></div>
+
+<div class="tbl-wrap"><table>
+<thead><tr><th>Dyr</th><th>Spiser</th><th class="num">Mett i</th><th class="num">Kjærl.poeng</th><th>Plassgrense</th><th class="num">Partner innen</th><th class="num">Gravid</th><th class="num">Unge voksen</th><th>Stjerner i naturen</th></tr></thead>
+<tbody>
+<tr><td><b>Villsvin</b></td><td>Blåbær, bringebær, rød sopp, gulrot, nepe, løk (ikke gul sopp)</td><td class="num">10 min</td><td class="num">4 (3 på villsvin-siden, wiki spriker)</td><td>5 innen 10 m</td><td class="num">3 m</td><td class="num">1 min</td><td class="num">50 min</td><td>Bare mer enn 800 m fra midten. 9 prosent 1 stjerne, 1 prosent 2 stjerner.</td></tr>
+<tr><td><b>Ulv</b></td><td>Villsvin-, hjorte-, lox-, kyllingkjøtt, neck tail, rå fisk, pølser (ikke ulvekjøtt)</td><td class="num">10 min</td><td class="num">3</td><td>4 innen 10 m</td><td class="num">3 m</td><td class="num">1 min</td><td class="num">50 min</td><td>Bare nattspawneren gir stjerner. Forsvinner ved daggry om temming ikke har begynt.</td></tr>
+<tr><td><b>Lox</b></td><td>Bygg, multer, lin</td><td class="num">10 min</td><td class="num">4</td><td>4 innen 20 m</td><td class="num">8 m</td><td class="num">2 min</td><td class="num">100 min</td><td>Aldri. Lox har ikke stjerner.</td></tr>
+<tr><td><b>Høne</b></td><td>Gulrot-, nepe-, løk-, bøk- og bjørkefrø, bygg, løvetann</td><td class="num">10 min</td><td class="num">3</td><td>10 innen 10 m (høner, kyllinger og egg)</td><td class="num">4 m</td><td class="num">1 min, legger egg</td><td class="num">Egg 30 min varmt, kylling 50 min</td><td>Ingen. To egg koster 1 500 hver hos Haldor.</td></tr>
+<tr><td><b>Asksvin</b></td><td>Smoke puff, Vineberry cluster, Fiddlehead</td><td class="num">10 min</td><td class="num">3</td><td>10 innen 10 m</td><td class="num">4 m</td><td class="num">1 min, legger egg</td><td class="num">Egg 30 min, hatchling 50 min</td><td>Natt: opptil 2 stjerner. Eggets kvalitet 1 til 3 er stjernene.</td></tr>
+<tr><td><b>Elg</b> (1.0)</td><td>Tyttebær</td><td class="num">10 min</td><td class="num">3</td><td>5 innen 10 m</td><td class="num">3 m</td><td class="num">1 min</td><td class="num">50 min</td><td>Ikke verifisert. Wiki-siden er en stubb, tallene er fra fansider.</td></tr>
+</tbody></table><p class="tbl-cap">Kilde: Taming-siden («Creature properties») og artssidene. Temming går bare framover når dyret er mett, ikke alarmert (rødt utropstegn) og sonen er aktiv, det vil si at du er innen cirka 64 meter. Brew of animal whispers halverer tiden.</p></div>
+
+<h3>Slik arves stjernene</h3>
+<figure class="fig">
+<svg viewBox="0 0 720 250" role="img" aria-label="To avlspar: to to-stjerners villsvin gir alltid to-stjerners unger, mens et to-stjerners og et null-stjerners villsvin gir omtrent halvparten av hver, fordi hvem som helst kan bli gravid">
+<defs><marker id="pil4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="currentColor"/></marker></defs>
+<g font-family="Inter,sans-serif" font-size="11.5" fill="currentColor" stroke="currentColor" stroke-width="1.2">
+<text x="170" y="24" text-anchor="middle" stroke="none" font-weight="700">Ren innhegning</text>
+<circle cx="110" cy="80" r="26" fill="var(--surface-2)"/><text x="110" y="85" text-anchor="middle" stroke="none" font-weight="700">★★</text>
+<circle cx="230" cy="80" r="26" fill="var(--surface-2)"/><text x="230" y="85" text-anchor="middle" stroke="none" font-weight="700">★★</text>
+<line x1="110" y1="106" x2="150" y2="160" marker-end="url(#pil4)"/><line x1="230" y1="106" x2="190" y2="160" marker-end="url(#pil4)"/>
+<rect x="110" y="164" width="120" height="40" rx="3" fill="var(--god)" stroke="currentColor"/><text x="170" y="182" text-anchor="middle" stroke="none" fill="#F5F0E6" font-weight="700">100 % ★★</text><text x="170" y="196" text-anchor="middle" stroke="none" fill="#F5F0E6" font-size="10">uansett hvem som føder</text>
+<text x="170" y="232" text-anchor="middle" stroke="none" font-size="10.5">Stjerner kan aldri øke gjennom avl.</text>
+
+<text x="540" y="24" text-anchor="middle" stroke="none" font-weight="700">Blandet innhegning</text>
+<circle cx="480" cy="80" r="26" fill="var(--surface-2)"/><text x="480" y="85" text-anchor="middle" stroke="none" font-weight="700">★★</text>
+<circle cx="600" cy="80" r="26" fill="var(--surface-2)"/><text x="600" y="85" text-anchor="middle" stroke="none" font-size="10.5">0 ★</text>
+<line x1="480" y1="106" x2="480" y2="160" marker-end="url(#pil4)"/><line x1="600" y1="106" x2="600" y2="160" marker-end="url(#pil4)"/>
+<text x="470" y="140" text-anchor="end" stroke="none" font-size="10.5">hvis ★★ føder</text><text x="610" y="140" stroke="none" font-size="10.5">hvis 0 ★ føder</text>
+<rect x="424" y="164" width="112" height="40" rx="3" fill="var(--god)" stroke="currentColor"/><text x="480" y="188" text-anchor="middle" stroke="none" fill="#F5F0E6" font-weight="700">★★</text>
+<rect x="544" y="164" width="112" height="40" rx="3" fill="var(--fare)" stroke="currentColor"/><text x="600" y="188" text-anchor="middle" stroke="none" fill="#F5F0E6" font-weight="700">0 ★</text>
+<text x="540" y="232" text-anchor="middle" stroke="none" font-size="10.5">Cirka halvparten av hver, og 0 ★-ungen spiser plasskvoten.</text>
+</g>
+</svg>
+<figcaption>Ungen arver stjernene til forelderen som føder den, og begge i et par kan bli gravide. Derfor: skill ut to-stjerners dyr i egen innhegning, og slakt null- og én-stjerners unger med Butcher knife med en gang. Etter to to-stjerners voksne er resten automatikk.</figcaption>
+</figure>
+
+<h3>Innhegningen som fungerer</h3>
+<figure class="fig">
+<svg viewBox="0 0 720 300" role="img" aria-label="Plantegning av to villsvininnhegninger med sentrum minst ti meter fra hverandre, hver med partnerradius tre meter og plassgrense ti meter, en forhøyning å hoppe ut fra, og matstabler innenfor workbench-radius">
+<g font-family="Inter,sans-serif" font-size="11.5" fill="currentColor" stroke="currentColor" stroke-width="1.2">
+<circle cx="190" cy="150" r="110" fill="none" stroke-dasharray="5 4"/><text x="190" y="36" text-anchor="middle" stroke="none" font-size="10.5">plassgrense: 5 villsvin innen 10 m</text>
+<circle cx="530" cy="150" r="110" fill="none" stroke-dasharray="5 4"/>
+<rect x="140" y="105" width="100" height="90" fill="var(--surface-2)" stroke="var(--rust)" stroke-width="3"/><text x="190" y="130" text-anchor="middle" stroke="none" font-weight="700">★★-innhegning</text><circle cx="175" cy="160" r="8" fill="var(--rust)" stroke="none"/><circle cx="205" cy="160" r="8" fill="var(--rust)" stroke="none"/><text x="190" y="186" text-anchor="middle" stroke="none" font-size="10">partner innen 3 m</text>
+<rect x="480" y="105" width="100" height="90" fill="var(--surface-2)" stroke="currentColor" stroke-width="3"/><text x="530" y="130" text-anchor="middle" stroke="none" font-weight="700">kjøttinnhegning</text><circle cx="505" cy="160" r="8" fill="var(--mute)" stroke="none"/><circle cx="530" cy="160" r="8" fill="var(--mute)" stroke="none"/><circle cx="555" cy="160" r="8" fill="var(--mute)" stroke="none"/><text x="530" y="186" text-anchor="middle" stroke="none" font-size="10">0 ★ og 1 ★, slaktes</text>
+<line x1="190" y1="150" x2="530" y2="150" stroke-dasharray="2 4"/><text x="360" y="142" text-anchor="middle" stroke="none" font-family="JetBrains Mono,monospace" font-size="11">minst 10 m sentrum til sentrum</text>
+<rect x="250" y="110" width="22" height="22" fill="var(--surface-2)"/><text x="261" y="105" text-anchor="middle" stroke="none" font-size="10">trapp ut</text>
+<text x="190" y="226" text-anchor="middle" stroke="none" font-size="10.5">hele stabler med mat, innen workbench-radius (20 m)</text>
+<text x="190" y="242" text-anchor="middle" stroke="none" font-size="10.5">jordvoll eller grøft rundt, tak mot flaggermus og draker</text>
+<text x="530" y="226" text-anchor="middle" stroke="none" font-size="10.5">Lox: 4 innen 20 m, partner innen 8 m,</text><text x="530" y="242" text-anchor="middle" stroke="none" font-size="10.5">og minst 8 m takhøyde, ellers finner de ikke maten</text>
+<text x="360" y="280" text-anchor="middle" stroke="none" font-size="10.5">Grisunger teller som villsvin i plassgrensen (navnet «Boar_piggy» starter med «Boar»).</text>
+</g>
+</svg>
+<figcaption>To innhegninger med sentrum minst 10 meter fra hverandre, så den ene ikke spiser den andres plasskvote. Jordvoll og grøft kan ikke ødelegges. Lox trenger stein eller jord, de knuser trebygg. Ulver trenger dobbel vegg eller en bratt grop.</figcaption>
+</figure>
+
+<div class="grid">
+<div class="card"><p class="eyebrow">Temming</p><h3>Ute av syne, innenfor sonen</h3><ul><li>Ville villsvin flykter fra ild innen 3 meter og blir redde når de ser deg. Gjerd dem inne, kast en hel stabel mat over veggen, og hold deg innen 64 meter men ute av syne.</li><li>Uavbrutt temming bruker bare 3 matbiter. Søvn gjør ikke temming raskere, men maten råtner fortere.</li><li>Hover-teksten sier Hungry, Happy, Frightened eller Acclimatizing med prosent.</li><li>Stjerneulver spawner bare om natten og forsvinner ved daggry med mindre første temmetikk har skjedd. Fang dem i en grop og mat dem før dagen.</li></ul></div>
+<div class="card"><p class="eyebrow">Hvorfor to stjerner</p><h3>Dobbelt liv, dobbelt drops</h3><p>Hvert nivå gir pluss 100 prosent liv, pluss 50 prosent skade, og dobler drops (ikke trofeer). To stjerner er altså tre ganger liv, to ganger skade og fire ganger lær, kjøtt og pels. En to-stjerners ulv har 240 liv og slår 140.</p><p class="small muted">Patch 1.0.20: trofésjansen øker nå også med stjerner.</p></div>
+<div class="card"><p class="eyebrow">Høner og asksvin</p><h3>Egg må ligge varmt</h3><ul><li>Legg egget alene (ikke i stabel) nær ild og under tak. Hover-teksten sier om det er varmt. 30 minutter, klokka nullstilles om ilden slukner.</li><li>Eggtallet begrenses av 10-regelen, men du kan klekke ubegrenset mange egg på samme sted.</li><li>Asksvin-egg har kvalitet 1 til 3, som er ungens stjerner. Klekk bare kvalitet 3.</li></ul></div>
+<div class="card"><p class="eyebrow">Kommandoer</p><h3>Følg, bli, navn</h3><ul><li>E på et tamt dyr veksler Follow og Stay. Shift pluss E gir navn.</li><li>Ulver som følger venter der du forlot dem ved utlogging og portal, de går ikke gjennom portaler.</li><li>Lox saddle (10 Leather scraps, 20 Linen thread, 15 Black metal) og Asksvin saddle (6 Flametal, 20 Linen thread, 4 Morgen sinew) gjør dem ridbare. Asksvin tar ikke lavaskade med rytter.</li><li>Butcher knife (2 Wood, 4 Tin) er det eneste som skader tamme dyr.</li></ul></div>
+</div>
+
+<div class="fakta raad"><p class="fk-label">Ravnen i spillet</p><p>BondeRavn, modden som hører til dette bladet, er en ravn som flyr ved skulderen din og leser av akkurat disse tallene mens du spiller: sult, uro, temmeklokke, kjærlighetspoeng, graviditet, plassgrense og partnere, og sier fra når noe stopper avlen. Kildekoden ligger i samme mappe som bladet i repoet <a href="https://github.com/arnessmaria-byte/Morgenk-pen/tree/claude/relaxed-ramanujan-4mgnra/valheim-bonderavn">arnessmaria-byte/Morgenk-pen</a>.</p></div>
+</div>
+</section>
+
+<section class="sec kilder" id="kilder">
+<div class="container wide">
+<div class="sec-head"><p class="kicker">Verifisering</p><h2>Kilder</h2><p class="lede">Alle tall er lest fra wikisidenes egen tekst (via MediaWiki-API), ikke fra søkeresultater. Deep North-tall merket «ikke verifisert» kommer fra de tre siste kildene og fra spillfil-lesninger sitert av fansider.</p></div>
+<ol>
+<li>Iron Gate, «Valheim 1.0 Has Arrived!», Steam, 9. september 2026: store.steampowered.com/news/app/892970/view/1843481262688942</li>
+<li>Iron Gate, patch 1.0.20, 15. oktober 2026: valheimgame.com/news/patch-1-0-20</li>
+<li>Valheim Wiki, Version history: valheim.fandom.com/wiki/Version_history</li>
+<li>Valheim Wiki, Forsaken power: valheim.fandom.com/wiki/Forsaken_power</li>
+<li>Valheim Wiki, Boss strategies og bossidene Eikthyr, The Elder, Bonemass, Moder, Yagluth, The Queen, Fader</li>
+<li>Valheim Wiki, Brenna, Geirrhafa, Zil &amp; Thungr, Lord Reto</li>
+<li>Valheim Wiki, Hildir, Hildir's Chests, Smouldering Tomb, Howling Cavern, Sealed Tower</li>
+<li>Valheim Wiki, Haldor, Trader, The Bog Witch, Coins, Silver necklace</li>
+<li>Valheim Wiki, Events (raid)</li>
+<li>Valheim Wiki (weirdgloop-speil, rev. 12. okt. 2026), Weapons, Shields, Armor, Trinkets, Adrenaline, Blocking, Damage types, Skills, Death, World Modifiers</li>
+<li>Valheim Wiki, våpensidene Mistwalker, Krom, Dyrnwyn, Slayer, Berserkir Axes, Jotun Bane, Skull Splittur, Frostner, Demolisher, Himminafl, Draugr Fang, Spinesnap, Ash Fang, Arbalest, Ripper, Skoll and Hati, Flesh Rippers, Splitnir, Nord Sword, Thunderblood Sword, Nord Dagger, Nord Knucklechains, Mould, Fallen Warrior</li>
+<li>Valheim Wiki, stavsidene Staff of Embers, Staff of Frost, Staff of Protection, Dead Raiser, Dundr, Staff of the Wild, Staff of Fracturing, Trollstav, Lightning Strike, Echo Spike, Northern Vengeance, Spirit Caller</li>
+<li>Valheim Wiki, Food, Feast, Mead, Mead Ketill, Fermenter og hver mjødside</li>
+<li>Valheim Wiki, Comfort, Rested, Resting, Shelter, Hearth, Hot Tub, Lava Lantern, Chairs, Tables, Rugs, Banners, Dragon Bed</li>
+<li>Valheim Wiki, Building, Building stability, Workbench, Forge, Cauldron, Smelter, Blast Furnace, Artisan Table, Galdr Table, Eitr Refinery, Black Forge, Stonecutter, Stone Oven, Portal, Portal stone</li>
+<li>Valheim Wiki, Taming, Boar, Wolf, Lox, Hen, Chicken, Egg, Asksvin, Asksvin egg, Moose (stubb), Creature Level, Spawn zones, Zones, Creature AI, Effect areas, Brew of Animal Whispers, Butcher Knife, Lox Saddle, Asksvin Saddle, Riding, Roundpole Fence, Stakewall</li>
+<li>Valheim Wiki, Deep North, Kall Fimbulbringer (weirdgloop), Krigen, Hexen, Barka, Gammeltroll, Elaking, Moose</li>
+<li>timesaver.gg, «Kall Fimbulbringer final boss» og «Moose how to tame» (ikke verifisert)</li>
+<li>beebom.com, «Valheim Kall Fimbulbringer boss guide» (ikke verifisert)</li>
+<li>valheim.fans, «Kall Fimbulbringer» (ikke verifisert)</li>
+<li>deltiasgaming.com, «Valheim 1.0 Moose guide» (ikke verifisert)</li>
+<li>thunderstore.io, BreedingUpgrades (dokumenterer at vanilla ikke øker stjerner ved avl)</li>
+</ol>
+</div>
+</section>
+
+<footer>
+<div class="container wide">
+<p class="fb">RAVNEBLADET</p>
+<p class="legal">Utgave 1, 15. oktober 2026. Privat forhåndsvisning for Mantelens spillbord. Valheim er et varemerke for Iron Gate AB; dette bladet er uavhengig og uten tilknytning. Tallene gjelder versjon 1.0.20 og endres når spillet patches.</p>
+</div>
+</footer>
+
+<script>
+(() => {
+'use strict';
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const svgNS = 'http://www.w3.org/2000/svg';
+function el(name, attrs, text){ const e = document.createElementNS(svgNS, name); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; return e; }
+
+// ---- Rustningsdiagram (kvalitet 4, tre plagg) ----
+const ARMOR = [
+  ['Leather','lett',24],['Troll leather','lett',36],['Bear','lett',39],['Root','lett',42],['Bronze','tung',42],['Fenris','lett',48],['Iron','tung',60],
+  ['Lox Fur (1.0)','lett',66],['Eitr-weave','mage',66],['Embla','mage',75],['Wolf','tung',78],['Caller (1.0)','mage',84],['Padded','tung',96],
+  ['Ask','lett',102],['Carapace','tung',114],['Vanguard (1.0)','lett',120],['Flametal','tung',132],['Protector (1.0)','tung',150],
+];
+function drawArmor(){
+  const svg = document.getElementById('armor-chart'); if (!svg) return;
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+  const W = 720, left = 150, right = 40, rowH = 21, top = 14;
+  const H = top + ARMOR.length * rowH + 10; svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const max = 160, sx = v => left + (W - left - right) * v / max;
+  const col = {lett: css('--gull') || '#8f6f22', tung: css('--rust') || '#a8401c', mage: css('--e') || '#2a78d6'};
+  for (let g = 0; g <= max; g += 40){
+    svg.appendChild(el('line', {x1: sx(g), x2: sx(g), y1: top - 6, y2: H - 10, stroke: css('--grid') || '#ccc', 'stroke-width': 1}));
+    svg.appendChild(el('text', {x: sx(g), y: H - 1, 'text-anchor': 'middle', 'font-size': 10, 'font-family': 'JetBrains Mono, monospace', fill: css('--mute')}, g));
+  }
+  ARMOR.forEach((a, i) => {
+    const y = top + i * rowH;
+    svg.appendChild(el('text', {x: left - 8, y: y + 13, 'text-anchor': 'end', 'font-size': 11.5, 'font-family': 'Inter, sans-serif', fill: css('--ink')}, a[0]));
+    svg.appendChild(el('rect', {x: sx(0), y: y + 3, width: Math.max(2, sx(a[2]) - sx(0)), height: rowH - 8, rx: 2, fill: col[a[1]]}));
+    svg.appendChild(el('text', {x: sx(a[2]) + 5, y: y + 13, 'font-size': 10.5, 'font-family': 'JetBrains Mono, monospace', fill: css('--ink')}, a[2]));
+  });
+}
+
+// ---- Mat: beste tre-retters per biom ----
+const STAGES = [
+  {n:'Meadows', h:[90,30,0,'Cooked deer meat, Cooked boar meat, Grilled neck tail'], s:[50,67,0,'Honey, Raspberries, Cooked deer meat'], e:null},
+  {n:'Black Forest', h:[125,41,0,'Deer stew, Minced meat sauce, Cooked bear meat'], s:[37,120,0,'Carrot soup, Queen’s jam, Honey'], e:null},
+  {n:'Swamp', h:[205,67,0,'Serpent stew, Cooked serpent meat, Sausages (uten sjøorm: Sausages, Black soup, Deer stew = 150/50)'], s:[49,150,0,'Turnip stew, Muckshake, Carrot soup'], e:null},
+  {n:'Mountains', h:[215,70,0,'Serpent stew, Cooked serpent meat, Wolf skewer (uten sjøorm: Wolf skewer, Sausages, Black soup = 170/56)'], s:[59,180,0,'Eyescream, Onion soup, Turnip stew'], e:null},
+  {n:'Plains', h:[225,73,0,'Serpent stew, Lox meat pie, Fish wraps (uten sjøorm: Lox meat pie, Fish wraps, Wolf skewer = 210/68)'], s:[69,210,0,'Blood pudding, Bread, Eyescream'], e:null},
+  {n:'Mistlands', h:[245,80,0,'Misthare supreme, Meat platter, Honey glazed chicken'], s:[84,255,0,'Fish ’n’ bread, Mushroom omelette, Salad'], e:[80,39,240,'Seeker aspic, Yggdrasil porridge, Stuffed mushroom (hybrid med Misthare supreme: 140/55/165)']},
+  {n:'Ashlands', h:[300,101,0,'Piquant pie, Mashed meat, Fiery svinstew'], s:[96,285,0,'Roasted crust pie, Scorching medley, Spicy marmalade'], e:[90,45,270,'Marinated greens, Sparkling shroomshake, Sizzling berry broth (hybrid med Piquant pie: 167/66/185)']},
+];
+function drawFood(){
+  const svg = document.getElementById('food-chart'); if (!svg) return;
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+  const W = 720, H = 300, left = 44, right = 12, top = 16, bottom = 40;
+  const max = 300, sy = v => top + (H - top - bottom) * (1 - v / max);
+  const gw = (W - left - right) / STAGES.length, bw = 16, gap = 3;
+  for (let g = 0; g <= max; g += 100){
+    svg.appendChild(el('line', {x1: left, x2: W - right, y1: sy(g), y2: sy(g), stroke: css('--grid') || '#ccc'}));
+    svg.appendChild(el('text', {x: left - 6, y: sy(g) + 4, 'text-anchor': 'end', 'font-size': 10, 'font-family': 'JetBrains Mono, monospace', fill: css('--mute')}, g));
+  }
+  STAGES.forEach((s, i) => {
+    const cx = left + gw * i + gw / 2;
+    const series = [['h', s.h ? s.h[0] : 0, css('--h')], ['e', s.e ? s.e[2] : 0, css('--e')], ['s', s.s ? s.s[1] : 0, css('--s')]];
+    const total = series.length * bw + (series.length - 1) * gap; let x = cx - total / 2;
+    series.forEach(([k, v, c]) => {
+      if (v > 0){
+        svg.appendChild(el('rect', {x, y: sy(v), width: bw, height: sy(0) - sy(v), rx: 2, fill: c}));
+        svg.appendChild(el('text', {x: x + bw / 2, y: sy(v) - 4, 'text-anchor': 'middle', 'font-size': 10, 'font-family': 'JetBrains Mono, monospace', fill: css('--ink')}, v));
+      }
+      x += bw + gap;
+    });
+    svg.appendChild(el('text', {x: cx, y: H - 22, 'text-anchor': 'middle', 'font-size': 11, 'font-family': 'Inter, sans-serif', fill: css('--ink')}, s.n));
+  });
+  svg.appendChild(el('line', {x1: left, x2: W - right, y1: sy(0), y2: sy(0), stroke: css('--ink'), 'stroke-width': 1}));
+}
+
+// ---- Matplanleggeren ----
+function foodPlanner(){
+  const sel = document.getElementById('mp-stage'), role = document.getElementById('mp-role'), out = document.getElementById('mp-out');
+  if (!sel || !role || !out) return;
+  STAGES.forEach((s, i) => { const o = document.createElement('option'); o.value = i; o.textContent = s.n; sel.appendChild(o); });
+  sel.value = 2;
+  function render(){
+    const s = STAGES[sel.value], r = role.value;
+    const d = s[r];
+    if (!d){ out.innerHTML = '<p class="small muted sans" style="margin-top:8px">Eitr-mat finnes først i Mistlands. Velg Mistlands eller Ashlands.</p>'; return; }
+    const mx = 300;
+    out.innerHTML = `<p style="margin:8px 0 2px"><b>${esc(d[3])}</b></p>
+      <div class="bars">
+        <div class="bar"><span>Liv</span><i style="--c:var(--h);--w:${100*d[0]/mx}%"></i><span class="num">${d[0]}</span></div>
+        <div class="bar"><span>Stamina</span><i style="--c:var(--s);--w:${100*d[1]/mx}%"></i><span class="num">${d[1]}</span></div>
+        <div class="bar"><span>Eitr</span><i style="--c:var(--e);--w:${100*d[2]/mx}%"></i><span class="num">${d[2]}</span></div>
+      </div>`;
+  }
+  sel.addEventListener('change', render); role.addEventListener('change', render); render();
+}
+
+// ---- Komfortkalkulatoren ----
+const KOMFORT = [
+  {k:'ly', n:'Under tak ved ild (ellers bål ute: 1)', v:2, base:true},
+  {k:'ild', n:'Hearth innen 8 m (bål eller fakkel: 1)', v:2, alt:1},
+  {k:'seng', n:'Dragon bed (vanlig seng: 1)', v:2, alt:1},
+  {k:'stol', n:'Trone (stol: 2, benk: 1)', v:3, alt:2},
+  {k:'bord', n:'Round eller Long heavy table (vanlig bord: 1)', v:2, alt:1},
+  {k:'teppe', n:'Wolf, Lox eller Bearskin rug (hjorteskinn: 1)', v:2, alt:1},
+  {k:'banner', n:'Jute curtain (banner: 1)', v:2, alt:1},
+  {k:'krans', n:'Garland eller Fey lights', v:1},
+  {k:'kar', n:'Hot tub, fyrt (barberstasjon: 1)', v:2, alt:1},
+  {k:'lykt', n:'Lava lantern (Dvergr lantern: 1)', v:2, alt:1},
+  {k:'potte', n:'Green pot eller Asksvin-skjelett', v:1},
+  {k:'stativ', n:'Item stand eller Armor stand', v:1},
+  {k:'sesong', n:'Maypole eller Yule tree (sesong)', v:1},
+];
+function komfort(){
+  const list = document.getElementById('komfort-list'); if (!list) return;
+  const saved = (() => { try { return JSON.parse(localStorage.getItem('ravnebladet-komfort') || '{}'); } catch (e) { return {}; } })();
+  KOMFORT.forEach(it => {
+    const lab = document.createElement('label');
+    const sel = document.createElement('select'); sel.id = 'kf-' + it.k;
+    const o0 = document.createElement('option'); o0.value = 0; o0.textContent = 'ingen'; sel.appendChild(o0);
+    if (it.alt){ const o1 = document.createElement('option'); o1.value = it.alt; o1.textContent = 'enkel (' + it.alt + ')'; sel.appendChild(o1); }
+    if (it.base){ const o1 = document.createElement('option'); o1.value = 1; o1.textContent = 'bål ute (1)'; sel.appendChild(o1); }
+    const o2 = document.createElement('option'); o2.value = it.v; o2.textContent = 'beste (' + it.v + ')'; sel.appendChild(o2);
+    sel.value = saved[it.k] != null ? saved[it.k] : (it.k === 'ly' ? 2 : 0);
+    lab.appendChild(sel); lab.appendChild(document.createTextNode(' ' + it.n));
+    list.appendChild(lab);
+    sel.addEventListener('change', update);
+  });
+  function update(){
+    let sum = 0; const state = {};
+    KOMFORT.forEach(it => { const v = Number(document.getElementById('kf-' + it.k).value); state[it.k] = v; sum += v; });
+    document.getElementById('komfort-sum').textContent = sum;
+    document.getElementById('komfort-min').textContent = sum > 0 ? 7 + sum : 0;
+    const tip = document.getElementById('komfort-tip');
+    tip.textContent = sum === 0 ? 'Uten ild får du ikke Rested i det hele tatt.' : sum >= 22 ? 'Maks for vanlig spill. Bare sesongpynt gir mer.' : 'Billigste neste steg: ' + (state.stol < 3 ? 'en Raven throne (20 Finewood, 10 Iron nails) gir 3.' : state.ild < 2 ? 'en Hearth for 15 stein gir 2.' : state.bord < 2 ? 'et Round table gir 2.' : 'teppe, gardin og lykt på 2 hver.');
+    try { localStorage.setItem('ravnebladet-komfort', JSON.stringify(state)); } catch (e) {}
+  }
+  update();
+}
+
+function boot(){ drawArmor(); drawFood(); foodPlanner(); komfort(); }
+boot();
+const mq = window.matchMedia('(prefers-color-scheme: dark)');
+mq.addEventListener && mq.addEventListener('change', () => { drawArmor(); drawFood(); });
+new MutationObserver(() => { drawArmor(); drawFood(); }).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+})();
+</script>
