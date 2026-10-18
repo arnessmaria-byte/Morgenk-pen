@@ -23,6 +23,8 @@ def norm(s):
 
 
 tn = norm(t)
+# Samme tekst med linjeskift beholdt, så setningsstart etter overskrift og avsnitt kan sees
+tl = re.sub(r"[ \t]+", " ", t.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"')).lower()
 deler = re.split(r"^## (?=Day \d+: )", t, flags=re.M)
 dager = {}
 for d in deler[1:]:
@@ -41,7 +43,7 @@ for d in deler[1:]:
     dager[n] = {"tittel": hode.split(": ", 1)[1].strip(), "vers": vers, "apning": apning,
                 "praksis": s["The Practice"], "hf_tittel": hf, "hf": s[hf]}
 
-ordrett = ikke = tittelavvik = 0
+ordrett = ikke = tittelavvik = hele = 0
 o = ["# Vedlegg til videoprompten: gammelt videomanus mot dagens bok",
      "",
      "Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.",
@@ -49,9 +51,14 @@ o = ["# Vedlegg til videoprompten: gammelt videomanus mot dagens bok",
      "- **Gammelt videomanus:** voiceover-linjene i `FORGED_40_Day_Video_Prompts.pdf` (Drive, sist endret 05.08.2026). "
      "Det er skrevet mot en eldre versjon av boken.",
      "- **Dagens bok:** `ut/FORGED_manus.md`, endelig tekst 18.10.2026.",
-     "- **Merket «ordrett»** betyr at linjen står ord for ord i dagens bok. Det sier ikke at linjen er feil. "
-     "Mange linjer er korte sammendrag, og de må vurderes etter mening.",
-     "- Linjen «The practice for today.» og tittel-linjen er ikke tatt med.",
+     "- **«ja, hel setning»** betyr at linjen står ord for ord som en hel setning i dagens bok.",
+     "- **«del av en lengre setning»** betyr at ordene står i boken, men bare som en bit av en lengre setning. "
+     "Da kan linjen si noe annet enn boken. «God does not always speak.» (Day 30) står for eksempel i boken som "
+     "«God does not always speak to ease your discomfort.».",
+     "- **«nei»** betyr at linjen ikke står ordrett i boken. Det sier ikke alene at linjen er feil, "
+     "for mange linjer er korte sammendrag. De må vurderes etter mening.",
+     "- **Scenenumrene følger manuset.** Scene 1 har ingen voiceover, bare en klikkelyd. Scene 2 er tittel-linjen, "
+     "og scene 7 er «The practice for today.». Disse to linjene er ikke tatt med, så tabellene viser scene 3 til 6 og 8 til 10.",
      "",
      "SAMMENDRAG_HER",
      ""]
@@ -75,15 +82,19 @@ for n in range(1, 41):
     o.append("")
     o.append("**Voiceover i det gamle videomanuset:**")
     o.append("")
-    o.append("| Scene | Linje | Ordrett i boken nå? |")
+    o.append("| Scene | Linje | Står i boken nå? |")
     o.append("|---|---|---|")
     for i, linje in enumerate(v["vo"], start=2):
         if i == 2 or linje == "The practice for today.":
             continue
-        hit = norm(linje).rstrip(".?") in tn
+        kjerne = norm(linje).rstrip(".?!")
+        hel = re.search(r"(?:^|[.!?:]\s+|\n|[|\-]\s|\*\*\s*)" + re.escape(kjerne) + r"(?:[.!?]|(?=[ \t]*(?:$|\||\*)))", tl, re.M)
+        hit = kjerne in tn
         ordrett += hit
         ikke += not hit
-        o.append(f"| {i} | {linje} | {'ordrett' if hit else 'nei'} |")
+        hele += bool(hel)
+        merke = "ja, hel setning" if hel else ("del av en lengre setning" if hit else "nei")
+        o.append(f"| {i} | {linje} | {merke} |")
     o.append("")
     o.append("**The Practice i boken nå:**")
     o.append("")
@@ -92,7 +103,9 @@ for n in range(1, 41):
     o.append("")
     o.append(f"**{d['hf_tittel']}**")
     o.append("")
-o[o.index("SAMMENDRAG_HER")] = (f"**Sammendrag:** {ordrett} av {ordrett + ikke} voiceover-linjer står ordrett i dagens bok. "
+o[o.index("SAMMENDRAG_HER")] = (f"**Sammendrag:** Manuset har {sum(len(v['vo']) for v in vo.values())} voiceover-linjer. "
+                                f"Uten tittel-linjen og «The practice for today.» er det {ordrett + ikke} linjer igjen. "
+                                f"{ordrett} av dem står ordrett i dagens bok, og bare {hele} som hele setninger. "
                                 + ("Alle 40 dagtitler stemmer med boken." if not tittelavvik else f"{tittelavvik} dagtitler avviker fra boken."))
 ut.write_text("\n".join(o).rstrip() + "\n", encoding="utf-8")
-print("skrev", ut, f"ordrett {ordrett}, ikke ordrett {ikke}")
+print("skrev", ut, f"ordrett {ordrett} (hele setninger {hele}), ikke ordrett {ikke}")

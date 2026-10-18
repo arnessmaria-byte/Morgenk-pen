@@ -4,10 +4,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 - **Gammelt videomanus:** voiceover-linjene i `FORGED_40_Day_Video_Prompts.pdf` (Drive, sist endret 05.08.2026). Det er skrevet mot en eldre versjon av boken.
 - **Dagens bok:** `ut/FORGED_manus.md`, endelig tekst 18.10.2026.
-- **Merket «ordrett»** betyr at linjen står ord for ord i dagens bok. Det sier ikke at linjen er feil. Mange linjer er korte sammendrag, og de må vurderes etter mening.
-- Linjen «The practice for today.» og tittel-linjen er ikke tatt med.
+- **«ja, hel setning»** betyr at linjen står ord for ord som en hel setning i dagens bok.
+- **«del av en lengre setning»** betyr at ordene står i boken, men bare som en bit av en lengre setning. Da kan linjen si noe annet enn boken. «God does not always speak.» (Day 30) står for eksempel i boken som «God does not always speak to ease your discomfort.».
+- **«nei»** betyr at linjen ikke står ordrett i boken. Det sier ikke alene at linjen er feil, for mange linjer er korte sammendrag. De må vurderes etter mening.
+- **Scenenumrene følger manuset.** Scene 1 har ingen voiceover, bare en klikkelyd. Scene 2 er tittel-linjen, og scene 7 er «The practice for today.». Disse to linjene er ikke tatt med, så tabellene viser scene 3 til 6 og 8 til 10.
 
-**Sammendrag:** 14 av 280 voiceover-linjer står ordrett i dagens bok. Alle 40 dagtitler stemmer med boken.
+**Sammendrag:** Manuset har 360 voiceover-linjer. Uten tittel-linjen og «The practice for today.» er det 280 linjer igjen. 14 av dem står ordrett i dagens bok, og bare 6 som hele setninger. Alle 40 dagtitler stemmer med boken.
 
 ## Day 1: Kindling the Flame
 
@@ -23,7 +25,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Untested faith is an assumption. | nei |
 | 4 | Pressured faith becomes a position. | nei |
@@ -55,7 +57,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Every room trains something. | nei |
 | 4 | Every relationship applies pressure. | nei |
@@ -95,13 +97,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Questions are not the enemy. | nei |
 | 4 | Avoided questions are. | nei |
 | 5 | Faith does not fear testing. | nei |
 | 6 | Only pretense does. | nei |
-| 8 | Choose one belief you rely on. | ordrett |
+| 8 | Choose one belief you rely on. | del av en lengre setning |
 | 9 | Ask yourself: Why do I trust this? | nei |
 | 10 | Refinement requires patience. | nei |
 
@@ -128,7 +130,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Rules without purpose create rebellion. | nei |
 | 4 | Rules with purpose create endurance. | nei |
@@ -160,10 +162,10 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Not all discomfort is a flaw. | nei |
-| 4 | Some discomfort is a signal. | ordrett |
+| 4 | Some discomfort is a signal. | ja, hel setning |
 | 5 | It does not shout; it presses. | nei |
 | 6 | Do not medicate the messenger. | nei |
 | 8 | Notice one recurring discomfort. | nei |
@@ -192,10 +194,10 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Strength is not neutral. | nei |
-| 4 | What you are capable of. | ordrett |
+| 4 | What you are capable of. | del av en lengre setning |
 | 5 | Will be required of you. | nei |
 | 6 | Unassigned strength bends toward ego. | nei |
 | 8 | Identify one strength you rely on. | nei |
@@ -232,12 +234,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Motion is not progress. | nei |
 | 4 | Effort without direction is drift. | nei |
 | 5 | Orientation precedes discipline. | nei |
-| 6 | Decide where your life is headed. | ordrett |
+| 6 | Decide where your life is headed. | del av en lengre setning |
 | 8 | Clarify one direction. | nei |
 | 9 | Ask: What small decision moves with it? | nei |
 | 10 | Orientation is chosen daily. | nei |
@@ -262,9 +264,9 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
-| 3 | Passion is a signal. | ordrett |
+| 3 | Passion is a signal. | del av en lengre setning |
 | 4 | It is not a command. | nei |
 | 5 | Unrestrained passion exhausts. | nei |
 | 6 | Interpreted passion focuses. | nei |
@@ -294,7 +296,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Testing is not opposition to faith. | nei |
 | 4 | It is its environment. | nei |
@@ -326,7 +328,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Your digital habitat trains you. | nei |
 | 4 | It shapes attention and impulse. | nei |
@@ -358,7 +360,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Under strain, thinking tightens. | nei |
 | 4 | Shortcuts appear. Assumptions harden. | nei |
@@ -397,7 +399,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Standing out is discounted slowly. | nei |
 | 4 | Silence that preserves belonging erodes integrity. | nei |
@@ -429,7 +431,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Misplaced attachment redirects behavior. | nei |
 | 4 | What you are loyal to shapes you. | nei |
@@ -461,7 +463,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Money rarely commands openly. | nei |
 | 4 | It directs quietly. | nei |
@@ -493,7 +495,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Anger is rarely about the trigger. | nei |
 | 4 | It carries memory. | nei |
@@ -525,7 +527,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Public behavior is edited. | nei |
 | 4 | Private behavior is trained. | nei |
@@ -557,7 +559,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Observation clarifies. Action commits. | nei |
 | 4 | Faith must enter reality. | nei |
@@ -589,7 +591,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Failure does not end formation. | nei |
 | 4 | Avoidance does. | nei |
@@ -621,13 +623,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Scripture does not exist to confirm you. | nei |
 | 4 | It exists to reveal you. | nei |
 | 5 | Read as a mirror, it exposes. | nei |
 | 6 | Truth that cannot correct cannot form. | nei |
-| 8 | Read one familiar passage today. | ordrett |
+| 8 | Read one familiar passage today. | del av en lengre setning |
 | 9 | Ask: What assumption does this challenge? | nei |
 | 10 | Allow exposure first. | nei |
 
@@ -653,7 +655,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Strength does not mature in isolation. | nei |
 | 4 | It stabilizes through contact. | nei |
@@ -685,7 +687,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | The most decisive battles are invisible. | nei |
 | 4 | They are fought without audience. | nei |
@@ -717,7 +719,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Rules provide clarity. | nei |
 | 4 | Wisdom provides direction. | nei |
@@ -749,13 +751,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Information informs. Application forms. | nei |
 | 4 | Knowledge without action dissolves under pressure. | nei |
 | 5 | Wisdom is reducing belief into action. | nei |
 | 6 | Only practiced knowledge survives. | nei |
-| 8 | Choose one truth you already understand. | ordrett |
+| 8 | Choose one truth you already understand. | ja, hel setning |
 | 9 | Ask: Where does this fail in behavior? | nei |
 | 10 | Condense what you know. | nei |
 
@@ -781,7 +783,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Strength fragments easily. | nei |
 | 4 | Discipline without integration creates imbalance. | nei |
@@ -813,7 +815,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Discipline fails at the edge. | nei |
 | 4 | When effort is familiar. | nei |
@@ -845,7 +847,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Some mornings resist you. | nei |
 | 4 | What you avoid governs the day. | nei |
@@ -873,7 +875,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Drift does not announce itself. | nei |
 | 4 | It arrives through small permissions. | nei |
@@ -901,7 +903,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Ease is not accidental. | nei |
 | 4 | Environments are curated. | nei |
@@ -929,7 +931,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Pressure arrives quietly. | nei |
 | 4 | It exposes what has not been practiced. | nei |
@@ -957,11 +959,11 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Distance is not always absence. | nei |
 | 4 | Sometimes it is silence. | nei |
-| 5 | God does not always speak. | ordrett |
+| 5 | God does not always speak. | del av en lengre setning |
 | 6 | Silence does not cancel direction. | nei |
 | 8 | Practice what you already know is aligned. | nei |
 | 9 | Stay present. Stay faithful | nei |
@@ -985,7 +987,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Faith lives in the body. | nei |
 | 4 | Fatigue distorts access to conviction. | nei |
@@ -1013,7 +1015,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Beginnings attract energy. | nei |
 | 4 | Finishing requires endurance. | nei |
@@ -1041,15 +1043,15 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
-| 3 | Strength matures in silence. | ordrett |
+| 3 | Strength matures in silence. | ja, hel setning |
 | 4 | But it must turn outward. | nei |
 | 5 | Unused strength turns inward. | nei |
 | 6 | Servanthood is strength freely offered. | nei |
 | 8 | Place your strength somewhere useful today. | nei |
 | 9 | Support where consistency matters | nei |
-| 10 | Serve without announcing it. | ordrett |
+| 10 | Serve without announcing it. | ja, hel setning |
 
 **The Practice i boken nå:**
 
@@ -1069,7 +1071,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Witness is not performance. | nei |
 | 4 | It is consistent presence. | nei |
@@ -1097,7 +1099,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Influence does not require volume. | nei |
 | 4 | It requires steady presence. | nei |
@@ -1125,14 +1127,14 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Words shape trust and direction. | nei |
 | 4 | Precision protects meaning. | nei |
 | 5 | Restraint is not fear, but responsibility. | nei |
 | 6 | Truth does not need amplification. | nei |
 | 8 | Speak less, but mean more today. | nei |
-| 9 | Ask: Is this necessary? | ordrett |
+| 9 | Ask: Is this necessary? | del av en lengre setning |
 | 10 | Precision strengthens authority. | nei |
 
 **The Practice i boken nå:**
@@ -1153,12 +1155,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Perspective determines patience. | nei |
 | 4 | Anxiety narrows time. | nei |
 | 5 | Eternal perspective orders urgency. | nei |
-| 6 | You do not need to rush. | ordrett |
+| 6 | You do not need to rush. | del av en lengre setning |
 | 8 | Slow one reaction today. | nei |
 | 9 | Absorb inconvenience without commentary | nei |
 | 10 | Perspective governs pressure. | nei |
@@ -1181,7 +1183,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Visibility is not the goal. | nei |
 | 4 | But true formation will be seen. | nei |
@@ -1209,7 +1211,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Authority does not announce itself. | nei |
 | 4 | It accumulates through consistency. | nei |
@@ -1237,15 +1239,15 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Voiceover i det gamle videomanuset:**
 
-| Scene | Linje | Ordrett i boken nå? |
+| Scene | Linje | Står i boken nå? |
 |---|---|---|
 | 3 | Completion feels quiet. | nei |
 | 4 | Formation does not conclude, it consolidates. | nei |
 | 5 | Alignment is a position you maintain. | nei |
 | 6 | Carry practice, not aspiration. | nei |
 | 8 | Commit to one practice going forward. | nei |
-| 9 | Live forward | ordrett |
-| 10 | That kind of life holds. | ordrett |
+| 9 | Live forward | ja, hel setning |
+| 10 | That kind of life holds. | ja, hel setning |
 
 **The Practice i boken nå:**
 
