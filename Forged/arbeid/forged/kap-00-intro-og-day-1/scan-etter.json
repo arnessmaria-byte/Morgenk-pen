@@ -1,0 +1,193 @@
+{
+  "fil": "/home/user/Morgenk-pen/Forged/arbeid/forged/kap-00-intro-og-day-1/04-intro-og-day-1-redigert.md",
+  "sprak": "en",
+  "status": "REN",
+  "malinger": {
+    "ord": 1460,
+    "setninger": 129,
+    "avsnitt": 50,
+    "lix": 30.3,
+    "burstiness": 0.675,
+    "avsnitt_burstiness": 0.566,
+    "snitt_setningslengde": 11.3,
+    "em_dash": 0,
+    "tankestrek": 3,
+    "tankestrek_per_1000": 2.05,
+    "ikke_x_men_y": 1,
+    "retorisk_spm_med_svar": 0,
+    "trikolon": 1,
+    "emoji": 0,
+    "krollete_anforsel": 2,
+    "norske_anforsel": 0,
+    "rette_anforsel": 0,
+    "fete_ledeord_i_liste": 0,
+    "adverb": 8,
+    "adverb_per_1000": 5.48,
+    "passiv": 11,
+    "passiv_per_1000": 7.53
+  },
+  "grensebrudd": [],
+  "radgivende": [],
+  "harde_treff": [],
+  "kandidater": [],
+  "metronom_kjeder": [
+    {
+      "fra_setning": 4,
+      "til_setning": 7,
+      "lengder": [
+        12,
+        13,
+        13,
+        12
+      ]
+    },
+    {
+      "fra_setning": 11,
+      "til_setning": 14,
+      "lengder": [
+        4,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "fra_setning": 23,
+      "til_setning": 27,
+      "lengder": [
+        9,
+        8,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "fra_setning": 47,
+      "til_setning": 50,
+      "lengder": [
+        5,
+        7,
+        6,
+        4
+      ]
+    },
+    {
+      "fra_setning": 75,
+      "til_setning": 78,
+      "lengder": [
+        7,
+        8,
+        9,
+        8
+      ]
+    }
+  ],
+  "gjentatte_fraser": [
+    {
+      "frase": "this book is for this",
+      "antall": 2
+    },
+    {
+      "frase": "book is for this book",
+      "antall": 2
+    },
+    {
+      "frase": "if you are looking for",
+      "antall": 2
+    }
+  ],
+  "seksjoner": [
+    {
+      "overskrift": "To the One Giving This Book",
+      "ord": 87,
+      "setninger": 5,
+      "lix": 32.3,
+      "burstiness": 0.389
+    },
+    {
+      "overskrift": "What This Book Is For",
+      "ord": 126,
+      "setninger": 13,
+      "lix": 27.9,
+      "burstiness": 0.606
+    },
+    {
+      "overskrift": "Why Another Devotional Isn’t Enough",
+      "ord": 103,
+      "setninger": 10,
+      "lix": 36.5,
+      "burstiness": 0.71
+    },
+    {
+      "overskrift": "Forged, Not Polished",
+      "ord": 41,
+      "setninger": 4,
+      "lix": 22.4,
+      "burstiness": 0.386
+    },
+    {
+      "overskrift": "Who This Book Is For",
+      "ord": 76,
+      "setninger": 3,
+      "lix": 49.0,
+      "burstiness": null
+    },
+    {
+      "overskrift": "The FORGE Path",
+      "ord": 109,
+      "setninger": 15,
+      "lix": 38.5,
+      "burstiness": 0.545
+    },
+    {
+      "overskrift": "How This Book Works",
+      "ord": 270,
+      "setninger": 22,
+      "lix": 31.9,
+      "burstiness": 0.541
+    },
+    {
+      "overskrift": "Before You Begin",
+      "ord": 99,
+      "setninger": 9,
+      "lix": 25.1,
+      "burstiness": 0.516
+    },
+    {
+      "overskrift": "Day 1 – Kindling the Flame",
+      "ord": 63,
+      "setninger": 7,
+      "lix": 21.7,
+      "burstiness": 0.291
+    },
+    {
+      "overskrift": "The Scenario",
+      "ord": 114,
+      "setninger": 11,
+      "lix": 27.9,
+      "burstiness": 0.685
+    },
+    {
+      "overskrift": "What This Day Is Really About",
+      "ord": 131,
+      "setninger": 10,
+      "lix": 29.1,
+      "burstiness": 0.332
+    },
+    {
+      "overskrift": "The Practice",
+      "ord": 86,
+      "setninger": 10,
+      "lix": 22.6,
+      "burstiness": 0.494
+    },
+    {
+      "overskrift": "Healing Forge – When Faith Feels Numb",
+      "ord": 68,
+      "setninger": 8,
+      "lix": 33.5,
+      "burstiness": 0.776
+    }
+  ]
+}
