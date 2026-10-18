@@ -77,3 +77,4 @@ En uavhengig leser gikk deretter gjennom alle 23 endrede setninger i sammenhenge
 
 To forslag er avvist. Day 9 ville snudd tilbake til påstanden som nettopp ble rettet. Day 4 er forfatterens egen formulering.
 
+Google-dokumentet er lastet opp på nytt med alle endringene: https://docs.google.com/document/d/1E2F2U1yb1YibYfy-0X-SGK4UmMuhgDOWukpe2rs0LlE/edit. Fire uavhengige kontrollører sammenlignet det ord for ord med manus og fant 0 avvik og 40 av 40 «End of Day». Det forrige dokumentet ligger i papirkurven i Drive.
