@@ -434,7 +434,7 @@ Witness is revealed over time.
 
 ### What This Day Is Really About
 
-Strategies for evangelism can wait. Consistency cannot. The most compelling testimony is a life whose parts fit together. When belief, behavior, and direction stay aligned over time, credibility builds without fanfare.
+Strategies for evangelism can wait. Consistency cannot. The most compelling testimony is a life whose parts fit together. When belief, behavior, and direction stay aligned, credibility builds without fanfare.
 
 You cannot manufacture witness. You can protect the coherence that makes it possible.
 

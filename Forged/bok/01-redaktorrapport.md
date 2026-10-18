@@ -1,6 +1,6 @@
 # Redaktørrapport: FORGED, hele boken (runde 4)
 
-**Manus:** FORGED_5x8.1_Print_Interior_KDP.pdf (teksten er identisk med Forged_v5_7_Manuscript.docx, bortsett fra 15 bibelsitater som er rettet til ESV i PDF-en) · **Ordtelling (brødtekst):** 17 178 → 17 204, inkl. nytt forord på ca. 400 ord (se endringsloggen) · **Språk:** engelsk (US) · **Sjanger:** andaktsbok, 40 dager, unge menn 17–22
+**Manus:** FORGED_5x8.1_Print_Interior_KDP.pdf (teksten er identisk med Forged_v5_7_Manuscript.docx, bortsett fra 15 bibelsitater som er rettet til ESV i PDF-en) · **Ordtelling (brødtekst):** 17 178 → 17 199, inkl. nytt forord på ca. 400 ord (se endringsloggen) · **Språk:** engelsk (US) · **Sjanger:** andaktsbok, 40 dager, unge menn 17–22
 **Dato:** 2026-10-18 · **Runde:** 4 (første helbokrunde; runde 1–2 var Gemini på intro + Day 1, runde 3 var Claude Fable på intro + Day 1)
 
 ## Dom
@@ -39,5 +39,7 @@ Boken har et sterkt skjelett og gode bilder: tauet, rekkverket, radioen soldaten
 | 10 | Omslag: må bygges for endelig sidetall (se KDP-sjekklisten) | Omslag | Forfatter / designer | Åpent |
 | 11 | Ta stilling til sluttleserens fem teologiske merknader: «You are not broken» (intro), «God rarely steers» (Day 7), «You are being relied upon» (Day 30), vitnebegrepet (Day 34), «foundation of formation» (vedlegg B) | Intro, Day 7, 30, 34, vedlegg B | Forfatter | Avgjort 18.10.2026: alle fem endret etter forfatterens valg (beslutningsloggen, 18) |
 | 12 | «sexuality» står i OBSERVE-listen, men ingen av dagene 9–16 handler om det | Intro | Forfatter | Utført 18.10.2026: ordet er strøket etter forfatterens beslutning. |
+| 13 | Day 30 åpner med «Distance is not always absence.» Nå som Healing Forge samme dag slutter med «He has not let go of you», kan forbeholdet leses som at fraværet noen ganger er ekte. Forslag: «Distance is not absence.» eller «Feeling distant is not the same as being abandoned.» | Day 30 | Forfatter | Åpent (teologisk, forfatterens valg) |
+| 14 | Tabellraden «Performs conviction / Embodies it» står ordrett både i Day 34 og Day 38. Forslag til ny rad i Day 38: «Advertises conviction / Carries it quietly». | Day 38 | Forfatter | Åpent (frivillig) |
 
-**Skillet gjør:** 1–4. **Forfatter gjør:** 5–12. Per 18.10.2026 står 6 (Sverre Johannes' godkjenning), 7–9 (nytt stoff, frivillig) og 10 (omslag) igjen.
+**Skillet gjør:** 1–4. **Forfatter gjør:** 5–14. Per 18.10.2026 står 6 (Sverre Johannes' godkjenning), 7–9 (nytt stoff, frivillig), 10 (omslag), 13 og 14 igjen.

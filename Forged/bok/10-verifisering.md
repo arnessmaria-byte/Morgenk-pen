@@ -9,20 +9,21 @@ Akseptkriteriene ble satt før redigeringen. Hvert punkt under er kontrollert p�
 | # | Kriterium | Metode | Resultat |
 |---|---|---|---|
 | 1 | Ingen sperrende AI-slop | Ezra `slop_scan.py --lang en --gate` | Exit 0. 0 harde treff, 0 grensebrudd. |
-| 2 | Forfatterens antitesemønster renset | `verktoy/antitese_scan.py` med grense per dag | 0 sperrende brudd (136 før). Se slop-revisjonen. |
+| 2 | Forfatterens antitesemønster renset | `verktoy/antitese_scan.py` med grense per dag | 0 sperrende brudd (134 før). Se slop-revisjonen. |
 | 3 | Ingen tankestrek i brødtekst | Ezra-skann | 0 (143 før). En-dash bare i tallspenn. |
 | 4 | Alle bibelsitater ordrett etter ESV | Maskinell sammenligning mot ESV-tekst hentet fra BibleGateway | 41 av 41 ordrett. Tabell under. |
 | 5 | Ingen oppdiktede fakta eller detaljer | Troskapsrevisor, original mot redigert, linje for linje | Funn i Day 1, 2, 3, 6, 19, 25, 31 og 34 rettet tilbake til originalens mening. Ny kontroll: ingen gjenstående. |
 | 6 | Ingen avsnitt borte uten begrunnelse | `diff_manuscript.py`, dekningskontroll | 31 avsnitt meldt. Alle 31 gjennomgått og ført under «Tilsiktede strykninger» i endringsloggen. |
 | 7 | Struktur intakt | Telling | 40 dager, 40 «End of Day»-merker med riktig nummer, 5 faser, 3 vedlegg. |
 | 8 | Alle kommentarer besvart | Kommentarkartet | 14 av 14 fra forfatteren, 11 av 11 fra Maria. |
-| 9 | Teksten flyter for målgruppen | Tre kaldlesere (hver sin tredjedel) og én sluttleser på hele boken | Sluttleserens dom: «Klar med disse rettelsene». 12 av 20 punkter tatt inn. 8 er forfatterens egne påstander eller allerede flagget (beslutningsloggen, 14–16). |
+| 9 | Teksten flyter for målgruppen | Tre kaldlesere (hver sin tredjedel) og én sluttleser på hele boken | Sluttleserens dom: «Klar med disse rettelsene». 12 av 20 punkter tatt inn av redaktøren. Seks til (fem teologiske og «sexuality») er avgjort og lagt inn av forfatteren 18.10.2026 (beslutningsloggen, 17–18). De to siste står etter vurdering: forordet (forfatterens beslutning) og «Consistency heals» i vedlegg C (beslutningsloggen, 16). |
 | 10 | Typografi som de to første bøkene | Målt fra trykkfilene til *The Supervised Hours* og *The Foundation of Knowing* | EB Garamond 11,5 pt, linjeavstand 15,1 pt, 6 × 9, sperrede versaler, sentrert topptekst og folio, fasesider som Part-sidene i TFOK. |
 | 11 | KDP-krav for innmat | pymupdf og pdftotext | Marger, fonter, sidestørrelse og 0 annotasjoner OK. Se KDP-sjekklisten. |
 | 12 | Innholdsliste stemmer | `verktoy/sjekk_innhold.py` | 50 av 50 oppføringer på riktig side, begge formater. |
 | 13 | EPUB gyldig | EPUBCheck 5.1.0 | 0 feil, 0 advarsler. |
 | 14 | Visuell kontroll | Alle 118 sider sett i oversiktsark og utvalgte sider i full størrelse | Ingen løse overskrifter, delte tabeller eller tomme sider med topptekst. |
-| 15 | Sporede endringer finnes | Telling i `05-forged-sporet.docx` | 3 770 innsettinger og 3 699 slettinger, forfatter «Ezra-redaktør». |
+| 15 | Sporede endringer finnes | Telling i `05-forged-sporet.docx` | 3 781 innsettinger og 3 708 slettinger, forfatter «Ezra-redaktør». |
+| 16 | Fem teologiske endringer og «sexuality» i alle filer | Uavhengig kontroll med pdftotext, EPUB-tekst og docx-tekst | Ny ordlyd finnes én gang i hvert format, gammel ordlyd ingen steder. |
 
 ## Det som ikke kunne verifiseres
 

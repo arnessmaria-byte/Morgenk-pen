@@ -1,6 +1,6 @@
 # Endringslogg: FORGED, hele boken (runde 4)
 
-**Ordtelling:** 17178 → 17204 (+26, +0.2 %)
+**Ordtelling:** 17178 → 17199 (+21, +0.1 %)
 **Avsnitt:** 899 → 891
 **Endret / Omskrevet / Slettet / Nye:** 584 / 37 / 31 / 23
 **Dekningskontroll:** 31 avsnitt uten erstatning
@@ -92,9 +92,9 @@
 ### 13. ENDRET
 
 - **Før:** You are not broken. But you are being shaped, whether you choose it or not: by habits, reactions, silence, environment, fear, convenience, and unresolved pain. This book exists to interrupt that unconscious shaping.
-- **Etter:** You are not broken. But you are being shaped, whether you choose it or not: by habits, reactions, silence, environment, fear, convenience, and unresolved pain. This book exists to interrupt the shaping you never chose.
-- **Ord:** 33 → 35 (+2)
-- **Grep:** Linjeredigering (Lean & Punchy): stramming, rytme, klarhet
+- **Etter:** You are not beyond repair. But you are being shaped, whether you choose it or not: by habits, reactions, silence, environment, fear, convenience, and unresolved pain. This book exists to interrupt the shaping you never chose.
+- **Ord:** 33 → 36 (+3)
+- **Grep:** Forfatterens avgjørelse 18.10.2026 etter sluttleserens merknad (beslutning 18)
 
 ### 14. ENDRET
 
@@ -275,8 +275,8 @@
 
 ### 47. NYTT
 
-- **Etter:** **OBSERVE (Days 9–16): Awareness.** You start to see what has been shaping you without your noticing: screens, silence, peers, money, sexuality, anger, relationships, private habits.
-- **Grep:** Intro: FORGE-stien skrevet om uten tankestrek og «not X, but Y» (forfatterkommentar 7 og 13; beslutning 6)
+- **Etter:** **OBSERVE (Days 9–16): Awareness.** You start to see what has been shaping you without your noticing: screens, silence, peers, money, anger, relationships, private habits.
+- **Grep:** «sexuality» strøket etter forfatterens avgjørelse 18.10.2026 (beslutning 17)
 
 ### 48. NYTT
 
@@ -1078,9 +1078,9 @@
 ### 165. ENDRET
 
 - **Før:** God rarely steers motion. He directs attention. And where your attention stays, your life follows.
-- **Etter:** God rarely steers your motion directly. He directs your attention, and where your attention stays, your life follows.
-- **Ord:** 15 → 18 (+3)
-- **Grep:** Linjeredigering (Lean & Punchy): stramming, rytme, klarhet
+- **Etter:** God often steers you through your attention, and where your attention stays, your life follows.
+- **Ord:** 15 → 15 (+0)
+- **Grep:** Forfatterens avgjørelse 18.10.2026 etter sluttleserens merknad (beslutning 18)
 
 ### 166. ENDRET
 
@@ -3296,9 +3296,9 @@
 ### 483. ENDRET
 
 - **Før:** For some men, silence once meant danger: disconnection, withdrawal, being left alone without explanation. God’s quiet can awaken those memories. This is not that. Silence here is not neglect. It is trust. You are not being ignored. You are being relied upon.
-- **Etter:** For some men, silence once meant danger: disconnection, withdrawal, being left alone with no explanation. God’s quiet can wake those memories. His silence is not neglect. It is trust. You are being relied upon.
-- **Ord:** 42 → 34 (-8)
-- **Grep:** Linjeredigering (Lean & Punchy): stramming, rytme, klarhet
+- **Etter:** For some men, silence once meant danger: disconnection, withdrawal, being left alone with no explanation. God’s quiet can wake those memories. His silence is not neglect. He has not let go of you.
+- **Ord:** 42 → 33 (-9)
+- **Grep:** Forfatterens avgjørelse 18.10.2026 etter sluttleserens merknad (beslutning 18)
 
 ### 484. ENDRET
 
@@ -3611,16 +3611,16 @@
 ### 528. ENDRET
 
 - **Før:** Witness is not performance. It is presence that remains consistent across contexts. What persuades most is not argument, but coherence. A life that aligns over time becomes difficult to dismiss.
-- **Etter:** Witness is presence that stays the same from one setting to the next. A coherent life persuades more than any argument, and a life that holds together over time is hard to dismiss.
-- **Ord:** 30 → 33 (+3)
-- **Grep:** Antitese «not X. It is Y.» skrevet om til positiv form (forfatterkommentar 13)
+- **Etter:** Witness is not performance. It is presence that stays the same from one setting to the next. A coherent life persuades more than any argument, and a life that holds together over time is hard to dismiss.
+- **Ord:** 30 → 37 (+7)
+- **Grep:** Forfatterens avgjørelse 18.10.2026: originalens kontrast tilbake (beslutning 18)
 
 ### 529. ENDRET
 
 - **Før:** Logan did not speak often. He did not initiate debates, post convictions publicly, or correct others quickly. But his direction held: the same tone at work and at home, the same restraint under pressure, the same decisions whether noticed or not.
-- **Etter:** Logan did not say much. He did not start debates, post his convictions, or correct people quickly. But his direction held: the same tone at work and at home, the same restraint under pressure, the same decisions whether anyone noticed or not.
-- **Ord:** 41 → 42 (+1)
-- **Grep:** Linjeredigering (Lean & Punchy): stramming, rytme, klarhet
+- **Etter:** Logan said little. He did not start debates, post his convictions, or correct people quickly. But his direction held: the same tone at work and at home, the same restraint under pressure, the same decisions whether anyone noticed or not.
+- **Ord:** 41 → 40 (-1)
+- **Grep:** Linjeredigering: to nektinger etter hverandre strammet (beslutning 19)
 
 ### 530. ENDRET
 
@@ -3653,9 +3653,9 @@
 ### 534. ENDRET
 
 - **Før:** This day is not about evangelism strategies. It is about consistency. The most compelling testimony is not information; it is integration. When belief, behavior, and direction remain aligned over time, credibility accumulates quietly.
-- **Etter:** Strategies for evangelism can wait. Consistency cannot. The most compelling testimony is a life whose parts fit together. When belief, behavior, and direction stay aligned over time, credibility builds without fanfare.
-- **Ord:** 33 → 31 (-2)
-- **Grep:** Antitese «not X. It is Y.» skrevet om til positiv form (forfatterkommentar 13); Fyllord/adverb strøket
+- **Etter:** Strategies for evangelism can wait. Consistency cannot. The most compelling testimony is a life whose parts fit together. When belief, behavior, and direction stay aligned, credibility builds without fanfare.
+- **Ord:** 33 → 29 (-4)
+- **Grep:** Linjeredigering: «over time» tredje gang på samme dag strøket (verifisering 18.10.2026)
 
 ### 535. ENDRET
 
@@ -4510,9 +4510,9 @@
 ### 657. ENDRET
 
 - **Før:** Healing restores clarity. Clarity strengthens discipline. Discipline then becomes livable. This is why Healing Forge exists, not as a detour from formation, but as its foundation.
-- **Etter:** Healing restores clarity. Clarity strengthens discipline. Discipline then becomes livable. That is why Healing Forge is the foundation of formation and no detour from it.
-- **Ord:** 26 → 25 (-1)
-- **Grep:** Linjeredigering (Lean & Punchy): stramming, rytme, klarhet
+- **Etter:** Healing restores clarity. Clarity strengthens discipline. Discipline then becomes livable. That is why Healing Forge is part of formation and no detour from it.
+- **Ord:** 26 → 24 (-2)
+- **Grep:** Forfatterens avgjørelse 18.10.2026 etter sluttleserens merknad (beslutning 18)
 
 ### 658. ENDRET
 
@@ -4646,7 +4646,6 @@
 - **«You are not measured by momentum. You are formed by faithfulness.»** står ordrett. Den er bokens nøkkelsetning og ført som bevisst unntak i telleren.
 - **«live forward»** og **«hollowed him out»** er beholdt mot Marias forslag. Begge er idiomatisk engelsk og bokens egne uttrykk.
 - **«Strength matures in silence»** (Day 33) og **«Consistency heals what intensity never can»** (vedlegg C) står som forfatteren skrev dem. Motsigelsen sluttleseren fant mot Day 20, kom fra redaktørens omskriving av Day 20, og den er rettet der.
-- **Vedlegg B, siste setning:** originalens «foundation» er byttet til «part of formation» etter forfatterens avgjørelse 18.10.2026.
 
 ## Krever forfatterens hånd
 
@@ -4659,8 +4658,10 @@
   - Day 34: «Witness is presence that stays the same …» → originalens kontrast tilbake: «Witness is not performance. It is presence that stays the same from one setting to the next.» (Apostlenes gjerninger 1:8)
   - Vedlegg B: «the foundation of formation» → «part of formation» (1. Korinterbrev 3:11)
 - **«sexuality» i OBSERVE-listen** i introduksjonen er strøket etter forfatterens beslutning 18.10.2026, fordi ingen av dagene 9–16 handler om det.
-- **Fase V:** Day 33, 34, 35, 38 og 39 har nesten samme scenario. To eller tre trenger et eget vendepunkt.
-- **Day 25 og Day 32** har samme scenario. Ett av dem trenger nytt stoff.
+- **Fase V:** Day 33, 34, 35, 38 og 39 har nesten samme scenario. To eller tre kan få et eget vendepunkt (frivillig, krever nytt stoff). Day 34 og Day 35 bygger dessuten scenariet over samme mal («He did not …, or correct people …. But …»).
+- **Day 25 og Day 32** har samme scenario. Ett av dem kan få nytt stoff (frivillig).
+- **Day 30:** «Distance is not always absence.» kan nå leses mot Healing Forge-slutten «He has not let go of you». Forfatterens valg (redaktørrapporten, tiltak 13).
+- **Day 38:** tabellraden «Performs conviction / Embodies it» står ordrett også i Day 34 (redaktørrapporten, tiltak 14).
 - **Aaron (Day 2):** Maria ønsket ett konkret tegn på hva som gjorde at han ikke orket gruppen.
 
 ## Dekningskontroll

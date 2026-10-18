@@ -15,7 +15,7 @@
 | 10 | 15 | «Discipline that forgets grace curdles into performance…» | ai-slop | Strøket. Adopsjonsbildet bærer poenget. |
 | 11 | 19 | «Feels certain» | May feel certain | Utført. |
 | 12 | 19 | «Of course the picture breaks down…» og «And one distinction, because a careful reader will feel it.» | AI-sloppyness. Stram inn. | Begge strøket. Tauet slutter på «Weight has to go on it.» |
-| 13 | 20 | «Faith is not weakened by examination. It is weakened by avoidance…» | For mye «ikke X, men Y». Må renses gjennom hele boken. | Gjennomført i hele boken: 132 to-setnings-antiteser og 39 «This day is not about»-åpninger før; 20 og 0 etter. Kontrasten i akkurat denne setningen er beholdt, fordi den er dagens tese (troskapsrevisjonen viste at omskrivingen endret påstanden). |
+| 13 | 20 | «Faith is not weakened by examination. It is weakened by avoidance…» | For mye «ikke X, men Y». Må renses gjennom hele boken. | Gjennomført i hele boken: 131 to-setnings-antiteser og 39 «This day is not about»-åpninger før; 19 og 0 etter. Kontrasten i akkurat denne setningen er beholdt, fordi den er dagens tese (troskapsrevisjonen viste at omskrivingen endret påstanden). |
 | 14 | 21 | «Sometimes faith doesn't feel weak; it feels absent. I want to say plainly…» | Tungvint formulert. | «Sometimes faith feels absent rather than weak. That is not always rebellion. Often it is exhaustion.» |
 
 ## Marias 11 kommentarer i Forged_v5_7_Manuscript.docx (Drive, delt 11.08.2026)
