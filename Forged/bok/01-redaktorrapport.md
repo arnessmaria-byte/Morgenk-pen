@@ -37,7 +37,7 @@ Boken har et sterkt skjelett og gode bilder: tauet, rekkverket, radioen soldaten
 | 8 | Gi Day 25 eller Day 32 et annet scenario | Day 25/32 | Forfatter | Foreslått |
 | 9 | Aaron (Day 2): Maria ønsket ett konkret tegn på hva som gjorde at han ikke orket gruppen lenger | Day 2 | Forfatter | Foreslått (ikke diktet inn) |
 | 10 | Omslag: må bygges for endelig sidetall (se KDP-sjekklisten) | Omslag | Forfatter / designer | Åpent |
-| 11 | Ta stilling til sluttleserens fem teologiske merknader: «You are not broken» (intro), «God rarely steers» (Day 7), «You are being relied upon» (Day 30), vitnebegrepet (Day 34), «foundation of formation» (vedlegg B) | Se endringsloggen, «Krever forfatterens hånd» | Forfatter | Åpent (forfatterens egne formuleringer, ikke endret) |
+| 11 | Ta stilling til sluttleserens fem teologiske merknader: «You are not broken» (intro), «God rarely steers» (Day 7), «You are being relied upon» (Day 30), vitnebegrepet (Day 34), «foundation of formation» (vedlegg B) | Intro, Day 7, 30, 34, vedlegg B | Forfatter | Avgjort 18.10.2026: alle fem endret etter forfatterens valg (beslutningsloggen, 18) |
 | 12 | «sexuality» står i OBSERVE-listen, men ingen av dagene 9–16 handler om det | Intro | Forfatter | Utført 18.10.2026: ordet er strøket etter forfatterens beslutning. |
 
-**Skillet gjør:** 1–4. **Forfatter gjør:** 5–12.
+**Skillet gjør:** 1–4. **Forfatter gjør:** 5–12. Per 18.10.2026 står 6 (Sverre Johannes' godkjenning), 7–9 (nytt stoff, frivillig) og 10 (omslag) igjen.

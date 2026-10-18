@@ -30,7 +30,7 @@ For over twenty years, I tested what could hold. I tested truth claims the way a
 
 In 2016, I was called. In 2018, I committed. The testing has not stopped since. By 2022 the path I was walking had narrowed to one: Jesus, and the life that follows from Him. This book was forged on that path.
 
-You are not broken. But you are being shaped, whether you choose it or not: by habits, reactions, silence, environment, fear, convenience, and unresolved pain. This book exists to interrupt the shaping you never chose.
+You are not beyond repair. But you are being shaped, whether you choose it or not: by habits, reactions, silence, environment, fear, convenience, and unresolved pain. This book exists to interrupt the shaping you never chose.
 
 ## Why Another Devotional Isn't Enough
 
@@ -444,7 +444,7 @@ Orientation gives your effort somewhere to go.
 
 Decide where your life is headed, and let that decision govern what you do. A man rowing hard with no heading is only leaving somewhere. Orientation comes before discipline. Without it, discipline exhausts you. With it, discipline steadies you.
 
-God rarely steers your motion directly. He directs your attention, and where your attention stays, your life follows.
+God often steers you through your attention, and where your attention stays, your life follows.
 
 ### The Practice
 

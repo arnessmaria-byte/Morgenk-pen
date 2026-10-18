@@ -4641,23 +4641,23 @@
 ## Ikke rørt
 
 - **Alle 41 bibelsitater** står ordrett etter ESV. Ingen er redigert.
-- **Teologiske påstander** står som forfatteren skrev dem, også der sluttleseren foreslo å myke dem opp. Se «Krever forfatterens hånd».
+- **Teologiske påstander** er ikke endret av redaktøren. Fem steder som sluttleseren merket, ble lagt fram for forfatteren og endret etter forfatterens avgjørelse 18.10.2026. Se «Krever forfatterens hånd».
 - **Bærende kontraster** som er dagens tese, er beholdt (for eksempel «Questions are not the enemy of faith», «Scripture does not exist to confirm you»).
 - **«You are not measured by momentum. You are formed by faithfulness.»** står ordrett. Den er bokens nøkkelsetning og ført som bevisst unntak i telleren.
 - **«live forward»** og **«hollowed him out»** er beholdt mot Marias forslag. Begge er idiomatisk engelsk og bokens egne uttrykk.
 - **«Strength matures in silence»** (Day 33) og **«Consistency heals what intensity never can»** (vedlegg C) står som forfatteren skrev dem. Motsigelsen sluttleseren fant mot Day 20, kom fra redaktørens omskriving av Day 20, og den er rettet der.
-- **«That is why Healing Forge is the foundation of formation»** (vedlegg B) er forfatterens påstand fra originalen og står.
+- **Vedlegg B, siste setning:** originalens «foundation» er byttet til «part of formation» etter forfatterens avgjørelse 18.10.2026.
 
 ## Krever forfatterens hånd
 
 - **Hammarskjöld-sitatet i forordet** kunne ikke bekreftes i *Markings*. Forfatteren avgjorde 18.10.2026 at forordet står uendret.
 - **Sverre Johannes bør godkjenne** den engelske teksten til forordet.
-- **Sluttleserens teologiske merknader** (forfatterens egne formuleringer, derfor ikke endret):
-  - Introduksjonen: «You are not broken.» Sluttleseren foreslår «You are not beyond repair.»
-  - Day 7: «God rarely steers your motion directly.» Sluttleseren mener det svekker læren om forsynet (Ordspråkene 16:9).
-  - Day 30, Healing Forge: «His silence is not neglect. It is trust. You are being relied upon.» Sluttleseren foreslår «He has not let go of you.»
-  - Day 34: «Witness is presence that stays the same from one setting to the next.» Sluttleseren savner Kristus i vitnebegrepet (Apostlenes gjerninger 1:8).
-  - Vedlegg B: «Healing Forge is the foundation of formation.» Sluttleseren foreslår «part of formation» (1. Korinterbrev 3:11).
+- **Sluttleserens teologiske merknader.** Alle fem ble lagt fram for forfatteren og er avgjort og lagt inn 18.10.2026:
+  - Introduksjonen: «You are not broken.» → «You are not beyond repair.»
+  - Day 7: «God rarely steers your motion directly. He directs your attention, …» → «God often steers you through your attention, and where your attention stays, your life follows.» (Ordspråkene 16:9)
+  - Day 30, Healing Forge: «It is trust. You are being relied upon.» → «He has not let go of you.»
+  - Day 34: «Witness is presence that stays the same …» → originalens kontrast tilbake: «Witness is not performance. It is presence that stays the same from one setting to the next.» (Apostlenes gjerninger 1:8)
+  - Vedlegg B: «the foundation of formation» → «part of formation» (1. Korinterbrev 3:11)
 - **«sexuality» i OBSERVE-listen** i introduksjonen er strøket etter forfatterens beslutning 18.10.2026, fordi ingen av dagene 9–16 handler om det.
 - **Fase V:** Day 33, 34, 35, 38 og 39 har nesten samme scenario. To eller tre trenger et eget vendepunkt.
 - **Day 25 og Day 32** har samme scenario. Ett av dem trenger nytt stoff.

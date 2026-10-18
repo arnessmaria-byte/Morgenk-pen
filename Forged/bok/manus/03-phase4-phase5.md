@@ -266,7 +266,7 @@ Silence does not cancel your direction.
 
 ### Healing Forge: When Silence Triggers Abandonment
 
-For some men, silence once meant danger: disconnection, withdrawal, being left alone with no explanation. God's quiet can wake those memories. His silence is not neglect. It is trust. You are being relied upon.
+For some men, silence once meant danger: disconnection, withdrawal, being left alone with no explanation. God's quiet can wake those memories. His silence is not neglect. He has not let go of you.
 
 *End of Day 30*
 
@@ -412,11 +412,11 @@ Serving others can leave scars. You may have been relied on but never protected,
 >
 > Acts 1:8
 
-Witness is presence that stays the same from one setting to the next. A coherent life persuades more than any argument, and a life that holds together over time is hard to dismiss.
+Witness is not performance. It is presence that stays the same from one setting to the next. A coherent life persuades more than any argument, and a life that holds together over time is hard to dismiss.
 
 ### The Scenario
 
-Logan did not say much. He did not start debates, post his convictions, or correct people quickly. But his direction held: the same tone at work and at home, the same restraint under pressure, the same decisions whether anyone noticed or not.
+Logan said little. He did not start debates, post his convictions, or correct people quickly. But his direction held: the same tone at work and at home, the same restraint under pressure, the same decisions whether anyone noticed or not.
 
 People began to ask him questions. They did not ask about doctrine. They asked about his steadiness, and why his life felt grounded. His witness was quiet, and it was credible.
 

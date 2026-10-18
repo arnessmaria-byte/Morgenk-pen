@@ -21,7 +21,7 @@
 | Dager | Day 1 … Day 40 (siffer) |
 | Perioden | the forty days (bokstaver) |
 | Gud | He, Him, His med stor forbokstav; the Spirit; Scripture |
-| Forordsforfatter | Sverre Johannes Langeland (hele navnet, slik han ba om 17.10.2026) |
+| Forordsforfatter | Sverre Johannes Langeland (hele navnet, slik Sverre Johannes ba om 17.10.2026) |
 | Scenarionavn | Jake, Aaron, Lucas, Daniel, Michael, Nathan, Jonah, Evan, Thomas, Noah, Mark, Simon, Isaac, Ryan, **Tyler** (Day 15, tidligere Marcus: for nær Mark i Day 11), Ethan, Andrew, Caleb, Matthew, Levi, David, Samuel, Paul, Benjamin, Owen, James, Victor, Alex, Cole, Micah, Jared, Ian, Jordan, Logan, Scott, Reid, Theo, Grant, Derek, Adam |
 
 ## Skrift

@@ -30,7 +30,7 @@ For over twenty years, I tested what could hold. I tested truth claims the way a
 
 In 2016, I was called. In 2018, I committed. The testing has not stopped since. By 2022 the path I was walking had narrowed to one: Jesus, and the life that follows from Him. This book was forged on that path.
 
-You are not broken. But you are being shaped, whether you choose it or not: by habits, reactions, silence, environment, fear, convenience, and unresolved pain. This book exists to interrupt the shaping you never chose.
+You are not beyond repair. But you are being shaped, whether you choose it or not: by habits, reactions, silence, environment, fear, convenience, and unresolved pain. This book exists to interrupt the shaping you never chose.
 
 ## Why Another Devotional Isn’t Enough
 
@@ -444,7 +444,7 @@ Orientation gives your effort somewhere to go.
 
 Decide where your life is headed, and let that decision govern what you do. A man rowing hard with no heading is only leaving somewhere. Orientation comes before discipline. Without it, discipline exhausts you. With it, discipline steadies you.
 
-God rarely steers your motion directly. He directs your attention, and where your attention stays, your life follows.
+God often steers you through your attention, and where your attention stays, your life follows.
 
 ### The Practice
 
@@ -1564,7 +1564,7 @@ Silence does not cancel your direction.
 
 ### Healing Forge: When Silence Triggers Abandonment
 
-For some men, silence once meant danger: disconnection, withdrawal, being left alone with no explanation. God’s quiet can wake those memories. His silence is not neglect. It is trust. You are being relied upon.
+For some men, silence once meant danger: disconnection, withdrawal, being left alone with no explanation. God’s quiet can wake those memories. His silence is not neglect. He has not let go of you.
 
 *End of Day 30*
 
@@ -1710,11 +1710,11 @@ Serving others can leave scars. You may have been relied on but never protected,
 >
 > Acts 1:8
 
-Witness is presence that stays the same from one setting to the next. A coherent life persuades more than any argument, and a life that holds together over time is hard to dismiss.
+Witness is not performance. It is presence that stays the same from one setting to the next. A coherent life persuades more than any argument, and a life that holds together over time is hard to dismiss.
 
 ### The Scenario
 
-Logan did not say much. He did not start debates, post his convictions, or correct people quickly. But his direction held: the same tone at work and at home, the same restraint under pressure, the same decisions whether anyone noticed or not.
+Logan said little. He did not start debates, post his convictions, or correct people quickly. But his direction held: the same tone at work and at home, the same restraint under pressure, the same decisions whether anyone noticed or not.
 
 People began to ask him questions. They did not ask about doctrine. They asked about his steadiness, and why his life felt grounded. His witness was quiet, and it was credible.
 
@@ -2118,7 +2118,7 @@ Healing Forge works by:
 
 Healing does not depend on confrontation, and it does not require you to revisit everything or fix your past. It begins when you stop hiding what still shapes you. Nobody is asking you to blame your parents or to expose yourself in public. What is asked of you is to tell the truth sooner, to the right people, in ways you can sustain.
 
-Healing restores clarity. Clarity strengthens discipline. Discipline then becomes livable. That is why Healing Forge is the foundation of formation and no detour from it.
+Healing restores clarity. Clarity strengthens discipline. Discipline then becomes livable. That is why Healing Forge is part of formation and no detour from it.
 
 These pages name what is true. They cannot treat it. Where the wound is deep, take it to a pastor or a licensed counselor, and count the going as courage, because that is what it is.
 

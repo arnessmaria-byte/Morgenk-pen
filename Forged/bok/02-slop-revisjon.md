@@ -53,7 +53,7 @@ Telleren ble også kjørt på redaktørens egne nye formuleringer underveis. Tre
 
 ## Sluttlesernes funn om mønstre
 
-Sluttleseren fant at fem Healing Forge-avslutninger brukte samme formel, «You are not being X; you are being Y.» To er kortet (Day 12 og Day 40). Day 38 er beholdt. Day 30 er forfatterens teologiske formulering og står, se redaktørrapporten, tiltak 11.
+Sluttleseren fant at fem Healing Forge-avslutninger brukte samme formel, «You are not being X; you are being Y.» To er kortet (Day 12 og Day 40). Day 38 er beholdt. Day 30 er endret etter forfatterens avgjørelse 18.10.2026: «His silence is not neglect. He has not let go of you.»
 
 ## Uavklarte
 

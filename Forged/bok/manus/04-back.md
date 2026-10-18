@@ -104,7 +104,7 @@ Healing Forge works by:
 
 Healing does not depend on confrontation, and it does not require you to revisit everything or fix your past. It begins when you stop hiding what still shapes you. Nobody is asking you to blame your parents or to expose yourself in public. What is asked of you is to tell the truth sooner, to the right people, in ways you can sustain.
 
-Healing restores clarity. Clarity strengthens discipline. Discipline then becomes livable. That is why Healing Forge is the foundation of formation and no detour from it.
+Healing restores clarity. Clarity strengthens discipline. Discipline then becomes livable. That is why Healing Forge is part of formation and no detour from it.
 
 These pages name what is true. They cannot treat it. Where the wound is deep, take it to a pastor or a licensed counselor, and count the going as courage, because that is what it is.
 
