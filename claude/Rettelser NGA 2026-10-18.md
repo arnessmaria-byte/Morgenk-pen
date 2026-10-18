@@ -1,6 +1,6 @@
 # Rettelser i A Norway Grasping for Air, 18. oktober 2026
 
-Grunnlag: NGA_Complete_Manuscript.docx (Drive, 6. september 2026). Originalen er ikke endret. Den rettede filen heter `NGA_Complete_Manuscript_rettet_2026-10-18.docx` og ligger i denne mappen og i samme Drive-mappe som originalen. Full tekstdiff ligger i `Rettelser NGA 2026-10-18 tekstdiff.txt` (notemarkører vises som ^1^).
+Grunnlag: NGA_Complete_Manuscript.docx (Drive, 6. september 2026). Originalen er ikke endret. Den rettede filen heter `NGA_Complete_Manuscript_rettet_2026-10-18.docx` og ligger i denne mappen i repoet. Den er ikke lastet opp til Drive; Kapteinen legger den inn i 00 INBOX selv. Full tekstdiff ligger i `Rettelser NGA 2026-10-18 tekstdiff.txt` (notemarkører vises som ^1^).
 
 De sju blokkerende punktene fra kvalitetssikringen er rettet. Ingen andre endringer er gjort. Formatering, bokmerker, innholdsfortegnelse og lenker er bevart; nye noter har klikkbare lenker.
 
