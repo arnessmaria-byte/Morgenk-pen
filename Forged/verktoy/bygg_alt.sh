@@ -16,5 +16,5 @@ python3 ../verktoy/bygg_epub.py manus/FORGED_manus.md ut/FORGED_Kindle.epub
 if [ -n "$EPUBCHECK" ]; then java -jar "$EPUBCHECK" ut/FORGED_Kindle.epub 2>&1 | grep Messages; fi
 python3 ../verktoy/bygg_docx.py manus/FORGED_manus.md ut/FORGED_manus.docx
 cp manus/FORGED_manus.md ut/FORGED_manus.md
-python3 ../verktoy/bygg_gdoc_html.py manus/FORGED_manus.md ut/FORGED_GoogleDocs.html --med-tittel
+python3 ../verktoy/bygg_gdoc_rtf.py manus/FORGED_manus.md ut/FORGED_GoogleDocs.rtf
 cp manus/FORGED_manus.md 04-forged-redigert.md
