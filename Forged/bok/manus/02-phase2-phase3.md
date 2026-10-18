@@ -324,7 +324,7 @@ What set him off was recent. The anger was old. He had learned it much earlier, 
 | Covers up fear | Names what was wrong |
 | Burns up energy | Puts energy to use |
 
-Anger itself is not the problem. Anger you never look at is.
+Anger itself is not always the problem. Anger you never look at is.
 
 ### What This Day Is Really About
 
@@ -340,7 +340,7 @@ Recall one recent time you got angry. Do not excuse it or condemn it. Ask:
 - What boundary felt crossed, this time or in the past?
 - What did this anger try to protect?
 
-Write the answers down where only you will see them. Understanding comes before self-control.
+Write the answers down where only you will see them. Understanding your anger helps you control it.
 
 ### Healing Forge: When Anger Learned to Guard You
 
@@ -538,7 +538,7 @@ Read one familiar passage today, without trying to learn anything new from it. A
 - What does this challenge that I take for granted?
 - What do I need to do about this now?
 
-Do not rush to work out what it means. Let it show you yourself first.
+Do not rush to analyze it or point it at someone else. Let it show you yourself first.
 
 ### Healing Forge: When Scripture Was Used Against You
 

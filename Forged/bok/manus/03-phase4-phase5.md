@@ -90,7 +90,7 @@ If you show up first, the rest of the day often follows.
 
 ### Healing Forge: When Mornings Feel Heavy
 
-Mornings may once have filled you with dread: conflict, demands, responsibility with no one to help you carry it. Avoiding them protected you. Healing invites you back gently, and you do not have to be perfect. Showing up can be quiet. What counts is that you choose it.
+Mornings may once have filled you with dread: conflict, demands, responsibility with no one to help you carry it. Avoiding them protected you. Healing invites you back gently, and you do not have to be perfect. Showing up can be quiet. What counts is that you choose it. If the heaviness will not let up, talk to a pastor, a doctor, or a licensed counselor.
 
 *End of Day 26*
 
@@ -260,7 +260,7 @@ God does not always speak to ease your discomfort. Sometimes He stays silent. He
 
 ### The Practice
 
-Do not look for anything new today: no new message, no signs, no fresh reassurance. Do what you already know is right. Keep showing up, and stay faithful.
+Do not chase anything new today: no new message, no signs, no fresh reassurance. Do what you already know is right. Keep showing up, and stay faithful.
 
 Silence does not change where you are headed.
 
@@ -622,7 +622,7 @@ That is where others are starting to see how you have grown.
 
 ### Healing Forge: When Being Seen Once Meant Risk
 
-Other people's attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is a kind of trust. They are leaning on you, not watching to catch your mistakes.
+Other people's attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.
 
 *End of Day 38*
 

@@ -36,7 +36,7 @@ You are not beyond repair. But you are being shaped, whether you choose it or no
 
 Most devotionals try to inspire you. They give you words for what you believe and few tools for handling pressure. I have nothing against inspiration. I have just noticed that it disappears the moment a hard Tuesday shows up.
 
-Young men rarely fail because they think their faith is wrong. They fail because they never trained it. Pressure does not ask what you believe. It shows what you have practiced.
+Young men rarely fail because they think their faith is wrong. They fail because they have not trained it. Pressure does not ask what you believe. It shows what you have practiced.
 
 This book assumes you are sincere and untrained. What it cares about is whether your faith holds when no one is watching, when you do not feel like it, when things are tense, when old habits come back, and when life goes quiet.
 
@@ -85,7 +85,7 @@ Walk the forty days with someone if you can: a friend, a father, a mentor, a sma
 
 Every day ends with a Healing Forge section, because some things choke your growth the way water in a fuel line chokes an engine: pressing harder on the gas will not fix it. Anxiety, anger, hurt from relationships, sexual shame, feeling numb toward God, and pain about your father that has not healed all work this way. Many young men need healing more than they need discipline. These sections name what is going on so it stops steering you. Then they give you one solid step to take.
 
-This book is not a counselor. If you carry deep trauma, harm done to you, grief that will not let up, or thoughts that frighten you, go to a pastor, a doctor, or a licensed counselor. Going is part of the training: the same honesty this book asks of you everywhere else, brought to the right place.
+This book is not a counselor. If you carry deep trauma, harm done to you, grief that will not let up, or thoughts that frighten you, go to a pastor, a doctor, or a licensed counselor. Going is part of the training: the same honesty this book asks of you everywhere else, brought to the right place. If you might hurt yourself or someone else, get emergency help now.
 
 ## Before You Begin
 
@@ -354,7 +354,7 @@ Do not make a drama of it, and do not bury it. Work out what it is saying. Setti
 
 ### Healing Forge: When Discontent Turns Against You
 
-In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. Feeling convicted shows you what to change. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
+In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God's correction shows you what to change. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
 
 *End of Day 5*
 

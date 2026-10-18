@@ -36,7 +36,7 @@ You are not beyond repair. But you are being shaped, whether you choose it or no
 
 Most devotionals try to inspire you. They give you words for what you believe and few tools for handling pressure. I have nothing against inspiration. I have just noticed that it disappears the moment a hard Tuesday shows up.
 
-Young men rarely fail because they think their faith is wrong. They fail because they never trained it. Pressure does not ask what you believe. It shows what you have practiced.
+Young men rarely fail because they think their faith is wrong. They fail because they have not trained it. Pressure does not ask what you believe. It shows what you have practiced.
 
 This book assumes you are sincere and untrained. What it cares about is whether your faith holds when no one is watching, when you do not feel like it, when things are tense, when old habits come back, and when life goes quiet.
 
@@ -85,7 +85,7 @@ Walk the forty days with someone if you can: a friend, a father, a mentor, a sma
 
 Every day ends with a Healing Forge section, because some things choke your growth the way water in a fuel line chokes an engine: pressing harder on the gas will not fix it. Anxiety, anger, hurt from relationships, sexual shame, feeling numb toward God, and pain about your father that has not healed all work this way. Many young men need healing more than they need discipline. These sections name what is going on so it stops steering you. Then they give you one solid step to take.
 
-This book is not a counselor. If you carry deep trauma, harm done to you, grief that will not let up, or thoughts that frighten you, go to a pastor, a doctor, or a licensed counselor. Going is part of the training: the same honesty this book asks of you everywhere else, brought to the right place.
+This book is not a counselor. If you carry deep trauma, harm done to you, grief that will not let up, or thoughts that frighten you, go to a pastor, a doctor, or a licensed counselor. Going is part of the training: the same honesty this book asks of you everywhere else, brought to the right place. If you might hurt yourself or someone else, get emergency help now.
 
 ## Before You Begin
 
@@ -354,7 +354,7 @@ Do not make a drama of it, and do not bury it. Work out what it is saying. Setti
 
 ### Healing Forge: When Discontent Turns Against You
 
-In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. Feeling convicted shows you what to change. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
+In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God’s correction shows you what to change. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
 
 *End of Day 5*
 
@@ -834,7 +834,7 @@ What set him off was recent. The anger was old. He had learned it much earlier, 
 | Covers up fear | Names what was wrong |
 | Burns up energy | Puts energy to use |
 
-Anger itself is not the problem. Anger you never look at is.
+Anger itself is not always the problem. Anger you never look at is.
 
 ### What This Day Is Really About
 
@@ -850,7 +850,7 @@ Recall one recent time you got angry. Do not excuse it or condemn it. Ask:
 - What boundary felt crossed, this time or in the past?
 - What did this anger try to protect?
 
-Write the answers down where only you will see them. Understanding comes before self-control.
+Write the answers down where only you will see them. Understanding your anger helps you control it.
 
 ### Healing Forge: When Anger Learned to Guard You
 
@@ -1048,7 +1048,7 @@ Read one familiar passage today, without trying to learn anything new from it. A
 - What does this challenge that I take for granted?
 - What do I need to do about this now?
 
-Do not rush to work out what it means. Let it show you yourself first.
+Do not rush to analyze it or point it at someone else. Let it show you yourself first.
 
 ### Healing Forge: When Scripture Was Used Against You
 
@@ -1388,7 +1388,7 @@ If you show up first, the rest of the day often follows.
 
 ### Healing Forge: When Mornings Feel Heavy
 
-Mornings may once have filled you with dread: conflict, demands, responsibility with no one to help you carry it. Avoiding them protected you. Healing invites you back gently, and you do not have to be perfect. Showing up can be quiet. What counts is that you choose it.
+Mornings may once have filled you with dread: conflict, demands, responsibility with no one to help you carry it. Avoiding them protected you. Healing invites you back gently, and you do not have to be perfect. Showing up can be quiet. What counts is that you choose it. If the heaviness will not let up, talk to a pastor, a doctor, or a licensed counselor.
 
 *End of Day 26*
 
@@ -1558,7 +1558,7 @@ God does not always speak to ease your discomfort. Sometimes He stays silent. He
 
 ### The Practice
 
-Do not look for anything new today: no new message, no signs, no fresh reassurance. Do what you already know is right. Keep showing up, and stay faithful.
+Do not chase anything new today: no new message, no signs, no fresh reassurance. Do what you already know is right. Keep showing up, and stay faithful.
 
 Silence does not change where you are headed.
 
@@ -1920,7 +1920,7 @@ That is where others are starting to see how you have grown.
 
 ### Healing Forge: When Being Seen Once Meant Risk
 
-Other people’s attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is a kind of trust. They are leaning on you, not watching to catch your mistakes.
+Other people’s attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.
 
 *End of Day 38*
 
@@ -2088,7 +2088,7 @@ FORGE is a training rhythm you repeat. Through it, your faith moves from words y
 
 The order matters. Repetition alone will not change a man who is divided inside. That is why you observe and heal before you work on endurance, so you do not build habits on top of a crack that has not healed.
 
-If you practice the habits but skip the healing, you end up an efficient hypocrite: better organized, but still not whole. None of this means you make yourself holy. Scripture says that God Himself makes you holy (1 Thessalonians 5:23). The cycle describes your part in His work and never replaces it.
+If you practice the habits but skip the healing, you end up better organized on the outside and still not whole inside. None of this means you make yourself holy. Scripture says that God Himself makes you holy (1 Thessalonians 5:23). The cycle describes your part in His work and never replaces it.
 
 **FLARE: Identify What Ignites You.** Flare is the moment something starts to bother you: irritation, discontent, longing, or a belief that will not leave you alone. It feels rougher than inspiration. Flare asks one question: *What pressure keeps coming back in my life?* Ignore it, and your faith stays borrowed from others. Name it, and your faith starts to become yours. Flare gives your frustration a purpose. It shows you why your faith has to be real to you and not just look respectable.
 

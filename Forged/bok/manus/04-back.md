@@ -74,7 +74,7 @@ FORGE is a training rhythm you repeat. Through it, your faith moves from words y
 
 The order matters. Repetition alone will not change a man who is divided inside. That is why you observe and heal before you work on endurance, so you do not build habits on top of a crack that has not healed.
 
-If you practice the habits but skip the healing, you end up an efficient hypocrite: better organized, but still not whole. None of this means you make yourself holy. Scripture says that God Himself makes you holy (1 Thessalonians 5:23). The cycle describes your part in His work and never replaces it.
+If you practice the habits but skip the healing, you end up better organized on the outside and still not whole inside. None of this means you make yourself holy. Scripture says that God Himself makes you holy (1 Thessalonians 5:23). The cycle describes your part in His work and never replaces it.
 
 **FLARE: Identify What Ignites You.** Flare is the moment something starts to bother you: irritation, discontent, longing, or a belief that will not leave you alone. It feels rougher than inspiration. Flare asks one question: *What pressure keeps coming back in my life?* Ignore it, and your faith stays borrowed from others. Name it, and your faith starts to become yours. Flare gives your frustration a purpose. It shows you why your faith has to be real to you and not just look respectable.
 
