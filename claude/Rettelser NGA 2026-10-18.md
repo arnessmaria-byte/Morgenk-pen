@@ -74,3 +74,60 @@ Setningen om sønnen er den godkjente ordlyden fra H.15.4, med ett tillegg som b
 ## Det som ikke er rettet
 
 De 42 viktige og omtrent 130 mindre funnene i kvalitetssikringen står. Nærmest de rettede punktene: Neo-setningen i prologen (nå revidert i kapittel 29, men fortsatt umerket i prologen), «intervene and protect my son» i prologen, forfatterens egen interesse i Back-saken (kapittel 30, første avsnitt), og samtykke for Maria og Sunniva i epilogen.
+
+---
+
+# Andre runde: de viktige funnene, 18. oktober 2026
+
+Samme fil er oppdatert (`NGA_Complete_Manuscript_rettet_2026-10-18.docx`). Tekstdiffen i mappen viser nå alle endringer mot originalen, begge runder samlet. Strukturkontrollen etter runde to: 40 kapitler, notemarkører og noter stemmer i alle kapitler (kapittel 6 note 3 var usitert fra før og er uendret), ingen nye tankestreker.
+
+## Rettet
+
+**Styring og apparat**
+- Noteapparatet siterer ikke lenger interne arbeidsfiler. «RO Voice Pilot», «RO Toneprint Rewrite Batch», «RO Source Audit», «Author Interview Record 0019», «Result 0020B» og «NGA Book Constitution 02» er erstattet med lesbare kildebeskrivelser («the author's own written account, family collection», «recording and transcript in the family collection», «the family-document file, item A4», «the author's own standing ruling on this subject»). Prefikset RO er dermed borte fra notene til prologen og kapittel 1-8.
+- Navngitte levende privatpersoner uten synlig samtykke er generalisert: treneren («My coach»), lagkameraten («Another keeper»), vertsfamilien («a host family»), fetterne («Others in the family»), datteren («my daughter», tre steder, også i epilogens note). Fetterens private svar er strøket. Lillebrorens prematuritet er strøket i brødtekst og note. Faren Tor og kona Maria er fortsatt navngitt: Tor står også i notene som mottaker av Aries e-poster, og begge er voksne; samtykke må registreres.
+- WEB-sporet i kapittel 39 («love without hypocrisy») er blitt «sincere love», i tråd med EHV.
+- Sammenklistrede notemarkører i kapittel 31 og 32 («13», «12») har fått skilletegn i hevet skrift.
+
+**Del I**
+- Prolog: «The first drum» er blitt «The drum». Neo-setningen har fått tillegget «I say so because it counts against me, and I will return to it.» (peker til selvrevisjonen i kapittel 29, ikke til det offentlige RO-stoffet). «I asked him to intervene and protect my son.» er blitt «I prayed for my son.»
+- Forfatternote: «a missing case to reconstruct» er blitt «It does not invite the reader to reconstruct what is untold.»
+- Kapittel 4: «I am Jewish. I am Norwegian. Neither truth cancels the other.» har fått grunnlaget: «I use the first word by descent, through my mother's father, as the family's own papers record it, and I claim it on no other authority.»
+- Kapittel 5: «as I heard it» og «he seemed sure» markerer tolkningen av Michael. «His children lived closer to the pain» og setningen om det han bar videre er erstattet med «Others in the family knew him at closer range, and across more years, than a grandson on a trip. That is my understanding of the family, not a diagnosis recovered from the letter.»
+- Kapittel 6: «I know it was part of it.» er blitt «I believe it was part of it.»
+- Kapittel 10: setningen om at Odgers støttet reformer, som gikk ut over den kontrollerte teksten, er strøket.
+
+**Del II**
+- Kapittel 12: modelleringspåstandene står nå i kondisjonalis og er merket som forfatterens skjønn («I am not reporting a measured effect»).
+- Kapittel 13: «In the same Statistics Norway membership series» er blitt «In Statistics Norway's county table of members, which counts members alone from 2021». Tabellen er lest 18. oktober 2026: 3 522 558 (2021), 3 449 013 (2024), 3 427 657 (2025). Siste års bevegelse er lagt til i brødteksten (21 356 færre fra 2024 til 2025) og i note 4.
+- Kapittel 14: «only 701 fewer» er blitt «701 fewer».
+- Kapittel 16: kilde og land står nå i åpningssetningen («In Statistics Norway's time-use surveys»). Den lange serien er lagt til fra samme rapport (Kitterød og Rønsen 2013/44, SSB-sammendrag 15. oktober 2013): fedre med barn under femten brukte 3 t 50 min på husholdsarbeid i 2010, 1 t 20 min mer enn ved inngangen til 1970-tallet. Mødrene har fått et befolkningstall: kvinners husholdsarbeid ned 2 t 5 min og menns opp 47 min per dag fra 1971 til 2010 (SSB, Tidene skifter, SA 125, 2. januar 2012), lagt i brødtekst og note 2.
+- Kapittel 19: Dohmen har fått populasjon («working with German survey data»); Spörleins egen konklusjon er trykt («do not support the socialisation assumption for risk and trust attitudes»); Deneault-tallet er merket «According to its published abstract».
+- Kapittel 20: «This is an inference, not a finding.» er lagt til i første avsnitt.
+
+**Del III**
+- Kapittel 22: «her husband Pavel». Den døde SSB-lenken i note 2 peker nå til https://www.ssb.no/a/histstat/nos/nos_xii_151.pdf.
+- Kapittel 24: ny sluttsetning som eier valget av Mill som det mildeste tilfellet og peker til kapittel 26.
+- Kapittel 26: «to Norwegian mothers and to fathers who were soldiers».
+- Kapittel 27: «before and during the occupation» er blitt «during the occupation» (noten belegger bare 1942).
+- Kapittel 28: ny tittel «After the Ceremony» (innhold, overskrift, noteoverskrift).
+- Kapittel 29: selvrevisjonen har fått Kristus-setningen: «The prayer at the ruins was addressed to Christ. The chant on the grass was addressed to a crowd. Keeping those two apart is the discipline of this chapter.»
+- Kapittel 30 (Back): forfatterens interesse er erklært i første avsnitt («Valentin Back was my great-grandfather ...»). Dødsdommen er datert til det noten bærer («According to an appeal draft dated 3 October 1938 ... had sentenced»; «had been passed by 3 October 1938»; «more than eight months later»). «several countries ... a provocateur, a prosecution witness» er erstattet med det som er lest: Québec-avisen, pluss at en Tel Aviv-avis er lokalisert men ulest. «correct the account» er blitt «complicate the account».
+
+**Del IV**
+- Kapittel 32: «Grossman, a name Arie's account spells Grosman»; kapittel 40 bruker nå «Grossman». «I am Jewish and Norwegian» har fått «by the descent the family's own papers record».
+- Kapittel 33: «One reason Norway matters to this book is that ...».
+- Kapittel 35: sluttsetning som lar loven peke til evangeliet: «The one who makes that demand is the same who, at the end of this book, feeds Peter on the shore before he asks anything of him.»
+- Kapittel 37: «cannot tell me whether God will punish a country, or when».
+- Kapittel 38: tittel «Turn Towards the Father»; «acknowledgement» (også kapittel 27 og dens note).
+- Forbeholdet om at forfatterens tro ikke tilskrives slektningene sto sju ganger. Avsnittene i kapittel 34 og 35 er strøket, og avsnittet i kapittel 37 er kortet til setningen om at Malakis tale til Israel ikke blir en tale til Norge. Det står igjen i kapittel 31, 32, 33 og 40, der hvert av dem gjør eget arbeid.
+
+## Ikke rettet, og hvorfor
+
+- **Den jødiske identitetstråden i kapittel 11-20** (I.7, I.15): krever enten grunnlovsendring eller kutt av forfatterens uttrykkelige beslutning. Kapteinens avgjørelse.
+- **Kristus i kapittel 11-19** (I.17.5): krever ny teologisk tekst eller et uttrykkelig unntak. Kapteinens avgjørelse.
+- **Note 1 til kapittel 29 mot handoffen** (bekreftet 6. september eller ubesvart): faktum jeg ikke kan avgjøre.
+- **Samtykke** for Tor, Maria og de generaliserte personene: må registreres; teksten er nå så generell at den tåler et nei.
+- **Trenger kildepakke:** Hadassah/Tyskland-rekkefølgen i kapittel 4; «proud» og «Hadassah» tilskrevet brevet; Haidts svar til kritikerne (kapittel 10); restaurantens sted og tid (kapittel 22); «18 and 26 September» og «found shot dead» i kapittel 30 (mindre funn); fotodato (kapittel 29); «LORD» i småkapitéler (kapittel 37).
+- **Stil:** modaltettheten i kapittel 33-39, de inntil ti setningene per kapittel i vedleggene, kursivering av omtalte ord, og at minst én H.12-korreksjon forankres i en tidligere trykt posisjon. Dette er morsmålsredaktørens og forfatterens arbeid, ikke en rettelse.
+- Filnavnet «Jewish ancestery.pdf» i notene er beholdt som det står, siden det ser ut til å være filens faktiske navn.

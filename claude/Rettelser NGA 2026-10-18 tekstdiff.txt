@@ -1,7 +1,67 @@
+42c42
+< 28. Rite Without Formation
+---
+> 28. After the Ceremony
 44c44
 < 30. The Roar on the Grass
 ---
 > 30. The Word That Attached Itself
+53c53
+< 38. Turn Toward the Father
+---
+> 38. Turn Towards the Father
+62c62
+< Some private history is left untold. That choice limits the claims I can make. It does not give the reader a missing case to reconstruct.
+---
+> Some private history is left untold. That choice limits the claims I can make. It does not invite the reader to reconstruct what is untold.
+64,65c64,65
+< The first drum was borrowed.
+< I carried it to the ruins of St Mary's Church in Oslo's Medieval Park and stood beside Vannspeilet, the reflecting pool. It was 2024. I wore a long black coat and dark glasses. I had the figure of Neo from The Matrix in mind.
+---
+> The drum was borrowed.
+> I carried it to the ruins of St Mary's Church in Oslo's Medieval Park and stood beside Vannspeilet, the reflecting pool. It was 2024. I wore a long black coat and dark glasses. I had the figure of Neo from The Matrix in mind. I say so because it counts against me, and I will return to it.
+69c69
+< Beside the ruined church, I struck the drum and cried out. I was calling to God. I asked him to intervene and protect my son. The instrument was borrowed from a friend. My prayer was addressed to Christ.
+---
+> Beside the ruined church, I struck the drum and cried out. I was calling to God. I prayed for my son. The instrument was borrowed from a friend. My prayer was addressed to Christ.
+146c146
+< Years later Michael took me to Germany. It was just the two of us. This was before I returned on my own as an exchange student, before the eleven months in Emsdetten with the Thomitzek family. He had left Germany as a child. Years later I went there in his company.^2^
+---
+> Years later Michael took me to Germany. It was just the two of us. This was before I returned on my own as an exchange student, before the eleven months in Emsdetten with a host family. He had left Germany as a child. Years later I went there in his company.^2^
+151c151
+< I am Jewish. I am Norwegian. Neither truth cancels the other.
+---
+> I am Jewish. I am Norwegian. Neither truth cancels the other. I use the first word by descent, through my mother's father, as the family's own papers record it, and I claim it on no other authority.
+157,159c157,159
+< Four words in Norwegian, and none of them a wish. There was a sly smile at the corner of his mouth, and he said it the way a man says something he has already checked.
+< Two of my older cousins were sitting with him. He said it to me, in front of them, and I understood the comparison. Their presence gave the words more weight than they would have carried if he and I had been alone. The sentence stayed with me because of the look, and because he was sure.^1^
+< He never explained it. He died not long afterwards, and I do not remember how long. Nobody who was there ever mentioned the sentence again. When I asked one of the cousins about it years later, he said he must have pushed it out of his mind.
+---
+> Four words in Norwegian, and none of them a wish. There was a sly smile at the corner of his mouth, and he said it, as I heard it, the way a man says something he has already checked.
+> Others in the family were sitting with him. He said it to me, in front of them. Their presence gave the words more weight than they would have carried if he and I had been alone. The sentence stayed with me because of the look, and because he seemed sure.^1^
+> He never explained it. He died not long afterwards, and I do not remember how long. Nobody who was there ever mentioned the sentence again.
+162c162
+< There was a cost to one of those summers apart from the money. I missed the Dana Cup. My coach, Steinar Fondevik, was properly angry, and a couple of parents nearby joined him. Ilmarin took my place. I had taken his in goal at Tangen; in Denmark he took mine, and as far as I know he did the job well. I was glad.^1^
+---
+> There was a cost to one of those summers apart from the money. I missed the Dana Cup. My coach was properly angry, and a couple of parents nearby joined him. Another keeper took my place. I had taken his in goal at Tangen; in Denmark he took mine, and as far as I know he did the job well. I was glad.^1^
+165c165
+< He spent money on distance, language and departure. He also sent newspaper cuttings. One concerned the hospital where my mother worked and where I had worked the previous summer. Another concerned supplements. His note urged me to eat sensibly. It reached me in Germany after I had gone there for the exchange year.^2^
+---
+> He spent money on distance, language and departure. He also sent newspaper cuttings. One concerned the hospital where I had worked the previous summer. Another concerned supplements. His note urged me to eat sensibly. It reached me in Germany after I had gone there for the exchange year.^2^
+167,168c167,168
+< These things do not add up to a complete account of him. He had suffered. The 1947 letter catches one spring of that life and makes no pretence of showing the rest. Nor does my experience as a grandson give me every other member of the family's experience. I received the journeys. His children lived closer to the pain.^1^
+< I think some of what he was carrying reached them, without his intending to hand it on. That is my understanding of the family. It is not a diagnosis recovered from the letter. Gratitude for what he gave me leaves room for what I could not see as a child.
+---
+> These things do not add up to a complete account of him. He had suffered. The 1947 letter catches one spring of that life and makes no pretence of showing the rest. Nor does my experience as a grandson give me every other member of the family's experience. I received the journeys. Others in the family knew him at closer range, and across more years, than a grandson on a trip.^1^
+> That is my understanding of the family, not a diagnosis recovered from the letter. Gratitude for what he gave me leaves room for what I could not see as a child.
+180c180
+< Near the end, it turned to my younger sister and brother. It said they loved me. When my little brother was born prematurely, I took care of him and carried him around. Michael described it as appearing the most natural thing in the world. Then he moved on to politeness, friends and the prospect that I would fit into a family abroad.^1^
+---
+> Near the end, it turned to my younger sister and brother. It said they loved me. When my little brother was born, I took care of him and carried him around. Michael described it as appearing the most natural thing in the world. Then he moved on to politeness, friends and the prospect that I would fit into a family abroad.^1^
+196c196
+< I do not know whether that was all he meant. I know it was part of it.
+---
+> I do not know whether that was all he meant. I believe it was part of it.
 201,202c201,202
 < I need the distinction kept, partly because it concerns me. For years, I have lived without the ordinary freedom to be present in my son's life. I cannot tell that story without telling parts of his, so I will not.^1^
 < There is no account of responsibility hidden in those sentences for the reader to decode. I will not give you a person to blame. Nor can my position decide what happened in another family. I write from one father's limitation, not from knowledge of every father's conduct.
@@ -12,17 +72,77 @@
 < These situations require different accounts. The bereaved child should not be made to think of death as rejection. The deserted child should not have the departure softened into a neutral change of household. A person who needed protection should not be asked to prove love through renewed exposure to harm. A father kept at a distance should not be assumed to have chosen it. None of these claims tells us which account is true of a family we have not examined.
 ---
 > These situations require different accounts. The bereaved child should not be made to think of death as rejection. The deserted child should not have the departure softened into a neutral change of household. A person who needed protection should not be asked to prove love through renewed exposure to harm. A father at a distance should not be assumed to have chosen it. None of these claims tells us which account is true of a family we have not examined.
-307a308
+259c259
+< In her 2024 review of The Anxious Generation, developmental psychologist Candice Odgers challenged Haidt's claim that digital technology had caused an epidemic of teenage mental illness. She pointed to associations that were small or inconsistent, when found at all, and to the difficulty of deciding direction: existing distress may affect online behaviour. Her objection did not amount to approval of every platform practice; she also supported reforms to how platforms treat young users.^1^
+---
+> In her 2024 review of The Anxious Generation, developmental psychologist Candice Odgers challenged Haidt's claim that digital technology had caused an epidemic of teenage mental illness. She pointed to associations that were small or inconsistent, when found at all, and to the difficulty of deciding direction: existing distress may affect online behaviour.^1^
+308c308,309
+< Public conduct towards children carries duties of its own. An adult who explains a procedure clearly gives a practical lesson in how strangers can deal with one another. Someone who keeps a promise allows the child to see what reliability looks like. These are ways in which public conduct can be worth imitating.
+---
 > Loneliness has to be reported with the same care, because it has moved in two directions. In Statistics Norway's quality-of-life survey, 12.1 per cent of adults aged eighteen and over said in March 2020 that they had been much troubled by loneliness in the previous fortnight. The share rose to 15.5 per cent in 2021 and stood at 14.5 per cent in 2025, still above the level of the first survey. Among people aged eighteen to twenty-four it rose from nearly 24 per cent in 2020 to just over 30 per cent in 2021 and has since fallen to 23.4 per cent in 2025, the lowest since the series began. These are self-reports of a feeling, dated, for the population as a whole; they describe no family in it.^5^
+> Public conduct towards children carries duties of its own. An adult who explains a procedure clearly can give a practical lesson in how strangers deal with one another. Someone who keeps a promise can let a child see what reliability looks like. I take these to be ways in which public conduct can be worth imitating; I am not reporting a measured effect.
+320c321
+< That continued presence makes the change in membership more interesting than a simple account of disappearance. In the same Statistics Norway membership series, the total fell from 3,522,558 at the end of 2021 to 3,427,657 at the end of 2025. That is 94,901 fewer members, a decrease of about 2.7 per cent over four years.^4^ The starting and ending figures describe a large institution whose registered membership became smaller. Both parts of the description matter.
+---
+> That continued presence makes the change in membership more interesting than a simple account of disappearance. In Statistics Norway's county table of members, which counts members alone from 2021, the total fell from 3,522,558 at the end of 2021 to 3,427,657 at the end of 2025. That is 94,901 fewer members, a decrease of about 2.7 per cent over four years. The most recent year continued the movement: 3,449,013 at the end of 2024, and 21,356 fewer a year later.^4^ The starting and ending figures describe a large institution whose registered membership became smaller. Both parts of the description matter.
+339c340
+< Funerals leave a different pattern. In 2025 there were 36,096 Church of Norway funerals, only 701 fewer than in 2015. Their share of deaths fell more markedly, from 90.4 to 80.1 per cent. Between 2024 and 2025, the number of funerals increased by twenty-three while the share fell by 1.4 percentage points.^5^ The count and the proportion can move in opposite directions because deaths themselves do not occur in a fixed annual total.
+---
+> Funerals leave a different pattern. In 2025 there were 36,096 Church of Norway funerals, 701 fewer than in 2015. Their share of deaths fell more markedly, from 90.4 to 80.1 per cent. Between 2024 and 2025, the number of funerals increased by twenty-three while the share fell by 1.4 percentage points.^5^ The count and the proportion can move in opposite directions because deaths themselves do not occur in a fixed annual total.
 356a358
 > The number of births moved as well. Statistics Norway counted about 55,400 live births in 2025, roughly 1,400 more than in 2024, and the total fertility rate rose to 1.48 children per woman from 1.44 the year before, the third annual rise in a row. The agency adds that the rate remains low in a historical perspective. These are a count of births and a period rate for the whole country; they describe no household and settle nothing about inheritance.^5^
-598c600,626
+363c365
+< Between 2000 and 2010, married and cohabiting fathers whose youngest child was under seven increased the time they recorded as household work. The daily average rose from three hours and thirty-seven minutes to four hours and thirty-one minutes. Recorded income-producing work, including work travel and breaks, fell from five hours and thirty-seven minutes to four hours and forty-five minutes.^1^ A story in which fathers simply withdrew from the work of family life does not fit this part of the record.
+---
+> In Statistics Norway's time-use surveys, between 2000 and 2010, married and cohabiting fathers whose youngest child was under seven increased the time they recorded as household work. The daily average rose from three hours and thirty-seven minutes to four hours and thirty-one minutes. Recorded income-producing work, including work travel and breaks, fell from five hours and thirty-seven minutes to four hours and forty-five minutes.^1^ The longer series points the same way: fathers with children under fifteen recorded three hours and fifty minutes of household work a day in 2010, one hour and twenty minutes more than at the start of the 1970s, with most of the increase in the final decade. A story in which fathers simply withdrew from the work of family life does not fit this part of the record.
+373c375
+< Nor do the group averages allow us to divide a particular couple's work between them. The analysis of people in couples explains that it did not collect both partners' time within each couple. It therefore cannot report the division inside a given household.^2^ A national difference between men and women is not a completed account of the marriage next door.
+---
+> Nor do the group averages allow us to divide a particular couple's work between them. The analysis of people in couples explains that it did not collect both partners' time within each couple. It therefore cannot report the division inside a given household.^2^ Across the whole population, Statistics Norway's series from 1971 to 2010 shows women's household work falling by two hours and five minutes a day and men's rising by forty-seven minutes; women still did more. A national difference between men and women is not a completed account of the marriage next door.
+420,421c422,423
+< The word trust presents a related difficulty. Thomas Dohmen and his colleagues reported associations between parents' and children's attitudes towards risk and trust. Their 2012 article interpreted aspects of the results as supporting socialisation within families.^2^ This is an attractive finding for an argument about inheritance. It is also one whose interpretation has been challenged.
+< Christoph Spörlein and colleagues revisited the question with German twin data. Their 2024 study retained parent–child associations, but its modelling gave genetic differences a substantial role in explaining them. Most variation fell in the model's non-shared-environment component, which also includes measurement error. The authors explicitly rejected genetic determinism. Their analysis makes it harder to treat parental resemblance as evidence of one social mechanism.^3^
+---
+> The word trust presents a related difficulty. Thomas Dohmen and his colleagues, working with German survey data, reported associations between parents' and children's attitudes towards risk and trust. Their 2012 article interpreted aspects of the results as supporting socialisation within families.^2^ This is an attractive finding for an argument about inheritance. It is also one whose interpretation has been challenged.
+> Christoph Spörlein and colleagues revisited the question with German twin data. Their 2024 study retained parent–child associations, but its modelling gave genetic differences a substantial role in explaining them. Most variation fell in the model's non-shared-environment component, which also includes measurement error. The authors explicitly rejected genetic determinism. They concluded that their findings do not support the socialisation assumption for risk and trust attitudes. Their analysis makes it harder to treat parental resemblance as evidence of one social mechanism.^3^
+424c426
+< A review by Audrey-Ann Deneault and colleagues combined ninety-three studies, principally from North America and Europe, comparing observed sensitivity in partnered mothers and fathers. It found a small average difference favouring mothers. The difference was not statistically significant in the European samples.^4^ Neither result ranks the worth of a particular mother and father. The regional result does not establish that they are interchangeable, and the overall result cannot be reversed because a book has chosen to attend to fathers.
+---
+> According to its published abstract, a review by Audrey-Ann Deneault and colleagues combined ninety-three studies, principally from North America and Europe, comparing observed sensitivity in partnered mothers and fathers. It found a small average difference favouring mothers. The difference was not statistically significant in the European samples.^4^ Neither result ranks the worth of a particular mother and father. The regional result does not establish that they are interchangeable, and the overall result cannot be reversed because a book has chosen to attend to fathers.
+434c436
+< My concern is that a prosperous society may continue to possess goods it has inherited while finding it harder to name and deliberately sustain some of the relationships and practices through which they are learned. I cannot establish that this is happening in Norway. I want to investigate the possibility because the ability to enjoy a good does not, by itself, explain how it reaches another generation.
+---
+> My concern is that a prosperous society may continue to possess goods it has inherited while finding it harder to name and deliberately sustain some of the relationships and practices through which they are learned. I cannot establish that this is happening in Norway. I want to investigate the possibility because the ability to enjoy a good does not, by itself, explain how it reaches another generation. This is an inference, not a finding.
+477c479
+< The same demand arises in my family's Jewish history. Arie Back describes Yeva opening a home restaurant after Pavel's railway employment ended. In his account, Yeva cooked the food and served it, then washed up. Pavel bought supplies in the markets and helped serve. Arie also recalls visiting while the business was operating. This reaches me through a Norwegian translation of his family account.^4^ I am not describing a scene I witnessed, and the account cannot stand for Norwegian households. It does give Yeva's domestic work an economic setting which the word housewife alone would miss.
+---
+> The same demand arises in my family's Jewish history. Arie Back describes Yeva opening a home restaurant after her husband Pavel's railway employment ended. In his account, Yeva cooked the food and served it, then washed up. Pavel bought supplies in the markets and helped serve. Arie also recalls visiting while the business was operating. This reaches me through a Norwegian translation of his family account.^4^ I am not describing a scene I witnessed, and the account cannot stand for Norwegian households. It does give Yeva's domestic work an economic setting which the word housewife alone would miss.
+524c526
+< We can acknowledge the effort at the table and still ask whether the boy could speak there. Mill made room for both in his account. I need the same room in mine before extending any claim from a family to a country.
+---
+> We can acknowledge the effort at the table and still ask whether the boy could speak there. Mill made room for both in his account. I need the same room in mine before extending any claim from a family to a country. Mill is the mildest case I could have chosen: fear without violence, and a son who still called his childhood happy. I chose him for that reason, so that the claim could be tested where it is hardest to make. The harder cases, of violence and of entrapment, follow in chapter 26.
+553c555
+< Belonging could create another kind of exposure. A government white paper in 2004 considered the experience of krigsbarn, defined there as children born in 1940–1946 to Norwegian mothers and fathers who were soldiers of the German occupying power. Drawing on research, organisations and individual accounts, it recorded reports of bullying by adults as well as children, including accounts involving teachers, health personnel and clergy. It also recognised the burden of feeling compelled to conceal that identity.^2^
+---
+> Belonging could create another kind of exposure. A government white paper in 2004 considered the experience of krigsbarn, defined there as children born in 1940–1946 to Norwegian mothers and to fathers who were soldiers of the German occupying power. Drawing on research, organisations and individual accounts, it recorded reports of bullying by adults as well as children, including accounts involving teachers, health personnel and clergy. It also recognised the burden of feeling compelled to conceal that identity.^2^
+565,566c567,568
+< In October 2012, the Church of Norway's bishops acknowledged that the church had failed Jews before and during the occupation, and that its protest had come too late. Their statement recalled silence when Jewish identity papers were marked with a J in January 1942 and when Quisling restored the constitutional exclusion of Jews that March. It also recorded a church protest on 10 November.^1^
+< The order matters. A later protest belongs in the history, but cannot take the place of an earlier one that was not made. Neither can a later acknowledgment repair the lost opportunity to act. I am writing about an inheritance in which the ability to speak, and the decision to withhold speech, have to be considered together.
+---
+> In October 2012, the Church of Norway's bishops acknowledged that the church had failed Jews during the occupation, and that its protest had come too late. Their statement recalled silence when Jewish identity papers were marked with a J in January 1942 and when Quisling restored the constitutional exclusion of Jews that March. It also recorded a church protest on 10 November.^1^
+> The order matters. A later protest belongs in the history, but cannot take the place of an earlier one that was not made. Neither can a later acknowledgement repair the lost opportunity to act. I am writing about an inheritance in which the ability to speak, and the decision to withhold speech, have to be considered together.
+581c583
+< 28. Rite Without Formation
+---
+> 28. After the Ceremony
+598,599c600,627
 < I have used the image of a lion when writing about myself. Beside the ruined church, it gave me a way to describe standing up again, calling to God and refusing to go home defeated. Put more plainly, I was a father who had prayed for his son and found strength in doing so. My faith was in God. The coat, the borrowed drum and the image were ways of expressing it.^1^
+< A description can also arrive from outside a person's life. It can reach strangers before they learn much else about him. In my family, one of those descriptions attached itself to Valentin Back, Michael's father. The word was informer. It has a documentary history that can be examined, and the papers do not all assign him the same role.
 ---
 > I have used the image of a lion when writing about myself, and the image of a king. Beside the ruined church in 2024, I had a film figure in mind as well, and I wore the coat to match. Nobody gave me those descriptions. I chose them, at a time when my life had lost its ordinary order and I wanted something that would hold it in place.^1^
 > That is what a myth does for a man in that condition. It assigns roles. The man in the coat becomes the one who stands up again. The absence becomes a trial he is passing through. The people around him become a cast, with parts they did not audition for. Disorder is easier to carry once it has been given parts. I did that, and I did it before I had examined whether any of the roles were true.
 > The rowing chant I call RO is the artefact. In the author's note I describe it as my creative work and declare my interest in how it is received. The cry at the ruins I have described, in the prologue, as a prayer. Both descriptions are mine, and they do not sit easily together. A prayer is addressed to God and asks nothing of an audience. A piece of work asks to be heard. The drum, the coat and the cry appear in both, and I have labelled the same material each way depending on whom I was speaking to. I did not see the contradiction until I set the two labels beside each other for this book.
-> I set this down before I describe anybody else's celebration, because the machinery is mine. A man who has cast himself as a lion is not a neutral witness to a crowd. What follows is a public scene that I enjoyed and wanted to join. I watched it as someone who had already done in private a version of what I am about to describe other people doing in public, and who had already learned how quickly a role can be mistaken for the truth about a person.
+> I set this down before I describe anybody else's celebration, because the machinery is mine. A man who has cast himself as a lion is not a neutral witness to a crowd. What follows is a public scene that I enjoyed and wanted to join. I watched it as someone who had already done in private a version of what I am about to describe other people doing in public, and who had already learned how quickly a role can be mistaken for the truth about a person. The prayer at the ruins was addressed to Christ. The chant on the grass was addressed to a crowd. Keeping those two apart is the discipline of this chapter.
 > Haaland is standing. Behind him, his teammates sit on the grass, their knees raised, boots pointing towards the camera. A red drum rests on its metal stand. The AFP photograph was taken after Norway beat Brazil 2–1 on 5 July 2026. Haaland had led the celebration at the drum. In the picture, the match has given way to a different arrangement of bodies.^2^
 > There are no oars.
 > The movement supplies them. Arms reach forward and pull back. The people taking part follow the beat and call out "Ro", the Norwegian command to row. FIFA's account of the celebration credits Ole Frøystad with the chant.^3^ The action is easy to recognise. A person can understand what to do before learning the names of the people beside him.
@@ -46,6 +166,7 @@
 > The distinction allows the scene to keep its joy. I do not need it to repair a household in order to welcome it. I can be grateful that people made something others wanted to join. Gratitude is a better starting point than conscripting them into a story they have not agreed to tell.
 > The photograph holds the men in place. Beyond its edges, their lives continue. The question for me is what I do after looking at it, when there is no common beat to tell me when to move.
 > 30. The Word That Attached Itself
+> A description can also arrive from outside a person's life. It can reach strangers before they learn much else about him. In my family, one of those descriptions attached itself to Valentin Back, Michael's father. The word was informer. It has a documentary history that can be examined, and the papers do not all assign him the same role. Valentin Back was my great-grandfather. That gives me an interest in lifting the word from his name, and what follows should be read with that interest in view.
 601c629
 < The column was brief. In its few lines a reader met a birthplace in Russia, an American naturalisation, ties to New York, a killing near Kiryat Motzkin in Palestine, and an accusation: that the man had testified against Revisionists. Biographical assertion and accusation stood in the same type, at the same size, with nothing on the page to mark which was which. The item was a United Press wire report, one printing among several of the same dispatch in the same international news cycle, and it was published on 23 June. The role it assigned him was already in print, an ocean and most of a continent from where he was killed. The item does not show how its claims had been checked. ^2^
 ---
@@ -71,11 +192,11 @@
 > On 26 September, Seligman wrote that he had received information that Back had lost his job after the summons was requested. The sequence is his information, and it is dated. The causal link is his reading; no personnel record in the material confirms or contradicts it, and it stands as the advocate's. ^5^
 > A separate document, dated 20 September, reports Back employed by the 2nd Battalion, The King's Own Royal Regiment, at Sarafand. No British personnel record has corroborated that employment in this work. The regimental museum does place the battalion at Sarafand that September; it does not identify Back there.^6^
 > Three British publications have been searched: the transcribed battalion medal roll, the battalion's printed operational notes and the police administrative report for 1938. None supplied a matching name from the case.^7^ Their coverage has not been shown to include every kind of employment Back might have held. His absence cannot settle whether he served as an enlisted soldier or a locally employed interpreter.
-> On 3 October 1938, according to the appeal draft written that day, a military court sentenced Yaakov Kotick to death under the Defence Regulations.^8^
+> According to an appeal draft dated 3 October 1938, a military court had sentenced Yaakov Kotick to death under the Defence Regulations.^8^
 619c647
 < Contemporary newspapers in several countries described Valentin Back as an informer, a provocateur, a prosecution witness. The terms varied; the direction did not. Later institutional biographies repeated the identification, and it passed into reference material. ^10^
 ---
-> Contemporary newspapers in several countries described Valentin Back as an informer, a provocateur, a prosecution witness. The terms varied; the direction did not. Later institutional biographies repeated the identification, and it passed into reference material. ^9^
+> Contemporary newspapers described Valentin Back as an informer. The Québec item is the one read for this book; a Tel Aviv paper of the same date has been located but not read. Later institutional biographies repeated the identification, and it passed into reference material. ^9^
 622,624c650,652
 < By 23 June 1939, Valentin Back had been found shot dead. Contemporary reports placed the killing near Kiryat Motzkin. The Israeli memorial record gives the date of death as 22 June. ^11^
 < The British operations file covering those weeks is catalogued but unread. Later memorial accounts name an organisation and propose a motive; this work has not checked either against a contemporary investigative record. That Back was killed because he was considered an informer remains an inference. The killing cannot establish whether the accusation was true.^11^
@@ -84,10 +205,14 @@
 > By 23 June 1939, Valentin Back had been found shot dead. Contemporary reports placed the killing near Kiryat Motzkin. The Israeli memorial record gives the date of death as 22 June. ^10^
 > The British operations file covering those weeks is catalogued but unread. Later memorial accounts name an organisation and propose a motive; this work has not checked either against a contemporary investigative record. That Back was killed because he was considered an informer remains an inference. The killing cannot establish whether the accusation was true.^10^
 > On 9 November 1942, four years after the trial and more than three years after the killing, Israel Rokach, mayor of Tel Aviv, wrote to the High Commissioner seeking clemency. His four-page letter survives in Seligman's file. Rokach said he had examined the case and spoken with people who knew Kotick. He identified Eliegin, a variant of the file's Elagine, as the source of the police information. He described a trap aimed at Tondowsky into which Kotick had fallen.^11^
+627c655
+< The shared advocacy purpose requires attribution; it does not make the documents false. The formal witness list places Back on the defence side, while the appeal identifies Elagine as the informer. Those findings correct the account of this operation. They cannot provide a verdict on everything Back may have done, and an incomplete personnel search cannot supply one.
+---
+> The shared advocacy purpose requires attribution; it does not make the documents false. The formal witness list places Back on the defence side, while the appeal identifies Elagine as the informer. Those findings complicate the account of this operation. They cannot provide a verdict on everything Back may have done, and an incomplete personnel search cannot supply one.
 630c658
 < A Lehi Heritage Association biography says that Valentin Back was killed "immediately" after Kotick's death sentence.^13^ The sentence was passed on 3 October 1938; the killing followed in late June 1939, about eight and a half months later.
 ---
-> A Lehi Heritage Association biography says that Valentin Back was killed "immediately" after Kotick's death sentence.^12^ The sentence was passed on 3 October 1938; the killing followed in late June 1939, about eight and a half months later.
+> A Lehi Heritage Association biography says that Valentin Back was killed "immediately" after Kotick's death sentence.^12^ The sentence had been passed by 3 October 1938; the killing followed in late June 1939, more than eight months later.
 633c661
 < At some point before mid-July 1992, Yaakov Kotick sat down with an interviewer from a university oral-history project. One excerpt of the recording has been checked in this work: a page of the transcript, a short stretch of the tape. On it, Kotick speaks of "an agent for the British" and of "pure informing." He does not name the agent. Valentin Back is not named in the preserved excerpt. ^14^
 ---
@@ -127,19 +252,159 @@
 < The photograph holds the men in place. Beyond its edges, their lives continue. The question for me is what I do after looking at it, when there is no common beat to tell me when to move.
 ---
 > The distinction matters when I look again at the public image of Norway in the previous chapter. A shared movement can be seen and described. The people taking part still have lives and convictions that the image cannot tell us.
-865c870
+671c676
+< Arie's writing supplies relationships that the lines represent. Victor, also called Vitia, was his father. Valentin, or Valia, was Michael's father. They were brothers, the sons of Yeva and Pavel. Arie and Michael shared grandparents. When Arie described his grandmother to Tor Hilmar Årnes in the family correspondence, he was preserving the life of a woman who belonged to Michael's history too.^1^^3^
+---
+> Arie's writing supplies relationships that the lines represent. Victor, also called Vitia, was his father. Valentin, or Valia, was Michael's father. They were brothers, the sons of Yeva and Pavel. Arie and Michael shared grandparents. When Arie described his grandmother to Tor Hilmar Årnes in the family correspondence, he was preserving the life of a woman who belonged to Michael's history too.^1^^, ^^3^
+676c681
+< Yeva's work needs room in that history. Arie describes the home restaurant she ran with Pavel after his railway employment ended. She cooked and served the food, then washed up. He bought supplies in the markets and helped serve the meals. The family accounts differ over the number of customers, but the division of labour is clear in the account of Yeva.^1^^3^
+---
+> Yeva's work needs room in that history. Arie describes the home restaurant she ran with Pavel after his railway employment ended. She cooked and served the food, then washed up. He bought supplies in the markets and helped serve the meals. The family accounts differ over the number of customers, but the division of labour is clear in the account of Yeva.^1^^, ^^3^
+692c697
+< Arie's family account names Yeva as Michael's grandmother and his own. It identifies her brothers, including Meir and Vladimir Grosman. The family drawing places Hava, or Yeva, beneath Eliah and Rachel Grossman and places Michael beneath Valentin. These are direct statements of relationship in the family's own records. They deserve to be read as such.^1^
+---
+> Arie's family account names Yeva as Michael's grandmother and his own. It identifies her brothers, including Meir and Vladimir Grossman, a name Arie's account spells Grosman. The family drawing places Hava, or Yeva, beneath Eliah and Rachel Grossman and places Michael beneath Valentin. These are direct statements of relationship in the family's own records. They deserve to be read as such.^1^
+695c700
+< Their practices were various. In Arie's recollection, Pavel taught him to build houses of cards; Yeva prepared meals and read books. In my own childhood, Hilmar repaired nets. Michael paid for language courses and helped prepare a letter. The family did not hand the same object unchanged from one generation to the next. Different people gave what they had, under different conditions, and later people had to decide what to do with it.^1^^2^
+---
+> Their practices were various. In Arie's recollection, Pavel taught him to build houses of cards; Yeva prepared meals and read books. In my own childhood, Hilmar repaired nets. Michael paid for language courses and helped prepare a letter. The family did not hand the same object unchanged from one generation to the next. Different people gave what they had, under different conditions, and later people had to decide what to do with it.^1^^, ^^2^
+698c703
+< Witness adds another element. Gerda asked someone who knew the family to confirm their Jewish belonging. Michael wrote about me for people who did not know me. Arie set down memories for relatives who could not recover his childhood for themselves. Each act depended upon a person being able to say something that another person needed to hear.^1^^3^
+---
+> Witness adds another element. Gerda asked someone who knew the family to confirm their Jewish belonging. Michael wrote about me for people who did not know me. Arie set down memories for relatives who could not recover his childhood for themselves. Each act depended upon a person being able to say something that another person needed to hear.^1^^, ^^3^
+700c705
+< Tor is part of that history of keeping. The correspondence addressed to him carried Arie's account into our family's papers. The garment he made commemorated Hilmar's working life. My father helped preserve material about both sides of the family. The work now in front of me did not begin when I began to write a book.^1^^2^
+---
+> Tor is part of that history of keeping. The correspondence addressed to him carried Arie's account into our family's papers. The garment he made commemorated Hilmar's working life. My father helped preserve material about both sides of the family. The work now in front of me did not begin when I began to write a book.^1^^, ^^2^
+703c708
+< I am Jewish and Norwegian. In writing this history I am giving those words particulars. I am not asking a sequence of admired ancestors to guarantee my character. They cannot do that for me. What they can give me is knowledge of lives I have a reason to attend to, and examples of care I may answer with care of my own.
+---
+> I am Jewish and Norwegian, by the descent the family's own papers record. In writing this history I am giving those words particulars. I am not asking a sequence of admired ancestors to guarantee my character. They cannot do that for me. What they can give me is knowledge of lives I have a reason to attend to, and examples of care I may answer with care of my own.
+708c713
+< I want to keep that distance open. Norway matters to this book because it is the country in which the Solbak Årnes family's story must be told. Its institutions and habits enter the account through particular people: what they were taught, what they were permitted to do, what they passed on. A verdict on the country cannot substitute for those lives. Neither can gratitude for the country decide in advance which parts of them may be spoken about.
+---
+> I want to keep that distance open. One reason Norway matters to this book is that it is the country in which the Solbak Årnes family's story must be told. Its institutions and habits enter the account through particular people: what they were taught, what they were permitted to do, what they passed on. A verdict on the country cannot substitute for those lives. Neither can gratitude for the country decide in advance which parts of them may be spoken about.
+740d744
+< The Jewish history in this book also has to remain the history of particular people. My Christian account of the family is not an instruction to convert the generations on a chart into examples of Christian domestic life. Their own testimony and practices matter. When I speak of what the family owes under Christ, I am stating the responsibility I acknowledge, not putting a confession into an ancestor's mouth.
+756d759
+< Nor does putting Christ before the family make Jewish belonging an error to be corrected. I am stating whom I acknowledge as Lord. I am not issuing a retrospective instruction that the people in our family record must have understood their lives as I understand mine. Their particularity remains. My responsibility includes telling the truth about it when it complicates a simple account of Norwegian Christianity.
+761c764
+< I must decide whether my defence of the family can live under that judgement. If it cannot, the Christian language in it is serving an argument I have already decided to keep regardless of Christ. If it can, reconciliation has to begin somewhere deeper than the restoration of the household I want.
+---
+> I must decide whether my defence of the family can live under that judgement. If it cannot, the Christian language in it is serving an argument I have already decided to keep regardless of Christ. If it can, reconciliation has to begin somewhere deeper than the restoration of the household I want. The one who makes that demand is the same who, at the end of this book, feeds Peter on the shore before he asks anything of him.
+788c791
+< Neither can my Christian reading dispossess the Jewish family history that has brought these questions close. Malachi's address to Israel does not become an address to Norway because I read it here. The book's Christian account of fulfilment is mine to state and defend. It is not a confession I may attribute to every Jewish relative, or a condition on which their place in the family depends.
+---
+> Neither can my Christian reading dispossess the Jewish family history that has brought these questions close. Malachi's address to Israel does not become an address to Norway because I read it here. 
+793c796
+< Malachi's final words warn of complete destruction. I must not remove that warning because it makes the promise less comfortable. It belongs to God's address. I have no warrant to turn it into a forecast of Norway's future or a threat attached to a reader's decision about contact. Social statistics cannot tell me when God will punish a country.
+---
+> Malachi's final words warn of complete destruction. I must not remove that warning because it makes the promise less comfortable. It belongs to God's address. I have no warrant to turn it into a forecast of Norway's future or a threat attached to a reader's decision about contact. Social statistics cannot tell me whether God will punish a country, or when.
+798c801
+< 38. Turn Toward the Father
+---
+> 38. Turn Towards the Father
+812c815
+< There can also be a wrong done by the son which needs acknowledgment. The father's failures do not automatically explain away everything the son has done. But the reverse is equally true: a son's wrongdoing does not excuse everything done to him. A truthful account need not distribute blame evenly. It needs to identify responsibility where responsibility belongs.
+---
+> There can also be a wrong done by the son which needs acknowledgement. The father's failures do not automatically explain away everything the son has done. But the reverse is equally true: a son's wrongdoing does not excuse everything done to him. A truthful account need not distribute blame evenly. It needs to identify responsibility where responsibility belongs.
+827c830
+< There is also a false peace which depends upon nobody naming what happened. It can resemble reconciliation from outside because the argument has stopped. If the cost is continued harm or an enforced false account, its quietness cannot settle the question. The instruction to live at peace belongs beside Paul's demand for love without hypocrisy and his rejection of evil.^2^
+---
+> There is also a false peace which depends upon nobody naming what happened. It can resemble reconciliation from outside because the argument has stopped. If the cost is continued harm or an enforced false account, its quietness cannot settle the question. The instruction to live at peace belongs beside Paul's demand for sincere love and his rejection of evil.^2^
+846c849
+< The family history recovered for this book carries names as well as practices. The Back and Grosman records belong within the account of the Solbak Årnes family's Jewish inheritance. They deserve truthful preservation because these people lived, and because their relationships are part of the family's history. Their worth does not depend upon how useful they become to my argument about Norway.
+---
+> The family history recovered for this book carries names as well as practices. The Back and Grossman records belong within the account of the Solbak Årnes family's Jewish inheritance. They deserve truthful preservation because these people lived, and because their relationships are part of the family's history. Their worth does not depend upon how useful they become to my argument about Norway.
+863,865c866,868
+< During the week, there are other routines. I read with my daughter Sunniva before she goes to bed. We sing before and after meals. I take our dog Elisja for walks. These are parts of our ordinary life, repeated on different days.
+< The family history in this book reaches much further back than any of those acts. It gives me names I can pass on to Sunniva and accounts whose tellers I can name. Hilmar's work in the boat belongs to my memory. Arie's memories of Yeva and Pavel reach me through his writing. Michael's part in the family belongs to both lived memory and the papers he left behind. I can keep the difference clear when I tell the stories.
 < At home, I have my own part to do. On Sunday, usually with just Maria beside me, I lead the little service in our living room. She has baked the bread. We break it together.
 ---
+> During the week, there are other routines. I read with my daughter before she goes to bed. We sing before and after meals. I take our dog Elisja for walks. These are parts of our ordinary life, repeated on different days.
+> The family history in this book reaches much further back than any of those acts. It gives me names I can pass on to my daughter and accounts whose tellers I can name. Hilmar's work in the boat belongs to my memory. Arie's memories of Yeva and Pavel reach me through his writing. Michael's part in the family belongs to both lived memory and the papers he left behind. I can keep the difference clear when I tell the stories.
 > At home, I have my own part to do. On Sunday, usually with just Maria beside me, I lead the little service in our living room. She has baked the bread. We break it together. One place at that table is not filled. For years, I have lived without the ordinary freedom to be present in my son's life, and finishing this book has not restored it. The bread is still given before it is broken. The risen Christ who fed Peter on the shore is the host in this room, and I lead nothing that he has not first given.
-894c899
+869,870c872,873
+< 1. Author's account in RO Voice Pilot 03, v0.2, limited to the borrowed drum, the 2024 location, clothing, prayer and return home; use of the scene approved and narrowed by the author on 6 September 2026. The private dispute and its allegations are excluded. This passage does not establish another person's thoughts or the effects of the prayer.
+< 2. Hilmar memory: author's recorded childhood account, preserved in RO Toneprint Rewrite Batch A, v0.2.1, and RO Voice Pilot 03, v0.2; see chapters 1–3. No particular day's fishing sequence is reconstructed.
+---
+> 1. Author's own written account of the scene, held in the family collection, limited to the borrowed drum, the 2024 location, clothing, prayer and return home; use of the scene approved and narrowed by the author on 6 September 2026. The private dispute and its allegations are excluded. This passage does not establish another person's thoughts or the effects of the prayer.
+> 2. Hilmar memory: author's recorded childhood account, preserved in his own written accounts in the family collection; see chapters 1–3. No particular day's fishing sequence is reconstructed.
+872,873c875,876
+< 1. Author's recorded childhood memories, preserved in RO Toneprint Rewrite Batch A, v0.2.1, former chapter 2, “The Real Boat”; family use confirmed by the author, 6 September 2026. The fishing location is Bunnefjorden, not Sæterelva. No particular day's sequence or dialogue is reconstructed here.
+< 2. Hilmar Årnes, telephone conversation with the author, 30 July 2026, 03:57–05:40 and 17:37–18:53; Author Interview Record 0019, v0.2. Name, date and subsequent corrections checked against Result 0020B, v0.3. Interview statements are Hilmar's recollections.
+---
+> 1. Author's recorded childhood memories, preserved in his own written account in the family collection; family use confirmed by the author, 6 September 2026. The fishing location is Bunnefjorden, not Sæterelva. No particular day's sequence or dialogue is reconstructed here.
+> 2. Hilmar Årnes, telephone conversation with the author, 30 July 2026, 03:57–05:40 and 17:37–18:53; recording and transcript in the family collection. Name, date and subsequent corrections checked against the family's review of the interview. Interview statements are Hilmar's recollections.
+875c878
+< 1. Hilmar Årnes, conversation of 30 July 2026, 23:42–28:03 and 31:49–34:56; Author Interview Record 0019, v0.2. The differing hook and tub counts are deliberately not resolved.
+---
+> 1. Hilmar Årnes, conversation of 30 July 2026, 23:42–28:03 and 31:49–34:56; recording and transcript in the family collection. The differing hook and tub counts are deliberately not resolved.
+878c881
+< 4. Result 0020B: Hilmar Interview Final Source Audit, v0.3, F26, F30 and F34. Tor's authorship of the memorial garment is family-confirmed. Its vessel list is not treated as a complete or independently verified chronology.
+---
+> 4. The family's review of the Hilmar interview, items F26, F30 and F34, family collection. Tor's authorship of the memorial garment is family-confirmed. Its vessel list is not treated as a complete or independently verified chronology.
+880,881c883,884
+< 1. Author's words to Hilmar Årnes, 30 July 2026, 53:22–55:16, Author Interview Record 0019, v0.2. In English: “You were enjoying rowing and whistling and singing. And I was enjoying being with you.” Hilmar's subsequent account of a larger fishing vessel is not assigned to the child's rowing boat.
+< 2. The whistling and the child's all-clear interpretation are preserved in RO Toneprint Rewrite Batch A, v0.2.1, former chapter 2. The tune, weather and exact dates of individual trips are not reconstructed.
+---
+> 1. Author's words to Hilmar Årnes, 30 July 2026, 53:22–55:16, recording and transcript in the family collection. In English: “You were enjoying rowing and whistling and singing. And I was enjoying being with you.” Hilmar's subsequent account of a larger fishing vessel is not assigned to the child's rowing boat.
+> 2. The whistling and the child's all-clear interpretation are preserved in the author's own written account in the family collection. The tune, weather and exact dates of individual trips are not reconstructed.
+883,884c886,887
+< 1. Gerda to “Onkel Mejer”, 23 May 1947, two-page private family letter reproduced in Jewish ancestery.pdf, PDF pp. 7–8. Both original pages visually checked on 6 September 2026 against RO Source Audit 11, v0.4, transcription and translation. The letter is Gerda's contemporary account; no reply or community decision is claimed. The three camp contexts and the concentration-camp duration are kept distinct. No identification of the uncle beyond the relationship stated in the letter is required here.
+< 2. Author-confirmed memories preserved in RO Voice Pilot 02: You've Made It, v0.5.1. England/France dates are also in the original 2004 Parents' Letter, RO Source Audit 12, item A4. The eleven-month exchange and host family are covered by the controlled exchange file; no travel scene or dialogue is reconstructed.
+---
+> 1. Gerda to “Onkel Mejer”, 23 May 1947, two-page private family letter reproduced in Jewish ancestery.pdf, PDF pp. 7–8. Both original pages visually checked on 6 September 2026 against the transcription and translation held in the family collection. The letter is Gerda's contemporary account; no reply or community decision is claimed. The three camp contexts and the concentration-camp duration are kept distinct. No identification of the uncle beyond the relationship stated in the letter is required here.
+> 2. Author-confirmed memories preserved in his own written account, family collection. England/France dates are also in the original 2004 Parents' Letter, the family-document file, item A4, family collection. The eleven-month exchange and host family are covered by the controlled exchange file; no travel scene or dialogue is reconstructed.
+887,888c890,891
+< 1. Author-confirmed memory and interpretation in RO Voice Pilot 02: You've Made It, v0.5.1, and its ratification in RO Source Audit 11, v0.4. The remembered sentence is present tense: “Du har klart det”, not “Du hadde klart det”. Its location and the interval to Michael's death remain unspecified. Cousins remain unnamed and receive no attributed defect or motive. The Dana Cup country/year is not newly assigned.
+< 2. RO Source Audit 12, v0.7, items A9–A10: original newspaper cuttings with handwritten notes. Authorship and “Bestefar i Lia” are author-confirmed. The present chapter paraphrases the controlled record; the originals are not reproduced here.
+---
+> 1. Author-confirmed memory and interpretation, recorded in his own written account and the family-document review, family collection. The remembered sentence is present tense: “Du har klart det”, not “Du hadde klart det”. Its location and the interval to Michael's death remain unspecified. Relatives present remain unnamed and receive no attributed defect or motive. The Dana Cup country/year is not newly assigned.
+> 2. Family-document file, items A9–A10, family collection: original newspaper cuttings with handwritten notes. Authorship and “Bestefar i Lia” are author-confirmed. The present chapter paraphrases the controlled record; the originals are not reproduced here.
+890,892c893,895
+< 1. Application Enclosure - Parents' Letter, 2004, original image 1000025846.jpg, RO Source Audit 12, item A4. Original visually checked 6 September 2026. The heading, lack of signature and parental first-person voice do not identify the drafter; Michael's authorship is author-confirmed memory. The page records the brother's prematurity, but the medical interval and living relatives' ages are not needed here. “As if it were my own child” is not in the document and is not used.
+< 2. Author's application letter, original image 1000025848.jpg, RO Source Audit 12, item A5. Original visually checked 6 September 2026. The free-training benefit is explicitly recorded. Assistance at a hospital internet café is not represented as clinical care.
+< 3. The closing interpretation and its express limit were ratified in RO Voice Pilot 02: You've Made It, v0.5.1. They remain the author's interpretation, supported by the contemporary documents, not an external assessment of his later fatherhood.
+---
+> 1. Application Enclosure - Parents' Letter, 2004, original image 1000025846.jpg, the family-document file, item A4, family collection. Original visually checked 6 September 2026. The heading, lack of signature and parental first-person voice do not identify the drafter; Michael's authorship is author-confirmed memory. The page records details of the brother's birth that are not needed here. “As if it were my own child” is not in the document and is not used.
+> 2. Author's application letter, original image 1000025848.jpg, the family-document file, item A5, family collection. Original visually checked 6 September 2026. The free-training benefit is explicitly recorded. Assistance at a hospital internet café is not represented as clinical care.
+> 3. The closing interpretation and its express limit are recorded in the author's own written account, family collection. They remain the author's interpretation, supported by the contemporary documents, not an external assessment of his later fatherhood.
+894c897
 < 1. Author-approved scope and wording, NGA Book Constitution 02, v2.3, §H.15. No cause, person, institution, procedure, date or identifying detail concerning the loss of contact is added. The chapter's distinctions are moral and conceptual; no prevalence, diagnosis or causal estimate is claimed.
 ---
-> 1. Author-approved scope and wording, NGA Book Constitution 02, v2.3, §H.15. No cause, person, institution, procedure, date or identifying detail concerning the loss of contact is added. The chapter's distinctions are moral and conceptual; no prevalence, diagnosis or causal estimate is claimed. The approved wording is printed in full, as in the Prologue.
-916a922
+> 1. Author-approved scope and wording, under the author's own standing ruling on this subject. No cause, person, institution, procedure, date or identifying detail concerning the loss of contact is added. The chapter's distinctions are moral and conceptual; no prevalence, diagnosis or causal estimate is claimed. The approved wording is printed in full, as in the Prologue.
+896c899
+< 1. Hilmar Årnes, conversation with the author, 30 July 2026, 31:49–36:47, Author Interview Record 0019, v0.2; see chapter 2. The present chapter develops the reciprocal question adopted in NGA Book Constitution 02, §§I.2, I.7–I.10. It reports no population effect and gives no instruction to resume unsafe contact. Evidence about digital use is examined in chapters 9–10.
+---
+> 1. Hilmar Årnes, conversation with the author, 30 July 2026, 31:49–36:47, recording and transcript in the family collection; see chapter 2. The present chapter develops the reciprocal question adopted for this book. It reports no population effect and gives no instruction to resume unsafe contact. Evidence about digital use is examined in chapters 9–10.
+899c902
+< 2. Jonathan Haidt, The Anxious Generation (2024); the author's . Attribution of the thesis, not endorsement of its causal reach. The dispute is examined in chapter 10. The account of the conversation with Hilmar rests on Author Interview Record 0019, 30 July 2026; see chapters 1–3.
+---
+> 2. Jonathan Haidt, The Anxious Generation (2024); the author's . Attribution of the thesis, not endorsement of its causal reach. The dispute is examined in chapter 10. The account of the conversation with Hilmar rests on the recorded interview of 30 July 2026, family collection; see chapters 1–3.
+916a920
 > 5. Statistics Norway, Hvor mange føler seg ensomme i Norge?, published 5 December 2025, trend section: adults aged eighteen and over much troubled by loneliness in the previous fourteen days, 12.1 per cent in March 2020, 15.5 per cent in 2021 and 14.5 per cent in 2025, described by the agency as still above the 2020 level; aged eighteen to twenty-four, nearly 24 per cent in 2020, just over 30 per cent in 2021 and 23.4 per cent in 2025, the lowest since 2020. A later section of the same article gives 23.3 per cent for 2025; the trend section’s figure is used here. Subjective outcome measure, not relationship quality. .
-933a940
+921c925
+< 4. Statistics Norway, , total rows for 2021 and 2025, and the definition note. The difference and percentage change are calculated from the two published counts, using 2021 as the denominator and rounding to one decimal place. The note excludes affiliates from 2021 onwards. See also . Neither the stock change nor the definition change supplies a count of altered beliefs or household practices.
+---
+> 4. Statistics Norway, , total rows for 2021 and 2025, and the definition note. The difference and percentage change are calculated from the two published counts, using 2021 as the denominator and rounding to one decimal place. The note excludes affiliates from 2021 onwards. See also . Neither the stock change nor the definition change supplies a count of altered beliefs or household practices. The total rows for 2024 and 2025 give 3,449,013 and 3,427,657; table read 18 October 2026.
+933a938
 > 5. Statistics Norway, Fruktbarheten fortsetter å øke, published 12 March 2026: 55,400 live births in 2025, 1,400 more than in 2024; total fertility rate 1.48 in 2025 against 1.44 in 2024, the third consecutive annual increase, described by the agency as still low in a historical perspective. The agency attributes most of the 2025 increase to women aged thirty to thirty-four. The rounded count corresponds to the 55,401 in note 3. Outcome count and period rate, not relationship quality. .
-989,1008c996,1015
+935,936c940,941
+< 1. Ragni Hege Kitterød and Marit Rønsen, , Statistics Norway, Reports 44/2013, table 4.4, printed p. 27; housework detail in tables 3.7–3.8, p. 22. Married/cohabiting fathers, youngest child aged 0–6; daily averages for the specified groups, including days with none of the activity. Childcare is the main activity. The comparison is not a longitudinal account of the same fathers.
+< 2. Statistics Norway, , 19 December 2024, corrected 8 August 2025; family-stage definition and discussion around figures 1–2. Analysis age: 18–66. Couples include married/cohabiting people living with children, including stepchildren and adopted children. Work figures in the body compare groups within 2022; they are not joined to the earlier report as an uninterrupted series. The source states that both partners' diaries were not collected within each couple.
+---
+> 1. Ragni Hege Kitterød and Marit Rønsen, , Statistics Norway, Reports 44/2013, table 4.4, printed p. 27; housework detail in tables 3.7–3.8, p. 22. Married/cohabiting fathers, youngest child aged 0–6; daily averages for the specified groups, including days with none of the activity. Childcare is the main activity. The comparison is not a longitudinal account of the same fathers. The same report states that fathers with children under fifteen spent three hours and fifty minutes a day on household work in 2010, one hour and twenty minutes more than at the start of the 1970s, with the increase concentrated in the last decade (Statistics Norway summary of the report, 15 October 2013).
+> 2. Statistics Norway, , 19 December 2024, corrected 8 August 2025; family-stage definition and discussion around figures 1–2. Analysis age: 18–66. Couples include married/cohabiting people living with children, including stepchildren and adopted children. Work figures in the body compare groups within 2022; they are not joined to the earlier report as an uninterrupted series. The source states that both partners' diaries were not collected within each couple. For the whole population, 1971 to 2010: Statistics Norway, Tidene skifter: Tidsbruk 1971–2010, Statistiske analyser 125, 2 January 2012: men 47 minutes more household work per day in 2010 than in 1971; women 2 hours and 5 minutes less.
+983c988
+< 1. , BM 037/12, pp.12–14, decision and statement on the church's relationship with Jews during the occupation. Primary evidence for the bishops' 2012 acknowledgment; its account of wartime events is retrospective.
+---
+> 1. , BM 037/12, pp.12–14, decision and statement on the church's relationship with Jews during the occupation. Primary evidence for the bishops' 2012 acknowledgement; its account of wartime events is retrospective.
+985c990
+< 28. Rite Without Formation
+---
+> 28. After the Ceremony
+989,1008c994,1013
 < 1. Author's direct confirmation, 6 September 2026: the lion and king images are his own figurative language, expressed here in plainer words. The relationship between Valentin and his son Michael follows the family account discussed in chapters 31–32.
 < 2. L'Événement-Journal, Québec, 23 June 1939, «Juif américain tué», name form "Paul Valentine Bach"; BAnQ record; article page and OCR reviewed. United Press chain publication; the role, citizenship, and New York claims are contemporaneous press assertions, unverified against primary records.
 < 3. Jabotinsky Institute, Max Seligman defence file, HT 13–3/10 (item 116300), , PDF p. 59: appeal dated 3 October 1938 describes the arrest on 20 August 1938 and the operation aimed at Tondowsky. Contextual account on PDF pp. 23–24; those two pages do not carry an explicit document date. The arrest account is the defence's submission. These page placements were visually checked on 6 September 2026.
@@ -181,7 +446,18 @@
 > 13. Hebrew University of Jerusalem, oral-history interview by Israel Oron with Yaakov Kotick, conducted before 13 July 1992; transcript p. 5; audio part A c. 38:38–38:45. Only the excerpt has been checked; Valentin Back is not named in it; absence of a name does not establish absence of suspicion. This excerpt is kept separate from the press and memorial accounts.
 > 14. The name searches concern the Palestine Police Force administrative annual report for 1938, KOLIB0239 and the transcribed 2nd King's Own medal roll. Their negative results do not establish absence from records outside those publications.
 > 15. Unopened, catalogue-checked files include The National Archives, CO 733/402/14 (capital-sentence returns, 1938–1939), CO 733/379/11 (military-court death sentences, 1938), WO 32/9498 (operations, 1 August–31 October 1938), CO 733/359/10 (CID bulletins), CO 733/359/1 (Jewish supernumeraries) and WO 32/9500 (operations, 1 April–30 July 1939). Additional leads include the BW150 series, King's Own Museum KO0622 and KO1832 items, and MC/100/157 in the Tegart Collection. No case-bearing British file has been read for this account. The Jabotinsky catalogue's Valentin Beck is an index spelling; read document pages govern quotations from those pages. The account rests on the defence archive, Rokach's stated inquiry, contemporary press and later recollection. These sources have different purposes and are not all independent.
-1051c1058
-< 1. Author's direct description, 6 September 2026: Sunday Communion, living-room setting, usual participants, Jesus Prayer, Maria's bread research, wine, reading with Sunniva, songs before and after meals, walks with Elisja. The account describes recurring practice rather than one reconstructed occasion. No particular wording of the Jesus Prayer, recipe ingredients, book title or song text is supplied. The bread is described as the family's adaptation, not as a verified ancient recipe.
+1015c1020
+< 2. Hilmar material: Author Interview Record 0019, v0.2, and Result 0020B, v0.3; chapters 1–3. Michael's journeys and the author's memories: RO Voice Pilot 02, v0.5.1; chapters 4–6.
 ---
-> 1. Author's direct description, 6 September 2026: Sunday Communion, living-room setting, usual participants, Jesus Prayer, Maria's bread research, wine, reading with Sunniva, songs before and after meals, walks with Elisja. The account describes recurring practice rather than one reconstructed occasion. No particular wording of the Jesus Prayer, recipe ingredients, book title or song text is supplied. The bread is described as the family's adaptation, not as a verified ancient recipe. The sentence about the author's son repeats the approved wording of the Prologue and Chapter 7 and adds no new detail. The closing reference to Christ follows John 21, as in Chapter 40.
+> 2. Hilmar material: the recorded interview of 30 July 2026 and the family's review of it, family collection; chapters 1–3. Michael's journeys and the author's memories: the author's own written account, family collection; chapters 4–6.
+1039c1044
+< 38. Turn Toward the Father
+---
+> 38. Turn Towards the Father
+1051,1052c1056,1057
+< 1. Author's direct description, 6 September 2026: Sunday Communion, living-room setting, usual participants, Jesus Prayer, Maria's bread research, wine, reading with Sunniva, songs before and after meals, walks with Elisja. The account describes recurring practice rather than one reconstructed occasion. No particular wording of the Jesus Prayer, recipe ingredients, book title or song text is supplied. The bread is described as the family's adaptation, not as a verified ancient recipe.
+< 2. Family accounts and their attribution: chapters 1–6 and 31–32.
+\ No newline at end of file
+---
+> 1. Author's direct description, 6 September 2026: Sunday Communion, living-room setting, usual participants, Jesus Prayer, Maria's bread research, wine, reading with the author's daughter, songs before and after meals, walks with Elisja. The account describes recurring practice rather than one reconstructed occasion. No particular wording of the Jesus Prayer, recipe ingredients, book title or song text is supplied. The bread is described as the family's adaptation, not as a verified ancient recipe. The sentence about the author's son repeats the approved wording of the Prologue and Chapter 7 and adds no new detail. The closing reference to Christ follows John 21, as in Chapter 40.
+> 2. Family accounts and their attribution: chapters 1–6 and 31–32.
