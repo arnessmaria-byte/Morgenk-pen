@@ -324,7 +324,7 @@ What set him off was recent. The anger was old. He had learned it much earlier, 
 | Covers up fear | Names what was wrong |
 | Burns up energy | Puts energy to use |
 
-Anger itself is not always the problem. Anger you never look at is.
+Anger itself is not always the problem. Never looking at it is.
 
 ### What This Day Is Really About
 
@@ -478,7 +478,7 @@ Failure only disqualifies you from growing if you never ask what it means.
 
 ### What This Day Is Really About
 
-After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else's fall. But the lesson you need is in your own. Failure is feedback. Every time your effort falls apart, it shows where you counted on a strength you had never trained.
+After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else's fall. But the lesson you need is in your own. Failure is feedback. Each failure shows where you counted on a strength you had never trained.
 
 From any failure you can take one of two things: a lesson or an excuse.
 

@@ -354,7 +354,7 @@ Do not make a drama of it, and do not bury it. Work out what it is saying. Setti
 
 ### Healing Forge: When Discontent Turns Against You
 
-In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God’s correction shows you what to change. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
+In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God’s correction shows you what to work on. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
 
 *End of Day 5*
 
@@ -834,7 +834,7 @@ What set him off was recent. The anger was old. He had learned it much earlier, 
 | Covers up fear | Names what was wrong |
 | Burns up energy | Puts energy to use |
 
-Anger itself is not always the problem. Anger you never look at is.
+Anger itself is not always the problem. Never looking at it is.
 
 ### What This Day Is Really About
 
@@ -988,7 +988,7 @@ Failure only disqualifies you from growing if you never ask what it means.
 
 ### What This Day Is Really About
 
-After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback. Every time your effort falls apart, it shows where you counted on a strength you had never trained.
+After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback. Each failure shows where you counted on a strength you had never trained.
 
 From any failure you can take one of two things: a lesson or an excuse.
 
@@ -1552,7 +1552,7 @@ Often, silence means reassurance is being held back.
 
 ### What This Day Is Really About
 
-Today is about staying faithful while that reassurance is held back, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
+Today is about staying faithful without that reassurance, whether or not the feelings return. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
 
 God does not always speak to ease your discomfort. Sometimes He stays silent. He already knows what is in you, and now He is letting you see what has been built there.
 
@@ -1920,7 +1920,7 @@ That is where others are starting to see how you have grown.
 
 ### Healing Forge: When Being Seen Once Meant Risk
 
-Other people’s attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.
+Other people’s attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice your growth, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.
 
 *End of Day 38*
 

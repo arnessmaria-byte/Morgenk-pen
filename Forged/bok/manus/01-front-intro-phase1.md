@@ -354,7 +354,7 @@ Do not make a drama of it, and do not bury it. Work out what it is saying. Setti
 
 ### Healing Forge: When Discontent Turns Against You
 
-In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God's correction shows you what to change. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
+In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God's correction shows you what to work on. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
 
 *End of Day 5*
 

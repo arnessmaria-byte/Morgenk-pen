@@ -63,3 +63,17 @@ Flere av disse feilene oppsto i klarspråksrunden. Rettelsene fører teksten næ
 | 30 | Day 31 | Setningen er klar. Forslaget mister poenget om at troen var uendret, men vanskeligere å nå. |
 | 31 | Om forfatteren | «His health broke» er idiomatisk og bærer bildet videre til «forged in what was left». |
 | 32 | Day 1, Healing Forge | Dette er ditt åpne spørsmål. ChatGPTs forslag snevrer inn og høres ut som selvhjelp. Hvis du mener barmhjertighet mot deg selv: «the first act of mercy toward yourself». |
+
+## D. Forfatterens svar og etterkontroll (18.10.2026)
+
+Forfatteren svarte «følg anbefalingene». Alle ti endringer under B er lagt inn, og funn 2 og 34 står uendret.
+
+En uavhengig leser gikk deretter gjennom alle 23 endrede setninger i sammenhengen de står i. Fem små rettelser er tatt inn:
+- **Day 30:** «held back» sto to ganger på rad og er nå «without that reassurance, whether or not the feelings return».
+- **Day 18:** «Each failure shows where …»
+- **Day 38:** «When people notice your growth, …»
+- **Day 15:** «Never looking at it is.» Dette unngår to «Anger you never …» tett etter hverandre.
+- **Day 5:** «shows you what to work on». Dette unngår «change» to ganger på rad.
+
+To forslag er avvist. Day 9 ville snudd tilbake til påstanden som nettopp ble rettet. Day 4 er forfatterens egen formulering.
+

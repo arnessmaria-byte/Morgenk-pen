@@ -254,7 +254,7 @@ Often, silence means reassurance is being held back.
 
 ### What This Day Is Really About
 
-Today is about staying faithful while that reassurance is held back, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
+Today is about staying faithful without that reassurance, whether or not the feelings return. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
 
 God does not always speak to ease your discomfort. Sometimes He stays silent. He already knows what is in you, and now He is letting you see what has been built there.
 
@@ -622,7 +622,7 @@ That is where others are starting to see how you have grown.
 
 ### Healing Forge: When Being Seen Once Meant Risk
 
-Other people's attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.
+Other people's attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice your growth, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.
 
 *End of Day 38*
 
