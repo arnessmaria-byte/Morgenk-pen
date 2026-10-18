@@ -1,161 +1,161 @@
 # Conclusion: What You Carry Forward
 
-Formation rarely announces that it is complete. It shows itself when pressure returns.
+Growth rarely tells you when it is done. You see it when pressure comes back.
 
-You have walked forty days to set a direction. The goal was to leave with habits, language, and alignment that will last after this book is closed. Feeling improved at the end was not the goal. If you look back searching for one moment of transformation, you may miss what actually changed. Most formation is quiet.
+You have walked forty days to set a direction. The goal was to leave with things that last after you close this book: habits, words for what you face, and a life lined up with what you believe. Feeling better at the end was not the goal. If you look back for one big moment of change, you may miss what actually changed. Most growth is quiet.
 
 ## What Has Actually Happened Here
 
-Nothing extraordinary was demanded of you over these forty days. Nobody asked you to master doctrine, perfect your discipline, or resolve every inner conflict. Again and again you were invited to notice, choose, practice, and stay. That repetition matters.
+These forty days did not demand anything extraordinary of you. Nobody asked you to master doctrine, perfect your discipline, or settle every struggle inside you. Again and again you were invited to notice, choose, practice, and stay with it. That repetition matters.
 
-You have learned to name pressure instead of being ruled by it, and to see patterns instead of excusing them. You have learned to act without waiting for motivation, and to tell the truth sooner. You have learned that faith grows through consistency more than intensity.
+You have learned to name pressure instead of being ruled by it, and to see your patterns instead of making excuses for them. You have learned to act without waiting to feel motivated, and to tell the truth sooner. You have learned that faith grows through steady effort more than through intense moments.
 
-None of this is dramatic. These are structural changes, the kind that hold when life turns ordinary again.
+None of this is dramatic. These are changes in how your life is built, the kind that hold when life turns ordinary again.
 
 ## You Are Still in the Middle
 
-If you expected clarity to end the struggle, you may feel disappointed. That expectation was part of what needed training. Faith that works only when things feel clear does not work very often.
+If you expected that seeing clearly would end the struggle, you may feel let down. The training was meant to change that expectation. Faith that works only when things feel clear does not work very often.
 
-What you have gained is orientation, which is a different thing from certainty. Orientation lets you move without panic, wait without going passive, and stay humble without collapsing. It keeps you walking when your emotions swing and progress feels slow.
+What you have gained is a sense of direction, which is a different thing from being certain. It lets you move without panic, wait without going passive, and stay humble without falling apart. It keeps you walking when your feelings swing and progress feels slow.
 
-You are still being formed, and you are finished pretending that formation happens automatically.
+You are still being shaped, and you no longer pretend that it happens on its own.
 
 ## Alignment Over Arrival
 
-The temptation now is to turn what you have learned into a finish line, as if the work were done because the structure feels familiar. Resist that. Alignment is a position you keep.
+The temptation now is to treat what you have learned as a finish line, as if the work were done because the routine feels familiar. Resist that. Living what you believe is something you have to keep doing.
 
-When you stop practicing, old patterns come back quietly, through drift, distraction, silence, and small compromises dressed up as rest or realism. You already know this. The work ahead is the same work, continued.
+When you stop practicing, old patterns creep back. You drift, you get distracted, you go silent, and you make small compromises dressed up as rest or being realistic. You already know this. The work ahead is the same work. You just keep doing it.
 
 ## What Not to Carry
 
-Put down the pressure to be impressive. You have nothing to prove about your faith, least of all through volume, performance, or intensity. Those are shortcuts around formation, and they leave you fragile.
+Put down the pressure to be impressive. You do not need to prove your faith, and certainly not by being loud, putting on a show, or acting intense. Those are shortcuts around real growth, and they leave you fragile.
 
 Put down the shame over what is unfinished. Growth is uneven. Some habits will stay stubborn, some wounds will need longer care, and some disciplines will feel heavier in one season than in another.
 
-Some of the weight was never yours to choose. Your temperament, your circumstances, and your season of life set real limits. Grace is not offended by limits. It works inside them. None of this disqualifies you. Formation expects resistance, and shame assumes failure. You are not late, and you are still being forged.
+Some of the weight was never yours to choose. Your personality, your situation, and your stage of life set real limits. Grace works inside your limits, and it is not offended by them. None of this disqualifies you. Struggle is a normal part of growing. Shame treats it as failure. You are not late, and you are still being forged.
 
 ## What to Carry Intentionally
 
-Carry practice, not aspiration. Carry clarity, consistency, and community. Carry a faith you can put into your own words. Leave self-accusation, urgency, and isolation behind.
+Carry what you actually practice, not what you only hope to do. Carry a clear head, steady habits, and a place among people who know you. Carry a faith you can put into your own words. Leave behind beating yourself up, rushing, and going it alone.
 
-You now have tools. Use them unevenly if you must, but use them on purpose. Return to the practices that steadied you. Revisit the questions that clarified things. Renew the boundaries that protected you. Strengthen the relationships in which you were known. None of this requires reinventing anything. It requires remembering.
+You now have tools. Use them imperfectly if you must, but use them on purpose. Return to the practices that steadied you. Go back to the questions that helped you see clearly. Renew the boundaries that protected you. Strengthen the relationships where people really know you. You do not have to invent anything new, only remember.
 
 ## When Pressure Returns
 
-It will return. Pressure will not ask whether you read this book. It will ask what reflexes you practiced. Silence will test whether you learned to sit honestly. Fatigue will test whether your discipline was built on motivation or on structure. Temptation will test whether your boundaries were prepared or only promised.
+Pressure will come back. When it does, it will not ask whether you read this book. It will ask what you practiced until it became automatic. Silence will test whether you learned to be still and honest. Being tired will test whether your discipline was built on feeling like it or on a routine. Temptation will test whether you set your boundaries ahead of time or only promised to.
 
-When that happens, do not dramatize it, and do not read tension as going backward. Pressure is not evidence of failure. It is the place where formation proves itself. Return to alignment. Choose the next faithful action. Stay present longer than comfort would like.
+When that happens, do not make a drama of it, and do not take tension as a sign of failure or of going backward. Under pressure, what you have built shows that it is real. Go back to living what you believe. Do the next faithful thing. Stay with it longer than feels comfortable.
 
 ## Living Forward Means Living Small, Consistently
 
-Most lives are shaped by repeated moments more than by defining ones. You will live forward in how you wake up, how you speak when you are irritated, how you handle private moments, how you respond to unfinished work, and how you hold steady when no one affirms you. You will choose restraint over reaction, honesty over concealment, steadiness over urgency.
+Most lives are shaped more by small moments that repeat than by big turning points. Living forward will show in how you wake up, how you speak when you are irritated, how you handle time alone, how you respond to unfinished work, and how you hold steady when no one praises you. You will choose to hold back instead of reacting, tell the truth instead of hiding, and stay steady instead of rushing.
 
 Nothing about it is flashy. All of it lasts.
 
 ## A Final Word
 
-You do not need another system, louder conviction, or a clearer personality. You need alignment, and the willingness to keep it.
+What you need is to live what you believe, and to be willing to keep doing it. You do not need another system, louder beliefs, or a personality that stands out more.
 
-Under all of it, what was true before Day 1 is still true now. None of this earned you God's love. It answered it. The training was never the price of the house. It was learning to live in it.
+Under all of it, what was true before Day 1 is still true now. All of this was your response to God's love. None of it earned you that love. The training was never the price of the house. It was learning to live in it.
 
-What you practice shapes you. What you avoid weakens you. What you return to builds endurance.
+What you practice shapes you. What you run from weakens you. What you return to builds endurance.
 
-This book cannot walk with you any further. What it set out to form in you can. Live forward with attention, honesty, and alignment, without needing to be flawless or loud, and without fear.
+This book cannot walk with you any further. What it set out to build in you can keep walking with you. Live forward. Pay attention, tell the truth, and act on what you believe, without needing to be flawless or loud, and without fear.
 
 That kind of life holds.
 
 # Appendix A: The FORGE Cycle
 
-*A durable framework for real life*
+*A plan that holds up in real life*
 
-Formation fails when it stays abstract. Most young men who walk away from their faith were never argued out of it; it simply stayed theoretical when pressure came. The FORGE Cycle exists to close that gap.
+Training that stays in your head goes nowhere. Most young men who walk away from their faith were never argued out of it. When pressure came, their faith was still only an idea. The FORGE Cycle is here to turn that idea into practice.
 
-FORGE is a training rhythm, the way faith moves from inherited language into lived practice. It is neither a personality type nor a productivity system. Each phase names a necessary stage of formation. Skip a stage and you become fragile. Rush one and you burn out. Return to them, and you become durable.
+FORGE is a training rhythm you repeat, the path your faith takes from words passed down to you into daily life. It is neither a personality type nor a productivity system. Each phase is a stage of growth you need. Skip a stage and you become fragile. Rush one and you burn out. Keep coming back to them, and you will last.
 
-The order matters. Repetition alone does not transform a divided man. That is why observation and healing come before endurance: so that what you repeat is not laid over an unresolved fault line.
+The order matters. Repetition alone will not change a man who is divided inside. That is why you observe and heal before you work on endurance, so you do not build habits on top of a crack that has not healed.
 
-Drill the habits and skip the healing, and the result is an efficient hypocrite, better organized and no more whole. None of this is self-manufacture. Scripture says that God Himself sanctifies (1 Thessalonians 5:23). The cycle names your cooperation with His work, not a replacement for it.
+If you practice the habits but skip the healing, you end up an efficient hypocrite: better organized, but still not whole. None of this means you make yourself holy. Scripture says that God Himself makes you holy (1 Thessalonians 5:23). The cycle describes your part in His work and never replaces it.
 
-**FLARE: Identify What Ignites You.** Flare names the moment tension surfaces: irritation, dissatisfaction, longing, or a conviction that refuses to stay quiet. It is rougher than inspiration. Flare asks one question: *What pressure point keeps resurfacing in my life?* Ignore it, and your faith stays borrowed. Name it, and you begin to own it. Flare turns frustration into purpose by showing you why faith has to become real for you and not merely respectable.
+**FLARE: Identify What Ignites You.** Flare is the moment something starts to bother you: irritation, discontent, longing, or a belief that will not leave you alone. It feels rougher and less comfortable than inspiration. Flare asks one question: *What pressure keeps coming back in my life?* Ignore it, and your faith stays borrowed from others. Name it, and your faith starts to become yours. Flare gives your frustration a purpose. It shows you why your faith has to be real to you and not just look respectable.
 
-**OBSERVE: Test Faith in Real Conditions.** Observation replaces assumption. Instead of promising change, this phase asks you to watch how your belief behaves under stress: screens, peers, fatigue, conflict, privacy. It trains honesty without judgment. Observation takes self-deception apart and replaces vague guilt with specific awareness. You cannot refine what you refuse to see.
+**OBSERVE: Test Your Faith in Real Life.** Here you stop guessing and start watching. Instead of promising to change, you notice how your faith holds up under stress: screens, peers, tiredness, conflict, time alone. It trains you to be honest without judging yourself. It stops you from fooling yourself and swaps vague guilt for knowing exactly what is going on. You cannot refine what you refuse to see.
 
-**REFINE: Align Truth with Identity.** Refine works truth into the way you live. It asks where your belief resists being lived out. Scripture becomes a mirror where it used to be a source of insight. Relationships are examined for clarity. Decisions start to follow values instead of impulses. Refine is uncomfortable because it exposes inconsistencies, and it also brings coherence. Your faith stops breaking apart from one setting to the next.
+**REFINE: Let Truth Shape Who You Are.** Refine takes what is true and makes it part of how you live. It asks where you find it hard to live what you believe. Scripture used to give you insight. Now it becomes a mirror. You see your relationships for what they are. Your choices start to follow your values instead of your impulses. Refine is uncomfortable because it shows where your life does not fit together. It also pulls your life together, so your faith stops falling apart from place to place.
 
-**GRIT: Practice Under Pressure.** Grit makes formation stable through repetition. It builds a daily rhythm for the days when motivation fades. Discipline here is protection chosen in advance, with no punishment in it. Grit trains consistency through mornings, fatigue, desire, silence, and finishing. This is where faith proves it can last, through loyalty more than emotion.
+**GRIT: Practice Under Pressure.** Grit makes your growth stable as you repeat what you practice. It builds a daily rhythm for the days when motivation runs low. Here, you choose discipline ahead of time to protect yourself, and it is not a punishment. Grit trains you to keep showing up through mornings, tiredness, desire, and silence, and to finish what you start. This is where your faith proves it can last. Loyalty carries it more than feelings do.
 
-**ELEVATE: Express Faith Outwardly.** Elevate turns what was formed inside outward. Faith begins to shape your influence, leadership, speech, perspective, and presence. It does so reliably and without performance. Elevate does not announce maturity. It reveals it through steadiness, restraint, and service.
+**ELEVATE: Live Your Faith in the Open.** In Elevate, what was built inside you comes out into the open. Your faith starts to shape how you lead, speak, see things, influence others, and carry yourself. People can count on your faith, and it is not for show. Your maturity shows when you stay steady, control yourself, and serve, without announcing it.
 
 # Appendix B: Healing Forge
 
-*Why healing is part of formation*
+*Why healing is part of the training*
 
-Discipline alone cannot heal what was shaped by pain. Many young men try to outrun unresolved wounds with structure, intensity, or moral effort. When that fails, they decide they are weak. Often the real issue is an injury, and more discipline will not fix an injury. Healing Forge exists for that gap.
+Discipline alone cannot heal the parts of you that pain has shaped. Many young men try to outrun open wounds by keeping routines, pushing themselves, or trying harder to be good. When that fails, they decide they are weak. Often the real problem is an injury, and more discipline will not heal it. Healing Forge is here for what discipline cannot fix.
 
-Healing does not replace discipline. It removes what quietly undermines it. Unprocessed grief, shame, relational trauma, and chronic anxiety distort how you see and how you react. They produce hypervigilance, avoidance, numbness, or anger, which are often mistaken for spiritual failure. Every day in this book closes with a Healing Forge section, because these pressures often began long before belief did. Their presence does not mean your belief is missing.
+Healing removes what eats away at your discipline. You still need the discipline. Grief you never worked through, shame, deep hurt from relationships, and long-lasting anxiety twist how you see and how you react. They leave you always on guard, avoiding things, numb, or angry, and that is often mistaken for spiritual failure. Every day in this book ends with a Healing Forge section, because these pressures often started long before you came to faith. Having them does not mean your faith is missing.
 
 Healing Forge works by:
 
-- Naming pain without dramatizing it
-- Separating identity from coping responses
-- Validating emotion without excusing behavior
-- Reintroducing safety gradually through honesty
-- Emphasizing consistency over intensity
+- Naming pain without making a drama of it
+- Separating who you are from how you cope
+- Taking feelings seriously without excusing what you do
+- Slowly learning to feel safe again by being honest
+- Choosing steady effort over intense bursts
 
-Healing does not depend on confrontation, and it does not require you to revisit everything or fix your past. It begins when you stop hiding what still shapes you. Nobody is asking you to blame your parents or to expose yourself in public. What is asked of you is to tell the truth sooner, to the right people, in ways you can sustain.
+Healing does not depend on confronting anyone, and you do not have to go back over everything or fix your past. It begins when you stop hiding the wounds that still shape you. Nobody is asking you to blame your parents or to share it all in public. You are asked to stop waiting and tell the truth to the right people, in a way you can keep doing.
 
-Healing restores clarity. Clarity strengthens discipline. Discipline then becomes livable. That is why Healing Forge is part of formation and no detour from it.
+Healing brings back a clear head, and that makes your discipline stronger. Then discipline becomes something you can keep up. That is why Healing Forge is part of the training and no detour from it.
 
-These pages name what is true. They cannot treat it. Where the wound is deep, take it to a pastor or a licensed counselor, and count the going as courage, because that is what it is.
+These pages name what is true. They cannot treat it. Where the wound is deep, take it to a pastor or a licensed counselor. Going to one of them takes courage, so see it as the brave step it is.
 
 # Appendix C: How to Continue After Day 40
 
-When the structure ends, drift moves in unless a new rhythm takes its place. These forty days were scaffolding. What remains has to become your own. Here is how to continue without starting the book over.
+When the book's daily plan ends, you will drift unless a new routine takes its place. These forty days were like scaffolding: a support you only need for a while. What you built in them now has to become your own. These steps help you keep going without starting the book over.
 
-**1. Revisit One Phase Each Month.** Formation moves in cycles. Choose one FORGE phase each month and return to its practices on purpose. For example:
+**1. Revisit One Phase Each Month.** Growth comes in cycles. Choose one FORGE phase each month and go back to its practices on purpose. For example:
 
-- Month 1, OBSERVE: track your reactions under pressure
-- Month 2, GRIT: reinforce one daily discipline
-- Month 3, REFINE: reexamine your beliefs and practices
+- Month 1, OBSERVE: track how you react under pressure
+- Month 2, GRIT: strengthen one daily discipline
+- Month 3, REFINE: take a fresh look at what you believe and what you do
 
-Return to it. There is no need to restart.
+Return to it. You do not need to start over.
 
-**2. Anchor Three Non-Negotiables.** Choose three realistic practices that steady your life under pressure. For example:
+**2. Set Three Non-Negotiables.** Choose three realistic practices that steady your life under pressure. For example:
 
-- One daily pause with God, short and consistent
-- One boundary that protects clarity
+- One short pause with God, every day
+- One boundary that keeps your head clear
 - One weekly check-in with a trusted person
 
 If everything is a priority, nothing is.
 
-**3. Replace Motivation with Structure.** Do not wait to feel aligned. Schedule what matters, prepare your surroundings, and cut down the number of decisions you have to make. Structure outlasts inspiration. Consistency heals what intensity never can.
+**3. Replace Motivation with Structure.** Do not wait until you feel in step with what you believe. Schedule what matters, set up your surroundings, and cut down the number of decisions you have to make. Routines last longer than inspiration. Showing up every day heals what big bursts of effort never can.
 
-**4. Say Your Faith Out Loud.** At least once every few months, put what you believe and why into your own words, out loud. Unspoken faith withers. Spoken faith grows clearer.
+**4. Say Your Faith Out Loud.** At least once every few months, say in your own words what you believe and why. Faith you never speak dries up. Faith you say out loud gets clearer.
 
-**5. Expect Resistance.** Resistance means formation is active, so do not read it as a signal to stop. When progress feels slow, return to alignment instead of overanalyzing.
+**5. Expect Resistance.** Resistance means you are still being shaped, so do not take it as a sign to stop. When progress feels slow, go back to living what you believe instead of overthinking it.
 
-**6. Do Not Continue Alone: Stay Planted in a Church.** This book trained you in private practice, and private practice was never the whole design. Formation matures inside a body: under preaching that can correct you, beside older men who have carried what you are learning to carry, at the table where grace is received and never achieved. A book cannot know your name. A church can. If you are not planted anywhere, make finding a congregation your first assignment after Day 40. Look for a real one. It does not need to be perfect.
+**6. Do Not Continue Alone: Stay Planted in a Church.** This book gave you practices to do on your own, and that was never the whole plan. You grow up in your faith inside a church. There you hear preaching that can correct you. You stand beside older men who have carried what you are learning to carry. And at the table, you receive grace without earning it. A book cannot know your name. A church can. If you are not planted in a church, make finding one your first assignment after Day 40. Look for a real one. It does not need to be perfect.
 
 ## A Final Reminder
 
-You are not measured by momentum. You are formed by faithfulness. You do not need to do more. You need to stay aligned.
+You are not measured by momentum. You are formed by faithfulness. You do not need to do more than keep living what you believe.
 
-That is how this continues.
+That is how what you started here keeps going.
 
 # About the Author
 
 Elias Solbak Årnes lives on the island of Frøya, Norway, with his wife Maria and their daughter.
 
-He grew up loved. His father and grandparents gave him steadiness and belonging. He did well in school. He had friends.
+He grew up loved. His father and grandparents gave him a steady life and a place to belong. He did well in school, and he had friends.
 
-He served seven years in the Norwegian Armed Forces. He worked in sales and eventually as a sales manager.
+He served seven years in the Norwegian Armed Forces. He worked in sales and later as a sales manager.
 
-For over twenty years, he tested what could hold: philosophically, existentially, practically. In 2016, God interrupted his life. What followed was not an ascent. It was a stripping away.
+For over twenty years, he tested what would hold up: in his thinking, in the deepest questions of life, and in how he lived. In 2016, God interrupted his life. What followed stripped things away from him instead of lifting him higher.
 
-He has two children from previous relationships, and he built strong bonds with both of them. From 2018 on, he fought to keep those bonds intact. He lost. His health broke. His theological studies were left unfinished.
+He has two children from previous relationships, and he built strong bonds with both of them. From 2018 on, he fought to keep those bonds. He lost. His health broke. His studies in theology were left unfinished.
 
-He does not write as someone who has arrived.
+He does not write as someone who has already reached the goal.
 
-This book was forged in what remained.
+This book was forged in what was left.
 
 MantleOfElias: https://www.youtube.com/@MantleOfElias
