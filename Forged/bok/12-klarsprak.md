@@ -1,5 +1,13 @@
 # Klarspråksrunde: FORGED (runde 5, 18.10.2026)
 
+## Filene
+
+- PDF for trykk: `ut/FORGED_Interior_6x9_KDP.pdf` (118 sider) og `ut/FORGED_Interior_5x8_KDP.pdf` (124 sider)
+- Word: `ut/FORGED_manus.docx` (EB Garamond, 6 × 9, hver dag på ny side)
+- Markdown: `ut/FORGED_manus.md`
+- Google Docs: https://docs.google.com/document/d/1pYzV_WY_WYxT0OCRt4mtJFPmT7BffMvQrm3iIEBp8oo/edit (i Forged-mappen i Drive, kontrollert ord for ord mot manus)
+- Kindle: `ut/FORGED_Kindle.epub`
+
 ## Bestillingen
 
 > «Jeg ønsker også en ren engelsk gjennomgang. Det skal være så jordnært, enkelt og lett forståelig som overhodet mulig. Jeg er redd setninger som "Witness is not performance" o.l. ikke gjør den jobben skikkelig nok.»
