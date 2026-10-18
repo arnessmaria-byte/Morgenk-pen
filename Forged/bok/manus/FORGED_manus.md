@@ -115,7 +115,7 @@ Faith that has never been pushed is still something you take for granted. Faith 
 
 Jake was nineteen when the motorcycle hit the guardrail. One moment there was speed and confidence. The next, silence, pain, fluorescent lights, and the sound of his own breathing, loud with fear.
 
-Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was certainty that pressure had tested.
+Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was certainty that had been tested under pressure.
 
 Nothing dramatic happened in that room. No vision, no revelation. Something in Jake woke up. For the first time his belief was his own, and it mattered right then. It had a real question to answer. That was the moment the flame was lit.
 
@@ -274,7 +274,7 @@ Rules are easy to resent when you cannot see what they protect. Most people who 
 
 Daniel had never broken the rules in public. He kept himself clean enough to stay out of trouble and flexible enough to keep his options open. To him, rules were obstacles to work around.
 
-Over time something shifted. The rules he bent without anyone noticing started to bend him. The change came from slow wear and tear, not from guilt. He noticed it in small ways. Discipline became optional, his commitments came with conditions, and he did the right thing only when it suited him. Nothing dramatic happened. The direction of his life just got weaker.
+Over time something shifted. The rules he bent without anyone noticing started to bend him. The change came from slow wear and tear, not from guilt. He noticed it in small ways. Discipline became optional, his commitments came with conditions, and he did the right thing only when it suited him. Nothing dramatic happened. He just drifted off course.
 
 ### Rules as Limits vs. Rules as Direction
 
@@ -547,7 +547,7 @@ You do not need to go looking for difficulty. The tests are already here. Faith 
 - who you become when no one is watching
 - what really drives your decisions under stress
 
-These moments show what has been built in you more honestly than your good intentions ever will. God tests you to make you a man who can be counted on. He is not testing you to show how weak you are.
+These moments show what has been built in you more honestly than your good intentions ever will. God tests you to make you a man who can be counted on. He is not testing you to prove you are not good enough.
 
 ### The Practice
 
@@ -816,7 +816,7 @@ Maybe money made you feel safe early in life, because it promised control when t
 >
 > Ephesians 4:26
 
-Anger is rarely about the moment that sets it off. It carries the past with it. What blows up fast was usually stored up for a long time.
+Anger is rarely about the moment that sets it off. It carries the past with it. What blows up fast was often stored up for a long time.
 
 ### The Scenario
 
@@ -984,11 +984,11 @@ The failure itself was short. The retreat lasted much longer. He learned nothing
 | Protects your image | Helps you bounce back |
 | Stops your progress | Gets you back on track |
 
-Failure only disqualifies you if you never ask what it means.
+Failure only disqualifies you from growing if you never ask what it means.
 
 ### What This Day Is Really About
 
-After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback, and every breakdown shows where you counted on a strength you had never trained.
+After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback. Every time your effort falls apart, it shows where you counted on a strength you had never trained.
 
 From any failure you can take one of two things: a lesson or an excuse.
 
@@ -1432,7 +1432,7 @@ Noticing can stop drift early, before you need discipline to fix it.
 
 ### Healing Forge: When Staying Alert Wears You Out
 
-If you learned to scan for danger and never rest, because you could never tell what was coming, that restlessness was how you survived. The alertness asked of you here is calm and rests on trust. What you are guarding is your direction. You can stop bracing for everything to fall apart.
+If you learned to scan for danger and never rest, because you could never tell what was coming, that restlessness was how you survived. The alertness asked of you here is calm and rests on trust. What you are guarding is your direction. You are not asked to brace for everything to fall apart.
 
 *End of Day 27*
 
@@ -1520,7 +1520,7 @@ Preparing ahead is what humility looks like in everyday life.
 
 ### Healing Forge: When Pressure Once Meant Danger
 
-If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stay in the moment when the weight comes on, and you can stop bracing for harm.
+If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stay in the moment when the weight comes on, instead of bracing for harm.
 
 *End of Day 29*
 
@@ -1548,11 +1548,11 @@ The silence itself bothered him less than the fear that it meant something was w
 | Sees silence as failure | Sees growth in silence |
 | Pulls away | Keeps obeying |
 
-Often, silence means comfort is being held back.
+Often, silence means reassurance is being held back.
 
 ### What This Day Is Really About
 
-Today is about staying faithful while that comfort is held back, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
+Today is about staying faithful while that reassurance is held back, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
 
 God does not always speak to ease your discomfort. Sometimes He stays silent. He already knows what is in you, and now He is letting you see what has been built there.
 
@@ -1652,7 +1652,7 @@ Finishing is how your discipline matures.
 
 ### Healing Forge: When Finishing Once Meant Loss
 
-Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together, and no one gets abandoned in it. You are allowed to close what you no longer need to carry.
+Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together. Finishing is not abandonment. You are allowed to close what you no longer need to carry.
 
 *End of Day 32*
 
@@ -1792,7 +1792,7 @@ Maybe being quiet once meant being ignored: overlooked, brushed off, passed over
 
 *End of Day 35*
 
-## Day 36: Speaking with Precision
+## Day 36: Speaking With Precision
 
 > “Let every person be quick to hear, slow to speak, slow to anger.”
 >
@@ -1836,7 +1836,7 @@ Some men learned to talk fast to protect themselves: defending, explaining, head
 
 *End of Day 36*
 
-## Day 37: Living with Eternity in View
+## Day 37: Living With Eternity in View
 
 > “We look not to the things that are seen but to the things that are unseen. For the things that are seen are transient, but the things that are unseen are eternal.”
 >

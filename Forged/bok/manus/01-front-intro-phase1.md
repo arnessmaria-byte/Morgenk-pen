@@ -115,7 +115,7 @@ Faith that has never been pushed is still something you take for granted. Faith 
 
 Jake was nineteen when the motorcycle hit the guardrail. One moment there was speed and confidence. The next, silence, pain, fluorescent lights, and the sound of his own breathing, loud with fear.
 
-Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was certainty that pressure had tested.
+Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was certainty that had been tested under pressure.
 
 Nothing dramatic happened in that room. No vision, no revelation. Something in Jake woke up. For the first time his belief was his own, and it mattered right then. It had a real question to answer. That was the moment the flame was lit.
 
@@ -274,7 +274,7 @@ Rules are easy to resent when you cannot see what they protect. Most people who 
 
 Daniel had never broken the rules in public. He kept himself clean enough to stay out of trouble and flexible enough to keep his options open. To him, rules were obstacles to work around.
 
-Over time something shifted. The rules he bent without anyone noticing started to bend him. The change came from slow wear and tear, not from guilt. He noticed it in small ways. Discipline became optional, his commitments came with conditions, and he did the right thing only when it suited him. Nothing dramatic happened. The direction of his life just got weaker.
+Over time something shifted. The rules he bent without anyone noticing started to bend him. The change came from slow wear and tear, not from guilt. He noticed it in small ways. Discipline became optional, his commitments came with conditions, and he did the right thing only when it suited him. Nothing dramatic happened. He just drifted off course.
 
 ### Rules as Limits vs. Rules as Direction
 

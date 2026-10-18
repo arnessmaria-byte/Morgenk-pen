@@ -30,3 +30,4 @@
 | 26 | **Der en formulering kunne bety to ting, valgte redaktørene lesningen nærmest originalen** | Spørsmålene står samlet i `12-klarsprak.md`. | |
 | 27 | **Word-manuset settes nå i EB Garamond i 6 × 9**, med dager på ny side. Google Docs lages fra samme tekst. | Bestilt: PDF, docx, Google Docs og md. | `verktoy/bygg_docx.py`, `verktoy/bygg_gdoc_html.py` |
 | 28 | **Google Docs bygges fra RTF** (`verktoy/bygg_gdoc_rtf.py`) | Første opplasting var HTML, og Google Docs ignorerte sideskiftene, så dagene startet midt på siden. RTF beholder sideskift før hver dag og hvert kapittel, samt 6 × 9 og EB Garamond. Det gamle dokumentet er lagt i papirkurven i Drive. | |
+| 29 | **ChatGPT-kvalitetssikringen vurdert:** 10 språk- og klarhetsfunn lagt inn, 12 lagt fram for forfatteren, 12 avvist | To uavhengige lesere (teologi og sjelesorg, stemme og troskap) vurderte hvert funn mot forfatterens originaltekst. | `14-chatgpt-funn-vurdert.md` |

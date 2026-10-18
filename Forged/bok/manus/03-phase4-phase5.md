@@ -134,7 +134,7 @@ Noticing can stop drift early, before you need discipline to fix it.
 
 ### Healing Forge: When Staying Alert Wears You Out
 
-If you learned to scan for danger and never rest, because you could never tell what was coming, that restlessness was how you survived. The alertness asked of you here is calm and rests on trust. What you are guarding is your direction. You can stop bracing for everything to fall apart.
+If you learned to scan for danger and never rest, because you could never tell what was coming, that restlessness was how you survived. The alertness asked of you here is calm and rests on trust. What you are guarding is your direction. You are not asked to brace for everything to fall apart.
 
 *End of Day 27*
 
@@ -222,7 +222,7 @@ Preparing ahead is what humility looks like in everyday life.
 
 ### Healing Forge: When Pressure Once Meant Danger
 
-If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stay in the moment when the weight comes on, and you can stop bracing for harm.
+If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stay in the moment when the weight comes on, instead of bracing for harm.
 
 *End of Day 29*
 
@@ -250,11 +250,11 @@ The silence itself bothered him less than the fear that it meant something was w
 | Sees silence as failure | Sees growth in silence |
 | Pulls away | Keeps obeying |
 
-Often, silence means comfort is being held back.
+Often, silence means reassurance is being held back.
 
 ### What This Day Is Really About
 
-Today is about staying faithful while that comfort is held back, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
+Today is about staying faithful while that reassurance is held back, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
 
 God does not always speak to ease your discomfort. Sometimes He stays silent. He already knows what is in you, and now He is letting you see what has been built there.
 
@@ -354,7 +354,7 @@ Finishing is how your discipline matures.
 
 ### Healing Forge: When Finishing Once Meant Loss
 
-Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together, and no one gets abandoned in it. You are allowed to close what you no longer need to carry.
+Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together. Finishing is not abandonment. You are allowed to close what you no longer need to carry.
 
 *End of Day 32*
 
@@ -494,7 +494,7 @@ Maybe being quiet once meant being ignored: overlooked, brushed off, passed over
 
 *End of Day 35*
 
-## Day 36: Speaking with Precision
+## Day 36: Speaking With Precision
 
 > “Let every person be quick to hear, slow to speak, slow to anger.”
 >
@@ -538,7 +538,7 @@ Some men learned to talk fast to protect themselves: defending, explaining, head
 
 *End of Day 36*
 
-## Day 37: Living with Eternity in View
+## Day 37: Living With Eternity in View
 
 > “We look not to the things that are seen but to the things that are unseen. For the things that are seen are transient, but the things that are unseen are eternal.”
 >

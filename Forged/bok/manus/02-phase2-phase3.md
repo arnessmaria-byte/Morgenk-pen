@@ -37,7 +37,7 @@ You do not need to go looking for difficulty. The tests are already here. Faith 
 - who you become when no one is watching
 - what really drives your decisions under stress
 
-These moments show what has been built in you more honestly than your good intentions ever will. God tests you to make you a man who can be counted on. He is not testing you to show how weak you are.
+These moments show what has been built in you more honestly than your good intentions ever will. God tests you to make you a man who can be counted on. He is not testing you to prove you are not good enough.
 
 ### The Practice
 
@@ -306,7 +306,7 @@ Maybe money made you feel safe early in life, because it promised control when t
 >
 > Ephesians 4:26
 
-Anger is rarely about the moment that sets it off. It carries the past with it. What blows up fast was usually stored up for a long time.
+Anger is rarely about the moment that sets it off. It carries the past with it. What blows up fast was often stored up for a long time.
 
 ### The Scenario
 
@@ -474,11 +474,11 @@ The failure itself was short. The retreat lasted much longer. He learned nothing
 | Protects your image | Helps you bounce back |
 | Stops your progress | Gets you back on track |
 
-Failure only disqualifies you if you never ask what it means.
+Failure only disqualifies you from growing if you never ask what it means.
 
 ### What This Day Is Really About
 
-After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else's fall. But the lesson you need is in your own. Failure is feedback, and every breakdown shows where you counted on a strength you had never trained.
+After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else's fall. But the lesson you need is in your own. Failure is feedback. Every time your effort falls apart, it shows where you counted on a strength you had never trained.
 
 From any failure you can take one of two things: a lesson or an excuse.
 
