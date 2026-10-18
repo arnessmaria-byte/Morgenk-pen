@@ -26,7 +26,7 @@ Akseptkriteriene ble satt før redigeringen. Hvert punkt under er kontrollert p�
 
 ## Det som ikke kunne verifiseres
 
-- **Hammarskjöld-sitatet i forordet.** «It is easy to be good when one is not put to the test…» finnes ikke i noen kilde vi kunne søke i, verken engelsk eller svensk. Det må bekreftes mot *Markings* (Vägmärken) før trykk, eller strykes.
+- **Hammarskjöld-sitatet i forordet.** «It is easy to be good when one is not put to the test…» finnes ikke i noen kilde vi kunne søke i, verken engelsk eller svensk. Forfatteren har avgjort at forordet står uendret.
 - **Forordets engelske ordlyd** er ikke godkjent av Sverre Johannes.
 - **Royalty- og trykksatser** er KDPs kjente satser og må bekreftes i KDP på opplastingsdagen.
 - **Hvilken AI som laget 5x8.1-PDF-en** er ikke belagt i filene. Se sporingsrapporten.

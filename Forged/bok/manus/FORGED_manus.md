@@ -61,7 +61,7 @@ The forty days follow one training cycle, FORGE. Each letter names a phase.
 
 **FLARE (Days 1–8): Ignition.** Passive faith is shaken awake and starts to become your own. Questions become signs of ownership.
 
-**OBSERVE (Days 9–16): Awareness.** You start to see what has been shaping you without your noticing: screens, silence, peers, money, sexuality, anger, relationships, private habits.
+**OBSERVE (Days 9–16): Awareness.** You start to see what has been shaping you without your noticing: screens, silence, peers, money, anger, relationships, private habits.
 
 **REFINE (Days 17–24): Integration.** Belief moves into action. Knowledge demands obedience, and brotherhood replaces isolation.
 

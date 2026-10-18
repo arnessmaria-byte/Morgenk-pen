@@ -2,7 +2,7 @@
 
 **Dato:** 2026-10-18 · **Hovedfil:** `ut/FORGED_Interior_6x9_KDP.pdf` · **E-bok:** `ut/FORGED_Kindle.epub`
 
-**Dom: klar med navngitte rettelser.** Innmaten og e-boken består alle tekniske kontroller. Før opplasting må tre ting være på plass: Hammarskjöld-sitatet i forordet, Sverre Johannes' godkjenning av forordet og omslaget.
+**Dom: klar med navngitte rettelser.** Innmaten og e-boken består alle tekniske kontroller. Før opplasting må tre ting være på plass: Sverre Johannes' godkjenning av forordet, forfatterens avgjørelse om fem teologiske formuleringer og omslaget.
 
 ## Utgivelsesfakta (forslag, forfatteren bekrefter)
 
@@ -79,9 +79,10 @@ Royalty er 60 % av listeprisen fra 9,99 USD og oppover, og 50 % under 9,99 USD. 
 
 ## Før opplasting
 
-- [ ] Hammarskjöld-sitatet i forordet bekreftet eller strøket (redaktørrapporten, tiltak 5)
+- [x] Forordet står uendret, også Hammarskjöld-sitatet (forfatterens beslutning 18.10.2026)
 - [ ] Sverre Johannes har godkjent den engelske teksten til forordet (tiltak 6)
-- [ ] Sluttleserens teologiske merknader avgjort (tiltak 11), og «sexuality» i OBSERVE-listen avklart (tiltak 12)
+- [ ] Sluttleserens teologiske merknader avgjort (tiltak 11)
+- [x] «sexuality» strøket fra OBSERVE-listen (tiltak 12)
 - [ ] Papirtype valgt, og omslaget laget med KDPs mal for 118 sider
 - [ ] ISBN valgt. Med eget ISBN legges linjen inn i `verktoy/sett_bok.py`, og PDF-en bygges på nytt.
 - [ ] Beskrivelse, sju søkeord og kategorier skrevet (ikke en del av denne runden)

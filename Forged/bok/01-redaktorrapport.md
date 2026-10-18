@@ -31,13 +31,13 @@ Boken har et sterkt skjelett og gode bilder: tauet, rekkverket, radioen soldaten
 | 2 | Sette inn ESV-sitatene fra 5x8.1-PDF-en og kontrollere alle 41 mot ESV | Epigrafer, forord | Skillet | Utført, 41 av 41 stemmer |
 | 3 | Forfatterens 14 PDF-kommentarer og Marias 11 Word-kommentarer | Intro, Day 1–8 | Skillet | Utført (kommentarkartet) |
 | 4 | Oversette og språkvaske forordet fra Sverre Johannes Langelands norske original | Foreword | Skillet | Utført |
-| 5 | **Bekrefte Hammarskjöld-sitatet i forordet** («It is easy to be good when one is not put to the test…»). Det finnes verken i *Markings* (engelsk Wikiquote), svensk Wikiquote eller andre kilder vi kunne søke i. | Foreword | Forfatter, med Sverre Johannes | **Åpent. Må avklares før trykk.** |
+| 5 | **Bekrefte Hammarskjöld-sitatet i forordet** («It is easy to be good when one is not put to the test…»). Det finnes verken i *Markings* (engelsk Wikiquote), svensk Wikiquote eller andre kilder vi kunne søke i. | Foreword | Forfatter | Avgjort 18.10.2026: forfatteren endrer ikke forordet. Sitatet står. |
 | 6 | Sverre Johannes bør godkjenne den engelske teksten til forordet | Foreword | Forfatter | Åpent |
 | 7 | Gi to–tre av Fase V-scenariene et eget vendepunkt (Day 33, 34, 35, 38, 39 er nesten like) | Fase V | Forfatter (krever nytt stoff) | Foreslått |
 | 8 | Gi Day 25 eller Day 32 et annet scenario | Day 25/32 | Forfatter | Foreslått |
 | 9 | Aaron (Day 2): Maria ønsket ett konkret tegn på hva som gjorde at han ikke orket gruppen lenger | Day 2 | Forfatter | Foreslått (ikke diktet inn) |
 | 10 | Omslag: må bygges for endelig sidetall (se KDP-sjekklisten) | Omslag | Forfatter / designer | Åpent |
 | 11 | Ta stilling til sluttleserens fem teologiske merknader: «You are not broken» (intro), «God rarely steers» (Day 7), «You are being relied upon» (Day 30), vitnebegrepet (Day 34), «foundation of formation» (vedlegg B) | Se endringsloggen, «Krever forfatterens hånd» | Forfatter | Åpent (forfatterens egne formuleringer, ikke endret) |
-| 12 | «sexuality» står i OBSERVE-listen, men ingen av dagene 9–16 handler om det | Intro | Forfatter | Åpent: skriv dagen eller stryk ordet |
+| 12 | «sexuality» står i OBSERVE-listen, men ingen av dagene 9–16 handler om det | Intro | Forfatter | Utført 18.10.2026: ordet er strøket etter forfatterens beslutning. |
 
 **Skillet gjør:** 1–4. **Forfatter gjør:** 5–12.

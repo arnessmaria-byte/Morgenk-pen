@@ -4650,7 +4650,7 @@
 
 ## Krever forfatterens hånd
 
-- **Hammarskjöld-sitatet i forordet** kunne ikke bekreftes i *Markings*. Avklar med Sverre Johannes før trykk. Hvis kilden ikke finnes, stryk sitatsetningen.
+- **Hammarskjöld-sitatet i forordet** kunne ikke bekreftes i *Markings*. Forfatteren avgjorde 18.10.2026 at forordet står uendret.
 - **Sverre Johannes bør godkjenne** den engelske teksten til forordet.
 - **Sluttleserens teologiske merknader** (forfatterens egne formuleringer, derfor ikke endret):
   - Introduksjonen: «You are not broken.» Sluttleseren foreslår «You are not beyond repair.»
@@ -4658,7 +4658,7 @@
   - Day 30, Healing Forge: «His silence is not neglect. It is trust. You are being relied upon.» Sluttleseren foreslår «He has not let go of you.»
   - Day 34: «Witness is presence that stays the same from one setting to the next.» Sluttleseren savner Kristus i vitnebegrepet (Apostlenes gjerninger 1:8).
   - Vedlegg B: «Healing Forge is the foundation of formation.» Sluttleseren foreslår «part of formation» (1. Korinterbrev 3:11).
-- **«sexuality» i OBSERVE-listen** i introduksjonen. Ingen av dagene 9–16 handler om seksualitet. Enten skrives en dag om det, eller ordet strykes.
+- **«sexuality» i OBSERVE-listen** i introduksjonen er strøket etter forfatterens beslutning 18.10.2026, fordi ingen av dagene 9–16 handler om det.
 - **Fase V:** Day 33, 34, 35, 38 og 39 har nesten samme scenario. To eller tre trenger et eget vendepunkt.
 - **Day 25 og Day 32** har samme scenario. Ett av dem trenger nytt stoff.
 - **Aaron (Day 2):** Maria ønsket ett konkret tegn på hva som gjorde at han ikke orket gruppen.
