@@ -144,7 +144,7 @@ If you learned to scan for danger and never rest, because you could never tell w
 >
 > Romans 12:2
 
-The easy path is no accident. The systems you use were designed by someone. The things around you are picked for you, and your attention is harvested like a crop. Distraction is engineered, so now you have to choose to resist it. No conspiracy theory is needed to explain this; it is a business model. The feeds you scroll are built by teams paid to keep you in them as long as possible, and they are good at their jobs.
+The easy path is no accident. The systems you use are designed, the things around you are picked for you, and your attention is harvested like a crop. Distraction is engineered, so now you have to choose to resist it. No conspiracy theory is needed to explain this; it is a business model. The feeds you scroll are built by teams paid to keep you in them as long as possible, and they are good at their jobs.
 
 ### The Scenario
 
@@ -152,14 +152,14 @@ Alex did not feel tempted. He felt taken care of. Everything bent to fit him: su
 
 He was being shaped by going along with choices other people made for him.
 
-### Going With the Flow vs. Pushing Back on Purpose
+### Going With the Flow vs. Choosing to Push Back
 
-| Going With the Flow | Pushing Back on Purpose |
+| Going With the Flow | Choosing to Push Back |
 | :- | :- |
 | Accepts defaults | Questions them |
 | Goes where it is easy | Goes by what you believe |
 | Feels effortless | Feels like a choice |
-| Gets shaped without trying | Gets shaped on purpose |
+| Gets shaped without trying | Chooses what shapes you |
 | Slowly wears away | Keeps its shape |
 
 Discipline today is less about willpower and more about saying no.
@@ -178,7 +178,7 @@ Notice what fights the change. That is where you are being shaped.
 
 ### Healing Forge: When Control Once Meant Safety
 
-Control may once have been how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. So pushing back against the systems around you can feel threatening now. Today you are asked to choose for yourself. That is gentler than rigid control. You are choosing what shapes you, instead of letting something you never chose do it.
+Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. So pushing back against the systems around you can feel threatening now. Today you are asked to choose for yourself. That is gentler than rigid control. You are choosing what shapes you, instead of letting something you never chose do it.
 
 *End of Day 28*
 
@@ -201,16 +201,16 @@ His reactions surprised him, mostly by how automatic they were. He had not chose
 | Reacting | Being Ready |
 | :- | :- |
 | Is surprised by pressure | Expects it |
-| Scrambles for control | Keeps its footing |
-| Loses the big picture | Knows where it is headed |
-| Burns energy on defense | Saves its strength |
+| Scrambles for control | Keeps his footing |
+| Loses the big picture | Knows where he is headed |
+| Burns energy on defense | Saves his strength |
 | Shows the gaps | Shows solid ground |
 
 Pressure shows how well you prepared.
 
 ### What This Day Is Really About
 
-The aim is to meet pressure without falling apart or bending out of shape. Preparing means practicing again and again before the rush comes. A fire drill is boring on purpose, so that a real fire does not catch anyone off guard.
+The aim is to meet pressure without falling apart or bending out of shape. Preparing means practicing again and again before the rush comes. A fire drill is meant to be boring, so that a real fire does not catch anyone off guard.
 
 If pressure always knocks you off balance, your training is not finished yet. Being ready means staying steady even when conditions are not ideal.
 
@@ -222,7 +222,7 @@ Preparing ahead is what humility looks like in everyday life.
 
 ### Healing Forge: When Pressure Once Meant Danger
 
-If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. Here, being ready means staying calm and anchored. You are learning to stay in the moment when the weight comes on, and you can stop bracing for harm.
+If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stay in the moment when the weight comes on, and you can stop bracing for harm.
 
 *End of Day 29*
 
@@ -236,7 +236,7 @@ Feeling distant is not the same as being abandoned. Sometimes distance means sil
 
 ### The Scenario
 
-Micah kept showing up. He stuck with his practices and his routine, and his habits did not fall apart. But he no longer felt that God was close. His prayers seemed to go unanswered. They were not refused, only met with silence. He looked for what he was doing wrong, checked himself for sin, and adjusted how he prayed: his position, his words, his timing. Nothing changed.
+Micah kept showing up. He stuck with his practices and his routine, and his habits did not fall apart. But he no longer felt that God was close. His prayers seemed to go unanswered: not refused, only met with silence. He looked for what he was doing wrong, checked himself for sin, and adjusted how he prayed: his position, his words, his timing. Nothing changed.
 
 The silence itself bothered him less than the fear that it meant something was wrong.
 
@@ -250,13 +250,13 @@ The silence itself bothered him less than the fear that it meant something was w
 | Sees silence as failure | Sees growth in silence |
 | Pulls away | Keeps obeying |
 
-Often, when God is silent, He is choosing to hold back comfort.
+Often, silence means comfort is being held back.
 
 ### What This Day Is Really About
 
-Today is about staying faithful while God holds back that comfort, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
+Today is about staying faithful while that comfort is held back, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
 
-God does not always speak to ease your discomfort. Sometimes He stays silent. He already knows what has been built in you, and now He is letting you see it too.
+God does not always speak to ease your discomfort. Sometimes He stays silent. He already knows what is in you, and now He is letting you see what has been built there.
 
 ### The Practice
 
@@ -342,7 +342,7 @@ Finishing means getting the work done. It does not have to be perfect.
 
 ### What This Day Is Really About
 
-Finish what you began. A house four-fifths built shelters no one. Leaving things unfinished weakens your trust in yourself, in your word, and in where you are headed, even when the work itself did not fail. What failed was your endurance.
+Finish what you began. A house four-fifths built shelters no one. Leaving things unfinished weakens your trust in yourself, in your word, and in where you are headed, even when the work itself did not fail. What was cut short was your endurance.
 
 Finishing trains you in a way nothing else can. It teaches your nervous system, your will, and your faith that you can stay with a task until you are free to put it down, instead of running from it.
 
@@ -350,11 +350,11 @@ Finishing trains you in a way nothing else can. It teaches your nervous system, 
 
 Think of one thing you keep putting off finishing. Skip the hardest and most dramatic ones. Pick the one that keeps hanging around in the background. Take one step that clearly moves it closer to done. Say what done looks like, then walk toward it.
 
-Discipline grows up when you finish what you start.
+Finishing is how your discipline matures.
 
 ### Healing Forge: When Finishing Once Meant Loss
 
-Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. This kind of ending ties things together, and no one gets abandoned in it. You are allowed to close what you no longer need to carry.
+Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together, and no one gets abandoned in it. You are allowed to close what you no longer need to carry.
 
 *End of Day 32*
 
@@ -396,13 +396,13 @@ Serving means offering your strength freely and asking nothing back.
 
 ### The Practice
 
-Put your strength somewhere useful today, without an audience. Help where there is a load to carry. Support someone who needs you to keep showing up. Serve without announcing it.
+Put your strength somewhere useful today, without an audience. Help where there is a load to carry. Support someone who needs to be able to count on you. Serve without announcing it.
 
 Do not take on too much. Give what has already been built in you. That way your strength stays healthy.
 
 ### Healing Forge: When Serving Once Meant Being Used
 
-Serving others can leave scars. You may have been relied on but never protected, needed but never seen. That taught you to pull back. The serving asked of you here is your choice. No one forces it, and it has limits. Serving this way will not cost you who you are. It lets what has grown in you flow out to others.
+Serving others can leave scars. You may have been relied on but never protected, needed but never seen. That taught you to pull back. The serving asked of you here is your own choice, and it has limits. Serving this way will not cost you who you are. It lets what has grown in you flow out to others.
 
 *End of Day 33*
 
@@ -434,17 +434,17 @@ People see your witness more clearly over time.
 
 ### What This Day Is Really About
 
-Plans for sharing your faith can wait. Being steady cannot. The strongest witness is a life where all the parts fit together. When what you believe, what you do, and where you are going line up, trust in you grows on its own.
+Plans for sharing your faith can wait. Living it every day cannot. The strongest witness is a life where all the parts fit together. When what you believe, what you do, and where you are headed line up, trust in you grows on its own.
 
 You cannot make a witness happen. You can protect what makes it possible: being the same man everywhere.
 
 ### The Practice
 
-Fix one place today where your actions and beliefs do not match, instead of explaining it. Make one private habit match something you stand for in public. Say less, and let your life speak clearly.
+Find one place where your actions and beliefs do not match, and fix it today instead of making excuses for it. Make one private habit match something you stand for in public. Say less, and let your life speak clearly.
 
-Being a witness takes time, so do not rush it.
+A witness is never in a hurry.
 
-### Healing Forge: When Being Seen Once Felt Unsafe
+### Healing Forge: When Being Noticed Once Felt Unsafe
 
 Being seen may once have meant risk: being picked apart, misunderstood, or punished for being honest. So you learned to stay hidden. Being a witness asks you to be steady, not to put yourself on display. Be faithful where you already stand, and do not worry about who notices.
 
@@ -456,13 +456,13 @@ Being seen may once have meant risk: being picked apart, misunderstood, or punis
 >
 > Proverbs 15:1
 
-Influence comes more from being there than from being loud. It comes from a man who steadies a room without drawing attention to himself. Influence that lasts rarely makes noise. It is built by showing up again and again.
+Influence comes more from being there than from being loud. It comes from a man who steadies a room without drawing attention to himself. Influence that lasts rarely makes noise. It is built one ordinary day at a time.
 
 ### The Scenario
 
 Scott was rarely the center of attention. He left room for others in conversations. He did not correct people in public or push his conclusions. But when things got tense, his tone slowed them down. When decisions got stuck, his clear thinking helped others move forward.
 
-People trusted him because he stayed. He did not have to insist. Influence found him because he did not chase it.
+People trusted him because he was always there. He did not have to insist. Influence found him because he did not chase it.
 
 ### Noise vs. Weight
 
@@ -484,13 +484,13 @@ Most rooms already have enough opinions. What they need is someone steady. You e
 
 ### The Practice
 
-Practice holding back today. Speak one sentence fewer than you could. Wait before you respond, and let your thoughts settle. If you act, do it simply and without talking about it.
+Practice holding back today. Speak one sentence fewer than you could. Wait before you respond, and let your thoughts settle. If you act, keep it simple and say nothing about it.
 
 Influence often comes after your silence has had time to work.
 
 ### Healing Forge: When Silence Once Meant Being Invisible
 
-Being quiet may once have meant being ignored: overlooked, brushed off, passed over. So you learned to put on a show. This time you choose the silence, and it will not make you disappear. People will feel the weight of your silence without you having to explain it.
+Maybe being quiet once meant being ignored: overlooked, brushed off, passed over. So you learned to put on a show. This time you choose the silence, and it will not make you disappear. People will feel the weight of your silence without you having to explain it.
 
 *End of Day 35*
 
@@ -506,7 +506,7 @@ Words shape more than results. They shape whether people trust you, where things
 
 Reid knew what he believed and could say it clearly, sometimes too quickly. When a conversation got tense, he filled the silence by clarifying, correcting, and explaining. He meant well. But his clear words turned into too many words, his truth came out blunt, and his careful points got buried in all the talking.
 
-People stopped listening. They felt handled, even when they agreed with him. His beliefs did not weaken his witness. Saying too much did.
+People stopped listening. They felt he was trying to manage them, even when they agreed with him. His beliefs did not weaken his witness. Saying too much did.
 
 ### Saying Everything vs. Saying It Right
 
@@ -544,7 +544,7 @@ Some men learned to talk fast to protect themselves: defending, explaining, head
 >
 > 2 Corinthians 4:18
 
-How far ahead you look decides how patient you are. What you believe will last shapes what you are willing to go through. Most anxiety shrinks your view to right now. Growing in faith widens it.
+How far ahead you look decides how patient you are. The things you expect to last shape what you are willing to go through. Most anxiety shrinks your view to right now. Growing in faith widens it.
 
 ### The Scenario
 
@@ -568,7 +568,7 @@ With eternity in view, urgent things still matter. They just take their proper p
 
 Today is about seeing things at their real size. Thinking about eternity does not pull you out of your life. A sailor steering by the wave in front of him is seasick within the hour. Steering by the horizon, he is steady in the same sea. When you only look at right now, everything feels heavier than it is. Keeping eternity in view shows each weight at its real size.
 
-When your faith remembers eternity, you can handle a hassle without panic and pay a price without bitterness. You do not need to rush what was meant to take time.
+When you keep eternity in mind, you can handle a hassle without panic and pay a price without bitterness. You do not need to rush what was meant to take time.
 
 ### The Practice
 
@@ -596,9 +596,9 @@ Grant did not plan to be noticed. He had stopped trying to get attention. All he
 
 Weeks passed, then months. One day someone asked him for advice. He rarely spoke up, but he was steady, and people had seen his strength without him ever pointing to it.
 
-### Show vs. Substance
+### Showing Off vs. Substance
 
-| Show | Substance |
+| Showing Off | Substance |
 | :- | :- |
 | Wants credit | Builds trust over time |
 | Advertises conviction | Carries it quietly |
@@ -622,7 +622,7 @@ That is where others are starting to see how you have grown.
 
 ### Healing Forge: When Being Seen Once Meant Risk
 
-Being seen feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is a kind of trust. They are leaning on you, not watching to catch your mistakes.
+Other people's attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is a kind of trust. They are leaning on you, not watching to catch your mistakes.
 
 *End of Day 38*
 
@@ -632,7 +632,7 @@ Being seen feels dangerous if it used to mean being watched closely, pressure to
 >
 > Matthew 25:21
 
-Authority builds slowly. It comes as you keep showing up and people see how you act, even though none of it feels official. Most men miss the moment it begins, because that moment feels ordinary.
+Authority builds slowly. It comes as you stay faithful day after day and people see how you act, even though none of it feels official. Most men miss the moment it begins, because that moment feels ordinary.
 
 ### The Scenario
 
@@ -710,6 +710,6 @@ Speed and energy are optional. Keeping at it is not.
 
 ### Healing Forge: When Finishing Feels Unsafe
 
-Finishing may once have meant loss: being abandoned, being exposed, being left alone with the responsibility. So you learned to leave things unfinished. You are not being abandoned. Finishing these forty days means you take what you learned with you into everyday life. You are allowed to live out what has been built in you.
+Finishing may once have meant loss: being abandoned, being exposed, being left alone with the responsibility. So you learned to leave things unfinished. You are not being abandoned. Finishing these forty days means taking what you learned into everyday life. You are allowed to live out what has been built in you.
 
 *End of Day 40*

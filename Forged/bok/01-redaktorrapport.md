@@ -39,7 +39,9 @@ Boken har et sterkt skjelett og gode bilder: tauet, rekkverket, radioen soldaten
 | 10 | Omslag: må bygges for endelig sidetall (se KDP-sjekklisten) | Omslag | Forfatter / designer | Åpent |
 | 11 | Ta stilling til sluttleserens fem teologiske merknader: «You are not broken» (intro), «God rarely steers» (Day 7), «You are being relied upon» (Day 30), vitnebegrepet (Day 34), «foundation of formation» (vedlegg B) | Intro, Day 7, 30, 34, vedlegg B | Forfatter | Avgjort 18.10.2026: alle fem endret etter forfatterens valg (beslutningsloggen, 18) |
 | 12 | «sexuality» står i OBSERVE-listen, men ingen av dagene 9–16 handler om det | Intro | Forfatter | Utført 18.10.2026: ordet er strøket etter forfatterens beslutning. |
-| 13 | Day 30 åpner med «Distance is not always absence.» Nå som Healing Forge samme dag slutter med «He has not let go of you», kan forbeholdet leses som at fraværet noen ganger er ekte. Forslag: «Distance is not absence.» eller «Feeling distant is not the same as being abandoned.» | Day 30 | Forfatter | Åpent (teologisk, forfatterens valg) |
-| 14 | Tabellraden «Performs conviction / Embodies it» står ordrett både i Day 34 og Day 38. Forslag til ny rad i Day 38: «Advertises conviction / Carries it quietly». | Day 38 | Forfatter | Åpent (frivillig) |
+| 13 | Day 30 åpnet med «Distance is not always absence.» Nå som Healing Forge samme dag slutter med «He has not let go of you», kan forbeholdet leses som at fraværet noen ganger er ekte. Forslag: «Distance is not absence.» eller «Feeling distant is not the same as being abandoned.» | Day 30 | Forfatter | Avgjort 18.10.2026: «Feeling distant is not the same as being abandoned.» |
+| 14 | Tabellraden «Performs conviction / Embodies it» står ordrett både i Day 34 og Day 38. Forslag til ny rad i Day 38: «Advertises conviction / Carries it quietly». | Day 38 | Forfatter | Avgjort 18.10.2026: forslaget tatt inn |
+| 15 | Klarspråksrunde over hele boken | Alt unntatt forord og skrift | Skillet | Utført 18.10.2026 (`12-klarsprak.md`) |
+| 16 | Svare på 24 spørsmål der en formulering kunne bety to ting | Se `12-klarsprak.md` | Forfatter | Åpent, men frivillig: teksten fungerer slik den står |
 
-**Skillet gjør:** 1–4. **Forfatter gjør:** 5–14. Per 18.10.2026 står 6 (Sverre Johannes' godkjenning), 7–9 (nytt stoff, frivillig), 10 (omslag), 13 og 14 igjen.
+**Skillet gjør:** 1–4 og 15. **Forfatter gjør:** 5–14 og 16. Per 18.10.2026 står 6 (Sverre Johannes' godkjenning), 7–9 (nytt stoff, frivillig), 10 (omslag) og 16 (frivillige ordvalg) igjen.

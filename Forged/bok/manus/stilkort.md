@@ -1,4 +1,4 @@
-# Stilkort, FORGED (helbok, runde 4)
+# Stilkort, FORGED (helbok, runde 4; oppdatert i runde 5)
 
 Målleser: unge menn 17 til 22 år, mange med kristen bakgrunn, noen uten. Leses høyt eller stille om morgenen, fem til ti minutter. Gave fra far, bestefar, mentor, konfirmasjonsgave.
 Språk: amerikansk engelsk, ESV for alle skriftsitater (ordrett fra 5x8.1-PDF-en, kontrollert mot ESV).
@@ -10,7 +10,7 @@ Rytme: korte slag i par er forfatterens signatur («In 2016, I was called. In 20
 2. Ingen åpning «This day is not about …». Hver «What This Day Is Really About» åpner med det dagen handler om.
 3. Ingen setning som annonserer neste setning. Ingen metakommentar om bokens form.
 4. Healing Forge: varierte åpninger (ikke «For some men» i hver), ingen «This is different. You are not X. You are Y.»-formel. Slutt på et steg eller en nådesetning.
-5. Ingen trikolon av abstrakte substantiv der et konkret verb gjør jobben. «alignment, coherence, orientation, trajectory, capacity» brukes sparsomt; «formation» er nøkkelordet og står.
+5. Ingen trikolon av abstrakte substantiv der et konkret verb gjør jobben. «alignment, coherence, orientation, trajectory, capacity» brukes sparsomt. Fra runde 5 gjelder klarspråkskortet (`klarsprak_kort.md`): «formation» og andre abstrakte ord byttes med klare ord, se ordlisten der.
 6. Analogiene (tauet, rekkverket, feberen, radioen, roeren, dashbordet, sykkelen, speilet, punkteringen, grammatikken, svømmemanualen, de åtte roerne, langløpet, dyna, vaktposten, strømmen, brannøvelsen, fiolinisten, huset, seileren) beholdes. De er bokens beste stoff.
 7. Ingen nye fakta, hendelser eller detaljer i scenariene. Scenariene står med det innholdet de har; de skrives om for flyt og konkret språk.
 8. Null tankestreker i brødtekst. En-dash bare i tallspenn (Days 1–8). Overskrifter bruker kolon i kilden; settingen deler dag-nummer og tittel.

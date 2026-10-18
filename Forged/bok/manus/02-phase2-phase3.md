@@ -177,7 +177,7 @@ At first nothing happened. Then the jokes changed, and so did the invitations. W
 | Seeking Approval | Accepting Cost |
 | :- | :- |
 | Puts comfort first | Stays the same man everywhere |
-| Bends what you believe | Puts up with friction |
+| Bends your beliefs | Puts up with friction |
 | Avoids being noticed | Takes the consequences |
 | Keeps doors open | Keeps your integrity |
 | Feels safe | Stands firm |
@@ -188,7 +188,7 @@ You can stand out without picking fights. You cannot do it without losing someth
 
 Do not water down what you believe to keep people's approval. You do not have to provoke anyone. When you and the people around you value different things, there will be friction. You will pay a cost either way. You only get to choose which one.
 
-Staying silent to keep your place in the group often wears away your integrity. When keeping your integrity costs you some closeness, that distance often shows you where you truly belong.
+Staying silent to keep your place in the group often wears away your integrity. Distance that protects your integrity often shows you where you truly belong.
 
 ### The Practice
 
@@ -202,7 +202,7 @@ Make the decision without drama. Stand firm without announcing it. Most costs ar
 
 ### Healing Forge: When Rejection Reopens Old Wounds
 
-People pulling away can bring back old pain from rejection: bullying, being left out, being overlooked. If that is your story, separate this moment from the old wound. Distance does not always mean you have been abandoned. Sometimes it shows that you really are living what you believe. You are not being punished.
+People pulling away can bring back old pain from rejection: bullying, being left out, being overlooked. If that is your story, separate this moment from the old wound. Distance does not always mean you have been abandoned. Sometimes it shows that your actions really do match your beliefs. You are not being punished.
 
 *End of Day 12*
 
@@ -234,7 +234,7 @@ Attachment goes wrong when it makes decisions that belong to God.
 
 ### What This Day Is Really About
 
-Today is about putting your loyalties in the right order. That does not mean cutting people off. A healthy relationship in its right place stays. If this day tempts you to cut off someone who is just inconvenient, you have misread it. Love goes wrong when it takes the place of obedience. Some attachments whisper: *Stay here. Don't change. Don't take risks.* What God calls you to do is not up for negotiation. When your attachments rank above it, you lose your direction slowly, without ever openly rebelling.
+Today is about putting your loyalties in the right order. That does not mean cutting people off. You can keep a healthy relationship that is in its right place. If this day tempts you to cut off someone who is just inconvenient, you have misread it. Love goes wrong when it takes the place of obedience. Some attachments whisper: *Stay here. Don't change. Don't take risks.* What God calls you to do is not up for negotiation. When your attachments rank above it, you lose your direction slowly, without ever openly rebelling.
 
 ### The Practice
 
@@ -244,9 +244,9 @@ Name one attachment that affects whether you obey. Ask:
 - What have I put off obeying because it might cost me a relationship?
 - Which loyalty is trying to have the final say when it has no right to?
 
-Do not confront anyone. Just get clear on what comes first.
+Do not confront anyone. Get clear on what comes first.
 
-### Healing Forge: When Attachment Kept You Safe
+### Healing Forge: When Pleasing People Protected You
 
 Pleasing others may have kept you safe from harm, from a life that felt shaky, or from being abandoned. That was wise once. But what helped you survive is rarely meant to guide your whole life. Reordering your loyalties is part of growing up, and it betrays no one. What once protected you may now be pulling you off course.
 
@@ -296,7 +296,7 @@ Do not judge the answer. Just notice whether you steer your money or your money 
 
 ### Healing Forge: When Money Meant Safety
 
-Maybe money made you feel safe early in life, because it promised control when things felt shaky. That is understandable. But feeling secure can take the place of trusting God without you noticing. Putting money back in its place means making it your servant again. It does not mean giving it away carelessly.
+Maybe money made you feel safe early in life, because it promised control when things felt shaky. That is understandable. But leaning on money for safety can take the place of trusting God without you noticing. Putting money back in its place means making it your servant again. It does not mean giving it away carelessly.
 
 *End of Day 14*
 
@@ -306,7 +306,7 @@ Maybe money made you feel safe early in life, because it promised control when t
 >
 > Ephesians 4:26
 
-Most of the time, anger is about more than the moment that sets it off. It carries the past with it. What blows up fast was usually stored up for a long time.
+Anger is rarely about the moment that sets it off. It carries the past with it. What blows up fast was usually stored up for a long time.
 
 ### The Scenario
 
@@ -344,7 +344,7 @@ Write the answers down where only you will see them. Understanding comes before 
 
 ### Healing Forge: When Anger Learned to Guard You
 
-You may have learned anger early in life. It kept danger away, created distance, and protected you. Back then, you may have needed it. But a defense you never question keeps going long after the threat is gone. As you heal, you learn when anger is the right response and when it is not.
+You may have learned anger early in life. It kept danger away, created distance, and protected you. Back then, you may have needed it. But a defense you never question keeps going long after the threat is gone. Healing teaches you when anger is right and when it is not.
 
 *End of Day 15*
 
@@ -358,7 +358,7 @@ In public, you clean up how you act. Alone, you act the way you trained yourself
 
 ### The Scenario
 
-Ethan was reliable when someone was watching. He met deadlines, kept his standards, and did what was expected. Alone, with no audience, no deadline, and nothing at stake, his habits got sloppy. He took shortcuts, and his standards slipped. He did not fully keep his promises.
+Ethan was reliable when someone was watching. He met deadlines, kept his standards, and did what was expected. Alone, with no audience, no deadline, and nothing at stake, his habits got sloppy. He took shortcuts, let his standards slip, and kept his promises only halfway.
 
 It was nothing dramatic, just a slow wearing away. For a long time, no one saw what he practiced in private. Then they did.
 
@@ -428,7 +428,7 @@ Knowing gets your faith ready. Moving proves it.
 
 ### What This Day Is Really About
 
-Trust has to show up in what you do. That does not mean rushing in without thinking. Some truths stay ideas until you act on them. Faith becomes solid only when you do what you believe. You cannot steer a bicycle that is standing still. Balance and direction come together, and both come after you push off.
+Trust has to show up in what you do, without rushing in blindly. Some truths stay ideas until you act on them, and faith becomes solid only when you do what you believe. You cannot steer a bicycle that is standing still. Balance and direction come together, and both come after you push off.
 
 If you tend to act on feeling, Day 8 was for you. If fear keeps you waiting, today is for you. A strong feeling is not permission to act, and being careful is not the same as obeying.
 
@@ -504,11 +504,11 @@ If you were once punished for mistakes by losing approval, losing safety, or bei
 >
 > Hebrews 4:12
 
-Scripture is there to show you who you are, not to tell you that you are fine as you are. Treat it as decoration, something nice to look at, and it flatters you. Treat it as a mirror, and it shows you the truth about yourself.
+Scripture is there to show you who you are, not to tell you that you are fine. Treat it as decoration, and it flatters you. Treat it as a mirror, and it shows you the truth.
 
 ### The Scenario
 
-Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and never felt that he was the one in the wrong. He came away sure he was fine and rarely looked hard at himself.
+Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and never felt it was meant for him. He came away sure he was fine and rarely looked hard at himself.
 
 He kept turning the mirror toward everyone else.
 
@@ -520,7 +520,7 @@ He kept turning the mirror toward everyone else.
 | Points at others | Speaks to you |
 | Confirms what you think | Tests your motives |
 | Stays an idea | Demands a response |
-| Feels safe | Helps you see clearly |
+| Feels safe | Shows you the truth |
 
 What Scripture shows you depends on how you read it.
 
@@ -542,7 +542,7 @@ Do not rush to work out what it means. Let it show you yourself first.
 
 ### Healing Forge: When Scripture Was Used Against You
 
-Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Healing begins when Scripture becomes a light that helps you see, instead of a tool someone uses on you. A mirror tells the truth so that you can begin to change. It does not attack you.
+Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Healing begins when you meet Scripture as a light that helps you see, instead of a tool someone uses on you. A mirror tells the truth so that you can begin to change. It does not attack you.
 
 *End of Day 19*
 
@@ -570,7 +570,7 @@ He put in plenty of effort. What he lacked was friction: other men pushing back.
 | Lets little correction in | Helps you grow |
 | Gets stuck | Gets stronger |
 
-Sharpening only happens when something pushes back. Being close to other men helps you see clearly.
+Sharpening only happens when something pushes back. Being close to other men shows you your blind spots.
 
 ### What This Day Is Really About
 
@@ -686,7 +686,7 @@ Do not look for ways around the rules. Own your part.
 
 ### Healing Forge: When Rules Meant Safety
 
-Rules may have been a shelter for you. They kept chaos down and made life predictable, so loosening your grip on them can feel dangerous. Wisdom keeps that structure and carries it inside you. Over time, what once guided you from the outside has to guide you from the inside.
+Rules can be a shelter. They kept chaos down and made life predictable, so loosening your grip on them can feel dangerous. Wisdom keeps that structure and carries it inside you. Over time, what once guided you from the outside has to guide you from the inside.
 
 *End of Day 22*
 
@@ -748,7 +748,7 @@ Your strength can easily end up split into pieces. One part of your life moves a
 
 ### The Scenario
 
-Benjamin was strong in some areas. He kept his routines, his beliefs about God were sound, and he was sincere. The pieces did not come together. His physical discipline did not carry over into his life with God, and his beliefs never touched his relationships.
+Benjamin was strong in some areas. He kept his routines, his beliefs about God were sound, and he was sincere. But the pieces did not come together. His physical discipline did not carry over into his life with God, and his beliefs never touched his relationships.
 
 His strength was scattered, and his progress stalled.
 

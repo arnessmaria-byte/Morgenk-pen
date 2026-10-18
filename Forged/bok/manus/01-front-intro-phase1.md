@@ -36,13 +36,13 @@ You are not beyond repair. But you are being shaped, whether you choose it or no
 
 Most devotionals try to inspire you. They give you words for what you believe and few tools for handling pressure. I have nothing against inspiration. I have just noticed that it disappears the moment a hard Tuesday shows up.
 
-When young men fail, it is because they never trained their faith. It is rarely because they think their faith is wrong. Pressure does not ask what you believe. It shows what you have practiced.
+Young men rarely fail because they think their faith is wrong. They fail because they never trained it. Pressure does not ask what you believe. It shows what you have practiced.
 
 This book assumes you are sincere and untrained. What it cares about is whether your faith holds when no one is watching, when you do not feel like it, when things are tense, when old habits come back, and when life goes quiet.
 
 ## Forged, Not Polished
 
-Praise does nothing for steel. Fire, resistance, and repetition do the work, and anything that avoids pressure stays just an idea. That is why this book is called *Forged*. Being shaped costs something. Growing leaves marks, and integrity takes a long time to earn. What shapes you most is going through hard things honestly.
+Compliments do nothing for steel. Fire, resistance, and repetition do the work, and anything that avoids pressure stays just an idea. That is why this book is called *Forged*. Being shaped costs something. Growing leaves marks, and integrity takes a long time to earn. What shapes you most is going through hard things honestly.
 
 ## Who This Book Is For
 
@@ -59,15 +59,15 @@ It will not hype you up, flatter you, entertain you, or fix you quickly. It cann
 
 The forty days follow one training cycle, FORGE. Each letter names a phase.
 
-**FLARE (Days 1–8): Ignition.** Faith that has just been sitting there gets shaken awake and starts to become your own. Asking questions becomes a sign that it is yours.
+**FLARE (Days 1–8): Ignition.** Faith that has been sitting idle gets shaken awake and starts to become your own. Asking questions becomes a sign that it is yours.
 
 **OBSERVE (Days 9–16): Awareness.** You start to see what has been shaping you without you noticing: screens, silence, peers, money, anger, relationships, private habits.
 
-**REFINE (Days 17–24): Living it out.** What you believe moves into what you do. Knowing the truth calls for obeying it. Instead of facing things alone, you have brothers beside you.
+**REFINE (Days 17–24): Living it out.** What you believe moves into what you do. Knowing the truth calls for obeying it. You stop facing things alone and start standing with brothers.
 
 **GRIT (Days 25–32): Endurance.** Discipline becomes a steady rhythm. These days cover your mornings, tiredness, anxiety, taking care of your body, and finishing what you start.
 
-**ELEVATE (Days 33–40): Turning outward.** What was built inside you turns outward, into how you lead, how you live your faith in front of others, how you speak, and the influence you have.
+**ELEVATE (Days 33–40): Turning outward.** What was built inside you now shows in how you lead, how you live your faith in front of others, how you speak, and the influence you have.
 
 Each phase builds on the last. Walk the whole path.
 
@@ -85,13 +85,13 @@ Walk the forty days with someone if you can: a friend, a father, a mentor, a sma
 
 Every day ends with a Healing Forge section, because some things choke your growth the way water in a fuel line chokes an engine: pressing harder on the gas will not fix it. Anxiety, anger, hurt from relationships, sexual shame, feeling numb toward God, and pain about your father that has not healed all work this way. Many young men need healing more than they need discipline. These sections name what is going on so it stops steering you. Then they give you one solid step to take.
 
-This book is not a counselor. If you carry deep trauma, harm done to you, grief that will not let up, or thoughts that frighten you, go to a pastor, a doctor, or a licensed counselor. Going is part of the training. It is the same honesty this book asks of you everywhere else. You are just bringing it to the right place.
+This book is not a counselor. If you carry deep trauma, harm done to you, grief that will not let up, or thoughts that frighten you, go to a pastor, a doctor, or a licensed counselor. Going is part of the training: the same honesty this book asks of you everywhere else, brought to the right place.
 
 ## Before You Begin
 
 None of the forty days ahead earns you anything from God. He accepted you before you began, and that was settled at a cross you did not carry. Training is how you answer that love. A son trains because he lives in his father's house, not to get adopted.
 
-You do not need to become someone else. What you believe, what you practice, and where you are headed need to line up and point the same way. That is what holds under pressure, and it is what lets you move forward without fear.
+You do not need to become someone else. What you believe, what you practice, and where you are headed need to line up. That is what holds under pressure, and it is what lets you move forward without fear.
 
 Begin there.
 
@@ -105,7 +105,7 @@ Begin there.
 >
 > 1 Thessalonians 5:19
 
-God never asked you to be flawless. He asked you to be alive in your faith.
+God never asked you to be flawless. He asked you to be alive.
 
 Most young men who lose their faith never decide to reject it. They lose it the way a man loses a language he never speaks, simply by not using it.
 
@@ -115,9 +115,9 @@ Faith that has never been pushed is still something you take for granted. Faith 
 
 Jake was nineteen when the motorcycle hit the guardrail. One moment there was speed and confidence. The next, silence, pain, fluorescent lights, and the sound of his own breathing, loud with fear.
 
-Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was the kind of certainty you only get by going through pressure.
+Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was certainty that pressure had tested.
 
-Nothing dramatic happened in that room. No vision, no revelation. Something in Jake woke up. For the first time his belief was his own, and it mattered right then. It had a real question to answer: would it hold if he died that night? That was the moment the flame was lit.
+Nothing dramatic happened in that room. No vision, no revelation. Something in Jake woke up. For the first time his belief was his own, and it mattered right then. It had a real question to answer. That was the moment the flame was lit.
 
 ### Faith Untested vs. Faith Under Load
 
@@ -153,7 +153,7 @@ Leave the fixing for later. Today you are only striking the match. Just notice w
 
 Sometimes faith feels gone rather than weak. Often you are simply worn out. Rebellion is not always the reason.
 
-Numbness is often what is left after a long time under pressure with no relief. The pressure may be anger you still carry, grief you pushed down, sexual shame, a relationship you lost, or always holding yourself back while nothing underneath heals. Do not try to force feeling back into your faith today. Name what has dulled your faith. Noticing that is the first act of mercy.
+Numbness is often what is left after a long time under pressure with no relief. The pressure may be anger you still carry, grief you pushed down, sexual shame, a relationship you lost, or always keeping yourself under control while the hurt underneath never heals. Do not try to force feeling back into your faith today. Name what has dulled your faith. Noticing that is the first act of mercy.
 
 *End of Day 1*
 
@@ -187,7 +187,7 @@ Separation takes good judgment. You do not have to look down on anyone to do it.
 
 Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Whatever you are part of always shapes you. Every room and every routine trains you in something, and every relationship puts pressure on you.
 
-You already know this. You talk one way in one house and another way in the next. The place did that, and you never got to choose. You are going to be shaped either way. Separation means you choose what does the shaping.
+You already know this. You talk one way in one house and another way in the next. The room did that, and you never got a vote. You are going to be shaped either way. Separation means you choose what does the shaping.
 
 ### The Practice
 
@@ -209,7 +209,7 @@ If you need to step back, start without making a scene. There is nothing to anno
 
 ### Healing Forge: When Distance Feels Like Loss
 
-Separation can feel like rejection, because loss hurts even when it is necessary. When you step away from a place where you had to pretend in order to belong, you feel the empty space first. Seeing clearly comes later. That empty time is preparing you, not punishing you. Sometimes loneliness means you are being shaped. It does not always mean something is wrong. Do not rush to fill the gap. Give your life time to line up with what you believe.
+Separation can feel like rejection, because loss hurts even when it is necessary. When you step away from a place where you had to pretend to belong, you feel the empty space first. Seeing clearly comes later. That empty time is preparing you, not punishing you. Sometimes loneliness means you are being shaped. It does not always mean something is wrong. Do not rush to fill the gap. Give your life time to line up with what you believe.
 
 *End of Day 2*
 
@@ -219,7 +219,7 @@ Separation can feel like rejection, because loss hurts even when it is necessary
 >
 > 1 Thessalonians 5:21
 
-Avoiding questions hurts your faith. Asking them does not. A faith that never allows questions stays fragile, and a faith that welcomes them grows strong. Some questions are not useful. Still, every question you refuse to ask trains you to look away.
+Your faith can handle your questions. What hurts it is dodging them. A faith that never allows questions stays fragile, and a faith that welcomes them grows strong. Some questions are not useful. Still, every question you refuse to ask trains you to look away.
 
 ### The Scenario
 
@@ -237,13 +237,13 @@ Over time his faith stayed whole on paper and grew shallow in real life. When pr
 | Pile up with no direction | Narrow your focus |
 | Avoid the cost | Accept the consequences |
 
-Some questions wear down your commitment, and others sharpen it. It depends on whether a question leads you away from your commitment or deeper into it.
+Some questions wear down your commitment, and others sharpen it. The difference is where they lead you.
 
 ### What This Day Is Really About
 
 Question what you rely on before pressure forces you to. An inspector never weakened a bridge. If the bridge fails inspection, it was already failing, and the inspection told the truth early, while there was still time to act. Refining questions work the same way. They clear away whatever cannot hold your weight.
 
-Real faith can stand being tested. Fake faith cannot. When you dodge the questions you need to ask, you are protecting your comfort, and comfort wears away little by little.
+Real faith can stand being tested. Fake faith cannot. When you dodge the questions you need to ask, you are protecting your comfort, and that comfort will not last.
 
 ### The Practice
 
@@ -282,7 +282,7 @@ Over time something shifted. The rules he bent without anyone noticing started t
 | :- | :- |
 | Feel forced on you | Make sense to you |
 | Limit your freedom | Protect your strength |
-| Demand that you obey | Train you to stay on course |
+| Demand that you comply | Train you to stay on course |
 | Are bargained over | Are lived out |
 | Create resentment | Build trust |
 
@@ -328,7 +328,7 @@ He tried the usual fixes: more distraction, more productivity, more self-control
 
 | Restless Dissatisfaction | Holy Discontent |
 | :- | :- |
-| Seeks escape | Wants your life lined up |
+| Seeks escape | Wants actions to match beliefs |
 | Complains about others | Looks inside |
 | Demands relief | Demands integrity |
 | Blames circumstances | Notices where you drifted |
@@ -354,7 +354,7 @@ Do not make a drama of it, and do not bury it. Work out what it is saying. Setti
 
 ### Healing Forge: When Discontent Turns Against You
 
-In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. Conviction shows you what to change. Condemnation only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
+In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. Feeling convicted shows you what to change. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
 
 *End of Day 5*
 
@@ -370,7 +370,7 @@ Strength rarely stays neutral: it almost always does good or harm. What you are 
 
 Nathan was competent. People came to him when things broke. He handled pressure well and moved faster than most. Gradually, without deciding to, he let his skill become who he was. His strength became something to guard instead of something to give.
 
-He began choosing places where people admired his skill instead of needing it, and slowly his strength started serving only him. Nothing collapsed. Nothing grew either.
+He began choosing places where people admired his skill instead of needing it, and slowly he used his strength only for himself. Nothing collapsed. Nothing grew either.
 
 ### Strength as Possession vs. Strength as Assignment
 
@@ -472,7 +472,7 @@ Some men let passion do the driving. Others see it as a danger and shut it down.
 
 Evan felt alive when something gripped him. Ideas energized him, projects lit him up, and he was thrilled by moments when things became clear. But his passion came and went without warning. When it was there, he surged forward. When it faded, his discipline went with it.
 
-Over time Evan learned to chase the feeling. He mistook strong feelings for direction. He also mistook urgency for a calling. He had bursts of speed and no staying power.
+Over time Evan learned to chase the feeling. He mistook strong feelings for direction, and urgency for a calling. He had bursts of speed and no staying power.
 
 ### Passion as Driver vs. Passion as Indicator
 

@@ -1,6 +1,6 @@
 # Formliste: FORGED (fasit for hele boken og senere utgaver)
 
-**Etablert i:** runde 4, hele boken · **Dato:** 2026-10-18 · **Bygger på:** formlisten fra runde 3 (intro + Day 1)
+**Etablert i:** runde 4, hele boken; oppdatert i runde 5 (klarspråk) · **Dato:** 2026-10-18 · **Bygger på:** formlisten fra runde 3 (intro + Day 1)
 
 ## Språk og stemme
 | Valg | Form | Eksempel |
@@ -9,7 +9,9 @@
 | Tiltale | «you»; forfatteren i 1. person bare i introen | «This book was written to form you.» |
 | Scenarier | 3. person preteritum, ett fornavn per dag | «Jake was nineteen when…» |
 | Sammentrekninger | Sparsomt, i scenarier og tabelloverskrifter | «Don't», «Isn't» |
-| Kontraster | Maks én bærende «not X. It is Y.» per dag; ellers positiv form | «Questions are not the enemy of faith. Avoided questions are.» |
+| Kontraster | Maks én bærende «not X. It is Y.» per dag; ellers positiv form | «Your faith can handle your questions. What hurts it is dodging them.» |
+| Klarspråk (runde 5) | Hver setning skal kunne forklares av en 18-åring etter én lesning. Abstrakte ord byttes etter ordlisten i `manus/klarsprak_kort.md`. | «Being a witness means being the same man at school, at work, at home, and online.» |
+| Faste setninger | Står ordrett, valgt av forfatteren | «You are not beyond repair.» · «Feeling distant is not the same as being abandoned.» · «His silence is not neglect. He has not let go of you.» |
 
 ## Egennavn og faste termer
 | Term | Fast form |

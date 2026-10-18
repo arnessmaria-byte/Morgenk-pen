@@ -1,4 +1,4 @@
-# Slop-revisjon: FORGED, hele boken (runde 4)
+# Slop-revisjon: FORGED, hele boken (runde 4, med tillegg for runde 5)
 
 **Original:** Forged_v5_7_Manuscript.docx med ESV-rettelsene fra 5x8.1-PDF-en · **Redigert:** `manus/FORGED_manus.md` · **Dato:** 2026-10-18
 
@@ -60,3 +60,21 @@ Sluttleseren fant at fem Healing Forge-avslutninger brukte samme formel, «You a
 ## Uavklarte
 
 Ingen. Begge sperrene står på null.
+
+## Tillegg: etter klarspråksrunden (runde 5)
+
+Begge sperrene er kjørt på nytt på den endelige teksten. Ezra-sperren gir exit 0, og antitesetelleren viser 0 brudd. Første samlede kjøring fant tre trikolon mot en grense på to. To av treffene var falske: et bibelsitat og «practicing, again and again». Det tredje var en firedelt liste som manglet komma før «and». Begge tekststedene er rettet.
+
+| Mål | Etter runde 4 | Etter runde 5 |
+|---|---|---|
+| To-setnings-antiteser | 19 | 3 |
+| «X does not Y. It Z.» | 15 | 3 |
+| «For some men» | 6 | 0 |
+| «quietly» og «quiet» | 30 | 7 |
+| Adverb per 1000 ord | 12,1 | 10,1 |
+| Passiv per 1000 ord | 7,0 | 5,6 |
+| LIX | 34,0 | 28,8 |
+| Metronom-kjeder | 43 | 27 |
+
+LIX står under 40. Det er riktig for en klarspråkstekst til unge lesere, og ingen leddsetninger er lagt til for å løfte tallet. Klarspråksrunden innførte to nye vendinger som ble for vanlige: «what you believe» (4 til 31) og «on purpose» (5 til 16). Helbokskontrollen tynnet dem ut til 24 og 12. De fleste som står igjen, er forfatterens egne setninger eller står én gang per dag.
+

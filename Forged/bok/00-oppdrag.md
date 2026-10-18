@@ -16,3 +16,14 @@ Dette er bestillingen slik den ble presisert og utført 18.10.2026. Den kan bruk
 ## Leveranser
 
 PDF-innmat 6×9 (hovedformat, som de to første bøkene) og 5×8 (alternativ), EPUB for Kindle, rent manus (md og docx), sporede endringer (docx), redaktørrapport, slop-revisjon, endringslogg med dekningskontroll, formliste, kommentarkart, verifiseringsrapport, KDP-sjekkliste, beslutningslogg.
+
+## Runde 5: klarspråk (18.10.2026)
+
+Bestilling: «Det skal være så jordnært, enkelt og lett forståelig som overhodet mulig.» Forordet og bibelsitatene holdes utenfor.
+
+1. **Ett felles kort.** Det inneholder testen for hver setning, ordlisten, faste setninger og blokkerte mønstre (`manus/klarsprak_kort.md`).
+2. **Åtte deler parallelt.** Hver del går gjennom omskriving, troskapsrevisor, kaldleser i målgruppen og retting. Maskinell kontroll av struktur, sitater, navn, tall og sperrer skjer etter hvert trinn.
+3. **Hele boken samlet.** Den leses med fire linser: konsekvens, leser, teologi og stemme. Så følger retting per fil og en sluttrevisor.
+4. **Måling før og etter.** `verktoy/lesbarhet.py` måler abstrakte ord, Flesch, Flesch-Kincaid og setningslengde.
+5. **Leveranser.** PDF i 6×9 og 5×8, EPUB, Word i EB Garamond, Markdown, Google Docs og rapporten `12-klarsprak.md`.
+

@@ -39,7 +39,8 @@ prosjektoversikten i ChatGPT og se etter en samtale datert 21.07.2026 om kvelden
 | 1 | 17.10.2026 kl. 07:01 | Trolig Gemini | Intro + Day 1 | Google Doc i rotmappen |
 | 2 | 17.10.2026 kl. 07:50 | Trolig Gemini, samme chat | Intro + Day 1, «0 em-dash» | Google Doc i rotmappen |
 | 3 | 18.10.2026 | Claude (Claude Code, denne økten, første modell) | Intro + Day 1, Ezra-løp | `arbeid/forged/kap-00-intro-og-day-1/`, commit 7440397 |
-| **4** | **18.10.2026** | **Claude (Claude Code, samme økt, etter modellbytte)** | **Hele boken, KDP-sats, EPUB** | **`Forged/bok/`, denne leveransen** |
+| 4 | 18.10.2026 | Claude (Claude Code, samme økt, etter modellbytte) | Hele boken, KDP-sats, EPUB | `Forged/bok/` |
+| **5** | **18.10.2026** | **Claude (Claude Code, samme økt)** | **Klarspråk over hele boken, unntatt forord og skrift; Word, Google Docs og md** | **`Forged/bok/12-klarsprak.md`** |
 
 Detaljene om runde 1 og 2 står i `arbeid/forged/kap-00-intro-og-day-1/07-sporing-ai-runder.md`. Kort fortalt diktet runde 2 inn detaljer i Jake-scenariet og strøk avsnitt uten logg. Ingen av de oppdiktede detaljene er med i runde 4.
 

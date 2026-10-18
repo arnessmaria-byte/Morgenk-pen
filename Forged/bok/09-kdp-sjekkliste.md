@@ -9,7 +9,7 @@
 | Felt | Verdi |
 |---|---|
 | Format | Paperback 6 × 9 tommer, svart-hvitt innmat, uten utfallende sider (no bleed) |
-| Alternativ | 5 × 8 tommer: `ut/FORGED_Interior_5x8_KDP.pdf`, 122 sider |
+| Alternativ | 5 × 8 tommer: `ut/FORGED_Interior_5x8_KDP.pdf`, 124 sider |
 | Sidetall | 118 (6 × 9), partall, siste side tom |
 | Papir | Hvitt eller krem: forfatterens valg. De to første bøkene avgjør. |
 | ISBN | KDP-tildelt gratis ISBN, eller eget. Copyright-siden har ingen ISBN-linje i dag. |
@@ -34,7 +34,7 @@
 | Siste side | Ingen feil | «About the Author» på s. 117, tom s. 118 | Ja |
 | Metadata | Tittel og forfatter | «Forged: A 40-Day Path…», «Elias Solbak Årnes» | Ja |
 
-Den samme kontrollen er kjørt på 5 × 8-filen: indre marg 0,662 in, ytre 0,492 in, topp 0,328 in, bunn 0,383 in, innholdsliste 50 av 50.
+Den samme kontrollen er kjørt på 5 × 8-filen (124 sider etter klarspråksrunden): indre marg 0,662 in, ytre 0,492 in, topp 0,328 in, bunn 0,383 in, innholdsliste 50 av 50.
 
 ## Omslag (må lages)
 

@@ -154,6 +154,7 @@ PREAMBLE = r'''
 #let to-recto() = pagebreak(to: "odd", weak: true)
 
 #let chapter-title(label, title) = {
+  set text(hyphenate: false)
   [#metadata(none)<chapter-start>]
   v(0.55in)
   if label != none { align(center, tracked(label, size: 10.5pt, tr: 0.22em)); v(10pt) }
@@ -162,6 +163,7 @@ PREAMBLE = r'''
 }
 
 #let simple-title(title) = {
+  set text(hyphenate: false)
   [#metadata(none)<chapter-start>]
   v(0.55in)
   align(center, tracked(title, size: 12pt, tr: 0.2em))
@@ -179,6 +181,7 @@ PREAMBLE = r'''
 }
 
 #let section(title) = {
+  set text(hyphenate: false)
   v(1.1em, weak: true)
   block(width: 100%, sticky: true, above: 1.4em, below: 0.85em, align(center, tracked(title, size: 8.6pt, tr: 0.2em)))
 }
@@ -192,7 +195,7 @@ PREAMBLE = r'''
   block(breakable: false, width: 100%, block(width: 100%, inset: (x: 0.18in, top: 10pt, bottom: 10pt), stroke: (top: 0.4pt + luma(90), bottom: 0.4pt + luma(90)), {
     align(center, tracked("Healing Forge", size: 8.2pt, tr: 0.22em))
     v(2pt)
-    align(center, text(style: "italic", size: 10.5pt, title))
+    align(center, text(style: "italic", size: 10.5pt, hyphenate: false, title))
     v(6pt)
     set text(size: 10.3pt)
     set par(first-line-indent: (amount: 1.2em, all: false))
@@ -206,6 +209,8 @@ PREAMBLE = r'''
 }
 
 #let contrast(head, rows) = {
+  set text(hyphenate: false)
+  set par(justify: false)
   v(0.5em)
   align(center, block(width: 96%, breakable: false, table(
     columns: (1fr, 1fr),

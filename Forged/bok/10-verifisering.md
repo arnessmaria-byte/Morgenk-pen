@@ -25,6 +25,18 @@ Akseptkriteriene ble satt før redigeringen. Hvert punkt under er kontrollert p�
 | 15 | Sporede endringer finnes | Telling i `05-forged-sporet.docx` | 3 781 innsettinger og 3 708 slettinger, forfatter «Ezra-redaktør». |
 | 16 | Fem teologiske endringer og «sexuality» i alle filer | Uavhengig kontroll med pdftotext, EPUB-tekst og docx-tekst | Ny ordlyd finnes én gang i hvert format, gammel ordlyd ingen steder. |
 
+## Runde 5: klarspråk (18.10.2026)
+
+| # | Kriterium | Metode | Resultat |
+|---|---|---|---|
+| K1 | Hver setning forståelig for en 18-åring etter én lesning | Kaldleser per del (8), kaldleser på hele boken, stemmeleser | Funnene er rettet. Se `12-klarsprak.md`. |
+| K2 | Ingen meningsendring, ingen nye fakta | Troskapsrevisor per del (8), teologileser på hele boken, sluttrevisor på siste runde | Alle funn rettet eller begrunnet avvist. Ingen blokkerende funn står igjen. |
+| K3 | Bibelsitater, overskrifter, navn, tall, tabellrader og faste setninger uendret | Maskinell sammenligning mot teksten før runden | Uendret. Unntak: tabelltitler og undertitler i Healing Forge, som kortet tillot å forenkle. |
+| K4 | Abstrakte ord | `verktoy/lesbarhet.py` | 263 → 4 |
+| K5 | Lesbarhet | Flesch og Flesch-Kincaid | 70,5 → 82,6 og 5,6 → 4,3 |
+| K6 | Slop-sperrer | Ezra `--gate` og antitesetelleren | Exit 0 og 0 brudd |
+| K7 | Trykk og e-bok | `sjekk_innhold.py`, margmåling, EPUBCheck, alle sider sett i oversiktsark | 50 av 50, marger og fonter OK, 0 feil i EPUB, ingen orddeling i titler |
+
 ## Det som ikke kunne verifiseres
 
 - **Hammarskjöld-sitatet i forordet.** «It is easy to be good when one is not put to the test…» finnes ikke i noen kilde vi kunne søke i, verken engelsk eller svensk. Forfatteren har avgjort at forordet står uendret.
