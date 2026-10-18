@@ -36,7 +36,7 @@ Akseptkriteriene ble satt før redigeringen. Hvert punkt under er kontrollert p�
 | K5 | Lesbarhet | Flesch og Flesch-Kincaid | 70,5 → 82,6 og 5,6 → 4,3 |
 | K6 | Slop-sperrer | Ezra `--gate` og antitesetelleren | Exit 0 og 0 brudd |
 | K7 | Trykk og e-bok | `sjekk_innhold.py`, margmåling, EPUBCheck, alle sider sett i oversiktsark | 50 av 50, marger og fonter OK, 0 feil i EPUB, ingen orddeling i titler |
-| K8 | Google Docs lik manus | Fire uavhengige lesere, hver sin fjerdedel, ord for ord mot `manus/FORGED_manus.md` | 0 avvik. 269 overskrifter, alle tabellrader og 40 av 40 «End of Day» i riktig rekkefølge. Dokumentet: https://docs.google.com/document/d/1pYzV_WY_WYxT0OCRt4mtJFPmT7BffMvQrm3iIEBp8oo/edit |
+| K8 | Google Docs lik manus, hver dag på ny side | Fire uavhengige lesere, hver sin fjerdedel, ord for ord mot `manus/FORGED_manus.md`; sidetall fra PDF-eksport | 0 avvik, 40 av 40 «End of Day», 106 sider i 6 × 9. Bygget fra RTF fordi Google Docs ignorerer sideskift i HTML. https://docs.google.com/document/d/1Jn_G5nPzYGqFIyXOFX3BHh2uM0OA2W8S0XSTbVQxS1M/edit |
 
 ## Det som ikke kunne verifiseres
 

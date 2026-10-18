@@ -29,3 +29,4 @@
 | 25 | **«He asked you to be alive» (Day 1) beholdt** uten tillegget «in your faith» | Setningen er forfatterens og er klar i sammenhengen. | |
 | 26 | **Der en formulering kunne bety to ting, valgte redaktørene lesningen nærmest originalen** | Spørsmålene står samlet i `12-klarsprak.md`. | |
 | 27 | **Word-manuset settes nå i EB Garamond i 6 × 9**, med dager på ny side. Google Docs lages fra samme tekst. | Bestilt: PDF, docx, Google Docs og md. | `verktoy/bygg_docx.py`, `verktoy/bygg_gdoc_html.py` |
+| 28 | **Google Docs bygges fra RTF** (`verktoy/bygg_gdoc_rtf.py`) | Første opplasting var HTML, og Google Docs ignorerte sideskiftene, så dagene startet midt på siden. RTF beholder sideskift før hver dag og hvert kapittel, samt 6 × 9 og EB Garamond. Det gamle dokumentet er lagt i papirkurven i Drive. | |
