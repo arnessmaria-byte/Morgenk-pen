@@ -1,0 +1,602 @@
+{
+ "1": {
+  "title": "KINDLING THE FLAME",
+  "vo": [
+   "Day 1: Kindling the Flame.",
+   "Untested faith is an assumption.",
+   "Pressured faith becomes a position.",
+   "You may call a rope strong.",
+   "But weight must go on it.",
+   "The practice for today.",
+   "Name one belief you have never tested.",
+   "Ask yourself: Where do I avoid testing it?",
+   "Don't fix it. Just observe the flame."
+  ],
+  "nscenes": 10
+ },
+ "2": {
+  "title": "SEPARATION WITHOUT REJECTION",
+  "vo": [
+   "Day 2: Separation Without Rejection.",
+   "Every room trains something.",
+   "Every relationship applies pressure.",
+   "Separation is not about superiority.",
+   "It is about preserving integrity.",
+   "The practice for today.",
+   "Identify one environment that shapes you.",
+   "Ask: Who must I be to belong here?",
+   "Alignment does not announce itself."
+  ],
+  "nscenes": 10
+ },
+ "3": {
+  "title": "QUESTIONS THAT REFINE",
+  "vo": [
+   "Day 3: Questions That Refine.",
+   "Questions are not the enemy.",
+   "Avoided questions are.",
+   "Faith does not fear testing.",
+   "Only pretense does.",
+   "The practice for today.",
+   "Choose one belief you rely on.",
+   "Ask yourself: Why do I trust this?",
+   "Refinement requires patience."
+  ],
+  "nscenes": 10
+ },
+ "4": {
+  "title": "PURPOSE BEHIND THE RULES",
+  "vo": [
+   "Day 4: Purpose Behind the Rules.",
+   "Rules without purpose create rebellion.",
+   "Rules with purpose create endurance.",
+   "They are guardrails for life.",
+   "Not obstacles to it.",
+   "The practice for today.",
+   "Identify one rule you resist.",
+   "Ask: What does this protect?",
+   "Alignment begins with clarity."
+  ],
+  "nscenes": 10
+ },
+ "5": {
+  "title": "HOLY DISCONTENT",
+  "vo": [
+   "Day 5: Holy Discontent.",
+   "Not all discomfort is a flaw.",
+   "Some discomfort is a signal.",
+   "It does not shout; it presses.",
+   "Do not medicate the messenger.",
+   "The practice for today.",
+   "Notice one recurring discomfort.",
+   "Ask: What is this pointing toward?",
+   "Unease is an invitation."
+  ],
+  "nscenes": 10
+ },
+ "6": {
+  "title": "STRENGTH AS ASSIGNMENT",
+  "vo": [
+   "Day 6: Strength as Assignment.",
+   "Strength is not neutral.",
+   "What you are capable of.",
+   "Will be required of you.",
+   "Unassigned strength bends toward ego.",
+   "The practice for today.",
+   "Identify one strength you rely on.",
+   "Ask: Who benefits if I invest it?",
+   "Name the assignment."
+  ],
+  "nscenes": 10
+ },
+ "7": {
+  "title": "ORIENTED LIVING",
+  "vo": [
+   "Day 7: Oriented Living.",
+   "Motion is not progress.",
+   "Effort without direction is drift.",
+   "Orientation precedes discipline.",
+   "Decide where your life is headed.",
+   "The practice for today.",
+   "Clarify one direction.",
+   "Ask: What small decision moves with it?",
+   "Orientation is chosen daily."
+  ],
+  "nscenes": 10
+ },
+ "8": {
+  "title": "PASSION AS SIGNAL",
+  "vo": [
+   "Day 8: Passion as Signal.",
+   "Passion is a signal.",
+   "It is not a command.",
+   "Unrestrained passion exhausts.",
+   "Interpreted passion focuses.",
+   "The practice for today.",
+   "Notice one recurring passion.",
+   "Ask: What does this point toward?",
+   "Study it. Do not act yet."
+  ],
+  "nscenes": 10
+ },
+ "9": {
+  "title": "FAITH UNDER TEST",
+  "vo": [
+   "Day 9: Faith Under Test.",
+   "Testing is not opposition to faith.",
+   "It is its environment.",
+   "Pressure reveals what governs you.",
+   "It establishes reliability.",
+   "The practice for today.",
+   "Observe one moment of pressure.",
+   "Ask: What belief was in charge?",
+   "Awareness precedes alignment."
+  ],
+  "nscenes": 10
+ },
+ "10": {
+  "title": "YOUR DIGITAL HABITAT",
+  "vo": [
+   "Day 10: Your Digital Habitat.",
+   "Your digital habitat trains you.",
+   "It shapes attention and impulse.",
+   "Unconscious exposure fragments focus.",
+   "Restraint builds coherence.",
+   "The practice for today.",
+   "Observe one digital habit.",
+   "Ask: When do I reach without intention?",
+   "You need cleaner input."
+  ],
+  "nscenes": 10
+ },
+ "11": {
+  "title": "THINKING UNDER PRESSURE",
+  "vo": [
+   "Day 11: Thinking Under Pressure.",
+   "Under strain, thinking tightens.",
+   "Shortcuts appear. Assumptions harden.",
+   "Wisdom is not speed.",
+   "It is deliberate restraint.",
+   "The practice for today.",
+   "Observe one moment of cognitive pressure.",
+   "Ask: What did my thinking collapse into?",
+   "Train the pause."
+  ],
+  "nscenes": 10
+ },
+ "12": {
+  "title": "WHEN STANDING OUT COSTS YOU",
+  "vo": [
+   "Day 12: When Standing Out Costs You.",
+   "Standing out is discounted slowly.",
+   "Silence that preserves belonging erodes integrity.",
+   "Friction is inevitable.",
+   "Which cost will you accept?.",
+   "The practice for today.",
+   "Notice where you soften yourself.",
+   "Ask: What integrity am I trading?",
+   "Cost is not always loud."
+  ],
+  "nscenes": 10
+ },
+ "13": {
+  "title": "WHEN ATTACHMENT PULLS YOU OFF COURSE",
+  "vo": [
+   "Day 13: When Attachment Pulls You Off Course.",
+   "Misplaced attachment redirects behavior.",
+   "What you are loyal to shapes you.",
+   "Love distorts when it replaces obedience.",
+   "Direction erodes slowly.",
+   "The practice for today.",
+   "Identify one attachment that influences obedience.",
+   "Ask: Who am I trying not to disappoint?",
+   "Clarify your order."
+  ],
+  "nscenes": 10
+ },
+ "14": {
+  "title": "WHAT MONEY REALLY DIRECTS",
+  "vo": [
+   "Day 14: What Money Really Directs.",
+   "Money rarely commands openly.",
+   "It directs quietly.",
+   "It reveals what you fund in practice.",
+   "Money is never passive.",
+   "The practice for today.",
+   "Review one financial pattern.",
+   "Ask: What future am I funding?",
+   "Clarify who is directing whom."
+  ],
+  "nscenes": 10
+ },
+ "15": {
+  "title": "WHEN ANGER HAS A HISTORY",
+  "vo": [
+   "Day 15: When Anger Has a History.",
+   "Anger is rarely about the trigger.",
+   "It carries memory.",
+   "Unexamined anger hardens.",
+   "Understood anger becomes information.",
+   "The practice for today.",
+   "Recall one recent moment of anger.",
+   "Ask: What threat did I perceive here?",
+   "Understanding precedes restraint."
+  ],
+  "nscenes": 10
+ },
+ "16": {
+  "title": "WHO YOU ARE WHEN NO ONE SEES",
+  "vo": [
+   "Day 16: Who You Are When No One Sees.",
+   "Public behavior is edited.",
+   "Private behavior is trained.",
+   "What you do unseen reveals formation.",
+   "Private compromises rehearse future decisions.",
+   "The practice for today.",
+   "Observe one private pattern.",
+   "Ask: What standard do I relax?",
+   "Stabilize one private practice."
+  ],
+  "nscenes": 10
+ },
+ "17": {
+  "title": "FAITH THAT MOVES",
+  "vo": [
+   "Day 17: Faith That Moves.",
+   "Observation clarifies. Action commits.",
+   "Faith must enter reality.",
+   "Delay often disguises fear as discernment.",
+   "Clarity follows movement.",
+   "The practice for today.",
+   "Identify one insight you have not acted on.",
+   "Ask: What step is small enough?",
+   "Move once."
+  ],
+  "nscenes": 10
+ },
+ "18": {
+  "title": "FAILURE AS FORGING",
+  "vo": [
+   "Day 18: Failure as Forging.",
+   "Failure does not end formation.",
+   "Avoidance does.",
+   "Failure is feedback, not verdict.",
+   "It reveals where strength was assumed.",
+   "The practice for today.",
+   "Recall one instructive failure.",
+   "Ask: What did this expose about preparation?",
+   "Extract information, not excuses."
+  ],
+  "nscenes": 10
+ },
+ "19": {
+  "title": "SCRIPTURE AS A MIRROR",
+  "vo": [
+   "Day 19: Scripture as a Mirror.",
+   "Scripture does not exist to confirm you.",
+   "It exists to reveal you.",
+   "Read as a mirror, it exposes.",
+   "Truth that cannot correct cannot form.",
+   "The practice for today.",
+   "Read one familiar passage today.",
+   "Ask: What assumption does this challenge?",
+   "Allow exposure first."
+  ],
+  "nscenes": 10
+ },
+ "20": {
+  "title": "STRENGTH GROWS IN BROTHERHOOD",
+  "vo": [
+   "Day 20: Strength Grows in Brotherhood.",
+   "Strength does not mature in isolation.",
+   "It stabilizes through contact.",
+   "Without friction, conviction dulls.",
+   "Brotherhood is shared direction.",
+   "The practice for today.",
+   "Identify one man who shares your direction.",
+   "Ask: Who sees my habits clearly?",
+   "Initiate one honest conversation."
+  ],
+  "nscenes": 10
+ },
+ "21": {
+  "title": "THE BATTLE YOU DON'T ANNOUNCE",
+  "vo": [
+   "Day 21: The Battle You Don't Announce.",
+   "The most decisive battles are invisible.",
+   "They are fought without audience.",
+   "Unnamed battles train reflexes without consent.",
+   "Naming a struggle makes it manageable.",
+   "The practice for today.",
+   "Identify one ongoing internal battle.",
+   "Ask: What am I managing instead of addressing?",
+   "Begin with truth."
+  ],
+  "nscenes": 10
+ },
+ "22": {
+  "title": "WISDOM BEYOND RULES",
+  "vo": [
+   "Day 22: Wisdom Beyond Rules.",
+   "Rules provide clarity.",
+   "Wisdom provides direction.",
+   "Wisdom answers what is required.",
+   "Maturity replaces permission with responsibility.",
+   "The practice for today.",
+   "Recall a situation where no rule applied.",
+   "Ask: What responsibility did I hesitate to own?",
+   "Stand under responsibility."
+  ],
+  "nscenes": 10
+ },
+ "23": {
+  "title": "KNOWLEDGE THAT WORKS",
+  "vo": [
+   "Day 23: Knowledge That Works.",
+   "Information informs. Application forms.",
+   "Knowledge without action dissolves under pressure.",
+   "Wisdom is reducing belief into action.",
+   "Only practiced knowledge survives.",
+   "The practice for today.",
+   "Choose one truth you already understand.",
+   "Ask: Where does this fail in behavior?",
+   "Condense what you know."
+  ],
+  "nscenes": 10
+ },
+ "24": {
+  "title": "STRENGTH INTEGRATED",
+  "vo": [
+   "Day 24: Strength Integrated.",
+   "Strength fragments easily.",
+   "Discipline without integration creates imbalance.",
+   "Power multiplies when direction is unified.",
+   "Integration requires honesty, not intensity.",
+   "The practice for today.",
+   "Review one disconnected area of life.",
+   "Ask: Where do beliefs fail to govern habits?",
+   "Tighten coherence."
+  ],
+  "nscenes": 10
+ },
+ "25": {
+  "title": "THE EDGE OF DISCIPLINE",
+  "vo": [
+   "Day 25: The Edge of Discipline.",
+   "Discipline fails at the edge.",
+   "When effort is familiar.",
+   "Motivation thins. Formation proves real.",
+   "Discipline matures when it outlives excitement.",
+   "The practice for today.",
+   "Identify one discipline that feels heavy.",
+   "Ask: What expectation made this disappointing?",
+   "Remain. Do not quit."
+  ],
+  "nscenes": 10
+ },
+ "26": {
+  "title": "THE MORNING YOU DON'T FEEL LIKE FACING",
+  "vo": [
+   "Day 26: The Morning You Don't Feel Like Facing.",
+   "Some mornings resist you.",
+   "What you avoid governs the day.",
+   "The day requires arrival, not enthusiasm.",
+   "Discipline obeys chosen direction.",
+   "The practice for today.",
+   "Stand up. Speak one sentence of intention.",
+   "Claim the morning",
+   "Arrive first."
+  ],
+  "nscenes": 10
+ },
+ "27": {
+  "title": "STAYING AWAKE ON PURPOSE",
+  "vo": [
+   "Day 27: Staying Awake on Purpose.",
+   "Drift does not announce itself.",
+   "It arrives through small permissions.",
+   "Alertness softens. Attention fades.",
+   "Awareness interrupts drift.",
+   "The practice for today.",
+   "Slow down deliberately today.",
+   "Ask: Where does my attention go?",
+   "Stay awake on purpose."
+  ],
+  "nscenes": 10
+ },
+ "28": {
+  "title": "DISCIPLINE IN A DESIGNED WORLD",
+  "vo": [
+   "Day 28: Discipline in a Designed World.",
+   "Ease is not accidental.",
+   "Environments are curated.",
+   "What surrounds you is training you.",
+   "Formation requires chosen constraints.",
+   "The practice for today.",
+   "Identify one default setting today.",
+   "Interrupt it once",
+   "Replace ease with intention."
+  ],
+  "nscenes": 10
+ },
+ "29": {
+  "title": "PREPARED FOR PRESSURE",
+  "vo": [
+   "Day 29: Prepared for Pressure.",
+   "Pressure arrives quietly.",
+   "It exposes what has not been practiced.",
+   "Reaction reveals preparation.",
+   "Readiness meets pressure without collapse.",
+   "The practice for today.",
+   "Identify one predictable pressure point.",
+   "Do one small act of preparation",
+   "Meet it grounded."
+  ],
+  "nscenes": 10
+ },
+ "30": {
+  "title": "WHEN GOD FEELS DISTANT",
+  "vo": [
+   "Day 30: When God Feels Distant.",
+   "Distance is not always absence.",
+   "Sometimes it is silence.",
+   "God does not always speak.",
+   "Silence does not cancel direction.",
+   "The practice for today.",
+   "Practice what you already know is aligned.",
+   "Stay present. Stay faithful",
+   "Rely on alignment."
+  ],
+  "nscenes": 10
+ },
+ "31": {
+  "title": "THE BODY AS AN INSTRUMENT",
+  "vo": [
+   "Day 31: The Body as an Instrument.",
+   "Faith lives in the body.",
+   "Fatigue distorts access to conviction.",
+   "The body is a conduit.",
+   "Caring for it is stewardship.",
+   "The practice for today.",
+   "Adjust one physical input today.",
+   "Sleep, eat, or breathe with attention",
+   "Honor one signal."
+  ],
+  "nscenes": 10
+ },
+ "32": {
+  "title": "THE DISCIPLINE OF FINISHING",
+  "vo": [
+   "Day 32: The Discipline of Finishing.",
+   "Beginnings attract energy.",
+   "Finishing requires endurance.",
+   "Incompletion weakens trust.",
+   "Completion trains the nervous system.",
+   "The practice for today.",
+   "Identify one thing you are avoiding finishing.",
+   "Take one step toward completion",
+   "Finishing matures discipline."
+  ],
+  "nscenes": 10
+ },
+ "33": {
+  "title": "STRENGTH THAT SERVES",
+  "vo": [
+   "Day 33: Strength That Serves.",
+   "Strength matures in silence.",
+   "But it must turn outward.",
+   "Unused strength turns inward.",
+   "Servanthood is strength freely offered.",
+   "The practice for today.",
+   "Place your strength somewhere useful today.",
+   "Support where consistency matters",
+   "Serve without announcing it."
+  ],
+  "nscenes": 10
+ },
+ "34": {
+  "title": "A CREDIBLE WITNESS",
+  "vo": [
+   "Day 34: A Credible Witness.",
+   "Witness is not performance.",
+   "It is consistent presence.",
+   "Coherence persuades more than argument.",
+   "Credibility accumulates quietly.",
+   "The practice for today.",
+   "Remove one inconsistency today.",
+   "Align private habit with public value",
+   "Witness does not rush."
+  ],
+  "nscenes": 10
+ },
+ "35": {
+  "title": "QUIET INFLUENCE",
+  "vo": [
+   "Day 35: Quiet Influence.",
+   "Influence does not require volume.",
+   "It requires steady presence.",
+   "What lasts is rarely loud.",
+   "Influence is gravity, not force.",
+   "The practice for today.",
+   "Practice restraint today.",
+   "Wait before responding",
+   "Influence arrives after silence."
+  ],
+  "nscenes": 10
+ },
+ "36": {
+  "title": "SPEAKING WITH PRECISION",
+  "vo": [
+   "Day 36: Speaking with Precision.",
+   "Words shape trust and direction.",
+   "Precision protects meaning.",
+   "Restraint is not fear, but responsibility.",
+   "Truth does not need amplification.",
+   "The practice for today.",
+   "Speak less, but mean more today.",
+   "Ask: Is this necessary?",
+   "Precision strengthens authority."
+  ],
+  "nscenes": 10
+ },
+ "37": {
+  "title": "LIVING WITH ETERNITY IN VIEW",
+  "vo": [
+   "Day 37: Living with Eternity in View.",
+   "Perspective determines patience.",
+   "Anxiety narrows time.",
+   "Eternal perspective orders urgency.",
+   "You do not need to rush.",
+   "The practice for today.",
+   "Slow one reaction today.",
+   "Absorb inconvenience without commentary",
+   "Perspective governs pressure."
+  ],
+  "nscenes": 10
+ },
+ "38": {
+  "title": "WHEN STRENGTH IS FINALLY VISIBLE",
+  "vo": [
+   "Day 38: When Strength Is Finally Visible.",
+   "Visibility is not the goal.",
+   "But true formation will be seen.",
+   "It concentrates and accumulates trust.",
+   "It is something to be worthy of.",
+   "The practice for today.",
+   "Resist explanation today.",
+   "Let actions land without reinforcement",
+   "Carry the weight quietly."
+  ],
+  "nscenes": 10
+ },
+ "39": {
+  "title": "WHEN AUTHORITY IS QUIET",
+  "vo": [
+   "Day 39: When Authority Is Quiet.",
+   "Authority does not announce itself.",
+   "It accumulates through consistency.",
+   "It stabilizes instead of amplifying.",
+   "It is earned through trust.",
+   "The practice for today.",
+   "Guard your word today.",
+   "Finish one small responsibility carefully",
+   "Authority forms in the minor tasks."
+  ],
+  "nscenes": 10
+ },
+ "40": {
+  "title": "LIVING FORWARD",
+  "vo": [
+   "Day 40: Living Forward.",
+   "Completion feels quiet.",
+   "Formation does not conclude, it consolidates.",
+   "Alignment is a position you maintain.",
+   "Carry practice, not aspiration.",
+   "The practice for today.",
+   "Commit to one practice going forward.",
+   "Live forward",
+   "That kind of life holds."
+  ],
+  "nscenes": 10
+ }
+}
