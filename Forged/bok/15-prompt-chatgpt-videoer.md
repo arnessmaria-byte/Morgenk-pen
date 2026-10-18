@@ -3,12 +3,12 @@
 Legg ved disse filene i samtalen før du limer inn prompten:
 
 - **Alle FORGED-videoene du har laget så langt** (mp4). Videoen for Day 1 ligger på PC-en din som `C:\Users\elias\Videos\FORGE\FORGED_-_Day_1_Kindling_the_Flame.mp4`.
-- **Manus eller transkripsjon av voiceoveren** til hver video, hvis du har det. ChatGPT kan ofte ikke høre lyden i en videofil.
-- **`ut/FORGED_manus.md`**: hele boken, endelig tekst 18.10.2026. Dette er fasiten.
+- **Transkripsjon av voiceoveren** i hver video, hvis du har det. Teksten du brukte da du laget videoen, går også. ChatGPT kan ofte ikke høre lyden i en videofil.
+- **`ut/FORGED_manus.md`**: hele boken, endelig tekst 18.10.2026. Dette er fasiten. Bruk filen fra GitHub (https://github.com/arnessmaria-byte/Morgenk-pen/blob/claude/dreamy-ptolemy-9lh3ke/Forged/bok/ut/FORGED_manus.md). Kopien i Downloads-mappen i Drive er eldre og mangler de siste rettelsene.
 - **`FORGED_40_Day_Video_Prompts.pdf`** fra Drive: det gamle videomanuset.
-- **`15-vedlegg-videomanus-mot-bok.md`**: det gamle videomanuset stilt opp mot dagens bok, dag for dag.
+- **`15-vedlegg-videomanus-mot-bok.md`**: det gamle videomanuset stilt opp mot boken slik den er nå, dag for dag (https://github.com/arnessmaria-byte/Morgenk-pen/blob/claude/dreamy-ptolemy-9lh3ke/Forged/bok/15-vedlegg-videomanus-mot-bok.md).
 
-Er det mange videoer, kan du dele dem på flere meldinger. Skriv «Flere filer kommer. Ikke svar ennå.» i hver av dem, og lim inn prompten i den siste meldingen.
+Er det mange videoer, kan du dele dem på flere meldinger. Skriv «Flere filer kommer. Ikke svar ennå.» i alle meldingene unntatt den siste. Lim inn prompten i den siste meldingen.
 
 Prompten:
 
@@ -46,7 +46,7 @@ Noen av dagene har allerede fått en kort video. Videoene bygger på et videoman
 
 Dette vet vi allerede:
 
-- **Manuset er skrevet mot en eldre versjon av boken.** Manuset har 360 voiceover-linjer. Ser vi bort fra tittelen og «The practice for today.», står bare 14 av de 280 andre linjene ordrett i boken i dag, og bare 6 av dem som hele setninger. Vedlegget `15-vedlegg-videomanus-mot-bok.md` viser hver gammel linje ved siden av dagens åpning og dagens «The Practice».
+- **Manuset er skrevet mot en eldre versjon av boken.** Manuset har 360 voiceover-linjer. Ser vi bort fra tittelen og «The practice for today.», står bare 19 av de 280 andre linjene ordrett i boken nå, og bare 11 av dem som hele setninger. Et «Ask:» eller «Ask yourself:» først i linjen er ikke regnet med. Vedlegget `15-vedlegg-videomanus-mot-bok.md` viser hver gammel linje ved siden av dagens åpning og dagens «The Practice».
 - **Manuset bruker abstrakte vendinger som boken har tatt bort.** Eksempler er «Witness is not performance.» (Day 34) og «Formation does not conclude, it consolidates.» (Day 40). Jeg har bestemt at slike setninger ikke gjør jobben.
 - **Day 30 er det tydeligste eksempelet.** Manuset sier «Distance is not always absence.» Boken sier nå «Feeling distant is not the same as being abandoned.» Den setningen har jeg valgt selv.
 - **De ferdige videoene kan avvike fra manuset.** Videoen for Day 1 er 33 sekunder, 1920 × 1080 (16:9), 25 bilder i sekundet og med lyd. Den er altså kortere enn manuset. Det er de ferdige videoene du skal kontrollere, ikke bare manuset.
@@ -56,9 +56,9 @@ Jeg vet ikke sikkert hvor mange videoer som er laget. Finn det ut fra filene jeg
 
 ## Oppgave 1: Kontroller videoene som er laget
 
-**Steg 1. Oversikt.** Lag en tabell over hver video jeg har lagt ved, med filnavn, dag, lengde og format. Skriv også om videoen har voiceover, tekst på skjermen og musikk. Vet du ikke, skriv «ukjent». Skriv deretter hvilke av de 40 dagene som mangler video.
+**Steg 1. Oversikt.** Lag en tabell over hver video jeg har lagt ved, med filnavn, dag, lengde og format. Skriv også om videoen har voiceover, tekst på skjermen og musikk, og om teksten ser ut til å være lagt oppå i redigeringen eller er en del av selve bildet. Vet du ikke, skriv «ukjent». Skriv deretter hvilke av de 40 dagene som mangler video.
 
-**Steg 2. Skriv av videoene.** Skriv ned ordrett alt som blir sagt og all tekst som vises på skjermen, med tidspunkt. Bruk transkripsjonen jeg har lagt ved, hvis det finnes en. Kan du ikke høre lyden eller se hele videoen, skriv det for den videoen og be meg om en transkripsjon. Ikke gjett hva som blir sagt. Gi da ingen dom for den videoen. Skriv «venter på transkripsjon», og fortsett med resten.
+**Steg 2. Skriv av videoene.** Skriv ned ordrett alt som blir sagt og all tekst som vises på skjermen, med tidspunkt. Bruk kodeverktøyet hvis du kan: les lengde og format fra filen, og hent ut stillbilder, for eksempel ett per sekund, så du kan lese teksten og se bildene selv. Bruk transkripsjonen jeg har lagt ved, hvis det finnes en. Kan du ikke høre lyden eller se hele videoen, skriv det for den videoen og be meg om en transkripsjon. Ikke gjett hva som blir sagt. Gi da ingen dom for den videoen. Skriv «venter på transkripsjon», og fortsett med resten.
 
 **Steg 3. Sammenlign med boken.** Sjekk hver video mot dagens tekst i `FORGED_manus.md`, ikke mot det gamle manuset. Sjekk disse ni punktene:
 
@@ -85,7 +85,7 @@ Lever funnene i én tabell med disse kolonnene:
 | Dag | Day N |
 | Tid | Tidspunkt i videoen (mm:ss) |
 | I videoen nå | Ordrett |
-| I boken nå | Ordrett sitat fra `FORGED_manus.md`, med del av dagen |
+| I boken nå | Ordrett sitat fra `FORGED_manus.md`, og hvor i dagen det står |
 | Problem | Én eller to setninger |
 | Punkt | Hvilket av de ni punktene |
 | Alvor | Må rettes, Bør rettes eller Valgfritt |
@@ -106,7 +106,7 @@ Dagene som mangler video, og videoene som fikk dommen «Lag på nytt», skal lag
 
 Kan du søke på nettet, gjør det, og oppgi kilde og dato. Skriv hva du er usikker på, så jeg kan sjekke det selv. Bygg planen på det du er sikker på.
 
-**Steg 2. Stilark.** Beskriv stilen i de ferdige videoene slik den faktisk er, ikke slik det gamle manuset sier. Ta med farger, lys, bevegelse, tekst, lyd, tempo, lengde og format. Skriv deretter ett felles stilavsnitt på engelsk som skal stå i hver Gemini-prompt. Kan Gemini bruke referansebilder, si hvilke stillbilder fra de ferdige videoene jeg bør laste opp.
+**Steg 2. Stilark.** Beskriv stilen i de ferdige videoene slik den faktisk er, ikke slik det gamle manuset sier. Ta med farger, lys, bevegelse, tekst, lyd, tempo, lengde og format. Beskriv bare det du selv har sett eller hørt i filene. Resten skriver du som «ukjent», for eksempel stemmen og musikken hvis du ikke har hørt lyden. Skriv deretter ett felles stilavsnitt på engelsk som skal stå i hver Gemini-prompt. Kan Gemini bruke referansebilder, si hvilke stillbilder fra de ferdige videoene jeg bør laste opp.
 
 **Steg 3. Lyd og tekst.** Anbefal én av disse to måtene, og begrunn valget:
 
@@ -115,16 +115,16 @@ Kan du søke på nettet, gjør det, og oppgi kilde og dato. Skriv hva du er usik
 
 Husk at videoene med dommen «Bytt lyd og tekst» også trenger ny voiceover, med samme stemme som de nye videoene.
 
-**Steg 4. Nytt voiceover-manus for alle 40 dagene.** Skriv et oppdatert voiceover-manus for hver dag, hentet fra boken slik den er nå. Manuset brukes både til å rette gamle videoer og til å lage nye. Linjene skal være de samme som i kolonnen «Ny linje» i funntabellen. For dager der videoen fikk dommen OK, skriver du bare «uendret». Disse reglene gjelder:
+**Steg 4. Nytt voiceover-manus for alle 40 dagene.** Skriv et oppdatert voiceover-manus for hver dag, hentet fra boken slik den er nå. Det nye manuset brukes både til å rette gamle videoer og til å lage nye. Der funntabellen har en «Ny linje», bruker du den samme linjen her. For dager der videoen fikk dommen OK, skriver du bare «uendret». Dager der videoen venter på transkripsjon, får også et nytt manus, merket «foreløpig». Disse reglene gjelder:
 
-- Følg oppbyggingen og lengden i de ferdige videoene, slik du beskrev dem i stilarket. Er de bygd som manuset, blir det tittel, tema, «The practice for today.», øvelsen og en avslutningslinje. Er de kortere, bruker du færre linjer.
+- Følg oppbyggingen og lengden i de ferdige videoene, slik du beskrev dem i stilarket. Er de bygd som det gamle manuset, blir det tittel, tema, «The practice for today.», øvelsen og en avslutningslinje. Er de kortere, bruker du færre linjer.
 - Bruk setninger fra boken ordrett der det går. Kort bare ved å ta bort ord, ikke ved å skrive nye.
 - Et kutt må ikke endre meningen. «God does not always speak to ease your discomfort.» (Day 30) kan for eksempel ikke kortes til «God does not always speak.». Kan du ikke korte en setning uten å endre meningen, velg en annen setning fra boken.
-- Hver linje skal kunne sies på omtrent fem sekunder, altså høyst 12 ord. Mine faste setninger kortes ikke. Er en fast setning lengre, som i Day 7 og Day 34, deler du den på to linjer.
-- Ikke legg til påstander, bilder eller løfter som ikke står i boken.
-- Merk hver linje med «ordrett» eller «forkortet». Oppgi også hvor i dagen den står: åpningen, «What This Day Is Really About» eller «The Practice».
+- Hver linje skal kunne sies rolig i det tidsrommet den har i de ferdige videoene. Regn med høyst 2,5 ord per sekund, og aldri mer enn 12 ord. Mine faste setninger kortes ikke. Er en fast setning lengre, som i Day 7 og Day 34, deler du den på to linjer.
+- Ikke legg til påstander, sammenligninger eller løfter som ikke står i boken.
+- Merk hver linje med «ordrett» eller «forkortet». Oppgi også hvor i boken den står, for eksempel åpningen, «What This Day Is Really About», «The Practice» eller «Healing Forge».
 
-**Steg 5. Gemini-prompter.** Skriv én ferdig prompt per klipp som må lages, som jeg kan lime rett inn i Gemini. Hver prompt skal ha:
+**Steg 5. Gemini-prompter.** Skriv én ferdig prompt for hvert klipp som må lages. Jeg skal kunne lime hver prompt rett inn i Gemini. Hver prompt skal ha:
 
 - klippnummer og tidsrom i den ferdige videoen
 - stilavsnittet fra steg 2
@@ -132,9 +132,9 @@ Husk at videoene med dommen «Bytt lyd og tekst» også trenger ny voiceover, me
 - lyd, og voiceover i anførselstegn hvis du anbefalte det i steg 3
 - hva som ikke skal være med: logoer, ansikter, og tekst i bildet hvis teksten skal legges på i redigeringen
 
-Behold bildeoppbyggingen fra de ferdige videoene. Bruker de ferdige videoene de samme bildene hver dag, slik manuset gjør, skal du ikke lage nye bilder for hver dag. Lag da ett sett klipp som brukes i alle de nye videoene, eller si fra hvis bildene i de ferdige videoene kan brukes på nytt. Da er det bare tittelen, teksten og voiceoveren som skifter fra dag til dag.
+Behold bildeoppbyggingen fra de ferdige videoene. Bruker de ferdige videoene de samme bildene hver dag, slik det gamle manuset gjør, skal du ikke lage nye bilder for hver dag. Lag da ett sett klipp som brukes i alle de nye videoene, eller si fra hvis bildene i de ferdige videoene kan brukes på nytt. Da er det bare tittelen, teksten og voiceoveren som skifter fra dag til dag. Anbefalte du i steg 3 at Gemini lager voiceoveren, forklar hvordan bildene og stemmen likevel blir de samme fra dag til dag.
 
-Vil du vise noe som dagens tekst bruker som bilde, for eksempel tauet i Day 1, merk det som et forslag. Skriv til slutt hvordan klippene settes sammen til én video med riktig lengde og samme format som de ferdige videoene, og hvilken tekst som legges på hvor.
+Vil du vise noe som boken bruker som sammenligning den dagen, for eksempel tauet i Day 1, merk det som et forslag. Skriv til slutt hvordan klippene settes sammen til én video med riktig lengde og samme format som de ferdige videoene, og hvilken tekst som legges på hvor.
 
 ## Faste rammer
 
@@ -152,19 +152,19 @@ Vil du vise noe som dagens tekst bruker som bilde, for eksempel tauet i Day 1, m
 
 ## Slik skal du levere
 
-Skriv rapporten på norsk bokmål. Alt som skal inn i videoene, skriver du på engelsk.
+Skriv rapporten på norsk bokmål. Alt som skal inn i videoene, og hele hver Gemini-prompt, skriver du på engelsk.
 
-1. **Kort dom.** Hvor mange videoer er OK, hvor mange må få ny lyd og tekst, og hvor mange må lages på nytt?
+1. **Kort dom.** Dommen for hver video, med dag og filnavn. Skriv også hvor mange videoer som er OK, hvor mange som må få ny lyd og tekst, hvor mange som må lages på nytt, og hvor mange som venter på transkripsjon.
 2. **Oversikten** fra oppgave 1, steg 1, og avskriften fra steg 2.
 3. **Funntabellen** fra oppgave 1, steg 4.
 4. **Gemini-delen:** hva Gemini kan, stilarket og anbefalingen om lyd og tekst.
-5. **Voiceover-manuset** for alle 40 dagene.
+5. **Det nye voiceover-manuset** for alle 40 dagene.
 6. **Gemini-promptene.**
 7. **Funn i boken**, hvis du har noen.
 8. **Egenkontroll før du leverer:**
-   - Søk etter hvert boksitat i `FORGED_manus.md`, og bekreft at det står nøyaktig slik.
+   - Søk etter hvert boksitat i `FORGED_manus.md` med kodeverktøyet, ikke bare med filsøk, og bekreft at det står nøyaktig slik. Rette og krøllete apostrofer og anførselstegn regnes som like.
    - Sjekk at ingen voiceover-linje sier noe boken ikke sier, og at ingen forkortet linje har fått en annen mening.
-   - Sjekk at ingen linje har lang tankestrek eller mer enn 12 ord, bortsett fra delte faste setninger.
+   - Sjekk at ingen linje har lang tankestrek eller mer enn 12 ord.
    - Sjekk bibelversene mot versene i `FORGED_manus.md`.
    - Skriv hva du ikke fikk kontrollert, og hvorfor.
 

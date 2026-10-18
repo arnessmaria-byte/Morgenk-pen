@@ -1,15 +1,16 @@
-# Vedlegg til videoprompten: gammelt videomanus mot dagens bok
+# Vedlegg til videoprompten: gammelt videomanus mot boken nå
 
 Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 - **Gammelt videomanus:** voiceover-linjene i `FORGED_40_Day_Video_Prompts.pdf` (Drive, sist endret 05.08.2026). Det er skrevet mot en eldre versjon av boken.
-- **Dagens bok:** `ut/FORGED_manus.md`, endelig tekst 18.10.2026.
-- **«ja, hel setning»** betyr at linjen står ord for ord som en hel setning i dagens bok.
+- **Boken nå:** `ut/FORGED_manus.md`, endelig tekst 18.10.2026.
+- **«ja, hel setning»** betyr at linjen står ord for ord som en hel setning et sted i boken nå, ikke nødvendigvis samme dag.
 - **«del av en lengre setning»** betyr at ordene står i boken, men bare som en bit av en lengre setning. Da kan linjen si noe annet enn boken. «God does not always speak.» (Day 30) står for eksempel i boken som «God does not always speak to ease your discomfort.».
 - **«nei»** betyr at linjen ikke står ordrett i boken. Det sier ikke alene at linjen er feil, for mange linjer er korte sammendrag. De må vurderes etter mening.
+- **«Ask:» og «Ask yourself:»** først i en linje er ikke regnet med. Spørsmålet etter kolon er sammenlignet med boken.
 - **Scenenumrene følger manuset.** Scene 1 har ingen voiceover, bare en klikkelyd. Scene 2 er tittel-linjen, og scene 7 er «The practice for today.». Disse to linjene er ikke tatt med, så tabellene viser scene 3 til 6 og 8 til 10.
 
-**Sammendrag:** Manuset har 360 voiceover-linjer. Uten tittel-linjen og «The practice for today.» er det 280 linjer igjen. 14 av dem står ordrett i dagens bok, og bare 6 som hele setninger. Alle 40 dagtitler stemmer med boken.
+**Sammendrag:** Manuset har 360 voiceover-linjer. Uten tittel-linjen og «The practice for today.» er det 280 linjer igjen. 19 av dem står ordrett i boken nå, og bare 11 som hele setninger. Alle 40 dagtitler stemmer med boken.
 
 ## Day 1: Kindling the Flame
 
@@ -32,7 +33,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 5 | You may call a rope strong. | nei |
 | 6 | But weight must go on it. | nei |
 | 8 | Name one belief you have never tested. | nei |
-| 9 | Ask yourself: Where do I avoid testing it? | nei |
+| 9 | Ask yourself: Where do I avoid testing it? | ja, hel setning |
 | 10 | Don't fix it. Just observe the flame. | nei |
 
 **The Practice i boken nå:**
@@ -104,7 +105,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 5 | Faith does not fear testing. | nei |
 | 6 | Only pretense does. | nei |
 | 8 | Choose one belief you rely on. | del av en lengre setning |
-| 9 | Ask yourself: Why do I trust this? | nei |
+| 9 | Ask yourself: Why do I trust this? | ja, hel setning |
 | 10 | Refinement requires patience. | nei |
 
 **The Practice i boken nå:**
@@ -438,7 +439,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 5 | Love distorts when it replaces obedience. | nei |
 | 6 | Direction erodes slowly. | nei |
 | 8 | Identify one attachment that influences obedience. | nei |
-| 9 | Ask: Who am I trying not to disappoint? | nei |
+| 9 | Ask: Who am I trying not to disappoint? | ja, hel setning |
 | 10 | Clarify your order. | nei |
 
 **The Practice i boken nå:**
@@ -566,7 +567,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 5 | Delay often disguises fear as discernment. | nei |
 | 6 | Clarity follows movement. | nei |
 | 8 | Identify one insight you have not acted on. | nei |
-| 9 | Ask: What step is small enough? | nei |
+| 9 | Ask: What step is small enough? | del av en lengre setning |
 | 10 | Move once. | nei |
 
 **The Practice i boken nå:**
@@ -662,7 +663,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 5 | Without friction, conviction dulls. | nei |
 | 6 | Brotherhood is shared direction. | nei |
 | 8 | Identify one man who shares your direction. | nei |
-| 9 | Ask: Who sees my habits clearly? | nei |
+| 9 | Ask: Who sees my habits clearly? | ja, hel setning |
 | 10 | Initiate one honest conversation. | nei |
 
 **The Practice i boken nå:**
@@ -1134,7 +1135,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 5 | Restraint is not fear, but responsibility. | nei |
 | 6 | Truth does not need amplification. | nei |
 | 8 | Speak less, but mean more today. | nei |
-| 9 | Ask: Is this necessary? | del av en lengre setning |
+| 9 | Ask: Is this necessary? | ja, hel setning |
 | 10 | Precision strengthens authority. | nei |
 
 **The Practice i boken nå:**
