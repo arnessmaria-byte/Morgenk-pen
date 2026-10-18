@@ -1530,7 +1530,7 @@ If pressure once meant danger (raised voices, punishment, the loss of safety), r
 >
 > Psalm 22:1
 
-Distance is not always absence. Sometimes it is silence where there used to be noise, stillness where reassurance used to come quickly. Many men take this for a loss of faith. Often it is something else.
+Feeling distant is not the same as being abandoned. Sometimes distance is silence where there used to be noise, stillness where reassurance used to come quickly. Many men take this for a loss of faith. Often it is something else.
 
 ### The Scenario
 
@@ -1899,7 +1899,7 @@ Weeks passed, then months. Then one day someone asked him for counsel. He rarely
 | Display | Density |
 | :- | :- |
 | Seeks recognition | Accumulates trust |
-| Performs conviction | Embodies it |
+| Advertises conviction | Carries it quietly |
 | Requires affirmation | Generates gravity |
 | Fluctuates with response | Remains consistent |
 | Demands attention | Attracts reliance |
