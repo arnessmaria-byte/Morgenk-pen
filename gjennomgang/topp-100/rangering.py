@@ -14,7 +14,7 @@ items = [
 (36,"Komplementarisme eller egalitarisme",5,5,8,8),(37,"Krig og pasifisme",5,4,6,8),(38,"Kjønnsidentitet",4,4,9,8),
 (39,"Prestesølibatet",3,5,5,7),(40,"Prevensjon",3,3,5,8),(41,"Lov og evangelium",7,5,3,7),(42,"Liturgi og gudstjeneste",4,5,5,8),
 (43,"Tvang i trossaker",5,5,4,8),(44,"Velstandsteologi",5,3,7,6),(45,"Den historiske Adam",6,2,6,6),(46,"Slaveriet",4,6,2,5),
-(47,"Eutanasi",4,2,8,8),(48,"Mormoner, Jehovas vitner og lignende",6,5,4,4),(49,"Sabbat eller søndag",4,3,3,3),
+(47,"Eutanasi og selvmord",4,2,8,8),(48,"Mormoner, Jehovas vitner og lignende",6,5,4,4),(49,"Sabbat eller søndag",4,3,3,3),
 (50,"Økumenikk",5,5,5,9),(51,"Sex før ekteskapet og samboerskap",5,2,6,9),(52,"Frigjøringsteologi og sosialt evangelium",3,3,3,5),
 (53,"Rasisme og etnisk kirke",6,5,6,8),(54,"Misjon og proselytisme",6,3,4,7),(55,"Gnostisisme og Markion",8,7,2,4),
 (56,"Donatismen og gjendåp",4,6,2,5),(57,"Påskedatoen",3,6,4,8),(58,"Kirketukt",5,3,4,7),(59,"Tro og vitenskap",3,3,6,8),

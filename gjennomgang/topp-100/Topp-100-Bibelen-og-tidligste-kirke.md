@@ -1,6 +1,6 @@
 # Topp 100 kristne stridsspørsmål: Bibelen og den tidligste kirken som målestokk
 
-*Ny rangering og nye posisjoner. Usyret brød og kalenderskismaet er lagt til, og alle 102 spørsmålene er vurdert. Investiturstriden og avholdssaken faller ut av topp 100. Rettet etter Codex' gjennomgang og Claudes kontroll, 7. november 2026.*
+*Ny rangering og nye posisjoner. Usyret brød og kalenderskismaet er lagt til, og alle 102 spørsmålene er vurdert. Investiturstriden og avholdssaken faller ut av topp 100. Rettet etter Codex' to gjennomganger og Claudes kontroll (runde 2), 7. november 2026.*
 
 ## Hvordan jeg vekter, og hvorfor
 
@@ -20,12 +20,12 @@ Forskjellen fra den ortodokse vektingen er at senere tradisjon, som de sju konsi
 
 **Rangeringen** bygger på fire faktorer. Hver av dem har fått en poengsum fra 0 til 10, og summen er vektet slik:
 
-- **Sentralitet (S), 45 %:** hvor nær emnet ligger det NT selv kaller «det viktigste» (1 Kor 15,3-4), troens regel hos Irenaeus og Tertullian, og dåpen og nattverden. S gjelder emnets plass i NT og den tidligste kirken, ikke hvor omstridt det er.
-- **Splittelseskraft (D), 20 %:** splittelser spørsmålet har forårsaket eller vært en hovedgrunn til, i historien og i dag. Splittelser som skyldes en bred bevegelse, telles under den brede oppføringen, for eksempel liberal teologi (nr. 14), slik at de ikke telles to ganger.
+- **Sentralitet (S), 45 %:** hvor nær emnet ligger det NT selv kaller «det viktigste» (1 Kor 15,3-4), troens regel hos Irenaeus og Tertullian, og dåpen og nattverden. S gjelder det avgrensede spørsmålet i oppføringen, ikke hele feltet det hører til, og heller ikke hvor omstridt det er.
+- **Splittelseskraft (D), 20 %:** splittelser spørsmålet har forårsaket eller vært en hovedgrunn til, i historien og i dag. Et brudd med flere hovedgrunner gir poeng til hver av dem. Splittelser som skyldes en bred bevegelse, telles under den brede oppføringen, for eksempel liberal teologi (nr. 14), slik at de ikke telles to ganger.
 - **Aktualitet (A), 20 %:** hvor mye spørsmålet diskuteres i dag.
-- **Utbredelse (U), 15 %:** hvor stor del av verdens kristne som tilhører kirker som har tatt eller må ta stilling til spørsmålet.
+- **Utbredelse (U), 15 %:** hvor stor del av verdens kristne som tilhører kirker der spørsmålet er omstridt i dag, internt eller i møte med andre kirker. En kirke som bare har en eldre bekjennelsessetning om spørsmålet, teller ikke med.
 
-Poengsummene står i tabellen bakerst.
+Poengsummene er faglige anslag og står i tabellen bakerst. U-poengene ble satt før definisjonen av U ble presisert, og bør kalibreres samlet etter den.
 
 For hvert spørsmål står det om posisjonen er **endret** fra forrige versjon med ortodoks vekting. Mange av endringene går tilbake mot den første gjennomgangen, men flere går videre, fordi den tidligste kirken nå teller som et eget kriterium.
 
@@ -77,10 +77,10 @@ Posisjonen ligger nær luthersk lære om nåde som kan motstås, men går lenger
 Embetet som eldste og tilsynsmann (presbyter og biskop) er forbeholdt kvalifiserte menn. Kvinner har tjenester som profeti, undervisning av kvinner og veiledning i samtale. De har også et diakonissembete, som er belagt i NT (Rom 16,1; trolig 1 Tim 3,11). Plinius forteller rundt år 112 om to slavekvinner «som ble kalt tjenerinner» (*ministrae*). Han beskriver ikke oppgavene deres, så brevet alene avgjør ikke om dette var et diakonisseembete.
 Grunnlaget har tre ledd:
 - Skapelsesbegrunnelsen og embetstekstene (1 Tim 2,12-13; 3,2; Tit 1,6).
-- I kildene fra før 325 er kvinner som forretter ved nattverden eller opptrer som presbytere, bare kjent fra grupper og tilfeller kirken avviste. Irenaeus forteller om Markus' krets (*Mot kjetterne* I.13.2), Tertullian om kvinnene hos kjetterne (*Om kjetternes forskrivning* 41), og Firmilian om en profetinne i Kappadokia (brev til Kyprian, brev 75,10). Senere finnes enkelte innskrifter med tittelen *presbytera*, og pave Gelasius klaget i 494 over kvinner som tjente ved alteret i Sør-Italia. Laodikea kanon 11 forbyr innsettelse av kvinner kalt *presbytides*, men sier ikke hva de gjorde.
+- Kildene fra før 325 som jeg har gått gjennom, beskriver noen kvinner som forrettet ved nattverd eller dåp, og forfatterne avviser dem. Irenaeus forteller at Markus lot kvinner innvie begeret (*Mot kjetterne* I.13.2). Firmilian forteller om en profetinne i Kappadokia som etterlignet kirkens nattverd og dåp (brev 75,10 i Hartels utgave, 74 i ANF). Tertullian klager over at kvinner hos kjetterne underviser, driver ut onde ånder og kanskje døper (*Om kjetternes forskrivning* 41). Ammion-innskriften fra Frygia, datert til før 325, kaller en kvinne *presbytera*, men det er omstridt hva tittelen betydde og hvilken kirke hun tilhørte. Senere innskrifter bruker samme tittel, og pave Gelasius fordømte i 494 meldinger om kvinner som tjente ved alteret i Sør-Italia. Laodikea kanon 11 forbyr innsettelse av kvinner kalt *presbytides*, men sier ikke hva de gjorde. Jeg finner ikke sikkert belegg for at kvinner hadde presbyterembetet i hovedkirken.
 - Bokutkastets skille mellom tjeneste og embete.
 
-Gal 3,28 og slaveri-analogien er viktige innvendinger. Slaveriet begrunnes likevel aldri i skapelsen. Den nærmeste tekstlige innvendingen er at 1 Tim 2,12 kan gjelde en bestemt form for myndighetsbruk i en menighet som strever med vranglære (1 Tim 1,3-7). Jeg legger vekt på at Paulus fører begrunnelsen tilbake til Adam og Eva. I nr. 23 gjelder argumentet ekteskapets ordning. I nr. 76 må en også spørre om selve tegnet følger av skapelsesbegrunnelsen. *Sikkerhet: middels til høy.*
+Gal 3,28 og slaveri-analogien er viktige innvendinger. De nytestamentlige husordningene begrunner likevel ikke slaveriet med skapelsen (Ef 6,5-9; Kol 3,22-4,1; 1 Pet 2,18-25). Den nærmeste tekstlige innvendingen er at 1 Tim 2,12 kan gjelde en bestemt form for myndighetsbruk i en menighet som strever med vranglære (1 Tim 1,3-7). Jeg legger vekt på at Paulus fører begrunnelsen tilbake til Adam og Eva. I nr. 23 gjelder argumentet ekteskapets ordning. I nr. 76 må en også spørre om selve tegnet følger av skapelsesbegrunnelsen. *Sikkerhet: middels til høy.*
 
 **12. Kirkens vesen og apostolisk suksesjon** (16). *Endret.*
 Kirken er et synlig fellesskap av døpte, samlet om Ordet og sakramentene og med en ordnet tjeneste som står i sammenheng med apostlene (Apg 14,23; Tit 1,5; 1 Klem. 42-44). Bispesuksesjonen er tidlig og har verdi som tegn på at kirken lærer det apostlene lærte (Irenaeus). Kirker som mangler den, har en mangelfull ordning, men er ikke uten videre ikke-kirker hvis de har den apostoliske tro og sakramentene. Ingen kirke har vist at den alene er Kirken. *Sikkerhet: middels.*
@@ -94,7 +94,7 @@ Forsoningen har flere sider, og ingen av dem skal gjøres til den eneste:
 - **Løsepenge:** «gi sitt liv som løsepenge for mange» (Mark 10,45).
 - **Rekapitulasjon:** Irenaeus' lære om at Kristus samler og fornyer hele menneskelivet i seg.
 
-Forrige versjon avviste straffesubstitusjonen som hovedmodell. Nå regner jeg den som en reell og tidlig side, ikke som en senvestlig oppfinnelse. Kristus døde for alle (1 Tim 2,6; 1 Joh 2,2). Læren om begrenset forsoning (Dordrecht) avvises, i tråd med nr. 10. *Sikkerhet: middels til høy.*
+Forrige versjon avviste straffesubstitusjonen som hovedmodell. Nå regner jeg den som en reell og tidlig side, ikke som en senvestlig oppfinnelse. Kristus døde for alle (1 Tim 2,4-6; 1 Joh 2,2). Dordrecht skiller mellom at Kristi død er tilstrekkelig for hele verden og at den etter Guds hensikt bare virker frelse for de utvalgte (andre hovedstykke, art. 3 og 8), og viser blant annet til Joh 10,11.15. Jeg leser 1 Tim 2,4-6 og 1 Joh 2,2 slik at også hensikten gjelder alle, i tråd med nr. 10. Det er dette leddet ved læren om begrenset forsoning jeg avviser. *Sikkerhet: middels til høy, middels for leddet om forsoningens rekkevidde.*
 
 **14. Liberal teologi** (32). *Uendret.*
 Teologi som oppgir trosbekjennelsens innhold, er et brudd med kristen lære, ikke en variant av den. *Sikkerhet: høy.*
@@ -128,7 +128,7 @@ Ekteskapet er uoppløselig. Separasjon kan være rett ved utroskap eller når en
 Mennesket blir født under døden og fremmedgjort fra Gud, med en tilbøyelighet til synd, og trenger gjenfødelse (Rom 5,12-21; Ef 2,3). Det er grunnen til at også spedbarn døpes: Kyprian sier at barnet har pådratt seg «den gamle dødens smitte» fra Adam og får tilgitt en annens synder, siden det selv ikke har syndet (brev 64,5). Augustins sterke lære om arvet personlig skyld er senere og går lenger enn tekstene. *Sikkerhet: middels.*
 
 **26. Bibelens kanon** (25). *Endret.*
-NT har 27 bøker, og kjernen var i bruk rundt år 200. For GT er den hebraiske kanon kanon i streng forstand. Melito (ca. 170) og Origenes gir tidlige, ulike lister med nærhet til den hebraiske kanon. Melitos liste mangler Ester. Origenes tar med Ester og nevner Makkabeerbøkene utenfor listen på 22 (Eusebius, *Kirkehistorie* IV.26; VI.25). NT siterer ingen av de katolske deuterokanoniske bøkene med en uttrykkelig skriftformel. Matt 27,43 har en parallell i Visd 2,18. Jud 14-15 gjengir 1 Enok 1,9, som ligger utenfor den katolske kanon. Slike sitater og hentydninger avgjør ikke i seg selv kanonspørsmålet.
+NT har 27 bøker i de store tradisjonene, og kjernen var i bruk rundt år 200. Den etiopisk-ortodokse kirkens bredere kanon regner flere. For GT er den hebraiske kanon kanon i streng forstand. Melito (ca. 170) og Origenes gir tidlige, ulike lister med nærhet til den hebraiske kanon. Melitos liste mangler Ester. Origenes tar med Ester og nevner Makkabeerbøkene utenfor listen på 22 (Eusebius, *Kirkehistorie* IV.26; VI.25). NT siterer ingen av de katolske deuterokanoniske bøkene med en uttrykkelig skriftformel. Matt 27,43 har en parallell i Visd 2,18. Jud 14-15 gjengir 1 Enok 1,9, som ligger utenfor den katolske kanon. Slike sitater og hentydninger avgjør ikke i seg selv kanonspørsmålet.
 De deuterokanoniske bøkene er gode kirkelige lesebøker. Athanasius skiller mellom kanon og lesebøker, men regner Baruk og Jeremias brev med til den kanoniske Jeremiasboken og Ester til lesebøkene (påskebrev 39.4, 7). Den anglikanske artikkel VI skiller også mellom kanoniske bøker og lesebøker; der står Baruk blant lesebøkene. *Sikkerhet: middels til høy.*
 
 **27. Filioque** (11). *Uendret om innskuddet.* Trosbekjennelsen fra 381 sier at Ånden utgår fra Faderen (Joh 15,26), og tillegget bør ut. «Gjennom Sønnen» er en god formulering for Åndens sendelse. *Sikkerhet: høy om bekjennelsesteksten.*
@@ -138,7 +138,7 @@ De deuterokanoniske bøkene er gode kirkelige lesebøker. Athanasius skiller mel
 **29. Skapelse og evolusjon** (18). *Uendret.* Gud skapte alt av intet, og mennesket er skapt i Guds bilde. Fedrene leste skapelsesdagene ulikt, og mekanismen er ikke avgjort. *Sikkerhet: middels.*
 
 **30. Mariologi** (20). *Endret.*
-Maria er Gudføderske (Luk 1,43; Efesos 431); det er en kristologisk sannhet. Tradisjonen om Marias livslange jomfruelighet har tidlige røtter. Jakobs protoevangelium (ca. 150) skildrer hennes jomfruelighet ved Jesu fødsel og gjør Jesu brødre til Josefs sønner fra et tidligere ekteskap. Origenes viser til det til støtte for at hun forble jomfru (*Matteuskommentaren* X.17). Tertullian regnet derimot med at hun levde i ekteskap etter fødselen (*Om engifte* 8) og avviste at hun forble jomfru under selve fødselen (*Om Kristi kjød* 23). NT-omtalen av Jesu «brødre» avgjør ikke spørsmålet. Det er derfor tillatt å tro det, men ikke bindende. Hennes legemlige opptakelse og ubesmittede unnfangelse har ingen støtte i Skriften eller i de første fire hundre årene. *Sikkerhet: middels.*
+Maria er Gudføderske (Luk 1,43; Efesos 431); det er en kristologisk sannhet. Tradisjonen om Marias livslange jomfruelighet har tidlige røtter. Jakobs protoevangelium (ca. 150) skildrer hennes jomfruelighet ved Jesu fødsel og gir Josef barn fra før (8-9). Origenes forteller at noen, ut fra Peters evangelium eller Jakobs bok, regner Jesu brødre som Josefs sønner fra et tidligere ekteskap, og han støtter selv at hun forble jomfru (*Matteuskommentaren* X.17). Tertullian regnet derimot med at hun skulle gifte seg etter fødselen (*Om engifte* 8), og han avviste at hun forble jomfru under selve fødselen (*Om Kristi kjød* 23). NT-omtalen av Jesu «brødre» avgjør ikke spørsmålet. Det er derfor tillatt å tro det, men ikke bindende. Hennes legemlige opptakelse og ubesmittede unnfangelse har ingen støtte i Skriften eller i de første fire hundre årene. *Sikkerhet: middels.*
 
 ## III. Viktige og fortsatt levende spørsmål (31-50)
 
@@ -187,13 +187,14 @@ Nattverden er for døpte som tror det Kirken lærer og som skjelner Herrens lege
 
 ## IV. Mellomsjiktet (51-75)
 
-**51. Eutanasi** (47). *Uendret.* Eutanasi er galt. Lindring og å avstå fra meningsløs livsforlengelse er rett. Selvmord er også galt, men kirken kan ikke erklære den døde fortapt, og den bør ikke nekte kirkelig gravferd. *Sikkerhet: høy om eutanasi, middels om gravferden.*
+**51. Eutanasi og selvmord** (47). *Uendret om eutanasi.* Eutanasi er galt. Lindring og å avstå fra meningsløs livsforlengelse er rett.
+*Om selvmord:* Selvmord er også galt, men alvorlig psykisk lidelse kan redusere den enkeltes skyld (Den katolske kirkes katekisme 2282-2283). Kirken kan ikke erklære den døde fortapt. Etter min vurdering bør kirken ikke nekte kirkelig gravferd. Praksis varierer; Den ortodokse kirke i Amerika lar biskopen avgjøre i hvert enkelt tilfelle (retningslinjer for prester, 2023). *Sikkerhet: høy om eutanasi, middels om gravferden.*
 
 **52. Kristen nasjonalisme** (65). *Uendret.* Kristne kan og bør delta i politikken. Nasjonen som avgud avvises (Fil 3,20; Diognetbrevet 5). *Sikkerhet: middels til høy.*
 
 **53. Gudsspråk og feministteologi** (72). *Uendret.* Fader, Sønn og Ånd er åpenbarte navn (Matt 28,19), og dåpsformelen kan ikke byttes ut. Apg omtaler dåp i Jesu navn (Apg 2,38; 8,16; 10,48; 19,5). Jeg leser det som en angivelse av hvem dåpen skjer til, uten at Lukas gjengir hele ritualets ordlyd. *Sikkerhet: høy.*
 
-**54. Kirketukt** (58). *Uendret.* Kirketukt er nødvendig (Matt 18,15-17; 1 Kor 5), men den skal være medisin. Den gjelder også ledere: anklager mot en eldste skal prøves, og synd hos ledere skal ikke dekkes over (1 Tim 5,19-21). Overgrep skal meldes, ikke håndteres i det skjulte. *Sikkerhet: middels til høy.*
+**54. Kirketukt** (58). *Uendret.* Kirketukt er nødvendig (Matt 18,15-17; 1 Kor 5), men den skal være medisin. Den gjelder også ledere: anklager mot en eldste skal prøves upartisk, og vedvarende synd skal irettesettes åpent (1 Tim 5,19-21). Kirkelig behandling av overgrep erstatter aldri melding til politiet eller andre myndigheter. *Sikkerhet: middels til høy om lederansvaret.*
 
 **55. Tusenårsriket og bortrykkelsen** (28). *Endret.*
 Et jordisk tusenårsrike er tidlig belagt hos Papias, Justin (Dial. 80-81), Irenaeus (Mot kjetterne V.32-36) og Tertullian (Mot Markion III.24). Justin nevner selv rettroende kristne som mente noe annet. Origenes avviser en materiell lesning av løftene om riket (Om grunnprinsippene II.11.2-3). Senere leser Augustin de tusen årene som en del av tiden før den siste dommen (Gudsstaten XX.7-9).
@@ -201,7 +202,7 @@ Tolkningen av Åp 19-20 avhenger blant annet av om synene følger historisk ette
 
 **56. Helgenpåkallelse og relikvier** (22). *Endret.*
 Åp 6,9-11 viser at de døde martyrene kan henvende seg til Gud. Jeg legger til grunn at de hensovede helgenene også ber for kirken. Origenes sier at de hensovede hellige ber sammen med de troende (*Om bønnen* 11,1). Direkte bønn om forbønn er belagt i innrissinger fra siste halvdel av 200-tallet under San Sebastiano i Roma. En av dem ber Peter og Paulus gå i forbønn for Victor.
-Å be helgenene om forbønn er tillatt, men ikke påbudt, og det må ikke skygge for Kristus som eneste mellommann (1 Tim 2,5). Det sterkeste motargumentet er at Skriften verken befaler det eller lover at de døde hører oss (CA XXI). Derfor går jeg ikke lenger enn til å kalle det tillatt. Jeg prøver denne skikken og æren for ikoner (nr. 61) mot Skriften, og alderen gjør dem ikke bindende. Barnekommunion (nr. 72) er annerledes: der gjelder det bare hvem som kan få del i en nattverd Skriften allerede pålegger kirken å feire. Relikviene ble æret tidlig (*Polykarps martyrium* 18). *Sikkerhet: middels.*
+Å be helgenene om forbønn er tillatt, men ikke påbudt. Skriften ber kristne be for hverandre og be andre om forbønn (Rom 15,30; 1 Tim 2,1; Jak 5,16). De døde i Kristus lever for Gud (Luk 20,38) og hører til den samme menigheten (Heb 12,22-23). Derfor regner jeg en bønn til en hensoven helgen om forbønn som forenlig med Kristi enestående mellommannsgjerning (1 Tim 2,5), så lenge den gjelder forbønn og ikke det bare Kristus gir. Det sterkeste motargumentet er at Skriften verken befaler det, lover at de døde hører oss eller gir eksempler på det (CA XXI; Apologien XXI.10-13). Derfor kan skikken ikke bindes på samvittigheten, og jeg går ikke lenger enn til å kalle den tillatt. Jeg prøver denne skikken og æren for ikoner (nr. 61) mot Skriften, og alderen gjør dem ikke bindende. Barnekommunion (nr. 72) er annerledes: der gjelder det bare hvem som kan få del i en nattverd Skriften allerede pålegger kirken å feire. Relikviene ble æret tidlig (*Polykarps martyrium* 18). *Sikkerhet: middels.*
 
 **57. Påskedatoen** (57). *Endret.* Polykarp og Anicetus ble enige om å være uenige rundt år 155, og datoen er ikke et trosspørsmål. Målet bør være én felles påskedato, slik Nikea ønsket. Den bør beregnes med moderne astronomiske data. *Sikkerhet: middels.*
 
@@ -209,7 +210,7 @@ Tolkningen av Åp 19-20 avhenger blant annet av om synene følger historisk ette
 
 **59. Prestesølibatet** (39). *Endret.* Prester og biskoper kan være gift (1 Kor 9,5; 1 Tim 3,2). Påbudt sølibat for noen gruppe er ikke apostolisk, men frivillig sølibat er et høyt kall (1 Kor 7,32-35). *Sikkerhet: middels til høy.*
 
-**60. Sjelens udødelighet** (70). *Uendret.* Den døde lever bevisst videre i en mellomtilstand og venter på oppstandelsen (Luk 23,43; Fil 1,23). Sjelesøvn avvises. *Sikkerhet: middels til høy.*
+**60. Sjelens udødelighet** (70). *Uendret.* Den døde lever bevisst videre i en mellomtilstand og venter på oppstandelsen (Luk 23,43; Fil 1,23). Oppstandelsen er legemlig: de døde skal reises med forvandlede kropper (1 Kor 15,42-54; Athenagoras, *Om de dødes oppstandelse*; Tertullian, *Om kjødets oppstandelse*). Sjelesøvn avvises. *Sikkerhet: middels til høy.*
 
 **61. Bilder og ikoner** (34). *Endret.*
 Bilder av Kristus og helgenene er legitime. Veggmaleriene fra rundt år 240 i dåpsrommet i Dura-Europos viser blant annet Kristus som helbreder en lam og går på vannet. Kanon 36, tradisjonelt knyttet til synoden i Elvira (ca. 306), forbød bilder i kirken for at det som æres eller tilbes, ikke skulle males på veggene. Å ære ikoner ved kyss og bukk er en senere praksis. Den kan forsvares med skillet Nikea II trakk opp mellom ære og tilbedelse, men den er ikke apostolisk norm og kan ikke kreves. *Sikkerhet: middels.*
@@ -227,7 +228,7 @@ Bilder av Kristus og helgenene er legitime. Veggmaleriene fra rundt år 240 i d�
 **67. Donatismen og gjendåp** (56). *Endret.* Sakramentet er gyldig uavhengig av prestens personlige hellighet. Dåp med vann i treenighetens navn skal ikke gjentas (se nr. 6). *Sikkerhet: høy.*
 
 **68. Prevensjon** (40). *Uendret i saken.*
-Midler som virker abortivt, er utelukket. Klemens av Alexandria knytter ekteskapelig samliv til forplantning (*Pedagogen* II.10). Katolsk lære krever at hver ekteskapsakt er åpen for liv, og anerkjenner også den forenende siden ved samlivet (*Humanae vitae* 11-14). 1 Kor 7,3-5 omtaler ektefellenes gjensidige plikter, men avgjør ikke spørsmålet om prevensjon. Siden Skriften ikke avgjør spørsmålet og de tidlige vitnene er få, lander jeg på at ikke-abortiv prevensjon i ekteskapet er akseptabel, så lenge ekteskapet ikke stenger for barn som livsform. *Sikkerhet: lav.*
+Midler som virker abortivt, er utelukket. Klemens av Alexandria knytter ekteskapelig samliv til forplantning (*Pedagogen* II.10). Katolsk lære krever at hver ekteskapsakt er åpen for liv, og anerkjenner også den forenende siden ved samlivet (*Humanae vitae* 11-14). 1 Kor 7,3-5 omtaler ektefellenes gjensidige plikter, men avgjør ikke spørsmålet om prevensjon. Siden Skriften ikke avgjør spørsmålet og det tidlige belegget jeg har lagt fram her er begrenset, lander jeg på at ikke-abortiv prevensjon i ekteskapet er akseptabel, så lenge ekteskapet ikke stenger for barn som livsform. *Sikkerhet: lav.*
 
 **69. Skaperverket og klima** (83). *Uendret.* Mennesket er skaperverkets forvalter (1 Mos 2,15). Konkret klimapolitikk er ikke et trosspørsmål. *Sikkerhet: middels om prinsippet.*
 
@@ -355,7 +356,7 @@ MANTELEN GT bygger på den masoretiske teksten. Tekstgrunnlaget alene viser ikke
 
 ## Tabell: poengsum for rangeringen
 
-S = sentralitet målt mot Skriften og den tidligste kirken (45 %), D = splittelseskraft (20 %), A = aktualitet (20 %), U = utbredelse (15 %). Poengene går fra 0 til 10 og er definert i metodedelen. Opprinnelig nummer i første liste står i parentes; «ny» er de to tilføyde spørsmålene.
+S = sentralitet målt mot Skriften og den tidligste kirken (45 %), D = splittelseskraft (20 %), A = aktualitet (20 %), U = utbredelse (15 %). Poengene går fra 0 til 10. De fire faktorene er definert i metodedelen. Opprinnelig nummer i første liste står i parentes; «ny» er de to tilføyde spørsmålene.
 
 | Plass | Spørsmål | S | D | A | U | Sum |
 |---|---|---|---|---|---|---|
@@ -409,7 +410,7 @@ S = sentralitet målt mot Skriften og den tidligste kirken (45 %), D = splittels
 | 48 | Mormoner, Jehovas vitner og lignende (48) | 6 | 5 | 4 | 4 | 5.10 |
 | 49 | Rikdom, fattigdom og renter (67) | 6 | 2 | 4 | 8 | 5.10 |
 | 50 | Liturgi og gudstjeneste (42) | 4 | 5 | 5 | 8 | 5.00 |
-| 51 | Eutanasi (47) | 4 | 2 | 8 | 8 | 5.00 |
+| 51 | Eutanasi og selvmord (47) | 4 | 2 | 8 | 8 | 5.00 |
 | 52 | Kristen nasjonalisme (65) | 4 | 3 | 8 | 6 | 4.90 |
 | 53 | Gudsspråk og feministteologi (72) | 5 | 3 | 5 | 6 | 4.75 |
 | 54 | Kirketukt (58) | 5 | 3 | 4 | 7 | 4.70 |
