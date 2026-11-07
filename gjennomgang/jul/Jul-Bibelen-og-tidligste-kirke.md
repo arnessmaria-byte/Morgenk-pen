@@ -189,7 +189,27 @@ En skikk som består alle fire, er god å bruke. En skikk som stryker på spørs
 
 ## 9. Marias forslag
 
-Jeg har ikke fått åpnet forslaget. Det ligger som presentasjonen «Jul_til_Elias_2026.pptx» i ChatGPT, delt 4. november 2026, og jeg har ikke tilgang dit. Når filen ligger på Drive eller sendes som vedlegg, vurderer jeg hvert punkt etter prøvesteinen og tabellen over.
+Forslaget er presentasjonen «Jul hjemme hos oss» (ni lysbilder, 2026). Ifølge notatene i presentasjonen er fire punkter Marias egne idéer: juletre, ingen nissepynt, én gave til hver og gaver i det skjulte. Adventsplanen, julaften og romjulen er forslag å velge sammen.
+
+**Samlet:** Forslaget står seg godt. Ingen av punktene stryker på prøvesteinen, og ingen hører til kategorien «unngå».
+
+**Sterkest:**
+- **Gaver i det skjulte til noen utenfor familie og venner.** Det er det mest bibelske punktet (Matt 6,3-4; Luk 14,12-14). Aristides forteller rundt år 125 at de kristne fastet for å kunne gi mat til fattige (*Apologi* 15), og Justin forteller om søndagens innsamling til foreldreløse, enker og fremmede (*1 Apol.* 67).
+- **Krybbestunden julaften** med juleevangeliet, en salme og Jesusbarnet. Den fortsetter den lutherske husandakten, der husfaren leser for huset (Luthers lille katekisme).
+- **Én gave til hver**, der to går sammen om gaven til den tredje. Det er måtehold mot kjøpepresset.
+- **Juletre med stjerne, engler og lys.** Pynten forteller juleevangeliet (Matt 2,9-10; Luk 2,9-14; Joh 8,12).
+- **Ingen nissepynt.** Det er strengere enn standarden krever, men godt begrunnet, og det holder Kristus i sentrum.
+
+**Kan styrkes:**
+1. **Gudstjenesten** «kan få plass i dagen». Etter standarden er den kjerne (Luk 2,15-20; Matt 2,11). Den bør være fast, for eksempel en familiegudstjeneste julaften, eller gudstjeneste med nattverd juledag.
+2. **Adventen har lite Skrift.** Les en kort tekst ved hvert lys:
+   - Jes 9,1-6;
+   - Matt 6,1-4 den 6. desember, som er Nikolas' minnedag;
+   - Luk 1,26-38;
+   - Luk 1,46-55.
+3. **Koblingen til vismennene kan bli presis.** De ga til Jesus, ikke til hverandre, og Matteus nevner tre gaver, ikke tre vismenn. Les Matt 2,1-12 når familiegavene gis, og regn de hemmelige gavene som gaven til Jesus (Matt 25,40).
+4. **Nissefritt hus er husets ordning, ikke et krav for andre** (Rom 14,3-4). Omtales det i Mantelen, bør det stå som familiens valg.
+5. **Stefanusdagen** 26. desember kan få en bønn for forfulgte kristne.
 
 ## 10. Forholdet til Mantelen og topp 100
 
