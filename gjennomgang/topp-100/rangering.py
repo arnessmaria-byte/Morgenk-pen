@@ -7,7 +7,8 @@ items = [
 (15,"Frelse utenfor Kristus",8,4,7,10),(16,"Kirkens vesen og apostolisk suksesjon",6,9,5,10),(17,"Abort",5,4,9,10),
 (18,"Skapelse og evolusjon",5,4,7,9),(19,"Arvesynden",6,6,3,9),(20,"Mariologi",5,7,4,9),(21,"Skjærsild, bønn for de døde og avlat",4,9,3,8),
 (22,"Helgenpåkallelse og relikvier",3,7,3,8),(23,"Sakramentene",5,7,2,9),(24,"Jesu legemlige oppstandelse",10,3,5,9),
-(25,"Bibelens kanon",6,6,3,9),(26,"Nådegavene",6,6,7,8),(27,"Israel og kirken",5,3,8,6),(28,"Tusenårsriket og bortrykkelsen",4,4,6,6),
+(25,"Bibelens kanon",6,6,3,9),(26,"Nådegavene",6,7,7,8)  # D 6->7 etter K-047: pinse- og karismatiske bevegelser ga store kirkesplittelser
+,(27,"Israel og kirken",5,3,8,6),(28,"Tusenårsriket og bortrykkelsen",4,4,6,6),
 (29,"Kirkeordning",5,7,3,9),(30,"Kirke og stat",4,6,6,9),(31,"Frelsesvisshet og frafall",6,5,4,7),(32,"Liberal teologi",7,6,7,8),
 (33,"Skilsmisse og gjengifte",6,4,6,9),(34,"Bilder og ikoner",3,7,2,8),(35,"Jomfrufødselen",8,3,4,9),
 (36,"Komplementarisme eller egalitarisme",5,5,8,8),(37,"Krig og pasifisme",5,4,6,8),(38,"Kjønnsidentitet",4,4,9,8),
