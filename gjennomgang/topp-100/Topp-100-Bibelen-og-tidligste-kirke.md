@@ -120,7 +120,7 @@ Gavene har ikke opphørt. Justin (Dial. 82) sier at de profetiske gavene fortsat
 **22. Skilsmisse og gjengifte** (33). *Endret.*
 Ekteskapet er uoppløselig. Separasjon kan være rett ved utroskap eller når en ikke-troende ektefelle går (Matt 19,9; 1 Kor 7,15). Gjengifte kan høyst forsvares for den uskyldige parten i de tilfellene. Det er omstridt om «ikke bundet» i 1 Kor 7,15 gir rett til å gifte seg på nytt. I 1 Kor 7,10-11 peker Paulus på å forbli ugift eller å forlikes. Den tidligste kirken var strengere enn den ortodokse *oikonomia*-praksisen: Hermas pålegger mannen å være ugift for at hustruen skal kunne vende om (Bud 4,1), mens Athenagoras avviser gjengifte selv etter ektefellens død (*Bønneskrift* 33). Ved dødsfall tillater Hermas derimot gjengifte (Bud 4,4). *Sikkerhet: middels.*
 
-**23. Komplementarisme eller egalitarisme** (36). *Uendret i hovedkonklusjonen, med en presisering om siste ord.* Mann og kvinne har lik verdighet og ulike kall. Mannens hodeskap i ekteskapet er selvoppofrende tjeneste (Ef 5,21-33), ikke herredømme og ikke en rett til siste ord i alt. *Sikkerhet: middels til høy.*
+**23. Komplementarisme eller egalitarisme** (36). *Endret: mannen har siste ord, etter Ef 5,24.* Mann og kvinne har lik verdighet og ulike kall. Hustruen underordner seg mannen «i alt» (Ef 5,24; Kol 3,18; 1 Pet 3,1-6), og mannen har derfor siste ord i ekteskapet. Første Klemensbrev roser kvinnene i Korint for å holde seg innenfor underordningens regel (1 Klem. 1,3). Forrige versjon sa at mannen ikke har siste ord i alt. Det gikk lenger enn teksten, som sier «i alt». Grensen er synd: underordningen gjelder «slik det sømmer seg i Herren» (Kol 3,18), og Gud skal lydes mer enn mennesker (Apg 5,29). Mannen leder slik Kristus leder menigheten, ved å gi seg selv for henne (Ef 5,25-29), og han står til ansvar for Gud for hvordan han lever med henne (1 Pet 3,7). Over kroppen gir Paulus dem samme rett (1 Kor 7,4). *Sikkerhet: middels til høy.*
 
 **24. Gnostisisme og Markion** (55). *Uendret.* Begge avvises. Trosregelen hos Irenaeus og Tertullian ble formulert nettopp mot dem: Skaperen er Jesu Kristi Far. *Sikkerhet: høy.*
 
@@ -319,7 +319,7 @@ Sammenligningen bygger på det Mantelen har publisert, blant annet serien *Funda
 3. **Ånden (nr. 18).** *Fundamentet* 6 taler om dåp i Den Hellige Ånd og gjengir to syn på om tungetale alltid er det første ytre tegnet. Det framgår ikke om vi er uenige om en åndsdåp som normalt andre trinn. Etter mine kriterier hører Åndens gave til den kristne initiasjonen (Apg 2,38), og senere fyllinger er fornyelse. En egen åndsdåp er ikke et normalt andre trinn for alle.
 
 4. **Kirken og kallet (nr. 12 og 31).** Maria har forklart at navnet Guds Sanne Menighet viser til fellesskapet mellom dere i familien (Matt 18,20), og at dere ikke mener dere er den eneste menigheten med sannheten. I den tidligste kirken ble eldste og tilsynsmenn innsatt av andre enn dem selv. Det skjedde av apostlene eller deres etterfølgere, med hele menighetens tilslutning (Apg 14,23; Tit 1,5; 1 Klem. 44), og menighetene sto i fellesskap med hverandre.
-   *Fundamentet* 7 legger også vekt på at fellesskapet prøver et kall. Jeg vet ikke hvordan pastorkallet ditt er prøvd og stadfestet. Mitt eget råd er at det skjer gjennom en kirke utenfor familien. Schmeling og Cherney beskriver et kall formidlet gjennom kirken eller en forsamling. Rutschow sier at en indre stemme må prøves mot Skriften.
+   I Guds Sanne Menighet prøves kallet av familiens profet så lenge man er medlem. Det er menighetens avgjørelse (7. november 2026). Mitt standpunkt er fortsatt at kallet også bør prøves av noen utenfor familien. I NT prøves profetiske ord av de andre (1 Kor 14,29; 1 Joh 4,1), og Didaké sier at en profet kjennes på livsførselen (11,8). Schmeling og Cherney beskriver et kall formidlet gjennom kirken eller en forsamling. Rutschow sier at en indre stemme må prøves mot Skriften.
 
 5. **Nattverden (nr. 5).** *Fundamentet* 5 nevner nattverd som del av menighetsfellesskapet. Mine kriterier gir realpresens, nattverd hver søndag og eukaristien som takkoffer. Kildene jeg har brukt, avklarer ikke menighetens praksis eller nattverdsforståelse.
 
@@ -349,10 +349,11 @@ Sammenligningen bygger på det Mantelen har publisert, blant annet serien *Funda
 - Ingen datosetting av endetiden.
 - Religionsfrihet og nei til blasfemilover.
 - Mannlig eldste- og hyrdeansvar.
+- Mannen har siste ord i ekteskapet (nr. 23).
 
 MANTELEN GT bygger på den masoretiske teksten. Tekstgrunnlaget alene viser ikke om vi er enige om GT-kanonens omfang.
 
-**Samlet:** Med disse kriteriene havner jeg nærmest en evangelisk-katolsk eller høykirkelig luthersk posisjon, som leser Skriften med de første århundrene. Vekten på de første århundrenes skriftlesning ligger nær det Thomas Oden kalte paleo-ortodoksi, der han søkte den tidlige kirkens økumeniske samstemmighet. Mantelen deler dette skriftsynet. Bladet presenterer også lutherske bekjennelser, viser til Westminsterbekjennelsen om Skriften og drøfter dåp i Den Hellige Ånd. De tydeligst belagte forskjellene gjelder en ny dåpshandling med vann og grunnteksten til NT. Kildene i pakken avgjør ikke om vi er uenige om hodeskap i ekteskapet (nr. 23).
+**Samlet:** Med disse kriteriene havner jeg nærmest en evangelisk-katolsk eller høykirkelig luthersk posisjon, som leser Skriften med de første århundrene. Vekten på de første århundrenes skriftlesning ligger nær det Thomas Oden kalte paleo-ortodoksi, der han søkte den tidlige kirkens økumeniske samstemmighet. Mantelen deler dette skriftsynet. Bladet presenterer også lutherske bekjennelser, viser til Westminsterbekjennelsen om Skriften og drøfter dåp i Den Hellige Ånd. De tydeligst belagte forskjellene gjelder en ny dåpshandling med vann, grunnteksten til NT og hvordan kall prøves. Om hodeskap i ekteskapet (nr. 23) er vi enige etter at jeg rettet ordlyden: mannen har siste ord.
 
 ## Tabell: poengsum for rangeringen
 
