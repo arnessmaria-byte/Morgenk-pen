@@ -83,7 +83,8 @@ Royalty er 60 % av listeprisen fra 9,99 USD og oppover, og 50 % under 9,99 USD. 
 - [ ] Sverre Johannes har godkjent den engelske teksten til forordet (tiltak 6)
 - [x] Sluttleserens teologiske merknader avgjort og lagt inn (tiltak 11, 18.10.2026)
 - [x] «sexuality» strøket fra OBSERVE-listen (tiltak 12)
-- [ ] Day 30 («Distance is not always absence.») og tabellraden i Day 38: ta stilling til tiltak 13 og 14 (valgfritt)
+- [x] Day 30 og tabellraden i Day 38 avgjort 18.10.2026 (beslutning 20 og 21)
+- [ ] KDP-utkastet fra 19.10 (5 × 8, med videoside) er laget fra en eldre utgave av manus. PDF-en må byttes før ISBN legges inn. Se `16-status-2026-11-12.md`.
 - [ ] Papirtype valgt, og omslaget laget med KDPs mal for 118 sider
 - [ ] ISBN valgt. Med eget ISBN legges linjen inn i `verktoy/sett_bok.py`, og PDF-en bygges på nytt.
 - [ ] Beskrivelse, sju søkeord og kategorier skrevet (ikke en del av denne runden)

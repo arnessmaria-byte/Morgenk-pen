@@ -1,0 +1,506 @@
+[
+  {
+    "location": "Introduction",
+    "old": "Your habits and reactions shape you, and so do silence, your surroundings, fear, taking the easy way, and pain that has not healed. This book is here to interrupt the shaping you never chose.",
+    "new": "Your habits and reactions shape you, along with your surroundings, fears, compromises, and unhealed pain. This book asks you to notice those influences and choose how you will respond.",
+    "reason": "Improve flow; reduce repeated shaping language while connecting influence to response."
+  },
+  {
+    "location": "Introduction",
+    "old": "Every day has the same parts: a short opening, a scenario from real life, a table comparing two opposite ways, a section on what the day is really about, one concrete practice, and a short Healing Forge section.",
+    "new": "Each day moves from a short opening and an ordinary scenario to a comparison, an explanation, one concrete practice, and a Healing Forge section.",
+    "reason": "Shorten the structural preview; retain all six components."
+  },
+  {
+    "location": "Day 1",
+    "old": "Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was certainty that pressure had tested.",
+    "new": "Lying in the hospital bed, he did not know whether what he believed would hold if he died that night. He knew the words. Now he needed to know whether he could trust them with his life.",
+    "reason": "Remove duplicated face/faced and circular tested-certainty wording."
+  },
+  {
+    "location": "Day 1",
+    "old": "Nothing dramatic happened in that room. No vision, no revelation. Something in Jake woke up. For the first time his belief was his own, and it mattered right then. It had a real question to answer. That was the moment the flame was lit.",
+    "new": "There was no vision or revelation. For the first time, Jake's belief had a question he could not put off. It had become his own. That was the moment the flame was lit.",
+    "reason": "Tighten the scenario's repeated awakening and preserve its fire image."
+  },
+  {
+    "location": "Day 1",
+    "old": "Leave the fixing for later. Today you are only striking the match. Just notice where the flame is trying to start.",
+    "new": "Leave the fixing for later. Today you are only striking the match.",
+    "reason": "Remove a second restatement of the same match/flame instruction."
+  },
+  {
+    "location": "Day 2",
+    "old": "Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Whatever you are part of always shapes you. Every room and every routine trains you in something, and every relationship puts pressure on you.\n\nYou already know this. You talk one way in one house and another way in the next. The room did that, and you never got a vote. You are going to be shaped either way. Separation means you choose what does the shaping.",
+    "new": "Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Every room, routine, and relationship trains you in something.\n\nNotice how your speech changes from one house to the next. You adjusted before you had thought about it. Separation means choosing which influences you will keep.",
+    "reason": "Replace repeated abstract shaping claims with the existing concrete example and its application."
+  },
+  {
+    "location": "Day 2",
+    "old": "Do not judge it. Ask instead:",
+    "new": "Before condemning the people involved, ask:",
+    "reason": "Clarify that discernment of an influence is required; personal condemnation is not."
+  },
+  {
+    "location": "Day 3",
+    "old": "Your faith can handle your questions. What hurts it is dodging them. A faith that never allows questions stays fragile, and a faith that welcomes them grows strong. Some questions are not useful. Still, every question you refuse to ask trains you to look away.",
+    "new": "Your faith can handle honest questions. Dodging the ones that matter leaves it fragile. Ask whether you are seeking truth or an excuse to avoid it.",
+    "reason": "Reduce duplicated contrasts and connect the opening to the chapter's distinction between refining and evading."
+  },
+  {
+    "location": "Day 3",
+    "old": "He was being efficient, not dishonest. Some questions slowed things down, and some made conversations harder. Some might leave him without an answer, and he liked having one ready. So he learned which ones to skip.",
+    "new": "He called it efficiency. Some questions made conversations harder or left him without an answer, and he liked having one ready. So he learned which ones to skip.",
+    "reason": "Make the character's self-justification legible; condense three parallel question clauses."
+  },
+  {
+    "location": "Day 4",
+    "old": "Over time something shifted. The rules he bent without anyone noticing started to bend him. The change came from slow wear and tear, not from guilt. He noticed it in small ways. Discipline became optional, his commitments came with conditions, and he did the right thing only when it suited him. Nothing dramatic happened. The direction of his life just got weaker.",
+    "new": "The rules he bent without anyone noticing started to bend him. Discipline became optional, his commitments came with conditions, and he did the right thing only when it suited him. The direction of his life weakened through these small choices.",
+    "reason": "Remove repeated announcements of gradual change; preserve its concrete consequences."
+  },
+  {
+    "location": "Day 4",
+    "old": "Rules make sense once you know where you are headed. A rule with no purpose makes you want to rebel. A rule with a purpose helps you keep going. Once you understand what a rule guards, obeying it stops feeling like giving in and starts to feel like taking care of what God gave you.",
+    "new": "Once you understand what a rule protects, obeying it can become an act of care for what God gave you.",
+    "reason": "Condense a paragraph that repeats the opening and table before the guardrail analogy."
+  },
+  {
+    "location": "Day 5",
+    "old": "Discontent is usually treated as a problem to fix, but some of it tells you what is wrong. A fever is the body telling the truth about an illness, not the illness itself.",
+    "new": "Discontent is usually treated as a problem to fix. Sometimes it warns you that your life needs attention.",
+    "reason": "Keep the warning function without a medical analogy that the later paragraph overextends."
+  },
+  {
+    "location": "Day 5",
+    "old": "Some discomfort is a signal.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening and the adjacent table without adding an instruction."
+  },
+  {
+    "location": "Day 5",
+    "old": "Silence it too fast and you lose your direction. Feed it without discipline and it turns into restlessness. Handle it well and it helps you see clearly. A fever passes on its own. A life out of line with what you believe does not, so do not mute the warning.",
+    "new": "Ignoring the discomfort leaves the problem in place; dwelling on it without acting feeds restlessness. Look for the correction it requires.",
+    "reason": "Remove three parallel restatements and the unsupported claim that a fever passes by itself."
+  },
+  {
+    "location": "Day 5",
+    "old": "Do not make a drama of it, and do not bury it. Work out what it is saying. Setting your life right often starts with feeling uneasy.",
+    "new": "Do not dramatize the discomfort or bury it. Name the correction it calls for.",
+    "reason": "Give the practice a precise endpoint rather than another summary of the day's premise."
+  },
+  {
+    "location": "Day 6",
+    "old": "Gradually, without deciding to, he let his skill become who he was. His strength became something to guard instead of something to give.",
+    "new": "Gradually, his skill became his identity: something to guard instead of something to give.",
+    "reason": "Connect identity to its consequence without repeating strength and skill."
+  },
+  {
+    "location": "Day 6",
+    "old": "Strength comes with responsibility attached.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: restates the opening and the next paragraph's soldier example."
+  },
+  {
+    "location": "Day 7",
+    "old": "Jonah was busy. His days were full, his calendar stayed booked, and his intentions were mostly good. He worked hard. What he lacked was direction. He reacted well to whatever showed up in front of him, but he rarely chose what deserved his attention first. What was closest and what felt urgent made his decisions for him, and so did habit.",
+    "new": "Jonah worked hard and kept a full calendar. His intentions were mostly good, but he rarely chose what deserved his attention first. Whatever was closest, loudest, or most familiar decided for him.",
+    "reason": "Condense repeated busyness and show the existing mechanism of reactive decisions."
+  },
+  {
+    "location": "Day 7",
+    "old": "Over time he kept moving and got nowhere. Nothing was wrong. Everything was scattered.",
+    "new": "He kept meeting the day's demands without choosing a direction for his life.",
+    "reason": "Clarify the cost instead of saying nothing was wrong after describing the problem."
+  },
+  {
+    "location": "Day 8",
+    "old": "Listen to your passion carefully. Think of the gauges on a dashboard. A warning light gives you information, and the car is still yours to steer. A driver who pulls over every time a light blinks is as lost as one who tapes over the whole dashboard. Passion often marks the place where what you can do, what you want, and what matters all meet. Without direction, it jumps around. Without discipline, it turns into doing whatever you feel like.",
+    "new": "Treat passion like a gauge on a dashboard: read it, then decide what the information requires. Strong feeling alone cannot choose your direction. Ask where your ability and desire meet a responsibility worth taking on.",
+    "reason": "Keep one dashboard image, remove the confusing warning-light comparison, and lead into the practice."
+  },
+  {
+    "location": "Day 8",
+    "old": "Do not act on it today. Study it. A signal only helps once you have read it correctly.",
+    "new": "Do not act on it today. Study what it asks of you.",
+    "reason": "Remove a third explanation of the signal metaphor."
+  },
+  {
+    "location": "Day 9",
+    "old": "Faith is rarely tested when life is easy. It is tested by everyday pressure, by what people expect but never say, and by trouble that shows up without warning. Faith is lived out in those tests.",
+    "new": "You have begun asking what your faith can hold. Today, watch what happens when you are tired, interrupted, or opposed. Your reactions will show you where belief has yet to become practice.",
+    "reason": "Distinguish Day 9's observation of reactions from Day 1's initial testing of beliefs."
+  },
+  {
+    "location": "Day 9",
+    "old": "Those moments were his test. They showed him that gap to train him, never to shame him.",
+    "new": "Those reactions showed Thomas where he needed training.",
+    "reason": "Reduce a summary that repeats the scenario; retain the distinction from shame in Healing Forge."
+  },
+  {
+    "location": "Day 10",
+    "old": "Few things shape you as steadily as what you take in without noticing. Your screens train your attention, your wants, your patience, your impulses, and how you compare yourself. They do all this long before your beliefs have a say. Habits form wherever your guard is down.",
+    "new": "Your screens train what you notice, want, and expect. They affect your patience and the way you compare yourself with others, often before you have thought about what you are taking in.",
+    "reason": "Replace four versions of the same influence claim with a clear opening."
+  },
+  {
+    "location": "Day 10",
+    "old": "Whatever surrounds you will end up teaching you.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening and Day 2 without advancing the digital habit argument."
+  },
+  {
+    "location": "Day 11",
+    "old": "Mark was reasonable most of the time. When a conversation was easy, he listened well and gave careful answers. But under criticism, a deadline, or pushback, something changed. His thinking narrowed. Every choice became all or nothing. The middle ground disappeared, and he reacted instead of thinking.",
+    "new": "Mark listened well and gave careful answers when a conversation was easy. Under criticism, a deadline, or pushback, he reduced every choice to all or nothing and reacted before he had thought it through.",
+    "reason": "Consolidate four descriptions of narrowed thinking into the existing trigger and reaction."
+  },
+  {
+    "location": "Day 12",
+    "old": "Simon never argued with anyone. He did not announce what he believed or correct other people. He simply stopped taking part in the things that pulled him off course.\n\nAt first nothing happened. Then the jokes changed, and so did the invitations. Where things had felt easy, there was now silence. No one confronted him. They just treated him differently. Simon felt the cost: people kept their distance. He had to decide whether staying on course was worth it.",
+    "new": "Simon stopped taking part in things that pulled him off course. He did not argue or announce what he believed.\n\nAt first nothing happened. Then the jokes changed, and so did the invitations. No one confronted him. They simply kept their distance. He had to decide whether staying on course was worth that cost.",
+    "reason": "Retain the social sequence while removing repeated descriptions of distance."
+  },
+  {
+    "location": "Day 12",
+    "old": "Make the decision without drama. Stand firm without announcing it. Most costs are paid in private.",
+    "new": "Take that small step without announcing it.",
+    "reason": "Connect the final practice instruction to the question just asked."
+  },
+  {
+    "location": "Day 13",
+    "old": "Isaac felt responsible. He did not feel torn. In every decision, he thought about everyone. He weighed how they would react and saw their disappointment coming. Over time his path bent away from obedience. He never dropped what he believed. He bent it so he would not lose anyone.",
+    "new": "Isaac felt responsible for everyone's disappointment. He weighed their reactions in every decision. He never dropped what he believed, but kept bending it so he would not lose anyone.",
+    "reason": "Remove duplicated bending and explain the scenario's tension directly."
+  },
+  {
+    "location": "Day 14",
+    "old": "Money never just sits there. It serves your direction, or it slowly takes it over.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: duplicates the opening and the argument immediately below."
+  },
+  {
+    "location": "Day 14",
+    "old": "Do not judge the answer. Just notice whether you steer your money or your money steers you.",
+    "new": "Notice whether you steer your money or your money steers you.",
+    "reason": "Remove a conflicting instruction not to judge during an exercise requiring discernment."
+  },
+  {
+    "location": "Day 15",
+    "old": "Be honest about where your anger comes from instead of pushing it down. Anger often means something mattered to you back when you were not allowed to say so. Ignore anger, and it hardens. Give in to it, and it takes over. Understand it, and it tells you something useful. Then you stop mistaking it for who you are.",
+    "new": "Be honest about where your anger comes from instead of pushing it down. It often means something mattered to you when you were not allowed to say so. Understanding that history can help you respond without letting anger take over.",
+    "reason": "Reduce the repeated three-way slogan and connect history to response."
+  },
+  {
+    "location": "Day 15",
+    "old": "Anger you never try to understand will one day pick its own moment to come out.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the previous paragraph and opening rather than preparing a new practice."
+  },
+  {
+    "location": "Day 16",
+    "old": "Your character shows in what you allow yourself in private, no matter what you claim in public. What you give in to when you are alone rarely happens only once. It becomes practice for later decisions. No athlete can do in a match what he never practiced alone. What you let slide in private will follow you.",
+    "new": "What you allow yourself in private becomes practice for later decisions. No athlete can do in a match what he never practiced alone. The same training is taking place when your door is closed.",
+    "reason": "Condense repeated private-to-public claims and keep the training image."
+  },
+  {
+    "location": "Day 17",
+    "old": "Andrew understood his habits. He could name his distractions, notice when he was drifting, and see what the drifting was costing him. Knowing was no longer his problem. Doing was. Caution held him back, because he wanted to be sure before he committed.",
+    "new": "Andrew could name his distractions and see what they cost him. Knowing was no longer his problem. Doing was. He wanted to be sure before he committed.",
+    "reason": "Shorten the scenario's repeated knowledge inventory without erasing its short pivot."
+  },
+  {
+    "location": "Day 18",
+    "old": "After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback, and every breakdown shows where you counted on a strength you had never trained.",
+    "new": "After you fall, keep training. There is nothing glorious about failure. Examine your own breakdown for the point where you counted on a strength you had not trained.",
+    "reason": "Remove three restatements of learning from failure; retain the concrete diagnostic task."
+  },
+  {
+    "location": "Day 19",
+    "old": "He kept its correction general and never felt it was meant for him. He came away sure he was fine and rarely looked hard at himself.",
+    "new": "He kept its correction general and came away sure he was fine.",
+    "reason": "Trim duplicated avoidance of personal application."
+  },
+  {
+    "location": "Day 19",
+    "old": "What Scripture shows you depends on how you read it.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: restates the opening, scenario, and table before a paragraph that makes the same connection."
+  },
+  {
+    "location": "Day 20",
+    "old": "Sharpening only happens when something pushes back. Being close to other men shows you your blind spots.",
+    "new": "Other men can show you blind spots you will miss alone.",
+    "reason": "Carry the table into the argument without repeating the verse's sharpening image yet again."
+  },
+  {
+    "location": "Day 20",
+    "old": "The number of your friends matters less than their quality. Brotherhood means heading the same way and letting each other say hard things. That asks more of you than agreeing. Without friction, what you believe goes dull. Without someone checking on you, your discipline wears away. Men grow faster when they share the load.",
+    "new": "The number of your friends matters less than their quality. Brotherhood means heading the same way and letting each other say hard things. Agreement alone will not do that work. Let other men question your excuses and help you carry the load.",
+    "reason": "Connect brotherhood to the scenario's existing blind spots and excuses instead of repeating the table."
+  },
+  {
+    "location": "Day 21",
+    "old": "David carried a private struggle. There was no scandal and no obvious collapse, just a steady pull he had learned to handle in silence. He smiled, kept going, and got things done. But his energy drained away, his focus slipped, and his will got weaker. The battle was never dramatic. It just never let up.",
+    "new": "David managed a private struggle in silence. He smiled, kept going, and got things done. There was no scandal or obvious collapse, but the effort drained his energy and focus. The battle never let up.",
+    "reason": "Remove repeated declarations that the struggle is private and undramatic."
+  },
+  {
+    "location": "Day 21",
+    "old": "Today is about being honest in private, not about confessing in public. A battle you never name works like a slow leak in a tire. It never announces itself. It just asks a little more of you every mile. That kind of battle shapes how you react without you ever agreeing to it, and whatever you refuse to admit will control you from the inside.",
+    "new": "You do not owe the public a confession. Start by being honest with yourself. A battle you never name works like a slow leak in a tire, asking a little more of you every mile until it governs how you react.",
+    "reason": "Preserve privacy and the tire image; reduce repeated hidden-control explanation."
+  },
+  {
+    "location": "Day 22",
+    "old": "Rules tell you how to behave. When it is time to act, wisdom is in charge.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening; retain the actual argument and flag the verse-context question separately."
+  },
+  {
+    "location": "Day 23",
+    "old": "Knowledge piles up easily, but real change takes longer. Learning fills your head. Only doing what you learned changes how you act.",
+    "new": "Day 17 asked you to take a step. Today, choose an action you can repeat until what you know becomes a habit.",
+    "reason": "Differentiate initial action from repeated practice using the book's existing Day 17 progression."
+  },
+  {
+    "location": "Day 23",
+    "old": "What you understand has to become what you do without thinking. No one learns to swim from a manual, even when the manual is right. Truth that stays in your head gives way under pressure. Only what you have practiced holds up.",
+    "new": "No one learns to swim from a manual, even when the manual is right. Practice makes what you understand available when you need it under pressure.",
+    "reason": "Keep one explanatory image and remove repeated head-to-hands summaries."
+  },
+  {
+    "location": "Day 24",
+    "old": "Your strength can easily end up split into pieces. One part of your life moves ahead while another falls behind. Discipline that is cut off from everything else throws you off balance. Strength holds only when the parts line up.",
+    "new": "Discipline in one area cannot do the work of every other part of your life. Your body, beliefs, and relationships need to move in the same direction.",
+    "reason": "Clarify the chapter's integration problem without four versions of the pieces metaphor."
+  },
+  {
+    "location": "Day 24",
+    "old": "Strength multiplies when every part of you heads the same way.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening and the coming rowing image."
+  },
+  {
+    "location": "Day 25",
+    "old": "Owen started well. He had new routines and a clear direction, and he kept at them early on. Then nothing happened. The days looked the same, his results leveled off, and his mind began to wander. His discipline got heavy because it was no longer new, though nothing about it was wrong.",
+    "new": "Owen started well, with new routines and a clear direction. Then his results leveled off. The days looked the same, his mind wandered, and the routines began to feel heavy. They had lost their novelty.",
+    "reason": "Condense the repeated account of fading novelty."
+  },
+  {
+    "location": "Day 25",
+    "old": "Stay with what you are doing. You do not need to push harder. Nobody cheers the middle miles of a long run, and they are where the race is decided. Discipline grows up when it lasts longer than the excitement. The edge is where discipline changes: it stops being an effort and becomes part of who you are.",
+    "new": "Stay with what you are doing. You do not need to push harder. Nobody cheers the middle miles of a long run, and they are where the race is decided. Discipline grows up when it lasts longer than the excitement and becomes part of your ordinary day.",
+    "reason": "Remove the claim that lasting discipline ceases to require effort; preserve endurance after excitement."
+  },
+  {
+    "location": "Day 25",
+    "old": "The edge shows what your discipline is resting on.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening and table without advancing the practice."
+  },
+  {
+    "location": "Day 26",
+    "old": "Today is about saying yes to the day. You know the argument you have with yourself each morning under the blanket, and you know which side usually speaks first. Every morning asks a simple question: will you show up anyway?",
+    "new": "You know the argument you have with yourself each morning under the blanket. Answer it with the first act of the day, before you feel ready.",
+    "reason": "Turn repeated questions about showing up into a transition to the morning practice."
+  },
+  {
+    "location": "Day 26",
+    "old": "If you show up first, the rest of the day often follows.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening and the practice's explicit instruction."
+  },
+  {
+    "location": "Day 27",
+    "old": "Nothing dramatic changed. He just paid less attention, and attention is what keeps your growth alive.",
+    "new": "He had not stopped practicing. He had stopped noticing what those small changes were doing to him.",
+    "reason": "Distinguish this day's loss of attention from outright abandonment of practice."
+  },
+  {
+    "location": "Day 27",
+    "old": "Staying awake means looking after your growth, moment by moment, without becoming suspicious.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the distinction between watchfulness and anxiety already stated on either side."
+  },
+  {
+    "location": "Day 28",
+    "old": "Seeing that the world around you is not neutral does not mean rejecting it. A boat drifts with the current, never against it, and nearly every current around you was built by someone with something to sell you. Your surroundings are already training you to rush, want more, stay comfortable, and live with constant noise.",
+    "new": "You do not have to reject the world around you to question its defaults. The feeds, shortcuts, and settings you use can train you to rush, want more, and avoid discomfort.",
+    "reason": "Keep the designed-world argument concrete; remove a second extended metaphor after the opening's harvest image."
+  },
+  {
+    "location": "Day 28",
+    "old": "Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. So pushing back against the systems around you can feel threatening now. Today you are asked to choose for yourself. That is gentler than rigid control. You are choosing what shapes you, instead of letting something you never chose do it.",
+    "new": "Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Start with one chosen limit rather than trying to control everything.",
+    "reason": "Reduce repeated choosing/shaping claims and connect the close to the one-default practice."
+  },
+  {
+    "location": "Day 29",
+    "old": "Pressure almost always arrives without warning, through tiredness, interruptions, and hassles at the wrong moment. Your preparation usually gives way before your belief does.",
+    "new": "Pressure can arrive through tiredness, interruptions, and hassles at the wrong moment. Your preparation may give way before your belief does.",
+    "reason": "Resolve the opening's near-universal surprise claim before a practice about foreseeable pressure."
+  },
+  {
+    "location": "Day 29",
+    "old": "Pressure shows how well you prepared.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening, scenario, table, and section title."
+  },
+  {
+    "location": "Day 30",
+    "old": "Micah kept showing up. He stuck with his practices and his routine, and his habits did not fall apart. But he no longer felt that God was close.",
+    "new": "Micah kept his practices and routine, but he no longer felt that God was close.",
+    "reason": "Remove three statements that his habits continued; preserve the theological argument unchanged."
+  },
+  {
+    "location": "Day 31",
+    "old": "Spiritual discipline cannot make up for ignoring your body. When you ignore it, you think less clearly, react more sharply, and run out of strength sooner. Caring for your body is taking care of what God gave you. You are not spoiling yourself.",
+    "new": "Spiritual discipline cannot make up for ignoring your body. Poor care leaves you with less patience, focus, and strength. Looking after what God gave you is part of faithfulness.",
+    "reason": "Condense the repeated care/neglect argument while retaining its practical purpose."
+  },
+  {
+    "location": "Day 32",
+    "old": "Most men give up near the end, when progress feels ordinary and the reward seems far away.",
+    "new": "Near the end, progress feels ordinary and the reward still seems far away.",
+    "reason": "Remove an unsupported population claim while preserving the described temptation."
+  },
+  {
+    "location": "Day 32",
+    "old": "Finishing is how your discipline matures.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening and the explanation of finishing as training."
+  },
+  {
+    "location": "Day 33",
+    "old": "Strength matures in silence. It is built on the inside as you use self-control, show up every day, and keep going. But it does not stay inside you. Sooner or later, it has to turn outward and serve others.",
+    "new": "Day 6 asked what your strength was for. Now put the strength you have been training at someone else's service.",
+    "reason": "Link the returning assignment theme to an outward action rather than repeating the earlier chapter's premise."
+  },
+  {
+    "location": "Day 33",
+    "old": "Over time he noticed that the strength he kept to himself had started to serve only him. It had not gotten weaker. It was reaching fewer people.",
+    "new": "He noticed that his strength served only himself when he kept refusing the people who asked for it.",
+    "reason": "Connect the cost directly to the requests already established in the scenario."
+  },
+  {
+    "location": "Day 35",
+    "old": "Influence comes more from being there than from being loud. It comes from a man who steadies a room without drawing attention to himself. Influence that lasts rarely makes noise. It is built one ordinary day at a time.",
+    "new": "A man who steadies a room without drawing attention to himself earns influence one ordinary day at a time.",
+    "reason": "Combine four versions of quiet influence into a single opening."
+  },
+  {
+    "location": "Day 35",
+    "old": "Influence works by weight, the way gravity does. It does not force anyone.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: gravity is a force; the analogy obscures the intended contrast with coercion."
+  },
+  {
+    "location": "Day 36",
+    "old": "Words shape more than results. They shape whether people trust you, where things go, and what can safely come next. Most of the damage words do comes from saying more than is true.",
+    "new": "Words shape whether people trust you and what can safely come next. Saying more than you know to be true can undo that trust.",
+    "reason": "Remove a vague opening and an unsupported most-damage claim; keep precision tied to trust."
+  },
+  {
+    "location": "Day 36",
+    "old": "Take care with your words. You do not have to go silent to do it. Words carry weight only when they are well chosen. Exact words protect what you mean. Without that care, even the truth can hurt people.",
+    "new": "Choose words that protect what you mean. You do not have to go silent, but you do have to consider what the other person will hear. Even the truth can hurt when it is delivered carelessly.",
+    "reason": "Develop the meaning-to-listener connection instead of repeating that words should be exact."
+  },
+  {
+    "location": "Day 36",
+    "old": "People listen more to a man who picks his words carefully.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening and practice before a Healing Forge section that preserves the same point."
+  },
+  {
+    "location": "Day 37",
+    "old": "Today is about seeing things at their real size. Thinking about eternity does not pull you out of your life. A sailor steering by the wave in front of him is seasick within the hour. Steering by the horizon, he is steady in the same sea. When you only look at right now, everything feels heavier than it is. Keeping eternity in view shows each weight at its real size.",
+    "new": "Thinking about eternity does not pull you out of your life. It gives today's trouble a longer frame. A sailor needs a bearing beyond the next wave; you need a view beyond the pressure of this moment.",
+    "reason": "Remove the unsupported seasickness mechanism and repeated real-size summary while retaining the orientation image."
+  },
+  {
+    "location": "Day 37",
+    "old": "How far ahead you look decides how heavy the pressure feels.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening after a practice that already applies the longer view."
+  },
+  {
+    "location": "Day 38",
+    "old": "Being seen is not the goal. Still, growth that lasts will be seen in time, because it carries weight.",
+    "new": "When people begin to rely on you, growth brings responsibility. Attention is not the goal; being ready to serve is.",
+    "reason": "Give Day 38 a distinct responsibility focus after the witness and influence chapters."
+  },
+  {
+    "location": "Day 38",
+    "old": "Real growth builds up inside you, and it does not need to be announced.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats this chapter's scenario and the recurring quiet-service theme."
+  },
+  {
+    "location": "Day 39",
+    "old": "Authority grows wherever someone carries responsibility without asking for credit.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the opening, scenario, and immediately preceding explanation."
+  },
+  {
+    "location": "Day 40",
+    "old": "Adam expected something more: a rush of emotion, a sign, a sense that he had arrived. Instead there was calm. Nothing had fallen apart, and nothing exciting had happened, but something had settled.",
+    "new": "Adam expected a rush of emotion, a sign that he had arrived. Instead, he felt calm. His temptations remained, and his discipline still needed work.",
+    "reason": "Shorten the non-event description and lead directly to the ordinary continuation."
+  },
+  {
+    "location": "Day 40",
+    "old": "The temptations were still there, and his discipline still needed work. His surroundings were the same, but he carried himself differently in them.",
+    "new": "His surroundings were the same, but he carried himself differently in them.",
+    "reason": "Remove the duplicate carried into the preceding scenario paragraph."
+  },
+  {
+    "location": "Conclusion",
+    "old": "You have walked forty days to set a direction. The goal was to leave with things that last after you close this book: habits, words for what you face, and a life lined up with what you believe. Feeling better at the end was not the goal. If you look back for one big moment of change, you may miss what actually changed. Most growth is quiet.",
+    "new": "You have walked forty days to set a direction. Take with you habits, words for what you face, and ways to bring your actions into line with what you believe. You may miss that work if you look only for a dramatic feeling of change.",
+    "reason": "State the conclusion's practical promise without five restatements of quiet growth."
+  },
+  {
+    "location": "Conclusion",
+    "old": "You have learned to name pressure instead of being ruled by it, and to see your patterns instead of making excuses for them. You have learned to act without waiting to feel motivated, and to tell the truth sooner. You have learned that faith grows through steady effort more than through intense moments.",
+    "new": "You have practiced naming pressure, examining your patterns, acting without waiting for motivation, and telling the truth sooner. Keep practicing when these responses are still difficult.",
+    "reason": "Describe the exercises actually offered instead of guaranteeing that every reader has mastered them."
+  },
+  {
+    "location": "Conclusion",
+    "old": "None of this is dramatic. These are changes in how your life is built, the kind that hold when life turns ordinary again.\n\n",
+    "new": "",
+    "reason": "Intentional deletion: repeats the conclusion's opening before another section on continuing ordinary practice."
+  },
+  {
+    "location": "Conclusion",
+    "old": "You now have tools. Use them imperfectly if you must, but use them on purpose. Return to the practices that steadied you. Go back to the questions that helped you see clearly. Renew the boundaries that protected you. Strengthen the relationships where people really know you. You do not have to invent anything new, only remember.",
+    "new": "Use the practices that steadied you, the questions that helped you see clearly, and the relationships where people know you. Renew the boundaries that protected those things. Use these tools imperfectly if you must, but use them on purpose.",
+    "reason": "Condense a list of repeated imperatives while preserving all practical categories."
+  },
+  {
+    "location": "Conclusion",
+    "old": "When that happens, do not make a drama of it, and do not take tension as a sign of failure or of going backward. Under pressure, what you have built shows that it is real. Get your actions and beliefs lined up again. Do the next faithful thing. Stay with it longer than feels comfortable.",
+    "new": "When pressure returns, do not treat tension alone as proof of failure. Bring your actions back into line with your beliefs. Do the next faithful thing.",
+    "reason": "Remove repeated pressure summaries and retain the concrete response."
+  },
+  {
+    "location": "Conclusion",
+    "old": "Most lives are shaped more by small moments that repeat than by big turning points. Living forward will show in how you wake up, how you speak when you are irritated, how you handle time alone, how you respond to unfinished work, and how you hold steady when no one praises you. You will choose to hold back instead of reacting, tell the truth instead of hiding, and stay steady instead of rushing.",
+    "new": "Living forward shows in small, repeated moments: getting up, speaking when irritated, spending time alone, and returning to unfinished work. Choose a response you can stand by, even when no one praises you.",
+    "reason": "Cut two overlapping inventories of the same ordinary habits."
+  },
+  {
+    "location": "Appendix A",
+    "old": "Training that stays in your head goes nowhere. Most young men who walk away from their faith were never argued out of it. When pressure came, their faith was still only an idea. The FORGE Cycle is here to turn that idea into practice.",
+    "new": "Training that stays in your head goes nowhere. The FORGE Cycle helps you practice what you believe before pressure exposes the gap between your words and your habits.",
+    "reason": "Remove an unsupported general explanation for most departures from faith; keep the cycle's actual purpose."
+  },
+  {
+    "location": "Appendix C",
+    "old": "When the book’s daily plan ends, you will drift unless a new routine takes its place. These forty days were scaffolding. What you built in them now has to become your own. These steps help you keep going without starting the book over.",
+    "new": "These forty days were scaffolding. Build your next routine around the one practice you chose on Day 40. Use the options below as needed; you do not have to add them all at once or start the book over.",
+    "reason": "Resolve the apparent jump from Day 40's one practice to six new ongoing assignments."
+  }
+]

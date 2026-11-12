@@ -1,0 +1,186 @@
+[
+ {
+  "n": 1,
+  "sted": "Why Another Devotional Isn’t Enough",
+  "tag": "replace",
+  "old": "Young men rarely fail because they think their faith is wrong. They fail because they never trained it. Pressure does not ask what you believe. It shows what you have practiced.",
+  "new": "Young men rarely fail because they think their faith is wrong. They fail because they have not trained it. Pressure does not ask what you believe. It shows what you have practiced.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 2,
+  "sted": "How This Book Works",
+  "tag": "replace",
+  "old": "This book is not a counselor. If you carry deep trauma, harm done to you, grief that will not let up, or thoughts that frighten you, go to a pastor, a doctor, or a licensed counselor. Going is part of the training: the same honesty this book asks of you everywhere else, brought to the right place.",
+  "new": "This book is not a counselor. If you carry deep trauma, harm done to you, grief that will not let up, or thoughts that frighten you, go to a pastor, a doctor, or a licensed counselor. Going is part of the training: the same honesty this book asks of you everywhere else, brought to the right place. If you might hurt yourself or someone else, get emergency help now.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 3,
+  "sted": "Day 1: Kindling the Flame",
+  "tag": "replace",
+  "old": "Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was certainty that pressure had tested.",
+  "new": "Lying in the hospital bed, he faced something he had never been forced to face: he did not know whether what he believed would hold if he died that night. He had beliefs, and he knew the words. What he did not have was certainty that had been tested under pressure.",
+  "status": "KONFLIKT"
+ },
+ {
+  "n": 4,
+  "sted": "Day 4: Purpose Behind the Rules",
+  "tag": "replace",
+  "old": "Over time something shifted. The rules he bent without anyone noticing started to bend him. The change came from slow wear and tear, not from guilt. He noticed it in small ways. Discipline became optional, his commitments came with conditions, and he did the right thing only when it suited him. Nothing dramatic happened. The direction of his life just got weaker.",
+  "new": "Over time something shifted. The rules he bent without anyone noticing started to bend him. The change came from slow wear and tear, not from guilt. He noticed it in small ways. Discipline became optional, his commitments came with conditions, and he did the right thing only when it suited him. Nothing dramatic happened. He just drifted off course.",
+  "status": "KONFLIKT"
+ },
+ {
+  "n": 5,
+  "sted": "Day 5: Holy Discontent",
+  "tag": "replace",
+  "old": "In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. Feeling convicted shows you what to change. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.",
+  "new": "In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God’s correction shows you what to work on. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 6,
+  "sted": "Day 9: Faith Under Test",
+  "tag": "replace",
+  "old": "These moments show what has been built in you more honestly than your good intentions ever will. God tests you to make you a man who can be counted on. He is not testing you to show how weak you are.",
+  "new": "These moments show what has been built in you more honestly than your good intentions ever will. God tests you to make you a man who can be counted on. He is not testing you to prove you are not good enough.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 7,
+  "sted": "Day 15: When Anger Has a History",
+  "tag": "replace",
+  "old": "Anger is rarely about the moment that sets it off. It carries the past with it. What blows up fast was usually stored up for a long time.",
+  "new": "Anger is rarely about the moment that sets it off. It carries the past with it. What blows up fast was often stored up for a long time.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 8,
+  "sted": "Day 15: When Anger Has a History",
+  "tag": "replace",
+  "old": "Anger itself is not the problem. Anger you never look at is.",
+  "new": "Anger itself is not always the problem. Never looking at it is.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 9,
+  "sted": "Day 15: When Anger Has a History",
+  "tag": "replace",
+  "old": "Write the answers down where only you will see them. Understanding comes before self-control.",
+  "new": "Write the answers down where only you will see them. Understanding your anger helps you control it.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 10,
+  "sted": "Day 18: Failure as Forging",
+  "tag": "replace",
+  "old": "Failure only disqualifies you if you never ask what it means.",
+  "new": "Failure only disqualifies you from growing if you never ask what it means.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 11,
+  "sted": "Day 18: Failure as Forging",
+  "tag": "replace",
+  "old": "After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback, and every breakdown shows where you counted on a strength you had never trained.",
+  "new": "After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback. Each failure shows where you counted on a strength you had never trained.",
+  "status": "KONFLIKT"
+ },
+ {
+  "n": 12,
+  "sted": "Day 19: Scripture as a Mirror",
+  "tag": "replace",
+  "old": "Do not rush to work out what it means. Let it show you yourself first.",
+  "new": "Do not rush to analyze it or point it at someone else. Let it show you yourself first.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 13,
+  "sted": "Day 26: The Morning You Don’t Feel Like Facing",
+  "tag": "replace",
+  "old": "Mornings may once have filled you with dread: conflict, demands, responsibility with no one to help you carry it. Avoiding them protected you. Healing invites you back gently, and you do not have to be perfect. Showing up can be quiet. What counts is that you choose it.",
+  "new": "Mornings may once have filled you with dread: conflict, demands, responsibility with no one to help you carry it. Avoiding them protected you. Healing invites you back gently, and you do not have to be perfect. Showing up can be quiet. What counts is that you choose it. If the heaviness will not let up, talk to a pastor, a doctor, or a licensed counselor.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 14,
+  "sted": "Day 27: Staying Awake on Purpose",
+  "tag": "replace",
+  "old": "If you learned to scan for danger and never rest, because you could never tell what was coming, that restlessness was how you survived. The alertness asked of you here is calm and rests on trust. What you are guarding is your direction. You can stop bracing for everything to fall apart.",
+  "new": "If you learned to scan for danger and never rest, because you could never tell what was coming, that restlessness was how you survived. The alertness asked of you here is calm and rests on trust. What you are guarding is your direction. You are not asked to brace for everything to fall apart.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 15,
+  "sted": "Day 29: Prepared for Pressure",
+  "tag": "replace",
+  "old": "If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stay in the moment when the weight comes on, and you can stop bracing for harm.",
+  "new": "If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stay in the moment when the weight comes on, instead of bracing for harm.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 16,
+  "sted": "Day 30: When God Feels Distant",
+  "tag": "replace",
+  "old": "Often, silence means comfort is being held back.",
+  "new": "Often, silence means reassurance is being held back.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 17,
+  "sted": "Day 30: When God Feels Distant",
+  "tag": "replace",
+  "old": "Today is about staying faithful while that comfort is held back, whether or not the feelings come back. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.",
+  "new": "Today is about staying faithful without that reassurance, whether or not the feelings return. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 18,
+  "sted": "Day 30: When God Feels Distant",
+  "tag": "replace",
+  "old": "Do not look for anything new today: no new message, no signs, no fresh reassurance. Do what you already know is right. Keep showing up, and stay faithful.",
+  "new": "Do not chase anything new today: no new message, no signs, no fresh reassurance. Do what you already know is right. Keep showing up, and stay faithful.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 19,
+  "sted": "Day 32: The Discipline of Finishing",
+  "tag": "replace",
+  "old": "Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together, and no one gets abandoned in it. You are allowed to close what you no longer need to carry.",
+  "new": "Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together. Finishing is not abandonment. You are allowed to close what you no longer need to carry.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 20,
+  "sted": "Day 36: Speaking with Precision",
+  "tag": "replace",
+  "old": "## Day 36: Speaking with Precision",
+  "new": "## Day 36: Speaking With Precision",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 21,
+  "sted": "Day 37: Living with Eternity in View",
+  "tag": "replace",
+  "old": "## Day 37: Living with Eternity in View",
+  "new": "## Day 37: Living With Eternity in View",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 22,
+  "sted": "Day 38: When Strength Is Finally Visible",
+  "tag": "replace",
+  "old": "Other people’s attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice you because you have grown, that is a kind of trust. They are leaning on you, not watching to catch your mistakes.",
+  "new": "Other people’s attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice your growth, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.",
+  "status": "BASE_I_NOV12"
+ },
+ {
+  "n": 23,
+  "sted": "Appendix A: The FORGE Cycle",
+  "tag": "replace",
+  "old": "If you practice the habits but skip the healing, you end up an efficient hypocrite: better organized, but still not whole. None of this means you make yourself holy. Scripture says that God Himself makes you holy (1 Thessalonians 5:23). The cycle describes your part in His work and never replaces it.",
+  "new": "If you practice the habits but skip the healing, you end up better organized on the outside and still not whole inside. None of this means you make yourself holy. Scripture says that God Himself makes you holy (1 Thessalonians 5:23). The cycle describes your part in His work and never replaces it.",
+  "status": "BASE_I_NOV12"
+ }
+]
