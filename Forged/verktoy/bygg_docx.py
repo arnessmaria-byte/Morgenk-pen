@@ -22,6 +22,8 @@ while i < len(lines):
         i += 3; continue
     elif l.startswith("|") and i + 1 < len(lines) and re.fullmatch(r"\|[ :\-|]+\|?", lines[i + 1].strip()) and (i == 0 or not lines[i - 1].startswith("|")):
         res.append("|  |  |")                      # tabell uten overskriftsrad, som i trykket
+    elif re.fullmatch(r"!\[[^\]]*\]\([^)]+\)", l.strip()):
+        res.append(l.strip() + "{width=1.25in}")   # QR-koden i fast størrelse
     else:
         res.append(l)
     i += 1
@@ -29,7 +31,7 @@ meta = ("---\ntitle: \"FORGED\"\nsubtitle: \"A 40-Day Path to Durable Faith for 
         "author: \"Elias Solbak Årnes\"\nlang: en-US\n---\n\n")
 with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as f:
     f.write(meta + "\n".join(res)); tmp = f.name
-subprocess.run(["pandoc", tmp, "-f", "markdown-smart", "-o", str(out),
+subprocess.run(["pandoc", tmp, "-f", "markdown-smart-implicit_figures", "-o", str(out), "--resource-path", str(md.resolve().parent),
                 "--reference-doc", str(here / "maler" / "reference.docx")], check=True)
 
 # Sideskift direkte på avsnittet (ikke bare i stilen), så Google Docs og andre

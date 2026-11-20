@@ -14,7 +14,7 @@ Faith is rarely tested when life is easy. It is tested by everyday pressure, by 
 
 Thomas did not doubt what he believed. He doubted whether it mattered. His faith made sense in conversation, in study, and in quiet moments of thought. But when he was tired, in conflict, or let down, his reactions rarely matched what he said he believed. His beliefs had not yet taken charge of what he did.
 
-Those moments were his test. They showed him that gap to train him, never to shame him.
+Those reactions showed Thomas where he needed training.
 
 ### Untested Belief vs. Tested Faith
 
@@ -168,9 +168,9 @@ Standing out is rarely punished right away. The cost comes slowly. People approv
 
 ### The Scenario
 
-Simon never argued with anyone. He did not announce what he believed or correct other people. He simply stopped taking part in the things that pulled him off course.
+Simon stopped taking part in things that pulled him off course. He did not argue or announce what he believed.
 
-At first nothing happened. Then the jokes changed, and so did the invitations. Where things had felt easy, there was now silence. No one confronted him. They just treated him differently. Simon felt the cost: people kept their distance. He had to decide whether staying on course was worth it.
+At first nothing happened. Then the jokes changed, and so did the invitations. No one confronted him. They simply kept their distance. He had to decide whether staying on course was worth that cost.
 
 ### Seeking Approval vs. Accepting Cost
 
@@ -198,7 +198,7 @@ Notice one place where you tone yourself down to keep people's approval. Ask:
 - What part of my integrity am I trading for an easier time?
 - What small step toward living what I believe would cost me some comfort but help me see clearly?
 
-Make the decision without drama. Stand firm without announcing it. Most costs are paid in private.
+Take that small step without announcing it.
 
 ### Healing Forge: When Rejection Reopens Old Wounds
 
@@ -330,8 +330,6 @@ Anger itself is not always the problem. Never looking at it is.
 
 Be honest about where your anger comes from instead of pushing it down. Anger often means something mattered to you back when you were not allowed to say so. Ignore anger, and it hardens. Give in to it, and it takes over. Understand it, and it tells you something useful. Then you stop mistaking it for who you are.
 
-Anger you never try to understand will one day pick its own moment to come out.
-
 ### The Practice
 
 Recall one recent time you got angry. Do not excuse it or condemn it. Ask:
@@ -378,7 +376,7 @@ An audience tests your reputation. Being alone tests what you are made of.
 
 Aim to be steady, not perfect. You know the small deal you make with yourself in an empty room: the door closes, and the standard slips.
 
-Your character shows in what you allow yourself in private, no matter what you claim in public. What you give in to when you are alone rarely happens only once. It becomes practice for later decisions. No athlete can do in a match what he never practiced alone. What you let slide in private will follow you.
+What you allow yourself in private becomes practice for later decisions. No athlete can do in a match what he never practiced alone. The same training is taking place when your door is closed.
 
 ### The Practice
 
@@ -410,7 +408,7 @@ Paying attention to your life helps you see clearly. Taking a step is how you co
 
 ### The Scenario
 
-Andrew understood his habits. He could name his distractions, notice when he was drifting, and see what the drifting was costing him. Knowing was no longer his problem. Doing was. Caution held him back, because he wanted to be sure before he committed.
+Andrew could name his distractions and see what they cost him. Knowing was no longer his problem. Doing was. He wanted to be sure before he committed.
 
 He did not realize that you often see clearly after you move.
 
@@ -478,7 +476,7 @@ Failure only disqualifies you from growing if you never ask what it means.
 
 ### What This Day Is Really About
 
-After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else's fall. But the lesson you need is in your own. Failure is feedback. Each failure shows where you counted on a strength you had never trained.
+After you fall, keep training. There is nothing glorious about failure. Examine your own failure for the point where you counted on a strength you had not trained.
 
 From any failure you can take one of two things: a lesson or an excuse.
 
@@ -508,7 +506,7 @@ Scripture is there to show you who you are, not to tell you that you are fine. T
 
 ### The Scenario
 
-Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and never felt it was meant for him. He came away sure he was fine and rarely looked hard at himself.
+Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and came away sure he was fine.
 
 He kept turning the mirror toward everyone else.
 
@@ -570,7 +568,7 @@ He put in plenty of effort. What he lacked was friction: other men pushing back.
 | Lets little correction in | Helps you grow |
 | Gets stuck | Gets stronger |
 
-Sharpening only happens when something pushes back. Being close to other men shows you your blind spots.
+Other men can show you blind spots you will miss alone.
 
 ### What This Day Is Really About
 
@@ -718,7 +716,7 @@ Knowledge you cannot act on is not yet yours.
 
 ### What This Day Is Really About
 
-What you understand has to become what you do without thinking. No one learns to swim from a manual, even when the manual is right. Truth that stays in your head gives way under pressure. Only what you have practiced holds up.
+No one learns to swim from a manual, even when the manual is right. Practice makes what you understand available when you need it under pressure.
 
 Wisdom is taking what you believe and turning it into an action you can repeat faithfully.
 
@@ -744,7 +742,7 @@ Knowledge may have been how you stayed safe. Knowing things earned you respect, 
 >
 > 1 Thessalonians 5:23
 
-Your strength can easily end up split into pieces. One part of your life moves ahead while another falls behind. Discipline that is cut off from everything else throws you off balance. Strength holds only when the parts line up.
+Discipline in one area cannot do the work of every other part of your life. Your body, beliefs, and relationships need to move in the same direction.
 
 ### The Scenario
 

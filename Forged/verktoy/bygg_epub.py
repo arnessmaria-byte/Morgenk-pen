@@ -14,6 +14,8 @@ for l in lines:
 body = "\n".join(out_lines)
 body = re.sub(r"(?m)^\*End of Day (\d+)\*$", r'::: endmark\nEnd of Day \1\n:::', body)
 body = re.sub(r"(?m)^> (?!“)(.+)$", r"> []{.ref}\1", body)   # henvisningslinja i epigrafen
+# QR-kode, lenketekst og nettadresse på videosiden sentreres
+body = re.sub(r"(?m)^(!\[[^\]]*\]\([^)]+\)|\[[^\]]+\]\(https?://[^)]+\)|https?://\S+)$", r"::: center\n\1\n:::", body)
 front = """---
 title: "Forged"
 subtitle: "A 40-Day Path to Durable Faith for Young Men"
@@ -64,10 +66,13 @@ ul { margin: 0.5em 0 0.6em 1.2em; padding: 0; }
 li { margin: 0.2em 0; }
 .endmark { text-align: center; letter-spacing: 0.2em; text-transform: uppercase; font-size: 0.7em; margin: 2em 0; }
 .copyright p { text-indent: 0; font-size: 0.85em; margin-bottom: 0.7em; text-align: left; }
+img { display: block; width: 35%; max-width: 1.5in; margin: 1.2em auto 0.8em; }
+.center p { text-indent: 0; text-align: center; }
 """
 tmp = out.with_suffix(".src.md"); tmp.write_text(front + body, encoding="utf-8")
 cssf = out.with_suffix(".css"); cssf.write_text(css, encoding="utf-8")
-cmd = ["pandoc", str(tmp), "-f", "markdown+smart", "-t", "epub3", "-o", str(out), "--toc", "--toc-depth=2",
+cmd = ["pandoc", str(tmp), "-f", "markdown+smart-implicit_figures", "-t", "epub3", "-o", str(out), "--toc", "--toc-depth=2",
+       "--resource-path", str(md_path.resolve().parent),
        "--split-level=2", "--css", str(cssf), "--metadata", "toc-title=Contents"]
 for f in ("EBGaramond-Regular.ttf", "EBGaramond-Italic.ttf", "EBGaramond-Bold.ttf"):
     cmd += ["--epub-embed-font", str(fonts / f)]

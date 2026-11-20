@@ -73,7 +73,7 @@ Each phase builds on the last. Walk the whole path.
 
 ## How This Book Works
 
-Every day has the same parts: a short opening, a scenario from real life, a table comparing two opposite ways, a section on what the day is really about, one concrete practice, and a short Healing Forge section. The scenarios are ordinary ones: failures no one sees, small compromises, the tension most young men carry but have no words for. There are no heroes in them, only honest men still being forged.
+Each day moves from a short opening and an ordinary scenario to a comparison, an explanation, one concrete practice, and a Healing Forge section. The scenarios are ordinary ones: failures no one sees, small compromises, the tension most young men carry but have no words for. There are no heroes in them, only honest men still being forged.
 
 The practice is the point. You are not asked to feel anything, and the days you feel nothing count as much as the days everything feels clear. What you repeat becomes a reflex, and your reflexes decide who you are under pressure.
 
@@ -94,6 +94,22 @@ None of the forty days ahead earns you anything from God. He accepted you before
 You do not need to become someone else. What you believe, what you practice, and where you are headed need to line up. That is what holds under pressure, and it is what lets you move forward without fear.
 
 Begin there.
+
+# Companion videos
+
+There is a short video for each day of this book. The series is freely available on YouTube. Read the day's chapter, watch the matching video, and carry out the practice.
+
+![FORGED companion videos QR code](assets/FORGED_spilleliste_QR.png)
+
+[FORGED companion videos on YouTube](https://www.youtube.com/playlist?list=PLSG5mjEhTu-s)
+
+https://www.youtube.com/playlist?list=PLSG5mjEhTu-s
+
+Scan the QR code or use the address above to open the series.
+
+One new video is released each day from January 1 through February 9, 2027, at 4:00 p.m. New York time. Previously released videos remain available. If you begin later, start with Day 1 and follow the book at your own pace.
+
+You can complete every reading and practice using the book itself.
 
 # Phase I: Flare
 
@@ -147,7 +163,7 @@ Pick one belief you think is solid but have never tested. It has never made you 
 - Where do I avoid testing it?
 - What would it take to train this belief instead of just assuming it will hold?
 
-Leave the fixing for later. Today you are only striking the match. Just notice where the flame is trying to start.
+Leave the fixing for later. Today you are only striking the match.
 
 ### Healing Forge: When Faith Feels Numb
 
@@ -185,9 +201,9 @@ Separation takes good judgment. You do not have to look down on anyone to do it.
 
 ### What This Day Is Really About
 
-Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Whatever you are part of always shapes you. Every room and every routine trains you in something, and every relationship puts pressure on you.
+Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Every room, routine, and relationship trains you in something.
 
-You already know this. You talk one way in one house and another way in the next. The room did that, and you never got a vote. You are going to be shaped either way. Separation means you choose what does the shaping.
+Notice how your speech changes from one house to the next. You adjusted before you had thought about it. Separation means choosing which influences you will keep.
 
 ### The Practice
 
@@ -350,7 +366,7 @@ Notice one nagging discomfort you usually avoid. Ask:
 - Where is my life slightly out of line with what I believe?
 - What small correction am I being asked to make?
 
-Do not make a drama of it, and do not bury it. Work out what it is saying. Setting your life right often starts with feeling uneasy.
+Do not dramatize the discomfort or bury it. Name the correction it calls for.
 
 ### Healing Forge: When Discontent Turns Against You
 
@@ -424,7 +440,7 @@ Many lives fail by slowly drifting, not by crashing. Effort with no direction fe
 
 ### The Scenario
 
-Jonah was busy. His days were full, his calendar stayed booked, and his intentions were mostly good. He worked hard. What he lacked was direction. He reacted well to whatever showed up in front of him, but he rarely chose what deserved his attention first. What was closest and what felt urgent made his decisions for him, and so did habit.
+Jonah worked hard and kept a full calendar. His intentions were mostly good, but he rarely chose what deserved his attention first. Whatever was closest, loudest, or most familiar decided for him.
 
 Over time he kept moving and got nowhere. Nothing was wrong. Everything was scattered.
 
@@ -500,7 +516,7 @@ Notice one passion that keeps coming back, something that runs deeper than a pas
 - What responsibility might it ask of me if I took it seriously?
 - Where does it make things feel too urgent, or make me feel entitled?
 
-Do not act on it today. Study it. A signal only helps once you have read it correctly.
+Do not act on it today. Study what it asks of you.
 
 ### Healing Forge: When Passion Was Punished
 

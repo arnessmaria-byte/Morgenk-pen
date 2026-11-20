@@ -44,7 +44,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 > - Where do I avoid testing it?
 > - What would it take to train this belief instead of just assuming it will hold?
 >
-> Leave the fixing for later. Today you are only striking the match. Just notice where the flame is trying to start.
+> Leave the fixing for later. Today you are only striking the match.
 
 **Healing Forge: When Faith Feels Numb**
 
@@ -181,7 +181,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 > - Where is my life slightly out of line with what I believe?
 > - What small correction am I being asked to make?
 >
-> Do not make a drama of it, and do not bury it. Work out what it is saying. Setting your life right often starts with feeling uneasy.
+> Do not dramatize the discomfort or bury it. Name the correction it calls for.
 
 **Healing Forge: When Discontent Turns Against You**
 
@@ -283,7 +283,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 > - What responsibility might it ask of me if I took it seriously?
 > - Where does it make things feel too urgent, or make me feel entitled?
 >
-> Do not act on it today. Study it. A signal only helps once you have read it correctly.
+> Do not act on it today. Study what it asks of you.
 
 **Healing Forge: When Passion Was Punished**
 
@@ -418,7 +418,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 > - What part of my integrity am I trading for an easier time?
 > - What small step toward living what I believe would cost me some comfort but help me see clearly?
 >
-> Make the decision without drama. Stand firm without announcing it. Most costs are paid in private.
+> Take that small step without announcing it.
 
 **Healing Forge: When Rejection Reopens Old Wounds**
 
@@ -780,7 +780,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Your strength can easily end up split into pieces. One part of your life moves ahead while another falls behind. Discipline that is cut off from everything else throws you off balance. Strength holds only when the parts line up.
+> Discipline in one area cannot do the work of every other part of your life. Your body, beliefs, and relationships need to move in the same direction.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -861,8 +861,6 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 **The Practice i boken nå:**
 
 > Tomorrow morning, before you check anything, do one thing. Get out of bed, sit still for a moment, and say one sentence out loud: what you mean to do today, or a prayer. That is the whole practice. Do not try to make it perfect. Make it yours.
->
-> If you show up first, the rest of the day often follows.
 
 **Healing Forge: When Mornings Feel Heavy**
 
@@ -1029,8 +1027,6 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 **The Practice i boken nå:**
 
 > Think of one thing you keep putting off finishing. Skip the hardest and most dramatic ones. Pick the one that keeps hanging around in the background. Take one step that clearly moves it closer to done. Say what done looks like, then walk toward it.
->
-> Finishing is how your discipline matures.
 
 **Healing Forge: When Finishing Once Meant Loss**
 
@@ -1096,7 +1092,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Influence comes more from being there than from being loud. It comes from a man who steadies a room without drawing attention to himself. Influence that lasts rarely makes noise. It is built one ordinary day at a time.
+> A man who steadies a room without drawing attention to himself earns influence one ordinary day at a time.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -1169,8 +1165,6 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 **The Practice i boken nå:**
 
 > Slow down one reaction today. Just one. Pause before you answer, hold back a complaint, or let a small annoyance pass without comment. Then ask yourself what will last, and act on that.
->
-> How far ahead you look decides how heavy the pressure feels.
 
 **Healing Forge: When Rushing Was How You Survived**
 

@@ -78,15 +78,13 @@ The day asks you to show up. Excitement is optional.
 
 ### What This Day Is Really About
 
-Today is about saying yes to the day. You know the argument you have with yourself each morning under the blanket, and you know which side usually speaks first. Every morning asks a simple question: will you show up anyway?
+You know the argument you have with yourself each morning under the blanket. Answer it with the first act of the day, before you feel ready.
 
 Discipline follows a direction you have already chosen. It does not wait for your feelings or your energy to agree. Each morning tests whether you will live by that choice. It is not a test of your passion.
 
 ### The Practice
 
 Tomorrow morning, before you check anything, do one thing. Get out of bed, sit still for a moment, and say one sentence out loud: what you mean to do today, or a prayer. That is the whole practice. Do not try to make it perfect. Make it yours.
-
-If you show up first, the rest of the day often follows.
 
 ### Healing Forge: When Mornings Feel Heavy
 
@@ -123,8 +121,6 @@ Being alert is about being responsible. It does not mean being anxious.
 ### What This Day Is Really About
 
 Keeping watch means paying full attention, and it is gentler than being on edge all the time. A sentry on guard duty seems to do nothing at all, until the one night his watching really counts. Your growth wears away when you pay less attention. You can keep believing and still stop noticing.
-
-Staying awake means looking after your growth, moment by moment, without becoming suspicious.
 
 ### The Practice
 
@@ -178,7 +174,7 @@ Notice what fights the change. That is where you are being shaped.
 
 ### Healing Forge: When Control Once Meant Safety
 
-Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. So pushing back against the systems around you can feel threatening now. Today you are asked to choose for yourself. That is gentler than rigid control. You are choosing what shapes you, instead of letting something you never chose do it.
+Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Start with one chosen limit rather than trying to control everything.
 
 *End of Day 28*
 
@@ -236,7 +232,7 @@ Feeling distant is not the same as being abandoned. Sometimes distance means sil
 
 ### The Scenario
 
-Micah kept showing up. He stuck with his practices and his routine, and his habits did not fall apart. But he no longer felt that God was close. His prayers seemed to go unanswered: not refused, only met with silence. He looked for what he was doing wrong, checked himself for sin, and adjusted how he prayed: his position, his words, his timing. Nothing changed.
+Micah kept his practices and routine, but he no longer felt that God was close. His prayers seemed to go unanswered: not refused, only met with silence. He looked for what he was doing wrong, checked himself for sin, and adjusted how he prayed: his position, his words, his timing. Nothing changed.
 
 The silence itself bothered him less than the fear that it meant something was wrong.
 
@@ -350,8 +346,6 @@ Finishing trains you in a way nothing else can. It teaches your nervous system, 
 
 Think of one thing you keep putting off finishing. Skip the hardest and most dramatic ones. Pick the one that keeps hanging around in the background. Take one step that clearly moves it closer to done. Say what done looks like, then walk toward it.
 
-Finishing is how your discipline matures.
-
 ### Healing Forge: When Finishing Once Meant Loss
 
 Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together. Finishing is not abandonment. You are allowed to close what you no longer need to carry.
@@ -456,7 +450,7 @@ Being seen may once have meant risk: being picked apart, misunderstood, or punis
 >
 > Proverbs 15:1
 
-Influence comes more from being there than from being loud. It comes from a man who steadies a room without drawing attention to himself. Influence that lasts rarely makes noise. It is built one ordinary day at a time.
+A man who steadies a room without drawing attention to himself earns influence one ordinary day at a time.
 
 ### The Scenario
 
@@ -574,8 +568,6 @@ When you keep eternity in mind, you can handle a hassle without panic and pay a 
 
 Slow down one reaction today. Just one. Pause before you answer, hold back a complaint, or let a small annoyance pass without comment. Then ask yourself what will last, and act on that.
 
-How far ahead you look decides how heavy the pressure feels.
-
 ### Healing Forge: When Rushing Was How You Survived
 
 Rushing can be a habit you learned to protect yourself from loss, punishment, or being left behind. Waiting felt dangerous. Looking toward eternity, you still carry your responsibilities. You just see them against a longer future. You are allowed to look further ahead.
@@ -656,8 +648,6 @@ A position may open doors. Authority decides what happens once you are inside.
 
 Authority rests on whether people can believe you. It builds when what you do keeps matching what you say, even when you are not perfect. People are watching. They notice who calms a situation down and who makes it worse.
 
-Authority grows wherever someone carries responsibility without asking for credit.
-
 ### The Practice
 
 Be careful what you promise today. Say less, and finish what you commit to. Do one small job with care, and get the details right.
@@ -682,7 +672,7 @@ Finishing rarely feels dramatic. It feels calm and settled. Today you make up yo
 
 Adam expected something more: a rush of emotion, a sign, a sense that he had arrived. Instead there was calm. Nothing had fallen apart, and nothing exciting had happened, but something had settled.
 
-The temptations were still there, and his discipline still needed work. His surroundings were the same, but he carried himself differently in them. He had stopped trying to become someone. He was living as the man he had become.
+His surroundings were the same, but he carried himself differently in them. He had stopped trying to become someone. He was living as the man he had become.
 
 ### Finish Line vs. Carrying On
 

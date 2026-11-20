@@ -10,7 +10,9 @@ def folio(i):
         if re.fullmatch(r"\d+|[ivxlc]+", l): return l
     return None
 toc_text = "\n".join(pages[3:8])
-entries = re.findall(r"^(Day \d+ · .+?|PHASE [IV]+ · \w+|Foreword|Introduction|Conclusion · .+?|Appendix [ABC] · .+?|Also by .+?|About the Author)\s*(?:\. )*\.?\s*\n?\s*([ivx]+|\d+)\s*$", toc_text, re.M)
+# første side etter innholdslisten (sidene med prikkelinjer)
+start = max(i for i in range(min(10, len(pages))) if re.search(r"\.\s+\.\s+\.", pages[i])) + 1
+entries = re.findall(r"^(Day \d+ · .+?|PHASE [IV]+ · \w+|Foreword|Introduction|Companion videos|Conclusion · .+?|Appendix [ABC] · .+?|Also by .+?|About the Author)[\s.]*?\n?\s*([ivx]+|\d+)\s*$", toc_text, re.M)
 feil = 0
 for name, num in entries:
     key = name.split(" · ")[0]
@@ -20,10 +22,12 @@ for name, num in entries:
             for m in pat.finditer(txt):
                 if not re.search(r"O\s*F\s*$", txt[:m.start()]): return True
             return False
-        hits = [i for i in range(8, len(d)) if starts_day(pages[i].replace("\n", " "))]
+        hits = [i for i in range(start, len(d)) if starts_day(pages[i].replace("\n", " "))]
     else:
         word = re.sub(r"\s|·|\.", "", key).upper()
-        hits = [i for i in range(8, len(d)) if word in re.sub(r"\s|·|\.", "", pages[i]).upper()[:80]]
+        # kapitteltittelen står sperret på første linje av startsiden (uten topptekst)
+        first = lambda s: next((l for l in s.splitlines() if l.strip()), "")
+        hits = [i for i in range(start, len(d)) if re.sub(r"\s|·|\.", "", first(pages[i])).upper().startswith(word)]
     if not hits:
         print("FANT IKKE", name); feil += 1; continue
     i = hits[0]

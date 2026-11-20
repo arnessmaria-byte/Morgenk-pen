@@ -96,6 +96,19 @@ while i < len(L):
         out_.append("{\\pard\\sa120\\fs8\\par}")
         after_heading = True
         continue
+    elif re.fullmatch(r"!\[[^\]]*\]\(([^)]+)\)", l.strip()):
+        # QR-koden som innebygd PNG, 1,25 tommer bred
+        png = (md.parent / re.fullmatch(r"!\[[^\]]*\]\(([^)]+)\)", l.strip()).group(1)).read_bytes()
+        pw, ph = int.from_bytes(png[16:20], "big"), int.from_bytes(png[20:24], "big")
+        out_.append("{\\pard\\qc\\sb240\\sa120{\\pict\\pngblip\\picw%d\\pich%d\\picwgoal1800\\pichgoal%d %s}\\par}"
+                    % (pw, ph, round(1800 * ph / pw), png.hex()))
+        after_heading = True
+    elif re.fullmatch(r"\[([^\]]+)\]\((https?://[^)]+)\)", l.strip()):
+        out_.append("{\\pard\\qc\\i " + esc(re.fullmatch(r"\[([^\]]+)\]\((https?://[^)]+)\)", l.strip()).group(1)) + "\\par}")
+        after_heading = True
+    elif re.fullmatch(r"https?://\S+", l.strip()):
+        out_.append("{\\pard\\qc\\sa240\\fs20 " + esc(l.strip()) + "\\par}")
+        after_heading = True
     elif l.startswith("- "):
         out_.append("{\\pard\\ql\\li520\\fi-240\\sa40 \\'95\\tab " + inline(l[2:]) + "\\par}")
         after_heading = True

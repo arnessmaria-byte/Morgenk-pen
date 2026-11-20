@@ -73,7 +73,7 @@ Each phase builds on the last. Walk the whole path.
 
 ## How This Book Works
 
-Every day has the same parts: a short opening, a scenario from real life, a table comparing two opposite ways, a section on what the day is really about, one concrete practice, and a short Healing Forge section. The scenarios are ordinary ones: failures no one sees, small compromises, the tension most young men carry but have no words for. There are no heroes in them, only honest men still being forged.
+Each day moves from a short opening and an ordinary scenario to a comparison, an explanation, one concrete practice, and a Healing Forge section. The scenarios are ordinary ones: failures no one sees, small compromises, the tension most young men carry but have no words for. There are no heroes in them, only honest men still being forged.
 
 The practice is the point. You are not asked to feel anything, and the days you feel nothing count as much as the days everything feels clear. What you repeat becomes a reflex, and your reflexes decide who you are under pressure.
 
@@ -94,6 +94,22 @@ None of the forty days ahead earns you anything from God. He accepted you before
 You do not need to become someone else. What you believe, what you practice, and where you are headed need to line up. That is what holds under pressure, and it is what lets you move forward without fear.
 
 Begin there.
+
+# Companion videos
+
+There is a short video for each day of this book. The series is freely available on YouTube. Read the day’s chapter, watch the matching video, and carry out the practice.
+
+![FORGED companion videos QR code](assets/FORGED_spilleliste_QR.png)
+
+[FORGED companion videos on YouTube](https://www.youtube.com/playlist?list=PLSG5mjEhTu-s)
+
+https://www.youtube.com/playlist?list=PLSG5mjEhTu-s
+
+Scan the QR code or use the address above to open the series.
+
+One new video is released each day from January 1 through February 9, 2027, at 4:00 p.m. New York time. Previously released videos remain available. If you begin later, start with Day 1 and follow the book at your own pace.
+
+You can complete every reading and practice using the book itself.
 
 # Phase I: Flare
 
@@ -147,7 +163,7 @@ Pick one belief you think is solid but have never tested. It has never made you 
 - Where do I avoid testing it?
 - What would it take to train this belief instead of just assuming it will hold?
 
-Leave the fixing for later. Today you are only striking the match. Just notice where the flame is trying to start.
+Leave the fixing for later. Today you are only striking the match.
 
 ### Healing Forge: When Faith Feels Numb
 
@@ -185,9 +201,9 @@ Separation takes good judgment. You do not have to look down on anyone to do it.
 
 ### What This Day Is Really About
 
-Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Whatever you are part of always shapes you. Every room and every routine trains you in something, and every relationship puts pressure on you.
+Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Every room, routine, and relationship trains you in something.
 
-You already know this. You talk one way in one house and another way in the next. The room did that, and you never got a vote. You are going to be shaped either way. Separation means you choose what does the shaping.
+Notice how your speech changes from one house to the next. You adjusted before you had thought about it. Separation means choosing which influences you will keep.
 
 ### The Practice
 
@@ -350,7 +366,7 @@ Notice one nagging discomfort you usually avoid. Ask:
 - Where is my life slightly out of line with what I believe?
 - What small correction am I being asked to make?
 
-Do not make a drama of it, and do not bury it. Work out what it is saying. Setting your life right often starts with feeling uneasy.
+Do not dramatize the discomfort or bury it. Name the correction it calls for.
 
 ### Healing Forge: When Discontent Turns Against You
 
@@ -424,7 +440,7 @@ Many lives fail by slowly drifting, not by crashing. Effort with no direction fe
 
 ### The Scenario
 
-Jonah was busy. His days were full, his calendar stayed booked, and his intentions were mostly good. He worked hard. What he lacked was direction. He reacted well to whatever showed up in front of him, but he rarely chose what deserved his attention first. What was closest and what felt urgent made his decisions for him, and so did habit.
+Jonah worked hard and kept a full calendar. His intentions were mostly good, but he rarely chose what deserved his attention first. Whatever was closest, loudest, or most familiar decided for him.
 
 Over time he kept moving and got nowhere. Nothing was wrong. Everything was scattered.
 
@@ -500,7 +516,7 @@ Notice one passion that keeps coming back, something that runs deeper than a pas
 - What responsibility might it ask of me if I took it seriously?
 - Where does it make things feel too urgent, or make me feel entitled?
 
-Do not act on it today. Study it. A signal only helps once you have read it correctly.
+Do not act on it today. Study what it asks of you.
 
 ### Healing Forge: When Passion Was Punished
 
@@ -524,7 +540,7 @@ Faith is rarely tested when life is easy. It is tested by everyday pressure, by 
 
 Thomas did not doubt what he believed. He doubted whether it mattered. His faith made sense in conversation, in study, and in quiet moments of thought. But when he was tired, in conflict, or let down, his reactions rarely matched what he said he believed. His beliefs had not yet taken charge of what he did.
 
-Those moments were his test. They showed him that gap to train him, never to shame him.
+Those reactions showed Thomas where he needed training.
 
 ### Untested Belief vs. Tested Faith
 
@@ -678,9 +694,9 @@ Standing out is rarely punished right away. The cost comes slowly. People approv
 
 ### The Scenario
 
-Simon never argued with anyone. He did not announce what he believed or correct other people. He simply stopped taking part in the things that pulled him off course.
+Simon stopped taking part in things that pulled him off course. He did not argue or announce what he believed.
 
-At first nothing happened. Then the jokes changed, and so did the invitations. Where things had felt easy, there was now silence. No one confronted him. They just treated him differently. Simon felt the cost: people kept their distance. He had to decide whether staying on course was worth it.
+At first nothing happened. Then the jokes changed, and so did the invitations. No one confronted him. They simply kept their distance. He had to decide whether staying on course was worth that cost.
 
 ### Seeking Approval vs. Accepting Cost
 
@@ -708,7 +724,7 @@ Notice one place where you tone yourself down to keep people’s approval. Ask:
 - What part of my integrity am I trading for an easier time?
 - What small step toward living what I believe would cost me some comfort but help me see clearly?
 
-Make the decision without drama. Stand firm without announcing it. Most costs are paid in private.
+Take that small step without announcing it.
 
 ### Healing Forge: When Rejection Reopens Old Wounds
 
@@ -840,8 +856,6 @@ Anger itself is not always the problem. Never looking at it is.
 
 Be honest about where your anger comes from instead of pushing it down. Anger often means something mattered to you back when you were not allowed to say so. Ignore anger, and it hardens. Give in to it, and it takes over. Understand it, and it tells you something useful. Then you stop mistaking it for who you are.
 
-Anger you never try to understand will one day pick its own moment to come out.
-
 ### The Practice
 
 Recall one recent time you got angry. Do not excuse it or condemn it. Ask:
@@ -888,7 +902,7 @@ An audience tests your reputation. Being alone tests what you are made of.
 
 Aim to be steady, not perfect. You know the small deal you make with yourself in an empty room: the door closes, and the standard slips.
 
-Your character shows in what you allow yourself in private, no matter what you claim in public. What you give in to when you are alone rarely happens only once. It becomes practice for later decisions. No athlete can do in a match what he never practiced alone. What you let slide in private will follow you.
+What you allow yourself in private becomes practice for later decisions. No athlete can do in a match what he never practiced alone. The same training is taking place when your door is closed.
 
 ### The Practice
 
@@ -920,7 +934,7 @@ Paying attention to your life helps you see clearly. Taking a step is how you co
 
 ### The Scenario
 
-Andrew understood his habits. He could name his distractions, notice when he was drifting, and see what the drifting was costing him. Knowing was no longer his problem. Doing was. Caution held him back, because he wanted to be sure before he committed.
+Andrew could name his distractions and see what they cost him. Knowing was no longer his problem. Doing was. He wanted to be sure before he committed.
 
 He did not realize that you often see clearly after you move.
 
@@ -988,7 +1002,7 @@ Failure only disqualifies you from growing if you never ask what it means.
 
 ### What This Day Is Really About
 
-After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback. Each failure shows where you counted on a strength you had never trained.
+After you fall, keep training. There is nothing glorious about failure. Examine your own failure for the point where you counted on a strength you had not trained.
 
 From any failure you can take one of two things: a lesson or an excuse.
 
@@ -1018,7 +1032,7 @@ Scripture is there to show you who you are, not to tell you that you are fine. T
 
 ### The Scenario
 
-Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and never felt it was meant for him. He came away sure he was fine and rarely looked hard at himself.
+Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and came away sure he was fine.
 
 He kept turning the mirror toward everyone else.
 
@@ -1080,7 +1094,7 @@ He put in plenty of effort. What he lacked was friction: other men pushing back.
 | Lets little correction in | Helps you grow |
 | Gets stuck | Gets stronger |
 
-Sharpening only happens when something pushes back. Being close to other men shows you your blind spots.
+Other men can show you blind spots you will miss alone.
 
 ### What This Day Is Really About
 
@@ -1228,7 +1242,7 @@ Knowledge you cannot act on is not yet yours.
 
 ### What This Day Is Really About
 
-What you understand has to become what you do without thinking. No one learns to swim from a manual, even when the manual is right. Truth that stays in your head gives way under pressure. Only what you have practiced holds up.
+No one learns to swim from a manual, even when the manual is right. Practice makes what you understand available when you need it under pressure.
 
 Wisdom is taking what you believe and turning it into an action you can repeat faithfully.
 
@@ -1254,7 +1268,7 @@ Knowledge may have been how you stayed safe. Knowing things earned you respect, 
 >
 > 1 Thessalonians 5:23
 
-Your strength can easily end up split into pieces. One part of your life moves ahead while another falls behind. Discipline that is cut off from everything else throws you off balance. Strength holds only when the parts line up.
+Discipline in one area cannot do the work of every other part of your life. Your body, beliefs, and relationships need to move in the same direction.
 
 ### The Scenario
 
@@ -1376,15 +1390,13 @@ The day asks you to show up. Excitement is optional.
 
 ### What This Day Is Really About
 
-Today is about saying yes to the day. You know the argument you have with yourself each morning under the blanket, and you know which side usually speaks first. Every morning asks a simple question: will you show up anyway?
+You know the argument you have with yourself each morning under the blanket. Answer it with the first act of the day, before you feel ready.
 
 Discipline follows a direction you have already chosen. It does not wait for your feelings or your energy to agree. Each morning tests whether you will live by that choice. It is not a test of your passion.
 
 ### The Practice
 
 Tomorrow morning, before you check anything, do one thing. Get out of bed, sit still for a moment, and say one sentence out loud: what you mean to do today, or a prayer. That is the whole practice. Do not try to make it perfect. Make it yours.
-
-If you show up first, the rest of the day often follows.
 
 ### Healing Forge: When Mornings Feel Heavy
 
@@ -1421,8 +1433,6 @@ Being alert is about being responsible. It does not mean being anxious.
 ### What This Day Is Really About
 
 Keeping watch means paying full attention, and it is gentler than being on edge all the time. A sentry on guard duty seems to do nothing at all, until the one night his watching really counts. Your growth wears away when you pay less attention. You can keep believing and still stop noticing.
-
-Staying awake means looking after your growth, moment by moment, without becoming suspicious.
 
 ### The Practice
 
@@ -1476,7 +1486,7 @@ Notice what fights the change. That is where you are being shaped.
 
 ### Healing Forge: When Control Once Meant Safety
 
-Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. So pushing back against the systems around you can feel threatening now. Today you are asked to choose for yourself. That is gentler than rigid control. You are choosing what shapes you, instead of letting something you never chose do it.
+Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Start with one chosen limit rather than trying to control everything.
 
 *End of Day 28*
 
@@ -1534,7 +1544,7 @@ Feeling distant is not the same as being abandoned. Sometimes distance means sil
 
 ### The Scenario
 
-Micah kept showing up. He stuck with his practices and his routine, and his habits did not fall apart. But he no longer felt that God was close. His prayers seemed to go unanswered: not refused, only met with silence. He looked for what he was doing wrong, checked himself for sin, and adjusted how he prayed: his position, his words, his timing. Nothing changed.
+Micah kept his practices and routine, but he no longer felt that God was close. His prayers seemed to go unanswered: not refused, only met with silence. He looked for what he was doing wrong, checked himself for sin, and adjusted how he prayed: his position, his words, his timing. Nothing changed.
 
 The silence itself bothered him less than the fear that it meant something was wrong.
 
@@ -1648,8 +1658,6 @@ Finishing trains you in a way nothing else can. It teaches your nervous system, 
 
 Think of one thing you keep putting off finishing. Skip the hardest and most dramatic ones. Pick the one that keeps hanging around in the background. Take one step that clearly moves it closer to done. Say what done looks like, then walk toward it.
 
-Finishing is how your discipline matures.
-
 ### Healing Forge: When Finishing Once Meant Loss
 
 Endings may have brought you pain: people leaving, fights, closeness taken away. Stopping early felt safer than risking disappointment at the end. Finishing what you started brings things together. Finishing is not abandonment. You are allowed to close what you no longer need to carry.
@@ -1754,7 +1762,7 @@ Being seen may once have meant risk: being picked apart, misunderstood, or punis
 >
 > Proverbs 15:1
 
-Influence comes more from being there than from being loud. It comes from a man who steadies a room without drawing attention to himself. Influence that lasts rarely makes noise. It is built one ordinary day at a time.
+A man who steadies a room without drawing attention to himself earns influence one ordinary day at a time.
 
 ### The Scenario
 
@@ -1872,8 +1880,6 @@ When you keep eternity in mind, you can handle a hassle without panic and pay a 
 
 Slow down one reaction today. Just one. Pause before you answer, hold back a complaint, or let a small annoyance pass without comment. Then ask yourself what will last, and act on that.
 
-How far ahead you look decides how heavy the pressure feels.
-
 ### Healing Forge: When Rushing Was How You Survived
 
 Rushing can be a habit you learned to protect yourself from loss, punishment, or being left behind. Waiting felt dangerous. Looking toward eternity, you still carry your responsibilities. You just see them against a longer future. You are allowed to look further ahead.
@@ -1954,8 +1960,6 @@ A position may open doors. Authority decides what happens once you are inside.
 
 Authority rests on whether people can believe you. It builds when what you do keeps matching what you say, even when you are not perfect. People are watching. They notice who calms a situation down and who makes it worse.
 
-Authority grows wherever someone carries responsibility without asking for credit.
-
 ### The Practice
 
 Be careful what you promise today. Say less, and finish what you commit to. Do one small job with care, and get the details right.
@@ -1980,7 +1984,7 @@ Finishing rarely feels dramatic. It feels calm and settled. Today you make up yo
 
 Adam expected something more: a rush of emotion, a sign, a sense that he had arrived. Instead there was calm. Nothing had fallen apart, and nothing exciting had happened, but something had settled.
 
-The temptations were still there, and his discipline still needed work. His surroundings were the same, but he carried himself differently in them. He had stopped trying to become someone. He was living as the man he had become.
+His surroundings were the same, but he carried himself differently in them. He had stopped trying to become someone. He was living as the man he had become.
 
 ### Finish Line vs. Carrying On
 
@@ -2023,8 +2027,6 @@ You have walked forty days to set a direction. The goal was to leave with things
 These forty days did not demand anything extraordinary of you. Nobody asked you to master doctrine, perfect your discipline, or settle every struggle inside you. Again and again you were invited to notice, choose, practice, and stay with it. That repetition matters.
 
 You have learned to name pressure instead of being ruled by it, and to see your patterns instead of making excuses for them. You have learned to act without waiting to feel motivated, and to tell the truth sooner. You have learned that faith grows through steady effort more than through intense moments.
-
-None of this is dramatic. These are changes in how your life is built, the kind that hold when life turns ordinary again.
 
 ## You Are Still in the Middle
 

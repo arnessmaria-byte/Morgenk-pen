@@ -8,7 +8,7 @@ CONTENTS med punktlinjer, Part-sider for fasene.
 
 Bruk: python3 sett_bok.py MANUS.md UT.pdf [--trim 6x9|5x8] [--typ UT.typ]
 """
-import re, sys, argparse, pathlib, json
+import re, os, sys, argparse, pathlib, json
 _dumps = json.dumps
 json.dumps = lambda o, **k: _dumps(o, ensure_ascii=False, **k)
 
@@ -250,6 +250,16 @@ PREAMBLE = r'''
 }
 '''
 
+ROT = None      # settes i main(): mappa typst kan lese filer fra
+MANUSDIR = None
+
+def bilde(sti):
+    """Bildesti fra manus, gjort om til en sti fra typst-roten. SVG foretrekkes i trykk."""
+    p = (MANUSDIR / sti).resolve()
+    if p.with_suffix(".svg").exists():
+        p = p.with_suffix(".svg")
+    return "/" + p.relative_to(ROT).as_posix()
+
 def render_blocks(bl, in_day=False):
     out = []
     i = 0
@@ -286,6 +296,19 @@ def render_blocks(bl, in_day=False):
             if t.startswith("MantleOfElias:"):
                 out.append("#v(0.6em)\n#par(first-line-indent: 0pt, text(size: 9.5pt, " + json.dumps(t) + "))")
                 i += 1; continue
+            m = re.fullmatch(r"!\[([^\]]*)\]\(([^)]+)\)", t)
+            if m:
+                # bilde (QR-koden): vektorversjonen brukes i trykk når den finnes
+                out.append("#v(0.5em)\n#align(center, image(" + json.dumps(bilde(m.group(2))) + ", width: 1.25in, alt: " + json.dumps(m.group(1)) + "))\n#v(0.3em)")
+                after_head = True; i += 1; continue
+            m = re.fullmatch(r"\[([^\]]+)\]\((https?://[^)]+)\)", t)
+            if m:
+                # lenketekst: i trykk står den som etikett over adressen
+                out.append("#align(center, text(style: \"italic\", hyphenate: false, " + json.dumps(m.group(1)) + "))")
+                after_head = True; i += 1; continue
+            if re.fullmatch(r"https?://\S+", t):
+                out.append("#align(center, text(size: 0.86em, hyphenate: false, number-type: \"lining\", " + json.dumps(t) + "))\n#v(0.9em)")
+                after_head = True; i += 1; continue
             body = inline(t)
             if after_head:
                 out.append("#par(first-line-indent: 0pt)[" + body + "]")
@@ -459,11 +482,14 @@ def main():
     a = ap.parse_args()
     md = pathlib.Path(a.md).read_text(encoding="utf-8")
     import typst, subprocess
+    global ROT, MANUSDIR
     typ = pathlib.Path(a.typ or (pathlib.Path(a.pdf).with_suffix(".typ")))
+    MANUSDIR = pathlib.Path(a.md).resolve().parent
+    ROT = pathlib.Path(os.path.commonpath([MANUSDIR, typ.resolve().parent]))
     blanks = ()
     for runde in (1, 2):
         typ.write_text(build(md, a.trim, blanks), encoding="utf-8")
-        pdf = typst.compile(str(typ), font_paths=[FONTS], ignore_system_fonts=True)
+        pdf = typst.compile(str(typ), root=str(ROT), font_paths=[FONTS], ignore_system_fonts=True)
         pathlib.Path(a.pdf).write_bytes(pdf)
         if runde == 1:
             txt = subprocess.run(["pdftotext", "-layout", a.pdf, "-"], capture_output=True, text=True).stdout.split("\f")

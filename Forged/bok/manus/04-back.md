@@ -10,8 +10,6 @@ These forty days did not demand anything extraordinary of you. Nobody asked you 
 
 You have learned to name pressure instead of being ruled by it, and to see your patterns instead of making excuses for them. You have learned to act without waiting to feel motivated, and to tell the truth sooner. You have learned that faith grows through steady effort more than through intense moments.
 
-None of this is dramatic. These are changes in how your life is built, the kind that hold when life turns ordinary again.
-
 ## You Are Still in the Middle
 
 If you expected that seeing clearly would end the struggle, you may feel let down. The training was meant to change that expectation. Faith that works only when things feel clear does not work very often.
