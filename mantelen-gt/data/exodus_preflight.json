@@ -1,0 +1,4262 @@
+{
+ "bok": "Exod",
+ "kilder": {
+  "Exod.xml": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+  "VerseMap.xml": "6cd269ca3dccef2cb944b9d9dd8afc950f929dab53a534f1268d23affa983163",
+  "TAHOT Gen-Deu - Translators Amalgamated Hebrew OT - STEPBible.org CC BY.txt": "7763ef367bb0e6e1c1a95fb9b652e1d611b2481827611433e82abbf229216d70",
+  "02.Exodus.txt": "4bb3c26c12eca623d9a046a9555b64d02ece86395e80fd0771bd6a73da544b3f",
+  "RO.SCV": "77a46cb1299660dded4b1ba04e9d2249469f801a44e3059c939715bb52885398"
+ },
+ "versparitet": {
+  "blokker": [
+   {
+    "wlc": "7:26-29",
+    "vestlig": "8:1-4"
+   },
+   {
+    "wlc": "8:1-28",
+    "vestlig": "8:5-32"
+   },
+   {
+    "wlc": "21:37-37",
+    "vestlig": "22:1-1"
+   },
+   {
+    "wlc": "22:1-30",
+    "vestlig": "22:2-31"
+   }
+  ]
+ },
+ "ankre": [
+  {
+   "id": "SK-01",
+   "tittel": "Tornebusken: fedrenes Gud",
+   "wlc": [
+    {
+     "ref": "3:6",
+     "vestlig": null,
+     "hebraisk": "וַיֹּ֗אמֶר אָנֹכִי֙ אֱלֹהֵ֣י אָבִ֔יךָ אֱלֹהֵ֧י אַבְרָהָ֛ם אֱלֹהֵ֥י יִצְחָ֖ק וֵאלֹהֵ֣י יַעֲקֹ֑ב וַיַּסְתֵּ֤ר מֹשֶׁה֙ פָּנָ֔יו כִּ֣י יָרֵ֔א מֵהַבִּ֖יט אֶל־הָאֱלֹהִֽים׃",
+     "tahot_glosse": "and he said I [am] [the] God of father your [the] God of Abraham [the] God of Isaac and [the] God of Jacob and he hid Moses face his for he was afraid from looking to <the> God",
+     "lxx_swete": "καὶ εἶπεν Ἐγώ εἰμι ὁ θεὸς τοῦ πατρός σου, θεὸς Ἀβραὰμ καὶ θεὸς Ἰσαὰκ καὶ θεὸς Ἰακώβ. ἀπέστρεψεν δὲ Μωυσῆς τὸ πρόσωπον αὐτοῦ. εὐλαβεῖτο γὰρ κατεμβλέψαι ἐνώπιον τοῦ θεοῦ.",
+     "ord": [
+      {
+       "id": "02EDP",
+       "h": "וַ/יֹּ֗אמֶר",
+       "strong": "H559",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H0559",
+       "glosse": "and/ he said"
+      },
+      {
+       "id": "02QUP",
+       "h": "אָנֹכִי֙",
+       "strong": "H595",
+       "morf": "HPp1cs",
+       "tahot": "H0595",
+       "glosse": "I"
+      },
+      {
+       "id": "02fv8",
+       "h": "אֱלֹהֵ֣י",
+       "strong": "H430",
+       "morf": "HNcmpc",
+       "tahot": "H0430G",
+       "glosse": "[am] [the] God of"
+      },
+      {
+       "id": "022SX",
+       "h": "אָבִ֔י/ךָ",
+       "strong": "H1",
+       "morf": "HNcmsc/Sp2ms",
+       "tahot": "H0001G",
+       "glosse": "father/ your"
+      },
+      {
+       "id": "02pwZ",
+       "h": "אֱלֹהֵ֧י",
+       "strong": "H430",
+       "morf": "HNcmpc",
+       "tahot": "H0430G",
+       "glosse": "[the] God of"
+      },
+      {
+       "id": "02KKJ",
+       "h": "אַבְרָהָ֛ם",
+       "strong": "H85",
+       "morf": "HNp",
+       "tahot": "H0085",
+       "glosse": "Abraham"
+      },
+      {
+       "id": "02U9v",
+       "h": "אֱלֹהֵ֥י",
+       "strong": "H430",
+       "morf": "HNcmpc",
+       "tahot": "H0430G",
+       "glosse": "[the] God of"
+      },
+      {
+       "id": "023V4",
+       "h": "יִצְחָ֖ק",
+       "strong": "H3327",
+       "morf": "HNp",
+       "tahot": "H3327",
+       "glosse": "Isaac"
+      },
+      {
+       "id": "02gJ1",
+       "h": "וֵ/אלֹהֵ֣י",
+       "strong": "H430",
+       "morf": "HC/Ncmpc",
+       "tahot": "H0430G",
+       "glosse": "and/ [the] God of"
+      },
+      {
+       "id": "02rWk",
+       "h": "יַעֲקֹ֑ב",
+       "strong": "H3290",
+       "morf": "HNp",
+       "tahot": "H3290",
+       "glosse": "Jacob"
+      },
+      {
+       "id": "026gQ",
+       "h": "וַ/יַּסְתֵּ֤ר",
+       "strong": "H5641",
+       "morf": "HC/Vhw3ms",
+       "tahot": "H5641",
+       "glosse": "and/ he hid"
+      },
+      {
+       "id": "02mSF",
+       "h": "מֹשֶׁה֙",
+       "strong": "H4872",
+       "morf": "HNp",
+       "tahot": "H4872",
+       "glosse": "Moses"
+      },
+      {
+       "id": "02awX",
+       "h": "פָּנָ֔י/ו",
+       "strong": "H6440",
+       "morf": "HNcbpc/Sp3ms",
+       "tahot": "H6440H",
+       "glosse": "face/ his"
+      },
+      {
+       "id": "02wik",
+       "h": "כִּ֣י",
+       "strong": "H3588a",
+       "morf": "HC",
+       "tahot": "H3588A",
+       "glosse": "for"
+      },
+      {
+       "id": "02CVM",
+       "h": "יָרֵ֔א",
+       "strong": "H3372",
+       "morf": "HVqp3ms",
+       "tahot": "H3372G",
+       "glosse": "he was afraid"
+      },
+      {
+       "id": "02gbT",
+       "h": "מֵ/הַבִּ֖יט",
+       "strong": "H5027",
+       "morf": "HR/Vhc",
+       "tahot": "H5027",
+       "glosse": "from/ looking"
+      },
+      {
+       "id": "02wMq",
+       "h": "אֶל",
+       "strong": "H413",
+       "morf": "HR",
+       "tahot": "H0413",
+       "glosse": "to"
+      },
+      {
+       "id": "022GY",
+       "h": "הָ/אֱלֹהִֽים",
+       "strong": "H430",
+       "morf": "HTd/Ncmpa",
+       "tahot": "H0430G",
+       "glosse": "<the>/ God"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Matt 22:32",
+     "scrivener": "εγω ειμι ο θεος αβρααμ και ο θεος ισαακ και ο θεος ιακωβ ουκ εστιν ο θεος θεος νεκρων αλλα ζωντων",
+     "mantelen_nt": "‘Jeg er Abrahams Gud og Isaks Gud og Jakobs Gud’? Gud er ikke de dødes Gud, men de levendes.»"
+    },
+    {
+     "ref": "Mark 12:26",
+     "scrivener": "περι δε των νεκρων οτι εγειρονται ουκ ανεγνωτε εν τη βιβλω μωσεως επι της βατου ως ειπεν αυτω ο θεος λεγων εγω ο θεος αβρααμ και ο θεος ισαακ και ο θεος ιακωβ",
+     "mantelen_nt": "Men om de døde, at de reises opp: Har dere ikke lest i Mose bok, i avsnittet om tornebusken, hvordan Gud talte til ham og sa: 'Jeg er Abrahams Gud og Isaks Gud og Jakobs Gud'?"
+    },
+    {
+     "ref": "Luk 20:37",
+     "scrivener": "οτι δε εγειρονται οι νεκροι και μωσης εμηνυσεν επι της βατου ως λεγει κυριον τον θεον αβρααμ και τον θεον ισαακ και τον θεον ιακωβ",
+     "mantelen_nt": "Men at de døde blir reist opp, kunngjorde også Moses i avsnittet om tornebusken, der han kaller Herren Abrahams Gud og Isaks Gud og Jakobs Gud."
+    },
+    {
+     "ref": "Apg 3:13",
+     "scrivener": "ο θεος αβρααμ και ισαακ και ιακωβ ο θεος των πατερων ημων εδοξασεν τον παιδα αυτου ιησουν ον υμεις παρεδωκατε και ηρνησασθε αυτον κατα προσωπον πιλατου κριναντος εκεινου απολυειν",
+     "mantelen_nt": "Abrahams og Isaks og Jakobs Gud, våre fedres Gud, herliggjorde sin tjener Jesus. Ham overga dere og fornektet overfor Pilatus, enda Pilatus hadde besluttet å løslate ham."
+    },
+    {
+     "ref": "Apg 7:32",
+     "scrivener": "εγω ο θεος των πατερων σου ο θεος αβρααμ και ο θεος ισαακ και ο θεος ιακωβ εντρομος δε γενομενος μωσης ουκ ετολμα κατανοησαι",
+     "mantelen_nt": "'Jeg er dine fedres Gud, Abrahams Gud og Isaks Gud og Jakobs Gud.' Men Moses begynte å skjelve og våget ikke å se nærmere."
+    }
+   ]
+  },
+  {
+   "id": "SK-02",
+   "tittel": "Navnet: «Jeg er»",
+   "wlc": [
+    {
+     "ref": "3:14",
+     "vestlig": null,
+     "hebraisk": "וַיֹּ֤אמֶר אֱלֹהִים֙ אֶל־מֹשֶׁ֔ה אֶֽהְיֶ֖ה אֲשֶׁ֣ר אֶֽהְיֶ֑ה וַיֹּ֗אמֶר כֹּ֤ה תֹאמַר֙ לִבְנֵ֣י יִשְׂרָאֵ֔ל אֶֽהְיֶ֖ה שְׁלָחַ֥נִי אֲלֵיכֶֽם׃",
+     "tahot_glosse": "and he said God to Moses I am [that] which I am and he said thus you will say to [the] people of Israel I am he has sent me to you",
+     "lxx_swete": "καὶ εἶπεν ὁ θεὸς πρὸς Μωυσῆν λέγων Ἐγώ εἰμι ὁ ὤν· καὶ εἶπεν Οὕτως ἐρεῖς τοῖς υἱοῖς Ἰσραήλ Ὁ ὢν ἀπέσταλκέν με πρὸς ὑμᾶς.",
+     "ord": [
+      {
+       "id": "02Baw",
+       "h": "וַ/יֹּ֤אמֶר",
+       "strong": "H559",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H0559",
+       "glosse": "and/ he said"
+      },
+      {
+       "id": "02MZ9",
+       "h": "אֱלֹהִים֙",
+       "strong": "H430",
+       "morf": "HNcmpa",
+       "tahot": "H0430G",
+       "glosse": "God"
+      },
+      {
+       "id": "02Svn",
+       "h": "אֶל",
+       "strong": "H413",
+       "morf": "HR",
+       "tahot": "H0413",
+       "glosse": "to"
+      },
+      {
+       "id": "02x62",
+       "h": "מֹשֶׁ֔ה",
+       "strong": "H4872",
+       "morf": "HNp",
+       "tahot": "H4872",
+       "glosse": "Moses"
+      },
+      {
+       "id": "02dQK",
+       "h": "אֶֽהְיֶ֖ה",
+       "strong": "H1961",
+       "morf": "HVqi1cs",
+       "tahot": "H1961",
+       "glosse": "I am"
+      },
+      {
+       "id": "02dDm",
+       "h": "אֲשֶׁ֣ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "[that] which"
+      },
+      {
+       "id": "02XwG",
+       "h": "אֶֽהְיֶ֑ה",
+       "strong": "H1961",
+       "morf": "HVqi1cs",
+       "tahot": "H1961",
+       "glosse": "I am"
+      },
+      {
+       "id": "02iPC",
+       "h": "וַ/יֹּ֗אמֶר",
+       "strong": "H559",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H0559",
+       "glosse": "and/ he said"
+      },
+      {
+       "id": "028E1",
+       "h": "כֹּ֤ה",
+       "strong": "H3541",
+       "morf": "HD",
+       "tahot": "H3541",
+       "glosse": "thus"
+      },
+      {
+       "id": "024vF",
+       "h": "תֹאמַר֙",
+       "strong": "H559",
+       "morf": "HVqi2ms",
+       "tahot": "H0559",
+       "glosse": "you will say"
+      },
+      {
+       "id": "02y7z",
+       "h": "לִ/בְנֵ֣י",
+       "strong": "H1121a",
+       "morf": "HR/Ncmpc",
+       "tahot": "H1121G",
+       "glosse": "to/ [the] people of"
+      },
+      {
+       "id": "02bvs",
+       "h": "יִשְׂרָאֵ֔ל",
+       "strong": "H3478",
+       "morf": "HNp",
+       "tahot": "H3478",
+       "glosse": "Israel"
+      },
+      {
+       "id": "02Gxe",
+       "h": "אֶֽהְיֶ֖ה",
+       "strong": "H1961",
+       "morf": "HVqi1cs",
+       "tahot": "H1961",
+       "glosse": "I am"
+      },
+      {
+       "id": "02Qjd",
+       "h": "שְׁלָחַ֥/נִי",
+       "strong": "H7971",
+       "morf": "HVqp3ms/Sp1cs",
+       "tahot": "H7971G",
+       "glosse": "he has sent/ me"
+      },
+      {
+       "id": "02t98",
+       "h": "אֲלֵי/כֶֽם",
+       "strong": "H413",
+       "morf": "HR/Sp2mp",
+       "tahot": "H0413",
+       "glosse": "to/ you"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Joh 8:58",
+     "scrivener": "ειπεν αυτοις ο ιησους αμην αμην λεγω υμιν πριν αβρααμ γενεσθαι εγω ειμι",
+     "mantelen_nt": "Jesus sa til dem: «Sannelig, sannelig sier jeg dere: Før Abraham ble til, er jeg.»"
+    },
+    {
+     "ref": "Åp 1:4",
+     "scrivener": "ιωαννης ταις επτα εκκλησιαις ταις εν τη ασια χαρις υμιν και ειρηνη απο του ο ων και ο ην και ο ερχομενος και απο των επτα πνευματων α εστιν ενωπιον του θρονου αυτου",
+     "mantelen_nt": "Johannes til de syv menighetene i Asia: Nåde være med dere og fred fra ham som er og som var og som kommer, og fra de syv åndene som er foran hans trone,"
+    },
+    {
+     "ref": "Åp 1:8",
+     "scrivener": "εγω ειμι το α και το ω αρχη και τελος λεγει ο κυριος ο ων και ο ην και ο ερχομενος ο παντοκρατωρ",
+     "mantelen_nt": "«Jeg er Alfa og Omega, begynnelsen og enden», sier Herren, han som er og som var og som kommer, Den Allmektige."
+    }
+   ]
+  },
+  {
+   "id": "SK-03",
+   "tittel": "Farao reist opp",
+   "wlc": [
+    {
+     "ref": "9:16",
+     "vestlig": null,
+     "hebraisk": "וְאוּלָ֗ם בַּעֲב֥וּר זֹאת֙ הֶעֱמַדְתִּ֔יךָ בַּעֲב֖וּר הַרְאֹתְךָ֣ אֶת־כֹּחִ֑י וּלְמַ֛עַן סַפֵּ֥ר שְׁמִ֖י בְּכָל־הָאָֽרֶץ׃",
+     "tahot_glosse": "and but for sake of this I have caused to stand you in order to see you <obj.> power my and so as to recount name my in all the earth",
+     "lxx_swete": "καὶ ἕνεκεν τούτου διετηρήθης ἵνα ἐνδείξωμαι ἐν σοὶ τὴν ἰσχύν μου, καὶ ὅπως διαγγελῇ τὸ ὄνομά μου ἐν πάσῃ τῇ γῇ.",
+     "ord": [
+      {
+       "id": "02uZX",
+       "h": "וְ/אוּלָ֗ם",
+       "strong": "H199",
+       "morf": "HC/D",
+       "tahot": "H0199",
+       "glosse": "and/ but"
+      },
+      {
+       "id": "02NYw",
+       "h": "בַּ/עֲב֥וּר",
+       "strong": "H5668",
+       "morf": "HR/Ncmsc",
+       "tahot": "H5668",
+       "glosse": "for/sake of"
+      },
+      {
+       "id": "02NKz",
+       "h": "זֹאת֙",
+       "strong": "H2063",
+       "morf": "HPdxfs",
+       "tahot": "H2063",
+       "glosse": "this"
+      },
+      {
+       "id": "02V99",
+       "h": "הֶעֱמַדְתִּ֔י/ךָ",
+       "strong": "H5975",
+       "morf": "HVhp1cs/Sp2ms",
+       "tahot": "H5975H",
+       "glosse": "I have caused to stand/ you"
+      },
+      {
+       "id": "02o3Y",
+       "h": "בַּ/עֲב֖וּר",
+       "strong": "H5668",
+       "morf": "HR/Ncmsc",
+       "tahot": "H5668",
+       "glosse": "in/ order"
+      },
+      {
+       "id": "02n3z",
+       "h": "הַרְאֹתְ/ךָ֣",
+       "strong": "H7200",
+       "morf": "HVhc/Sp2ms",
+       "tahot": "H7200G",
+       "glosse": "to see/ you"
+      },
+      {
+       "id": "02hkq",
+       "h": "אֶת",
+       "strong": "H853",
+       "morf": "HTo",
+       "tahot": "H0853",
+       "glosse": "<obj.>"
+      },
+      {
+       "id": "02vp6",
+       "h": "כֹּחִ֑/י",
+       "strong": "H3581b",
+       "morf": "HNcmsc/Sp1cs",
+       "tahot": "H3581B",
+       "glosse": "power/ my"
+      },
+      {
+       "id": "02NvP",
+       "h": "וּ/לְמַ֛עַן",
+       "strong": "H4616",
+       "morf": "HC/R",
+       "tahot": "H4616",
+       "glosse": "and/ so as"
+      },
+      {
+       "id": "02ciJ",
+       "h": "סַפֵּ֥ר",
+       "strong": "H5608a",
+       "morf": "HVpc",
+       "tahot": "H5608A",
+       "glosse": "to recount"
+      },
+      {
+       "id": "025L4",
+       "h": "שְׁמִ֖/י",
+       "strong": "H8034",
+       "morf": "HNcmsc/Sp1cs",
+       "tahot": "H8034",
+       "glosse": "name/ my"
+      },
+      {
+       "id": "02i2j",
+       "h": "בְּ/כָל",
+       "strong": "H3605",
+       "morf": "HR/Ncmsc",
+       "tahot": "H3605",
+       "glosse": "in/ all"
+      },
+      {
+       "id": "02YPx",
+       "h": "הָ/אָֽרֶץ",
+       "strong": "H776",
+       "morf": "HTd/Ncbsa",
+       "tahot": "H0776G",
+       "glosse": "the/ earth"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Rom 9:17",
+     "scrivener": "λεγει γαρ η γραφη τω φαραω οτι εις αυτο τουτο εξηγειρα σε οπως ενδειξωμαι εν σοι την δυναμιν μου και οπως διαγγελη το ονομα μου εν παση τη γη",
+     "mantelen_nt": "For Skriften sier til farao: «Til nettopp dette reiste jeg deg opp, for at jeg skulle vise min kraft i deg, og for at mitt navn skulle bli forkynt over hele jorden.»"
+    }
+   ]
+  },
+  {
+   "id": "SK-04",
+   "tittel": "Påskelammets bein",
+   "wlc": [
+    {
+     "ref": "12:46",
+     "vestlig": null,
+     "hebraisk": "בְּבַ֤יִת אֶחָד֙ יֵאָכֵ֔ל לֹא־תוֹצִ֧יא מִן־הַבַּ֛יִת מִן־הַבָּשָׂ֖ר ח֑וּצָה וְעֶ֖צֶם לֹ֥א תִשְׁבְּרוּ־בֽוֹ׃",
+     "tahot_glosse": "in a house one it will be eaten not you will bring out from the house any of the meat [the] outside towards and a bone not you will break in <the> it",
+     "lxx_swete": "ἐν οἰκίᾳ μιᾷ βρωθήσεται, καὶ οὐκ ἐξοίσετε ἐκ τῆς οἰκίας τῶν κρεῶν ἵξω, καὶ ὀστοῦν οὐ συντρίψετε ἀπ’ αὐτοῦ.",
+     "ord": [
+      {
+       "id": "02mEa",
+       "h": "בְּ/בַ֤יִת",
+       "strong": "H1004b",
+       "morf": "HR/Ncmsa",
+       "tahot": "H1004B",
+       "glosse": "in/ a house"
+      },
+      {
+       "id": "02ydN",
+       "h": "אֶחָד֙",
+       "strong": "H259",
+       "morf": "HAcmsa",
+       "tahot": "H0259",
+       "glosse": "one"
+      },
+      {
+       "id": "02HVK",
+       "h": "יֵאָכֵ֔ל",
+       "strong": "H398",
+       "morf": "HVNi3ms",
+       "tahot": "H0398",
+       "glosse": "it will be eaten"
+      },
+      {
+       "id": "02jiK",
+       "h": "לֹא",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02Vqg",
+       "h": "תוֹצִ֧יא",
+       "strong": "H3318",
+       "morf": "HVhi2ms",
+       "tahot": "H3318H",
+       "glosse": "you will bring out"
+      },
+      {
+       "id": "02yTL",
+       "h": "מִן",
+       "strong": "H4480a",
+       "morf": "HR",
+       "tahot": "H4480A",
+       "glosse": "from"
+      },
+      {
+       "id": "023Xt",
+       "h": "הַ/בַּ֛יִת",
+       "strong": "H1004b",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H1004B",
+       "glosse": "the/ house"
+      },
+      {
+       "id": "02dTm",
+       "h": "מִן",
+       "strong": "H4480a",
+       "morf": "HR",
+       "tahot": "H4480A",
+       "glosse": "any of"
+      },
+      {
+       "id": "026o3",
+       "h": "הַ/בָּשָׂ֖ר",
+       "strong": "H1320",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H1320",
+       "glosse": "the/ meat"
+      },
+      {
+       "id": "02cZp",
+       "h": "ח֑וּצָ/ה",
+       "strong": "H2351",
+       "morf": "HNcmsa/Sd",
+       "tahot": "H2351",
+       "glosse": "[the] outside/ towards"
+      },
+      {
+       "id": "02diR",
+       "h": "וְ/עֶ֖צֶם",
+       "strong": "H6106",
+       "morf": "HC/Ncfsa",
+       "tahot": "H6106G",
+       "glosse": "and/ a bone"
+      },
+      {
+       "id": "02kEs",
+       "h": "לֹ֥א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02bvu",
+       "h": "תִשְׁבְּרוּ",
+       "strong": "H7665",
+       "morf": "HVqi2mp",
+       "tahot": "H7665",
+       "glosse": "you will break"
+      },
+      {
+       "id": "02a1T",
+       "h": "בֽ/וֹ",
+       "strong": "Hb",
+       "morf": "HR/Sp3ms",
+       "tahot": "H9033",
+       "glosse": "in <the>/ it"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Joh 19:36",
+     "scrivener": "εγενετο γαρ ταυτα ινα η γραφη πληρωθη οστουν ου συντριβησεται αυτου",
+     "mantelen_nt": "For dette skjedde for at Skriften skulle bli oppfylt: «Ikke en knokkel på ham skal bli knust.»"
+    }
+   ]
+  },
+  {
+   "id": "SK-05",
+   "tittel": "Den førstefødte helliges",
+   "wlc": [
+    {
+     "ref": "13:2",
+     "vestlig": null,
+     "hebraisk": "קַדֶּשׁ־לִ֨י כָל־בְּכ֜וֹר פֶּ֤טֶר כָּל־רֶ֨חֶם֙ בִּבְנֵ֣י יִשְׂרָאֵ֔ל בָּאָדָ֖ם וּבַבְּהֵמָ֑ה לִ֖י הֽוּא׃",
+     "tahot_glosse": "consecrate to me every firstborn [the] firstborn of every womb among [the] people of Israel among <the> humankind and among the livestock [belongs] to me it",
+     "lxx_swete": "Ἁγίασόν μοι πᾶν πρωτότοκον πρωτογενὲς διανοῖγον πᾶσαν μήτραν ἐν τοῖς υἱοῖς Ἰσραὴλ ἀπὸ ἀνθρώπου ἕως κτήνους· ἐμοί ἐστιν.",
+     "ord": [
+      {
+       "id": "02U6B",
+       "h": "קַדֶּשׁ",
+       "strong": "H6942",
+       "morf": "HVpv2ms",
+       "tahot": "H6942H",
+       "glosse": "consecrate"
+      },
+      {
+       "id": "026Li",
+       "h": "לִ֨/י",
+       "strong": "Hl",
+       "morf": "HR/Sp1cs",
+       "tahot": "H9030",
+       "glosse": "to/ me"
+      },
+      {
+       "id": "02hin",
+       "h": "כָל",
+       "strong": "H3605",
+       "morf": "HNcmsc",
+       "tahot": "H3605",
+       "glosse": "every"
+      },
+      {
+       "id": "02JVU",
+       "h": "בְּכ֜וֹר",
+       "strong": "H1060",
+       "morf": "HNcmsa",
+       "tahot": "H1060",
+       "glosse": "firstborn"
+      },
+      {
+       "id": "02YsH",
+       "h": "פֶּ֤טֶר",
+       "strong": "H6363a",
+       "morf": "HNcmsc",
+       "tahot": "H6363A",
+       "glosse": "[the] firstborn of"
+      },
+      {
+       "id": "02Y6g",
+       "h": "כָּל",
+       "strong": "H3605",
+       "morf": "HNcmsc",
+       "tahot": "H3605",
+       "glosse": "every"
+      },
+      {
+       "id": "02mjQ",
+       "h": "רֶ֨חֶם֙",
+       "strong": "H7358",
+       "morf": "HNcmsa",
+       "tahot": "H7358",
+       "glosse": "womb"
+      },
+      {
+       "id": "02gFP",
+       "h": "בִּ/בְנֵ֣י",
+       "strong": "H1121a",
+       "morf": "HR/Ncmpc",
+       "tahot": "H1121G",
+       "glosse": "among/ [the] people of"
+      },
+      {
+       "id": "02oHn",
+       "h": "יִשְׂרָאֵ֔ל",
+       "strong": "H3478",
+       "morf": "HNp",
+       "tahot": "H3478",
+       "glosse": "Israel"
+      },
+      {
+       "id": "023wd",
+       "h": "בָּ/אָדָ֖ם",
+       "strong": "H120",
+       "morf": "HRd/Ncmsa",
+       "tahot": "H0120G",
+       "glosse": "among <the>/ humankind"
+      },
+      {
+       "id": "02HXV",
+       "h": "וּ/בַ/בְּהֵמָ֑ה",
+       "strong": "H929",
+       "morf": "HC/Rd/Ncfsa",
+       "tahot": "H0929",
+       "glosse": "and/ among the/ livestock"
+      },
+      {
+       "id": "02fTJ",
+       "h": "לִ֖/י",
+       "strong": "Hl",
+       "morf": "HR/Sp1cs",
+       "tahot": "H9030",
+       "glosse": "[belongs] to/ me"
+      },
+      {
+       "id": "02gq4",
+       "h": "הֽוּא",
+       "strong": "H1931",
+       "morf": "HPp3ms",
+       "tahot": "H1931",
+       "glosse": "it"
+      }
+     ]
+    },
+    {
+     "ref": "13:12",
+     "vestlig": null,
+     "hebraisk": "וְהַעֲבַרְתָּ֥ כָל־פֶּֽטֶר־רֶ֖חֶם לַֽיהֹוָ֑ה וְכָל־פֶּ֣טֶר ׀ שֶׁ֣גֶר בְּהֵמָ֗ה אֲשֶׁ֨ר יִהְיֶ֥ה לְךָ֛ הַזְּכָרִ֖ים לַיהוָֽה׃",
+     "tahot_glosse": "and you will dedicate every firstborn of a womb to Yahweh and every firstborn of [the] offspring of cattle which it will be[long] to you the males [will belong] to Yahweh",
+     "lxx_swete": "καὶ ἀφελεῖς πᾶν διανοῖγον μήτραν, τὰ ἀρσενικά, τῷ κυρίῳ· πᾶν διανοῖγον μήτραν ἐκ τῶν βουκολίων ἢ ἐν τοῖς κτήνεσίν σου ὅσα ἐὰν γένηται σοι, τὰ ἀρσενικὰ ἁγιάσεις τῷ κυρίῳ.",
+     "ord": [
+      {
+       "id": "02nB1",
+       "h": "וְ/הַעֲבַרְתָּ֥",
+       "strong": "H5674a",
+       "morf": "HC/Vhq2ms",
+       "tahot": "H5674C",
+       "glosse": "and/ you will dedicate"
+      },
+      {
+       "id": "02h14",
+       "h": "כָל",
+       "strong": "H3605",
+       "morf": "HNcmsc",
+       "tahot": "H3605",
+       "glosse": "every"
+      },
+      {
+       "id": "02vMU",
+       "h": "פֶּֽטֶר",
+       "strong": "H6363a",
+       "morf": "HNcmsc",
+       "tahot": "H6363A",
+       "glosse": "firstborn of"
+      },
+      {
+       "id": "02112",
+       "h": "רֶ֖חֶם",
+       "strong": "H7358",
+       "morf": "HNcmsa",
+       "tahot": "H7358",
+       "glosse": "a womb"
+      },
+      {
+       "id": "023fE",
+       "h": "לַֽ/יהֹוָ֑ה",
+       "strong": "H3068",
+       "morf": "HR/Np",
+       "tahot": "H3068G",
+       "glosse": "to/ Yahweh"
+      },
+      {
+       "id": "02zMp",
+       "h": "וְ/כָל",
+       "strong": "H3605",
+       "morf": "HC/Ncmsc",
+       "tahot": "H3605",
+       "glosse": "and/ every"
+      },
+      {
+       "id": "02mxd",
+       "h": "פֶּ֣טֶר",
+       "strong": "H6363a",
+       "morf": "HNcmsc",
+       "tahot": "H6363A",
+       "glosse": "firstborn of"
+      },
+      {
+       "id": "024ir",
+       "h": "שֶׁ֣גֶר",
+       "strong": "H7698",
+       "morf": "HNcmsc",
+       "tahot": "H7698",
+       "glosse": "[the] offspring of"
+      },
+      {
+       "id": "026mr",
+       "h": "בְּהֵמָ֗ה",
+       "strong": "H929",
+       "morf": "HNcfsa",
+       "tahot": "H0929",
+       "glosse": "cattle"
+      },
+      {
+       "id": "02bXr",
+       "h": "אֲשֶׁ֨ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "which"
+      },
+      {
+       "id": "02CCa",
+       "h": "יִהְיֶ֥ה",
+       "strong": "H1961",
+       "morf": "HVqi3ms",
+       "tahot": "H1961",
+       "glosse": "it will be[long]"
+      },
+      {
+       "id": "02XzH",
+       "h": "לְ/ךָ֛",
+       "strong": "Hl",
+       "morf": "HR/Sp2ms",
+       "tahot": "H9031",
+       "glosse": "to/ you"
+      },
+      {
+       "id": "02DHa",
+       "h": "הַ/זְּכָרִ֖ים",
+       "strong": "H2145",
+       "morf": "HTd/Ncmpa",
+       "tahot": "H2145",
+       "glosse": "the/ males"
+      },
+      {
+       "id": "02B8t",
+       "h": "לַ/יהוָֽה",
+       "strong": "H3068",
+       "morf": "HR/Np",
+       "tahot": "H3068G",
+       "glosse": "[will belong] to/ Yahweh"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Luk 2:23",
+     "scrivener": "καθως γεγραπται εν νομω κυριου οτι παν αρσεν διανοιγον μητραν αγιον τω κυριω κληθησεται",
+     "mantelen_nt": "slik det er skrevet i Herrens lov: «Alt mannkjønn som åpner morslivet, skal kalles hellig for Herren»,"
+    }
+   ]
+  },
+  {
+   "id": "SK-06",
+   "tittel": "Brød fra himmelen",
+   "wlc": [
+    {
+     "ref": "16:4",
+     "vestlig": null,
+     "hebraisk": "וַיֹּ֤אמֶר יְהוָה֙ אֶל־מֹשֶׁ֔ה הִנְנִ֨י מַמְטִ֥יר לָכֶ֛ם לֶ֖חֶם מִן־הַשָּׁמָ֑יִם וְיָצָ֨א הָעָ֤ם וְלָֽקְטוּ֙ דְּבַר־י֣וֹם בְּיוֹמ֔וֹ לְמַ֧עַן אֲנַסֶּ֛נּוּ הֲיֵלֵ֥ךְ בְּתוֹרָתִ֖י אִם־לֹֽא׃",
+     "tahot_glosse": "and he said Yahweh to Moses here I [am] about to rain down for <the> you bread from the heavens and it will go out the people and they will gather a matter of a day in day its so that I should put to [the] test it ¿ will it walk in law my or? not",
+     "lxx_swete": "εἶπεν δὲ κύριος πρὸς Μωυσῆν ἰδοὺ ἐγὼ ὕω ὑμῖν ἄρτους ἐκ τοῦ οὐρανοῦ, καὶ ἐξελεύσεται ὁ λαὸς καὶ συλλέξουσιν τὸ τῆς ἡμέραν εἰς ἡμέραν, ὅπως πειράσω αὐτοὺς εἰ πορεύσονται τῷ νόμῳ μου ἢ οὔ·",
+     "ord": [
+      {
+       "id": "02vye",
+       "h": "וַ/יֹּ֤אמֶר",
+       "strong": "H559",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H0559",
+       "glosse": "and/ he said"
+      },
+      {
+       "id": "02mzs",
+       "h": "יְהוָה֙",
+       "strong": "H3068",
+       "morf": "HNp",
+       "tahot": "H3068G",
+       "glosse": "Yahweh"
+      },
+      {
+       "id": "02RUB",
+       "h": "אֶל",
+       "strong": "H413",
+       "morf": "HR",
+       "tahot": "H0413",
+       "glosse": "to"
+      },
+      {
+       "id": "02b16",
+       "h": "מֹשֶׁ֔ה",
+       "strong": "H4872",
+       "morf": "HNp",
+       "tahot": "H4872",
+       "glosse": "Moses"
+      },
+      {
+       "id": "021Se",
+       "h": "הִנְ/נִ֨י",
+       "strong": "H2005",
+       "morf": "HTm/Sp1cs",
+       "tahot": "H2005",
+       "glosse": "here/ I"
+      },
+      {
+       "id": "02s9f",
+       "h": "מַמְטִ֥יר",
+       "strong": "H4305",
+       "morf": "HVhrmsa",
+       "tahot": "H4305",
+       "glosse": "[am] about to rain down"
+      },
+      {
+       "id": "021Z5",
+       "h": "לָ/כֶ֛ם",
+       "strong": "Hl",
+       "morf": "HR/Sp2mp",
+       "tahot": "H9036",
+       "glosse": "for <the>/ you"
+      },
+      {
+       "id": "02Wis",
+       "h": "לֶ֖חֶם",
+       "strong": "H3899",
+       "morf": "HNcbsa",
+       "tahot": "H3899H",
+       "glosse": "bread"
+      },
+      {
+       "id": "02yWu",
+       "h": "מִן",
+       "strong": "H4480a",
+       "morf": "HR",
+       "tahot": "H4480A",
+       "glosse": "from"
+      },
+      {
+       "id": "02MU6",
+       "h": "הַ/שָּׁמָ֑יִם",
+       "strong": "H8064",
+       "morf": "HTd/Ncmpa",
+       "tahot": "H8064",
+       "glosse": "the/ heavens"
+      },
+      {
+       "id": "02xmE",
+       "h": "וְ/יָצָ֨א",
+       "strong": "H3318",
+       "morf": "HC/Vqq3ms",
+       "tahot": "H3318G",
+       "glosse": "and/ it will go out"
+      },
+      {
+       "id": "02TLt",
+       "h": "הָ/עָ֤ם",
+       "strong": "H5971a",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H5971A",
+       "glosse": "the/ people"
+      },
+      {
+       "id": "02Gim",
+       "h": "וְ/לָֽקְטוּ֙",
+       "strong": "H3950",
+       "morf": "HC/Vqq3cp",
+       "tahot": "H3950",
+       "glosse": "and/ they will gather"
+      },
+      {
+       "id": "02Jv1",
+       "h": "דְּבַר",
+       "strong": "H1697",
+       "morf": "HNcmsc",
+       "tahot": "H1697N",
+       "glosse": "a matter of"
+      },
+      {
+       "id": "02hKn",
+       "h": "י֣וֹם",
+       "strong": "H3117",
+       "morf": "HNcmsa",
+       "tahot": "H3117G",
+       "glosse": "a day"
+      },
+      {
+       "id": "02poz",
+       "h": "בְּ/יוֹמ֔/וֹ",
+       "strong": "H3117",
+       "morf": "HR/Ncmsc/Sp3ms",
+       "tahot": "H3117G",
+       "glosse": "in/ day/ its"
+      },
+      {
+       "id": "02h7D",
+       "h": "לְמַ֧עַן",
+       "strong": "H4616",
+       "morf": "HR",
+       "tahot": "H4616",
+       "glosse": "so that"
+      },
+      {
+       "id": "02W2Y",
+       "h": "אֲנַסֶּ֛/נּוּ",
+       "strong": "H5254",
+       "morf": "HVpi1cs/Sp3ms",
+       "tahot": "H5254G",
+       "glosse": "I should put to [the] test/ it"
+      },
+      {
+       "id": "02BHc",
+       "h": "הֲ/יֵלֵ֥ךְ",
+       "strong": "H3212",
+       "morf": "HTi/Vqi3ms",
+       "tahot": "H1980I",
+       "glosse": "¿/ will it walk"
+      },
+      {
+       "id": "02zPq",
+       "h": "בְּ/תוֹרָתִ֖/י",
+       "strong": "H8451",
+       "morf": "HR/Ncfsc/Sp1cs",
+       "tahot": "H8451",
+       "glosse": "in/ law/ my"
+      },
+      {
+       "id": "028Mb",
+       "h": "אִם",
+       "strong": "H518a",
+       "morf": "HC",
+       "tahot": "H0518A",
+       "glosse": "or?"
+      },
+      {
+       "id": "02DU5",
+       "h": "לֹֽא",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      }
+     ]
+    },
+    {
+     "ref": "16:15",
+     "vestlig": null,
+     "hebraisk": "וַיִּרְא֣וּ בְנֵֽי־יִשְׂרָאֵ֗ל וַיֹּ֨אמְר֜וּ אִ֤ישׁ אֶל־אָחִיו֙ מָ֣ן ה֔וּא כִּ֛י לֹ֥א יָדְע֖וּ מַה־ה֑וּא וַיֹּ֤אמֶר מֹשֶׁה֙ אֲלֵהֶ֔ם ה֣וּא הַלֶּ֔חֶם אֲשֶׁ֨ר נָתַ֧ן יְהוָ֛ה לָכֶ֖ם לְאָכְלָֽה׃",
+     "tahot_glosse": "and they saw [the] people of Israel and they said each to brother his what? [is] it for not they knew what? [was] it and he said Moses to them it [is] the bread which he has given Yahweh to <the> you to food",
+     "lxx_swete": "ἰδόντες δὲ αὐτὸ οἱ υἱοὶ Ἰσραὴλ εἶπαν ἕτερος τῷ ἑτέρῳ Τί ἐστιν τοῦτο; οὐ γὰρ ᾔδε’ ἴσαν τί ἦν. εἶπεν δὲ Μωυσῆς αὐτοῖς οὗτος ὁ ἄρτος ὃν ἕδωκεν κύριος ὑμῖν Φαγεῖν.",
+     "ord": [
+      {
+       "id": "02Leq",
+       "h": "וַ/יִּרְא֣וּ",
+       "strong": "H7200",
+       "morf": "HC/Vqw3mp",
+       "tahot": "H7200G",
+       "glosse": "and/ they saw"
+      },
+      {
+       "id": "02RrD",
+       "h": "בְנֵֽי",
+       "strong": "H1121a",
+       "morf": "HNcmpc",
+       "tahot": "H1121G",
+       "glosse": "[the] people of"
+      },
+      {
+       "id": "02Kv1",
+       "h": "יִשְׂרָאֵ֗ל",
+       "strong": "H3478",
+       "morf": "HNp",
+       "tahot": "H3478",
+       "glosse": "Israel"
+      },
+      {
+       "id": "02S8w",
+       "h": "וַ/יֹּ֨אמְר֜וּ",
+       "strong": "H559",
+       "morf": "HC/Vqw3mp",
+       "tahot": "H0559",
+       "glosse": "and/ they said"
+      },
+      {
+       "id": "02hEe",
+       "h": "אִ֤ישׁ",
+       "strong": "H376",
+       "morf": "HNcmsa",
+       "tahot": "H0376I",
+       "glosse": "each"
+      },
+      {
+       "id": "02PTn",
+       "h": "אֶל",
+       "strong": "H413",
+       "morf": "HR",
+       "tahot": "H0413",
+       "glosse": "to"
+      },
+      {
+       "id": "02T7k",
+       "h": "אָחִי/ו֙",
+       "strong": "H251",
+       "morf": "HNcmsc/Sp3ms",
+       "tahot": "H0251I",
+       "glosse": "brother/ his"
+      },
+      {
+       "id": "02vKW",
+       "h": "מָ֣ן",
+       "strong": "H4478b",
+       "morf": "HTi",
+       "tahot": "H4478B",
+       "glosse": "what?"
+      },
+      {
+       "id": "02quk",
+       "h": "ה֔וּא",
+       "strong": "H1931",
+       "morf": "HPp3ms",
+       "tahot": "H1931",
+       "glosse": "[is] it"
+      },
+      {
+       "id": "02Qsp",
+       "h": "כִּ֛י",
+       "strong": "H3588a",
+       "morf": "HC",
+       "tahot": "H3588A",
+       "glosse": "for"
+      },
+      {
+       "id": "02q5z",
+       "h": "לֹ֥א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02rTe",
+       "h": "יָדְע֖וּ",
+       "strong": "H3045",
+       "morf": "HVqp3cp",
+       "tahot": "H3045",
+       "glosse": "they knew"
+      },
+      {
+       "id": "02CMT",
+       "h": "מַה",
+       "strong": "H4100",
+       "morf": "HTi",
+       "tahot": "H4100",
+       "glosse": "what?"
+      },
+      {
+       "id": "02npi",
+       "h": "ה֑וּא",
+       "strong": "H1931",
+       "morf": "HPp3ms",
+       "tahot": "H1931",
+       "glosse": "[was] it"
+      },
+      {
+       "id": "02f16",
+       "h": "וַ/יֹּ֤אמֶר",
+       "strong": "H559",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H0559",
+       "glosse": "and/ he said"
+      },
+      {
+       "id": "027Yx",
+       "h": "מֹשֶׁה֙",
+       "strong": "H4872",
+       "morf": "HNp",
+       "tahot": "H4872",
+       "glosse": "Moses"
+      },
+      {
+       "id": "024CA",
+       "h": "אֲלֵ/הֶ֔ם",
+       "strong": "H413",
+       "morf": "HR/Sp3mp",
+       "tahot": "H0413",
+       "glosse": "to/ them"
+      },
+      {
+       "id": "02bwy",
+       "h": "ה֣וּא",
+       "strong": "H1931",
+       "morf": "HPp3ms",
+       "tahot": "H1931",
+       "glosse": "it"
+      },
+      {
+       "id": "02gtP",
+       "h": "הַ/לֶּ֔חֶם",
+       "strong": "H3899",
+       "morf": "HTd/Ncbsa",
+       "tahot": "H3899H",
+       "glosse": "[is] the/ bread"
+      },
+      {
+       "id": "02QYM",
+       "h": "אֲשֶׁ֨ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "which"
+      },
+      {
+       "id": "02NXX",
+       "h": "נָתַ֧ן",
+       "strong": "H5414",
+       "morf": "HVqp3ms",
+       "tahot": "H5414G",
+       "glosse": "he has given"
+      },
+      {
+       "id": "02JFS",
+       "h": "יְהוָ֛ה",
+       "strong": "H3068",
+       "morf": "HNp",
+       "tahot": "H3068G",
+       "glosse": "Yahweh"
+      },
+      {
+       "id": "02vz1",
+       "h": "לָ/כֶ֖ם",
+       "strong": "Hl",
+       "morf": "HR/Sp2mp",
+       "tahot": "H9036",
+       "glosse": "to <the>/ you"
+      },
+      {
+       "id": "023P6",
+       "h": "לְ/אָכְלָֽה",
+       "strong": "H402",
+       "morf": "HR/Ncfsa",
+       "tahot": "H0402",
+       "glosse": "to/ food"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Joh 6:31",
+     "scrivener": "οι πατερες ημων το μαννα εφαγον εν τη ερημω καθως εστιν γεγραμμενον αρτον εκ του ουρανου εδωκεν αυτοις φαγειν",
+     "mantelen_nt": "Fedrene våre spiste manna i ørkenen, slik det står skrevet: 'Brød fra himmelen ga han dem å spise.'»"
+    }
+   ]
+  },
+  {
+   "id": "SK-07",
+   "tittel": "Manna: ikke for mye, ikke for lite",
+   "wlc": [
+    {
+     "ref": "16:18",
+     "vestlig": null,
+     "hebraisk": "וַיָּמֹ֣דּוּ בָעֹ֔מֶר וְלֹ֤א הֶעְדִּיף֙ הַמַּרְבֶּ֔ה וְהַמַּמְעִ֖יט לֹ֣א הֶחְסִ֑יר אִ֥ישׁ לְפִֽי־אָכְל֖וֹ לָקָֽטוּ׃",
+     "tahot_glosse": "and they measured [it] by the omer and not he had a surplus the [one who] made much and the [one who] made little not he had a lack everyone to [the] mouth of food his they had gathered",
+     "lxx_swete": "καὶ μετρήσαντες τῷ γόμορ, οὐκ ἐπλεόνασεν ὁ τὸ πολύ, καὶ ὁ τὸ ἔλαττον οὐκ ἠλαττόνησεν· ἕκαστος εἰς τοὺς καθήκοντας παρ’ ἑαυτῷ συνέλεξαν.",
+     "ord": [
+      {
+       "id": "02vNk",
+       "h": "וַ/יָּמֹ֣דּוּ",
+       "strong": "H4058",
+       "morf": "HC/Vqw3mp",
+       "tahot": "H4058",
+       "glosse": "and/ they measured [it]"
+      },
+      {
+       "id": "02Rs6",
+       "h": "בָ/עֹ֔מֶר",
+       "strong": "H6016b",
+       "morf": "HRd/Ncmsa",
+       "tahot": "H6016B",
+       "glosse": "by the/ omer"
+      },
+      {
+       "id": "02aq4",
+       "h": "וְ/לֹ֤א",
+       "strong": "H3808",
+       "morf": "HC/Tn",
+       "tahot": "H3808",
+       "glosse": "and/ not"
+      },
+      {
+       "id": "02yyt",
+       "h": "הֶעְדִּיף֙",
+       "strong": "H5736",
+       "morf": "HVhp3ms",
+       "tahot": "H5736",
+       "glosse": "he had a surplus"
+      },
+      {
+       "id": "02J2d",
+       "h": "הַ/מַּרְבֶּ֔ה",
+       "strong": "H7235a",
+       "morf": "HTd/Vhrmsa",
+       "tahot": "H7235A",
+       "glosse": "the/ [one who] made much"
+      },
+      {
+       "id": "02CqT",
+       "h": "וְ/הַ/מַּמְעִ֖יט",
+       "strong": "H4591",
+       "morf": "HC/Td/Vhrmsa",
+       "tahot": "H4591",
+       "glosse": "and/ the/ [one who] made little"
+      },
+      {
+       "id": "02MTY",
+       "h": "לֹ֣א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02VoC",
+       "h": "הֶחְסִ֑יר",
+       "strong": "H2637",
+       "morf": "HVhp3ms",
+       "tahot": "H2637",
+       "glosse": "he had a lack"
+      },
+      {
+       "id": "02Vpi",
+       "h": "אִ֥ישׁ",
+       "strong": "H376",
+       "morf": "HNcmsa",
+       "tahot": "H0376I",
+       "glosse": "everyone"
+      },
+      {
+       "id": "02PBT",
+       "h": "לְ/פִֽי",
+       "strong": "H6310",
+       "morf": "HR/Ncmsc",
+       "tahot": "H6310K",
+       "glosse": "to/ [the] mouth of"
+      },
+      {
+       "id": "02HGR",
+       "h": "אָכְל֖/וֹ",
+       "strong": "H400",
+       "morf": "HNcmsc/Sp3ms",
+       "tahot": "H0400",
+       "glosse": "food/ his"
+      },
+      {
+       "id": "026sk",
+       "h": "לָקָֽטוּ",
+       "strong": "H3950",
+       "morf": "HVqp3cp",
+       "tahot": "H3950",
+       "glosse": "they had gathered"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "2 Kor 8:15",
+     "scrivener": "καθως γεγραπται ο το πολυ ουκ επλεονασεν και ο το ολιγον ουκ ηλαττονησεν",
+     "mantelen_nt": "som det står skrevet: «Den som samlet mye, fikk ikke for mye, og den som samlet lite, fikk ikke for lite.»"
+    }
+   ]
+  },
+  {
+   "id": "SK-08",
+   "tittel": "Kongerike av prester",
+   "wlc": [
+    {
+     "ref": "19:5",
+     "vestlig": null,
+     "hebraisk": "וְעַתָּ֗ה אִם־שָׁמ֤וֹעַ תִּשְׁמְעוּ֙ בְּקֹלִ֔י וּשְׁמַרְתֶּ֖ם אֶת־בְּרִיתִ֑י וִהְיִ֨יתֶם לִ֤י סְגֻלָּה֙ מִכָּל־הָ֣עַמִּ֔ים כִּי־לִ֖י כָּל־הָאָֽרֶץ׃",
+     "tahot_glosse": "and therefore <if> certainly [if] <to listen> you will listen to voice my and you will keep <obj.> covenant my and you will be of me a possession from all the peoples for [belongs] to <the> me all the earth",
+     "lxx_swete": "καὶ νῦν ἐὰν ἀκοῇ ἀκούσητε τῆς ἐμῆς φωνῆς καὶ φυλάξητε τὴν διαθήκην μου, ἔσεσθέ μοι λαὸς περιούσιος ἀπὸ πάντων τῶν ἐθνῶν· ἐμὴ γάρ ἐστιν πᾶσα ἡ γῆ,",
+     "ord": [
+      {
+       "id": "02sbY",
+       "h": "וְ/עַתָּ֗ה",
+       "strong": "H6258",
+       "morf": "HC/D",
+       "tahot": "H6258",
+       "glosse": "and/ therefore"
+      },
+      {
+       "id": "02oxz",
+       "h": "אִם",
+       "strong": "H518a",
+       "morf": "HC",
+       "tahot": "H0518A",
+       "glosse": "<if>"
+      },
+      {
+       "id": "02ZpB",
+       "h": "שָׁמ֤וֹעַ",
+       "strong": "H8085",
+       "morf": "HVqa",
+       "tahot": "H8085H",
+       "glosse": "certainly [if] <to listen>"
+      },
+      {
+       "id": "021bx",
+       "h": "תִּשְׁמְעוּ֙",
+       "strong": "H8085",
+       "morf": "HVqi2mp",
+       "tahot": "H8085H",
+       "glosse": "you will listen"
+      },
+      {
+       "id": "02xRA",
+       "h": "בְּ/קֹלִ֔/י",
+       "strong": "H6963a",
+       "morf": "HR/Ncmsc/Sp1cs",
+       "tahot": "H6963A",
+       "glosse": "to/ voice/ my"
+      },
+      {
+       "id": "02CvE",
+       "h": "וּ/שְׁמַרְתֶּ֖ם",
+       "strong": "H8104",
+       "morf": "HC/Vqq2mp",
+       "tahot": "H8104G",
+       "glosse": "and/ you will keep"
+      },
+      {
+       "id": "02Naj",
+       "h": "אֶת",
+       "strong": "H853",
+       "morf": "HTo",
+       "tahot": "H0853",
+       "glosse": "<obj.>"
+      },
+      {
+       "id": "02mc7",
+       "h": "בְּרִיתִ֑/י",
+       "strong": "H1285",
+       "morf": "HNcfsc/Sp1cs",
+       "tahot": "H1285",
+       "glosse": "covenant/ my"
+      },
+      {
+       "id": "02HDd",
+       "h": "וִ/הְיִ֨יתֶם",
+       "strong": "H1961",
+       "morf": "HC/Vqq2mp",
+       "tahot": "H1961",
+       "glosse": "and/ you will be"
+      },
+      {
+       "id": "026Lu",
+       "h": "לִ֤/י",
+       "strong": "Hl",
+       "morf": "HR/Sp1cs",
+       "tahot": "H9030",
+       "glosse": "of/ me"
+      },
+      {
+       "id": "02Bre",
+       "h": "סְגֻלָּה֙",
+       "strong": "H5459",
+       "morf": "HNcfsa",
+       "tahot": "H5459",
+       "glosse": "a possession"
+      },
+      {
+       "id": "02wyD",
+       "h": "מִ/כָּל",
+       "strong": "H3605",
+       "morf": "HR/Ncmsc",
+       "tahot": "H3605",
+       "glosse": "from/ all"
+      },
+      {
+       "id": "029v5",
+       "h": "הָ֣/עַמִּ֔ים",
+       "strong": "H5971a",
+       "morf": "HTd/Ncmpa",
+       "tahot": "H5971A",
+       "glosse": "the/ peoples"
+      },
+      {
+       "id": "02uBa",
+       "h": "כִּי",
+       "strong": "H3588a",
+       "morf": "HC",
+       "tahot": "H3588A",
+       "glosse": "for"
+      },
+      {
+       "id": "026e3",
+       "h": "לִ֖/י",
+       "strong": "Hl",
+       "morf": "HR/Sp1cs",
+       "tahot": "H9030",
+       "glosse": "[belongs] to <the>/ me"
+      },
+      {
+       "id": "02Gmz",
+       "h": "כָּל",
+       "strong": "H3605",
+       "morf": "HNcmsc",
+       "tahot": "H3605",
+       "glosse": "all"
+      },
+      {
+       "id": "024Zj",
+       "h": "הָ/אָֽרֶץ",
+       "strong": "H776",
+       "morf": "HTd/Ncbsa",
+       "tahot": "H0776G",
+       "glosse": "the/ earth"
+      }
+     ]
+    },
+    {
+     "ref": "19:6",
+     "vestlig": null,
+     "hebraisk": "וְאַתֶּ֧ם תִּהְיוּ־לִ֛י מַמְלֶ֥כֶת כֹּהֲנִ֖ים וְג֣וֹי קָד֑וֹשׁ אֵ֚לֶּה הַדְּבָרִ֔ים אֲשֶׁ֥ר תְּדַבֵּ֖ר אֶל־בְּנֵ֥י יִשְׂרָאֵֽל׃",
+     "tahot_glosse": "and you you will be for <the> me a kingdom of priests and a nation holy these [are] the words which you will speak to [the] people of Israel",
+     "lxx_swete": "ὑμεῖς δὲ ἔσεσθέ μοι βασίλειον ἱεράτευμα καὶ ἔθνος ἅγιον. ταῦτα τὰ ῥήματα ἐρεῖς τοῖς υἱοῖς Ἰσραήλ.",
+     "ord": [
+      {
+       "id": "025jS",
+       "h": "וְ/אַתֶּ֧ם",
+       "strong": "H859d",
+       "morf": "HC/Pp2mp",
+       "tahot": "H0859D",
+       "glosse": "and/ you"
+      },
+      {
+       "id": "022oN",
+       "h": "תִּהְיוּ",
+       "strong": "H1961",
+       "morf": "HVqi2mp",
+       "tahot": "H1961",
+       "glosse": "you will be"
+      },
+      {
+       "id": "02xTt",
+       "h": "לִ֛/י",
+       "strong": "Hl",
+       "morf": "HR/Sp1cs",
+       "tahot": "H9030",
+       "glosse": "for <the>/ me"
+      },
+      {
+       "id": "029sn",
+       "h": "מַמְלֶ֥כֶת",
+       "strong": "H4467",
+       "morf": "HNcfsc",
+       "tahot": "H4467",
+       "glosse": "a kingdom of"
+      },
+      {
+       "id": "02Hwe",
+       "h": "כֹּהֲנִ֖ים",
+       "strong": "H3548",
+       "morf": "HNcmpa",
+       "tahot": "H3548",
+       "glosse": "priests"
+      },
+      {
+       "id": "02pQs",
+       "h": "וְ/ג֣וֹי",
+       "strong": "H1471a",
+       "morf": "HC/Ncmsa",
+       "tahot": "H1471A",
+       "glosse": "and/ a nation"
+      },
+      {
+       "id": "026DP",
+       "h": "קָד֑וֹשׁ",
+       "strong": "H6918",
+       "morf": "HAamsa",
+       "tahot": "H6918G",
+       "glosse": "holy"
+      },
+      {
+       "id": "02t2h",
+       "h": "אֵ֚לֶּה",
+       "strong": "H428",
+       "morf": "HPdxcp",
+       "tahot": "H0428",
+       "glosse": "these"
+      },
+      {
+       "id": "022HK",
+       "h": "הַ/דְּבָרִ֔ים",
+       "strong": "H1697",
+       "morf": "HTd/Ncmpa",
+       "tahot": "H1697G",
+       "glosse": "[are] the/ words"
+      },
+      {
+       "id": "02Ews",
+       "h": "אֲשֶׁ֥ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "which"
+      },
+      {
+       "id": "02PUW",
+       "h": "תְּדַבֵּ֖ר",
+       "strong": "H1696",
+       "morf": "HVpi2ms",
+       "tahot": "H1696G",
+       "glosse": "you will speak"
+      },
+      {
+       "id": "02zuK",
+       "h": "אֶל",
+       "strong": "H413",
+       "morf": "HR",
+       "tahot": "H0413",
+       "glosse": "to"
+      },
+      {
+       "id": "02JQu",
+       "h": "בְּנֵ֥י",
+       "strong": "H1121a",
+       "morf": "HNcmpc",
+       "tahot": "H1121G",
+       "glosse": "[the] people of"
+      },
+      {
+       "id": "02ErE",
+       "h": "יִשְׂרָאֵֽל",
+       "strong": "H3478",
+       "morf": "HNp",
+       "tahot": "H3478",
+       "glosse": "Israel"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "1 Pet 2:9",
+     "scrivener": "υμεις δε γενος εκλεκτον βασιλειον ιερατευμα εθνος αγιον λαος εις περιποιησιν οπως τας αρετας εξαγγειλητε του εκ σκοτους υμας καλεσαντος εις το θαυμαστον αυτου φως",
+     "mantelen_nt": "Men dere er en utvalgt slekt, et kongelig presteskap, et hellig folkeslag, et folk til Guds eiendom, for at dere skal forkynne hans storverk, han som kalte dere ut av mørket til sitt underfulle lys;"
+    },
+    {
+     "ref": "Åp 1:6",
+     "scrivener": "και εποιησεν ημας βασιλεις και ιερεις τω θεω και πατρι αυτου αυτω η δοξα και το κρατος εις τους αιωνας των αιωνων αμην",
+     "mantelen_nt": "og gjorde oss til konger og prester for sin Gud og Far, ham tilhører herligheten og veldet i evighetenes evigheter. Amen."
+    },
+    {
+     "ref": "Åp 5:10",
+     "scrivener": "και εποιησας ημας τω θεω ημων βασιλεις και ιερεις και βασιλευσομεν επι της γης",
+     "mantelen_nt": "og gjorde oss til konger og prester for vår Gud; og vi skal regjere på jorden.»"
+    }
+   ]
+  },
+  {
+   "id": "SK-09",
+   "tittel": "Fjellet som ikke må røres",
+   "wlc": [
+    {
+     "ref": "19:12",
+     "vestlig": null,
+     "hebraisk": "וְהִגְבַּלְתָּ֤ אֶת־הָעָם֙ סָבִ֣יב לֵאמֹ֔ר הִשָּׁמְר֥וּ לָכֶ֛ם עֲל֥וֹת בָּהָ֖ר וּנְגֹ֣עַ בְּקָצֵ֑הוּ כָּל־הַנֹּגֵ֥עַ בָּהָ֖ר מ֥וֹת יוּמָֽת׃",
+     "tahot_glosse": "and you will set a boundary for <obj.> the people all around <to> saying take heed to <the> yourselves to go up on the mountain and to touch <in> edge its every <the> [one who] touches <in> the mountain certainly <to die> he will be put to death",
+     "lxx_swete": "καὶ ἀφοριεῖς τὸν λαὸν κύκλῳ λέγων Προσέχετε ἑαυτοῖς τοῦ ἀναβῆναι εἰς τὸ ὄρος καὶ θιγεῖν τι αὐτοῦ· πᾶς ὁ ἁψάμενος τοῦ ὄρους θανάτῳ τελευτήσει.",
+     "ord": [
+      {
+       "id": "02AVx",
+       "h": "וְ/הִגְבַּלְתָּ֤",
+       "strong": "H1379",
+       "morf": "HC/Vhq2ms",
+       "tahot": "H1379",
+       "glosse": "and/ you will set a boundary for"
+      },
+      {
+       "id": "02cVH",
+       "h": "אֶת",
+       "strong": "H853",
+       "morf": "HTo",
+       "tahot": "H0853",
+       "glosse": "<obj.>"
+      },
+      {
+       "id": "02xda",
+       "h": "הָ/עָם֙",
+       "strong": "H5971a",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H5971A",
+       "glosse": "the/ people"
+      },
+      {
+       "id": "02bZh",
+       "h": "סָבִ֣יב",
+       "strong": "H5439",
+       "morf": "HNcbsa",
+       "tahot": "H5439G",
+       "glosse": "all around"
+      },
+      {
+       "id": "02j6W",
+       "h": "לֵ/אמֹ֔ר",
+       "strong": "H559",
+       "morf": "HR/Vqc",
+       "tahot": "H0559",
+       "glosse": "<to>/ saying"
+      },
+      {
+       "id": "02wgp",
+       "h": "הִשָּׁמְר֥וּ",
+       "strong": "H8104",
+       "morf": "HVNv2mp",
+       "tahot": "H8104J",
+       "glosse": "take heed"
+      },
+      {
+       "id": "02cfF",
+       "h": "לָ/כֶ֛ם",
+       "strong": "Hl",
+       "morf": "HR/Sp2mp",
+       "tahot": "H9036",
+       "glosse": "to <the>/ yourselves"
+      },
+      {
+       "id": "02UXY",
+       "h": "עֲל֥וֹת",
+       "strong": "H5927",
+       "morf": "HVqc",
+       "tahot": "H5927G",
+       "glosse": "to go up"
+      },
+      {
+       "id": "02iwQ",
+       "h": "בָּ/הָ֖ר",
+       "strong": "H2022",
+       "morf": "HRd/Ncmsa",
+       "tahot": "H2022G",
+       "glosse": "on the/ mountain"
+      },
+      {
+       "id": "02A33",
+       "h": "וּ/נְגֹ֣עַ",
+       "strong": "H5060",
+       "morf": "HC/Vqc",
+       "tahot": "H5060",
+       "glosse": "and/ to touch"
+      },
+      {
+       "id": "02BF1",
+       "h": "בְּ/קָצֵ֑/הוּ",
+       "strong": "H7097a",
+       "morf": "HR/Ncbsc/Sp3ms",
+       "tahot": "H7097A",
+       "glosse": "<in>/ edge/ its"
+      },
+      {
+       "id": "02xsk",
+       "h": "כָּל",
+       "strong": "H3605",
+       "morf": "HNcmsc",
+       "tahot": "H3605",
+       "glosse": "every"
+      },
+      {
+       "id": "02CmJ",
+       "h": "הַ/נֹּגֵ֥עַ",
+       "strong": "H5060",
+       "morf": "HTd/Vqrmsa",
+       "tahot": "H5060",
+       "glosse": "<the>/ [one who] touches"
+      },
+      {
+       "id": "02Q6h",
+       "h": "בָּ/הָ֖ר",
+       "strong": "H2022",
+       "morf": "HRd/Ncmsa",
+       "tahot": "H2022G",
+       "glosse": "<in> the/ mountain"
+      },
+      {
+       "id": "02RXX",
+       "h": "מ֥וֹת",
+       "strong": "H4191",
+       "morf": "HVqa",
+       "tahot": "H4191",
+       "glosse": "certainly <to die>"
+      },
+      {
+       "id": "023ku",
+       "h": "יוּמָֽת",
+       "strong": "H4191",
+       "morf": "HVHi3ms",
+       "tahot": "H4191",
+       "glosse": "he will be put to death"
+      }
+     ]
+    },
+    {
+     "ref": "19:13",
+     "vestlig": null,
+     "hebraisk": "לֹא־תִגַּ֨ע בּ֜וֹ יָ֗ד כִּֽי־סָק֤וֹל יִסָּקֵל֙ אוֹ־יָרֹ֣ה יִיָּרֶ֔ה אִם־בְּהֵמָ֥ה אִם־אִ֖ישׁ לֹ֣א יִחְיֶ֑ה בִּמְשֹׁךְ֙ הַיֹּבֵ֔ל הֵ֖מָּה יַעֲל֥וּ בָהָֽר׃",
+     "tahot_glosse": "not it will touch <in> <the> him a hand for certainly <to stone> he will be stoned to death or certainly <to shot> he will be shot whether an animal or a human not it will live when sounds the ram's horn they they will go up on the mountain",
+     "lxx_swete": "οὐχ ἅψεται αὐτοῦ χείρ· ἐν γὰρ λίθοις λιθοβοληθήσεται ἢ βολίδι κατατοξευθήσεται· ἐάν τε κτῆνος ἐάν τε ἄνθρωπος, οὐ ζήσεται ὅταν αἱ φωναὶ καὶ αἱ σάλπιγγες καὶ ἡ νεφέλη ἀπέλθῃ ἀπὸ τοῦ ὄρους, ἐκεῖνοι ἀναβήσονται ἐπὶ τὸ ὄρος.",
+     "ord": [
+      {
+       "id": "02VvV",
+       "h": "לֹא",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "0252W",
+       "h": "תִגַּ֨ע",
+       "strong": "H5060",
+       "morf": "HVqi3fs",
+       "tahot": "H5060",
+       "glosse": "it will touch"
+      },
+      {
+       "id": "02FHV",
+       "h": "בּ֜/וֹ",
+       "strong": "Hb",
+       "morf": "HR/Sp3ms",
+       "tahot": "H9033",
+       "glosse": "<in> <the>/ him"
+      },
+      {
+       "id": "02vLx",
+       "h": "יָ֗ד",
+       "strong": "H3027",
+       "morf": "HNcbsa",
+       "tahot": "H3027G",
+       "glosse": "a hand"
+      },
+      {
+       "id": "02E9J",
+       "h": "כִּֽי",
+       "strong": "H3588a",
+       "morf": "HC",
+       "tahot": "H3588A",
+       "glosse": "for"
+      },
+      {
+       "id": "02Ywv",
+       "h": "סָק֤וֹל",
+       "strong": "H5619",
+       "morf": "HVqa",
+       "tahot": "H5619",
+       "glosse": "certainly <to stone>"
+      },
+      {
+       "id": "02XxP",
+       "h": "יִסָּקֵל֙",
+       "strong": "H5619",
+       "morf": "HVNi3ms",
+       "tahot": "H5619",
+       "glosse": "he will be stoned to death"
+      },
+      {
+       "id": "02NpM",
+       "h": "אוֹ",
+       "strong": "H176a",
+       "morf": "HC",
+       "tahot": "H0176A",
+       "glosse": "or"
+      },
+      {
+       "id": "026bK",
+       "h": "יָרֹ֣ה",
+       "strong": "H3384b",
+       "morf": "HVqa",
+       "tahot": "H3384A",
+       "glosse": "certainly <to shot>"
+      },
+      {
+       "id": "02Xp8",
+       "h": "יִיָּרֶ֔ה",
+       "strong": "H3384b",
+       "morf": "HVNi3ms",
+       "tahot": "H3384A",
+       "glosse": "he will be shot"
+      },
+      {
+       "id": "02Ec1",
+       "h": "אִם",
+       "strong": "H518a",
+       "morf": "HC",
+       "tahot": "H0518A",
+       "glosse": "whether"
+      },
+      {
+       "id": "02WDd",
+       "h": "בְּהֵמָ֥ה",
+       "strong": "H929",
+       "morf": "HNcfsa",
+       "tahot": "H0929",
+       "glosse": "an animal"
+      },
+      {
+       "id": "02H54",
+       "h": "אִם",
+       "strong": "H518a",
+       "morf": "HC",
+       "tahot": "H0518A",
+       "glosse": "or"
+      },
+      {
+       "id": "02UQb",
+       "h": "אִ֖ישׁ",
+       "strong": "H376",
+       "morf": "HNcmsa",
+       "tahot": "H0376G",
+       "glosse": "a human"
+      },
+      {
+       "id": "021hg",
+       "h": "לֹ֣א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02Fdw",
+       "h": "יִחְיֶ֑ה",
+       "strong": "H2421",
+       "morf": "HVqi3ms",
+       "tahot": "H2421",
+       "glosse": "it will live"
+      },
+      {
+       "id": "022kE",
+       "h": "בִּ/מְשֹׁךְ֙",
+       "strong": "H4900",
+       "morf": "HR/Vqc",
+       "tahot": "H4900",
+       "glosse": "when/ sounds"
+      },
+      {
+       "id": "02Spd",
+       "h": "הַ/יֹּבֵ֔ל",
+       "strong": "H3104",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H3104",
+       "glosse": "the/ ram's horn"
+      },
+      {
+       "id": "02dd7",
+       "h": "הֵ֖מָּה",
+       "strong": "H1992",
+       "morf": "HPp3mp",
+       "tahot": "H1992",
+       "glosse": "they"
+      },
+      {
+       "id": "02153",
+       "h": "יַעֲל֥וּ",
+       "strong": "H5927",
+       "morf": "HVqi3mp",
+       "tahot": "H5927G",
+       "glosse": "they will go up"
+      },
+      {
+       "id": "02hYW",
+       "h": "בָ/הָֽר",
+       "strong": "H2022",
+       "morf": "HRd/Ncmsa",
+       "tahot": "H2022G",
+       "glosse": "on the/ mountain"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Heb 12:20",
+     "scrivener": "ουκ εφερον γαρ το διαστελλομενον καν θηριον θιγη του ορους λιθοβοληθησεται η βολιδι κατατοξευθησεται",
+     "mantelen_nt": "for de kunne ikke bære det som ble befalt: «Om selv et dyr berører fjellet, skal det steines eller skytes gjennom med pil.»"
+    }
+   ]
+  },
+  {
+   "id": "SK-10",
+   "tittel": "Dekalogen, annen tavle",
+   "wlc": [
+    {
+     "ref": "20:12",
+     "vestlig": null,
+     "hebraisk": "כַּבֵּ֥ד אֶת־אָבִ֖יךָ וְאֶת־אִמֶּ֑ךָ לְמַ֨עַן֙ יַאֲרִכ֣וּן יָמֶ֔יךָ עַ֚ל הָאֲדָמָ֔ה אֲשֶׁר־יְהוָ֥ה אֱלֹהֶ֖יךָ נֹתֵ֥ן לָֽךְ׃ ס",
+     "tahot_glosse": "honor <obj.> father your and <obj.> mother your so that they may be long ! days your on the land which Yahweh God your [is] about to give to <the> you",
+     "lxx_swete": "Τίμα τὸν πατέρα σου καὶ τὴν μητέρα, ἴνα εὖ σοι γένηται, καὶ ἵνα μακροχρόνιος γένῃ ἐπὶ τῆς γῆς τῆς ἀγαθῆς ἧς κύριος ὁ θεός σου δίδωσίν σοι.",
+     "ord": [
+      {
+       "id": "02Zaf",
+       "h": "כַּבֵּ֥ד",
+       "strong": "H3513",
+       "morf": "HVpa",
+       "tahot": "H3513G",
+       "glosse": "honor"
+      },
+      {
+       "id": "02PSe",
+       "h": "אֶת",
+       "strong": "H853",
+       "morf": "HTo",
+       "tahot": "H0853",
+       "glosse": "<obj.>"
+      },
+      {
+       "id": "02xN1",
+       "h": "אָבִ֖י/ךָ",
+       "strong": "H1",
+       "morf": "HNcmsc/Sp2ms",
+       "tahot": "H0001G",
+       "glosse": "father/ your"
+      },
+      {
+       "id": "02Xkg",
+       "h": "וְ/אֶת",
+       "strong": "H853",
+       "morf": "HC/To",
+       "tahot": "H0853",
+       "glosse": "and/ <obj.>"
+      },
+      {
+       "id": "02vQX",
+       "h": "אִמֶּ֑/ךָ",
+       "strong": "H517",
+       "morf": "HNcfsc/Sp2ms",
+       "tahot": "H0517",
+       "glosse": "mother/ your"
+      },
+      {
+       "id": "02Vn9",
+       "h": "לְמַ֨עַן֙",
+       "strong": "H4616",
+       "morf": "HR",
+       "tahot": "H4616",
+       "glosse": "so that"
+      },
+      {
+       "id": "02GiN",
+       "h": "יַאֲרִכ֣וּ/ן",
+       "strong": "H748",
+       "morf": "HVhi3mp/Sn",
+       "tahot": "H0748",
+       "glosse": "they may be long/ !"
+      },
+      {
+       "id": "02c4u",
+       "h": "יָמֶ֔י/ךָ",
+       "strong": "H3117",
+       "morf": "HNcmpc/Sp2ms",
+       "tahot": "H3117G",
+       "glosse": "days/ your"
+      },
+      {
+       "id": "02ukD",
+       "h": "עַ֚ל",
+       "strong": "H5921a",
+       "morf": "HR",
+       "tahot": "H5921A",
+       "glosse": "on"
+      },
+      {
+       "id": "02Cqq",
+       "h": "הָ/אֲדָמָ֔ה",
+       "strong": "H127",
+       "morf": "HTd/Ncfsa",
+       "tahot": "H0127G",
+       "glosse": "the/ land"
+      },
+      {
+       "id": "02GM2",
+       "h": "אֲשֶׁר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "which"
+      },
+      {
+       "id": "02Nac",
+       "h": "יְהוָ֥ה",
+       "strong": "H3068",
+       "morf": "HNp",
+       "tahot": "H3068G",
+       "glosse": "Yahweh"
+      },
+      {
+       "id": "027qo",
+       "h": "אֱלֹהֶ֖י/ךָ",
+       "strong": "H430",
+       "morf": "HNcmpc/Sp2ms",
+       "tahot": "H0430G",
+       "glosse": "God/ your"
+      },
+      {
+       "id": "02htN",
+       "h": "נֹתֵ֥ן",
+       "strong": "H5414",
+       "morf": "HVqrmsa",
+       "tahot": "H5414G",
+       "glosse": "[is] about to give"
+      },
+      {
+       "id": "029N7",
+       "h": "לָֽ/ךְ",
+       "strong": "Hl",
+       "morf": "HR/Sp2fs",
+       "tahot": "H9031",
+       "glosse": "to <the>/ you"
+      }
+     ]
+    },
+    {
+     "ref": "20:13",
+     "vestlig": null,
+     "hebraisk": "לֹ֖א תִּרְצָֽח׃ ס",
+     "tahot_glosse": "not you must murder",
+     "lxx_swete": "Οὐ σεῖς.",
+     "ord": [
+      {
+       "id": "02vNp",
+       "h": "לֹ֖א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02vJK",
+       "h": "תִּרְצָֽח",
+       "strong": "H7523",
+       "morf": "HVqi2ms",
+       "tahot": "H7523",
+       "glosse": "you must murder"
+      }
+     ]
+    },
+    {
+     "ref": "20:14",
+     "vestlig": null,
+     "hebraisk": "לֹ֖א תִּנְאָֽף׃ ס",
+     "tahot_glosse": "not you must commit adultery",
+     "lxx_swete": "Οὐ κλέψεις. (13)",
+     "ord": [
+      {
+       "id": "02ZQ4",
+       "h": "לֹ֖א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02Aoa",
+       "h": "תִּנְאָֽף",
+       "strong": "H5003",
+       "morf": "HVqi2ms",
+       "tahot": "H5003",
+       "glosse": "you must commit adultery"
+      }
+     ]
+    },
+    {
+     "ref": "20:15",
+     "vestlig": null,
+     "hebraisk": "לֹ֖א תִּגְנֹֽב׃ ס",
+     "tahot_glosse": "not you must steal",
+     "lxx_swete": "Οὐ φονεύσεις.",
+     "ord": [
+      {
+       "id": "02g1p",
+       "h": "לֹ֖א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02xBa",
+       "h": "תִּגְנֹֽב",
+       "strong": "H1589",
+       "morf": "HVqi2ms",
+       "tahot": "H1589",
+       "glosse": "you must steal"
+      }
+     ]
+    },
+    {
+     "ref": "20:16",
+     "vestlig": null,
+     "hebraisk": "לֹֽא־תַעֲנֶ֥ה בְרֵעֲךָ֖ עֵ֥ד שָֽׁקֶר׃ ס",
+     "tahot_glosse": "not you must testify against neighbor your testimony of falsehood",
+     "lxx_swete": "Οὐ ψευδομαρτυρήσεις κατὰ τοῦ πλησίον σου μαρτυρίαν ψευδῆ.",
+     "ord": [
+      {
+       "id": "02av2",
+       "h": "לֹֽא",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02cwV",
+       "h": "תַעֲנֶ֥ה",
+       "strong": "H6030b",
+       "morf": "HVqi2ms",
+       "tahot": "H6030B",
+       "glosse": "you must testify"
+      },
+      {
+       "id": "02TAc",
+       "h": "בְ/רֵעֲ/ךָ֖",
+       "strong": "H7453",
+       "morf": "HR/Ncmsc/Sp2ms",
+       "tahot": "H7453",
+       "glosse": "against/ neighbor/ your"
+      },
+      {
+       "id": "02WW6",
+       "h": "עֵ֥ד",
+       "strong": "H5707",
+       "morf": "HNcmsc",
+       "tahot": "H5707",
+       "glosse": "testimony of"
+      },
+      {
+       "id": "02hnS",
+       "h": "שָֽׁקֶר",
+       "strong": "H8267",
+       "morf": "HNcmsa",
+       "tahot": "H8267",
+       "glosse": "falsehood"
+      }
+     ]
+    },
+    {
+     "ref": "20:17",
+     "vestlig": null,
+     "hebraisk": "לֹ֥א תַחְמֹ֖ד בֵּ֣ית רֵעֶ֑ךָ לֹֽא־תַחְמֹ֞ד אֵ֣שֶׁת רֵעֶ֗ךָ וְעַבְדּ֤וֹ וַאֲמָתוֹ֙ וְשׁוֹר֣וֹ וַחֲמֹר֔וֹ וְכֹ֖ל אֲשֶׁ֥ר לְרֵעֶֽךָ׃ פ",
+     "tahot_glosse": "not you must covet [the] house of neighbor your not you must covet [the] wife of neighbor your and [male] servant his and female servant his and ox his and donkey his and all that [belongs] to neighbor your",
+     "lxx_swete": "Oὐκ ἔπι· θυμήσεις τὴν γυναῖκα τοῦ πλησίον σου· οὐκ ἐπιθυμήσεις τὴν οἰκίαν τοῦ πλησίον σου οὔτε τὸν ἀγρὸν αὐτοῦ, οὔτε τὸν παῖδα αὐτοῦ ούτε τὴν παιδίσκην αὐτοῦ, οὔτε τοῦ βοὸς αὐτοῦ οὔτε τοῦ ὑποζυγίου αὐτοῦ οὔτε παντὸς κτήνους αὐτοῦ, οὔτε ὅσα τῷ πλησίον σού ἐστιν.",
+     "ord": [
+      {
+       "id": "02w1B",
+       "h": "לֹ֥א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02gSp",
+       "h": "תַחְמֹ֖ד",
+       "strong": "H2530a",
+       "morf": "HVqi2ms",
+       "tahot": "H2530A",
+       "glosse": "you must covet"
+      },
+      {
+       "id": "02HpS",
+       "h": "בֵּ֣ית",
+       "strong": "H1004b",
+       "morf": "HNcmsc",
+       "tahot": "H1004B",
+       "glosse": "[the] house of"
+      },
+      {
+       "id": "021h7",
+       "h": "רֵעֶ֑/ךָ",
+       "strong": "H7453",
+       "morf": "HNcmsc/Sp2ms",
+       "tahot": "H7453",
+       "glosse": "neighbor/ your"
+      },
+      {
+       "id": "02yT7",
+       "h": "לֹֽא",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02YRx",
+       "h": "תַחְמֹ֞ד",
+       "strong": "H2530a",
+       "morf": "HVqi2ms",
+       "tahot": "H2530A",
+       "glosse": "you must covet"
+      },
+      {
+       "id": "02FHT",
+       "h": "אֵ֣שֶׁת",
+       "strong": "H802",
+       "morf": "HNcfsc",
+       "tahot": "H0802H",
+       "glosse": "[the] wife of"
+      },
+      {
+       "id": "02dPE",
+       "h": "רֵעֶ֗/ךָ",
+       "strong": "H7453",
+       "morf": "HNcmsc/Sp2ms",
+       "tahot": "H7453",
+       "glosse": "neighbor/ your"
+      },
+      {
+       "id": "02XrC",
+       "h": "וְ/עַבְדּ֤/וֹ",
+       "strong": "H5650",
+       "morf": "HC/Ncmsc/Sp3ms",
+       "tahot": "H5650",
+       "glosse": "and/ [male] servant/ his"
+      },
+      {
+       "id": "02uiX",
+       "h": "וַ/אֲמָת/וֹ֙",
+       "strong": "H519",
+       "morf": "HC/Ncfsc/Sp3ms",
+       "tahot": "H0519",
+       "glosse": "and/ female servant/ his"
+      },
+      {
+       "id": "0225p",
+       "h": "וְ/שׁוֹר֣/וֹ",
+       "strong": "H7794",
+       "morf": "HC/Ncmsc/Sp3ms",
+       "tahot": "H7794",
+       "glosse": "and/ ox/ his"
+      },
+      {
+       "id": "02HVF",
+       "h": "וַ/חֲמֹר֔/וֹ",
+       "strong": "H2543",
+       "morf": "HC/Ncbsc/Sp3ms",
+       "tahot": "H2543",
+       "glosse": "and/ donkey/ his"
+      },
+      {
+       "id": "02m2K",
+       "h": "וְ/כֹ֖ל",
+       "strong": "H3605",
+       "morf": "HC/Ncmsa",
+       "tahot": "H3605",
+       "glosse": "and/ all"
+      },
+      {
+       "id": "0267o",
+       "h": "אֲשֶׁ֥ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "that"
+      },
+      {
+       "id": "02njm",
+       "h": "לְ/רֵעֶֽ/ךָ",
+       "strong": "H7453",
+       "morf": "HR/Ncmsc/Sp2ms",
+       "tahot": "H7453",
+       "glosse": "[belongs] to/ neighbor/ your"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Matt 5:21",
+     "scrivener": "ηκουσατε οτι ερρεθη τοις αρχαιοις ου φονευσεις ος δ αν φονευση ενοχος εσται τη κρισει",
+     "mantelen_nt": "«Dere har hørt at det ble sagt til forfedrene: ‘Du skal ikke myrde’, og: ‘Den som myrder, skal stå til ansvar for domstolen.’"
+    },
+    {
+     "ref": "Matt 5:27",
+     "scrivener": "ηκουσατε οτι ερρεθη τοις αρχαιοις ου μοιχευσεις",
+     "mantelen_nt": "«Dere har hørt at det ble sagt til forfedrene: ‘Du skal ikke begå ekteskapsbrudd.’"
+    },
+    {
+     "ref": "Matt 15:4",
+     "scrivener": "ο γαρ θεος ενετειλατο λεγων τιμα τον πατερα σου και την μητερα και ο κακολογων πατερα η μητερα θανατω τελευτατω",
+     "mantelen_nt": "For Gud befalte og sa: ‘Hedre din far og din mor’, og: ‘Den som forbanner far eller mor, skal straffes med døden.’"
+    },
+    {
+     "ref": "Matt 19:18",
+     "scrivener": "λεγει αυτω ποιας ο δε ιησους ειπεν το ου φονευσεις ου μοιχευσεις ου κλεψεις ου ψευδομαρτυρησεις",
+     "mantelen_nt": "Mannen sier til ham: «Hvilke?» Men Jesus sa: «‘Du skal ikke drepe.’ ‘Du skal ikke begå ekteskapsbrudd.’ ‘Du skal ikke stjele.’ ‘Du skal ikke vitne falskt.’"
+    },
+    {
+     "ref": "Matt 19:19",
+     "scrivener": "τιμα τον πατερα σου και την μητερα και αγαπησεις τον πλησιον σου ως σεαυτον",
+     "mantelen_nt": "‘Hedre din far og mor.’ Og: ‘Du skal elske din neste som deg selv.’»"
+    },
+    {
+     "ref": "Mark 10:19",
+     "scrivener": "τας εντολας οιδας μη μοιχευσης μη φονευσης μη κλεψης μη ψευδομαρτυρησης μη αποστερησης τιμα τον πατερα σου και την μητερα",
+     "mantelen_nt": "Du kjenner budene: Du skal ikke begå ekteskapsbrudd. Du skal ikke drepe. Du skal ikke stjele. Du skal ikke vitne falskt. Du skal ikke snyte noen. Hedre din far og mor.»"
+    },
+    {
+     "ref": "Luk 18:20",
+     "scrivener": "τας εντολας οιδας μη μοιχευσης μη φονευσης μη κλεψης μη ψευδομαρτυρησης τιμα τον πατερα σου και την μητερα σου",
+     "mantelen_nt": "Du kjenner budene: Du skal ikke begå ekteskapsbrudd. Du skal ikke drepe. Du skal ikke stjele. Du skal ikke vitne falskt. Hedre faren din og moren din.»"
+    },
+    {
+     "ref": "Rom 7:7",
+     "scrivener": "τι ουν ερουμεν ο νομος αμαρτια μη γενοιτο αλλα την αμαρτιαν ουκ εγνων ει μη δια νομου την τε γαρ επιθυμιαν ουκ ηδειν ει μη ο νομος ελεγεν ουκ επιθυμησεις",
+     "mantelen_nt": "Hva skal vi da si? Er loven synd? Må det aldri skje! Men det var bare gjennom loven jeg lærte synden å kjenne. For jeg ville heller ikke ha kjent begjæret dersom loven ikke hadde sagt: «Du skal ikke begjære.»"
+    },
+    {
+     "ref": "Rom 13:9",
+     "scrivener": "το γαρ ου μοιχευσεις ου φονευσεις ου κλεψεις ου ψευδομαρτυρησεις ουκ επιθυμησεις και ει τις ετερα εντολη εν τουτω τω λογω ανακεφαλαιουται εν τω αγαπησεις τον πλησιον σου ως εαυτον",
+     "mantelen_nt": "For dette: «Du skal ikke begå ekteskapsbrudd, du skal ikke drepe, du skal ikke stjele, du skal ikke vitne falskt, du skal ikke begjære», og om det finnes noe annet bud, sammenfattes det i dette ordet: «Du skal elske din neste som deg selv.»"
+    },
+    {
+     "ref": "Ef 6:2",
+     "scrivener": "τιμα τον πατερα σου και την μητερα ητις εστιν εντολη πρωτη εν επαγγελια",
+     "mantelen_nt": "«Ær din far og mor» (det er det første budet med løfte)"
+    },
+    {
+     "ref": "Ef 6:3",
+     "scrivener": "ινα ευ σοι γενηται και εση μακροχρονιος επι της γης",
+     "mantelen_nt": "«for at det skal gå deg godt, og du skal leve lenge på jorden.»"
+    },
+    {
+     "ref": "Jak 2:11",
+     "scrivener": "ο γαρ ειπων μη μοιχευσης ειπεν και μη φονευσης ει δε ου μοιχευσεις φονευσεις δε γεγονας παραβατης νομου",
+     "mantelen_nt": "For han som sa: «Du skal ikke begå ekteskapsbrudd», sa også: «Du skal ikke drepe.» Men hvis du ikke begår ekteskapsbrudd, men dreper, er du blitt en lovbryter."
+    }
+   ]
+  },
+  {
+   "id": "SK-11",
+   "tittel": "Den som forbanner far eller mor",
+   "wlc": [
+    {
+     "ref": "21:17",
+     "vestlig": null,
+     "hebraisk": "וּמְקַלֵּ֥ל אָבִ֛יו וְאִמּ֖וֹ מ֥וֹת יוּמָֽת׃ ס",
+     "tahot_glosse": "and [one who] will curse father his and mother his certainly <to die> he will be put to death",
+     "lxx_swete": "Ὁ κακολογῶν πατέρα αὐτοῦ ἢ μητέρα αὐτοῦ τελευτήσει θανάτῳ.",
+     "ord": [
+      {
+       "id": "02o84",
+       "h": "וּ/מְקַלֵּ֥ל",
+       "strong": "H7043",
+       "morf": "HC/Vprmsa",
+       "tahot": "H7043",
+       "glosse": "and/ [one who] will curse"
+      },
+      {
+       "id": "02f8Y",
+       "h": "אָבִ֛י/ו",
+       "strong": "H1",
+       "morf": "HNcmsc/Sp3ms",
+       "tahot": "H0001G",
+       "glosse": "father/ his"
+      },
+      {
+       "id": "02Nun",
+       "h": "וְ/אִמּ֖/וֹ",
+       "strong": "H517",
+       "morf": "HC/Ncfsc/Sp3ms",
+       "tahot": "H0517",
+       "glosse": "and/ mother/ his"
+      },
+      {
+       "id": "029u1",
+       "h": "מ֥וֹת",
+       "strong": "H4191",
+       "morf": "HVqa",
+       "tahot": "H4191",
+       "glosse": "certainly <to die>"
+      },
+      {
+       "id": "02xHm",
+       "h": "יוּמָֽת",
+       "strong": "H4191",
+       "morf": "HVHi3ms",
+       "tahot": "H4191",
+       "glosse": "he will be put to death"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Matt 15:4",
+     "scrivener": "ο γαρ θεος ενετειλατο λεγων τιμα τον πατερα σου και την μητερα και ο κακολογων πατερα η μητερα θανατω τελευτατω",
+     "mantelen_nt": "For Gud befalte og sa: ‘Hedre din far og din mor’, og: ‘Den som forbanner far eller mor, skal straffes med døden.’"
+    },
+    {
+     "ref": "Mark 7:10",
+     "scrivener": "μωσης γαρ ειπεν τιμα τον πατερα σου και την μητερα σου και ο κακολογων πατερα η μητερα θανατω τελευτατω",
+     "mantelen_nt": "For Moses sa: 'Hedre din far og din mor', og: 'Den som forbanner far eller mor, skal straffes med døden.'"
+    }
+   ]
+  },
+  {
+   "id": "SK-12",
+   "tittel": "Høvdingen i folket",
+   "wlc": [
+    {
+     "ref": "22:27",
+     "vestlig": "22:28",
+     "hebraisk": "אֱלֹהִ֖ים לֹ֣א תְקַלֵּ֑ל וְנָשִׂ֥יא בְעַמְּךָ֖ לֹ֥א תָאֹֽר׃",
+     "tahot_glosse": "God not you must curse and a leader among people your not you must curse",
+     "lxx_swete": "Θεοὺς οὐ κακολογήσεις, καὶ ἄρχοντας τοῦ λαοῦ σου οὐ κακῶς ἐρεῖς.",
+     "ord": [
+      {
+       "id": "02Lk1",
+       "h": "אֱלֹהִ֖ים",
+       "strong": "H430",
+       "morf": "HNcmpa",
+       "tahot": "H0430G",
+       "glosse": "God"
+      },
+      {
+       "id": "02Uwg",
+       "h": "לֹ֣א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "025dD",
+       "h": "תְקַלֵּ֑ל",
+       "strong": "H7043",
+       "morf": "HVpi2ms",
+       "tahot": "H7043",
+       "glosse": "you must curse"
+      },
+      {
+       "id": "02eHM",
+       "h": "וְ/נָשִׂ֥יא",
+       "strong": "H5387a",
+       "morf": "HC/Ncmsa",
+       "tahot": "H5387A",
+       "glosse": "and/ a leader"
+      },
+      {
+       "id": "02w49",
+       "h": "בְ/עַמְּ/ךָ֖",
+       "strong": "H5971a",
+       "morf": "HR/Ncmsc/Sp2ms",
+       "tahot": "H5971A",
+       "glosse": "among/ people/ your"
+      },
+      {
+       "id": "02acX",
+       "h": "לֹ֥א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02Xwc",
+       "h": "תָאֹֽר",
+       "strong": "H779",
+       "morf": "HVqi2ms",
+       "tahot": "H0779",
+       "glosse": "you must curse"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Apg 23:5",
+     "scrivener": "εφη τε ο παυλος ουκ ηδειν αδελφοι οτι εστιν αρχιερευς γεγραπται γαρ αρχοντα του λαου σου ουκ ερεις κακως",
+     "mantelen_nt": "Og Paulus sa: «Jeg visste ikke, brødre, at han er yppersteprest; for det står skrevet: ‘En hersker over ditt folk skal du ikke tale ondt om.’»"
+    }
+   ]
+  },
+  {
+   "id": "SK-13",
+   "tittel": "Paktens blod",
+   "wlc": [
+    {
+     "ref": "24:8",
+     "vestlig": null,
+     "hebraisk": "וַיִּקַּ֤ח מֹשֶׁה֙ אֶת־הַדָּ֔ם וַיִּזְרֹ֖ק עַל־הָעָ֑ם וַיֹּ֗אמֶר הִנֵּ֤ה דַֽם־הַבְּרִית֙ אֲשֶׁ֨ר כָּרַ֤ת יְהוָה֙ עִמָּכֶ֔ם עַ֥ל כָּל־הַדְּבָרִ֖ים הָאֵֽלֶּה׃",
+     "tahot_glosse": "and he took Moses <obj.> the blood and he sprinkled [it] on the people and he said here! [the] blood of the covenant which he has made Yahweh with you on all the words <the> these",
+     "lxx_swete": "λαβὼν δὲ Μωυσῆς τὸ αἷμα κατεσκέδασεν τοῦ λαοῦ καὶ εἶπεν Ἴδου τὸ αἷμα τῆς διαθήκης ἧς διέθετο κύριος πρὸς ὑμᾶς περὶ πάντων τῶν λόγων τούτων.",
+     "ord": [
+      {
+       "id": "02tB6",
+       "h": "וַ/יִּקַּ֤ח",
+       "strong": "H3947",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H3947G",
+       "glosse": "and/ he took"
+      },
+      {
+       "id": "02oC1",
+       "h": "מֹשֶׁה֙",
+       "strong": "H4872",
+       "morf": "HNp",
+       "tahot": "H4872",
+       "glosse": "Moses"
+      },
+      {
+       "id": "02bst",
+       "h": "אֶת",
+       "strong": "H853",
+       "morf": "HTo",
+       "tahot": "H0853",
+       "glosse": "<obj.>"
+      },
+      {
+       "id": "025iT",
+       "h": "הַ/דָּ֔ם",
+       "strong": "H1818",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H1818",
+       "glosse": "the/ blood"
+      },
+      {
+       "id": "02Jmq",
+       "h": "וַ/יִּזְרֹ֖ק",
+       "strong": "H2236",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H2236",
+       "glosse": "and/ he sprinkled [it]"
+      },
+      {
+       "id": "02z9m",
+       "h": "עַל",
+       "strong": "H5921a",
+       "morf": "HR",
+       "tahot": "H5921A",
+       "glosse": "on"
+      },
+      {
+       "id": "02XNh",
+       "h": "הָ/עָ֑ם",
+       "strong": "H5971a",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H5971A",
+       "glosse": "the/ people"
+      },
+      {
+       "id": "02Xxb",
+       "h": "וַ/יֹּ֗אמֶר",
+       "strong": "H559",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H0559",
+       "glosse": "and/ he said"
+      },
+      {
+       "id": "02j3N",
+       "h": "הִנֵּ֤ה",
+       "strong": "H2009",
+       "morf": "HTm",
+       "tahot": "H2009",
+       "glosse": "here!"
+      },
+      {
+       "id": "02KhX",
+       "h": "דַֽם",
+       "strong": "H1818",
+       "morf": "HNcmsc",
+       "tahot": "H1818",
+       "glosse": "[the] blood of"
+      },
+      {
+       "id": "02WPh",
+       "h": "הַ/בְּרִית֙",
+       "strong": "H1285",
+       "morf": "HTd/Ncfsa",
+       "tahot": "H1285",
+       "glosse": "the/ covenant"
+      },
+      {
+       "id": "02K6n",
+       "h": "אֲשֶׁ֨ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "which"
+      },
+      {
+       "id": "0278e",
+       "h": "כָּרַ֤ת",
+       "strong": "H3772",
+       "morf": "HVqp3ms",
+       "tahot": "H3772H",
+       "glosse": "he has made"
+      },
+      {
+       "id": "02Xdw",
+       "h": "יְהוָה֙",
+       "strong": "H3068",
+       "morf": "HNp",
+       "tahot": "H3068G",
+       "glosse": "Yahweh"
+      },
+      {
+       "id": "02EPY",
+       "h": "עִמָּ/כֶ֔ם",
+       "strong": "H5973a",
+       "morf": "HR/Sp2mp",
+       "tahot": "H5973A",
+       "glosse": "with/ you"
+      },
+      {
+       "id": "02FRd",
+       "h": "עַ֥ל",
+       "strong": "H5921a",
+       "morf": "HR",
+       "tahot": "H5921A",
+       "glosse": "on"
+      },
+      {
+       "id": "02k4p",
+       "h": "כָּל",
+       "strong": "H3605",
+       "morf": "HNcmsc",
+       "tahot": "H3605",
+       "glosse": "all"
+      },
+      {
+       "id": "02ZJp",
+       "h": "הַ/דְּבָרִ֖ים",
+       "strong": "H1697",
+       "morf": "HTd/Ncmpa",
+       "tahot": "H1697G",
+       "glosse": "the/ words"
+      },
+      {
+       "id": "02TTa",
+       "h": "הָ/אֵֽלֶּה",
+       "strong": "H428",
+       "morf": "HTd/Pdxcp",
+       "tahot": "H0428",
+       "glosse": "<the>/ these"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Heb 9:20",
+     "scrivener": "λεγων τουτο το αιμα της διαθηκης ης ενετειλατο προς υμας ο θεος",
+     "mantelen_nt": "og sa: «Dette er paktens blod, den pakten Gud påla dere.»"
+    },
+    {
+     "ref": "Matt 26:28",
+     "scrivener": "τουτο γαρ εστιν το αιμα μου το της καινης διαθηκης το περι πολλων εκχυνομενον εις αφεσιν αμαρτιων",
+     "mantelen_nt": "For dette er blodet mitt, den nye pakts blod, som blir utøst for mange til tilgivelse for syndene."
+    },
+    {
+     "ref": "Mark 14:24",
+     "scrivener": "και ειπεν αυτοις τουτο εστιν το αιμα μου το της καινης διαθηκης το περι πολλων εκχυνομενον",
+     "mantelen_nt": "Og han sa til dem: «Dette er blodet mitt, den nye pakts blod, som blir utøst for mange."
+    },
+    {
+     "ref": "Luk 22:20",
+     "scrivener": "ωσαυτως και το ποτηριον μετα το δειπνησαι λεγων τουτο το ποτηριον η καινη διαθηκη εν τω αιματι μου το υπερ υμων εκχυνομενον",
+     "mantelen_nt": "Likeså tok han også begeret etter måltidet og sa: «Dette begeret er den nye pakten i mitt blod, som blir utøst for dere."
+    },
+    {
+     "ref": "1 Kor 11:25",
+     "scrivener": "ωσαυτως και το ποτηριον μετα το δειπνησαι λεγων τουτο το ποτηριον η καινη διαθηκη εστιν εν τω εμω αιματι τουτο ποιειτε οσακις αν πινητε εις την εμην αναμνησιν",
+     "mantelen_nt": "Likeså tok han også begeret etter måltidet og sa: «Dette begeret er den nye pakten i mitt blod. Gjør dette, så ofte som dere drikker det, til minne om meg.»"
+    }
+   ]
+  },
+  {
+   "id": "SK-14",
+   "tittel": "Mønsteret på fjellet",
+   "wlc": [
+    {
+     "ref": "25:40",
+     "vestlig": null,
+     "hebraisk": "וּרְאֵ֖ה וַעֲשֵׂ֑ה בְּתַ֨בְנִיתָ֔ם אֲשֶׁר־אַתָּ֥ה מָרְאֶ֖ה בָּהָֽר׃ ס",
+     "tahot_glosse": "and see and make [them] in pattern their which you [are] being shown on the mountain",
+     "lxx_swete": "πάντα τὰ σκεύη ταῦτα τάλαντον χρυσίου καθαροῦ. φόρα κατὰ τὸν τύπον τὸν δεδειγμένον σοι ἐν τῷ ὄρει.",
+     "ord": [
+      {
+       "id": "02G7D",
+       "h": "וּ/רְאֵ֖ה",
+       "strong": "H7200",
+       "morf": "HC/Vqv2ms",
+       "tahot": "H7200G",
+       "glosse": "and/ see"
+      },
+      {
+       "id": "02wAJ",
+       "h": "וַ/עֲשֵׂ֑ה",
+       "strong": "H6213a",
+       "morf": "HC/Vqv2ms",
+       "tahot": "H6213H",
+       "glosse": "and/ make [them]"
+      },
+      {
+       "id": "02oje",
+       "h": "בְּ/תַ֨בְנִיתָ֔/ם",
+       "strong": "H8403",
+       "morf": "HR/Ncfsc/Sp3mp",
+       "tahot": "H8403",
+       "glosse": "in/ pattern/ their"
+      },
+      {
+       "id": "02fWJ",
+       "h": "אֲשֶׁר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "which"
+      },
+      {
+       "id": "02fpQ",
+       "h": "אַתָּ֥ה",
+       "strong": "H859a",
+       "morf": "HPp2ms",
+       "tahot": "H0859A",
+       "glosse": "you"
+      },
+      {
+       "id": "02Ygv",
+       "h": "מָרְאֶ֖ה",
+       "strong": "H7200",
+       "morf": "HVHsmsa",
+       "tahot": "H7200G",
+       "glosse": "[are] being shown"
+      },
+      {
+       "id": "02Nge",
+       "h": "בָּ/הָֽר",
+       "strong": "H2022",
+       "morf": "HRd/Ncmsa",
+       "tahot": "H2022G",
+       "glosse": "on the/ mountain"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Apg 7:44",
+     "scrivener": "η σκηνη του μαρτυριου ην τοις πατρασιν ημων εν τη ερημω καθως διεταξατο ο λαλων τω μωση ποιησαι αυτην κατα τον τυπον ον εωρακει",
+     "mantelen_nt": "Vitnesbyrdets telt var hos våre fedre i ødemarken, slik han som talte til Moses, befalte ham å lage det etter mønsteret han hadde sett."
+    },
+    {
+     "ref": "Heb 8:5",
+     "scrivener": "οιτινες υποδειγματι και σκια λατρευουσιν των επουρανιων καθως κεχρηματισται μωσης μελλων επιτελειν την σκηνην ορα γαρ φησιν ποιησης παντα κατα τον τυπον τον δειχθεντα σοι εν τω ορει",
+     "mantelen_nt": "De gjør tjeneste ved et avbilde og en skygge av de himmelske tingene, slik Moses fikk guddommelig pålegg da han skulle fullføre teltet. For han sier: «Se til at du gjør alt etter det forbildet som ble vist deg på fjellet.»"
+    }
+   ]
+  },
+  {
+   "id": "SK-15",
+   "tittel": "Gullkalven",
+   "wlc": [
+    {
+     "ref": "32:1",
+     "vestlig": null,
+     "hebraisk": "וַיַּ֣רְא הָעָ֔ם כִּֽי־בֹשֵׁ֥שׁ מֹשֶׁ֖ה לָרֶ֣דֶת מִן־הָהָ֑ר וַיִּקָּהֵ֨ל הָעָ֜ם עַֽל־אַהֲרֹ֗ן וַיֹּאמְר֤וּ אֵלָיו֙ ק֣וּם ׀ עֲשֵׂה־לָ֣נוּ אֱלֹהִ֗ים אֲשֶׁ֤ר יֵֽלְכוּ֙ לְפָנֵ֔ינוּ כִּי־זֶ֣ה ׀ מֹשֶׁ֣ה הָאִ֗ישׁ אֲשֶׁ֤ר הֶֽעֱלָ֨נוּ֙ מֵאֶ֣רֶץ מִצְרַ֔יִם לֹ֥א יָדַ֖עְנוּ מֶה־הָ֥יָה לֽוֹ׃",
+     "tahot_glosse": "and it saw the people that he delayed Moses to come down from the mountain and it assembled the people to Aaron and they said to him arise make for <the> us gods which they will go <to> before us for this Moses the man who he brought up us from [the] land of Egypt not we know what? has it happened to <the> him",
+     "lxx_swete": "Καὶ ἰδὼν ὁ λαὸς ὅτι κεχρόνικεν Μωυσῆς καταβῆναι ἐκ τοῦ ὄρους, συνέστη ὁ λαὸς ἐπὶ Ἀαρὼν καὶ λέγουσιν αὐτῷ Ἀνάστηθι καὶ ποίησον ἡμῖν θεοὺς οἳ προπορεύσονται ἡμῶν· ὁ γὰρ Μωσῆς οὗτος ὁ ἄνθρωπος ὅς ἐξήγαγεν ἡμᾶς ἐξ Αἰγύπτου, οὐκ οἴδαμεν τί γέγονεν αὐτῷ.",
+     "ord": [
+      {
+       "id": "02aTU",
+       "h": "וַ/יַּ֣רְא",
+       "strong": "H7200",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H7200G",
+       "glosse": "and/ it saw"
+      },
+      {
+       "id": "02R6q",
+       "h": "הָ/עָ֔ם",
+       "strong": "H5971a",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H5971A",
+       "glosse": "the/ people"
+      },
+      {
+       "id": "02Zwe",
+       "h": "כִּֽי",
+       "strong": "H3588a",
+       "morf": "HC",
+       "tahot": "H3588A",
+       "glosse": "that"
+      },
+      {
+       "id": "02z3S",
+       "h": "בֹשֵׁ֥שׁ",
+       "strong": "H954",
+       "morf": "HVop3ms",
+       "tahot": "H0954",
+       "glosse": "he delayed"
+      },
+      {
+       "id": "02dY7",
+       "h": "מֹשֶׁ֖ה",
+       "strong": "H4872",
+       "morf": "HNp",
+       "tahot": "H4872",
+       "glosse": "Moses"
+      },
+      {
+       "id": "02KzT",
+       "h": "לָ/רֶ֣דֶת",
+       "strong": "H3381",
+       "morf": "HR/Vqc",
+       "tahot": "H3381",
+       "glosse": "to/ come down"
+      },
+      {
+       "id": "02wc7",
+       "h": "מִן",
+       "strong": "H4480a",
+       "morf": "HR",
+       "tahot": "H4480A",
+       "glosse": "from"
+      },
+      {
+       "id": "02NsJ",
+       "h": "הָ/הָ֑ר",
+       "strong": "H2022",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H2022G",
+       "glosse": "the/ mountain"
+      },
+      {
+       "id": "02nob",
+       "h": "וַ/יִּקָּהֵ֨ל",
+       "strong": "H6950",
+       "morf": "HC/VNw3ms",
+       "tahot": "H6950",
+       "glosse": "and/ it assembled"
+      },
+      {
+       "id": "02TUK",
+       "h": "הָ/עָ֜ם",
+       "strong": "H5971a",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H5971A",
+       "glosse": "the/ people"
+      },
+      {
+       "id": "02Xmz",
+       "h": "עַֽל",
+       "strong": "H5921a",
+       "morf": "HR",
+       "tahot": "H5921A",
+       "glosse": "to"
+      },
+      {
+       "id": "02nXY",
+       "h": "אַהֲרֹ֗ן",
+       "strong": "H175",
+       "morf": "HNp",
+       "tahot": "H0175",
+       "glosse": "Aaron"
+      },
+      {
+       "id": "02YTe",
+       "h": "וַ/יֹּאמְר֤וּ",
+       "strong": "H559",
+       "morf": "HC/Vqw3mp",
+       "tahot": "H0559",
+       "glosse": "and/ they said"
+      },
+      {
+       "id": "02Tf1",
+       "h": "אֵלָי/ו֙",
+       "strong": "H413",
+       "morf": "HR/Sp3ms",
+       "tahot": "H0413",
+       "glosse": "to/ him"
+      },
+      {
+       "id": "02a5y",
+       "h": "ק֣וּם",
+       "strong": "H6965b",
+       "morf": "HVqv2ms",
+       "tahot": "H6965B",
+       "glosse": "arise"
+      },
+      {
+       "id": "02yon",
+       "h": "עֲשֵׂה",
+       "strong": "H6213a",
+       "morf": "HVqv2ms",
+       "tahot": "H6213H",
+       "glosse": "make"
+      },
+      {
+       "id": "02DMd",
+       "h": "לָ֣/נוּ",
+       "strong": "Hl",
+       "morf": "HR/Sp1cp",
+       "tahot": "H9035",
+       "glosse": "for <the>/ us"
+      },
+      {
+       "id": "02qbq",
+       "h": "אֱלֹהִ֗ים",
+       "strong": "H430",
+       "morf": "HNcmpa",
+       "tahot": "H0430J",
+       "glosse": "gods"
+      },
+      {
+       "id": "02Vzu",
+       "h": "אֲשֶׁ֤ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "which"
+      },
+      {
+       "id": "02xVc",
+       "h": "יֵֽלְכוּ֙",
+       "strong": "H3212",
+       "morf": "HVqi3mp",
+       "tahot": "H1980G",
+       "glosse": "they will go"
+      },
+      {
+       "id": "02Aiw",
+       "h": "לְ/פָנֵ֔י/נוּ",
+       "strong": "H6440",
+       "morf": "HR/Ncbpc/Sp1cp",
+       "tahot": "H6440G",
+       "glosse": "<to>/ before/ us"
+      },
+      {
+       "id": "02p7J",
+       "h": "כִּי",
+       "strong": "H3588a",
+       "morf": "HC",
+       "tahot": "H3588A",
+       "glosse": "for"
+      },
+      {
+       "id": "024Lf",
+       "h": "זֶ֣ה",
+       "strong": "H2088",
+       "morf": "HPdxms",
+       "tahot": "H2088",
+       "glosse": "this"
+      },
+      {
+       "id": "02HAL",
+       "h": "מֹשֶׁ֣ה",
+       "strong": "H4872",
+       "morf": "HNp",
+       "tahot": "H4872",
+       "glosse": "Moses"
+      },
+      {
+       "id": "02HfQ",
+       "h": "הָ/אִ֗ישׁ",
+       "strong": "H376",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H0376G",
+       "glosse": "the/ man"
+      },
+      {
+       "id": "02xzy",
+       "h": "אֲשֶׁ֤ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "who"
+      },
+      {
+       "id": "02LZM",
+       "h": "הֶֽעֱלָ֨/נוּ֙",
+       "strong": "H5927",
+       "morf": "HVhp3ms/Sp1cp",
+       "tahot": "H5927H",
+       "glosse": "he brought up/ us"
+      },
+      {
+       "id": "02ohM",
+       "h": "מֵ/אֶ֣רֶץ",
+       "strong": "H776",
+       "morf": "HR/Ncbsc",
+       "tahot": "H0776G",
+       "glosse": "from/ [the] land of"
+      },
+      {
+       "id": "02P6u",
+       "h": "מִצְרַ֔יִם",
+       "strong": "H4714",
+       "morf": "HNp",
+       "tahot": "H4714G",
+       "glosse": "Egypt"
+      },
+      {
+       "id": "02Rzb",
+       "h": "לֹ֥א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "026WD",
+       "h": "יָדַ֖עְנוּ",
+       "strong": "H3045",
+       "morf": "HVqp1cp",
+       "tahot": "H3045",
+       "glosse": "we know"
+      },
+      {
+       "id": "025XD",
+       "h": "מֶה",
+       "strong": "H4100",
+       "morf": "HTi",
+       "tahot": "H4100",
+       "glosse": "what?"
+      },
+      {
+       "id": "02p35",
+       "h": "הָ֥יָה",
+       "strong": "H1961",
+       "morf": "HVqp3ms",
+       "tahot": "H1961",
+       "glosse": "has it happened"
+      },
+      {
+       "id": "02a2S",
+       "h": "לֽ/וֹ",
+       "strong": "Hl",
+       "morf": "HR/Sp3ms",
+       "tahot": "H9033",
+       "glosse": "to <the>/ him"
+      }
+     ]
+    },
+    {
+     "ref": "32:6",
+     "vestlig": null,
+     "hebraisk": "וַיַּשְׁכִּ֨ימוּ֙ מִֽמָּחֳרָ֔ת וַיַּעֲל֣וּ עֹלֹ֔ת וַיַּגִּ֖שׁוּ שְׁלָמִ֑ים וַיֵּ֤שֶׁב הָעָם֙ לֶֽאֱכֹ֣ל וְשָׁת֔וֹ וַיָּקֻ֖מוּ לְצַחֵֽק׃ פ",
+     "tahot_glosse": "and they rose early from [the] next day and they offered up burnt offerings and they brought near peace offerings and it sat down the people to eat and to drink and they arose to play",
+     "lxx_swete": "καὶ ὀρθρίσας τῇ ἐπαύριον ἀνεβίβασεν ὁλοκαυτώματα, καὶ προσήνεγκεν θυσίαν σωτηρίου· καὶ ἐκάθισεν ὁ λαὸς Φαγεῖν καὶ πιεῖν, καὶ ἀνέστησαν παίζειν.",
+     "ord": [
+      {
+       "id": "02Uj5",
+       "h": "וַ/יַּשְׁכִּ֨ימוּ֙",
+       "strong": "H7925",
+       "morf": "HC/Vhw3mp",
+       "tahot": "H7925",
+       "glosse": "and/ they rose early"
+      },
+      {
+       "id": "02qeu",
+       "h": "מִֽ/מָּחֳרָ֔ת",
+       "strong": "H4283",
+       "morf": "HR/Ncfsa",
+       "tahot": "H4283",
+       "glosse": "from/ [the] next day"
+      },
+      {
+       "id": "02PAM",
+       "h": "וַ/יַּעֲל֣וּ",
+       "strong": "H5927",
+       "morf": "HC/Vhw3mp",
+       "tahot": "H5927I",
+       "glosse": "and/ they offered up"
+      },
+      {
+       "id": "02cvo",
+       "h": "עֹלֹ֔ת",
+       "strong": "H5930a",
+       "morf": "HNcfpa",
+       "tahot": "H5930A",
+       "glosse": "burnt offerings"
+      },
+      {
+       "id": "02BzB",
+       "h": "וַ/יַּגִּ֖שׁוּ",
+       "strong": "H5066",
+       "morf": "HC/Vhw3mp",
+       "tahot": "H5066H",
+       "glosse": "and/ they brought near"
+      },
+      {
+       "id": "02PwH",
+       "h": "שְׁלָמִ֑ים",
+       "strong": "H8002",
+       "morf": "HNcmpa",
+       "tahot": "H8002",
+       "glosse": "peace offerings"
+      },
+      {
+       "id": "023qA",
+       "h": "וַ/יֵּ֤שֶׁב",
+       "strong": "H3427",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H3427",
+       "glosse": "and/ it sat down"
+      },
+      {
+       "id": "02J84",
+       "h": "הָ/עָם֙",
+       "strong": "H5971a",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H5971A",
+       "glosse": "the/ people"
+      },
+      {
+       "id": "02oVs",
+       "h": "לֶֽ/אֱכֹ֣ל",
+       "strong": "H398",
+       "morf": "HR/Vqc",
+       "tahot": "H0398",
+       "glosse": "to/ eat"
+      },
+      {
+       "id": "02ZDj",
+       "h": "וְ/שָׁת֔וֹ",
+       "strong": "H8354",
+       "morf": "HC/Vqa",
+       "tahot": "H8354",
+       "glosse": "and/ to drink"
+      },
+      {
+       "id": "02kEE",
+       "h": "וַ/יָּקֻ֖מוּ",
+       "strong": "H6965b",
+       "morf": "HC/Vqw3mp",
+       "tahot": "H6965B",
+       "glosse": "and/ they arose"
+      },
+      {
+       "id": "02FcP",
+       "h": "לְ/צַחֵֽק",
+       "strong": "H6711",
+       "morf": "HR/Vpc",
+       "tahot": "H6711",
+       "glosse": "to/ play"
+      }
+     ]
+    },
+    {
+     "ref": "32:23",
+     "vestlig": null,
+     "hebraisk": "וַיֹּ֣אמְרוּ לִ֔י עֲשֵׂה־לָ֣נוּ אֱלֹהִ֔ים אֲשֶׁ֥ר יֵלְכ֖וּ לְפָנֵ֑ינוּ כִּי־זֶ֣ה ׀ מֹשֶׁ֣ה הָאִ֗ישׁ אֲשֶׁ֤ר הֶֽעֱלָ֨נוּ֙ מֵאֶ֣רֶץ מִצְרַ֔יִם לֹ֥א יָדַ֖עְנוּ מֶה־הָ֥יָה לֽוֹ׃",
+     "tahot_glosse": "and they said to <the> me make for <the> us gods which they will go <to> before us for this Moses the man who he brought up us from [the] land of Egypt not we know what? has it happened to <the> him",
+     "lxx_swete": "λέγουσιν γάρ γοι Ποίησον ἡμῖν θεοὺς οἵ προπορεύσονται ἡμῶν· ὁ γὰρ Μωυσῆς οὗτος ὁ ἄνθρωπος ὃς ἐξήγαγεν ἡμᾶς ἐξ Αἰγύπτου, οὐκ οἴδαμεν τί γέγονεν αὐτῷ.",
+     "ord": [
+      {
+       "id": "02HHT",
+       "h": "וַ/יֹּ֣אמְרוּ",
+       "strong": "H559",
+       "morf": "HC/Vqw3mp",
+       "tahot": "H0559",
+       "glosse": "and/ they said"
+      },
+      {
+       "id": "02eaU",
+       "h": "לִ֔/י",
+       "strong": "Hl",
+       "morf": "HR/Sp1cs",
+       "tahot": "H9030",
+       "glosse": "to <the>/ me"
+      },
+      {
+       "id": "02kqM",
+       "h": "עֲשֵׂה",
+       "strong": "H6213a",
+       "morf": "HVqv2ms",
+       "tahot": "H6213H",
+       "glosse": "make"
+      },
+      {
+       "id": "02WxM",
+       "h": "לָ֣/נוּ",
+       "strong": "Hl",
+       "morf": "HR/Sp1cp",
+       "tahot": "H9035",
+       "glosse": "for <the>/ us"
+      },
+      {
+       "id": "022LJ",
+       "h": "אֱלֹהִ֔ים",
+       "strong": "H430",
+       "morf": "HNcmpa",
+       "tahot": "H0430J",
+       "glosse": "gods"
+      },
+      {
+       "id": "02Gis",
+       "h": "אֲשֶׁ֥ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "which"
+      },
+      {
+       "id": "02K7N",
+       "h": "יֵלְכ֖וּ",
+       "strong": "H3212",
+       "morf": "HVqi3mp",
+       "tahot": "H1980G",
+       "glosse": "they will go"
+      },
+      {
+       "id": "027rd",
+       "h": "לְ/פָנֵ֑י/נוּ",
+       "strong": "H6440",
+       "morf": "HR/Ncbpc/Sp1cp",
+       "tahot": "H6440G",
+       "glosse": "<to>/ before/ us"
+      },
+      {
+       "id": "02CZf",
+       "h": "כִּי",
+       "strong": "H3588a",
+       "morf": "HC",
+       "tahot": "H3588A",
+       "glosse": "for"
+      },
+      {
+       "id": "02wVM",
+       "h": "זֶ֣ה",
+       "strong": "H2088",
+       "morf": "HPdxms",
+       "tahot": "H2088",
+       "glosse": "this"
+      },
+      {
+       "id": "02HVY",
+       "h": "מֹשֶׁ֣ה",
+       "strong": "H4872",
+       "morf": "HNp",
+       "tahot": "H4872",
+       "glosse": "Moses"
+      },
+      {
+       "id": "02mjC",
+       "h": "הָ/אִ֗ישׁ",
+       "strong": "H376",
+       "morf": "HTd/Ncmsa",
+       "tahot": "H0376G",
+       "glosse": "the/ man"
+      },
+      {
+       "id": "02ddu",
+       "h": "אֲשֶׁ֤ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "who"
+      },
+      {
+       "id": "02uji",
+       "h": "הֶֽעֱלָ֨/נוּ֙",
+       "strong": "H5927",
+       "morf": "HVhp3ms/Sp1cp",
+       "tahot": "H5927H",
+       "glosse": "he brought up/ us"
+      },
+      {
+       "id": "02Vo7",
+       "h": "מֵ/אֶ֣רֶץ",
+       "strong": "H776",
+       "morf": "HR/Ncbsc",
+       "tahot": "H0776G",
+       "glosse": "from/ [the] land of"
+      },
+      {
+       "id": "022w6",
+       "h": "מִצְרַ֔יִם",
+       "strong": "H4714",
+       "morf": "HNp",
+       "tahot": "H4714G",
+       "glosse": "Egypt"
+      },
+      {
+       "id": "02p6v",
+       "h": "לֹ֥א",
+       "strong": "H3808",
+       "morf": "HTn",
+       "tahot": "H3808",
+       "glosse": "not"
+      },
+      {
+       "id": "02rpi",
+       "h": "יָדַ֖עְנוּ",
+       "strong": "H3045",
+       "morf": "HVqp1cp",
+       "tahot": "H3045",
+       "glosse": "we know"
+      },
+      {
+       "id": "02zrY",
+       "h": "מֶה",
+       "strong": "H4100",
+       "morf": "HTi",
+       "tahot": "H4100",
+       "glosse": "what?"
+      },
+      {
+       "id": "02n67",
+       "h": "הָ֥יָה",
+       "strong": "H1961",
+       "morf": "HVqp3ms",
+       "tahot": "H1961",
+       "glosse": "has it happened"
+      },
+      {
+       "id": "02mZS",
+       "h": "לֽ/וֹ",
+       "strong": "Hl",
+       "morf": "HR/Sp3ms",
+       "tahot": "H9033",
+       "glosse": "to <the>/ him"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Apg 7:40",
+     "scrivener": "ειποντες τω ααρων ποιησον ημιν θεους οι προπορευσονται ημων ο γαρ μωσης ουτος ος εξηγαγεν ημας εκ γης αιγυπτου ουκ οιδαμεν τι γεγονεν αυτω",
+     "mantelen_nt": "og sa til Aron: 'Lag guder for oss som skal gå foran oss; for denne Moses, som førte oss ut av Egypts land, vet vi ikke hva som har skjedd med ham.'"
+    },
+    {
+     "ref": "1 Kor 10:7",
+     "scrivener": "μηδε ειδωλολατραι γινεσθε καθως τινες αυτων ως γεγραπται εκαθισεν ο λαος φαγειν και πιειν και ανεστησαν παιζειν",
+     "mantelen_nt": "Bli heller ikke avgudsdyrkere, slik noen av dem ble. Som det er skrevet: «Folket satte seg ned for å spise og drikke, og de stod opp for å more seg.»"
+    }
+   ]
+  },
+  {
+   "id": "SK-16",
+   "tittel": "Nåde og barmhjertighet",
+   "wlc": [
+    {
+     "ref": "33:19",
+     "vestlig": null,
+     "hebraisk": "וַיֹּ֗אמֶר אֲנִ֨י אַעֲבִ֤יר כָּל־טוּבִי֙ עַל־פָּנֶ֔יךָ וְקָרָ֧אתִֽי בְשֵׁ֛ם יְהוָ֖ה לְפָנֶ֑יךָ וְחַנֹּתִי֙ אֶת־אֲשֶׁ֣ר אָחֹ֔ן וְרִחַמְתִּ֖י אֶת־אֲשֶׁ֥ר אֲרַחֵֽם׃",
+     "tahot_glosse": "and he said I I will cause to pass by all goodness my on face your and I will proclaim <in> [the] name of Yahweh <to> before you and I will show favor to <obj.> [those] whom I will show favor and I will have compassion on <obj.> [those] whom I will have compassion",
+     "lxx_swete": "καὶ εἶπεν Ἐγὼ παρελεύσομαι πρότερός σου τῇ δόξῃ μου, καὶ λαλήσω ἐπὶ τῷ ὀνόματί μου κύριος ἐναντίον σου· καὶ ἐλεήσω ὅν ἄν ἐλεῶ, καὶ ὃν ἀν’ οἰκτείρω.",
+     "ord": [
+      {
+       "id": "02wZ3",
+       "h": "וַ/יֹּ֗אמֶר",
+       "strong": "H559",
+       "morf": "HC/Vqw3ms",
+       "tahot": "H0559",
+       "glosse": "and/ he said"
+      },
+      {
+       "id": "023jP",
+       "h": "אֲנִ֨י",
+       "strong": "H589",
+       "morf": "HPp1cs",
+       "tahot": "H0589",
+       "glosse": "I"
+      },
+      {
+       "id": "025LU",
+       "h": "אַעֲבִ֤יר",
+       "strong": "H5674a",
+       "morf": "HVhi1cs",
+       "tahot": "H5674A",
+       "glosse": "I will cause to pass by"
+      },
+      {
+       "id": "029xN",
+       "h": "כָּל",
+       "strong": "H3605",
+       "morf": "HNcmsc",
+       "tahot": "H3605",
+       "glosse": "all"
+      },
+      {
+       "id": "02FDY",
+       "h": "טוּבִ/י֙",
+       "strong": "H2898",
+       "morf": "HNcmsc/Sp1cs",
+       "tahot": "H2898",
+       "glosse": "goodness/ my"
+      },
+      {
+       "id": "02Aj4",
+       "h": "עַל",
+       "strong": "H5921a",
+       "morf": "HR",
+       "tahot": "H5921A",
+       "glosse": "on"
+      },
+      {
+       "id": "02AkW",
+       "h": "פָּנֶ֔י/ךָ",
+       "strong": "H6440",
+       "morf": "HNcbpc/Sp2ms",
+       "tahot": "H6440G",
+       "glosse": "face/ your"
+      },
+      {
+       "id": "02uiE",
+       "h": "וְ/קָרָ֧אתִֽי",
+       "strong": "H7121",
+       "morf": "HC/Vqq1cs",
+       "tahot": "H7121I",
+       "glosse": "and/ I will proclaim"
+      },
+      {
+       "id": "02PYM",
+       "h": "בְ/שֵׁ֛ם",
+       "strong": "H8034",
+       "morf": "HR/Ncmsc",
+       "tahot": "H8034",
+       "glosse": "<in>/ [the] name of"
+      },
+      {
+       "id": "02STV",
+       "h": "יְהוָ֖ה",
+       "strong": "H3068",
+       "morf": "HNp",
+       "tahot": "H3068G",
+       "glosse": "Yahweh"
+      },
+      {
+       "id": "02ws2",
+       "h": "לְ/פָנֶ֑י/ךָ",
+       "strong": "H6440",
+       "morf": "HR/Ncbpc/Sp2ms",
+       "tahot": "H6440G",
+       "glosse": "<to>/ before/ you"
+      },
+      {
+       "id": "02DSK",
+       "h": "וְ/חַנֹּתִי֙",
+       "strong": "H2603a",
+       "morf": "HC/Vqq1cs",
+       "tahot": "H2603A",
+       "glosse": "and/ I will show favor to"
+      },
+      {
+       "id": "02CPR",
+       "h": "אֶת",
+       "strong": "H853",
+       "morf": "HTo",
+       "tahot": "H0853",
+       "glosse": "<obj.>"
+      },
+      {
+       "id": "02X1u",
+       "h": "אֲשֶׁ֣ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "[those] whom"
+      },
+      {
+       "id": "02EBz",
+       "h": "אָחֹ֔ן",
+       "strong": "H2603a",
+       "morf": "HVqi1cs",
+       "tahot": "H2603A",
+       "glosse": "I will show favor"
+      },
+      {
+       "id": "028r7",
+       "h": "וְ/רִחַמְתִּ֖י",
+       "strong": "H7355",
+       "morf": "HC/Vpq1cs",
+       "tahot": "H7355",
+       "glosse": "and/ I will have compassion on"
+      },
+      {
+       "id": "02Dgw",
+       "h": "אֶת",
+       "strong": "H853",
+       "morf": "HTo",
+       "tahot": "H0853",
+       "glosse": "<obj.>"
+      },
+      {
+       "id": "0277t",
+       "h": "אֲשֶׁ֥ר",
+       "strong": "H834a",
+       "morf": "HTr",
+       "tahot": "H0834A",
+       "glosse": "[those] whom"
+      },
+      {
+       "id": "026DN",
+       "h": "אֲרַחֵֽם",
+       "strong": "H7355",
+       "morf": "HVpi1cs",
+       "tahot": "H7355",
+       "glosse": "I will have compassion"
+      }
+     ]
+    }
+   ],
+   "nt": [
+    {
+     "ref": "Rom 9:15",
+     "scrivener": "τω γαρ μωση λεγει ελεησω ον αν ελεω και οικτειρησω ον αν οικτειρω",
+     "mantelen_nt": "For til Moses sier han: «Jeg skal forbarme meg over den jeg forbarmer meg over, og jeg skal ha medynk med den jeg har medynk med.»"
+    }
+   ]
+  }
+ ],
+ "termer": [
+  {
+   "id": "EX-TERM-01",
+   "hebraisk": "פֶּסַח",
+   "strong": [
+    "H6453"
+   ],
+   "treff": 6,
+   "vers": [
+    "12:11",
+    "12:21",
+    "12:27",
+    "12:43",
+    "12:48",
+    "34:25"
+   ]
+  },
+  {
+   "id": "EX-TERM-02",
+   "hebraisk": "מַצָּה / מַצּוֹת",
+   "strong": [
+    "H4682"
+   ],
+   "treff": 16,
+   "vers": [
+    "12:8",
+    "12:15",
+    "12:17",
+    "12:18",
+    "12:20",
+    "12:39",
+    "13:6",
+    "13:7",
+    "23:15",
+    "29:2",
+    "29:23",
+    "34:18"
+   ]
+  },
+  {
+   "id": "EX-TERM-03",
+   "hebraisk": "כַּפֹּרֶת",
+   "strong": [
+    "H3727"
+   ],
+   "treff": 18,
+   "vers": [
+    "25:17",
+    "25:18",
+    "25:19",
+    "25:20",
+    "25:21",
+    "25:22",
+    "26:34",
+    "30:6",
+    "31:7",
+    "35:12",
+    "37:6",
+    "37:7",
+    "37:8",
+    "37:9",
+    "39:35",
+    "40:20"
+   ]
+  },
+  {
+   "id": "EX-TERM-04",
+   "hebraisk": "מִשְׁכָּן",
+   "strong": [
+    "H4908"
+   ],
+   "treff": 58,
+   "vers": [
+    "25:9",
+    "26:1",
+    "26:6",
+    "26:7",
+    "26:12",
+    "26:13",
+    "26:15",
+    "26:17",
+    "26:18",
+    "26:20",
+    "26:22",
+    "26:23",
+    "26:26",
+    "26:27",
+    "26:30",
+    "26:35",
+    "27:9",
+    "27:19",
+    "35:11",
+    "35:15",
+    "35:18",
+    "36:8",
+    "36:13",
+    "36:14",
+    "36:20",
+    "36:22",
+    "36:23",
+    "36:25",
+    "36:27",
+    "36:28",
+    "36:31",
+    "36:32",
+    "38:20",
+    "38:21",
+    "38:31",
+    "39:32",
+    "39:33",
+    "39:40",
+    "40:2",
+    "40:5",
+    "40:6",
+    "40:9",
+    "40:17",
+    "40:18",
+    "40:19",
+    "40:21",
+    "40:22",
+    "40:24",
+    "40:28",
+    "40:29",
+    "40:33",
+    "40:34",
+    "40:35",
+    "40:36",
+    "40:38"
+   ]
+  },
+  {
+   "id": "EX-TERM-05",
+   "hebraisk": "אֹהֶל מוֹעֵד",
+   "strong": [
+    "H0168",
+    "H4150"
+   ],
+   "treff": 34,
+   "vers": [
+    "27:21",
+    "28:43",
+    "29:4",
+    "29:10",
+    "29:11",
+    "29:30",
+    "29:32",
+    "29:42",
+    "29:44",
+    "30:16",
+    "30:18",
+    "30:20",
+    "30:26",
+    "30:36",
+    "31:7",
+    "33:7",
+    "35:21",
+    "38:8",
+    "38:30",
+    "39:32",
+    "39:40",
+    "40:2",
+    "40:6",
+    "40:7",
+    "40:12",
+    "40:22",
+    "40:24",
+    "40:26",
+    "40:29",
+    "40:30",
+    "40:32",
+    "40:34",
+    "40:35"
+   ]
+  },
+  {
+   "id": "EX-TERM-06",
+   "hebraisk": "עֵדוּת",
+   "strong": [
+    "H5715"
+   ],
+   "treff": 21,
+   "vers": [
+    "16:34",
+    "25:16",
+    "25:21",
+    "25:22",
+    "26:33",
+    "26:34",
+    "27:21",
+    "30:6",
+    "30:26",
+    "30:36",
+    "31:7",
+    "31:18",
+    "32:15",
+    "34:29",
+    "38:21",
+    "39:35",
+    "40:3",
+    "40:5",
+    "40:20",
+    "40:21"
+   ]
+  },
+  {
+   "id": "EX-TERM-07",
+   "hebraisk": "אֲרוֹן הָעֵדוּת",
+   "strong": [
+    "H0727",
+    "H5715"
+   ],
+   "treff": 12,
+   "vers": [
+    "25:16",
+    "25:21",
+    "25:22",
+    "26:33",
+    "26:34",
+    "30:6",
+    "30:26",
+    "31:7",
+    "39:35",
+    "40:3",
+    "40:5",
+    "40:21"
+   ]
+  },
+  {
+   "id": "EX-TERM-08",
+   "hebraisk": "לֻחֹת הָעֵדוּת",
+   "strong": [
+    "H3871",
+    "H5715"
+   ],
+   "treff": 3,
+   "vers": [
+    "31:18",
+    "32:15",
+    "34:29"
+   ]
+  },
+  {
+   "id": "EX-TERM-09",
+   "hebraisk": "מִשְׁכַּן הָעֵדוּת",
+   "strong": [
+    "H4908",
+    "H5715"
+   ],
+   "treff": 2,
+   "vers": [
+    "38:21"
+   ]
+  },
+  {
+   "id": "EX-TERM-10",
+   "hebraisk": "אֹהֶל הָעֵדוּת",
+   "strong": [
+    "H0168",
+    "H5715"
+   ],
+   "treff": 0,
+   "vers": []
+  },
+  {
+   "id": "EX-TERM-11",
+   "hebraisk": "פָּרֹכֶת",
+   "strong": [
+    "H6532"
+   ],
+   "treff": 15,
+   "vers": [
+    "26:31",
+    "26:33",
+    "26:35",
+    "27:21",
+    "30:6",
+    "35:12",
+    "36:35",
+    "38:27",
+    "39:34",
+    "40:3",
+    "40:21",
+    "40:22",
+    "40:26"
+   ]
+  },
+  {
+   "id": "EX-TERM-12",
+   "hebraisk": "מָסָךְ",
+   "strong": [
+    "H4539"
+   ],
+   "treff": 16,
+   "vers": [
+    "26:36",
+    "26:37",
+    "27:16",
+    "35:12",
+    "35:15",
+    "35:17",
+    "36:37",
+    "38:18",
+    "39:34",
+    "39:38",
+    "39:40",
+    "40:5",
+    "40:8",
+    "40:21",
+    "40:28",
+    "40:33"
+   ]
+  },
+  {
+   "id": "EX-TERM-13",
+   "hebraisk": "מִזְבַּח הָעֹלָה",
+   "strong": [
+    "H4196",
+    "H5930"
+   ],
+   "treff": 9,
+   "vers": [
+    "29:18",
+    "29:25",
+    "30:28",
+    "31:9",
+    "35:16",
+    "38:1",
+    "40:6",
+    "40:10",
+    "40:29"
+   ]
+  },
+  {
+   "id": "EX-TERM-14",
+   "hebraisk": "מִזְבַּח (מִקְטַר) הַקְּטֹרֶת",
+   "strong": [
+    "H4196",
+    "H7004"
+   ],
+   "treff": 6,
+   "vers": [
+    "30:1",
+    "30:27",
+    "31:8",
+    "35:15",
+    "37:25",
+    "40:5"
+   ]
+  },
+  {
+   "id": "EX-TERM-15",
+   "hebraisk": "לֶחֶם (הַ)פָּנִים",
+   "strong": [
+    "H3899",
+    "H6440"
+   ],
+   "treff": 4,
+   "vers": [
+    "25:30",
+    "35:13",
+    "39:36",
+    "40:23"
+   ]
+  },
+  {
+   "id": "EX-TERM-16",
+   "hebraisk": "מִזְבֵּחַ",
+   "strong": [
+    "H4196"
+   ],
+   "treff": 59,
+   "vers": [
+    "17:15",
+    "20:24",
+    "20:25",
+    "20:26",
+    "21:14",
+    "24:4",
+    "24:6",
+    "27:1",
+    "27:5",
+    "27:6",
+    "27:7",
+    "28:43",
+    "29:12",
+    "29:13",
+    "29:16",
+    "29:18",
+    "29:20",
+    "29:21",
+    "29:25",
+    "29:36",
+    "29:37",
+    "29:38",
+    "29:44",
+    "30:1",
+    "30:18",
+    "30:20",
+    "30:27",
+    "30:28",
+    "31:8",
+    "31:9",
+    "32:5",
+    "34:13",
+    "35:15",
+    "35:16",
+    "37:25",
+    "38:1",
+    "38:3",
+    "38:4",
+    "38:7",
+    "38:30",
+    "39:38",
+    "39:39",
+    "40:5",
+    "40:6",
+    "40:7",
+    "40:10",
+    "40:26",
+    "40:29",
+    "40:30",
+    "40:32",
+    "40:33"
+   ]
+  },
+  {
+   "id": "EX-TERM-17",
+   "hebraisk": "אֲרוֹן",
+   "strong": [
+    "H0727"
+   ],
+   "treff": 26,
+   "vers": [
+    "25:10",
+    "25:14",
+    "25:15",
+    "25:16",
+    "25:21",
+    "25:22",
+    "26:33",
+    "26:34",
+    "30:6",
+    "30:26",
+    "31:7",
+    "35:12",
+    "37:1",
+    "37:5",
+    "39:35",
+    "40:3",
+    "40:5",
+    "40:20",
+    "40:21"
+   ]
+  },
+  {
+   "id": "EX-TERM-18",
+   "hebraisk": "בְּרִית",
+   "strong": [
+    "H1285"
+   ],
+   "treff": 13,
+   "vers": [
+    "2:24",
+    "6:4",
+    "6:5",
+    "19:5",
+    "23:32",
+    "24:7",
+    "24:8",
+    "31:16",
+    "34:10",
+    "34:12",
+    "34:15",
+    "34:27",
+    "34:28"
+   ]
+  },
+  {
+   "id": "EX-TERM-19",
+   "hebraisk": "תַּבְנִית",
+   "strong": [
+    "H8403"
+   ],
+   "treff": 3,
+   "vers": [
+    "25:9",
+    "25:40"
+   ]
+  },
+  {
+   "id": "EX-TERM-20",
+   "hebraisk": "קֹדֶשׁ הַקֳּדָשִׁים",
+   "strong": [
+    "H6944",
+    "H6944"
+   ],
+   "treff": 11,
+   "vers": [
+    "26:33",
+    "26:34",
+    "29:37",
+    "30:10",
+    "30:29",
+    "30:32",
+    "30:36",
+    "35:19",
+    "39:41",
+    "40:10"
+   ]
+  }
+ ],
+ "dekalog": [
+  {
+   "vers": 1,
+   "merker": [
+    "ס"
+   ],
+   "alt_aksent": 0
+  },
+  {
+   "vers": 2,
+   "merker": [],
+   "alt_aksent": 4
+  },
+  {
+   "vers": 3,
+   "merker": [],
+   "alt_aksent": 4
+  },
+  {
+   "vers": 4,
+   "merker": [],
+   "alt_aksent": 13
+  },
+  {
+   "vers": 5,
+   "merker": [],
+   "alt_aksent": 4
+  },
+  {
+   "vers": 6,
+   "merker": [
+    "ס"
+   ],
+   "alt_aksent": 3
+  },
+  {
+   "vers": 7,
+   "merker": [
+    "פ"
+   ],
+   "alt_aksent": 0
+  },
+  {
+   "vers": 8,
+   "merker": [],
+   "alt_aksent": 4
+  },
+  {
+   "vers": 9,
+   "merker": [],
+   "alt_aksent": 5
+  },
+  {
+   "vers": 10,
+   "merker": [],
+   "alt_aksent": 12
+  },
+  {
+   "vers": 11,
+   "merker": [
+    "ס"
+   ],
+   "alt_aksent": 0
+  },
+  {
+   "vers": 12,
+   "merker": [
+    "ס"
+   ],
+   "alt_aksent": 0
+  },
+  {
+   "vers": 13,
+   "merker": [
+    "ס"
+   ],
+   "alt_aksent": 2
+  },
+  {
+   "vers": 14,
+   "merker": [
+    "ס"
+   ],
+   "alt_aksent": 2
+  },
+  {
+   "vers": 15,
+   "merker": [
+    "ס"
+   ],
+   "alt_aksent": 2
+  },
+  {
+   "vers": 16,
+   "merker": [
+    "ס"
+   ],
+   "alt_aksent": 0
+  },
+  {
+   "vers": 17,
+   "merker": [
+    "פ"
+   ],
+   "alt_aksent": 0
+  }
+ ],
+ "budrekkefolge": {
+  "Matt 19,18-19": "D E S V F N",
+  "Mark 10,19": "E D S V A F",
+  "Luk 18,20": "E D S V F",
+  "Rom 13,9": "E D S V B N",
+  "Jak 2,11": "E D"
+ }
+}

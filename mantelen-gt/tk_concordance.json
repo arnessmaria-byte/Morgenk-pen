@@ -1,0 +1,244 @@
+{
+ "register": "TK",
+ "skjema": "mantelen-termregister/1",
+ "status": "UTKAST_IKKE_VEDTATT",
+ "opprettet": "2026-11-20",
+ "kildestatus": {
+  "vedtaksdokument": "GT-GEMINI-SAMKJORING-SVAR",
+  "funnet": false,
+  "forklaring": "Dokumentet er ikke funnet i Drive-speilet av prosjektmappen 20.11.2026. Der ligger bare invitasjonen rapporter/gt-claude-gemini-samkjoring-2026-11-20/SAMKJORING.md. Ordlyden i TK-01 til TK-25 er derfor ukjent for denne økten, og 23 av 25 oppføringer står tomme. TK-08 og TK-22 er fylt ut fra det arbeidsordren selv sier, og er merket UBEKREFTET.",
+  "regelkonflikt": "MANTELEN_GT_OVERSETTELSESREGLER.md sier om det felles registeret MANTELEN_NT_GT_SAMORDNING.md: «Bruk dette registeret; ikke opprett en parallell termtabell for GT.» Captain må avgjøre forholdet mellom TK-registeret og det felles registeret."
+ },
+ "statuskoder": {
+  "VEDTATT": "Ordlyden er mottatt fra vedtaksdokumentet og håndheves som lås.",
+  "UBEKREFTET": "Fylt ut fra sekundær omtale. Gir varsel, ikke låsbrudd. Hindrer bokgodkjenning.",
+  "MANGLER_KILDE": "Ikke utfylt. Hindrer bokgodkjenning."
+ },
+ "felt": {
+  "hebraisk.strong": "Strong-nummer i OSHB/TAHOT. Med «sekvens» må tallene stå i rekkefølge innen tre ord.",
+  "gresk.strong": "Strong-nummer i Scrivener 1894 / MANTELEN NT.",
+  "laast_term.GT|NT.regex": "Regulært uttrykk som versets norske tekst må treffe der kildeordet står.",
+  "laast_term.*.unntak": "Liste over versadresser som er uttrykkelig unntatt."
+ },
+ "oppforinger": [
+  {
+   "id": "TK-01",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-02",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-03",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-04",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-05",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-06",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-07",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-08",
+   "status": "UBEKREFTET",
+   "tema": "Nådestolen",
+   "grunnlag": "Arbeidsordren 20.11.2026 nevner TK-08 som «nådestol» for kapporet, jf. hilasterion i Rom 3,25 og Heb 9,5. Vedtaksteksten selv er ikke mottatt.",
+   "hebraisk": {
+    "lemma": "כַּפֹּרֶת",
+    "translit": "kapporet",
+    "strong": [
+     "H3727"
+    ],
+    "forekomster_2mos": 18
+   },
+   "lxx_bro": {
+    "gresk": "ἱλαστήριον",
+    "merknad": "LXX gjengir kapporet med hilasterion (2 Mos 25,17 med tillegget epithema)."
+   },
+   "gresk": {
+    "lemma": "ἱλαστήριον",
+    "strong": [
+     "G2435"
+    ],
+    "belegg_nt": [
+     "Rom 3,25",
+     "Hebr 9,5"
+    ]
+   },
+   "laast_term": {
+    "GT": {
+     "term": "nådestol",
+     "regex": "nådestol",
+     "belegg": "Se paritetsfilen for låst 2. Mosebok; ordren oppgir «nådestol»."
+    },
+    "NT": {
+     "term": "nådestol (Hebr 9,5); «soningssted» (Rom 3,25)",
+     "regex": "nådestol|soningssted",
+     "belegg": "MANTELEN NT, revisjon nt-2026-10-13: Hebr 9,5 «nådestolen», Rom 3,25 «soningssted»."
+    }
+   },
+   "studiepanelkrav": "Noten ved første forekomst i 2 Mos 25,17 skal nevne LXX hilasterion og NT-stedene. Ordren forutsetter «nådestol» også for Rom 3,25; låst NT har «soningssted» der. Avviket må avgjøres uttrykkelig, ikke harmoniseres stille.",
+   "aapent": [
+    "Skal Rom 3,25 regnes inn under låsen, eller er «soningssted» et begrunnet unntak?"
+   ]
+  },
+  {
+   "id": "TK-09",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-10",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-11",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-12",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-13",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-14",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-15",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-16",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-17",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-18",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-19",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-20",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-21",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-22",
+   "status": "UBEKREFTET",
+   "tema": "Tabernaklet og sammenkomstens telt holdes leksikalsk atskilt",
+   "grunnlag": "Arbeidsordren 20.11.2026 nevner TK-22: mishkan mot ohel moed, «tabernaklet» mot «sammenkomstens telt». Vedtaksteksten selv er ikke mottatt.",
+   "hebraisk": {
+    "lemma": "מִשְׁכָּן / אֹהֶל מוֹעֵד",
+    "translit": "mishkan / ohel moed",
+    "strong": [
+     "H4908"
+    ],
+    "par": {
+     "strong": [
+      "H168",
+      "H4150"
+     ],
+     "sekvens": true
+    },
+    "forekomster_2mos": {
+     "mishkan": 58,
+     "ohel_moed": 34,
+     "samme_vers": 9
+    }
+   },
+   "lxx_bro": {
+    "gresk": "σκηνή / ἡ σκηνὴ τοῦ μαρτυρίου",
+    "merknad": "LXX bruker skene for begge hebraiske ord og gjengir ohel moed med «vitnesbyrdets telt». Skillet i hebraisk kan derfor ikke leses av LXX eller NT."
+   },
+   "gresk": {
+    "lemma": "σκηνή",
+    "strong": [
+     "G4633"
+    ],
+    "belegg_nt": [
+     "Apg 7,44",
+     "Hebr 8,2",
+     "Hebr 8,5",
+     "Hebr 9,2",
+     "Hebr 9,3",
+     "Hebr 9,11",
+     "Åp 15,5"
+    ]
+   },
+   "laast_term": {
+    "GT": {
+     "term": "mishkan og ohel moed får hver sitt norske ord",
+     "regex": "",
+     "belegg": "Se paritetsfilen for låst 2. Mosebok."
+    },
+    "NT": {
+     "term": "telt / teltet (aldri «tabernakel»)",
+     "regex": "telt",
+     "belegg": "MANTELEN NT har «telt» i alle vers med G4633; Apg 7,44 «Vitnesbyrdets telt»."
+    }
+   },
+   "studiepanelkrav": "Noten ved 2 Mos 25,9 og 27,21 skal si at LXX og NT bruker ett gresk ord for begge, og at NT-uttrykket «vitnesbyrdets telt» (Apg 7,44; Åp 15,5) svarer til hebraisk ohel moed, ikke til ohel ha-edut.",
+   "aapent": [
+    "Ordren sier «tabernaklet» for mishkan; NT har «telt» for skene. Er forskjellen ønsket?"
+   ]
+  },
+  {
+   "id": "TK-23",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-24",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  },
+  {
+   "id": "TK-25",
+   "status": "MANGLER_KILDE",
+   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+  }
+ ]
+}
