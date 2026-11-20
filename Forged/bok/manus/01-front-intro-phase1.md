@@ -73,7 +73,7 @@ Each phase builds on the last. Walk the whole path.
 
 ## How This Book Works
 
-Each day moves from a short opening and an ordinary scenario to a comparison, an explanation, one concrete practice, and a Healing Forge section. The scenarios are ordinary ones: failures no one sees, small compromises, the tension most young men carry but have no words for. There are no heroes in them, only honest men still being forged.
+Each day moves from a short opening and a scenario from real life to a comparison, an explanation, one concrete practice, and a Healing Forge section. The scenarios are ordinary ones: failures no one sees, small compromises, the tension most young men carry but have no words for. There are no heroes in them, only honest men still being forged.
 
 The practice is the point. You are not asked to feel anything, and the days you feel nothing count as much as the days everything feels clear. What you repeat becomes a reflex, and your reflexes decide who you are under pressure.
 
@@ -203,7 +203,7 @@ Separation takes good judgment. You do not have to look down on anyone to do it.
 
 Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Every room, routine, and relationship trains you in something.
 
-Notice how your speech changes from one house to the next. You adjusted before you had thought about it. Separation means choosing which influences you will keep.
+Notice how your speech changes from one house to the next. You adjust before you think about it. Separation means choosing which influences you will keep.
 
 ### The Practice
 

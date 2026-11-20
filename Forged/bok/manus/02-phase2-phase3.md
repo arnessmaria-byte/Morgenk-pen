@@ -506,7 +506,7 @@ Scripture is there to show you who you are, not to tell you that you are fine. T
 
 ### The Scenario
 
-Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and came away sure he was fine.
+Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and never felt it was meant for him. He came away sure he was fine and rarely looked hard at himself.
 
 He kept turning the mirror toward everyone else.
 

@@ -18,8 +18,8 @@ Boken heter *FORGED: A 40-Day Path to Durable Faith for Young Men*, og forfatter
 
 Forfatteren godkjente teksten 18.10.2026. Den 12.11 gjorde en annen redaktør 84 endringer for å stramme inn boken. Forfatteren ba om at bare de endringene som ikke rører hans egne avgjørelser, skulle tas inn. Redaktøren som skal kontrolleres:
 
-- la inn 28 endringer (vedlegg A)
-- holdt fem utenfor (vedlegg B)
+- la inn 26 endringer (vedlegg A)
+- holdt sju utenfor (vedlegg B)
 - satte inn en ny side om videoene til boken (vedlegg C)
 - laget en ny PDF i 5 × 8 tommer til KDP
 
@@ -27,12 +27,12 @@ Forfatteren godkjente teksten 18.10.2026. Den 12.11 gjorde en annen redaktør 84
 
 Les hele `FORGED_manus_gjeldende_2026-11-20.md` én gang først. Gjør deretter disse seks kontrollene.
 
-**1. De 28 endringene (vedlegg A).** For hver endring:
+**1. De 26 endringene (vedlegg A).** For hver endring:
 - Står teksten under «Etter» ordrett i manus, og er teksten under «Før» borte?
 - Er endringen en ren innstramming? Eller endrer den meningen, en teologisk påstand, forfatterens stemme eller et faktum i et scenario? Fjerner den en analogi forfatteren har brukt?
 - Gi én dom: OK, Bør vurderes eller Bør tilbakeføres. Begrunn alt som ikke er OK.
 
-**2. De fem endringene som er holdt utenfor (vedlegg B).** Er begrunnelsen riktig? Står linjene fortsatt i manus og i PDF-en?
+**2. De sju endringene som er holdt utenfor (vedlegg B).** Er begrunnelsen riktig? Står den godkjente teksten fortsatt i manus og i PDF-en?
 
 **3. Videosiden (vedlegg C).**
 - Står teksten ordrett slik vedlegget viser?
@@ -54,7 +54,7 @@ Les hele `FORGED_manus_gjeldende_2026-11-20.md` én gang først. Gjør deretter 
 
 Kan du ikke måle noe sikkert, for eksempel marger, skriv det. Ikke gjett. Har du et kodeverktøy, bruk det til målingene.
 
-**6. Overgangene.** Les avsnittene rundt hver av de 28 endringene. Henger teksten fortsatt sammen? Se etter «this», «that» eller «it» som ikke lenger viser til noe, ord som nå gjentas tett, og avsnitt som nå begynner eller slutter brått.
+**6. Overgangene.** Les avsnittene rundt hver av de 26 endringene. Henger teksten fortsatt sammen? Se etter «this», «that» eller «it» som ikke lenger viser til noe, ord som nå gjentas tett, og avsnitt som nå begynner eller slutter brått.
 
 ## Faste rammer
 
@@ -80,7 +80,7 @@ Skriv rapporten på norsk bokmål. Siter boken og skriv forslagene på engelsk.
 
 **1. Dom.** Én av tre: klar for KDP, klar med rettelsene under, eller ikke klar. Begrunn dommen i to eller tre setninger.
 
-**2. Dom per endring** for de 28 endringene i vedlegg A: nummer, OK, Bør vurderes eller Bør tilbakeføres, og én setning der dommen ikke er OK.
+**2. Dom per endring** for de 26 endringene i vedlegg A: nummer, OK, Bør vurderes eller Bør tilbakeføres, og én setning der dommen ikke er OK.
 
 **3. Funn.** Lag én tabell sortert etter alvor, med disse kolonnene:
 

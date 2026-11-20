@@ -5,7 +5,7 @@
 - PDF for trykk: `ut/FORGED_Interior_6x9_KDP.pdf` (120 sider per 20.11, https://github.com/arnessmaria-byte/Morgenk-pen/blob/claude/dreamy-ptolemy-9lh3ke/Forged/bok/ut/FORGED_Interior_6x9_KDP.pdf) og `ut/FORGED_Interior_5x8_KDP.pdf` (126 sider per 20.11, formatet i KDP-utkastet)
 - Word: `ut/FORGED_manus.docx` (EB Garamond, 6 × 9, hver dag på ny side)
 - Markdown: `ut/FORGED_manus.md`
-- Google Docs: https://docs.google.com/document/d/1cjcXhHCPUkTrbbwzyb46_e2ONV5qBp84ut3F_UH3ab4/edit (i Forged-mappen i Drive, 6 × 9 i EB Garamond, hver dag på ny side, kontrollert ord for ord mot manus)
+- Google Docs: https://docs.google.com/document/d/1iVRvgjUB_EbleoLdvGoEw41NeCbigdVVp057Zpc2e3c/edit (i Forged-mappen i Drive, 6 × 9 i EB Garamond, hver dag på ny side, kontrollert ord for ord mot manus)
 - Kindle: `ut/FORGED_Kindle.epub`
 
 ## Bestillingen

@@ -6,7 +6,7 @@
 
 ## Oppdatering 20.11.2026
 
-KDP-utkastet ditt fra 19.10 er satt opp som 5 × 8 tommer, svart-hvitt på hvitt papir, uten utfall og med matt omslag. Bytt PDF-en der med `ut/FORGED_Interior_5x8_KDP.pdf` fra 20.11. Den nye PDF-en har de 23 rettelsene fra oktober, de 28 strammende endringene fra 12.11, videosiden, ESV-linjen og forordslinjen.
+KDP-utkastet ditt fra 19.10 er satt opp som 5 × 8 tommer, svart-hvitt på hvitt papir, uten utfall og med matt omslag. Bytt PDF-en der med `ut/FORGED_Interior_5x8_KDP.pdf` fra 20.11. Den nye PDF-en har de 23 rettelsene fra oktober, de 26 strammende endringene fra 12.11, videosiden, ESV-linjen og forordslinjen.
 
 | Punkt | 5 × 8 (KDP-utkastet) | 6 × 9 |
 |---|---|---|

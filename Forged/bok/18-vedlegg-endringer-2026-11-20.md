@@ -2,15 +2,15 @@
 
 Alt nedenfor gjelder `ut/FORGED_manus.md` i GitHub. Utgangspunktet er manus slik forfatteren godkjente det 18.10.2026. Sitatene står på engelsk, slik de står i boken.
 
-## A. De 28 endringene som er lagt inn
+## A. De 26 endringene som er lagt inn
 
 «Før» skal ikke lenger stå i manus. «Etter» skal stå ordrett. «(strøket)» betyr at hele avsnittet er fjernet.
 
 ### A1. Introduction
 
 - **Før:** Every day has the same parts: a short opening, a scenario from real life, a table comparing two opposite ways, a section on what the day is really about, one concrete practice, and a short Healing Forge section.
-- **Etter:** Each day moves from a short opening and an ordinary scenario to a comparison, an explanation, one concrete practice, and a Healing Forge section.
-- **Begrunnelse:** Shorten the structural preview; retain all six components.
+- **Etter:** Each day moves from a short opening and a scenario from real life to a comparison, an explanation, one concrete practice, and a Healing Forge section.
+- **Begrunnelse:** Shorten the structural preview; retain all six components. Justert etter kontroll 20.11: «a scenario from real life» som i godkjent tekst, fordi neste setning sier «The scenarios are ordinary ones».
 
 ### A2. Day 1
 
@@ -21,8 +21,8 @@ Alt nedenfor gjelder `ut/FORGED_manus.md` i GitHub. Utgangspunktet er manus slik
 ### A3. Day 2
 
 - **Før:** Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Whatever you are part of always shapes you. Every room and every routine trains you in something, and every relationship puts pressure on you. / You already know this. You talk one way in one house and another way in the next. The room did that, and you never got a vote. You are going to be shaped either way. Separation means you choose what does the shaping.
-- **Etter:** Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Every room, routine, and relationship trains you in something. / Notice how your speech changes from one house to the next. You adjusted before you had thought about it. Separation means choosing which influences you will keep.
-- **Begrunnelse:** Replace repeated abstract shaping claims with the existing concrete example and its application.
+- **Etter:** Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Every room, routine, and relationship trains you in something. / Notice how your speech changes from one house to the next. You adjust before you think about it. Separation means choosing which influences you will keep.
+- **Begrunnelse:** Replace repeated abstract shaping claims with the existing concrete example and its application. Justert etter kontroll 20.11: «You adjust before you think about it.» i stedet for «You adjusted before you had thought about it.», så tiden stemmer med setningen før.
 
 ### A4. Day 5
 
@@ -84,105 +84,98 @@ Alt nedenfor gjelder `ut/FORGED_manus.md` i GitHub. Utgangspunktet er manus slik
 - **Etter:** After you fall, keep training. There is nothing glorious about failure. Examine your own failure for the point where you counted on a strength you had not trained.
 - **Begrunnelse:** Remove three restatements of learning from failure; retain the concrete diagnostic task. Slått sammen med rettelsen fra oktober, så ordet «breakdown» ikke kommer tilbake.
 
-### A14. Day 19
-
-- **Før:** He kept its correction general and never felt it was meant for him. He came away sure he was fine and rarely looked hard at himself.
-- **Etter:** He kept its correction general and came away sure he was fine.
-- **Begrunnelse:** Trim duplicated avoidance of personal application.
-
-### A15. Day 20
+### A14. Day 20
 
 - **Før:** Sharpening only happens when something pushes back. Being close to other men shows you your blind spots.
 - **Etter:** Other men can show you blind spots you will miss alone.
 - **Begrunnelse:** Carry the table into the argument without repeating the verse's sharpening image yet again.
 
-### A16. Day 23
+### A15. Day 23
 
 - **Før:** What you understand has to become what you do without thinking. No one learns to swim from a manual, even when the manual is right. Truth that stays in your head gives way under pressure. Only what you have practiced holds up.
 - **Etter:** No one learns to swim from a manual, even when the manual is right. Practice makes what you understand available when you need it under pressure.
 - **Begrunnelse:** Keep one explanatory image and remove repeated head-to-hands summaries.
 
-### A17. Day 24
+### A16. Day 24
 
 - **Før:** Your strength can easily end up split into pieces. One part of your life moves ahead while another falls behind. Discipline that is cut off from everything else throws you off balance. Strength holds only when the parts line up.
 - **Etter:** Discipline in one area cannot do the work of every other part of your life. Your body, beliefs, and relationships need to move in the same direction.
 - **Begrunnelse:** Clarify the chapter's integration problem without four versions of the pieces metaphor.
 
-### A18. Day 26
+### A17. Day 26
 
 - **Før:** Today is about saying yes to the day. You know the argument you have with yourself each morning under the blanket, and you know which side usually speaks first. Every morning asks a simple question: will you show up anyway?
 - **Etter:** You know the argument you have with yourself each morning under the blanket. Answer it with the first act of the day, before you feel ready.
 - **Begrunnelse:** Turn repeated questions about showing up into a transition to the morning practice.
 
-### A19. Day 26
+### A18. Day 26
 
 - **Før:** If you show up first, the rest of the day often follows.
 - **Etter:** (strøket)
 - **Begrunnelse:** Intentional deletion: repeats the opening and the practice's explicit instruction.
 
-### A20. Day 27
+### A19. Day 27
 
 - **Før:** Staying awake means looking after your growth, moment by moment, without becoming suspicious.
 - **Etter:** (strøket)
 - **Begrunnelse:** Intentional deletion: repeats the distinction between watchfulness and anxiety already stated on either side.
 
-### A21. Day 28
+### A20. Day 28
 
 - **Før:** Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. So pushing back against the systems around you can feel threatening now. Today you are asked to choose for yourself. That is gentler than rigid control. You are choosing what shapes you, instead of letting something you never chose do it.
 - **Etter:** Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Start with one chosen limit rather than trying to control everything.
 - **Begrunnelse:** Reduce repeated choosing/shaping claims and connect the close to the one-default practice.
 
-### A22. Day 30
+### A21. Day 30
 
 - **Før:** Micah kept showing up. He stuck with his practices and his routine, and his habits did not fall apart. But he no longer felt that God was close.
 - **Etter:** Micah kept his practices and routine, but he no longer felt that God was close.
 - **Begrunnelse:** Remove three statements that his habits continued; preserve the theological argument unchanged.
 
-### A23. Day 32
+### A22. Day 32
 
 - **Før:** Finishing is how your discipline matures.
 - **Etter:** (strøket)
 - **Begrunnelse:** Intentional deletion: repeats the opening and the explanation of finishing as training.
 
-### A24. Day 35
+### A23. Day 35
 
 - **Før:** Influence comes more from being there than from being loud. It comes from a man who steadies a room without drawing attention to himself. Influence that lasts rarely makes noise. It is built one ordinary day at a time.
 - **Etter:** A man who steadies a room without drawing attention to himself earns influence one ordinary day at a time.
 - **Begrunnelse:** Combine four versions of quiet influence into a single opening.
 
-### A25. Day 37
+### A24. Day 37
 
 - **Før:** How far ahead you look decides how heavy the pressure feels.
 - **Etter:** (strøket)
 - **Begrunnelse:** Intentional deletion: repeats the opening after a practice that already applies the longer view.
 
-### A26. Day 39
+### A25. Day 39
 
 - **Før:** Authority grows wherever someone carries responsibility without asking for credit.
 - **Etter:** (strøket)
 - **Begrunnelse:** Intentional deletion: repeats the opening, scenario, and immediately preceding explanation.
 
-### A27. Day 40
-
-- **Før:** The temptations were still there, and his discipline still needed work. His surroundings were the same, but he carried himself differently in them.
-- **Etter:** His surroundings were the same, but he carried himself differently in them.
-- **Begrunnelse:** Remove the duplicate carried into the preceding scenario paragraph.
-
-### A28. Conclusion
+### A26. Conclusion
 
 - **Før:** None of this is dramatic. These are changes in how your life is built, the kind that hold when life turns ordinary again.
 - **Etter:** (strøket)
 - **Begrunnelse:** Intentional deletion: repeats the conclusion's opening before another section on continuing ordinary practice.
 
-## B. Fem endringer som er holdt utenfor
+## B. Endringer som er holdt utenfor
 
-De stryker oppsummeringslinjen under kontrasttabellen. Alle 40 dagene har en slik linje, og formlisten (`06-formliste.md`) krever den: «Kontrasttabell: to kolonner, tittel «X vs. Y» over, ingen kolonneoverskrift i trykket, én oppsummerende setning under.» Linjene under skal derfor fortsatt stå i manus.
+**Fem stryker oppsummeringslinjen under kontrasttabellen.** Alle 40 dagene har en slik linje, og formlisten (`06-formliste.md`) krever den: «Kontrasttabell: to kolonner, tittel «X vs. Y» over, ingen kolonneoverskrift i trykket, én oppsummerende setning under.» Linjene under skal derfor fortsatt stå i manus.
 
 - Day 5: Some discomfort is a signal.
 - Day 6: Strength comes with responsibility attached.
 - Day 10: Whatever surrounds you will end up teaching you.
 - Day 29: Pressure shows how well you prepared.
 - Day 38: Real growth builds up inside you, and it does not need to be announced.
+
+**To ble lagt inn og trukket tilbake etter en kontroll av overgangene 20.11.** Den godkjente teksten fra oktober står igjen:
+
+- Day 19: «He kept its correction general and never felt it was meant for him. He came away sure he was fine and rarely looked hard at himself.» Endringen gjorde at to setninger på rad begynte med «He kept».
+- Day 40: «The temptations were still there, and his discipline still needed work. His surroundings were the same, but he carried himself differently in them.» Strykningen fjernet det eneste stedet i scenariet som sier at Adam fortsatt strever. Den forutsatte en annen endring fra 12.11 som ikke er tatt inn.
 
 ## C. Ny side: «Companion videos»
 

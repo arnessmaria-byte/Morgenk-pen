@@ -73,7 +73,7 @@ Each phase builds on the last. Walk the whole path.
 
 ## How This Book Works
 
-Each day moves from a short opening and an ordinary scenario to a comparison, an explanation, one concrete practice, and a Healing Forge section. The scenarios are ordinary ones: failures no one sees, small compromises, the tension most young men carry but have no words for. There are no heroes in them, only honest men still being forged.
+Each day moves from a short opening and a scenario from real life to a comparison, an explanation, one concrete practice, and a Healing Forge section. The scenarios are ordinary ones: failures no one sees, small compromises, the tension most young men carry but have no words for. There are no heroes in them, only honest men still being forged.
 
 The practice is the point. You are not asked to feel anything, and the days you feel nothing count as much as the days everything feels clear. What you repeat becomes a reflex, and your reflexes decide who you are under pressure.
 
@@ -203,7 +203,7 @@ Separation takes good judgment. You do not have to look down on anyone to do it.
 
 Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. Every room, routine, and relationship trains you in something.
 
-Notice how your speech changes from one house to the next. You adjusted before you had thought about it. Separation means choosing which influences you will keep.
+Notice how your speech changes from one house to the next. You adjust before you think about it. Separation means choosing which influences you will keep.
 
 ### The Practice
 
@@ -1032,7 +1032,7 @@ Scripture is there to show you who you are, not to tell you that you are fine. T
 
 ### The Scenario
 
-Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and came away sure he was fine.
+Matthew read his Bible regularly. He highlighted verses, kept organized notes, and had his insights ready to repeat. But whenever Scripture challenged him, he quickly pointed it at other people. He kept its correction general and never felt it was meant for him. He came away sure he was fine and rarely looked hard at himself.
 
 He kept turning the mirror toward everyone else.
 
@@ -1984,7 +1984,7 @@ Finishing rarely feels dramatic. It feels calm and settled. Today you make up yo
 
 Adam expected something more: a rush of emotion, a sign, a sense that he had arrived. Instead there was calm. Nothing had fallen apart, and nothing exciting had happened, but something had settled.
 
-His surroundings were the same, but he carried himself differently in them. He had stopped trying to become someone. He was living as the man he had become.
+The temptations were still there, and his discipline still needed work. His surroundings were the same, but he carried himself differently in them. He had stopped trying to become someone. He was living as the man he had become.
 
 ### Finish Line vs. Carrying On
 

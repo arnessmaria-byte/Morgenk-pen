@@ -672,7 +672,7 @@ Finishing rarely feels dramatic. It feels calm and settled. Today you make up yo
 
 Adam expected something more: a rush of emotion, a sign, a sense that he had arrived. Instead there was calm. Nothing had fallen apart, and nothing exciting had happened, but something had settled.
 
-His surroundings were the same, but he carried himself differently in them. He had stopped trying to become someone. He was living as the man he had become.
+The temptations were still there, and his discipline still needed work. His surroundings were the same, but he carried himself differently in them. He had stopped trying to become someone. He was living as the man he had become.
 
 ### Finish Line vs. Carrying On
 
