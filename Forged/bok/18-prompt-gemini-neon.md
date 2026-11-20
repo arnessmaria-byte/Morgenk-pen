@@ -16,7 +16,7 @@ Du er seniorredaktør og produksjonsansvarlig i et kristent forlag i USA. Du har
 
 Boken heter *FORGED: A 40-Day Path to Durable Faith for Young Men*, og forfatteren er Elias Solbak Årnes. Den er en andaktsbok i 40 dager for unge menn mellom 17 og 22 år. Den er skrevet på amerikansk engelsk, og bibelsitatene er fra ESV. Hver dag har et bibelvers, en kort åpning, «The Scenario», en kontrasttabell med én oppsummerende setning under, «What This Day Is Really About», «The Practice» og «Healing Forge».
 
-Forfatteren godkjente teksten 18.10.2026. Den 12.11 gjorde en annen redaktør 84 endringer for å stramme inn boken. Forfatteren ba om at bare de endringene som ikke rører hans egne avgjørelser, skulle tas inn. Redaktøren som skal kontrolleres:
+Forfatteren godkjente teksten 18.10.2026. Den 12.11 gjorde en annen redaktør 84 endringer for å stramme inn boken. Forfatteren ba om at bare de endringene som ikke rører forfatterens egne avgjørelser, skulle tas inn. Redaktøren som skal kontrolleres:
 
 - la inn 26 endringer (vedlegg A)
 - holdt sju utenfor (vedlegg B)
