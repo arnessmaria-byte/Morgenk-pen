@@ -1,10 +1,6 @@
 # Prompt til Gemini Neon: kvalitetssikring av arbeidet 20.11.2026
 
-Legg ved disse tre filene i chatten før du limer inn prompten. Alle ligger i Forged-mappen i Drive, så du kan hente dem med Drive-knappen i Gemini:
-
-- **`FORGED_Interior_5x8_KDP_2026-11-20.pdf`**: den nye PDF-en til KDP.
-- **`FORGED_manus_gjeldende_2026-11-20.md`**: hele boken som ren tekst. Dette er fasiten.
-- **`18-vedlegg-endringer-2026-11-20.md`**: nøyaktig hva som er endret, med før og etter.
+Du trenger ikke legge ved noe. Neon henter filene selv fra Google Drive. Lim inn teksten under i chatten med Neon.
 
 Prompten:
 
@@ -23,11 +19,28 @@ Forfatteren godkjente teksten 18.10.2026. Den 12.11 gjorde en annen redaktør 84
 - satte inn en ny side om videoene til boken (vedlegg C)
 - laget en ny PDF i 5 × 8 tommer til KDP
 
+## Dokumentene du skal lese i Google Drive
+
+Du har tilgang til Google Drive. Hent og les disse filene selv. Alle ligger i mappen «Forged» under «01_PROSJEKTER».
+
+1. **PDF-en til KDP:** «FORGED_Interior_5x8_KDP_2026-11-20.pdf»
+   https://drive.google.com/file/d/1LolSyBz-1hJug-jz2IpllrfQjFmNwLHI/view
+2. **Manus, som er fasiten:** Google-dokumentet «FORGED (gjeldende, 20.11.2026)»
+   https://docs.google.com/document/d/1iVRvgjUB_EbleoLdvGoEw41NeCbigdVVp057Zpc2e3c/edit
+   Den samme teksten finnes som ren tekst i «FORGED_manus_gjeldende_2026-11-20.md»:
+   https://drive.google.com/file/d/15H5nE4oQpLWEI7Zo9zN9RGb63a-jkehu/view
+3. **Endringslisten med vedlegg A til D:** Google-dokumentet «FORGED endringer i manus 20.11.2026 (vedlegg til kontrollen)»
+   https://docs.google.com/document/d/14vJq3E0Yo1DyvyMGzvjhjxgrfCIPKDb5B2Cxbc55LQ0/edit
+
+Det finnes mange eldre utgaver av FORGED i Drive, blant annet i mappene «Downloads» og «FORGED_Redaksjon_2026-11-12». Ikke bruk dem. Les bare de filene som står over.
+
+**Før du begynner:** Bekreft at du fikk åpnet hver av de tre filene. Skriv hvor mange sider PDF-en har (den skal ha 126) og hvor mange endringer vedlegg A har (det skal ha 26). Får du ikke åpnet en fil, skriv hvilken, og stopp der. Ikke gjett hva som står i den.
+
 ## Det du skal gjøre
 
-Les hele `FORGED_manus_gjeldende_2026-11-20.md` én gang først. Gjør deretter disse seks kontrollene.
+Les hele manus (fil 2) én gang først. Gjør deretter disse seks kontrollene.
 
-**1. De 26 endringene (vedlegg A).** For hver endring:
+**1. De 26 endringene (vedlegg A i fil 3).** For hver endring:
 - Står teksten under «Etter» ordrett i manus, og er teksten under «Før» borte?
 - Er endringen en ren innstramming? Eller endrer den meningen, en teologisk påstand, forfatterens stemme eller et faktum i et scenario? Fjerner den en analogi forfatteren har brukt?
 - Gi én dom: OK, Bør vurderes eller Bør tilbakeføres. Begrunn alt som ikke er OK.
@@ -96,7 +109,7 @@ Skriv rapporten på norsk bokmål. Siter boken og skriv forslagene på engelsk.
 | Sikkerhet | Høy, middels eller lav |
 
 **4. Egenkontroll før du leverer:**
-- Søk etter hvert sitat i `FORGED_manus_gjeldende_2026-11-20.md` og bekreft at det står nøyaktig slik. Rette og krøllete apostrofer regnes som like.
+- Søk etter hvert sitat i manus (fil 2) og bekreft at det står nøyaktig slik. Rette og krøllete apostrofer regnes som like.
 - Fjern funn som bare er smak.
 - Sjekk at ingen forslag legger til fakta eller bryter rammene over.
 - Skriv hva du ikke fikk kontrollert, og hvorfor.
