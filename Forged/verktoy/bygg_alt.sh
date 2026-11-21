@@ -19,3 +19,4 @@ cp manus/FORGED_manus.md ut/FORGED_manus.md
 python3 ../verktoy/bygg_gdoc_rtf.py manus/FORGED_manus.md ut/FORGED_GoogleDocs.rtf
 cp manus/FORGED_manus.md 04-forged-redigert.md
 python3 ../verktoy/lag_videogrunnlag.py kilder/videomanus_2026-08-05.json manus/FORGED_manus.md 15-vedlegg-videomanus-mot-bok.md
+python3 ../verktoy/sjekk_r1_r10.py manus/FORGED_manus.md ut/FORGED_Interior_5x8_KDP.pdf

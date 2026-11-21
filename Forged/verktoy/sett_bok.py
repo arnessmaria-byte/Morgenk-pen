@@ -307,7 +307,8 @@ def render_blocks(bl, in_day=False):
                 out.append("#align(center, text(style: \"italic\", hyphenate: false, " + json.dumps(m.group(1)) + "))")
                 after_head = True; i += 1; continue
             if re.fullmatch(r"https?://\S+", t):
-                out.append("#align(center, text(size: 0.86em, hyphenate: false, number-type: \"lining\", " + json.dumps(t) + "))\n#v(0.9em)")
+                # box: adressen deles aldri over to linjer, og bindestreken forblir U+002D
+                out.append("#align(center, box(text(size: 0.86em, hyphenate: false, number-type: \"lining\", " + json.dumps(t) + ")))\n#v(0.9em)")
                 after_head = True; i += 1; continue
             body = inline(t)
             if after_head:
@@ -331,15 +332,6 @@ def render_blocks(bl, in_day=False):
             after_head = True; i += 1; continue
         i += 1
     return "\n".join(out)
-
-ALSO_BY = '''
-#to-recto()
-#[#metadata((kind: "chapter", text: "Also by Elias Solbak Årnes", front: false))<toc>]
-#simple-title("Also by Elias Solbak Årnes")
-#align(center, text(style: "italic", "The Foundation of Knowing: A Philosophical Inquiry"))
-#v(6pt)
-#align(center, text(style: "italic", "The Supervised Hours: A Novel"))
-'''
 
 ROMAN = ["I", "II", "III", "IV", "V"]
 
@@ -448,8 +440,7 @@ Set in EB Garamond 11.5 pt. 6 x 9 inches.
             s.append(f'#chapter-title("Day {n}", {json.dumps(title)})')
             s.append(render_blocks(c["blocks"], in_day=True))
             continue
-        if t == "About the Author":
-            s.append(ALSO_BY)
+        # «Also by»-siden er fjernet etter forfatterens valg 21.11.2026 (R1, valg A)
         # øvrige kapitler (Introduction, Conclusion, Appendix, About)
         if t.startswith("Introduction"):
             s.append("#pagebreak(weak: true)")

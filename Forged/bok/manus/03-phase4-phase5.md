@@ -174,7 +174,7 @@ Notice what fights the change. That is where you are being shaped.
 
 ### Healing Forge: When Control Once Meant Safety
 
-Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Start with one chosen limit rather than trying to control everything.
+Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Choosing for yourself is gentler than rigid control. Start with one chosen limit rather than trying to control everything.
 
 *End of Day 28*
 
@@ -647,6 +647,8 @@ A position may open doors. Authority decides what happens once you are inside.
 ### What This Day Is Really About
 
 Authority rests on whether people can believe you. It builds when what you do keeps matching what you say, even when you are not perfect. People are watching. They notice who calms a situation down and who makes it worse.
+
+Authority grows wherever someone carries responsibility without asking for credit.
 
 ### The Practice
 

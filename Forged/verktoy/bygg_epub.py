@@ -43,8 +43,7 @@ The scenarios in this book are drawn from lived experience; names and identifyin
 This is a work of spiritual formation. It is not medical, psychological, or legal advice.
 
 """
-also = "\n\n# Also by Elias Solbak Årnes\n\n*The Foundation of Knowing: A Philosophical Inquiry*\n\n*The Supervised Hours: A Novel*\n\n"
-body = body.replace("\n# About the Author", also + "# About the Author")
+# «Also by»-siden er fjernet etter forfatterens valg 21.11.2026 (R1, valg A), som i trykket
 css = """
 @font-face { font-family: "EB Garamond"; src: url("../fonts/EBGaramond-Regular.ttf"); }
 @font-face { font-family: "EB Garamond"; font-style: italic; src: url("../fonts/EBGaramond-Italic.ttf"); }

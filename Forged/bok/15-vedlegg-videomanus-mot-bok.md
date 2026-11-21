@@ -418,7 +418,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 > - What part of my integrity am I trading for an easier time?
 > - What small step toward living what I believe would cost me some comfort but help me see clearly?
 >
-> Take that small step without announcing it.
+> Take that small step without drama or announcement. Most costs are paid in private.
 
 **Healing Forge: When Rejection Reopens Old Wounds**
 

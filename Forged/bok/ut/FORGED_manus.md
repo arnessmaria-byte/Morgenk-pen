@@ -724,7 +724,7 @@ Notice one place where you tone yourself down to keep people’s approval. Ask:
 - What part of my integrity am I trading for an easier time?
 - What small step toward living what I believe would cost me some comfort but help me see clearly?
 
-Take that small step without announcing it.
+Take that small step without drama or announcement. Most costs are paid in private.
 
 ### Healing Forge: When Rejection Reopens Old Wounds
 
@@ -1002,7 +1002,7 @@ Failure only disqualifies you from growing if you never ask what it means.
 
 ### What This Day Is Really About
 
-After you fall, keep training. There is nothing glorious about failure. Examine your own failure for the point where you counted on a strength you had not trained.
+After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else’s fall. But the lesson you need is in your own. Failure is feedback: it shows where you counted on a strength you had not trained.
 
 From any failure you can take one of two things: a lesson or an excuse.
 
@@ -1486,7 +1486,7 @@ Notice what fights the change. That is where you are being shaped.
 
 ### Healing Forge: When Control Once Meant Safety
 
-Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Start with one chosen limit rather than trying to control everything.
+Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Choosing for yourself is gentler than rigid control. Start with one chosen limit rather than trying to control everything.
 
 *End of Day 28*
 
@@ -1959,6 +1959,8 @@ A position may open doors. Authority decides what happens once you are inside.
 ### What This Day Is Really About
 
 Authority rests on whether people can believe you. It builds when what you do keeps matching what you say, even when you are not perfect. People are watching. They notice who calms a situation down and who makes it worse.
+
+Authority grows wherever someone carries responsibility without asking for credit.
 
 ### The Practice
 
