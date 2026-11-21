@@ -6,7 +6,7 @@
  "kildestatus": {
   "vedtaksdokument": "GT-GEMINI-SAMKJORING-SVAR",
   "funnet": false,
-  "forklaring": "Dokumentet er ikke funnet i Drive-speilet av prosjektmappen 20.11.2026. Der ligger bare invitasjonen rapporter/gt-claude-gemini-samkjoring-2026-11-20/SAMKJORING.md. Ordlyden i TK-01 til TK-25 er derfor ukjent for denne økten, og 23 av 25 oppføringer står tomme. TK-08 og TK-22 er fylt ut fra det arbeidsordren selv sier, og er merket UBEKREFTET.",
+  "forklaring": "Dokumentet er ikke funnet i Drive-speilet av prosjektmappen 20.11.2026. Der ligger bare invitasjonen rapporter/gt-claude-gemini-samkjoring-2026-11-20/SAMKJORING.md. Ordlyden i TK-01 til TK-25 er derfor ukjent for denne økten, og 23 av 25 oppføringer står tomme. TK-08 og TK-22 er fylt ut fra det arbeidsordren selv sier, og er merket UBEKREFTET. Oppdatert 21.11.2026: tittellinjen for TK-01 er mottatt i Captains ordre; regelteksten mangler fortsatt.",
   "regelkonflikt": "MANTELEN_GT_OVERSETTELSESREGLER.md sier om det felles registeret MANTELEN_NT_GT_SAMORDNING.md: «Bruk dette registeret; ikke opprett en parallell termtabell for GT.» Captain må avgjøre forholdet mellom TK-registeret og det felles registeret."
  },
  "statuskoder": {
@@ -23,8 +23,13 @@
  "oppforinger": [
   {
    "id": "TK-01",
-   "status": "MANGLER_KILDE",
-   "merknad": "Innholdet i denne oppføringen står bare i GT-GEMINI-SAMKJORING-SVAR, som ikke er ført inn i Drive eller gitt i ordren. Ikke utfylt."
+   "status": "UBEKREFTET",
+   "tema": "Kanonisk paritet mellom WLC (GT) og Scrivener 1894 (NT)",
+   "grunnlag": "Mottatt 21.11.2026 i Captains ordre som én linje: «GT-GEMINI-TK-01: KANONISK PARITET MELLOM WLC (GT) OG SCRIVENER 1894 (NT)». Bare tittelen er mottatt. Regelteksten, virkeområdet og om låste bøker skal etterkontrolleres, er ikke gitt, slik saksgangen krever for et TK-vedtak.",
+   "aapent": [
+    "Hva pariteten konkret krever (ordlyd, versadresser, noter)",
+    "Gjelder vedtaket bare fremover, eller skal de 14 låste bøkene etterkontrolleres?"
+   ]
   },
   {
    "id": "TK-02",

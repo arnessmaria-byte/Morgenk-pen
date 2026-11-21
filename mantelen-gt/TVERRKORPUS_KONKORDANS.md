@@ -1,6 +1,6 @@
 # Tverrkorpus-konkordans (TK-01 til TK-25)
 
-**Status: UTKAST, IKKE VEDTATT. 2 av 25 oppføringer er delvis utfylt, 23 står tomme.**
+**Status: UTKAST, IKKE VEDTATT. 3 av 25 oppføringer er delvis utfylt (TK-01 bare med tittel), 22 står tomme.**
 
 Denne filen er den menneskelesbare siden av `tk_concordance.json` og er generert fra den. Den er laget 20.11.2026 av Claude Code (skyøkten) etter oppgave 1 i arbeidsordren «Mantelen GT og tverrkorpus».
 
@@ -42,7 +42,7 @@ python3 tools/tk_validate.py observe --strong H3727 --strong G2435 gt-exo.json r
 
 | ID | Status | Tema | WLC-hebraisk (Strong) | LXX-bro | Scrivener 1894 (Strong) | Låst GT-term | Låst NT-term | Studiepanelkrav |
 |---|---|---|---|---|---|---|---|---|
-| TK-01 | MANGLER_KILDE | (ikke mottatt) | | | | | | |
+| TK-01 | UBEKREFTET | Kanonisk paritet mellom WLC (GT) og Scrivener 1894 (NT). Bare tittellinjen er mottatt (21.11.2026); regeltekst og virkeområde mangler. | | | | | | |
 | TK-02 | MANGLER_KILDE | (ikke mottatt) | | | | | | |
 | TK-03 | MANGLER_KILDE | (ikke mottatt) | | | | | | |
 | TK-04 | MANGLER_KILDE | (ikke mottatt) | | | | | | |
