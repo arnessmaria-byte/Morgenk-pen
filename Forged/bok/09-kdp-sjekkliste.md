@@ -4,30 +4,31 @@
 
 **Dom: klar med navngitte rettelser.** Innmaten og e-boken består alle tekniske kontroller. Før opplasting må to ting være på plass: Sverre Johannes' godkjenning av forordet og omslaget.
 
-## Oppdatering 20.11.2026
+## Oppdatering 21.11.2026
 
-KDP-utkastet ditt fra 19.10 er satt opp som 5 × 8 tommer, svart-hvitt på hvitt papir, uten utfall og med matt omslag. Bytt PDF-en der med `ut/FORGED_Interior_5x8_KDP.pdf` fra 20.11. Den nye PDF-en har de 23 rettelsene fra oktober, de 26 strammende endringene fra 12.11, videosiden, ESV-linjen og forordslinjen.
+KDP-utkastet ditt fra 19.10 er satt opp som 5 × 8 tommer, svart-hvitt på hvitt papir, uten utfall og med matt omslag. Bytt PDF-en der med `ut/FORGED_Interior_5x8_KDP.pdf` fra 21.11 (i Drive: `FORGED_Interior_5x8_KDP_2026-11-21.pdf`, SHA-256 `a860a1660997dae451cf598bba7d79c3c0d4c2299f358e41fbbddbe3f3791009`). Den har også R1 til R10 fra instruksen din 20.11, med valg A (uten «Also by»-siden), og rettelsen i Day 28. Den nye PDF-en har de 23 rettelsene fra oktober, de 26 strammende endringene fra 12.11, videosiden, ESV-linjen og forordslinjen.
 
 | Punkt | 5 × 8 (KDP-utkastet) | 6 × 9 |
 |---|---|---|
-| Sidetall | 126, partall, siste side tom | 120, partall, siste side tom |
+| Sidetall | 124, partall, siste side tom | 118, partall, siste side tom |
 | Indre / ytre marg (minst) | 0,662 / 0,485 in | 0,739 / 0,659 in |
 | Topp / bunn (minst) | 0,328 / 0,383 in | 0,377 / 0,429 in |
-| Innholdsliste mot faktiske sider | 54 av 54 | 54 av 54 |
-| Tomme sider | 11, uten topptekst og folio | 10, uten topptekst og folio |
+| Innholdsliste mot faktiske sider | 53 av 53 | 53 av 53 |
+| Tomme sider | 10, uten topptekst og folio | 9, uten topptekst og folio |
 | Hvert avsnitt i manus finnes i PDF-en | Ja | Ja |
 | QR-koden på videosiden | Leses som spillelisten | Leses som spillelisten |
 | ESV-linje og forordslinje på copyright-siden | Med | Med |
 | Lenker og annotasjoner | 0 | 0 |
+| R1 til R10 (`verktoy/sjekk_r1_r10.py`) | Består | Ikke kjørt (gjelder 5 × 8) |
 
-Omslaget for 5 × 8 med 126 sider (bruk KDPs omslagsmal for eksakte mål):
+Omslaget for 5 × 8 med 124 sider (bruk KDPs omslagsmal for eksakte mål):
 
 | Papir | Ryggbredde | Omslag med 0,125 in utfall |
 |---|---|---|
-| Hvitt (valgt i utkastet) | 126 × 0,002252 = 0,284 in | 10,534 × 8,25 in |
-| Krem | 126 × 0,0025 = 0,315 in | 10,565 × 8,25 in |
+| Hvitt (valgt i utkastet) | 124 × 0,002252 = 0,279 in | 10,529 × 8,25 in |
+| Krem | 124 × 0,0025 = 0,310 in | 10,560 × 8,25 in |
 
-Trykkostnad for 5 × 8, 126 sider, svart-hvitt: 1,00 USD + 126 × 0,012 USD = **2,51 USD**. Med 60 % royalty gir 12,99 USD 7,79 − 2,51 = **5,28 USD** per bok, og 14,99 USD gir 8,99 − 2,51 = **6,48 USD**. Bekreft satsene i KDP på opplastingsdagen.
+Trykkostnad for 5 × 8, 124 sider, svart-hvitt: 1,00 USD + 124 × 0,012 USD = **2,49 USD**. Med 60 % royalty gir 12,99 USD 0,60 × 12,99 − 2,488 = **5,31 USD** per bok, og 14,99 USD gir 0,60 × 14,99 − 2,488 = **6,51 USD**. Bekreft satsene i KDP på opplastingsdagen.
 
 Resten av dokumentet under er fra 18.10 og gjelder 6 × 9 med 118 sider, der ikke annet står.
 
@@ -111,8 +112,8 @@ Royalty er 60 % av listeprisen fra 9,99 USD og oppover, og 50 % under 9,99 USD. 
 - [x] Sluttleserens teologiske merknader avgjort og lagt inn (tiltak 11, 18.10.2026)
 - [x] «sexuality» strøket fra OBSERVE-listen (tiltak 12)
 - [x] Day 30 og tabellraden i Day 38 avgjort 18.10.2026 (beslutning 20 og 21)
-- [ ] Bytt PDF-en i KDP-utkastet fra 19.10 med `ut/FORGED_Interior_5x8_KDP.pdf` (20.11) før ISBN legges inn. Den gamle er laget fra en eldre utgave av manus. Se `16-status-2026-11-12.md`.
-- [ ] Omslaget laget med KDPs mal for 5 × 8 og 126 sider (hvitt papir er valgt i utkastet)
+- [ ] Bytt PDF-en i KDP-utkastet fra 19.10 med `FORGED_Interior_5x8_KDP_2026-11-21.pdf` (124 sider) før ISBN legges inn. Den gamle er laget fra en eldre utgave av manus. Se `16-status-2026-11-12.md`.
+- [ ] Omslaget laget med KDPs mal for 5 × 8 og 124 sider (hvitt papir er valgt i utkastet)
 - [ ] ISBN valgt. Med eget ISBN legges linjen inn i `verktoy/sett_bok.py`, og PDF-en bygges på nytt.
 - [ ] Beskrivelse, sju søkeord og kategorier skrevet (ikke en del av denne runden)
 - [ ] KDP-forhåndsvisningen lest side for side, også siste side
