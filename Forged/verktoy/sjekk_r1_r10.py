@@ -98,12 +98,21 @@ for d in range(1, 41):
 sjekk("R8", not problemer, f"40 tabeller med to kolonner, tittel «X vs. Y» og én linje under; de fem fredede linjene står{'' if not problemer else '; avvik: ' + str(problemer)}")
 print(f"  NOTE R8 to setninger i linja under tabellen på {len(flere)} dager: {flere} (forfatterens tekst, ikke endret)")
 # R9
+# Forfatterens komplette mesterordre 22.11.2026 ba om nye, konkrete scenarioer på Day 2-40.
+# Da er de gjenopprettede scenariosetningene på Day 19 og 40 og oktoberrettelse nr. 4
+# (scenariet på Day 4) erstattet etter ordre, og de meldes som merknad, ikke feil.
 for d, s in TILBAKE.items():
-    sjekk("R9", s in under(D[d], "### The Scenario"), f"Day {d}: den godkjente teksten står i The Scenario")
+    if s in under(D[d], "### The Scenario"):
+        sjekk("R9", True, f"Day {d}: den godkjente teksten står i The Scenario")
+    else:
+        print(f"  NOTE R9 Day {d}: scenariet er skrevet nytt etter mesterordren 22.11 (den gjenopprettede teksten fra 20.11 er erstattet)")
 for h in ("# Foreword", "# About the Author"):
     sjekk("R9", nivaa1(t).get(h) == nivaa1(grunn).get(h), f"{h[2:]} er uendret mot 20.11")
-mangler = [c["n"] for c in okt if c["n"] != 11 and n(c["new"]) not in n(t)]
-sjekk("R9", not mangler, f"oktoberrettelsene: {22 - len(mangler)} av 22 står ordrett (nr. 11 er erstattet av R5)")
+ERSTATTET = {11: "R5", 4: "mesterordren 22.11 (nytt scenario på Day 4)"}
+mangler = [c["n"] for c in okt if c["n"] not in ERSTATTET and n(c["new"]) not in n(t)]
+borte = [c["n"] for c in okt if c["n"] in ERSTATTET and n(c["new"]) not in n(t)]
+sjekk("R9", not mangler, f"oktoberrettelsene: {22 - len(mangler) - len(borte)} av 22 står ordrett"
+      + "".join(f"; nr. {k} er erstattet av {ERSTATTET[k]}" for k in borte) + ("" if not mangler else f"; mangler: {mangler}"))
 # R10
 strek = t.count(chr(0x2014)) + t.count(chr(0x2015))
 ulovlig = [i for i, l in enumerate(t.split("\n"), 1) if EN in LOVLIG_EN.sub("", l)]
