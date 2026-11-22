@@ -104,6 +104,17 @@ Full verified texts: `/home/user/Morgenk-pen/Forged/bok/kilder/m22/vers_kontroll
 - **Named, as in round 1:** every other day. Day 1 keeps Jake (the author's own story).
 - All scenarios stay at 55 to 85 words (the checker counts them).
 
-## Page budget
+## Page budget and how to measure it
 
-Unchanged: every day and every section keeps its exact page count. The book stays 124 pages, and the Introduction, Appendix A, B and C stay inside their budgets (see the per-task numbers). New theology lines must be paid for by cutting older, abstract filler in the same day or section, never the fixed sentences, the approved sentences, the scripture anchor or the safety lines.
+Every day and every section keeps its exact page count. The book stays 124 pages: the Introduction, Appendix A, B and C keep their page counts, Appendix C starts on printed page 113 and About the Author on printed page 115. New theology lines must be paid for by cutting older, abstract filler in the same day or section, never the fixed sentences, the approved sentences, the scripture anchor or the safety lines.
+
+The line estimate in the round-1 checker turned out to be too rough. Round 2 measures in the real 5 x 8 typesetting:
+
+    python3 /home/user/Morgenk-pen/Forged/verktoy/mal_dag.py DAYFILE [DAYFILE ...]
+    python3 /home/user/Morgenk-pen/Forged/verktoy/mal_dag.py --seksjon SECTIONFILE [--seksjon ...]
+
+It sets the whole book in a private temporary copy (about 3 seconds, safe to run in parallel) and prints, per day, its pages against the budget, the lines on its last page and the free lines left there; for a section, the free lines on its last page and the printed start page of every part. Exit 0 is required. Leave at least 1 free line on the last page (2 or more is safer), and at least 3 lines of text on it.
+
+Two layout rules explain most overflows. The Healing Forge box, together with "End of Day", never splits across pages, and neither does a table. If the box does not fit in what is left of the page, the whole box moves to the next page and the day gains a page. So when a day spills, cut lines anywhere before the box until the box fits again. In round 1, Days 7, 8, 9, 37 and 39 spill to a third page. Bring each back to 2 pages in round 2.
+
+Run the round-1 checker without the line estimate: `python3 /home/user/Morgenk-pen/Forged/verktoy/sjekk_dag.py ORIG NEW --dag N` (leave out --ledige and --brukt). For sections: `python3 /home/user/Morgenk-pen/Forged/verktoy/sjekk_seksjon.py ORIG NEW`. Quotes with a reference in parentheses: `python3 /home/user/Morgenk-pen/Forged/verktoy/sjekk_sitater.py FILE ...` must exit 0, and a quote it marks MERK (no verified text) must lose its quotation marks or be replaced with a verified fragment from the list above. The placement checklist: `python3 /home/user/Morgenk-pen/Forged/verktoy/sjekk_teologi.py FILE ...` must show no FEIL for the days and sections in your files.

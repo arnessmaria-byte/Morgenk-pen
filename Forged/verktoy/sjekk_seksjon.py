@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Kontroll av en omskrevet innledning eller et vedlegg mot originalen (mesterordren 22.11.2026).
 
-Bruk: python3 sjekk_seksjon.py ORIGINAL.md NY.md --ledige L --brukt B
+Bruk: python3 sjekk_seksjon.py ORIGINAL.md NY.md [--ledige L --brukt B]
 Exit 0 = alle sperrer består. Linjetallet er et anslag; den bygde PDF-en avgjør.
 """
 import argparse, math, re, sys
@@ -29,7 +29,7 @@ def linjer(tekst):
 
 ap = argparse.ArgumentParser()
 ap.add_argument("orig"); ap.add_argument("ny")
-ap.add_argument("--ledige", type=int, required=True); ap.add_argument("--brukt", type=int, required=True)
+ap.add_argument("--ledige", type=int); ap.add_argument("--brukt", type=int)
 a = ap.parse_args()
 o, n = open(a.orig, encoding="utf-8").read().strip(), open(a.ny, encoding="utf-8").read().strip()
 feil = []
@@ -47,7 +47,10 @@ prosa = "\n".join(l for l in n.split("\n") if not l.startswith(">"))
 sjekk(not any(c in prosa for c in "“”’‘"), "rette anførselstegn og apostrofer i prosaen")
 sjekk(len(re.findall(r"fits? together", n, re.I)) <= 1, "«fit together» høyst én gang")
 d = linjer(n) - linjer(o)
-sjekk(d <= a.ledige - 1, f"anslått endring {d:+d} linjer, høyst {a.ledige - 1:+d}")
-sjekk(d >= -(a.brukt - 4), f"anslått endring {d:+d} linjer, minst {-(a.brukt - 4):+d}")
+if a.ledige is not None and a.brukt is not None:
+    sjekk(d <= a.ledige - 1, f"anslått endring {d:+d} linjer, høyst {a.ledige - 1:+d}")
+    sjekk(d >= -(a.brukt - 4), f"anslått endring {d:+d} linjer, minst {-(a.brukt - 4):+d}")
+else:
+    print(f"  MERK anslått endring {d:+d} linjer; mål sidene med mal_dag.py --seksjon")
 print("RESULTAT:", "består" if not feil else f"{len(feil)} feil")
 sys.exit(1 if feil else 0)

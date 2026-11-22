@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Kontroll av én omskrevet dag mot originalen (mesterordren 22.11.2026).
 
-Bruk: python3 sjekk_dag.py ORIGINAL_DAG.md NY_DAG.md --dag N --ledige L --brukt B
+Bruk: python3 sjekk_dag.py ORIGINAL_DAG.md NY_DAG.md --dag N [--ledige L --brukt B]
   L = ledige linjer på dagens siste side i 5 x 8 (fra budsjettet)
   B = linjer brukt på dagens siste side
 Exit 0 = alle sperrer består. Linjetallet er et anslag (63 tegn per linje,
-52 i punktlister); den bygde PDF-en avgjør til slutt.
+52 i punktlister). Uten --ledige og --brukt hoppes anslaget over; mål da
+dagen i ekte sats med mal_dag.py, som avgjør.
 """
 import argparse, math, re, sys
 
@@ -57,8 +58,8 @@ def ord_(s):
 
 ap = argparse.ArgumentParser()
 ap.add_argument("orig"); ap.add_argument("ny")
-ap.add_argument("--dag", type=int, required=True); ap.add_argument("--ledige", type=int, required=True)
-ap.add_argument("--brukt", type=int, required=True)
+ap.add_argument("--dag", type=int, required=True); ap.add_argument("--ledige", type=int)
+ap.add_argument("--brukt", type=int)
 a = ap.parse_args()
 o, n = open(a.orig, encoding="utf-8").read().strip(), open(a.ny, encoding="utf-8").read().strip()
 feil = []
@@ -104,8 +105,8 @@ vers = " ".join(l[1:].strip() for l in ln if l.startswith(">") and l[1:].strip()
 ref = [l[1:].strip() for l in ln if l.startswith(">") and l[1:].strip()][-1]
 bok = re.sub(r"\s*\d+:\d+.*$", "", ref)
 sjekk(("Christ" in wd or "Jesus" in wd), "What This Day Is Really About nevner Kristus")
-# sitater fra verset må stå ordrett
-for q in re.findall(r"[“\"]([^”\"]+)[”\"]", wd):
+# sitater fra verset må stå ordrett (sitater med egen henvisning i parentes kontrolleres av sjekk_sitater.py)
+for q in [m.group(1) for m in re.finditer(r"[“\"]([^”\"“]+)[”\"]", wd) if not re.match(r"\s*\([^()]*\d+:\d+", wd[m.end():])]:
     vn = vers.replace("“", "").replace("”", "").replace('"', "")
     sjekk(q.strip(" ,.") in vn, f"sitatet «{q[:40]}» står ordrett i verset")
 # tegn
@@ -116,10 +117,13 @@ sjekk(not any(c in prosa for c in "“”’‘"), "rette anførselstegn og apos
 sjekk(len(re.findall(r"fits? together", n, re.I)) <= 1, "«fit together» høyst én gang")
 for fr in ("Here is the thing", "Let me be clear", "This day is not about", "Today is not about"):
     sjekk(fr not in n, f"ikke «{fr}»")
-# linjebudsjett
+# linjebudsjett (anslag; mal_dag.py avgjør)
 d = linjer(n) - linjer(o)
-sjekk(d <= a.ledige - 1, f"anslått endring {d:+d} linjer, høyst {a.ledige - 1:+d}")
-sjekk(d >= -(a.brukt - 4), f"anslått endring {d:+d} linjer, minst {-(a.brukt - 4):+d} (ellers mister dagen en side)")
+if a.ledige is not None and a.brukt is not None:
+    sjekk(d <= a.ledige - 1, f"anslått endring {d:+d} linjer, høyst {a.ledige - 1:+d}")
+    sjekk(d >= -(a.brukt - 4), f"anslått endring {d:+d} linjer, minst {-(a.brukt - 4):+d} (ellers mister dagen en side)")
+else:
+    print(f"  MERK anslått endring {d:+d} linjer; mål sidene med mal_dag.py")
 print(f"ord: {ord_(o)} -> {ord_(n)}")
 print("RESULTAT:", "består" if not feil else f"{len(feil)} feil")
 sys.exit(1 if feil else 0)
