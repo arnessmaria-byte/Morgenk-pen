@@ -4,11 +4,11 @@
 >
 > Proverbs 27:17
 
-Strength gets steadier when you stay close to other men. What you believe gets clearer when it is tested by people who will not flatter you or disappear.
+Strength gets steadier when you stay close to other men. Your beliefs get clearer when tested by men who will not flatter you.
 
 ### The Scenario
 
-Levi lifted alone at 5 a.m. with his earbuds in. He read his Bible alone at the kitchen table. On Sundays he sat in the back row and left during the last song. No one saw how tired he was getting, and no one called out his excuses. His bench press had not moved in eight months, and his prayers had gone stale. He put in plenty of effort. What he lacked was friction: other men pushing back.
+Levi lifted alone at 5 a.m. with his earbuds in. He read his Bible alone at the kitchen table. On Sundays he sat in the back row and left during the last song. No one called out his excuses. His bench press had not moved in eight months, and his prayers had gone stale. What he lacked was friction: other men pushing back.
 
 ### Isolation vs. Brotherhood
 
@@ -24,9 +24,11 @@ Other men can show you blind spots you will miss alone.
 
 ### What This Day Is Really About
 
-The number of your friends matters less than their quality. Brotherhood means heading the same way and letting each other say hard things. Without friction, what you believe goes dull. Without someone checking on you, your discipline wears away.
+The number of your friends matters less than their quality. Brotherhood means heading the same way and letting each other say hard things. Without friction, what you believe goes dull.
 
-Brotherhood has a natural home: the local church. That is where you find men ahead of you as well as beside you. Jesus chose twelve men to be with Him, and His church is still where "one man sharpens another." If you cannot name one man headed the same way as you, start looking in a church, not on an app.
+Jesus chose twelve men to be with Him, and His church is still where "one man sharpens another." Paul told Timothy to pass on what he had heard: "entrust to faithful men, who will be able to teach others also" (2 Timothy 2:2). Look for those men, tested over years and standing on the apostles' teaching.
+
+You need them because many pulpits have left that teaching. They preach comfort without repentance, bend Scripture to fit the age, and bless what God calls sin. Sit under that alone, and you drift with it. Brothers who stand on the word will hold you to it. When they correct you, repent: the pull toward approval that bent those pulpits works on you too.
 
 ### The Practice
 
@@ -34,9 +36,9 @@ Think about the men around you. Ask:
 
 - Who sees my habits clearly?
 - Who can challenge me without me brushing him off?
-- Where am I training alone because it is easier?
+- Which of them stands on Scripture when it costs him?
 
-**Today's Action:** Before bed, text one brother from your church whom you trust. Ask him to meet for breakfast or a workout this week, and tell him one habit you want him to ask you about. You do not need to start a group. Start one honest conversation.
+**Today's Action:** Before lunch, choose one brother who holds to Scripture and text him. Ask him to meet this week for breakfast or a workout, and tell him one habit you want him to ask you about.
 
 ### Healing Forge: When Brotherhood Was Missing
 

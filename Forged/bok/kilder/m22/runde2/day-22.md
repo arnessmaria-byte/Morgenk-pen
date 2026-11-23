@@ -24,18 +24,18 @@ Rules tell you how to behave. Wisdom tells you when to act.
 
 ### What This Day Is Really About
 
-Keep the rules, and learn what to do when they say nothing. Rules are like grammar, and wisdom is like speech. A man can know every rule of a language and still have nothing to say, and sooner or later a situation comes up that no grammar book covers.
+Keep the rules, and learn what to do when they say nothing. Rules are like grammar, and wisdom is like speech. A man can know every rule of a language and still have nothing to say.
 
-Under the new covenant Jesus made, "the Spirit gives life" and writes God's commands on your heart, so they guide you even where no rule speaks. A wise man looks at the whole picture and acts with self-control. Maturity begins when you stop waiting for permission and take responsibility.
+Under the new covenant Jesus made, "the Spirit gives life" and writes God's commands on your heart, so they guide you even where no rule speaks. He is "the Spirit of truth, who proceeds from the Father" (John 15:26), and "God has sent the Spirit of his Son into our hearts" (Galatians 4:6). He cancels none of God's commands, and He leads you as a son, not a slave with a checklist.
 
 ### The Practice
 
-Think of a recent moment when no rule told you what to do. Ask:
+Think of a recent moment when someone needed help and no rule told you to give it. Ask:
 
 - What did I hold back from, and why?
 - What would being faithful have asked of me?
 
-**Today's Action:** Tonight, take the step you held back from. If you left someone alone, text or call that person, ask how they are doing, and offer your help now. Do not look for ways around the rules. Own your part.
+**Today's Action:** Tonight, go back and take that step: text or call the person you left alone, ask how they are doing, and offer one specific kind of help.
 
 ### Healing Forge: When Rules Meant Safety
 

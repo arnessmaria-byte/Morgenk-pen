@@ -8,7 +8,7 @@ Running from failure stops your growth. Failing does not. What matters is whethe
 
 ### The Scenario
 
-In August, Caleb took seventeen credits on top of a thirty-hour job and agreed to lead a small group at church. He planned to run on six hours of sleep. By October he had failed a calculus midterm and missed three group nights. Shame came first. He stopped going to calculus, left the group without a word, and ignored his pastor's texts. The failure itself was short. The retreat lasted much longer. He learned nothing, because he never looked at what had happened.
+Peter promised to lay down his life for Jesus. Hours later, warming himself at a charcoal fire in the high priest's courtyard, he denied three times that he was His disciple. After the resurrection, Jesus had breakfast ready on another charcoal fire by the lake and asked him three times, "Simon, son of John, do you love me?" (John 21:17). Peter was grieved. Each time, Jesus gave him work to do: care for His sheep.
 
 ### Failure Ignored vs. Failure Examined
 
@@ -26,19 +26,19 @@ Failure only disqualifies you from growing if you never ask what it means.
 
 After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else's fall. But the lesson you need is in your own. Failure is feedback: it shows where you counted on a strength you had not trained.
 
-From any failure you can take one of two things: a lesson or an excuse. The righteous man "falls seven times and rises again," and in Christ, no fall costs you your place with God, so you are free to look at yours honestly.
+Peter's fall was sin. Trying harder never made a man right with God. You are justified by grace, through faith, by the blood of Christ who took your place (Romans 3:25-26; Galatians 2:16). That faith does not sit idle. It obeys (James 2:21-24). The righteous man "falls seven times and rises again," and in Christ no fall has the last word, so you can look at yours honestly.
 
 ### The Practice
 
-Choose one recent failure: the one that taught you most, not necessarily the one that hurt most. Ask:
+Choose one recent failure, the one that taught you most. Ask:
 
 - What did this show me about how I prepared?
 - Where did I count on good intentions instead of training?
 
-**Today's Action:** Before bed, write that failure down in one sentence, with no blame in it. Under it, write the one change you will make. Then put your next try on the calendar with a day and a time.
+**Today's Action:** By 10 p.m., write the failure in one blame-free sentence, add one change, and put your next try on the calendar.
 
 ### Healing Forge: When Failure Hit Who You Are
 
-If you were once punished for mistakes by losing approval, losing safety, or being humiliated, avoiding failure became your protection. You still have to face failure to grow. Healing keeps failure from deciding your worth, even while the memory stays. A failure is one event. Your growth is the whole road.
+If you were once punished for mistakes by losing approval, losing safety, or being humiliated, avoiding failure became your protection. A mistake does not decide your worth. Sin is washed in Christ's blood: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9). A failure is one event. Your growth is the whole road.
 
 *End of Day 18*

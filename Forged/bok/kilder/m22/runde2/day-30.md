@@ -26,7 +26,7 @@ Often, silence means reassurance is being held back.
 
 Today is about staying faithful without that reassurance, whether or not the feelings return. Sooner or later, your growth stops running on excitement and starts running on commitment. Early on, God often feels close because your faith is still being built. Later, your faith holds because you have chosen it.
 
-God does not always speak to ease your discomfort. He knows what is in you, and now He is letting you see what has been built there. Jesus cried "My God, my God, why have you forsaken me?" from the cross, so you can pray those words without shame.
+Jesus cried "My God, my God, why have you forsaken me?" from the cross, so you can pray those words without shame. At His table you share in Christ Himself, whatever you feel: "The bread that we break, is it not a participation in the body of Christ?" (1 Corinthians 10:16). The table is for baptized believers who examine themselves and discern the body (1 Corinthians 11:28-29).
 
 ### The Practice
 
@@ -35,7 +35,7 @@ Do not chase anything new today: no new message, no signs, no fresh reassurance.
 - What have I dropped since God went quiet?
 - Where am I waiting for a feeling before I obey?
 
-**Today's Action:** Tonight, pray out loud for five minutes and tell God plainly that He feels far away. Then do one right thing you have put off, like calling the friend you owe an apology.
+**Today's Action:** Tonight, tell God out loud that He feels far away. Then make the apology or phone call you have put off.
 
 ### Healing Forge: When Silence Feels Like Abandonment
 

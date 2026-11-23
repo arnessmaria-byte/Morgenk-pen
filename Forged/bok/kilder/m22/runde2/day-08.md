@@ -8,7 +8,7 @@ Some men let passion drive. Others treat it as a danger and shut it down. Passio
 
 ### The Scenario
 
-Evan ran on excitement. At 1 a.m. he bought a used camera to start a YouTube channel. He joined the church band and practiced bass every night for two weeks. In January he signed up for a 6 a.m. gym class. By March the camera sat in its box, he had missed three rehearsals in a row, and he slept through every gym alarm. He mistook strong feelings for direction. He had bursts of speed and no staying power.
+Evan ran on excitement. At 1 a.m. he bought a used camera to start a YouTube channel. He joined the church band and practiced bass every night for two weeks. In January he signed up for a 6 a.m. gym class. By March the camera sat in its box, he had skipped three rehearsals, and he slept through every gym alarm. He took strong feelings for direction and had no staying power.
 
 ### Passion as Driver vs. Passion as Indicator
 
@@ -24,22 +24,24 @@ Read your passion. Do not hand it the wheel.
 
 ### What This Day Is Really About
 
-Listen to your passion carefully. Think of the gauges on a dashboard. A warning light gives you information, and the car is still yours to steer. A driver who pulls over every time a light blinks is as lost as one who tapes over the whole dashboard. Passion often marks the place where what you can do, what you want, and what matters all meet. Without purpose in charge, it jumps around and turns into doing whatever you feel like.
+Our culture tells you to follow your passion. Treat it instead like the gauges on a dashboard. A warning light gives you information, and the car is still yours to steer. A driver who pulls over every time a light blinks is as lost as one who tapes over the whole dashboard. Passion often marks the place where what you can do, what you want, and what matters all meet. Without purpose in charge, it jumps from one thing to the next.
 
 Paul tells the church to "desire the higher gifts" for the good of the body of Christ, so aim your passion there and let love lead.
 
 ### The Practice
 
-Pick one passion that keeps coming back, something deeper than a passing urge.
+Pick one passion that keeps coming back.
 
 - What does this passion keep pointing me toward?
 - What would it ask of me if I took it seriously?
 - Where does it make me feel rushed or entitled?
 
-**Today's Action:** Tonight, give that passion ten minutes of the boring part: scales instead of a new song, one rough page instead of a big plan. Then write one line about whether the desire was still there once the excitement was gone.
+**Today's Action:** After dinner, give that passion ten minutes of the boring part: scales instead of a new song, one rough page instead of a big plan. Then write one line on whether the desire outlasted the excitement.
+
+**Phase Check:** List the actions from Days 1 to 8 and mark each one done or skipped. Finish one skipped action before 10 p.m.
 
 ### Healing Forge: When Passion Was Punished
 
-You may have grown up where passion was treated as a threat. Emotion was shamed, desire was controlled, and being intense was called being unstable. Passion that is pushed down long enough comes back twisted. Healthy training shapes passion. Discipline teaches the fire where to burn instead of putting it out.
+You may have grown up where passion was treated as a threat. Strong feelings got you mocked or punished, and being intense was called being unstable. Passion that is pushed down long enough comes back twisted. God made you with that fire. Discipline teaches it where to burn instead of putting it out.
 
 *End of Day 8*

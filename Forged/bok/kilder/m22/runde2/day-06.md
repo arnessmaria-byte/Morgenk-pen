@@ -26,13 +26,15 @@ Strength comes with responsibility attached.
 
 ### What This Day Is Really About
 
-A soldier who signs for a radio does not own it. He answers for it. Your strength works the same way. Without an assignment, strength starts to feed your pride, help you escape, or grab for control. Strength you accept as an assignment has a job to do.
+A soldier who signs for a radio does not own it. He answers for it. Your strength works the same way. Without an assignment, strength starts to feed your pride, help you escape, or grab for control.
+
+The assignment goes back to creation. God made man in His image, "male and female he created them" (Genesis 1:27), so women and men bear His image equally. Paul told the Athenians, "He has made from one blood every nation of men" (Acts 17:26, NKJV). That blood goes back to one real man, Adam. Paul calls him the first man and calls Christ the last Adam (1 Corinthians 15:45). God put Adam in the garden to work it and guard it (Genesis 2:15), so strength had a job from the first day. Reject every teaching that calls Adam a myth, calls your sex a choice, or ranks one race above another. And if you have used your strength to look down on anyone, repent of it.
 
 God trusts you with your strength on purpose, and He will ask you to answer for it. In Luke 12:48 Jesus talks about servants waiting for their master, and your strength is part of what He left in your care.
 
 ### The Practice
 
-Name one strength you rely on but rarely offer, such as making firm decisions, staying steady when feelings run high, a strong back, or thinking a few steps ahead.
+Name one strength you rely on but rarely offer: a strong back, a steady head, quick decisions, or thinking a few steps ahead.
 
 - Who near me would benefit if I put this strength to work?
 - Where have I been guarding this ability instead of using it?
@@ -42,6 +44,6 @@ Name one strength you rely on but rarely offer, such as making firm decisions, s
 
 ### Healing Forge: When Strength Became a Burden
 
-Some men grew strong early because weakness was not safe. They learned to carry more, decide faster, and feel less. That strength was necessary then. If you never look at it, it hardens, and strength meant to protect you can leave you isolated. To heal, let go of the belief that you must carry everything alone. You can keep your strength.
+Some men grew strong early because weakness was not safe. They learned to carry more, decide faster, and feel less. That strength was needed then. If you never look at it, it hardens, and strength meant to protect you can leave you isolated. Christ never asked you to carry everything alone. Bring the weight to Him, and let a brother take one end of it (Galatians 6:2). You can keep your strength.
 
 *End of Day 6*

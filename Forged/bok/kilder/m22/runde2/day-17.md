@@ -24,18 +24,18 @@ Knowing gets your faith ready. Moving proves it.
 
 ### What This Day Is Really About
 
-Trust has to show up in what you do, without rushing in blindly. Some truths stay ideas until you act on them. You cannot steer a bicycle that is standing still. Balance and direction come together, and both come after you push off.
+Trust has to show up in what you do, without rushing in blindly. You cannot steer a bicycle that is standing still. Balance and direction come together, and both come after you push off.
 
-If you tend to act on feeling, Day 8 was for you. If fear keeps you waiting, today is for you. Waiting feels wise, but a wait that goes on too long is often fear pretending to be good judgment. James wrote "be doers of the word" to people who already followed Jesus, and he warned that a man who only listens is fooling himself.
+If you tend to act on feeling, Day 8 was for you. If fear keeps you waiting, today is for you. Waiting feels wise, but a wait that goes on too long is often fear pretending to be good judgment. James wrote "be doers of the word" to people who already followed Jesus, and he warned that a man who only listens is fooling himself. He also calls it sin to know the right thing and leave it undone (James 4:17). Confess the delay, then move.
 
 ### The Practice
 
 Think of one thing you already know but have not acted on. Ask:
 
-- What have I put off obeying because I wanted to be sure first?
-- What is the smallest real step I could take tonight?
+- What have I put off obeying until I feel sure?
+- What is the smallest real step I could take today?
 
-**Today's Action:** Before bed, take that one step. For example, send a pastor or church leader the text you keep deleting. Skip the long plan. Do not wait until you feel sure.
+**Today's Action:** Before dinner, take that one step. For example, send a pastor or church leader the text you keep deleting. Skip the long plan.
 
 ### Healing Forge: When Moving Felt Unsafe
 

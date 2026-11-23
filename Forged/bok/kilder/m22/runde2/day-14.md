@@ -8,7 +8,7 @@ Money rarely gives orders out loud. It steers you through budgets, delays, trade
 
 ### The Scenario
 
-Ryan never thought money ran his life. Then his church asked him to help lead the summer mission trip, with a $300 deposit due Friday. He opened his bank app. The last thirty days were a long scroll of takeout, ten-dollar sports bets, energy drinks, and a jacket he had worn once. His balance was $46. He told the pastor he would think about it. Money had already answered for him.
+Your church asks you to help lead the summer mission trip. The $300 deposit is due Friday. You open your bank app. The last thirty days scroll past: takeout four nights a week, ten-dollar sports bets, energy drinks, a jacket you wore once. Your balance is $46. You tell the pastor you will think about it, but you already know the answer. Your money gave it weeks ago, five and ten dollars at a time.
 
 ### Money as a Tool vs. Money as the Boss
 
@@ -24,7 +24,7 @@ Money never just sits there. It serves your direction, or it slowly takes it ove
 
 ### What This Day Is Really About
 
-Every money decision pushes you a little further one way or another. Money teaches you which risks you will take, which discomfort you will avoid, and which future you will protect. Jesus said that "where your treasure is, there your heart will be also," so your heart follows your money.
+Jesus said that "where your treasure is, there your heart will be also," so your heart follows your money. Three verses later He says no one can serve both God and money (Matthew 6:24). You were bought back with the blood of Christ, worth more than silver or gold (1 Peter 1:18-19), so every dollar you hold answers to Him.
 
 If you never decide what money is for, it will decide for you.
 
@@ -32,12 +32,11 @@ If you never decide what money is for, it will decide for you.
 
 - What does my spending protect?
 - Where is money making me put off what God asks?
-- What future am I paying for, one tap at a time?
 
-**Today's Action:** Open your bank app and read the last thirty days line by line. Pick the leak that costs you the most and cut it before bed: delete the app or remove your card. If any line is a bet, delete the betting app too and tell one person you trust this week.
+**Today's Action:** Open your bank app before 10 tonight and read the last thirty days line by line. Pick the biggest leak and cut it now: delete the app, cancel the subscription, or remove your saved card. If any line is a bet, delete the betting app too and text one trusted brother what you found.
 
 ### Healing Forge: When Money Meant Safety
 
-Maybe money made you feel safe early in life, because it promised control when things felt shaky. That is understandable. But leaning on money for safety can take the place of trusting God without you noticing. Putting money back in its place means making it your servant again. It does not mean giving it away carelessly.
+Maybe money made you feel safe early in life, because it promised control when things felt shaky. That makes sense. But money you lean on for safety slowly takes the place of trusting God. Your Father knows what you need (Matthew 6:32). If secret bets or spending have become sin, bring them into the light: confess them to God and one brother, and Jesus' blood washes you clean (1 John 1:7). Then make money your servant again, without throwing it away.
 
 *End of Day 14*

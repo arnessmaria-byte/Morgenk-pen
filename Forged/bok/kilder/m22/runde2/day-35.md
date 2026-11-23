@@ -8,7 +8,7 @@ A man who steadies a room without drawing attention to himself earns influence o
 
 ### The Scenario
 
-Scott rarely talked first. During a biology group project, two teammates started arguing in a study room over who was slacking, and their voices got louder. Scott waited until they stopped for breath. Then he said, "Let's list what's left and split it." They did. At the coffee shop where he worked mornings, new hires brought their questions to him instead of the manager. He had never asked to be in charge. People just trusted the guy who kept his voice down.
+Scott rarely talked first. On a biology project, two teammates argued in a study room over who was slacking, louder each minute. Scott waited until they stopped for breath, then said, "Let's list what's left and split it." They did. At the coffee shop where he worked, new hires brought their questions to him instead of the manager. He had never asked to be in charge.
 
 ### Noise vs. Weight
 
@@ -20,25 +20,23 @@ Scott rarely talked first. During a biology group project, two teammates started
 | Reacts emotionally | Thinks, then responds |
 | Makes a splash, then fades | Keeps building trust |
 
-Influence works by weight, the way gravity does. It does not force anyone.
+Influence works like gravity: by weight, never by force.
 
 ### What This Day Is Really About
 
-Become dependable, and let the impact take care of itself. This kind of influence grows when you hold back, choose your words with care, and act on what you believe.
+Most rooms already have enough opinions. What they need is someone steady. Proverbs says, "A soft answer turns away wrath," and Jesus answered Pilate calmly, with His life at stake.
 
-Most rooms already have enough opinions. What they need is someone steady. You earn influence that lasts by living what you say. Proverbs says, "A soft answer turns away wrath," and Jesus answered Pilate calmly, with His life at stake.
+Jezebel shows the other way. When Naboth would not sell his vineyard, Ahab sulked in bed, and she took over. She wrote letters in his name, set two worthless men to accuse Naboth falsely, and had him stoned. No one sold himself to evil like "Ahab, whom Jezebel his wife incited" (1 Kings 21:25). She ruled by pressure and manipulation, and her method lives on in outrage campaigns and in church bodies that squeeze a pastor until he gives in. Ahab sulked and Jezebel pushed. If either is your way, repent. A godly man moves people with steady truth, spoken plainly and lived out.
 
 ### The Practice
 
-Think back over the last few days. Ask:
-
 - When did my tone make a tense moment worse?
-- Who do I tend to talk over?
+- When did I sulk or push to get my way?
 
-**Today's Action:** At dinner tonight or on today's shift, let everyone else talk first. Ask one question, listen to the whole answer, and keep your own reply to one calm sentence. Notice how the room changes.
+**Today's Action:** At dinner tonight or on today's shift, let everyone else talk first. Ask one question, listen to the whole answer, and keep your own reply to one calm sentence.
 
 ### Healing Forge: When Silence Once Meant Being Invisible
 
-Maybe being quiet once meant being ignored: overlooked, brushed off, passed over. So you learned to put on a show. This time you choose the silence, and it will not make you disappear. People will feel the weight of your silence without you having to explain it.
+Maybe being quiet once meant being ignored: overlooked, brushed off, passed over. So you learned to put on a show. Choosing silence now will not erase you. God saw Hagar alone in the desert, and He sees you (Genesis 16:13).
 
 *End of Day 35*

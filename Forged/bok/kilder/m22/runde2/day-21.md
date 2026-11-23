@@ -4,7 +4,7 @@
 >
 > 1 Timothy 6:12
 
-The battles that matter most are rarely seen. You fight them with no audience, no explanation, and no credit, and they decide where your life goes.
+The battles that matter most are rarely seen, and Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, NKJV).
 
 ### The Scenario
 
@@ -18,28 +18,25 @@ For two years David's week ran the same way. Tuesday brought stress: a deadline 
 | Grows in secret | Is brought into the open |
 | Wears down confidence | Builds staying power |
 | Shapes you in hidden ways | Is faced head-on |
-| Feels shameful | Helps you grow |
+| Hides in shame | Is confessed to God |
 
 Silence makes a struggle stronger.
 
 ### What This Day Is Really About
 
-A battle you never name works like a slow leak in a tire. It makes no noise. It just asks a little more of you every mile. Whatever you refuse to admit will steer you from the inside. You do not need to tell the whole church. You need one brother who knows. Paul told young Timothy to fight "the good fight of the faith," and in Christ no man is meant to fight it alone.
-
-When you name a struggle, it gets easier to handle, not bigger.
+A battle you never name works like a slow leak in a tire. It makes no noise. It just asks a little more of you every mile. Promises made alone will not plug it. Confess the sin to God, then tell one brother, not the whole church. Paul told young Timothy to fight "the good fight of the faith," and in Christ no man is meant to fight it alone.
 
 ### The Practice
 
 Name the battle that keeps coming back. Ask:
 
-- When and where does the pull usually start?
-- What do I reach for first when it hits?
+- When, where, and on what screen does the pull start?
 - Which brother could I trust with this?
 
-**Today's Action:** Before bed, call or text that brother or a pastor and tell him plainly what you are fighting. One sentence is enough. Skip the details. Then remove your main trigger: delete the app, block the site, or charge your phone outside your bedroom.
+**Today's Action:** Before 10 p.m., call or text that brother or a pastor and tell him plainly what you are fighting. One sentence is enough. Skip the details. Then cut off your main trigger: delete the app, block the site, or charge your phone outside your bedroom.
 
 ### Healing Forge: When Silence Was Safer
 
-Silence may have been how you survived. Speaking up cost you closeness with people, and admitting weakness left you open to harm, so staying quiet made sense. Keeping secrets once protected you. Now it keeps you alone. Healing comes through being honest with a few people you have chosen, people you trust enough to rebuild with.
+Silence may have been how you survived. Speaking up cost you closeness with people, and admitting weakness left you open to harm, so staying quiet made sense. Keeping secrets once protected you. Now it keeps you alone with your sin. Bring that sin into the light: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9). Christ's blood washes what you confess, so you never have to clean yourself up first.
 
 *End of Day 21*

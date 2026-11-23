@@ -32,16 +32,16 @@ God often steers you through your attention, and where your attention stays, you
 
 ### The Practice
 
-A goal is something you reach. A direction answers questions like these:
+A goal is a finish line. A direction answers these questions:
 
 - What kind of man am I becoming?
-- What does my life move toward when no one gets in the way?
+- Where does my life go when nothing gets in the way?
 - What small decision today would point me that way?
 
-**Today's Action:** Write your direction in one sentence. Then block thirty minutes on tomorrow's calendar for one step that sentence asks of you, and treat that block like a shift you cannot skip. Tomorrow you choose your direction again. That is how you hold on to it.
+**Today's Action:** Tonight, write your direction in one sentence. Then put thirty minutes on tomorrow's calendar for the first step it asks of you, and guard that block like a shift you cannot skip.
 
 ### Healing Forge: When Direction Feels Overwhelming
 
-Choosing a direction can bring anxiety. If you could never count on things staying stable, a long-term direction feels risky. If this is you, do not look so far ahead. A direction does not need a five-year plan, and you do not need to be sure about the future. You only need to see the next faithful step clearly.
+Choosing a direction can bring anxiety. If you could never count on things staying stable, a long-term direction feels risky. Jesus told His followers not to carry tomorrow's worry today (Matthew 6:34). A direction does not need a five-year plan, and you do not need to be sure about the future. You only need to see the next faithful step clearly.
 
 *End of Day 7*

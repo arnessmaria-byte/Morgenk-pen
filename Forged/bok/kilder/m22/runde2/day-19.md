@@ -4,11 +4,11 @@
 >
 > Hebrews 4:12
 
-Treat Scripture as decoration, and it flatters you. Treat it as a mirror, and it shows you who you are.
+Read Scripture as a mirror, and it shows you who you are.
 
 ### The Scenario
 
-Matthew read his Bible every morning before class. He highlighted in three colors, kept notes in a black notebook, and always had something sharp to say at small group. One morning he read James on taming the tongue. He thought of his roommate, who swore constantly. He did not think of the joke he had made behind his manager's back the night before. He closed his Bible, sure he was fine. He kept turning the mirror toward everyone else.
+Matthew read his Bible every morning and always had something sharp to say at small group. One morning he read James on taming the tongue. He thought of his roommate, who swore constantly. He did not think of the joke he made behind his manager's back the night before. He closed his Bible, sure he was fine.
 
 ### Scripture as Shield vs. Scripture as Mirror
 
@@ -24,21 +24,23 @@ What Scripture shows you depends on how you read it.
 
 ### What This Day Is Really About
 
-Honest reading beats a long reading plan. Scripture refines you when you let it challenge why you do things, not only what you do. A mirror is the one thing in the house that will not flatter you, which is exactly why you check it before you leave.
+Scripture refines you when you let it challenge why you do things, not only what you do. A mirror is the one thing in the house that will not flatter you, which is why you check it before you leave.
 
-The most dangerous thing you can do with Scripture is hide behind it. Hebrews calls God's word "living and active," and two verses later it points to Jesus, our high priest, so you can bring Him what the mirror shows you and receive mercy.
+A mirror helps only if it is true. Scripture judges everything else and is judged by nothing (John 10:35; Acts 17:11), including your church. We read it from the Hebrew Masoretic text and the received Greek text, the text that says plainly that "God was manifested in the flesh" (1 Timothy 3:16, NKJV). The same chapter requires that an elder be a tested man, above reproach (1 Timothy 3:2-7). Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question.
+
+Hebrews calls God's word "living and active," and two verses later it points to Jesus, our high priest, so you can bring Him what the mirror shows you and receive mercy.
 
 ### The Practice
 
-Read one familiar passage slowly. Do not rush to analyze it or point it at someone else. Let it show you yourself first. Then ask:
+Read 1 Timothy 3:1-7 slowly. Do not rush to analyze it or point it at someone else. Let it show you yourself first. Then ask:
 
-- What does this show me about my motives?
-- What does it challenge that I take for granted?
+- Which mark of a faithful man is missing in me?
+- Does my church hold its leaders to this standard?
 
-**Today's Action:** Tonight, write this sentence on paper and finish it: "This passage shows me that I..." Then act on it before bed, for example by deleting a post or taking back a cutting remark.
+**Today's Action:** Before 10 p.m., test your own congregation against Scripture: write whether its elders are tested men, whether it preaches the Gospel and repentance, and whether it blesses sin.
 
 ### Healing Forge: When Scripture Was Used Against You
 
-Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Healing begins when you meet Scripture as a light that helps you see, instead of a tool someone uses on you. A mirror tells the truth so that you can begin to change. It does not attack you.
+Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Healing begins when you meet Scripture as a light that helps you see, instead of a tool someone uses on you. A mirror tells the truth so you can change. It does not attack you.
 
 *End of Day 19*

@@ -26,7 +26,7 @@ Knowledge you cannot act on is not yet yours.
 
 No one learns to swim from a manual, even when the manual is right. Only practice makes what you know ready to use under pressure. Jesus said the wise man is the one who "hears these words of mine and does them," and his house stood when the storm hit.
 
-Wisdom is taking what you believe and turning it into an action you can repeat faithfully.
+Jesus made His own words the foundation. The man who hears them and never obeys builds on sand (Matthew 7:26), however much he knows.
 
 ### The Practice
 
@@ -39,6 +39,6 @@ Choose one verse you already know well. Ask:
 
 ### Healing Forge: When Knowledge Became Armor
 
-Knowledge may have been how you stayed safe. Knowing things earned you respect, and the right answers kept people from looking closer. Knowledge can shape you, but it can just as easily become armor. Healing begins when you use what you know to obey, and you no longer need it to hold up your sense of who you are.
+Maybe knowledge was how you stayed safe. Knowing things earned you respect, and the right answers kept people from looking closer. Scripture warns that knowledge puffs up, and it points to something safer: the man who loves God is known by Him (1 Corinthians 8:1-3). Put the armor down, and use what you know to obey.
 
 *End of Day 23*

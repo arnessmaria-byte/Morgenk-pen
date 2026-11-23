@@ -24,9 +24,7 @@ Some discomfort is a signal.
 
 ### What This Day Is Really About
 
-Holy discontent rises when what you do, what you value, and where you are headed drift apart. It rarely shouts. It presses, and it asks you to look. Jesus calls those who "hunger and thirst for righteousness" blessed, so bring that ache to Him instead of numbing it.
-
-Silence it too fast and you lose your direction. Feed it without discipline and it turns into restlessness. A fever passes on its own. A life out of line with what you believe does not, so do not mute the warning.
+Holy discontent rises when what you do, what you value, and where you are headed drift apart. It rarely shouts. It presses, and it asks you to look. Jesus promises that those who "hunger and thirst for righteousness" will be satisfied, so bring that ache to Him instead of numbing it. A fever passes on its own. A life out of line with what you believe does not, so do not mute the warning.
 
 ### The Practice
 
@@ -36,10 +34,10 @@ Notice one nagging discomfort you usually avoid. Ask:
 - Where is my life slightly out of line with what I believe?
 - What small correction am I being asked to make?
 
-**Today's Action:** Write that correction in one sentence. Then give it ten minutes before bed, whether that means sending the apology you owe or opening the Bible you keep skipping.
+**Today's Action:** Write that correction in one sentence, then act on it by 9 p.m.: send the apology you owe, or open the Bible you keep skipping and read one chapter.
 
 ### Healing Forge: When Discontent Turns Against You
 
-In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God's correction shows you what to work on. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true.
+In some men, discontent quickly turns into blaming themselves. Instead of helping them change, it feeds shame. God's correction shows you what to work on. Feeling condemned only wears you down. Holy discontent makes your path clearer without attacking your worth. If your discomfort is leading you to despise yourself, something has twisted it. Bring it back to what is true. If it points to real sin, confess it, and God will forgive it for the sake of Christ's blood (1 John 1:9).
 
 *End of Day 5*

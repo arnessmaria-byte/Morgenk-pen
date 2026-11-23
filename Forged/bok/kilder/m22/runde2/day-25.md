@@ -39,6 +39,6 @@ Pick one discipline that has gone stale. Ask:
 
 ### Healing Forge: When Quitting Felt Necessary
 
-Sometimes quitting was the only way through. Stopping kept you from collapse, burnout, or harm, and that instinct can still kick in. Not every urge to stop is wise. Part of healing is learning to tell the difference between a limit that keeps you safe and a hard thing that shapes you. At the edge, discipline becomes yours.
+Sometimes quitting was the only way through. Stopping kept you from collapse, burnout, or harm, and that instinct can still kick in. Not every urge to stop is wise. Learn the difference between a limit that keeps you safe and a hard thing that shapes you. When the race wears you down, look to Jesus, who endured the cross, so you do not lose heart (Hebrews 12:2-3).
 
 *End of Day 25*

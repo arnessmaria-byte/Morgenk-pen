@@ -26,7 +26,7 @@ Pressure only brings these patterns to the surface. They were already there.
 
 Under pressure, you need room in your mind to think well. Pressure takes that room away unless you have practiced keeping it, the way a driver leaves braking distance long before he has to brake.
 
-Wisdom is mostly being able to hold back before you react. A man who can pause under pressure still has a choice. A man who cannot gets pushed around by whatever is loudest. Jesus showed what "slow to anger" looks like: when men insulted Him, He did not insult them back.
+Wisdom is mostly being able to hold back before you react. A man who can pause under pressure still has a choice. A man who cannot gets pushed around by whatever is loudest. Jesus showed what "slow to anger" looks like: when men insulted Him, He did not insult them back (1 Peter 2:23). That kind of self-control is fruit the Holy Spirit grows in everyone who belongs to Christ (Galatians 5:22-25). Your practice keeps you in step with Him.
 
 ### The Practice
 
@@ -36,10 +36,10 @@ Catch one moment today when pressure starts doing your thinking for you: a disag
 - What did I ignore so I could react fast?
 - What would have changed if I had paused on purpose?
 
-**Today's Action:** Before bed, give that moment ten minutes. Write down what you said or did. Then write what you would have done after a three-second pause. Tomorrow, the first time someone pushes back, count to three before you answer.
+**Today's Action:** Before 10 p.m., give that moment ten minutes with a pen. Write down what you said or did, then what you would have said after a three-second pause. If you snapped at someone, tell that person tonight that you were wrong, with no excuse attached.
 
 ### Healing Forge: When Pressure Takes Over Your Thinking
 
-Pressure can set off survival habits you learned early in life: fight, freeze, defend. Those reactions once protected you, and they are not failures. But if you never look at them, they become what you do without thinking. Healing will not wipe out your reactions. It gives you more room between the pressure and how you respond.
+Pressure can wake up habits you learned early in life: hit back, shut down, defend yourself. They once kept you safe, and having them does not make you a failure. But habits you never look at start choosing for you. Where pressure has made you lash out, call it sin and confess it. The blood of Jesus cleanses you from all of it (1 John 1:7), and His Spirit gives you room between the pressure and your answer.
 
 *End of Day 11*

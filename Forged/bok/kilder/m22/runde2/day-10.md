@@ -8,7 +8,7 @@ Few things shape you as steadily as what you take in without noticing. Your scre
 
 ### The Scenario
 
-At 6:30 a.m. Noah had his phone in his hand before his feet hit the floor. At the lunch table he scrolled while his friends talked. At 12:30 a.m. he was still lying in the dark with the screen an inch from his face. He did not feel addicted. He felt informed. But when he opened his Bible, he grew restless after two verses, and his hand went looking for the phone. His screens had trained him to expect interruption.
+It is 1:15 a.m. You have work at eight. The phone is an inch from your face, and your thumb keeps moving: one more clip, one more fight in the comments, the same feed you scrolled at midnight. None of it is fun anymore, and you keep going. In the morning the phone is in your hand before your feet hit the floor. Two verses into your Bible, your hand goes looking for it. The screen has trained you to expect interruption.
 
 ### Digital Drift vs. Digital Discipline
 
@@ -26,7 +26,7 @@ Whatever surrounds you will end up teaching you.
 
 You do not have to give up technology. But the places you spend time online do shape you, so stop letting them do it without your permission. Your attention has a diet, just like your body, and the meals you never notice are the ones that set your appetite.
 
-If you do not decide what gets your attention, someone else will. Wisdom begins with what you keep out. Paul wrote "Look carefully then how you walk" to followers of Christ, and for you that walk includes every hour you spend on a screen.
+If you do not decide what gets your attention, an app built to sell it will. Wisdom begins with what you keep out. Paul wrote "Look carefully then how you walk" to followers of Christ, and that walk includes every hour on a screen.
 
 ### The Practice
 
@@ -36,10 +36,10 @@ Watch one digital habit today and ask:
 - What content keeps pulling my mood or focus off track?
 - Where do I come away scattered instead of built up?
 
-**Today's Action:** Before bed, move your phone charger out of your bedroom. Plug it in on the kitchen counter, and use a cheap alarm clock if you need one. Tomorrow, let your feet hit the floor before your hand finds the phone.
+**Today's Action:** By 10 p.m., move your phone charger out of your bedroom. Plug it in on the kitchen counter, and use a cheap alarm clock if you need one.
 
 ### Healing Forge: When Escape Became a Habit
 
-Screens may have been your safe place early on, a break from chaos, loneliness, pressure, or rejection. That way of coping made sense then. But a place that once protected you can become a cage. Take back control of what gets into your heart and mind. You do not have to cut yourself off from everything to do that.
+Screens may have been your hiding place from chaos, loneliness, or rejection, and that made sense then. But a hiding place can become a cage. If the late hours have led you into sin, do not hide it again. Confess it to God and one brother, and the blood of Jesus washes it clean (1 John 1:7-9). Then guard tonight.
 
 *End of Day 10*

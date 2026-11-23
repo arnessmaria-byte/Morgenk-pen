@@ -18,13 +18,15 @@ Return to it. You do not need to start over.
 
 If everything is a priority, nothing is.
 
-**3. Replace Motivation with Structure.** Do not wait until your feelings line up with your beliefs. Schedule what matters, set up your surroundings, and cut down the number of decisions you have to make. Routines last longer than inspiration. Showing up every day heals what big bursts of effort never can.
+**3. Replace Motivation with Structure.** Do not wait until your feelings line up with your beliefs. Schedule what matters, set up your surroundings, and make fewer decisions on the fly. Routines last longer than inspiration.
 
-**4. Say Your Faith Out Loud.** At least once every few months, say in your own words what you believe and why. Faith you never speak dries up. Faith you say out loud gets clearer.
+**4. Say Your Faith Out Loud.** Every few months, say in your own words what you believe and why. Faith you never speak dries up. Faith you say out loud gets clearer.
 
-**5. Expect Resistance.** Resistance means you are still being shaped, so do not take it as a sign to stop. When progress feels slow, go back to doing what you already know is right instead of overthinking it.
+**5. Expect Resistance.** Resistance means you are still being shaped, so do not take it as a sign to stop. When progress feels slow, keep doing what is right.
 
-**6. Do Not Continue Alone: Stay Planted in a Church.** This book gave you practices to do on your own, and that was never the whole plan. You grow up in your faith inside a church. There you hear preaching that can correct you. You stand beside older men who have carried what you are learning to carry. And at the Lord's table, you receive grace without earning it. A book cannot know your name. A church can. If you are not planted in a church, make finding one your first assignment after Day 40. Look for a real one. It does not need to be perfect.
+**6. Do Not Continue Alone: Stay Planted in a Church.** This book gave you practices to do on your own, and that was never the whole plan. You grow up in your faith inside a church. There you hear preaching that can correct you. You stand beside older men who have carried what you are learning to carry. And at the Lord's table, you receive grace without earning it. A book cannot know your name. A church can. If you have no church home, make finding one your first assignment after Day 40. It does not need to be perfect.
+
+Do not sit under a pulpit that bows to the spirit of Jezebel. Do not fund or lend your name to a congregation that has women pastors (1 Timothy 2:12-13), blesses what God calls sin (Romans 1:26-27; 1 Corinthians 6:9-11), or punishes men who hold to Scripture. Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question. And no church may bless what Christ died to wash away. Paul reminded the Corinthians that some of them had lived that way, and they were washed. That washing is offered to every reader who repents. Find tested men who stand on the apostles' teaching, and build brotherhood with them (2 Timothy 2:2).
 
 ## A Final Reminder
 

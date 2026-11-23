@@ -8,35 +8,35 @@ Drift never announces itself. It happens slowly, through small things you allow 
 
 ### The Scenario
 
-Victor still showed up. He went to church, read his Bible most mornings, and never missed a shift. But most nights he scrolled until 1 a.m., and during the sermon he checked scores on his phone. When a friend asked him to cover for a lie, he did it without thinking. A year earlier it would have bothered him. He had stopped paying attention.
+Your overnight security shift at a distribution center starts at midnight. Every hour you walk the fence line. On the first two rounds you rattle every door handle. By the fourth you stay in the booth with your phone, glancing at the monitors between videos. At 4:40 a camera shows the gate by the loading dock standing open. You have no idea how long it has been that way.
 
-### Dozing Off vs. Staying Alert
+### Apostolic Church vs. Feminized Church
 
-| Dozing Off | Staying Alert |
+| Apostolic Church | Feminized Church |
 | :- | :- |
-| Runs on autopilot | Pays attention |
-| Notices only crises | Notices drift early |
-| Mistakes comfort for safety | Tells easy from right |
-| Reacts late | Adjusts in time |
-| Slips without noticing | Stays awake on purpose |
+| Preaches repentance | Says all is well |
+| Submits to Scripture | Bends Scripture to culture |
+| Ordains tested men | Ordains women as pastors |
+| Calls sin by name | Blesses what God forbids |
+| Removes false teachers | Removes faithful pastors |
 
-Being alert means being responsible, not anxious.
+Test a church by what it does, whatever it calls itself.
 
 ### What This Day Is Really About
 
-Keeping watch means paying full attention, and it is gentler than being on edge all the time. A sentry on guard duty seems to do nothing at all, until the one night his watching really counts. You can keep believing and still stop noticing. Paul told Christians to "keep awake and be sober" while they waited for Jesus to return, and that watching includes ordinary nights with a phone in your hand.
+A sentry on guard duty seems to do nothing at all, until the one night his watching really counts. You can keep believing and still stop noticing what you let in.
+
+God warned, "Do not listen to the words of the prophets who prophesy to you, filling you with vain hopes" (Jeremiah 23:16). Inside the church, false teachers preach another gospel (2 Peter 2:1; Galatians 1:8-9). They offer peace without repentance, ordain women as pastors, and bless sin. Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question. Paul told Christians waiting for Jesus to "keep awake and be sober." Repent first of the easy lies you have swallowed.
 
 ### The Practice
 
-Think back over the last seven days. Ask:
-
-- Where does my attention go when no one directs it?
 - What have I let slide that once bothered me?
+- Whose teaching have I stopped testing against Scripture?
 
-**Today's Action:** Before bed, take ten minutes with a pen and paper. Write down one thing you let slide this week. Then change one setting that feeds it: mute the group chat, or set a screen-time limit that starts at 11 p.m.
+**Today's Action:** Before bed, write down the main claim of the last sermon or podcast you heard, then read the whole Bible chapter it rests on and write whether the chapter backs it up.
 
 ### Healing Forge: When Staying Alert Wears You Out
 
-If you learned to scan for danger and never rest, because you could never tell what was coming, that restlessness was how you survived. The alertness asked of you here is calm and rests on trust. What you are guarding is your direction. You are not asked to brace for everything to fall apart.
+If you learned to scan for danger and never rest, because you could never tell what was coming, that habit kept you safe. The alertness asked of you here is calm and rests on trust in the God who never sleeps (Psalm 121:4). You are guarding your direction. You are not asked to brace for everything to fall apart.
 
 *End of Day 27*

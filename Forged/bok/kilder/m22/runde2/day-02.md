@@ -4,7 +4,7 @@
 >
 > 2 Corinthians 6:17
 
-Separation is easy to get wrong. Some people think it means acting superior, and others think it means rejecting people. Both miss the point. Separation asks what you are willing to step away from so that your life can hold together.
+Separation is easy to get wrong. Some people think it means acting superior, and others think it means rejecting people. Separation asks what you are willing to step away from so that your life can hold together.
 
 ### The Scenario
 
@@ -24,9 +24,9 @@ Separation takes good judgment. You do not have to look down on anyone to do it.
 
 ### What This Day Is Really About
 
-Refuse to be shaped by what works against the man you are trying to become. You can do that without abandoning anyone. When Paul wrote "be separate from them," he called Christ's people in Corinth away from idols, not from their neighbors.
+Every room, routine, and relationship trains you in something. Notice how your speech changes from one house to the next. So refuse to be shaped by what works against the man you are trying to become, and do it without abandoning anyone. When Paul wrote "be separate from them," he called Christ's people in Corinth out of partnership with idols, not away from their neighbors (2 Corinthians 6:14 to 7:1).
 
-Every room, routine, and relationship trains you in something. Notice how your speech changes from one house to the next. You adjust before you think about it. Separation means choosing which influences you will keep.
+That call reaches churches too. A congregation can keep its name and its building and still leave the apostles' teaching (Acts 2:42). You can see the drift when the pulpit stops calling sinners to repentance, treats Scripture as a draft the culture may edit, and blesses what God calls sin. Paul called down a curse on anyone, even an angel from heaven, who preaches a different gospel (Galatians 1:8-9). Do not lend your name or your money to that drift. Leave without contempt: tell people plainly why you are going, and keep praying for them. The same drift starts in any man who wants approval more than truth, so repent of it wherever you find it in yourself.
 
 ### The Practice
 
@@ -36,10 +36,10 @@ Name one thing that shapes you more than you admit: a friend group, a group chat
 - Who do I have to be to stay here?
 - What part of me do I mute so I can fit in?
 
-**Today's Action:** Before bed, mute that chat or account for seven days. If it is a friend group, turn down the next invitation and skip the speech. Keep treating the people in it with respect.
+**Today's Action:** Before dinner, mute that chat or account for seven days. If it is a friend group, turn down the next invitation and skip the speech.
 
 ### Healing Forge: When Distance Feels Like Loss
 
-Separation can feel like rejection, because loss hurts even when it is necessary. When you step away from a place where you had to pretend to belong, you feel the empty space first. Seeing clearly comes later. That empty time is preparing you, not punishing you. Sometimes loneliness means you are being shaped. It does not always mean something is wrong. Do not rush to fill the gap. Give your life time to line up with what you believe.
+Separation can feel like rejection, because loss hurts even when it is necessary. When you step away from a place where you had to pretend to belong, you feel the empty space first. Seeing clearly comes later. That empty time is preparing you, not punishing you. If the place you left was a church, it can feel like leaving family. Christ has promised to be with you always (Matthew 28:20). Do not rush to fill the gap. Give your life time to line up with what you believe.
 
 *End of Day 2*

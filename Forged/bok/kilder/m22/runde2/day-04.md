@@ -4,11 +4,11 @@
 >
 > Mark 2:27
 
-Rules are easy to resent when you cannot see what they protect. Most people who reject rules have never been shown what the rules are for. Without a purpose you can see, every limit feels random.
+Rules are easy to resent when you cannot see what they protect. Without a purpose you can see, every limit feels random.
 
 ### The Scenario
 
-Daniel never broke a rule anyone could see. He padded his timesheet at the hardware store by ten minutes, then by twenty. His rule was phone down by midnight, and he was still scrolling at two. He promised his sister a ride and canceled by text an hour before. None of it felt like much. Then his manager stopped handing him the closing keys. The rules Daniel had bent were bending him.
+You clock out at 9:52 and write 10:10 on your timesheet. Nobody checks. At midnight you are still scrolling in bed, and the app limit you set as a guardrail asks if you want fifteen more minutes. You tap yes, then yes again. At 2 a.m. you swear tomorrow will be different. Friday, your manager hands the closing keys to the new guy. You never broke a rule where anyone could see. You bent them, and now they are bending you.
 
 ### Rules as Limits vs. Rules as Direction
 
@@ -24,22 +24,21 @@ Rules exist to protect where you are going.
 
 ### What This Day Is Really About
 
-Rules make sense when you know where you are headed. Once you see what a rule guards, keeping it stops feeling like giving in and starts feeling like taking care of what God gave you.
+Jesus said "The Sabbath was made for man," so God's commands are guardrails built for you. No one resents a guardrail on a cliff road once he has looked over the edge.
 
-Jesus said "The Sabbath was made for man," so God's commands are guardrails built for you. No one resents a guardrail on a cliff road once he has looked over the edge. The trouble starts when rules get cut off from the reason behind them.
+God's commands reflect who He is. In Him there is order without lesser worth: the Father sends, the Son is sent, and the Spirit proceeds from the Father, yet the three are one God, equal in glory. Paul ties the order of creation to that order: "the head of every man is Christ, the head of a wife is her husband, and the head of Christ is God" (1 Corinthians 11:3). A demasculinized culture says order means lesser worth, and many churches repeat that lie.
 
 ### The Practice
 
-Pick one rule or discipline you resist. Ask:
+Pick the rule you bend most often. Ask:
 
-- What was this meant to protect?
-- What strength might it keep safe if I stuck with it?
+- What was this rule meant to protect?
 - What slowly wears away when I do not keep it?
 
-**Today's Action:** If that rule guards something good, keep it in full today. Before bed, write one line on what it protects.
+**Today's Action:** Before 10 p.m., fix one bent rule: correct the padded hours with your manager, or turn the app limit back on.
 
 ### Healing Forge: When Rules Make You Push Back
 
-Rules can be tied up with punishment, shame, or control. If rules were forced on you with no explanation, no grace, or no relationship behind them, it makes sense that you push back. Abuse uses rules to dominate you. Healthy training uses them to protect you. Healing begins when you can see rules again as tools of care instead of control.
+Rules can be tied up with punishment, shame, or control. If rules were forced on you with no explanation, no grace, or no relationship behind them, it makes sense that you push back. Abuse uses rules to dominate you. God gives His commands to protect you. Where you bent them to cheat or hide, confess it as sin, and Christ's blood will cleanse it (1 John 1:9).
 
 *End of Day 4*

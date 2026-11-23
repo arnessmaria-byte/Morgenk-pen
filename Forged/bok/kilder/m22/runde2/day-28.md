@@ -24,9 +24,9 @@ Discipline today is less about willpower and more about saying no.
 
 ### What This Day Is Really About
 
-Seeing that the world around you is not neutral does not mean rejecting it. A boat drifts with the current, never against it, and nearly every current around you was built by someone with something to sell you. Your surroundings are already training you to rush, want more, stay comfortable, and live with constant noise.
+Seeing that the world around you is not neutral does not mean rejecting it. A boat drifts with the current, never against it, and nearly every current around you was built by someone with something to sell you. Your surroundings are already training you to rush, want more, stay comfortable, and live with constant noise. A demasculinized culture wants young men passive and easy to steer, and an endless feed does that job well. If you have liked drifting, repent and pick up the oars.
 
-Christ's people are told "Do not be conformed to this world," and today much of that pressure is designed into your apps. To grow, you need to push back: set a few limits of your own that protect what matters. You do not have to fight everything all the time. Nobody drifts into a deeper life.
+Christ's people are told "Do not be conformed to this world," and today much of that pressure is designed into your apps. Paul writes this after eleven chapters on God's mercy (Romans 12:1). You resist as a man who already belongs to Christ, and God Himself does the renewing. Your part is to set a few limits of your own that protect what matters. You do not have to fight everything all the time. Nobody drifts into a deeper life.
 
 ### The Practice
 
@@ -36,10 +36,10 @@ Look at the defaults that run your day. Ask:
 - What do I let autoplay or auto-renew?
 - Where would choosing for myself feel hardest?
 
-**Today's Action:** Tonight, change one default on your phone: turn off autoplay, move the app you open most off your home screen, or switch off one notification. Notice what in you fights the change. That is where you are being shaped.
+**Today's Action:** By 10 tonight, change one default on your phone: turn off autoplay, move the app you open most off your home screen, or switch off one notification. Notice what in you fights the change. That is where you are being shaped.
 
 ### Healing Forge: When Control Once Meant Safety
 
-Maybe control was how you survived. Knowing what was coming kept the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Choosing for yourself is gentler than rigid control. Start with one chosen limit rather than trying to control everything.
+Maybe control once kept you safe. Knowing what was coming held the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Choosing for yourself is gentler than rigid control. Start with one chosen limit, and leave what you cannot control with your Father, who knows what you need (Matthew 6:32).
 
 *End of Day 28*

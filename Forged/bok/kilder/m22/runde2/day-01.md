@@ -36,7 +36,7 @@ Today is about finding out whether what you were taught will hold. Think of a ro
 
 Scripture says do not put the Lord your God to the test (Deuteronomy 6:16), and this day does not ask you to. What you are testing is your grip on what you believe about Him: the rope, not the One it is tied to.
 
-Avoiding hard questions and hard tests weakens faith. Facing them does not. Your questions are a sign that your faith is becoming your own. Paul wrote "Do not quench the Spirit" to people who already belonged to Jesus: the fire is His gift, so do not smother it. What smothers it is letting your faith slide, staying distracted, and putting things off.
+Avoiding hard questions and hard tests weakens faith. Your questions are a sign that your faith is becoming your own. Paul wrote "Do not quench the Spirit" to people who already belonged to Jesus: the fire is His gift, so do not smother it. What smothers it is letting your faith slide, staying distracted, and putting things off.
 
 ### The Practice
 
@@ -44,14 +44,13 @@ Pick one belief you call solid but have never tested, one that has never cost yo
 
 - What pressure has this belief actually faced?
 - Where do I avoid testing it?
-- What would it take to train this belief instead of assuming it will hold?
 
-**Today's Action:** Write the belief in one sentence. Under it, write one small thing this belief asks of you, and do it tonight.
+**Today's Action:** Write the belief in one sentence on a sheet of paper. Under it, write one thing it asks of you today. Do that thing before 10 p.m. and check it off.
 
 ### Healing Forge: When Faith Feels Numb
 
 Sometimes faith feels gone rather than weak. Often you are simply worn out. Rebellion is not always the reason.
 
-Numbness is often what is left after a long time under pressure with no relief. The pressure may be anger you still carry, grief you pushed down, sexual shame, a relationship you lost, or always keeping yourself under control while the hurt underneath never heals. Do not try to force feeling back into your faith today. Name what has dulled your faith. Noticing that is the first act of mercy.
+Numbness is often what is left after a long time under pressure with no relief. The pressure may be anger you still carry, grief you pushed down, sexual shame, a relationship you lost, or always keeping yourself under control while the hurt underneath never heals. Do not try to force feeling back into your faith today. Name what has dulled your faith, and tell God in plain words. If sin is part of it, confess that sin by name: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness" (1 John 1:9). The blood of Christ washes what you bring into the light.
 
 *End of Day 1*
