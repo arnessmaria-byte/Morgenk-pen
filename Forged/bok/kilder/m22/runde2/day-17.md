@@ -39,6 +39,6 @@ Think of one thing you already know but have not acted on. Ask:
 
 ### Healing Forge: When Moving Felt Unsafe
 
-Holding back may once have protected you. Acting too soon led to harm, shame, or failure, and caution became a habit. Growing still takes a real risk, even if it is a careful one. Healing gives back your courage and lets you keep your wisdom. Faith has to move. It does not have to rush.
+Maybe acting too soon once led to harm, shame, or failure, and caution became a habit. Growing still takes a real risk, even if it is a careful one. Jesus called Peter onto the water and caught him as he began to sink (Matthew 14:29-31). Faith has to move. It does not have to rush.
 
 *End of Day 17*

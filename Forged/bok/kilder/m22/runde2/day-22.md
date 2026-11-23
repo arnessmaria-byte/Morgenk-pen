@@ -39,6 +39,6 @@ Think of a recent moment when someone needed help and no rule told you to give i
 
 ### Healing Forge: When Rules Meant Safety
 
-Rules can be a shelter. They kept chaos down and made life predictable, so loosening your grip on them can feel dangerous. Wisdom keeps that structure and carries it inside you. Over time, what once guided you from the outside has to guide you from the inside.
+Rules can be a shelter. They kept chaos down and made life predictable, so loosening your grip on them can feel dangerous. Your safety now rests with the Father, who has made you His son and heir (Galatians 4:7). Over time, what once guided you from the outside has to guide you from the inside.
 
 *End of Day 22*

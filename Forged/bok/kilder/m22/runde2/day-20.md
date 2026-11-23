@@ -42,6 +42,6 @@ Think about the men around you. Ask:
 
 ### Healing Forge: When Brotherhood Was Missing
 
-Other men may have been unsafe for you: they competed with you, mocked you, or betrayed you. Being alone felt safer. But staying alone to avoid risk also means avoiding growth. Healing does not ask for instant trust. Let one carefully chosen man see you, someone who can sharpen you without threatening you.
+Other men may have been unsafe for you: they competed with you, mocked you, or betrayed you. Being alone felt safer. But staying alone to avoid risk also means avoiding growth. Jesus was betrayed by a friend and still called His disciples friends (John 13:18; 15:15). Let one carefully chosen man see you, someone who can sharpen you without threatening you.
 
 *End of Day 20*

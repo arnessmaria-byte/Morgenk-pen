@@ -33,7 +33,7 @@ God warned, "Do not listen to the words of the prophets who prophesy to you, fil
 - What have I let slide that once bothered me?
 - Whose teaching have I stopped testing against Scripture?
 
-**Today's Action:** By 10 p.m., list the three voices you hear most on faith. Unfollow any that offers peace without repentance, and write one line on why.
+**Today's Action:** By 10 p.m., hold your congregation up to today's table. Row by row, write down which column it stands in. Text one elder or pastor a question about any row you cannot answer.
 
 ### Healing Forge: When Staying Alert Wears You Out
 

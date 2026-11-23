@@ -652,7 +652,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where “Their worm does not die” and “the fire is not quenched” (Mark 9:44, NKJV).
+> The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where “Their worm does not die” and “the fire is not quenched” (Mark 9:44, 46, 48, NKJV).
 
 **Voiceover i det gamle videomanuset:**
 
@@ -857,7 +857,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 > - What have I let slide that once bothered me?
 > - Whose teaching have I stopped testing against Scripture?
 >
-> **Today’s Action:** By 10 p.m., list the three voices you hear most on faith. Unfollow any that offers peace without repentance, and write one line on why.
+> **Today’s Action:** By 10 p.m., hold your congregation up to today’s table. Row by row, write down which column it stands in. Text one elder or pastor a question about any row you cannot answer.
 
 **Healing Forge: When Staying Alert Wears You Out**
 

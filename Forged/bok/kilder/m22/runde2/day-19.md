@@ -41,6 +41,6 @@ Read 1 Timothy 3:1-7 slowly. Do not rush to analyze it or point it at someone el
 
 ### Healing Forge: When Scripture Was Used Against You
 
-Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Healing begins when you meet Scripture as a light that helps you see, instead of a tool someone uses on you. A mirror tells the truth so you can change. It does not attack you.
+Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Scripture points to Christ, who does not break a bruised reed (Matthew 12:20). A mirror tells the truth so you can change. It does not attack you.
 
 *End of Day 19*

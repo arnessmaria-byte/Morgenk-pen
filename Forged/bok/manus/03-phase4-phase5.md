@@ -127,7 +127,7 @@ God warned, "Do not listen to the words of the prophets who prophesy to you, fil
 - What have I let slide that once bothered me?
 - Whose teaching have I stopped testing against Scripture?
 
-**Today's Action:** By 10 p.m., list the three voices you hear most on faith. Unfollow any that offers peace without repentance, and write one line on why.
+**Today's Action:** By 10 p.m., hold your congregation up to today's table. Row by row, write down which column it stands in. Text one elder or pastor a question about any row you cannot answer.
 
 ### Healing Forge: When Staying Alert Wears You Out
 
@@ -628,7 +628,7 @@ Do what is needed today without explaining yourself. Then ask:
 
 ### Healing Forge: When Being Seen Once Meant Risk
 
-Other people's attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice your growth, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.
+Other people's attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice your growth, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes. Jesus met Nathanael with honest praise (John 1:47).
 
 *End of Day 38*
 

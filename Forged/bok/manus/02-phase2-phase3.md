@@ -408,7 +408,7 @@ Think of one thing you already know but have not acted on. Ask:
 
 ### Healing Forge: When Moving Felt Unsafe
 
-Holding back may once have protected you. Acting too soon led to harm, shame, or failure, and caution became a habit. Growing still takes a real risk, even if it is a careful one. Healing gives back your courage and lets you keep your wisdom. Faith has to move. It does not have to rush.
+Maybe acting too soon once led to harm, shame, or failure, and caution became a habit. Growing still takes a real risk, even if it is a careful one. Jesus called Peter onto the water and caught him as he began to sink (Matthew 14:29-31). Faith has to move. It does not have to rush.
 
 *End of Day 17*
 
@@ -500,7 +500,7 @@ Read 1 Timothy 3:1-7 slowly. Do not rush to analyze it or point it at someone el
 
 ### Healing Forge: When Scripture Was Used Against You
 
-Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Healing begins when you meet Scripture as a light that helps you see, instead of a tool someone uses on you. A mirror tells the truth so you can change. It does not attack you.
+Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Scripture points to Christ, who does not break a bruised reed (Matthew 12:20). A mirror tells the truth so you can change. It does not attack you.
 
 *End of Day 19*
 
@@ -548,7 +548,7 @@ Think about the men around you. Ask:
 
 ### Healing Forge: When Brotherhood Was Missing
 
-Other men may have been unsafe for you: they competed with you, mocked you, or betrayed you. Being alone felt safer. But staying alone to avoid risk also means avoiding growth. Healing does not ask for instant trust. Let one carefully chosen man see you, someone who can sharpen you without threatening you.
+Other men may have been unsafe for you: they competed with you, mocked you, or betrayed you. Being alone felt safer. But staying alone to avoid risk also means avoiding growth. Jesus was betrayed by a friend and still called His disciples friends (John 13:18; 15:15). Let one carefully chosen man see you, someone who can sharpen you without threatening you.
 
 *End of Day 20*
 
@@ -558,7 +558,7 @@ Other men may have been unsafe for you: they competed with you, mocked you, or b
 >
 > 1 Timothy 6:12
 
-The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, NKJV).
+The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, 46, 48, NKJV).
 
 ### The Scenario
 
@@ -636,7 +636,7 @@ Think of a recent moment when someone needed help and no rule told you to give i
 
 ### Healing Forge: When Rules Meant Safety
 
-Rules can be a shelter. They kept chaos down and made life predictable, so loosening your grip on them can feel dangerous. Wisdom keeps that structure and carries it inside you. Over time, what once guided you from the outside has to guide you from the inside.
+Rules can be a shelter. They kept chaos down and made life predictable, so loosening your grip on them can feel dangerous. Your safety now rests with the Father, who has made you His son and heir (Galatians 4:7). Over time, what once guided you from the outside has to guide you from the inside.
 
 *End of Day 22*
 

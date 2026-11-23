@@ -4,7 +4,7 @@
 >
 > 1 Timothy 6:12
 
-The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, NKJV).
+The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, 46, 48, NKJV).
 
 ### The Scenario
 

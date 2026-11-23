@@ -266,7 +266,7 @@ Take the belief from Day 1, or another you lean on, and ask:
 
 ### Healing Forge: When Questions Feel Dangerous
 
-If you were once punished for asking questions, they may still feel dangerous. Being brushed off, being shamed, or living in spiritual fear can teach you silence long before your beliefs have a chance to grow firm. Testing your faith starts gently: you are allowed to ask. Asking which beliefs hold up gets you ready to stand firm. There is nothing disloyal about it.
+If you were once punished for asking questions, they may still feel dangerous. Being brushed off, being shamed, or living in spiritual fear can teach you silence long before your beliefs have a chance to grow firm. Your Father in heaven gives wisdom generously to anyone who asks, without reproach (James 1:5). Asking which beliefs hold up gets you ready to stand firm. There is nothing disloyal about it.
 
 *End of Day 3*
 
@@ -915,7 +915,7 @@ Think of one thing you already know but have not acted on. Ask:
 
 ### Healing Forge: When Moving Felt Unsafe
 
-Holding back may once have protected you. Acting too soon led to harm, shame, or failure, and caution became a habit. Growing still takes a real risk, even if it is a careful one. Healing gives back your courage and lets you keep your wisdom. Faith has to move. It does not have to rush.
+Maybe acting too soon once led to harm, shame, or failure, and caution became a habit. Growing still takes a real risk, even if it is a careful one. Jesus called Peter onto the water and caught him as he began to sink (Matthew 14:29-31). Faith has to move. It does not have to rush.
 
 *End of Day 17*
 
@@ -1007,7 +1007,7 @@ Read 1 Timothy 3:1-7 slowly. Do not rush to analyze it or point it at someone el
 
 ### Healing Forge: When Scripture Was Used Against You
 
-Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Healing begins when you meet Scripture as a light that helps you see, instead of a tool someone uses on you. A mirror tells the truth so you can change. It does not attack you.
+Some men have had Scripture used as a weapon against them: verses quoted to shame, silence, or control them. That damages trust. Scripture points to Christ, who does not break a bruised reed (Matthew 12:20). A mirror tells the truth so you can change. It does not attack you.
 
 *End of Day 19*
 
@@ -1055,7 +1055,7 @@ Think about the men around you. Ask:
 
 ### Healing Forge: When Brotherhood Was Missing
 
-Other men may have been unsafe for you: they competed with you, mocked you, or betrayed you. Being alone felt safer. But staying alone to avoid risk also means avoiding growth. Healing does not ask for instant trust. Let one carefully chosen man see you, someone who can sharpen you without threatening you.
+Other men may have been unsafe for you: they competed with you, mocked you, or betrayed you. Being alone felt safer. But staying alone to avoid risk also means avoiding growth. Jesus was betrayed by a friend and still called His disciples friends (John 13:18; 15:15). Let one carefully chosen man see you, someone who can sharpen you without threatening you.
 
 *End of Day 20*
 
@@ -1065,7 +1065,7 @@ Other men may have been unsafe for you: they competed with you, mocked you, or b
 >
 > 1 Timothy 6:12
 
-The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where “Their worm does not die” and “the fire is not quenched” (Mark 9:44, NKJV).
+The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where “Their worm does not die” and “the fire is not quenched” (Mark 9:44, 46, 48, NKJV).
 
 ### The Scenario
 
@@ -1143,7 +1143,7 @@ Think of a recent moment when someone needed help and no rule told you to give i
 
 ### Healing Forge: When Rules Meant Safety
 
-Rules can be a shelter. They kept chaos down and made life predictable, so loosening your grip on them can feel dangerous. Wisdom keeps that structure and carries it inside you. Over time, what once guided you from the outside has to guide you from the inside.
+Rules can be a shelter. They kept chaos down and made life predictable, so loosening your grip on them can feel dangerous. Your safety now rests with the Father, who has made you His son and heir (Galatians 4:7). Over time, what once guided you from the outside has to guide you from the inside.
 
 *End of Day 22*
 
@@ -1366,7 +1366,7 @@ God warned, “Do not listen to the words of the prophets who prophesy to you, f
 - What have I let slide that once bothered me?
 - Whose teaching have I stopped testing against Scripture?
 
-**Today’s Action:** By 10 p.m., list the three voices you hear most on faith. Unfollow any that offers peace without repentance, and write one line on why.
+**Today’s Action:** By 10 p.m., hold your congregation up to today’s table. Row by row, write down which column it stands in. Text one elder or pastor a question about any row you cannot answer.
 
 ### Healing Forge: When Staying Alert Wears You Out
 
@@ -1867,7 +1867,7 @@ Do what is needed today without explaining yourself. Then ask:
 
 ### Healing Forge: When Being Seen Once Meant Risk
 
-Other people’s attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice your growth, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes.
+Other people’s attention feels dangerous if it used to mean being watched closely, pressure to measure up, or punishment dressed up as praise. So you learned to disappear. When people notice your growth, that is often a kind of trust. They may be leaning on you, not watching to catch your mistakes. Jesus met Nathanael with honest praise (John 1:47).
 
 *End of Day 38*
 
@@ -2067,7 +2067,7 @@ These pages can help you name a wound. They cannot treat it. Where the wound is 
 
 ## The Creed of Constantinople (381)
 
-This is the faith the church confessed in 381, before the West added the words “and the Son.”
+This translation follows the Greek text of 381, with “God from God” added from the creed of Nicaea (325). Like the Greek, it has no “and the Son,” words the West inserted later.
 
 We believe in one God, the Father Almighty, maker of heaven and earth, and of all things visible and invisible.
 

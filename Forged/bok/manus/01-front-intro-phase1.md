@@ -266,7 +266,7 @@ Take the belief from Day 1, or another you lean on, and ask:
 
 ### Healing Forge: When Questions Feel Dangerous
 
-If you were once punished for asking questions, they may still feel dangerous. Being brushed off, being shamed, or living in spiritual fear can teach you silence long before your beliefs have a chance to grow firm. Testing your faith starts gently: you are allowed to ask. Asking which beliefs hold up gets you ready to stand firm. There is nothing disloyal about it.
+If you were once punished for asking questions, they may still feel dangerous. Being brushed off, being shamed, or living in spiritual fear can teach you silence long before your beliefs have a chance to grow firm. Your Father in heaven gives wisdom generously to anyone who asks, without reproach (James 1:5). Asking which beliefs hold up gets you ready to stand firm. There is nothing disloyal about it.
 
 *End of Day 3*
 

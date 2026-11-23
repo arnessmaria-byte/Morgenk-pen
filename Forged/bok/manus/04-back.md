@@ -102,7 +102,7 @@ These pages can help you name a wound. They cannot treat it. Where the wound is 
 
 ## The Creed of Constantinople (381)
 
-This is the faith the church confessed in 381, before the West added the words "and the Son."
+This translation follows the Greek text of 381, with "God from God" added from the creed of Nicaea (325). Like the Greek, it has no "and the Son," words the West inserted later.
 
 We believe in one God, the Father Almighty, maker of heaven and earth, and of all things visible and invisible.
 
