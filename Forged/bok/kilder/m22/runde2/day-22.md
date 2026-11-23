@@ -8,7 +8,7 @@ Rules make things clear: they tell you what you are allowed to do. Wisdom gives 
 
 ### The Scenario
 
-Samuel kept every rule he knew. He had a 300-day streak in his Bible app and never swore at work. One Saturday at the paint store, a customer chewed out the new hire, a nervous high schooler, over a refund. The handbook said nothing about stepping in, and the manager was at lunch. Samuel kept stocking paint cans ten feet away and told himself it was not his place. He broke no rule that day. The kid quit on Monday.
+Samuel kept every rule he knew. He had a 300-day streak in his Bible app and never lied at work. One Saturday at the paint store, a customer chewed out the new hire, a nervous high schooler, over a refund. The handbook said nothing about stepping in, and the manager was at lunch. Samuel kept stocking paint cans ten feet away and told himself it was not his place. He broke no rule that day. The kid quit on Monday.
 
 ### Checklist Faith vs. Wise Faith
 
@@ -18,9 +18,9 @@ Samuel kept every rule he knew. He had a 300-day streak in his Bible app and nev
 | Avoids mistakes | Aims to be faithful |
 | Needs permission | Takes responsibility |
 | Works in simple cases | Handles complicated ones |
-| Feels safe | Takes courage |
+| Hangs back | Steps in |
 
-Rules tell you how to behave. Wisdom tells you when to act.
+Rules tell you how to behave. Wisdom knows when to act.
 
 ### What This Day Is Really About
 
@@ -32,10 +32,10 @@ Under the new covenant Jesus made, "the Spirit gives life" and writes God's comm
 
 Think of a recent moment when someone needed help and no rule told you to give it. Ask:
 
-- What did I hold back from, and why?
+- What did I leave undone, and why?
 - What would being faithful have asked of me?
 
-**Today's Action:** Tonight, go back and take that step: text or call the person you left alone, ask how they are doing, and offer one specific kind of help.
+**Today's Action:** By 10 p.m., get back to the person you left alone, ask how they are doing, and offer one specific kind of help.
 
 ### Healing Forge: When Rules Meant Safety
 

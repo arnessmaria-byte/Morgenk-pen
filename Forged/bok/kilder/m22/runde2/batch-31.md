@@ -24,20 +24,20 @@ Your body carries your faith instead of getting in its way.
 
 ### What This Day Is Really About
 
-Be faithful with the body you were given. A violinist does not look down on his instrument because it needs tuning. He tunes it, because every note depends on it. A worn-down body thinks slower and snaps faster. Paul calls your body "a temple of the Holy Spirit," which means it belongs to Christ, and caring for it is part of honoring Him.
+Be faithful with the body you were given. A violinist does not look down on his instrument because it needs tuning. He tunes it, because every note depends on it. A tired man thinks slower and snaps faster. Paul calls your body "a temple of the Holy Spirit," which means it belongs to Christ, and caring for it is part of honoring Him.
 
-God made you a man, body and all: "male and female he created them" (Genesis 1:27). David prayed, "you knitted me together in my mother's womb" (Psalm 139:13). God did the same with you, so every unborn child is sacred from conception. Gender ideology says a man can be born in the wrong body, and the abortion movement calls an unborn child a choice. Both defy the God who formed us. If you went along with either, even by silence, repent.
+God made you a man, body and all: "male and female he created them" (Genesis 1:27). David prayed, "you knitted me together in my mother's womb" (Psalm 139:13). God knit you and every unborn child that way, so each is sacred from conception. Gender ideology says a man can be born in the wrong body, and the abortion movement calls killing a child a choice. Both defy the God who formed us. If you went along, even by silence, repent.
 
 ### The Practice
 
 - What time did I actually fall asleep the last three nights?
 - When did tiredness make me short with someone?
 
-**Today's Action:** Before 10 tonight, take a fifteen-minute walk without your phone, and thank God for the body He knit together.
+**Today's Action:** Before 10 tonight, walk for ten minutes without your phone, and thank God for the body He knit together.
 
 ### Healing Forge: When the Body Learned to Endure Alone
 
-Your body may have learned early to push through stress, responsibility, and silence, when no one looked after you. Rest can feel strange now. Start small. God gives sleep to those He loves (Psalm 127:2). If you had a part in an abortion or any sexual sin, do not carry it alone. Confess it to God and a pastor you trust. Christ's blood cleanses the conscience (Hebrews 9:14).
+Your body may have learned early to push through stress alone, when no one looked after you. Rest can feel strange now. Start small. God gives sleep to those He loves (Psalm 127:2). If you had a part in an abortion or chose sexual sin, do not carry it alone. Confess it to God and a pastor you trust. Christ's blood purifies the conscience (Hebrews 9:14).
 
 *End of Day 31*
 
@@ -61,7 +61,7 @@ Nehemiah's builders had closed every gap in Jerusalem's wall, though the doors w
 | Calls losing interest wisdom | Admits he is tired |
 | Wants a clean restart | Carries it to the end |
 | Avoids the boring stretch | Sticks it out |
-| Leaves things half-done | Turns effort into growth |
+| Leaves things half-done | Ties up loose ends |
 
 Finishing means getting the work done, not making it perfect.
 
@@ -69,7 +69,7 @@ Finishing means getting the work done, not making it perfect.
 
 Finish what you began. A house four-fifths built shelters no one. Leaving things half-done wears down your trust in yourself and in your own word, even when the work itself did not fail. What gave out was your endurance.
 
-Near the end, quitting often looks reasonable. Nehemiah's enemies asked only for a meeting. Paul tells us not to "grow weary of doing good," and Jesus finished His Father's work on the cross.
+With the work nearly done, quitting can look reasonable. Nehemiah's enemies asked only for a meeting. Paul tells us not to "grow weary of doing good," and Jesus finished His Father's work on the cross.
 
 ### The Practice
 
@@ -98,7 +98,7 @@ Strength is built in private, through self-control and showing up every day. Soo
 
 ### The Scenario
 
-Jordan was twenty-nine, two years into his first job as a pastor. The diocese planned a joint service and told him to stand at the altar beside a woman priest. Jordan wrote to his bishop that his conscience, bound by Scripture, would not let him, and asked to meet. Within a month he was removed from his post, his salary stopped, and his family had sixty days to leave the parsonage. Until the last day, he kept visiting every shut-in on his list.
+Jordan, twenty-nine, had pastored his first parish for two years. The diocese planned a joint service and told him to stand at the altar beside a woman priest. Jordan wrote to his bishop that his conscience, bound by Scripture, would not let him, and asked to meet. Within a month he was removed from his post, his salary stopped, and his family had sixty days to leave the parsonage. Until the last day, he kept visiting every shut-in on his list.
 
 ### Biblical Shepherd vs. Hireling Prophet
 
@@ -107,16 +107,16 @@ Jordan was twenty-nine, two years into his first job as a pastor. The diocese pl
 | Feeds the flock with Scripture | Preaches what pleases people |
 | Stays when the wolf comes | Runs to save himself |
 | Answers to Christ first | Answers to whoever pays him |
-| Pays the cost of obeying | Bends to keep his post |
-| Lays down his life | Looks out for himself |
+| Obeys whatever it costs | Bends to keep his post |
+| Lays down his life | Lives off the flock |
 
 Strength is given to carry weight for others.
 
 ### What This Day Is Really About
 
-What matters is which way your strength faces. When His disciples argued about rank, Jesus said, "Whoever would be great among you must be your servant," and He lived it all the way to the cross.
+What matters is which way your strength faces. When the disciples argued about rank, Jesus said, "Whoever would be great among you must be your servant," and He lived it all the way to the cross.
 
-Jordan's stand took nothing from women. Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question, and no vote can rewrite it (1 Timothy 3:2). Church leaders who make a faithful pastor choose between his conscience and his paycheck are not shepherds. Scripture calls such men false prophets and hirelings (2 Peter 2:1; John 10:12-13). If you have sold your conscience for a paycheck or a place in the group, confess it and stand with the shepherds who pay the price.
+Jordan's stand took nothing from women. Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question, and no vote can rewrite it (1 Timothy 3:2). Church leaders who make a faithful pastor choose between his conscience and his paycheck are not shepherds. Scripture calls such men false prophets and hirelings (2 Peter 2:1; John 10:12-13). If you have sold your conscience for a paycheck or a place in the group, confess it, trust Christ's blood, and stand with the shepherds who suffer for keeping theirs.
 
 ### The Practice
 
@@ -172,7 +172,7 @@ Think about school, work, home, and your phone. Ask:
 
 ### Healing Forge: When Being Noticed Once Felt Unsafe
 
-Being seen may once have meant risk: being picked apart, misunderstood, or punished for being honest. So you learned to stay hidden. Being a witness asks you to be steady, not to put yourself on display. If what you hide is sin, bring it into the light and confess it. Jesus' blood cleanses all of it (1 John 1:7).
+Being seen may once have meant risk: being picked apart, misunderstood, or punished for being honest. So you learned to stay hidden. Being a witness asks you to be steady, not to put yourself on display. If you hide your own sin, bring it into the light and confess it. Jesus' blood cleanses all of it (1 John 1:7).
 
 *End of Day 34*
 
@@ -186,25 +186,25 @@ A man who steadies a room without drawing attention to himself earns influence o
 
 ### The Scenario
 
-Scott rarely talked first. On a biology project, two teammates argued in a study room over who was slacking, louder each minute. Scott waited until they stopped for breath, then said, "Let's list what's left and split it." They did. At the coffee shop where he worked, new hires brought their questions to him instead of the manager. He had never asked to be in charge.
+Scott rarely talked first. Two teammates on his biology project argued over who was slacking, louder by the minute. Scott waited until they stopped for breath, then said, "Let's list what's left and split it." They did. At the coffee shop where he worked, new hires brought their questions to him instead of the manager. He had never asked to be in charge.
 
 ### Noise vs. Weight
 
 | Noise | Weight |
 | :- | :- |
-| Competes for attention | Stays calm and steady |
+| Competes for attention | Lets others go first |
 | Pushes people to agree | Gives people room |
 | Wants results right now | Builds over time |
 | Reacts emotionally | Thinks, then responds |
 | Makes a splash, then fades | Keeps building trust |
 
-Influence works like gravity: by weight, never by force.
+Influence works like gravity: it pulls and never pushes.
 
 ### What This Day Is Really About
 
 Most rooms already have enough opinions. What they need is someone steady. Proverbs says, "A soft answer turns away wrath," and Jesus answered Pilate calmly, with His life at stake.
 
-Jezebel shows the other way. When Naboth would not sell his vineyard, Ahab sulked in bed, and she took over. She wrote letters in his name, set two worthless men to accuse Naboth falsely, and had him stoned. No one sold himself to evil like "Ahab, whom Jezebel his wife incited" (1 Kings 21:25). She ruled by pressure and manipulation, and her method lives on in outrage campaigns and in church bodies that squeeze a pastor until he gives in. Ahab sulked and Jezebel pushed. If either is your way, repent. A godly man moves people with steady truth, spoken plainly and lived out.
+Jezebel shows the other way. When Naboth would not sell his vineyard, Ahab sulked in bed, and she took over. She wrote letters in his name, set two worthless men to accuse Naboth falsely, and had him stoned. No one sold himself to evil like "Ahab, whom Jezebel his wife incited" (1 Kings 21:25). She ruled by pressure and manipulation, and her method lives on in outrage campaigns and in church bodies that squeeze a pastor until he gives in. Ahab sulked and Jezebel pushed. Where you have done the same, repent, and Christ's blood will wash you clean. A godly man moves people with steady truth and a soft answer.
 
 ### The Practice
 

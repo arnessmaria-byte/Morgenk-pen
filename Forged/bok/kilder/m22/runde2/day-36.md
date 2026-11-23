@@ -8,7 +8,7 @@ Words shape more than results. They shape whether people trust you and whether a
 
 ### The Scenario
 
-Reid knew what he believed and could say it fast. One night his roommate admitted he was done with church. Reid talked for forty minutes: three verses, a podcast link, an answer for every doubt. His roommate nodded and put his earbuds in. In the group chat, Reid answered a two-line post with four paragraphs. He meant well, but people stopped bringing things up around him. His beliefs never pushed anyone away. The extra words did.
+Reid knew what he believed and could say it fast. One night his roommate admitted he was done with church. Reid talked for forty minutes: three verses, a podcast link, an answer for every doubt. His roommate nodded and put his earbuds in. In the group chat, Reid answered a two-line post with four paragraphs. He meant well, but people stopped bringing things up around him.
 
 ### Saying Everything vs. Saying It Right
 
@@ -24,9 +24,9 @@ Truth needs to be exact. Saying it louder or longer adds nothing.
 
 ### What This Day Is Really About
 
-Take care with your words. You do not have to go silent to do it. Well-chosen words carry weight and protect what you mean, and without that care even the truth can hurt people.
+Take care with your words. You do not have to go silent to do it. Careful words land and guard what you mean. Careless words can make even the truth hurt.
 
-Spiritual maturity shows in what you refuse to say. When you hold back, you are being responsible, not afraid. James tells believers to be "quick to hear, slow to speak," and Jesus often answered a trap with one short question.
+Spiritual maturity shows in what you refuse to say. When you hold back, you are being responsible, not afraid. Jesus often met a trap with one short question: "quick to hear, slow to speak" in practice.
 
 ### The Practice
 
@@ -40,6 +40,6 @@ Speak less today and mean more. Before you answer anyone, ask:
 
 ### Healing Forge: When Speech Once Meant Survival
 
-Some men learned to talk fast to protect themselves: defending, explaining, heading off misunderstandings. Silence felt risky. You can be exact with your words and still speak up. You are training your voice to come across clearly. Where your words have cut someone or bent the truth, call it sin and confess it. Christ's blood washes it clean (1 John 1:7-9).
+Some men learned to talk fast to protect themselves: defending, explaining, heading off misunderstandings. Silence felt risky. You can be exact with your words and still speak up. You are training your voice to come across clearly. If your words have cut someone or bent the truth, name each one to God. Christ's blood cleanses those sins too (1 John 1:7).
 
 *End of Day 36*

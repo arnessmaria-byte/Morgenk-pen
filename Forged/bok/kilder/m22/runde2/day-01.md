@@ -25,7 +25,7 @@ Nothing dramatic happened in that room. No vision, no revelation. Something in J
 | Has never been pushed | Has stood under pressure |
 | May feel sure | Is sure because it was tested |
 | Assumes it will hold | Knows what holds |
-| Lives in theory | Lives in practice |
+| Stays on paper | Bears real weight |
 | Waits for crisis | Trains before crisis |
 
 No one starts out with tested faith. It gets built when what you believe meets pressure and has to hold.
@@ -36,7 +36,7 @@ Today is about finding out whether what you were taught will hold. Think of a ro
 
 Scripture says do not put the Lord your God to the test (Deuteronomy 6:16), and this day does not ask you to. What you are testing is your grip on what you believe about Him: the rope, not the One it is tied to.
 
-Avoiding hard questions and hard tests weakens faith. Your questions are a sign that your faith is becoming your own. Paul wrote "Do not quench the Spirit" to people who already belonged to Jesus: the fire is His gift, so do not smother it. What smothers it is letting your faith slide, staying distracted, and putting things off.
+Avoiding hard questions and hard tests weakens faith. Your questions are a sign that your faith is becoming your own. Paul wrote "Do not quench the Spirit" to people who already belonged to Jesus: the fire is His gift. What smothers it is letting your faith slide, staying distracted, and putting things off.
 
 ### The Practice
 
@@ -51,6 +51,6 @@ Pick one belief you call solid but have never tested, one that has never cost yo
 
 Sometimes faith feels gone rather than weak. Often you are simply worn out. Rebellion is not always the reason.
 
-Numbness is often what is left after a long time under pressure with no relief. The pressure may be anger you still carry, grief you pushed down, sexual shame, a relationship you lost, or always keeping yourself under control while the hurt underneath never heals. Do not try to force feeling back into your faith today. Name what has dulled your faith, and tell God in plain words. If sin is part of it, confess that sin by name: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness" (1 John 1:9). The blood of Christ washes what you bring into the light.
+Numbness is often what is left after a long time under pressure with no relief. The pressure may be anger you still carry, grief you pushed down, sexual shame, a relationship you lost, or always keeping yourself under control while the hurt underneath never heals. Do not try to force feeling back into your faith today. Name what has dulled your faith, and tell God in plain words. If your own sin is part of it, confess it by name (1 John 1:9). The blood of Christ washes what you bring into the light.
 
 *End of Day 1*

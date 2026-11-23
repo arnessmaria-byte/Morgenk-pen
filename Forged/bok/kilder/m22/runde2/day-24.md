@@ -8,7 +8,7 @@ Discipline in one area cannot carry the rest of your life. Your body, beliefs, a
 
 ### The Scenario
 
-Benjamin never missed a 5 a.m. lift and logged every meal in an app. His beliefs about God were sound, and he meant them. But he had not opened his Bible alone in a month. When his mom asked him to visit his grandfather, Benjamin said he was swamped, then spent the morning watching sermon clips. His squat kept climbing. Nothing else in his life moved.
+Benjamin biked to work every day and logged every meal in an app. His beliefs about God were sound, and he meant them. But he had not opened his Bible alone in a month. When his mom asked him to visit his grandfather, Benjamin said he was swamped, then spent the morning watching sermon clips. His miles kept climbing. Nothing else in his life moved.
 
 ### Scattered Strength vs. Whole Strength
 
@@ -24,7 +24,7 @@ Strength multiplies when every part of you heads the same way.
 
 ### What This Day Is Really About
 
-Eight strong rowers who each pull to their own rhythm go nowhere in particular. The same eight, pulling together on one call, move like a single creature. Paul prays that God himself will "sanctify you completely" and keep your spirit, soul, and body blameless when Jesus Christ returns.
+Muscles that each fire on their own cannot hold you upright. The same muscles firing in order can carry a load. Paul prays that God Himself will "sanctify you completely" and keep your spirit, soul, and body blameless when Jesus Christ returns.
 
 Faith has to reach the body too, starting in the water. Bible baptism follows repentance and personal faith: "Whoever believes and is baptized will be saved" (Mark 16:16; Acts 2:38). When the eunuch asked to be baptized, Philip answered, "If you believe with all your heart, you may" (Acts 8:37, NKJV). A ritual done over an infant without his own faith does not replace a believer's baptism.
 
@@ -33,9 +33,9 @@ Faith has to reach the body too, starting in the water. Bible baptism follows re
 - Which part of my life lags behind what I believe?
 - Have I been baptized on my own faith in Christ?
 
-**Today's Action:** Right after a habit you never skip, give ten minutes to the part that lags: read one chapter of Scripture, or call someone you have neglected. If you were never baptized as a believer, use them to ask a pastor to baptize you.
+**Today's Action:** Right after a habit you never skip, give ten minutes to the part that lags: open your Bible alone, or call someone you have neglected. If you were never baptized as a believer, ask a pastor to baptize you instead.
 
-**Phase Check:** Mark each action from Days 17 to 24 done or skipped, and finish one you skipped before 10 p.m.
+**Phase Check:** Church tested, brother texted, battle told, trigger cut? Redo one that slipped by 10 p.m.
 
 ### Healing Forge: When Being Whole Felt Impossible
 

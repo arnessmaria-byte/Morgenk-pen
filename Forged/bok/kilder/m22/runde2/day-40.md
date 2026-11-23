@@ -18,7 +18,7 @@ Adam woke on the fortieth morning half expecting a rush, a sign, some sense of a
 | Stops the effort | Turns effort into a routine |
 | Celebrates being done | Picks a direction and goes |
 | Looks backward | Lives forward |
-| Wants it all wrapped up | Builds it into daily life |
+| Wants it all wrapped up | Keeps showing up |
 
 You keep growing after today. What you built these forty days settles in and gets stronger.
 

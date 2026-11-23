@@ -17,7 +17,7 @@ The alarm goes off at 6:15. No test is waiting, and your shift at the bike shop 
 | Hits snooze | Gets up at the alarm |
 | Waits for motivation | Acts without it |
 | Scrolls first | Prays first |
-| Feels justified | Feels steady |
+| Makes excuses | Makes the bed |
 | Drags the whole day down | Sets the day's rhythm |
 
 The day asks you to show up. Excitement is optional.
@@ -35,21 +35,20 @@ Look back at your last few mornings. Ask:
 - What does my hand reach for when the alarm goes off?
 - What do I tell myself to earn ten more minutes?
 
-**Today's Action:** Before 10 tonight, set one alarm, not three, and charge your phone across the room. Tomorrow, put your feet on the floor at the first alarm and pray one sentence out loud before you touch a screen. Do not try to make it perfect. Make it yours.
+**Today's Action:** Before 10 tonight, set one alarm. On a card, write the one sentence you will pray out loud when it rings, feet on the floor, before any screen. Lay the card on your phone.
 
 ### Healing Forge: When Mornings Feel Heavy
 
-Mornings may once have filled you with dread: conflict, demands, responsibility with no one to help you carry it. Staying in bed kept you out of the line of fire. You can come back to the morning one step at a time, and you do not have to be perfect. What counts is that you choose to get up. The Father hears your first tired sentence for Christ's sake. If the heaviness will not let up, talk to a pastor, a doctor, or a licensed counselor.
+Mornings may once have filled you with dread: conflict, demands, responsibility with no one to help you carry it. Avoiding them protected you. You can come back to the morning one step at a time, and you do not have to be perfect. What counts is that you choose to get up. Through Christ, the Father hears your first tired sentence. If the heaviness will not let up, talk to a pastor, a doctor, or a licensed counselor.
 
 *End of Day 26*
-
 ## Day 27: Staying Awake on Purpose
 
 > “So then let us not sleep, as others do, but let us keep awake and be sober.”
 >
 > 1 Thessalonians 5:6
 
-Drift never announces itself. It happens slowly, through small things you allow without noticing. Most men never decide to turn away from where they are headed. They fall asleep on the way.
+Drift makes no noise. It happens slowly, through small things you allow without noticing. Most men never decide to turn away from where they are headed. They fall asleep on the way.
 
 ### The Scenario
 
@@ -69,30 +68,29 @@ Test a church by what it does, whatever it calls itself.
 
 ### What This Day Is Really About
 
-A sentry on guard duty seems to do nothing at all, until the one night his watching really counts. You can keep believing and still stop noticing what you let in.
+A sentry seems to do nothing at all, until the one night his watching really counts. You can keep believing and still leave the gate open.
 
-God warned, "Do not listen to the words of the prophets who prophesy to you, filling you with vain hopes" (Jeremiah 23:16). Inside the church, false teachers preach another gospel (2 Peter 2:1; Galatians 1:8-9). They offer peace without repentance, ordain women as pastors, and bless sin. Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question. Paul told Christians waiting for Jesus to "keep awake and be sober." Repent first of the easy lies you have swallowed.
+God warned, "Do not listen to the words of the prophets who prophesy to you, filling you with vain hopes" (Jeremiah 23:16). Peter warned that false teachers would rise inside the church (2 Peter 2:1). They offer peace without repentance, put women in the pulpit, and bless sin. Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question. Paul told Christians waiting for Jesus to "keep awake and be sober." Repent first of the easy lies you have swallowed.
 
 ### The Practice
 
 - What have I let slide that once bothered me?
 - Whose teaching have I stopped testing against Scripture?
 
-**Today's Action:** Before bed, write down the main claim of the last sermon or podcast you heard, then read the whole Bible chapter it rests on and write whether the chapter backs it up.
+**Today's Action:** By 10 p.m., write down the main claim of the last sermon or podcast you heard, then read the whole Bible chapter it rests on and write whether the chapter backs it up.
 
 ### Healing Forge: When Staying Alert Wears You Out
 
-If you learned to scan for danger and never rest, because you could never tell what was coming, that habit kept you safe. The alertness asked of you here is calm and rests on trust in the God who never sleeps (Psalm 121:4). You are guarding your direction. You are not asked to brace for everything to fall apart.
+If you learned to scan for danger and never rest, because you could never tell what was coming, that restlessness was how you survived. The alertness asked of you here is calm and rests on trust in the God who never sleeps (Psalm 121:4). You are guarding your direction. You are not asked to brace for everything to fall apart.
 
 *End of Day 27*
-
 ## Day 28: Discipline in a Designed World
 
 > “Do not be conformed to this world, but be transformed by the renewal of your mind.”
 >
 > Romans 12:2
 
-The easy path is no accident. The apps you use are designed, the things around you are picked for you, and your attention is harvested like a crop. No conspiracy theory is needed to explain this; it is a business model. The feeds you scroll are built by teams paid to keep you in them as long as possible, and they are good at their jobs.
+The easy path is no accident. The apps you use are made to hold you, and your attention is harvested like a crop. No conspiracy theory is needed to explain this; it is a business model. The feeds you scroll are built by teams paid to keep you in them as long as possible, and they are good at their jobs.
 
 ### The Scenario
 
@@ -104,34 +102,33 @@ Alex did not feel tempted. He felt taken care of. His phone lined up the next vi
 | :- | :- |
 | Accepts defaults | Questions them |
 | Goes where it is easy | Goes by what he believes |
-| Feels effortless | Feels like a choice |
+| Lets apps decide | Sets his own limits |
 | Gets shaped without trying | Chooses what shapes him |
-| Slowly wears away | Keeps its shape |
+| Floats along | Makes his own calls |
 
-Discipline today is less about willpower and more about saying no.
+Discipline today means saying no to the default.
 
 ### What This Day Is Really About
 
-Seeing that the world around you is not neutral does not mean rejecting it. A boat drifts with the current, never against it, and nearly every current around you was built by someone with something to sell you. Your surroundings are already training you to rush, want more, stay comfortable, and live with constant noise. A demasculinized culture wants young men passive and easy to steer, and an endless feed does that job well. If you have liked drifting, repent and pick up the oars.
+Seeing that the world around you is not neutral does not mean rejecting it. A boat drifts with the current, never against it, and nearly every current around you was built by someone with something to sell you. Your surroundings are already training you to rush, want more, stay comfortable, and live with constant noise. A demasculinized culture wants young men passive and easy to steer, and an endless feed does that job well. If you have enjoyed being carried, confess it to Christ and pick up the oars.
 
-Christ's people are told "Do not be conformed to this world," and today much of that pressure is designed into your apps. Paul writes this after eleven chapters on God's mercy (Romans 12:1). You resist as a man who already belongs to Christ, and God Himself does the renewing. Your part is to set a few limits of your own that protect what matters. You do not have to fight everything all the time. Nobody drifts into a deeper life.
+Christ's people are told "Do not be conformed to this world," and today much of that world reaches you through your phone. Paul writes this after eleven chapters on God's mercy (Romans 12:1). You resist as a man who already belongs to Christ, and God Himself does the renewing. Your part is to set a few limits of your own that protect what matters. You do not have to fight everything all the time. Nobody drifts into a deeper life.
 
 ### The Practice
 
-Look at the defaults that run your day. Ask:
+Check the defaults that run your day. Ask:
 
 - Which app do I open without deciding to?
 - What do I let autoplay or auto-renew?
-- Where would choosing for myself feel hardest?
+- Which default would I hate to give up?
 
-**Today's Action:** By 10 tonight, change one default on your phone: turn off autoplay, move the app you open most off your home screen, or switch off one notification. Notice what in you fights the change. That is where you are being shaped.
+**Today's Action:** By 10 tonight, change one default on your phone: turn off autoplay, move the app you open most off your home screen, or switch off one notification. Notice what in you fights the change, and do not switch it back.
 
 ### Healing Forge: When Control Once Meant Safety
 
-Maybe control once kept you safe. Knowing what was coming held the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Choosing for yourself is gentler than rigid control. Start with one chosen limit, and leave what you cannot control with your Father, who knows what you need (Matthew 6:32).
+Maybe control got you through. Knowing what was coming held the chaos down, and structure gave you shelter. Questioning a familiar system can feel threatening now. Choosing for yourself is gentler than rigid control. Start with one chosen limit, and leave what you cannot control with your Father, who knows what you need (Matthew 6:32).
 
 *End of Day 28*
-
 ## Day 29: Prepared for Pressure
 
 > “Before destruction a man's heart is haughty, but humility comes before honor.”
@@ -152,29 +149,28 @@ Cole felt steady until Thursday. His manager moved his shift up three hours, his
 | Scrambles for control | Keeps his footing |
 | Loses the big picture | Knows where he is headed |
 | Burns energy on defense | Saves his strength |
-| Shows the gaps | Shows solid ground |
+| Rushes | Plans the night before |
 
 Pressure shows how well you prepared.
 
 ### What This Day Is Really About
 
-Being ready means practicing again and again before the rush comes. A fire drill is meant to be boring, so that a real fire does not catch anyone off guard. If pressure always knocks you off balance, your training is not finished yet.
+Being ready means practicing again and again before the rush comes. A fire drill is meant to be boring, so that nobody freezes in a real fire. If pressure always knocks you off balance, your training is not finished yet.
 
-Preparing ahead is what humility looks like in everyday life. A proud heart assumes it can wing it, but "humility comes before honor," and Jesus prepared for the cross on His knees in Gethsemane. Peter boasted he would never fall away, then slept instead of praying and fled when Jesus was arrested (Matthew 26:33-56).
+Preparing ahead is what humility looks like in everyday life. A proud heart thinks it can wing it. Yet "humility comes before honor": Jesus prepared for the cross on His knees in Gethsemane. Peter boasted he would never fall away, then slept instead of praying and fled when Jesus was arrested (Matthew 26:33-56).
 
 ### The Practice
 
 - What pressure can I already see coming?
 - How do I usually react when I am tired and rushed?
 
-**Today's Action:** This evening, give ten minutes to one pressure you can see coming. Lay out what you need for tomorrow's early shift, or write the first paragraph of the paper due Friday. You will not remove the pressure. You will meet it on your feet.
+**Today's Action:** This evening, take ten minutes to get ahead of that pressure. Lay out what you need for tomorrow's early shift, or write the first paragraph of the paper due Friday. You will not remove the pressure. You will meet it on your feet.
 
 ### Healing Forge: When Pressure Once Meant Danger
 
-If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stand steady when the weight comes on, instead of bracing for harm. Give the old fear to God, who cares for you (1 Peter 5:7).
+If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stand firm when the weight comes on, instead of bracing for harm. Give the old fear to God, who cares for you (1 Peter 5:7).
 
 *End of Day 29*
-
 ## Day 30: When God Feels Distant
 
 > “My God, my God, why have you forsaken me?”
@@ -185,7 +181,7 @@ Feeling distant is not the same as being abandoned. Sometimes distance means sil
 
 ### The Scenario
 
-Micah still set his alarm for 6 a.m. to pray before his warehouse shift. He read his chapter and was in church every Sunday. But God felt far away, and his prayers met silence. He searched his week for hidden sin. He tried kneeling, praying out loud, praying at night. Nothing changed. The silence bothered him less than the fear that it meant something was wrong.
+Micah still got up at 6 a.m. to pray before his first class. He read his chapter and was in church every Sunday. But God felt far away, and his prayers met silence. He searched his week for hidden sin. He tried kneeling, praying out loud, praying at night. Nothing changed. The silence bothered him less than the fear that it meant something was wrong.
 
 ### Assuming God Is Gone vs. Holding On
 
@@ -212,11 +208,10 @@ Do not chase anything new today: no new message, no signs, no fresh reassurance.
 - What have I dropped since God went quiet?
 - Where am I waiting for a feeling before I obey?
 
-**Today's Action:** Tonight, tell God out loud that He feels far away. Then make the apology or phone call you have put off.
+**Today's Action:** Tonight, tell God out loud that He feels far away. Then do one thing you dropped when He went quiet.
 
 ### Healing Forge: When Silence Feels Like Abandonment
 
 Silence may once have meant danger for you: people cutting you off, pulling away, leaving you alone with no explanation. When God is silent, those memories can wake up. His silence is not neglect. He has not let go of you.
 
 *End of Day 30*
-

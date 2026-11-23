@@ -18,7 +18,7 @@ Nehemiah's builders had closed every gap in Jerusalem's wall, though the doors w
 | Calls losing interest wisdom | Admits he is tired |
 | Wants a clean restart | Carries it to the end |
 | Avoids the boring stretch | Sticks it out |
-| Leaves things half-done | Turns effort into growth |
+| Leaves things half-done | Ties up loose ends |
 
 Finishing means getting the work done, not making it perfect.
 
@@ -26,7 +26,7 @@ Finishing means getting the work done, not making it perfect.
 
 Finish what you began. A house four-fifths built shelters no one. Leaving things half-done wears down your trust in yourself and in your own word, even when the work itself did not fail. What gave out was your endurance.
 
-Near the end, quitting often looks reasonable. Nehemiah's enemies asked only for a meeting. Paul tells us not to "grow weary of doing good," and Jesus finished His Father's work on the cross.
+With the work nearly done, quitting can look reasonable. Nehemiah's enemies asked only for a meeting. Paul tells us not to "grow weary of doing good," and Jesus finished His Father's work on the cross.
 
 ### The Practice
 
@@ -37,7 +37,7 @@ Pick one small thing you started and let stall. Ask:
 
 **Today's Action:** After dinner, spend ten minutes on the next step: send the email you owe, or sand the next board for the shelf. Then write down the date it will be finished.
 
-**Phase Check:** Mark each action from Days 25 to 32 done or skipped. Before 10 p.m., finish one you skipped.
+**Phase Check:** Up at the alarm, one default changed, tomorrow laid out? Redo one that slipped by 10 p.m.
 
 ### Healing Forge: When Finishing Once Meant Loss
 

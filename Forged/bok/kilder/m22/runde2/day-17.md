@@ -8,7 +8,7 @@ Paying attention to your life helps you see clearly. Taking a step is how you co
 
 ### The Scenario
 
-Andrew had a note on his phone listing his distractions and what each one cost him. He listened to two sermons a week on the drive to class. For a month he had meant to join the Tuesday Bible study. Three times he typed a text to the leader, and three times he deleted it. He wanted to be sure first. Knowing was no longer his problem. Doing was. He did not realize that you often see clearly after you move.
+Andrew had a note on his phone listing his distractions and what each one cost him. He listened to two sermons a week on the drive to class. For a month he had meant to join the Tuesday Bible study. Every week he typed a text to the leader, then deleted it. He wanted to be sure first. He did not know yet that a man often sees clearly only after he moves.
 
 ### Knowing Without Doing vs. Faith in Motion
 
@@ -26,7 +26,7 @@ Knowing gets your faith ready. Moving proves it.
 
 Trust has to show up in what you do, without rushing in blindly. You cannot steer a bicycle that is standing still. Balance and direction come together, and both come after you push off.
 
-If you tend to act on feeling, Day 8 was for you. If fear keeps you waiting, today is for you. Waiting feels wise, but a wait that goes on too long is often fear pretending to be good judgment. James wrote "be doers of the word" to people who already followed Jesus, and he warned that a man who only listens is fooling himself. He also calls it sin to know the right thing and leave it undone (James 4:17). Confess the delay, then move.
+If you tend to act on feeling, Day 8 was for you. If fear keeps you waiting, today is for you. Waiting feels wise, but a wait that goes on too long is often fear pretending to be good judgment. James told followers of Jesus to "be doers of the word," and he warned that a man who only listens is fooling himself. He also called it sin to know the right thing and leave it undone (James 4:17). Confess the delay, then move.
 
 ### The Practice
 
@@ -35,7 +35,7 @@ Think of one thing you already know but have not acted on. Ask:
 - What have I put off obeying until I feel sure?
 - What is the smallest real step I could take today?
 
-**Today's Action:** Before dinner, take that one step. For example, send a pastor or church leader the text you keep deleting. Skip the long plan.
+**Today's Action:** Before bed, take that one step. For example, send a pastor or church leader the text you keep deleting. Skip the long plan.
 
 ### Healing Forge: When Moving Felt Unsafe
 

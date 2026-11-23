@@ -24,7 +24,7 @@ A position opens doors. Authority decides what happens inside.
 
 ### What This Day Is Really About
 
-Authority rests on whether people can believe you. It builds when you keep doing what you say, even when you fall short. People notice who calms things down and who stirs them up.
+Authority rests on whether people can believe you. It builds when you keep doing what you say, flaws and all. People notice who calms things down and who stirs them up.
 
 Authority grows wherever someone carries responsibility without asking for credit. In Jesus' parable, the master gives more to the servant who was "faithful over a little," and trust still works that way. Your authority is on loan: "the head of every man is Christ" (1 Corinthians 11:3), and you will answer to Him for it.
 
@@ -35,7 +35,7 @@ Be careful what you promise today. Then ask:
 - What have I promised and not finished?
 - Where do I cut corners when no one checks?
 
-**Today's Action:** By 9 p.m., list every promise you have left open. Pick the smallest and finish it tonight: return the charger you borrowed, or send the text you promised. Authority often starts in jobs that feel too small to matter.
+**Today's Action:** By 9 p.m., list every promise you have left open. Pick the smallest and finish it tonight: return the tool you borrowed, or make the call you promised. Authority often starts in jobs that feel too small to matter.
 
 ### Healing Forge: When Authority Was Abused
 

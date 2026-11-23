@@ -8,7 +8,7 @@ Being seen is not the goal. Still, growth that lasts will be seen in time, becau
 
 ### The Scenario
 
-Grant stopped posting his workouts. At small group he quit hinting about his 5 a.m. Bible reading. At work he scrubbed the grill after close, and on Sundays he stacked chairs while others talked in the lobby. Months later, the new dishwasher caught him in the parking lot and asked how he stayed calm when the manager yelled. Grant no longer pointed to his strength. People saw it anyway.
+Grant stopped posting his workouts. At small group he quit hinting about his 5 a.m. Bible reading. At work he scrubbed the grill after close, and on Sundays he stacked chairs while others talked in the lobby. Months later, his pastor asked him to mentor two high school guys. Grant no longer pointed to his strength. People saw it anyway.
 
 ### Showing Off vs. Substance
 
@@ -16,7 +16,7 @@ Grant stopped posting his workouts. At small group he quit hinting about his 5 a
 | :- | :- |
 | Wants credit | Builds trust over time |
 | Advertises conviction | Carries it quietly |
-| Needs approval | Has real weight |
+| Needs approval | Works unseen |
 | Rises and falls with reactions | Stays steady |
 | Demands attention | Holds others up |
 
@@ -28,7 +28,7 @@ As you grow, life puts weight on you: questions, requests, responsibility. Who y
 
 Be worth noticing, and do not chase being noticed. Jesus tells you to let your light shine so that people will "give glory to your Father," not to you.
 
-That light comes from the Spirit, whose gifts did not end with the apostles. The Spirit who filled the first believers so they "continued to speak the word of God with boldness" (Acts 4:31) still gives power to witness (Acts 1:8). The gifts are for serving others, not for show. Repent of chasing applause and ask Him for them.
+No man shines on his own. The Spirit who filled the first believers so they "continued to speak the word of God with boldness" (Acts 4:31) still gives power to witness (Acts 1:8). His gifts did not end with the apostles, and they are for serving others, not for show. Ask Him for them, and put them to work.
 
 ### The Practice
 

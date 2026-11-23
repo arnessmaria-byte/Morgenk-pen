@@ -8,7 +8,7 @@ In public, you clean up how you act. Alone, you act the way you trained yourself
 
 ### The Scenario
 
-At work, Ethan clocked in early. At church, he ran the sound board every Sunday. At home, dishes sat in the sink for four days, and in his garage gym he cut his sets short because no one was counting. After midnight, behind a locked door, he opened websites he would never open at work. For a long time, no one saw. Then they did.
+At work, Ethan clocked in early. At church, he ran the sound board every Sunday. At home, dishes sat in the sink for four days, and he cut his evening runs short because no one was timing him. After midnight, behind a locked door, he opened websites he would never open at work. For a long time, no one saw. Then they did.
 
 ### Appearance vs. Integrity
 
@@ -24,21 +24,21 @@ A crowd tests your image. Being alone tests what you are made of.
 
 ### What This Day Is Really About
 
-Jesus said this about money, and it holds behind your door too: what you do with "a very little" shows what you can be trusted with. No athlete can do in a match what he never practiced alone.
+Jesus said this about money, and it holds in private too: what you do with "a very little" shows what you can be trusted with. No athlete can do in a match what he never practiced alone.
 
-You know the deal you make in an empty room: the door closes, and the standard slips. For most young men, the hardest test there is sexual. God gave sex one home: lifelong marriage between one man and one woman (Mark 10:6-9). Outside it, the command is short: "Flee from sexual immorality." (1 Corinthians 6:18). Keep custody of your eyes behind a closed door: decide before you are alone what you will not open (1 Thessalonians 4:3-5).
+You know the deal you make in an empty room: the door closes, and the standard slips. The hardest test in that room is usually sexual. God gave sex one home: lifelong marriage between one man and one woman (Mark 10:6-9). Outside it, the command is short: "Flee from sexual immorality." (1 Corinthians 6:18). Keep custody of your eyes behind a closed door. Decide before you are alone what you will not open (1 Thessalonians 4:3-5).
 
 ### The Practice
 
 - What standard do I let slip when no one sees?
 - Which job at home do I always leave half done?
 
-**Today's Action:** By 9 p.m., finish one unseen task to a 100 percent standard: every dish washed, dried and put away. Tell no one.
+**Today's Action:** By 9 p.m., finish that unseen job to a 100 percent standard, nothing left half done. Tell no one.
 
-**Phase Check:** Mark each action from Days 9 to 16 done or skipped. Before 10 p.m., finish one you skipped.
+**Phase Check:** Charger still out, bank leak still cut, anger on paper? Redo one that slipped by 10 p.m.
 
 ### Healing Forge: When Privacy Became Hiding
 
-If time alone was once your safe place, where no one judged you, pushed you, or wanted anything from you, that relief was real. Privacy turns into hiding when you use it for what you would never do in the open. Name that sin to God. Christ's blood washes what you confess (1 John 1:7-9), and the man you are alone and the man others see can become one.
+If time alone was once your safe place, where no one judged you, pushed you, or wanted anything from you, that relief was real. Privacy turns into hiding when you use it for what you would never do in the open. Name that sin to God as David did (Psalm 32:5). Christ's blood cleanses it, and the man you are alone and the man others see can become one.
 
 *End of Day 16*

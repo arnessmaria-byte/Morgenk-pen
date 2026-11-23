@@ -10,7 +10,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 - **«Ask:» og «Ask yourself:»** først i en linje er ikke regnet med. Spørsmålet etter kolon er sammenlignet med boken.
 - **Scenenumrene følger manuset.** Scene 1 har ingen voiceover, bare en klikkelyd. Scene 2 er tittel-linjen, og scene 7 er «The practice for today.». Disse to linjene er ikke tatt med, så tabellene viser scene 3 til 6 og 8 til 10.
 
-**Sammendrag:** Manuset har 360 voiceover-linjer. Uten tittel-linjen og «The practice for today.» er det 280 linjer igjen. 19 av dem står ordrett i boken nå, og bare 11 som hele setninger. Alle 40 dagtitler stemmer med boken.
+**Sammendrag:** Manuset har 360 voiceover-linjer. Uten tittel-linjen og «The practice for today.» er det 280 linjer igjen. 10 av dem står ordrett i boken nå, og bare 6 som hele setninger. Alle 40 dagtitler stemmer med boken.
 
 ## Day 1: Kindling the Flame
 
@@ -38,13 +38,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Pick one belief you think is solid but have never tested. It has never made you uncomfortable, met pushback, or cost you anything. Write it down. If it takes a while to find one, the exercise is already working. Then ask:
+> Pick one belief you call solid but have never tested, one that has never cost you anything or met real pushback. Then ask:
 >
-> - What pressure have I let this belief face?
+> - What pressure has this belief actually faced?
 > - Where do I avoid testing it?
-> - What would it take to train this belief instead of just assuming it will hold?
 >
-> Leave the fixing for later. Today you are only striking the match.
+> **Today’s Action:** Write the belief in one sentence on a sheet of paper. Under it, write one thing it asks of you today. Do that thing before 10 p.m. and check it off.
 
 **Healing Forge: When Faith Feels Numb**
 
@@ -54,7 +53,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Separation is easy to get wrong. Some people think it means acting superior, and others think it means rejecting people. Both miss the point. Separation asks what you are willing to step away from so that your life can hold together.
+> Separation is easy to get wrong. Some people think it means acting superior, and others think it means rejecting people. Separation asks what you are willing to step away from so that your life can stay whole and undivided.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -70,21 +69,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Name one thing in your life that shapes you more than you admit. It might be:
->
-> - a friend group
-> - a place online
-> - a routine you return to without thinking
-> - humor that makes you less alert
-> - conversations that pull you off course
->
-> Do not judge it. Ask instead:
+> Name one thing that shapes you more than you admit: a friend group, a group chat, a feed, or a kind of humor that makes you meaner. Then ask:
 >
 > - What is this building in me?
 > - Who do I have to be to stay here?
 > - What part of me do I mute so I can fit in?
 >
-> If you need to step back, start without making a scene. There is nothing to announce.
+> **Today’s Action:** Before dinner, mute that chat or account for seven days. If it is a friend group, text them you will pass this weekend. No speech.
 
 **Healing Forge: When Distance Feels Like Loss**
 
@@ -94,7 +85,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Your faith can handle your questions. What hurts it is dodging them. A faith that never allows questions stays fragile, and a faith that welcomes them grows strong. Some questions are not useful. Still, every question you refuse to ask trains you to look away.
+> Your faith can handle your questions. What hurts it is dodging them. Some questions are not useful. Still, every question you refuse to ask trains you to look away.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -104,20 +95,19 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 4 | Avoided questions are. | nei |
 | 5 | Faith does not fear testing. | nei |
 | 6 | Only pretense does. | nei |
-| 8 | Choose one belief you rely on. | del av en lengre setning |
-| 9 | Ask yourself: Why do I trust this? | ja, hel setning |
+| 8 | Choose one belief you rely on. | nei |
+| 9 | Ask yourself: Why do I trust this? | nei |
 | 10 | Refinement requires patience. | nei |
 
 **The Practice i boken nå:**
 
-> Choose one belief you rely on but have never looked at closely. Ask it one question that tests it. One is enough. For example:
+> Take the belief from Day 1, or another you lean on, and ask:
 >
-> - Why do I trust this?
-> - If this were false, what would show it?
-> - What would this belief actually cost me?
-> - Where does this belief fail to tell me what to do?
+> - Which chapter and verse of Scripture teach this?
+> - Have I read that passage in its context, or only heard it quoted?
+> - What would this belief cost me if I lived it this week?
 >
-> When an answer comes, give it time instead of arguing it away. This takes patience.
+> **Today’s Action:** By 9 p.m., open your Bible to the passage behind that belief, read the whole chapter, and write in two plain sentences what it actually says. If you cannot find a passage, text the question to an older believer you trust and ask to meet this week.
 
 **Healing Forge: When Questions Feel Dangerous**
 
@@ -127,7 +117,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Rules are easy to resent when you cannot see what they protect. Most people who reject rules have never been shown what the rules are for. Without a purpose you can see, every limit feels random.
+> Rules are easy to resent when you cannot see what they protect. Without a purpose you can see, every limit feels random.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -143,13 +133,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Pick one rule or discipline you resist. Ask:
+> Pick the rule you bend most often. Ask:
 >
-> - What was this meant to protect?
-> - What strength might it keep safe if I stuck with it?
-> - What slowly wears away when I do not keep it?
+> - What was this rule meant to protect?
+> - Who pays when I bend it?
 >
-> Add no new rules today. Your job is to rediscover the reason behind an old one.
+> **Today’s Action:** Before 10 p.m., text your manager the real hours if you padded any. If not, set a bedtime alarm for 10:45.
 
 **Healing Forge: When Rules Make You Push Back**
 
@@ -181,7 +170,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 > - Where is my life slightly out of line with what I believe?
 > - What small correction am I being asked to make?
 >
-> Do not dramatize the discomfort or bury it. Name the correction it calls for.
+> **Today’s Action:** Act on that correction by 9 p.m.: send the apology you owe, or make the call you have been avoiding.
 
 **Healing Forge: When Discontent Turns Against You**
 
@@ -207,21 +196,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Name one strength you rely on but rarely offer. It might be:
+> Name one strength you rely on but rarely offer: a strong back, a steady head, quick decisions, or thinking a few steps ahead.
 >
-> - making firm decisions
-> - staying steady when feelings run high
-> - physical strength
-> - thinking a few steps ahead
-> - being there when the pressure is on
+> - Who near me would benefit if I put this strength to work?
+> - Where have I been guarding this ability instead of using it?
+> - What job am I dodging that this strength could do?
 >
-> Ask:
->
-> - Who would benefit if I put this strength to use for others?
-> - Where have I been guarding this ability instead of putting it to work?
-> - What responsibility might this strength be pointing me toward?
->
-> You do not need to act yet. Start by naming what this strength is for.
+> **Today’s Action:** By 10 p.m., pick one person who could use that strength and text a specific offer, such as “I can help you move on Saturday” or “I’ll look at your brakes after work tomorrow.” Then keep your word.
 
 **Healing Forge: When Strength Became a Burden**
 
@@ -247,11 +228,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Get clear on one direction. A goal is something you reach. A direction answers questions like these: What kind of man am I becoming? What does my life move toward when no one gets in the way?
+> A goal is a finish line. A direction answers these questions:
 >
-> Write one sentence that describes your direction. Then ask: What small decision today would fit that sentence, instead of going against it?
+> - What kind of man am I becoming?
+> - Where does my life go when nothing gets in the way?
+> - What small decision today would point me that way?
 >
-> You will choose your direction again tomorrow, and the day after. That is how you hold on to it.
+> **Today’s Action:** Tonight, write your direction in one sentence. Then put thirty minutes on tomorrow’s calendar for the first step it asks of you, and guard that block like a shift you cannot skip.
 
 **Healing Forge: When Direction Feels Overwhelming**
 
@@ -261,7 +244,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Some men let passion do the driving. Others see it as a danger and shut it down. Passion is a signal, and a signal needs to be read.
+> Some men let passion drive. Others treat it as a danger and shut it down. Passion is a signal, and a signal needs to be read.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -277,13 +260,15 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Notice one passion that keeps coming back, something that runs deeper than a passing urge. Ask:
+> Pick one passion that keeps coming back.
 >
 > - What does this passion keep pointing me toward?
-> - What responsibility might it ask of me if I took it seriously?
-> - Where does it make things feel too urgent, or make me feel entitled?
+> - What would it ask of me if I took it seriously?
+> - Where does it make me feel rushed or entitled?
 >
-> Do not act on it today. Study what it asks of you.
+> **Today’s Action:** After dinner, give that passion ten minutes of the boring part: scales instead of a new song, one rough page instead of a big plan. Then write one line on whether the desire outlasted the excitement.
+>
+> **Phase Check:** Belief acted on, chat muted, chapter read, hours fixed, help offered, direction set? Redo one slip by 10 p.m.
 
 **Healing Forge: When Passion Was Punished**
 
@@ -293,7 +278,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Faith is rarely tested when life is easy. It is tested by everyday pressure, by what people expect but never say, and by trouble that shows up without warning. Faith is lived out in those tests.
+> Faith is rarely tested when life is easy. It is tested by daily pressure, by what people expect but never say, and by trouble that comes without warning. Faith is lived out in those tests.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -309,13 +294,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Watch for one moment of pressure today. Do not fix it, and do not cover it with spiritual words. Just notice:
+> Watch for one moment of pressure today and ask:
 >
-> - What did I fall back on here?
+> - What did the pressure bring out of me?
 > - What belief was actually in charge?
-> - What did the pressure bring out that was already in me?
 >
-> A test turns into training as soon as you pay attention to it.
+> **Today’s Action:** When that moment has passed, write it down in two sentences: what happened and what you did. Then, like Daniel, kneel and pray over it before 10 p.m.
 
 **Healing Forge: When Testing Feels Like Failure**
 
@@ -325,7 +309,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Few things shape you as steadily as what you take in without noticing. Your screens train your attention, your wants, your patience, your impulses, and how you compare yourself. They do all this long before your beliefs have a say. Habits form wherever your guard is down.
+> Few things shape you as steadily as what you take in without noticing. Your screens train your attention, your wants, your patience, and how you compare yourself. They do it long before your beliefs have a say. Habits form wherever your guard is down.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -341,13 +325,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Watch one digital habit today. Delete nothing yet. Notice:
+> Track one digital habit today and ask:
 >
 > - When do I reach for my phone without meaning to?
 > - What content keeps pulling my mood or focus off track?
 > - Where do I come away scattered instead of built up?
 >
-> You have to notice a habit before you can control it. What you need is a cleaner diet, and another app will not give you that.
+> **Today’s Action:** By 10 p.m., move your phone charger out of your bedroom. Plug it in on the kitchen counter, and use a cheap alarm clock if you need one.
 
 **Healing Forge: When Escape Became a Habit**
 
@@ -373,20 +357,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Catch one moment today when pressure starts doing your thinking for you. It might be:
->
-> - disagreement
-> - being corrected
-> - running out of time
-> - a responsibility you did not expect
->
-> Notice:
+> Catch one moment today when pressure starts doing your thinking for you: a disagreement, a correction, or a clock running out.
 >
 > - What did my thinking shrink down to?
-> - What did I ignore in order to react quickly?
-> - What would have changed if I had paused on purpose for a moment?
+> - What did I ignore so I could react fast?
+> - What would have changed if I had paused on purpose?
 >
-> Do not try to fix today’s reaction. Practice the pause for next time.
+> **Today’s Action:** Before 10 p.m., give that moment ten minutes with a pen. Write down what you said or did, then what you would have said after a three-second pause. If you snapped at someone and it is safe to do so, tell that person tonight that you were wrong, with no excuse attached.
 
 **Healing Forge: When Pressure Takes Over Your Thinking**
 
@@ -396,7 +373,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Standing out is rarely punished right away. The cost comes slowly. People approve of you less, they grow colder, and fewer doors open. It is easy to miss, and it is real.
+> Standing out is rarely punished right away. The cost comes slowly: people grow colder, and fewer doors open.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -412,13 +389,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Notice one place where you tone yourself down to keep people’s approval. Ask:
+> Elijah’s question is for you before it is for any church.
 >
-> - What cost am I avoiding here?
-> - What part of my integrity am I trading for an easier time?
-> - What small step toward living what I believe would cost me some comfort but help me see clearly?
+> - Where do I limp between two opinions to keep my seat?
+> - What small step would cost me some comfort today?
 >
-> Take that small step without drama or announcement. Most costs are paid in private.
+> **Today’s Action:** By 10 tonight, turn down one wrong plan or say the sentence you keep swallowing. Take that small step without drama or announcement. Most costs are paid in private.
 
 **Healing Forge: When Rejection Reopens Old Wounds**
 
@@ -428,7 +404,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Attachment can be a good thing. But when it takes the wrong place in your life, it pulls your choices off course before you notice. Whatever you are loyal to will shape where you drift.
+> Attachment can be a good thing. But when it takes the wrong place in your life, it bends your choices before you notice. Whatever you are loyal to will shape where you drift.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -439,18 +415,17 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 5 | Love distorts when it replaces obedience. | nei |
 | 6 | Direction erodes slowly. | nei |
 | 8 | Identify one attachment that influences obedience. | nei |
-| 9 | Ask: Who am I trying not to disappoint? | ja, hel setning |
+| 9 | Ask: Who am I trying not to disappoint? | nei |
 | 10 | Clarify your order. | nei |
 
 **The Practice i boken nå:**
 
-> Name one attachment that affects whether you obey. Ask:
+> Name the person or group you most fear letting down.
 >
-> - Who am I trying not to disappoint?
-> - What have I put off obeying because it might cost me a relationship?
-> - Which loyalty is trying to have the final say when it has no right to?
+> - What have I put off so I would not lose them?
+> - Which loyalty wants Christ’s place?
 >
-> Do not confront anyone. Get clear on what comes first.
+> **Today’s Action:** Tonight, before 10, write down one step of obedience you have dodged to keep someone happy. Start it now with a text or a call, and tell one believer what you did.
 
 **Healing Forge: When Pleasing People Protected You**
 
@@ -460,7 +435,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Money does not usually give orders out loud. It steers you with budgets, delays, trade-offs, and the things you keep protecting. Whatever you say you value, where your money goes shows what you really support.
+> Money seldom gives orders out loud. It steers you through budgets, delays, trade-offs, and the things you keep protecting. Whatever you say you value, where your money goes shows what you really support.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -476,13 +451,10 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Pick one money habit today. Look past any single purchase and see where the habit is taking you. Ask:
+> - What does my spending protect?
+> - Where does money make me stall on what God asks?
 >
-> - What does this habit protect?
-> - Where does it help me obey, and where does it make me put off obeying?
-> - What future am I paying for by doing this again and again?
->
-> Do not judge the answer. Just notice whether you steer your money or your money steers you.
+> **Today’s Action:** Open your bank app before 10 tonight and read the last thirty days line by line. Pick the biggest leak and cut it now: delete the delivery app, cancel a subscription, or remove a saved card. If any line is a bet, delete the betting app too and text one trusted brother what you found.
 
 **Healing Forge: When Money Meant Safety**
 
@@ -508,13 +480,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Recall one recent time you got angry. Do not excuse it or condemn it. Ask:
+> Recall your last angry moment. Skip the excuses and the shame.
 >
 > - What threat did I sense here?
-> - What boundary felt crossed, this time or in the past?
+> - What line felt crossed, now or in the past?
 > - What did this anger try to protect?
 >
-> Write the answers down where only you will see them. Understanding your anger helps you control it.
+> **Today’s Action:** After dinner, set a timer for ten minutes. Write the answers down where only you will see them. Understanding your anger helps you control it.
 
 **Healing Forge: When Anger Learned to Guard You**
 
@@ -524,7 +496,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> In public, you clean up how you act. Alone, you act the way you trained yourself to. What you do when no one sees shows what has been built in you.
+> In public, you clean up how you act. Alone, you act the way you trained yourself to.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -540,13 +512,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Today, notice one private habit you repeat, whether or not it is a failure. Ask:
->
 > - What standard do I let slip when no one sees?
-> - What would integrity require of me here?
-> - What small change would make what I do match what I believe?
+> - Which job at home do I always leave half done?
 >
-> Do not swing too far the other way. Keep one private habit steady.
+> **Today’s Action:** By 9 p.m., finish that unseen job to a 100 percent standard, nothing left half done. Tell no one.
+>
+> **Phase Check:** Charger still out, bank leak still cut, anger on paper? Redo one that slipped by 10 p.m.
 
 **Healing Forge: When Privacy Became Hiding**
 
@@ -567,18 +538,17 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 5 | Delay often disguises fear as discernment. | nei |
 | 6 | Clarity follows movement. | nei |
 | 8 | Identify one insight you have not acted on. | nei |
-| 9 | Ask: What step is small enough? | del av en lengre setning |
+| 9 | Ask: What step is small enough? | nei |
 | 10 | Move once. | nei |
 
 **The Practice i boken nå:**
 
 > Think of one thing you already know but have not acted on. Ask:
 >
-> - What have I put off obeying because I wanted to be sure first?
-> - What step is small enough for me to actually take?
-> - What one move would turn what I believe into what I do?
+> - What have I put off obeying until I feel sure?
+> - What is the smallest real step I could take today?
 >
-> Skip the long plan. Take one step.
+> **Today’s Action:** Before bed, take that one step. For example, send a pastor or church leader the text you keep deleting. Skip the long plan.
 
 **Healing Forge: When Moving Felt Unsafe**
 
@@ -604,13 +574,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Think of one recent failure: the one that taught you most, not necessarily the one that hurt most. Ask:
+> Choose one recent failure, the one that taught you most. Ask:
 >
 > - What did this show me about how I prepared?
 > - Where did I count on good intentions instead of training?
-> - What would I change so my next try is smarter?
 >
-> Leave blame out of it. Get back into training with a clearer plan.
+> **Today’s Action:** By 10 p.m., write the failure in one honest sentence, add one change, and put your next try on the calendar.
 
 **Healing Forge: When Failure Hit Who You Are**
 
@@ -620,7 +589,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Scripture is there to show you who you are, not to tell you that you are fine. Treat it as decoration, and it flatters you. Treat it as a mirror, and it shows you the truth.
+> Read Scripture as a mirror, and it shows you who you are.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -630,19 +599,18 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 4 | It exists to reveal you. | nei |
 | 5 | Read as a mirror, it exposes. | nei |
 | 6 | Truth that cannot correct cannot form. | nei |
-| 8 | Read one familiar passage today. | del av en lengre setning |
+| 8 | Read one familiar passage today. | nei |
 | 9 | Ask: What assumption does this challenge? | nei |
 | 10 | Allow exposure first. | nei |
 
 **The Practice i boken nå:**
 
-> Read one familiar passage today, without trying to learn anything new from it. Ask:
+> Read 1 Timothy 3:1-7 slowly. Do not rush to analyze it or point it at someone else. Let it show you yourself first. Then ask:
 >
-> - What does this show me about where I am headed?
-> - What does this challenge that I take for granted?
-> - What do I need to do about this now?
+> - Which mark of a faithful man is missing in me?
+> - Does my church hold its leaders to this standard?
 >
-> Do not rush to analyze it or point it at someone else. Let it show you yourself first.
+> **Today’s Action:** Before 10 p.m., write the mark missing in you. Then test your congregation: are its elders tested men, does it preach the Gospel and repentance, does it bless sin?
 
 **Healing Forge: When Scripture Was Used Against You**
 
@@ -652,7 +620,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Strength gets steadier when you stay close to other men. What you believe gets clearer when it is tested by people who will not flatter you or disappear.
+> Strength gets steadier when you stay close to other men. Your beliefs get clearer when honest men test them.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -668,13 +636,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Name one man headed the same way you are. Ask:
+> Think about the men around you. Ask:
 >
 > - Who sees my habits clearly?
 > - Who can challenge me without me brushing him off?
-> - Where am I training alone because it is easier, even though it is not wise?
+> - Which of them obeys Scripture when it costs him?
 >
-> You do not need to start a group. Start one honest conversation.
+> **Today’s Action:** By 10 p.m., text one brother who holds to Scripture. Ask to meet this week for breakfast or a workout, and name one habit you want him to check on.
 
 **Healing Forge: When Brotherhood Was Missing**
 
@@ -684,7 +652,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> The battles that matter most are rarely seen. You fight them with no audience, no explanation, and no credit, and they decide where your life goes.
+> The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where “Their worm does not die” and “the fire is not quenched” (Mark 9:44, NKJV).
 
 **Voiceover i det gamle videomanuset:**
 
@@ -700,13 +668,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Name one battle inside you that keeps coming back. Ask:
+> Name the battle that keeps coming back. Ask:
 >
-> - Where am I spending energy and getting nowhere?
-> - What am I keeping under control without ever dealing with it?
-> - Who could know about this without using it against me?
+> - When, where, and on what screen does the pull start?
+> - Which brother could I trust with this?
 >
-> Keep it simple. Begin with the truth.
+> **Today’s Action:** Before 10 p.m., call or text that brother or a pastor and tell him plainly what you are fighting. One sentence is enough. Skip the details. Then cut off your main trigger: delete the app, block the site, or charge your phone outside your bedroom.
 
 **Healing Forge: When Silence Was Safer**
 
@@ -732,13 +699,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Think of a recent situation where no clear rule applied. Ask:
+> Think of a recent moment when someone needed help and no rule told you to give it. Ask:
 >
-> - What result was I trying to protect?
-> - What did I hesitate to take responsibility for?
-> - What would being faithful have required of me, even without instructions?
+> - What did I leave undone, and why?
+> - What would being faithful have asked of me?
 >
-> Do not look for ways around the rules. Own your part.
+> **Today’s Action:** By 10 p.m., get back to the person you left alone, ask how they are doing, and offer one specific kind of help.
 
 **Healing Forge: When Rules Meant Safety**
 
@@ -748,7 +714,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Knowledge piles up easily, but real change takes longer. Learning fills your head. Only doing what you learned changes how you act.
+> Knowledge piles up fast, but change takes longer. Learning fills your head. Only doing what you learned changes how you act.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -758,19 +724,18 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 | 4 | Knowledge without action dissolves under pressure. | nei |
 | 5 | Wisdom is reducing belief into action. | nei |
 | 6 | Only practiced knowledge survives. | nei |
-| 8 | Choose one truth you already understand. | ja, hel setning |
+| 8 | Choose one truth you already understand. | nei |
 | 9 | Ask: Where does this fail in behavior? | nei |
 | 10 | Condense what you know. | nei |
 
 **The Practice i boken nå:**
 
-> Choose one truth you already understand. Ask:
+> Choose one verse you already know well. Ask:
 >
-> - Where does this not show up in how I act?
-> - What one action would put this knowledge to use?
-> - What could I repeat until it becomes automatic?
+> - Where do I act as if I never learned it?
+> - What would obeying it look like today?
 >
-> Learn nothing new today. Put what you already know to work.
+> **Today’s Action:** By 10 tonight, obey that verse in one concrete way you have been putting off: pray for an enemy, or give to someone who asks.
 
 **Healing Forge: When Knowledge Became Armor**
 
@@ -780,7 +745,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Discipline in one area cannot do the work of every other part of your life. Your body, beliefs, and relationships need to move in the same direction.
+> Discipline in one area cannot carry the rest of your life. Your body, beliefs, and relationships need to move in the same direction.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -796,13 +761,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Look at one area of your life that still stands apart from the rest. Ask:
+> - Which part of my life lags behind what I believe?
+> - Have I been baptized on my own faith in Christ?
 >
-> - Where do my habits not follow what I believe?
-> - Which discipline runs on its own, cut off from the rest?
-> - What would I need to line up so I pull against myself less?
+> **Today’s Action:** Right after a habit you never skip, give ten minutes to the part that lags: open your Bible alone, or call someone you have neglected. If you were never baptized as a believer, ask a pastor to baptize you instead.
 >
-> Do not add effort. Connect what you already have.
+> **Phase Check:** Church tested, brother texted, battle told, trigger cut? Redo one that slipped by 10 p.m.
 
 **Healing Forge: When Being Whole Felt Impossible**
 
@@ -828,13 +792,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Pick one discipline that now feels heavy because it has become ordinary. Ask:
+> Pick one discipline that has gone stale. Ask:
 >
-> - What was I expecting that made this feel like a letdown?
-> - What result am I waiting for instead of just practicing?
-> - How would I stay faithful with no sign that it is working?
+> - What result am I waiting for?
+> - How do I stay faithful if nothing seems to change?
 >
-> Do not try harder. Just stay with it.
+> **Today’s Action:** Do that discipline today in full, at your normal pace: the whole run, the whole chapter. Then tape a sheet inside your door and date it.
 
 **Healing Forge: When Quitting Felt Necessary**
 
@@ -860,7 +823,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Tomorrow morning, before you check anything, do one thing. Get out of bed, sit still for a moment, and say one sentence out loud: what you mean to do today, or a prayer. That is the whole practice. Do not try to make it perfect. Make it yours.
+> Look back at your last few mornings. Ask:
+>
+> - What does my hand reach for when the alarm goes off?
+> - What do I tell myself to earn ten more minutes?
+>
+> **Today’s Action:** Before 10 tonight, set one alarm. On a card, write the one sentence you will pray out loud when it rings, feet on the floor, before any screen. Lay the card on your phone.
 
 **Healing Forge: When Mornings Feel Heavy**
 
@@ -870,7 +838,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Drifting off course never announces itself. It happens slowly, through small things you allow without noticing. Most men never decide to turn away from where they are headed. They fall asleep on the way.
+> Drift makes no noise. It happens slowly, through small things you allow without noticing. Most men never decide to turn away from where they are headed. They fall asleep on the way.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -886,9 +854,10 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Pick one moment that repeats in your day and slow down in it on purpose. You are only there to notice. Where does your attention go when no one directs it? Name it.
+> - What have I let slide that once bothered me?
+> - Whose teaching have I stopped testing against Scripture?
 >
-> Noticing can stop drift early, before you need discipline to fix it.
+> **Today’s Action:** By 10 p.m., list the three voices you hear most on faith. Unfollow any that offers peace without repentance, and write one line on why.
 
 **Healing Forge: When Staying Alert Wears You Out**
 
@@ -898,7 +867,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> The easy path is no accident. The systems you use are designed, the things around you are picked for you, and your attention is harvested like a crop. Distraction is engineered, so now you have to choose to resist it. No conspiracy theory is needed to explain this; it is a business model. The feeds you scroll are built by teams paid to keep you in them as long as possible, and they are good at their jobs.
+> The easy path is no accident. The apps you use are made to hold you, and your attention is harvested like a crop. No conspiracy theory is needed to explain this; it is a business model. The feeds you scroll are built by teams paid to keep you in them as long as possible, and they are good at their jobs.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -914,9 +883,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Find one default that shapes what you do: a setting, a habit, a shortcut. Break it once. Just once. Make the choice yourself instead of taking the easy way.
+> Check the defaults that run your day. Ask:
 >
-> Notice what fights the change. That is where you are being shaped.
+> - Which app do I open without deciding to?
+> - What do I let autoplay or auto-renew?
+> - Which default would I hate to give up?
+>
+> **Today’s Action:** By 10 tonight, change one default on your phone: turn off autoplay, move the app you open most off your home screen, or switch off one notification. Notice what in you fights the change, and do not switch it back.
 
 **Healing Forge: When Control Once Meant Safety**
 
@@ -942,9 +915,10 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Pick one pressure you can see coming: time pressure, an emotional demand, an interruption, a responsibility you keep putting off. Do one small thing to prepare for it before it arrives. You will not remove the pressure. You will meet it on your feet.
+> - What pressure can I already see coming?
+> - How do I usually react when I am tired and rushed?
 >
-> Preparing ahead is what humility looks like in everyday life.
+> **Today’s Action:** This evening, take ten minutes to get ahead of that pressure. Lay out what you need for tomorrow’s early shift, or write the first paragraph of the paper due Friday. You will not remove the pressure. You will meet it on your feet.
 
 **Healing Forge: When Pressure Once Meant Danger**
 
@@ -962,7 +936,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 |---|---|---|
 | 3 | Distance is not always absence. | nei |
 | 4 | Sometimes it is silence. | nei |
-| 5 | God does not always speak. | del av en lengre setning |
+| 5 | God does not always speak. | nei |
 | 6 | Silence does not cancel direction. | nei |
 | 8 | Practice what you already know is aligned. | nei |
 | 9 | Stay present. Stay faithful | nei |
@@ -972,7 +946,10 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 > Do not chase anything new today: no new message, no signs, no fresh reassurance. Do what you already know is right. Keep showing up, and stay faithful.
 >
-> Silence does not change where you are headed.
+> - What have I dropped since God went quiet?
+> - Where am I waiting for a feeling before I obey?
+>
+> **Today’s Action:** Tonight, tell God out loud that He feels far away. Then do one thing you dropped when He went quiet.
 
 **Healing Forge: When Silence Feels Like Abandonment**
 
@@ -982,7 +959,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Faith lives in your body as well as your thoughts: in how you carry yourself, how you breathe, how tired you get, and how you use self-control. The load your body carries shapes how much your soul can handle.
+> Faith lives in your body as well as your mind. The load your body carries shapes how much your soul can handle.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -998,9 +975,10 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Change one physical habit today. Pick one of these four: go to sleep a little earlier, pay attention while you eat, move your body for a few minutes, or take a moment to breathe with no distractions. Leave the rest alone.
+> - What time did I actually fall asleep the last three nights?
+> - When did tiredness make me short with someone?
 >
-> The goal is to be available when you are needed, not to have more energy.
+> **Today’s Action:** Before 10 tonight, walk for ten minutes without your phone, and thank God for the body He knit together.
 
 **Healing Forge: When the Body Learned to Endure Alone**
 
@@ -1010,7 +988,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Energy comes easily at the start. Finishing takes endurance. Talent will not get you there, and neither will going all out or the thrill of something new. Most men give up near the end, when progress feels ordinary and the reward seems far away.
+> Starting is easy. Finishing takes endurance. Most men give up near the end, when progress feels ordinary and the reward seems far away.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -1026,7 +1004,14 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Think of one thing you keep putting off finishing. Skip the hardest and most dramatic ones. Pick the one that keeps hanging around in the background. Take one step that clearly moves it closer to done. Say what done looks like, then walk toward it.
+> Pick one small thing you started and let stall. Ask:
+>
+> - What did I promise, and to whom?
+> - What does done look like, in one sentence?
+>
+> **Today’s Action:** After dinner, spend ten minutes on the next step: send the email you owe, or sand the next board for the shelf. Then write down the date it will be finished.
+>
+> **Phase Check:** Up at the alarm, one default changed, tomorrow laid out? Redo one that slipped by 10 p.m.
 
 **Healing Forge: When Finishing Once Meant Loss**
 
@@ -1036,25 +1021,26 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Strength matures in silence. It is built on the inside as you use self-control, show up every day, and keep going. But it does not stay inside you. Sooner or later, it has to turn outward and serve others.
+> Strength is built in private, through self-control and showing up every day. Sooner or later, it has to turn outward and serve others.
 
 **Voiceover i det gamle videomanuset:**
 
 | Scene | Linje | Står i boken nå? |
 |---|---|---|
-| 3 | Strength matures in silence. | ja, hel setning |
+| 3 | Strength matures in silence. | nei |
 | 4 | But it must turn outward. | nei |
 | 5 | Unused strength turns inward. | nei |
 | 6 | Servanthood is strength freely offered. | nei |
 | 8 | Place your strength somewhere useful today. | nei |
 | 9 | Support where consistency matters | nei |
-| 10 | Serve without announcing it. | ja, hel setning |
+| 10 | Serve without announcing it. | nei |
 
 **The Practice i boken nå:**
 
-> Put your strength somewhere useful today, without an audience. Help where there is a load to carry. Support someone who needs to be able to count on you. Serve without announcing it.
+> - Whose request for help have I been putting off?
+> - What am I good at that someone near me needs?
 >
-> Do not take on too much. Give what has already been built in you. That way your strength stays healthy.
+> **Today’s Action:** Tonight, before 10, give ten minutes to the request you have put off: fix the cabinet door your mom mentioned, or call back the friend who asked.
 
 **Healing Forge: When Serving Once Meant Being Used**
 
@@ -1064,7 +1050,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Being a witness means being the same man at school, at work, at home, and online. It is not a show. A life that fits together convinces more than any argument, and over time people find it hard to ignore.
+> Being a witness means being the same man at school, at work, at home, and online. It is not a show. A life that matches your words convinces more than any argument.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -1080,9 +1066,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Find one place where your actions and beliefs do not match, and fix it today instead of making excuses for it. Make one private habit match something you stand for in public. Say less, and let your life speak clearly.
+> Think about school, work, home, and your phone. Ask:
 >
-> A witness is never in a hurry.
+> - Where do I act differently than I do on Sunday?
+> - What do I do online that no one at church sees?
+>
+> **Today’s Action:** By 10 tonight, fix one place where your actions and beliefs do not match. Apologize to your sister for how you spoke to her, or delete the account you keep hidden. Do not make a show of it.
 
 **Healing Forge: When Being Noticed Once Felt Unsafe**
 
@@ -1108,9 +1097,10 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Practice holding back today. Speak one sentence fewer than you could. Wait before you respond, and let your thoughts settle. If you act, keep it simple and say nothing about it.
+> - When did my tone make a tense moment worse?
+> - When did I sulk or push to get my way?
 >
-> Influence often comes after your silence has had time to work.
+> **Today’s Action:** At dinner tonight or on today’s shift, let everyone else talk first. Ask one question, listen to the whole answer, and keep your own reply to one calm sentence.
 
 **Healing Forge: When Silence Once Meant Being Invisible**
 
@@ -1120,7 +1110,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Words shape more than results. They shape whether people trust you, where things go, and what can safely come next. Most of the damage words do comes from saying more than is true.
+> Words shape more than results. They shape whether people trust you and whether a hard conversation can keep going. Most of the damage words do comes from saying more than is true.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -1136,9 +1126,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Speak less today and mean more. Before you respond, ask: Is this necessary? Is this the right time? Is this mine to say? If the point is already made without your words, let it stand.
+> Speak less today and mean more. Before you answer anyone, ask:
 >
-> People listen more to a man who picks his words carefully.
+> - Is this necessary?
+> - Is this the right time?
+> - Is this mine to say?
+>
+> **Today’s Action:** This evening, find the longest message you sent this week in an argument or group chat. Rewrite it in two sentences that say only what was true and needed. If that message hurt someone safe to contact, text them: “I said too much. I’m sorry.”
 
 **Healing Forge: When Speech Once Meant Survival**
 
@@ -1148,7 +1142,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> How far ahead you look decides how patient you are. The things you expect to last shape what you are willing to go through. Most anxiety shrinks your view to right now. Growing in faith widens it.
+> How far ahead you look decides how patient you are. Anxiety shrinks your view to today. Growing in faith widens it.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -1164,7 +1158,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Slow down one reaction today. Just one. Pause before you answer, hold back a complaint, or let a small annoyance pass without comment. Then ask yourself what will last, and act on that.
+> Think of the last time you felt rushed or annoyed. Ask:
+>
+> - What did I treat as urgent that could wait?
+> - What part of it will still matter in eternity?
+>
+> **Today’s Action:** Tonight, mute the app or chat you keep checking for an answer, and set the mute for a full day. Then read 2 Corinthians 4:16-18 slowly and pray one sentence that hands the timing to God.
 
 **Healing Forge: When Rushing Was How You Survived**
 
@@ -1190,9 +1189,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Try not to explain yourself today. Do what is needed without talking about it, and let your actions stand on their own. Notice where you already carry responsibility.
+> Do what is needed today without explaining yourself. Then ask:
 >
-> That is where others are starting to see how you have grown.
+> - Who has started coming to me for help or advice?
+> - Where am I still fishing for credit?
+>
+> **Today’s Action:** After dinner, pray by name for two people who lean on you, and ask the Spirit for what you need to serve them. Then text one of them a short check-in, and skip the advice.
 
 **Healing Forge: When Being Seen Once Meant Risk**
 
@@ -1202,7 +1204,7 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **Åpningen i boken nå:**
 
-> Authority builds slowly. It comes as you stay faithful day after day and people see how you act, even though none of it feels official. Most men miss the moment it begins, because that moment feels ordinary.
+> Authority builds slowly, as you stay faithful day after day and people see how you act. Most men miss the moment it begins, because that moment feels ordinary.
 
 **Voiceover i det gamle videomanuset:**
 
@@ -1218,9 +1220,12 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Be careful what you promise today. Say less, and finish what you commit to. Do one small job with care, and get the details right.
+> Be careful what you promise today. Then ask:
 >
-> Authority often takes shape in tasks that feel too small to matter. They matter more than you think.
+> - What have I promised and not finished?
+> - Where do I cut corners when no one checks?
+>
+> **Today’s Action:** By 9 p.m., list every promise you have left open. Pick the smallest and finish it tonight: return the tool you borrowed, or make the call you promised. Authority often starts in jobs that feel too small to matter.
 
 **Healing Forge: When Authority Was Abused**
 
@@ -1246,8 +1251,13 @@ Laget maskinelt 18.10.2026 med `verktoy/lag_videogrunnlag.py`.
 
 **The Practice i boken nå:**
 
-> Add nothing new today. Finish this cycle on purpose. Name one practice you will carry forward for the next thirty days. Only one. Write it down, say it aloud, and commit to it.
+> Add nothing new today. End these forty days on purpose. Ask:
 >
-> Speed and energy are optional. Keeping at it is not.
+> - Which practice in this book helped me most?
+> - What will it take to keep it for thirty days?
+>
+> **Today’s Action:** Before bed, write that practice on a card with the date thirty days out. Show it to one brother and ask him to check on you next week. Speed and energy are optional. Keeping at it is not.
+>
+> **Phase Check:** Mark each action from Days 33 to 40 done or skipped, and finish one you skipped before 10 p.m. Then thank God for one change in each phase, from Flare to Elevate.
 
 **Healing Forge: When Finishing Feels Unsafe**

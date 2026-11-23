@@ -4,7 +4,7 @@
 >
 > 1 Timothy 6:12
 
-The battles that matter most are rarely seen, and Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, NKJV).
+The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, NKJV).
 
 ### The Scenario
 
@@ -24,7 +24,7 @@ Silence makes a struggle stronger.
 
 ### What This Day Is Really About
 
-A battle you never name works like a slow leak in a tire. It makes no noise. It just asks a little more of you every mile. Promises made alone will not plug it. Confess the sin to God, then tell one brother, not the whole church. Paul told young Timothy to fight "the good fight of the faith," and in Christ no man is meant to fight it alone.
+A battle you never name works like a slow leak in a tire. It makes no noise. It just asks a little more of you every mile. Promises will not plug it. Confess the sin to God, trust Christ's blood, and tell one brother, not the whole church. Paul told young Timothy to fight "the good fight of the faith," and in Christ no man is meant to fight it alone.
 
 ### The Practice
 
@@ -37,6 +37,6 @@ Name the battle that keeps coming back. Ask:
 
 ### Healing Forge: When Silence Was Safer
 
-Silence may have been how you survived. Speaking up cost you closeness with people, and admitting weakness left you open to harm, so staying quiet made sense. Keeping secrets once protected you. Now it keeps you alone with your sin. Bring that sin into the light: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9). Christ's blood washes what you confess, so you never have to clean yourself up first.
+Silence may have been how you survived. Speaking up cost you closeness with people, and admitting weakness left you open to harm, so staying quiet made sense. Keeping secrets once protected you. Now it keeps you alone. Harm done to you is not your sin. Bring your own sin into the light: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9). Christ's blood washes what you confess, so you never have to clean yourself up first.
 
 *End of Day 21*

@@ -12,11 +12,11 @@ You are not beyond repair. But you are being shaped, whether you choose it or no
 
 ## Where This Book Stands
 
-This book stands on Scripture, the only rule that judges everything else and is judged by nothing: "Scripture cannot be broken" (John 10:35). It stands on the faith the church confessed at Constantinople in 381 (Appendix B): one God, the Father, the one source of all; one Lord Jesus Christ, "God from God, Light from Light, true God from true God, begotten, not made, of one essence with the Father"; and the Holy Spirit, who proceeds from the Father and is given to us through the Son (John 15:26; Galatians 4:6).
+This book stands on Scripture, the only rule that is never itself put on trial: "Scripture cannot be broken" (John 10:35). It stands on the faith the church confessed at Constantinople in 381 (Appendix B): one God, the Father, the one source of all; one Lord Jesus Christ, "God from God, Light from Light, true God from true God, begotten, not made, of one essence with the Father"; and the Holy Spirit, who proceeds from the Father and is given to us through the Son (John 15:26; Galatians 4:6).
 
-In God there is order without lesser worth. The Father sends, the Son is sent, and the Spirit proceeds from the Father, yet the three are one God, equal in glory. Paul ties the order of creation to that order: "the head of every man is Christ, the head of a wife is her husband, and the head of Christ is God" (1 Corinthians 11:3). Order does not mean lesser worth, whatever a demasculinized culture tells you and many churches now repeat.
+In God there is order without lesser worth. The Father sends, the Son is sent, and the Spirit proceeds from the Father, yet the three are one God, equal in glory. Paul ties the order of creation to that order: "the head of every man is Christ, the head of a wife is her husband, and the head of Christ is God" (1 Corinthians 11:3). Women and men bear God's image equally (Genesis 1:27). Order does not mean lesser worth. A demasculinized culture says it does, and many churches now agree.
 
-Postmodernism tells you that no truth binds you. Radical feminism and woke ideology call every God-given difference oppression. That same culture wants young men passive and easy to steer, and a feminized, apostate church has traded the apostles' teaching for the approval of the age. Christ rebuked the church in Thyatira for tolerating "that woman Jezebel, who calls herself a prophetess" (Revelation 2:20), and that spirit still reaches for the pulpit. Every reader is called to repent, and I am first in line: turn from the lies of the age and come back to the apostles' teaching.
+Postmodernism tells you that no truth binds you. Radical feminism and woke ideology call every God-given difference oppression. That same culture wants young men passive and easy to steer. A feminized, apostate church has traded the apostles' teaching for the approval of the age. Christ rebuked the church in Thyatira for tolerating "that woman Jezebel, who calls herself a prophetess" (Revelation 2:20), and her spirit still reaches for the pulpit. We all need to repent, and I am first in line. Turn from those lies and come back to Christ.
 
 ## Why Another Devotional Isn't Enough
 
@@ -63,7 +63,7 @@ Each day moves from a short opening and a scenario to a comparison, an explanati
 
 The practice is the point. You are not asked to feel anything, and the days you feel nothing count as much as the days everything feels clear. What you repeat becomes a reflex, and your reflexes decide who you are under pressure.
 
-Read one day at a time. Each practice takes about ten minutes: two or three questions, then one Today's Action. You can do every Today's Action before 10 p.m. the same day.
+Read one day at a time. Each practice takes about ten minutes: two or three questions, then one Today's Action you can finish before 10 p.m. that day.
 
 If you miss a day, do not go back to Day 1. Starting over again and again is how men quit for good. Reread the last day you finished, go on to the next one, and count coming back as part of the practice.
 
@@ -95,7 +95,7 @@ If you practice the habits but skip the healing, you end up better organized on 
 
 **OBSERVE: Test Your Faith in Real Life.** In Observe, you stop guessing and start watching. Instead of promising to change, you notice how your faith holds up under stress: screens, peers, tiredness, conflict, time alone. It trains you to be honest without condemning yourself, and it swaps vague guilt for knowing exactly what is going on. You cannot refine what you refuse to see.
 
-**REFINE: Let Truth Shape Who You Are.** Refine takes what is true and makes it part of how you live. Scripture used to give you insight. Now it becomes a mirror. It judges everything else and is judged by nothing (John 10:35; Acts 17:11). Test what you hear as the Bereans did, "examining the Scriptures daily to see if these things were so" (Acts 17:11). We read Scripture from the Hebrew Masoretic text and the received Greek text. Your choices start to follow God's word instead of your impulses. Refine hurts because it shows where you are split. It also pulls your life together, so your faith stays the same from place to place.
+**REFINE: Let Truth Shape Who You Are.** Refine takes what is true and makes it part of how you live. Scripture judges everything else and is judged by nothing (John 10:35; Acts 17:11). We read it from the Hebrew Masoretic text and the received Greek text. It once gave you insight. Now it becomes a mirror, and your choices start to follow God's word instead of your impulses. Refine hurts because it shows where you are split. It also pulls your life together, so your faith stays the same from place to place.
 
 **GRIT: Practice Under Pressure.** Grit makes your growth stable through repetition. It builds a daily rhythm for the days when motivation runs low. You choose discipline ahead of time to protect yourself, not to punish yourself. Grit trains you to keep showing up through mornings, tiredness, desire, and silence, and to finish what you start. This is where your faith proves it can last. Loyalty carries it more than feelings do.
 
@@ -107,11 +107,11 @@ If you practice the habits but skip the healing, you end up better organized on 
 
 Discipline alone cannot heal the parts of you that pain has shaped. Many young men try to outrun open wounds by keeping routines, pushing themselves, or trying harder to be good. When that fails, they decide they are weak. Often the real problem is an injury, and more discipline will not heal it.
 
-Some of what weighs on you is a wound: grief, hurt from relationships, long-lasting anxiety. It can leave you on guard, numb, or angry, and that is often mistaken for spiritual failure. Some of it is sin. Healing Forge is not therapy, and no technique can wash a conscience. Sin is confessed to God and washed away in Christ's blood: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness" (1 John 1:9).
+Some of what weighs on you is a wound: grief, harm done to you, long-lasting anxiety. It can leave you on guard, numb, or angry, and that is often mistaken for spiritual failure. Some of it is your own sin. Healing Forge is not therapy, and no technique can wash a conscience. Sin is confessed to God and washed away in Christ's blood: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness" (1 John 1:9).
 
-Every day ends with a Healing Forge section, because many of these pressures started long before you came to faith. Having them does not mean your faith is missing. Each section asks the same of you. Name the wound without drama. Confess the sin plainly, to God and, where it helps, to a trusted brother (James 5:16). Then take one steady step.
+Every day ends with a Healing Forge section, because many of these burdens started long before you came to faith. Having them does not mean your faith is missing. Each section asks the same of you. Name the wound without drama. Confess the sin plainly, to God and, where it helps, to a trusted brother (James 5:16). Then take one steady step.
 
-Healing begins when you stop hiding the wounds and the sins that still shape you. Nobody is asking you to blame your parents or to share it all in public. You are asked to tell the truth to the right people, and to keep telling it.
+Healing begins when you stop hiding the wounds and the sins that still shape you. Nobody is asking you to confront anyone or to share it all in public. You are asked to tell the truth to the right people, and to keep telling it.
 
 A clean conscience and a clear head make discipline something you can keep up. That is why Healing Forge is part of the training and no detour from it.
 
@@ -119,7 +119,7 @@ These pages can help you name a wound. They cannot treat it. Where the wound is 
 
 ## The Creed of Constantinople (381)
 
-This is the faith the church confessed in 381, given here without the later Western addition "and the Son."
+This is the faith the church confessed in 381, before the West added the words "and the Son."
 
 We believe in one God, the Father Almighty, maker of heaven and earth, and of all things visible and invisible.
 
@@ -144,10 +144,10 @@ Return to it. You do not need to start over.
 **2. Set Three Non-Negotiables.** Choose three realistic practices that steady your life under pressure. For example:
 
 - One short pause with God, every day
-- One boundary that keeps your head clear
+- One limit that keeps your head clear
 - One weekly check-in with a trusted person
 
-If everything is a priority, nothing is.
+Do not add a fourth.
 
 **3. Replace Motivation with Structure.** Do not wait until your feelings line up with your beliefs. Schedule what matters, set up your surroundings, and make fewer decisions on the fly. Routines last longer than inspiration.
 
@@ -155,9 +155,9 @@ If everything is a priority, nothing is.
 
 **5. Expect Resistance.** Resistance means you are still being shaped, so do not take it as a sign to stop. When progress feels slow, keep doing what is right.
 
-**6. Do Not Continue Alone: Stay Planted in a Church.** This book gave you practices to do on your own, and that was never the whole plan. You grow up in your faith inside a church. There you hear preaching that can correct you. You stand beside older men who have carried what you are learning to carry. And at the Lord's table, you receive grace without earning it. A book cannot know your name. A church can. If you have no church home, make finding one your first assignment after Day 40. It does not need to be perfect.
+**6. Do Not Continue Alone: Stay Planted in a Church.** This book gave you practices to do on your own, and that was never the whole plan. You grow up in your faith inside a church. There you hear preaching that can correct you. You stand beside older men who have carried what you are learning to carry. At the Lord's table, baptized believers receive grace without earning it. A book cannot know your name. A church can. If you have no church home, make finding one your first assignment after Day 40. It does not need to be perfect.
 
-Do not sit under a pulpit that bows to the spirit of Jezebel. Do not fund or lend your name to a congregation that has women pastors (1 Timothy 2:12-13), blesses what God calls sin (Romans 1:26-27; 1 Corinthians 6:9-11), or punishes men who hold to Scripture. Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question. And no church may bless what Christ died to wash away. Paul reminded the Corinthians that some of them had lived that way, and they were washed. That washing is offered to every reader who repents. Find tested men who stand on the apostles' teaching, and build brotherhood with them (2 Timothy 2:2).
+Do not sit under a pulpit that bows to the spirit of Jezebel. Do not fund or lend your name to a congregation that has women pastors (1 Timothy 2:12-13), blesses what God calls sin (Romans 1:26-27; 1 Corinthians 6:9-11), or punishes men who hold to Scripture. Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question. No church may bless what Christ died to wash away. Paul reminded the Corinthians that some had lived in those sins, and they were washed. Christ offers that cleansing to every reader who repents. Find tested men who stand on the apostles' teaching, and build brotherhood with them (2 Timothy 2:2).
 
 ## A Final Reminder
 

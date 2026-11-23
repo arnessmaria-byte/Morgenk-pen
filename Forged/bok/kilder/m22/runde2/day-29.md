@@ -18,25 +18,25 @@ Cole felt steady until Thursday. His manager moved his shift up three hours, his
 | Scrambles for control | Keeps his footing |
 | Loses the big picture | Knows where he is headed |
 | Burns energy on defense | Saves his strength |
-| Shows the gaps | Shows solid ground |
+| Rushes | Plans the night before |
 
 Pressure shows how well you prepared.
 
 ### What This Day Is Really About
 
-Being ready means practicing again and again before the rush comes. A fire drill is meant to be boring, so that a real fire does not catch anyone off guard. If pressure always knocks you off balance, your training is not finished yet.
+Being ready means practicing again and again before the rush comes. A fire drill is meant to be boring, so that nobody freezes in a real fire. If pressure always knocks you off balance, your training is not finished yet.
 
-Preparing ahead is what humility looks like in everyday life. A proud heart assumes it can wing it, but "humility comes before honor," and Jesus prepared for the cross on His knees in Gethsemane. Peter boasted he would never fall away, then slept instead of praying and fled when Jesus was arrested (Matthew 26:33-56).
+Preparing ahead is what humility looks like in everyday life. A proud heart thinks it can wing it. Yet "humility comes before honor": Jesus prepared for the cross on His knees in Gethsemane. Peter boasted he would never fall away, then slept instead of praying and fled when Jesus was arrested (Matthew 26:33-56).
 
 ### The Practice
 
 - What pressure can I already see coming?
 - How do I usually react when I am tired and rushed?
 
-**Today's Action:** This evening, give ten minutes to one pressure you can see coming. Lay out what you need for tomorrow's early shift, or write the first paragraph of the paper due Friday. You will not remove the pressure. You will meet it on your feet.
+**Today's Action:** This evening, take ten minutes to get ahead of that pressure. Lay out what you need for tomorrow's early shift, or write the first paragraph of the paper due Friday. You will not remove the pressure. You will meet it on your feet.
 
 ### Healing Forge: When Pressure Once Meant Danger
 
-If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stand steady when the weight comes on, instead of bracing for harm. Give the old fear to God, who cares for you (1 Peter 5:7).
+If pressure once meant danger (raised voices, punishment, not being safe), being ready can feel like being on guard all the time. The readiness you are training for is calm and anchored. You are learning to stand firm when the weight comes on, instead of bracing for harm. Give the old fear to God, who cares for you (1 Peter 5:7).
 
 *End of Day 29*

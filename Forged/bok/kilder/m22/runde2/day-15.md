@@ -8,7 +8,7 @@ Anger is rarely about the moment that sets it off. It carries the past with it. 
 
 ### The Scenario
 
-Tyler rarely yelled. At pickup basketball he kept his mouth shut and played hard. Then a guy on the other team laughed and called him "soft" after a missed layup, and Tyler shoved him into the fence. Everyone stopped. In the car afterward he sat there embarrassed, with no idea why he had blown up like that. The moment was new. The anger was old. He had learned it at twelve, when his dad called him soft across the kitchen table.
+Tyler never yelled. At pickup basketball he kept his mouth shut and played hard. Then a guy on the other team laughed and called him "soft" after a missed layup, and Tyler shoved him into the fence. Everyone stopped. On the bench afterward he sat embarrassed, with no idea why he had blown up like that. The moment was new. The anger was old. He had learned it at twelve, when his dad called him soft across the kitchen table.
 
 ### Reactive Anger vs. Understood Anger
 
@@ -30,7 +30,7 @@ Jesus felt real anger and never sinned, and Ephesians 4:26 asks you to settle yo
 
 ### The Practice
 
-Recall your last angry moment. Do not excuse it or condemn it.
+Recall your last angry moment. Skip the excuses and the shame.
 
 - What threat did I sense here?
 - What line felt crossed, now or in the past?
@@ -40,6 +40,6 @@ Recall your last angry moment. Do not excuse it or condemn it.
 
 ### Healing Forge: When Anger Learned to Guard You
 
-You may have learned anger early, when it kept danger and people away. Back then you may have needed it. But anger you never question keeps fighting after the danger is gone. Where it has turned into sin (a shove, a cutting word), confess it to God and make it right with the one you hurt. Christ's blood cleanses what you confess (1 John 1:9), and His Spirit teaches you when anger is right and when it is not.
+You may have learned anger early, when it kept danger and people away. Back then you may have needed it. But anger you never question keeps fighting after the danger is gone. Where it has turned into sin (a shove, a cutting word), confess it to God and make it right with the one you hurt. Christ's blood cleanses what you confess (1 John 1:7, 9), and His Spirit teaches you when anger is right and when it is not.
 
 *End of Day 15*

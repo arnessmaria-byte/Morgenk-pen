@@ -4,7 +4,7 @@
 >
 > Matthew 6:21
 
-Money rarely gives orders out loud. It steers you through budgets, delays, trade-offs, and the things you keep protecting. Whatever you say you value, where your money goes shows what you really support.
+Money seldom gives orders out loud. It steers you through budgets, delays, trade-offs, and the things you keep protecting. Whatever you say you value, where your money goes shows what you really support.
 
 ### The Scenario
 
@@ -31,9 +31,9 @@ If you never decide what money is for, it will decide for you.
 ### The Practice
 
 - What does my spending protect?
-- Where is money making me put off what God asks?
+- Where does money make me stall on what God asks?
 
-**Today's Action:** Open your bank app before 10 tonight and read the last thirty days line by line. Pick the biggest leak and cut it now: delete the app, cancel the subscription, or remove your saved card. If any line is a bet, delete the betting app too and text one trusted brother what you found.
+**Today's Action:** Open your bank app before 10 tonight and read the last thirty days line by line. Pick the biggest leak and cut it now: delete the delivery app, cancel a subscription, or remove a saved card. If any line is a bet, delete the betting app too and text one trusted brother what you found.
 
 ### Healing Forge: When Money Meant Safety
 

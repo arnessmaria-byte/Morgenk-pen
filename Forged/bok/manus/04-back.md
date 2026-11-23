@@ -68,17 +68,17 @@ That kind of life holds.
 
 Training that stays in your head goes nowhere. Most young men who walk away from their faith were never argued out of it. When pressure came, their faith was still only an idea. The FORGE Cycle is here to turn that idea into practice.
 
-FORGE is a training rhythm you repeat. Through it, your faith moves from words you were taught to the way you live every day. It is neither a personality type nor a productivity system. Each phase is a stage of growth you need. Skip a stage and you become fragile. Rush one and you burn out. Keep coming back to them, and you will last.
+FORGE is a training rhythm you repeat. Through it, your faith moves from words you were taught to the way you live every day. Each phase is a stage of growth you need. Skip a stage and you become fragile. Rush one and you burn out. Keep coming back to them, and you will last.
 
 The order matters. Repetition alone will not change a man who is divided inside. That is why you observe and heal before you work on endurance, so you do not build habits on top of a crack that has not healed.
 
 If you practice the habits but skip the healing, you end up better organized on the outside and still not whole inside. None of this means you make yourself holy. Scripture says that God Himself makes you holy (1 Thessalonians 5:23). The cycle describes your part in His work and never replaces it.
 
-**FLARE: Identify What Ignites You.** Flare is the moment something starts to bother you: irritation, discontent, longing, or a belief that will not leave you alone. It feels rougher than inspiration. Flare asks one question: *What pressure keeps coming back in my life?* Ignore it, and your faith stays borrowed from others. Name it, and your faith starts to become yours. Flare gives your frustration a purpose. It shows you why your faith has to be real to you and not just look respectable.
+**FLARE: Identify What Ignites You.** Flare is the moment something starts to bother you: irritation, discontent, longing, or a belief that will not leave you alone. It feels rougher than inspiration. Flare asks one question: *What pressure keeps coming back in my life?* Ignore it, and your faith stays borrowed from others. Name it, and your faith starts to become yours. Flare shows you why your faith has to be real to you and not just look respectable.
 
-**OBSERVE: Test Your Faith in Real Life.** In Observe, you stop guessing and start watching. Instead of promising to change, you notice how your faith holds up under stress: screens, peers, tiredness, conflict, time alone. It trains you to be honest without judging yourself. It stops you from fooling yourself and swaps vague guilt for knowing exactly what is going on. You cannot refine what you refuse to see.
+**OBSERVE: Test Your Faith in Real Life.** In Observe, you stop guessing and start watching. Instead of promising to change, you notice how your faith holds up under stress: screens, peers, tiredness, conflict, time alone. It trains you to be honest without condemning yourself, and it swaps vague guilt for knowing exactly what is going on. You cannot refine what you refuse to see.
 
-**REFINE: Let Truth Shape Who You Are.** Refine takes what is true and makes it part of how you live. It asks where you find it hard to live what you believe. Scripture used to give you insight. Now it becomes a mirror. You see your relationships for what they are. Your choices start to follow your values instead of your impulses. Refine is uncomfortable because it shows where your life does not fit together. It also pulls your life together, so your faith stays the same from place to place.
+**REFINE: Let Truth Shape Who You Are.** Refine takes what is true and makes it part of how you live. Scripture judges everything else and is judged by nothing (John 10:35; Acts 17:11). We read it from the Hebrew Masoretic text and the received Greek text. It once gave you insight. Now it becomes a mirror, and your choices start to follow God's word instead of your impulses. Refine hurts because it shows where you are split. It also pulls your life together, so your faith stays the same from place to place.
 
 **GRIT: Practice Under Pressure.** Grit makes your growth stable through repetition. It builds a daily rhythm for the days when motivation runs low. You choose discipline ahead of time to protect yourself, not to punish yourself. Grit trains you to keep showing up through mornings, tiredness, desire, and silence, and to finish what you start. This is where your faith proves it can last. Loyalty carries it more than feelings do.
 
@@ -88,23 +88,29 @@ If you practice the habits but skip the healing, you end up better organized on 
 
 *Why healing is part of the training*
 
-Discipline alone cannot heal the parts of you that pain has shaped. Many young men try to outrun open wounds by keeping routines, pushing themselves, or trying harder to be good. When that fails, they decide they are weak. Often the real problem is an injury, and more discipline will not heal it. Healing Forge is here for what discipline cannot fix.
+Discipline alone cannot heal the parts of you that pain has shaped. Many young men try to outrun open wounds by keeping routines, pushing themselves, or trying harder to be good. When that fails, they decide they are weak. Often the real problem is an injury, and more discipline will not heal it.
 
-Healing removes what eats away at your discipline. You still need the discipline. Grief you never worked through, shame, deep hurt from relationships, and long-lasting anxiety twist how you see and how you react. They leave you always on guard, avoiding things, numb, or angry, and that is often mistaken for spiritual failure. Every day in this book ends with a Healing Forge section, because these pressures often started long before you came to faith. Having them does not mean your faith is missing.
+Some of what weighs on you is a wound: grief, harm done to you, long-lasting anxiety. It can leave you on guard, numb, or angry, and that is often mistaken for spiritual failure. Some of it is your own sin. Healing Forge is not therapy, and no technique can wash a conscience. Sin is confessed to God and washed away in Christ's blood: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness" (1 John 1:9).
 
-Healing Forge works by:
+Every day ends with a Healing Forge section, because many of these burdens started long before you came to faith. Having them does not mean your faith is missing. Each section asks the same of you. Name the wound without drama. Confess the sin plainly, to God and, where it helps, to a trusted brother (James 5:16). Then take one steady step.
 
-- Naming pain without making a drama of it
-- Separating who you are from how you cope
-- Taking feelings seriously without excusing what you do
-- Slowly learning to feel safe again by being honest
-- Choosing steady effort over intense bursts
+Healing begins when you stop hiding the wounds and the sins that still shape you. Nobody is asking you to confront anyone or to share it all in public. You are asked to tell the truth to the right people, and to keep telling it.
 
-Healing does not depend on confronting anyone, and you do not have to go back over everything or fix your past. It begins when you stop hiding the wounds that still shape you. Nobody is asking you to blame your parents or to share it all in public. You are asked to stop waiting and tell the truth to the right people, in a way you can keep doing.
-
-Healing brings back a clear head, and that makes your discipline stronger. Then discipline becomes something you can keep up. That is why Healing Forge is part of the training and no detour from it.
+A clean conscience and a clear head make discipline something you can keep up. That is why Healing Forge is part of the training and no detour from it.
 
 These pages can help you name a wound. They cannot treat it. Where the wound is deep, take it to a pastor or a licensed counselor. Going takes courage.
+
+## The Creed of Constantinople (381)
+
+This is the faith the church confessed in 381, before the West added the words "and the Son."
+
+We believe in one God, the Father Almighty, maker of heaven and earth, and of all things visible and invisible.
+
+And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages, God from God, Light from Light, true God from true God, begotten, not made, of one essence with the Father, through whom all things were made. For us and for our salvation he came down from heaven, was made flesh by the Holy Spirit and the Virgin Mary, and became man. He was crucified for us under Pontius Pilate, suffered, and was buried. On the third day he rose again according to the Scriptures. He ascended into heaven and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and his kingdom will have no end.
+
+And in the Holy Spirit, the Lord and giver of life, who proceeds from the Father, who with the Father and the Son is worshiped and glorified, who spoke through the prophets.
+
+In one holy, catholic, and apostolic Church. We confess one baptism for the forgiveness of sins. We look for the resurrection of the dead and the life of the age to come. Amen.
 
 # Appendix C: How to Continue After Day 40
 
@@ -121,18 +127,20 @@ Return to it. You do not need to start over.
 **2. Set Three Non-Negotiables.** Choose three realistic practices that steady your life under pressure. For example:
 
 - One short pause with God, every day
-- One boundary that keeps your head clear
+- One limit that keeps your head clear
 - One weekly check-in with a trusted person
 
-If everything is a priority, nothing is.
+Do not add a fourth.
 
-**3. Replace Motivation with Structure.** Do not wait until your feelings line up with your beliefs. Schedule what matters, set up your surroundings, and cut down the number of decisions you have to make. Routines last longer than inspiration. Showing up every day heals what big bursts of effort never can.
+**3. Replace Motivation with Structure.** Do not wait until your feelings line up with your beliefs. Schedule what matters, set up your surroundings, and make fewer decisions on the fly. Routines last longer than inspiration.
 
-**4. Say Your Faith Out Loud.** At least once every few months, say in your own words what you believe and why. Faith you never speak dries up. Faith you say out loud gets clearer.
+**4. Say Your Faith Out Loud.** Every few months, say in your own words what you believe and why. Faith you never speak dries up. Faith you say out loud gets clearer.
 
-**5. Expect Resistance.** Resistance means you are still being shaped, so do not take it as a sign to stop. When progress feels slow, go back to doing what you already know is right instead of overthinking it.
+**5. Expect Resistance.** Resistance means you are still being shaped, so do not take it as a sign to stop. When progress feels slow, keep doing what is right.
 
-**6. Do Not Continue Alone: Stay Planted in a Church.** This book gave you practices to do on your own, and that was never the whole plan. You grow up in your faith inside a church. There you hear preaching that can correct you. You stand beside older men who have carried what you are learning to carry. And at the Lord's table, you receive grace without earning it. A book cannot know your name. A church can. If you are not planted in a church, make finding one your first assignment after Day 40. Look for a real one. It does not need to be perfect.
+**6. Do Not Continue Alone: Stay Planted in a Church.** This book gave you practices to do on your own, and that was never the whole plan. You grow up in your faith inside a church. There you hear preaching that can correct you. You stand beside older men who have carried what you are learning to carry. At the Lord's table, baptized believers receive grace without earning it. A book cannot know your name. A church can. If you have no church home, make finding one your first assignment after Day 40. It does not need to be perfect.
+
+Do not sit under a pulpit that bows to the spirit of Jezebel. Do not fund or lend your name to a congregation that has women pastors (1 Timothy 2:12-13), blesses what God calls sin (Romans 1:26-27; 1 Corinthians 6:9-11), or punishes men who hold to Scripture. No church may bless what Christ died to wash away. Paul reminded the Corinthians that some had lived in those sins, and they were washed. Christ offers that cleansing to every reader who repents. Find tested men who stand on the apostles' teaching, and build brotherhood with them (2 Timothy 2:2).
 
 ## A Final Reminder
 

@@ -4,11 +4,11 @@
 
 Discipline alone cannot heal the parts of you that pain has shaped. Many young men try to outrun open wounds by keeping routines, pushing themselves, or trying harder to be good. When that fails, they decide they are weak. Often the real problem is an injury, and more discipline will not heal it.
 
-Some of what weighs on you is a wound: grief, hurt from relationships, long-lasting anxiety. It can leave you on guard, numb, or angry, and that is often mistaken for spiritual failure. Some of it is sin. Healing Forge is not therapy, and no technique can wash a conscience. Sin is confessed to God and washed away in Christ's blood: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness" (1 John 1:9).
+Some of what weighs on you is a wound: grief, harm done to you, long-lasting anxiety. It can leave you on guard, numb, or angry, and that is often mistaken for spiritual failure. Some of it is your own sin. Healing Forge is not therapy, and no technique can wash a conscience. Sin is confessed to God and washed away in Christ's blood: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness" (1 John 1:9).
 
-Every day ends with a Healing Forge section, because many of these pressures started long before you came to faith. Having them does not mean your faith is missing. Each section asks the same of you. Name the wound without drama. Confess the sin plainly, to God and, where it helps, to a trusted brother (James 5:16). Then take one steady step.
+Every day ends with a Healing Forge section, because many of these burdens started long before you came to faith. Having them does not mean your faith is missing. Each section asks the same of you. Name the wound without drama. Confess the sin plainly, to God and, where it helps, to a trusted brother (James 5:16). Then take one steady step.
 
-Healing begins when you stop hiding the wounds and the sins that still shape you. Nobody is asking you to blame your parents or to share it all in public. You are asked to tell the truth to the right people, and to keep telling it.
+Healing begins when you stop hiding the wounds and the sins that still shape you. Nobody is asking you to confront anyone or to share it all in public. You are asked to tell the truth to the right people, and to keep telling it.
 
 A clean conscience and a clear head make discipline something you can keep up. That is why Healing Forge is part of the training and no detour from it.
 
@@ -16,7 +16,7 @@ These pages can help you name a wound. They cannot treat it. Where the wound is 
 
 ## The Creed of Constantinople (381)
 
-This is the faith the church confessed in 381, given here without the later Western addition "and the Son."
+This is the faith the church confessed in 381, before the West added the words "and the Son."
 
 We believe in one God, the Father Almighty, maker of heaven and earth, and of all things visible and invisible.
 

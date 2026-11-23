@@ -4,7 +4,7 @@
 >
 > Proverbs 27:17
 
-Strength gets steadier when you stay close to other men. Your beliefs get clearer when tested by men who will not flatter you.
+Strength gets steadier when you stay close to other men. Your beliefs get clearer when honest men test them.
 
 ### The Scenario
 
@@ -28,7 +28,7 @@ The number of your friends matters less than their quality. Brotherhood means he
 
 Jesus chose twelve men to be with Him, and His church is still where "one man sharpens another." Paul told Timothy to pass on what he had heard: "entrust to faithful men, who will be able to teach others also" (2 Timothy 2:2). Look for those men, tested over years and standing on the apostles' teaching.
 
-You need them because many pulpits have left that teaching. They preach comfort without repentance, bend Scripture to fit the age, and bless what God calls sin. Sit under that alone, and you drift with it. Brothers who stand on the word will hold you to it. When they correct you, repent: the pull toward approval that bent those pulpits works on you too.
+You need them because a man alone drifts with the age, and many pulpits already have. Brothers who stand on the word will hold you to it. When they correct you, repent: the pull toward approval that bent those pulpits works on you too.
 
 ### The Practice
 
@@ -36,9 +36,9 @@ Think about the men around you. Ask:
 
 - Who sees my habits clearly?
 - Who can challenge me without me brushing him off?
-- Which of them stands on Scripture when it costs him?
+- Which of them obeys Scripture when it costs him?
 
-**Today's Action:** Before lunch, choose one brother who holds to Scripture and text him. Ask him to meet this week for breakfast or a workout, and tell him one habit you want him to ask you about.
+**Today's Action:** By 10 p.m., text one brother who holds to Scripture. Ask to meet this week for breakfast or a workout, and name one habit you want him to check on.
 
 ### Healing Forge: When Brotherhood Was Missing
 

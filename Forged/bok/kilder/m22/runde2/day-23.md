@@ -8,7 +8,7 @@ Knowledge piles up fast, but change takes longer. Learning fills your head. Only
 
 ### The Scenario
 
-Paul knew Scripture. He had James 1 memorized and won most arguments in his Bible study group chat. In his college ethics class, he always had an answer. One night, after a ten-hour shift, a pickup cut him off in the parking lot. Paul leaned on the horn and swore out the window. He knew the verse about being slow to anger. It had never made the trip from his head to his hands.
+Paul knew Scripture. He had James 1 memorized and taught it to the middle schoolers on Wednesdays. One night, after a ten-hour shift, a pickup cut him off in the parking lot. Paul leaned on the horn and swore out the window. He knew the verse about being slow to anger. It had never made the trip from his head to his hands.
 
 ### Knowledge Stored vs. Knowledge Lived
 
@@ -18,7 +18,7 @@ Paul knew Scripture. He had James 1 memorized and won most arguments in his Bibl
 | Lives in words | Lives in action |
 | Impresses others | Changes how you act |
 | Grows by taking in more | Grows by doing it again |
-| Feels powerful | Actually works |
+| Wins debates | Works when tired |
 
 Knowledge you cannot act on is not yet yours.
 
@@ -26,7 +26,7 @@ Knowledge you cannot act on is not yet yours.
 
 No one learns to swim from a manual, even when the manual is right. Only practice makes what you know ready to use under pressure. Jesus said the wise man is the one who "hears these words of mine and does them," and his house stood when the storm hit.
 
-Jesus made His own words the foundation. The man who hears them and never obeys builds on sand (Matthew 7:26), however much he knows.
+Christ made His own words the foundation. The man who hears them and never obeys builds on sand (Matthew 7:26), however much he knows.
 
 ### The Practice
 
@@ -35,7 +35,7 @@ Choose one verse you already know well. Ask:
 - Where do I act as if I never learned it?
 - What would obeying it look like today?
 
-**Today's Action:** Before bed, obey that verse in one concrete way you have been putting off: make the apology you owe, or give the help you promised. Learn nothing new today. Put what you already know to work.
+**Today's Action:** By 10 tonight, obey that verse in one concrete way you have been putting off: pray for an enemy, or give to someone who asks.
 
 ### Healing Forge: When Knowledge Became Armor
 

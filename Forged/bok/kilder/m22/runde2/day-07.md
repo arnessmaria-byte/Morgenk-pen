@@ -8,15 +8,15 @@ Many lives fail by slowly drifting, not by crashing. Effort with no direction fe
 
 ### The Scenario
 
-Jonah worked twenty hours a week at a coffee shop, took four classes, and answered every text within a minute. Whatever buzzed loudest got his next hour. When his manager asked him to cover a shift, he said yes. When a friend needed a ride, he grabbed his keys. The application for the electrician apprenticeship he wanted sat half-finished in a browser tab for two months.
+Jonah worked twenty hours a week at a coffee shop, took four classes, and answered every text within a minute. Whoever reached him first got his next hour. When his manager asked him to cover a shift, he said yes. When a friend needed a ride, he grabbed his keys. The application for the electrician apprenticeship he wanted sat half-finished in a browser tab for two months.
 
-He kept moving and got nowhere. Nothing was wrong. Everything was scattered.
+He kept moving and got nowhere.
 
 ### Reactive Living vs. Living With Direction
 
 | Reactive Living | Living With Direction |
 | :- | :- |
-| Reacts to what is urgent | Acts with direction |
+| Reacts to what is urgent | Decides in advance |
 | Puts what is loud first | Chooses what matters most |
 | Feels productive | Makes real progress |
 | Spends energy | Invests it |
@@ -42,6 +42,6 @@ A goal is a finish line. A direction answers these questions:
 
 ### Healing Forge: When Direction Feels Overwhelming
 
-Choosing a direction can bring anxiety. If you could never count on things staying stable, a long-term direction feels risky. Jesus told His followers not to carry tomorrow's worry today (Matthew 6:34). A direction does not need a five-year plan, and you do not need to be sure about the future. You only need to see the next faithful step clearly.
+Choosing a direction can bring anxiety. If you could never count on things staying stable, a long-term direction feels risky. Jesus told His followers not to borrow tomorrow's trouble (Matthew 6:34). A direction does not need a five-year plan, and you do not need to be sure about the future. You only need to see the next faithful step clearly.
 
 *End of Day 7*

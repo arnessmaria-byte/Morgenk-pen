@@ -8,7 +8,7 @@ In public, you clean up how you act. Alone, you act the way you trained yourself
 
 ### The Scenario
 
-At work, Ethan clocked in early. At church, he ran the sound board every Sunday. At home, dishes sat in the sink for four days, and in his garage gym he cut his sets short because no one was counting. After midnight, behind a locked door, he opened websites he would never open at work. For a long time, no one saw. Then they did.
+At work, Ethan clocked in early. At church, he ran the sound board every Sunday. At home, dishes sat in the sink for four days, and he cut his evening runs short because no one was timing him. After midnight, behind a locked door, he opened websites he would never open at work. For a long time, no one saw. Then they did.
 
 ### Appearance vs. Integrity
 
@@ -24,22 +24,22 @@ A crowd tests your image. Being alone tests what you are made of.
 
 ### What This Day Is Really About
 
-Jesus said this about money, and it holds behind your door too: what you do with "a very little" shows what you can be trusted with. No athlete can do in a match what he never practiced alone.
+Jesus said this about money, and it holds in private too: what you do with "a very little" shows what you can be trusted with. No athlete can do in a match what he never practiced alone.
 
-You know the deal you make in an empty room: the door closes, and the standard slips. For most young men, the hardest test there is sexual. God gave sex one home: lifelong marriage between one man and one woman (Mark 10:6-9). Outside it, the command is short: "Flee from sexual immorality." (1 Corinthians 6:18). Keep custody of your eyes behind a closed door: decide before you are alone what you will not open (1 Thessalonians 4:3-5).
+You know the deal you make in an empty room: the door closes, and the standard slips. The hardest test in that room is usually sexual. God gave sex one home: lifelong marriage between one man and one woman (Mark 10:6-9). Outside it, the command is short: "Flee from sexual immorality." (1 Corinthians 6:18). Keep custody of your eyes behind a closed door. Decide before you are alone what you will not open (1 Thessalonians 4:3-5).
 
 ### The Practice
 
 - What standard do I let slip when no one sees?
 - Which job at home do I always leave half done?
 
-**Today's Action:** By 9 p.m., finish one unseen task to a 100 percent standard: every dish washed, dried and put away. Tell no one.
+**Today's Action:** By 9 p.m., finish that unseen job to a 100 percent standard, nothing left half done. Tell no one.
 
 **Phase Check:** Mark each action from Days 9 to 16 done or skipped. Before 10 p.m., finish one you skipped.
 
 ### Healing Forge: When Privacy Became Hiding
 
-If time alone was once your safe place, where no one judged you, pushed you, or wanted anything from you, that relief was real. Privacy turns into hiding when you use it for what you would never do in the open. Name that sin to God. Christ's blood washes what you confess (1 John 1:7-9), and the man you are alone and the man others see can become one.
+If time alone was once your safe place, where no one judged you, pushed you, or wanted anything from you, that relief was real. Privacy turns into hiding when you use it for what you would never do in the open. Name that sin to God. Christ's blood cleanses what you confess (1 John 1:7-9), and the man you are alone and the man others see can become one.
 
 *End of Day 16*
 
@@ -53,7 +53,7 @@ Paying attention to your life helps you see clearly. Taking a step is how you co
 
 ### The Scenario
 
-Andrew had a note on his phone listing his distractions and what each one cost him. He listened to two sermons a week on the drive to class. For a month he had meant to join the Tuesday Bible study. Three times he typed a text to the leader, and three times he deleted it. He wanted to be sure first. Knowing was no longer his problem. Doing was. He did not realize that you often see clearly after you move.
+Andrew had a note on his phone listing his distractions and what each one cost him. He listened to two sermons a week on the drive to class. For a month he had meant to join the Tuesday Bible study. Every week he typed a text to the leader, then deleted it. He wanted to be sure first. He did not know yet that a man often sees clearly only after he moves.
 
 ### Knowing Without Doing vs. Faith in Motion
 
@@ -71,7 +71,7 @@ Knowing gets your faith ready. Moving proves it.
 
 Trust has to show up in what you do, without rushing in blindly. You cannot steer a bicycle that is standing still. Balance and direction come together, and both come after you push off.
 
-If you tend to act on feeling, Day 8 was for you. If fear keeps you waiting, today is for you. Waiting feels wise, but a wait that goes on too long is often fear pretending to be good judgment. James wrote "be doers of the word" to people who already followed Jesus, and he warned that a man who only listens is fooling himself. He also calls it sin to know the right thing and leave it undone (James 4:17). Confess the delay, then move.
+If you tend to act on feeling, Day 8 was for you. If fear keeps you waiting, today is for you. Waiting feels wise, but a wait that goes on too long is often fear pretending to be good judgment. James wrote "be doers of the word" to people who already followed Jesus, and he warned that a man who only listens is fooling himself. He also called it sin to know the right thing and leave it undone (James 4:17). Confess the delay, then move.
 
 ### The Practice
 
@@ -80,7 +80,7 @@ Think of one thing you already know but have not acted on. Ask:
 - What have I put off obeying until I feel sure?
 - What is the smallest real step I could take today?
 
-**Today's Action:** Before dinner, take that one step. For example, send a pastor or church leader the text you keep deleting. Skip the long plan.
+**Today's Action:** Before bed, take that one step. For example, send a pastor or church leader the text you keep deleting. Skip the long plan.
 
 ### Healing Forge: When Moving Felt Unsafe
 
@@ -98,7 +98,7 @@ Running from failure stops your growth. Failing does not. What matters is whethe
 
 ### The Scenario
 
-Peter promised to lay down his life for Jesus. Hours later, warming himself at a charcoal fire in the high priest's courtyard, he denied three times that he was His disciple. After the resurrection, Jesus had breakfast ready on another charcoal fire by the lake and asked him three times, "Simon, son of John, do you love me?" (John 21:17). Peter was grieved. Each time, Jesus gave him work to do: care for His sheep.
+Peter promised to lay down his life for Jesus. Hours later, warming himself at a charcoal fire in the high priest's courtyard, he denied being His disciple three times. After the resurrection, Jesus had breakfast ready on another charcoal fire by the lake and asked him three times, "Simon, son of John, do you love me?" (John 21:17). Peter was grieved. Each time, Jesus gave him work to do: care for His sheep.
 
 ### Failure Ignored vs. Failure Examined
 
@@ -107,8 +107,8 @@ Peter promised to lay down his life for Jesus. Hours later, warming himself at a
 | Brings shame | Shows what went wrong |
 | Makes you try less | Improves your plan |
 | Leads to pulling back | Leads to adjusting |
-| Protects your image | Owns the mistake |
-| Stops your progress | Gets you back on track |
+| Hides the mistake | Owns the mistake |
+| Stops your progress | Puts you back to work |
 
 Failure only disqualifies you from growing if you never ask what it means.
 
@@ -116,7 +116,7 @@ Failure only disqualifies you from growing if you never ask what it means.
 
 After you fall, keep training. There is nothing glorious about failure, and you would rather learn from someone else's fall. But the lesson you need is in your own. Failure is feedback: it shows where you counted on a strength you had not trained.
 
-Peter's fall was sin. Trying harder never made a man right with God. You are justified by grace, through faith, by the blood of Christ who took your place (Romans 3:25-26; Galatians 2:16). That faith does not sit idle. It obeys (James 2:21-24). The righteous man "falls seven times and rises again," and in Christ no fall has the last word, so you can look at yours honestly.
+Peter's fall was sin. Trying harder never made a man right with God. You are justified by grace, through faith, by the blood of Christ who took your place (Romans 3:25-26; Galatians 2:16). That faith does not sit idle. It obeys (James 2:21-24). The righteous man "falls seven times and rises again," and in Christ no fall is final, so you can look at yours honestly.
 
 ### The Practice
 
@@ -125,11 +125,11 @@ Choose one recent failure, the one that taught you most. Ask:
 - What did this show me about how I prepared?
 - Where did I count on good intentions instead of training?
 
-**Today's Action:** By 10 p.m., write the failure in one blame-free sentence, add one change, and put your next try on the calendar.
+**Today's Action:** By 10 p.m., write the failure in one honest sentence, add one change, and put your next try on the calendar.
 
 ### Healing Forge: When Failure Hit Who You Are
 
-If you were once punished for mistakes by losing approval, losing safety, or being humiliated, avoiding failure became your protection. A mistake does not decide your worth. Sin is washed in Christ's blood: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9). A failure is one event. Your growth is the whole road.
+If you were once punished for mistakes by losing approval, losing safety, or being humiliated, avoiding failure became your protection. A mistake does not decide your worth. Your own sin is washed in Christ's blood: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9). A failure is one event. Your growth is the whole road.
 
 *End of Day 18*
 
@@ -149,7 +149,7 @@ Matthew read his Bible every morning and always had something sharp to say at sm
 
 | Scripture as Shield | Scripture as Mirror |
 | :- | :- |
-| Protects self-image | Shows where you are off track |
+| Covers for you | Shows where you are off track |
 | Points at others | Speaks to you |
 | Confirms what you think | Tests your motives |
 | Stays an idea | Demands a response |
@@ -161,7 +161,7 @@ What Scripture shows you depends on how you read it.
 
 Scripture refines you when you let it challenge why you do things, not only what you do. A mirror is the one thing in the house that will not flatter you, which is why you check it before you leave.
 
-A mirror helps only if it is true. Scripture judges everything else and is judged by nothing (John 10:35; Acts 17:11), including your church. We read it from the Hebrew Masoretic text and the received Greek text, the text that says plainly that "God was manifested in the flesh" (1 Timothy 3:16, NKJV). The same chapter requires that an elder be a tested man, above reproach (1 Timothy 3:2-7). Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question.
+A mirror helps only if it is true. Scripture judges everything else, your church included, and is judged by nothing (John 10:35; Acts 17:11). We read it from the Hebrew Masoretic text and the received Greek text, the text that says plainly that "God was manifested in the flesh" (1 Timothy 3:16, NKJV). The same chapter requires that an elder be a tested man, above reproach (1 Timothy 3:2-7). Women and men bear God's image equally (Genesis 1:27). The office Christ gave is a different question.
 
 Hebrews calls God's word "living and active," and two verses later it points to Jesus, our high priest, so you can bring Him what the mirror shows you and receive mercy.
 
@@ -186,7 +186,7 @@ Some men have had Scripture used as a weapon against them: verses quoted to sham
 >
 > Proverbs 27:17
 
-Strength gets steadier when you stay close to other men. Your beliefs get clearer when tested by men who will not flatter you.
+Strength gets steadier when you stay close to other men. Your beliefs get clearer when honest men test them.
 
 ### The Scenario
 
@@ -210,7 +210,7 @@ The number of your friends matters less than their quality. Brotherhood means he
 
 Jesus chose twelve men to be with Him, and His church is still where "one man sharpens another." Paul told Timothy to pass on what he had heard: "entrust to faithful men, who will be able to teach others also" (2 Timothy 2:2). Look for those men, tested over years and standing on the apostles' teaching.
 
-You need them because many pulpits have left that teaching. They preach comfort without repentance, bend Scripture to fit the age, and bless what God calls sin. Sit under that alone, and you drift with it. Brothers who stand on the word will hold you to it. When they correct you, repent: the pull toward approval that bent those pulpits works on you too.
+You need them because many pulpits have left that teaching. They preach comfort without repentance, bend Scripture to fit the age, and call evil good. Sit under that alone, and you drift with it. Brothers who stand on the word will hold you to it. When they correct you, repent: the pull toward approval that bent those pulpits works on you too.
 
 ### The Practice
 
@@ -218,9 +218,9 @@ Think about the men around you. Ask:
 
 - Who sees my habits clearly?
 - Who can challenge me without me brushing him off?
-- Which of them stands on Scripture when it costs him?
+- Which of them obeys Scripture when it costs him?
 
-**Today's Action:** Before lunch, choose one brother who holds to Scripture and text him. Ask him to meet this week for breakfast or a workout, and tell him one habit you want him to ask you about.
+**Today's Action:** By 10 p.m., text one brother who holds to Scripture. Ask to meet this week for breakfast or a workout, and name one habit you want him to check on.
 
 ### Healing Forge: When Brotherhood Was Missing
 

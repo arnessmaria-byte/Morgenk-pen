@@ -4,6 +4,12 @@
 
 **Dom: klar med navngitte rettelser.** Innmaten og e-boken består alle tekniske kontroller. Før opplasting må to ting være på plass: Sverre Johannes' godkjenning av forordet og omslaget.
 
+## Oppdatering 23.11.2026: mesterordren 22.11
+
+Skyøkten har levert en ny 5 × 8-fil etter den komplette mesterordren 22.11 (trosbekjennelsen fra 381, læregrunnlaget, oppgjøret med den feminiserte kirken, nye scenarioer og handlinger). I Drive heter den `FORGED_Interior_5x8_KDP_2026-11-22_skyokt.pdf`, SHA-256 `1a5fa9ac44f7a5c55bd9e4e916a7430b7b8794fdf2c16e7094279ff85a02de88`. Den har 124 sider (i-viii og 1-116), 360 × 576 pt, alle fonter innebygd og QR-koden lest til spillelisten.
+
+Den lokale økten (Fable og Codex) har levert sin egen versjon av samme ordre under navnet `FORGED_Interior_5x8_KDP_2026-11-22.pdf`, SHA-256 `22e22895…`. Velg én av dem før PDF-en byttes i KDP-utkastet. Copyright-siden i skyversjonen har en NKJV-linje for de mottatte lesemåtene.
+
 ## Oppdatering 21.11.2026
 
 KDP-utkastet ditt fra 19.10 er satt opp som 5 × 8 tommer, svart-hvitt på hvitt papir, uten utfall og med matt omslag. Bytt PDF-en der med `ut/FORGED_Interior_5x8_KDP.pdf` fra 21.11 (i Drive: `FORGED_Interior_5x8_KDP_2026-11-21.pdf`, SHA-256 `a860a1660997dae451cf598bba7d79c3c0d4c2299f358e41fbbddbe3f3791009`). Den har også R1 til R10 fra instruksen din 20.11, med valg A (uten «Also by»-siden), og rettelsen i Day 28. Den nye PDF-en har de 23 rettelsene fra oktober, de 26 strammende endringene fra 12.11, videosiden, ESV-linjen og forordslinjen.
@@ -112,7 +118,7 @@ Royalty er 60 % av listeprisen fra 9,99 USD og oppover, og 50 % under 9,99 USD. 
 - [x] Sluttleserens teologiske merknader avgjort og lagt inn (tiltak 11, 18.10.2026)
 - [x] «sexuality» strøket fra OBSERVE-listen (tiltak 12)
 - [x] Day 30 og tabellraden i Day 38 avgjort 18.10.2026 (beslutning 20 og 21)
-- [ ] Bytt PDF-en i KDP-utkastet fra 19.10 med `FORGED_Interior_5x8_KDP_2026-11-21.pdf` (124 sider) før ISBN legges inn. Den gamle er laget fra en eldre utgave av manus. Se `16-status-2026-11-12.md`.
+- [ ] Velg mellom skyversjonen og den lokale versjonen fra 22.11, og bytt PDF-en i KDP-utkastet fra 19.10 med den valgte (124 sider) før ISBN legges inn. (Tidligere: `FORGED_Interior_5x8_KDP_2026-11-21.pdf`.) Den gamle er laget fra en eldre utgave av manus. Se `16-status-2026-11-12.md`.
 - [ ] Omslaget laget med KDPs mal for 5 × 8 og 124 sider (hvitt papir er valgt i utkastet)
 - [ ] ISBN valgt. Med eget ISBN legges linjen inn i `verktoy/sett_bok.py`, og PDF-en bygges på nytt.
 - [ ] Beskrivelse, sju søkeord og kategorier skrevet (ikke en del av denne runden)

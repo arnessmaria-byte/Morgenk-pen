@@ -8,25 +8,25 @@ A man who steadies a room without drawing attention to himself earns influence o
 
 ### The Scenario
 
-Scott rarely talked first. On a biology project, two teammates argued in a study room over who was slacking, louder each minute. Scott waited until they stopped for breath, then said, "Let's list what's left and split it." They did. At the coffee shop where he worked, new hires brought their questions to him instead of the manager. He had never asked to be in charge.
+Scott rarely talked first. Two teammates on his biology project argued over who was slacking, louder by the minute. Scott waited until they stopped for breath, then said, "Let's list what's left and split it." They did. At the coffee shop where he worked, new hires brought their questions to him instead of the manager. He had never asked to be in charge.
 
 ### Noise vs. Weight
 
 | Noise | Weight |
 | :- | :- |
-| Competes for attention | Stays calm and steady |
+| Competes for attention | Lets others go first |
 | Pushes people to agree | Gives people room |
 | Wants results right now | Builds over time |
 | Reacts emotionally | Thinks, then responds |
 | Makes a splash, then fades | Keeps building trust |
 
-Influence works like gravity: by weight, never by force.
+Influence works like gravity: it pulls and never pushes.
 
 ### What This Day Is Really About
 
 Most rooms already have enough opinions. What they need is someone steady. Proverbs says, "A soft answer turns away wrath," and Jesus answered Pilate calmly, with His life at stake.
 
-Jezebel shows the other way. When Naboth would not sell his vineyard, Ahab sulked in bed, and she took over. She wrote letters in his name, set two worthless men to accuse Naboth falsely, and had him stoned. No one sold himself to evil like "Ahab, whom Jezebel his wife incited" (1 Kings 21:25). She ruled by pressure and manipulation, and her method lives on in outrage campaigns and in church bodies that squeeze a pastor until he gives in. Ahab sulked and Jezebel pushed. If either is your way, repent. A godly man moves people with steady truth, spoken plainly and lived out.
+Jezebel shows the other way. When Naboth would not sell his vineyard, Ahab sulked in bed, and she took over. She wrote letters in his name, set two worthless men to accuse Naboth falsely, and had him stoned. No one sold himself to evil like "Ahab, whom Jezebel his wife incited" (1 Kings 21:25). She ruled by pressure and manipulation, and her method lives on in outrage campaigns and in church bodies that squeeze a pastor until he gives in. Where you have sulked or pushed, repent, and Christ's blood will cleanse you. A godly man moves people with steady truth and a soft answer.
 
 ### The Practice
 

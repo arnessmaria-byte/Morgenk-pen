@@ -8,7 +8,7 @@ Strength rarely stays neutral: it almost always does good or harm. What you are 
 
 ### The Scenario
 
-Nathan was the one people texted when something broke: a dead car battery, a frozen laptop, a group project falling apart at midnight. At the warehouse he loaded trucks faster than anyone on his shift.
+Nathan was the one people texted when something broke: a dead car battery, a frozen laptop, a group project falling apart. At the warehouse he loaded trucks faster than anyone on his shift.
 
 Over time he saved his strength for an audience. He posted his deadlift numbers and filmed his best sets. When his church needed guys to help a single mom move on Saturday, he said he was busy. Nothing collapsed. Nothing grew either.
 
@@ -20,7 +20,7 @@ Over time he saved his strength for an audience. He posted his deadlift numbers 
 | Wants to be noticed | Accepts the duty |
 | Is guarded | Is put to use |
 | Serves only you | Reaches out to others |
-| Produces pride | Cares for what God entrusted to you |
+| Produces pride | Answers to God |
 
 Strength comes with responsibility attached.
 
@@ -28,7 +28,7 @@ Strength comes with responsibility attached.
 
 A soldier who signs for a radio does not own it. He answers for it. Your strength works the same way. Without an assignment, strength starts to feed your pride, help you escape, or grab for control.
 
-The assignment goes back to creation. God made man in His image, "male and female he created them" (Genesis 1:27), so women and men bear His image equally. Paul told the Athenians, "He has made from one blood every nation of men" (Acts 17:26, NKJV). That blood goes back to one real man, Adam. Paul calls him the first man and calls Christ the last Adam (1 Corinthians 15:45). God put Adam in the garden to work it and guard it (Genesis 2:15), so strength had a job from the first day. Reject every teaching that calls Adam a myth, calls your sex a choice, or ranks one race above another. And if you have used your strength to look down on anyone, repent of it.
+The assignment goes back to creation. God made man in His image, "male and female he created them" (Genesis 1:27), so women and men bear His image equally. Paul told the Athenians, "He has made from one blood every nation of men" (Acts 17:26, NKJV). All of them descend from one real man, Adam. Paul calls him the first man and calls Christ the last Adam (1 Corinthians 15:45). God put Adam in the garden to work it and guard it (Genesis 2:15), so strength had a job from the start. Reject every teaching that calls Adam a myth, calls your sex a choice, or ranks one race above another. And if you have used your strength to look down on anyone, repent of it.
 
 God trusts you with your strength on purpose, and He will ask you to answer for it. In Luke 12:48 Jesus talks about servants waiting for their master, and your strength is part of what He left in your care.
 
@@ -38,9 +38,9 @@ Name one strength you rely on but rarely offer: a strong back, a steady head, qu
 
 - Who near me would benefit if I put this strength to work?
 - Where have I been guarding this ability instead of using it?
-- What responsibility might this strength be pointing me toward?
+- What job am I dodging that this strength could do?
 
-**Today's Action:** Before bed, pick one person who could use that strength and text a specific offer, such as "I can help you move on Saturday" or "I'll look at your brakes after work tomorrow." Then keep your word.
+**Today's Action:** By 10 p.m., pick one person who could use that strength and text a specific offer, such as "I can help you move on Saturday" or "I'll look at your brakes after work tomorrow." Then keep your word.
 
 ### Healing Forge: When Strength Became a Burden
 

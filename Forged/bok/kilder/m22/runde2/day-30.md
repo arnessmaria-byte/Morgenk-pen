@@ -8,7 +8,7 @@ Feeling distant is not the same as being abandoned. Sometimes distance means sil
 
 ### The Scenario
 
-Micah still set his alarm for 6 a.m. to pray before his warehouse shift. He read his chapter and was in church every Sunday. But God felt far away, and his prayers met silence. He searched his week for hidden sin. He tried kneeling, praying out loud, praying at night. Nothing changed. The silence bothered him less than the fear that it meant something was wrong.
+Micah still got up at 6 a.m. to pray before his first class. He read his chapter and was in church every Sunday. But God felt far away, and his prayers met silence. He searched his week for hidden sin. He tried kneeling, praying out loud, praying at night. Nothing changed. The silence bothered him less than the fear that it meant something was wrong.
 
 ### Assuming God Is Gone vs. Holding On
 
@@ -35,7 +35,7 @@ Do not chase anything new today: no new message, no signs, no fresh reassurance.
 - What have I dropped since God went quiet?
 - Where am I waiting for a feeling before I obey?
 
-**Today's Action:** Tonight, tell God out loud that He feels far away. Then make the apology or phone call you have put off.
+**Today's Action:** Tonight, tell God out loud that He feels far away. Then do one thing you dropped when He went quiet.
 
 ### Healing Forge: When Silence Feels Like Abandonment
 

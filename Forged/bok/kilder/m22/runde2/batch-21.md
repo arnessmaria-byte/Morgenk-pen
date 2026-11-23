@@ -4,7 +4,7 @@
 >
 > 1 Timothy 6:12
 
-The battles that matter most are rarely seen, and Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, NKJV).
+The battles that matter most are rarely seen. Jesus treated them as life and death. He said to cut off whatever causes you to sin (Mark 9:43), and He warned of hell, where "Their worm does not die" and "the fire is not quenched" (Mark 9:44, NKJV).
 
 ### The Scenario
 
@@ -24,7 +24,7 @@ Silence makes a struggle stronger.
 
 ### What This Day Is Really About
 
-A battle you never name works like a slow leak in a tire. It makes no noise. It just asks a little more of you every mile. Promises made alone will not plug it. Confess the sin to God, then tell one brother, not the whole church. Paul told young Timothy to fight "the good fight of the faith," and in Christ no man is meant to fight it alone.
+A battle you never name works like a slow leak in a tire. It makes no noise. It just asks a little more of you every mile. Promises will not plug it. Confess the sin to God, trust Christ's blood, and tell one brother, not the whole church. Paul told young Timothy to fight "the good fight of the faith," and in Christ no man is meant to fight it alone.
 
 ### The Practice
 
@@ -37,7 +37,7 @@ Name the battle that keeps coming back. Ask:
 
 ### Healing Forge: When Silence Was Safer
 
-Silence may have been how you survived. Speaking up cost you closeness with people, and admitting weakness left you open to harm, so staying quiet made sense. Keeping secrets once protected you. Now it keeps you alone with your sin. Bring that sin into the light: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9). Christ's blood washes what you confess, so you never have to clean yourself up first.
+Silence may have been how you survived. Speaking up cost you closeness with people, and admitting weakness left you open to harm, so staying quiet made sense. Keeping secrets once protected you. Now it keeps you alone. Harm done to you is not your sin. Bring your own sin into the light: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9). Christ's blood washes what you confess, so you never have to clean yourself up first.
 
 *End of Day 21*
 
@@ -51,7 +51,7 @@ Rules make things clear: they tell you what you are allowed to do. Wisdom gives 
 
 ### The Scenario
 
-Samuel kept every rule he knew. He had a 300-day streak in his Bible app and never swore at work. One Saturday at the paint store, a customer chewed out the new hire, a nervous high schooler, over a refund. The handbook said nothing about stepping in, and the manager was at lunch. Samuel kept stocking paint cans ten feet away and told himself it was not his place. He broke no rule that day. The kid quit on Monday.
+Samuel kept every rule he knew. He had a 300-day streak in his Bible app and never lied at work. One Saturday at the paint store, a customer chewed out the new hire, a nervous high schooler, over a refund. The handbook said nothing about stepping in, and the manager was at lunch. Samuel kept stocking paint cans ten feet away and told himself it was not his place. He broke no rule that day. The kid quit on Monday.
 
 ### Checklist Faith vs. Wise Faith
 
@@ -61,9 +61,9 @@ Samuel kept every rule he knew. He had a 300-day streak in his Bible app and nev
 | Avoids mistakes | Aims to be faithful |
 | Needs permission | Takes responsibility |
 | Works in simple cases | Handles complicated ones |
-| Feels safe | Takes courage |
+| Hangs back | Steps in |
 
-Rules tell you how to behave. Wisdom tells you when to act.
+Rules tell you how to behave. Wisdom knows when to act.
 
 ### What This Day Is Really About
 
@@ -75,10 +75,10 @@ Under the new covenant Jesus made, "the Spirit gives life" and writes God's comm
 
 Think of a recent moment when someone needed help and no rule told you to give it. Ask:
 
-- What did I hold back from, and why?
+- What did I leave undone, and why?
 - What would being faithful have asked of me?
 
-**Today's Action:** Tonight, go back and take that step: text or call the person you left alone, ask how they are doing, and offer one specific kind of help.
+**Today's Action:** By 10 p.m., get back to the person you left alone, ask how they are doing, and offer one specific kind of help.
 
 ### Healing Forge: When Rules Meant Safety
 
@@ -106,7 +106,7 @@ Paul knew Scripture. He had James 1 memorized and won most arguments in his Bibl
 | Lives in words | Lives in action |
 | Impresses others | Changes how you act |
 | Grows by taking in more | Grows by doing it again |
-| Feels powerful | Actually works |
+| Wins debates | Works when tired |
 
 Knowledge you cannot act on is not yet yours.
 
@@ -114,7 +114,7 @@ Knowledge you cannot act on is not yet yours.
 
 No one learns to swim from a manual, even when the manual is right. Only practice makes what you know ready to use under pressure. Jesus said the wise man is the one who "hears these words of mine and does them," and his house stood when the storm hit.
 
-Jesus made His own words the foundation. The man who hears them and never obeys builds on sand (Matthew 7:26), however much he knows.
+Christ made His own words the foundation. The man who hears them and never obeys builds on sand (Matthew 7:26), however much he knows.
 
 ### The Practice
 
@@ -123,7 +123,7 @@ Choose one verse you already know well. Ask:
 - Where do I act as if I never learned it?
 - What would obeying it look like today?
 
-**Today's Action:** Before bed, obey that verse in one concrete way you have been putting off: make the apology you owe, or give the help you promised. Learn nothing new today. Put what you already know to work.
+**Today's Action:** By 10 tonight, obey that verse in one concrete way you have been putting off: make the apology you owe, or keep a promise you made.
 
 ### Healing Forge: When Knowledge Became Armor
 
@@ -157,7 +157,7 @@ Strength multiplies when every part of you heads the same way.
 
 ### What This Day Is Really About
 
-Eight strong rowers who each pull to their own rhythm go nowhere in particular. The same eight, pulling together on one call, move like a single creature. Paul prays that God himself will "sanctify you completely" and keep your spirit, soul, and body blameless when Jesus Christ returns.
+Eight strong rowers who each pull to their own rhythm go nowhere in particular. The same eight, pulling together on one call, move like a single creature. Paul prays that God Himself will "sanctify you completely" and keep your spirit, soul, and body blameless when Jesus Christ returns.
 
 Faith has to reach the body too, starting in the water. Bible baptism follows repentance and personal faith: "Whoever believes and is baptized will be saved" (Mark 16:16; Acts 2:38). When the eunuch asked to be baptized, Philip answered, "If you believe with all your heart, you may" (Acts 8:37, NKJV). A ritual done over an infant without his own faith does not replace a believer's baptism.
 
@@ -166,9 +166,9 @@ Faith has to reach the body too, starting in the water. Bible baptism follows re
 - Which part of my life lags behind what I believe?
 - Have I been baptized on my own faith in Christ?
 
-**Today's Action:** Right after a habit you never skip, give ten minutes to the part that lags: read one chapter of Scripture, or call someone you have neglected. If you were never baptized as a believer, use them to ask a pastor to baptize you.
+**Today's Action:** Right after a habit you never skip, give ten minutes to the part that lags: open your Bible alone, or call someone you have neglected. If you were never baptized as a believer, ask a pastor to baptize you instead.
 
-**Phase Check:** Mark each action from Days 17 to 24 done or skipped, and finish one you skipped before 10 p.m.
+**Phase Check:** Mark each action from Days 17 to 24 done or skipped, and by 10 p.m. finish one you skipped.
 
 ### Healing Forge: When Being Whole Felt Impossible
 
@@ -186,13 +186,13 @@ Discipline rarely starts to fail in a crisis. It fails at the edge, when the wor
 
 ### The Scenario
 
-Owen started strong in January. He ran three miles before his 8 a.m. class and read a chapter of Mark over breakfast. By March his mile time had stopped dropping, and the reading felt like homework. His friends no longer asked about his runs. One gray morning he sat on his bed in his running shoes and stared at the door. Each day just looked like the one before.
+Owen started strong in January. He ran three miles before his 8 a.m. class and read a chapter of Mark over breakfast. By March his mile time had stopped dropping, and the reading felt like homework. His friends no longer asked about his runs. One gray morning he sat on his bed in his running shoes and stared at the door.
 
 ### Motivation-Based Discipline vs. Committed Discipline
 
 | Motivation-Based Discipline | Committed Discipline |
 | :- | :- |
-| Relies on feeling | Relies on commitment |
+| Waits for the mood | Shows up anyway |
 | Needs progress it can see | Accepts growth it cannot see |
 | Breaks when it gets boring | Keeps going through repetition |
 | Feels energizing | Feels ordinary |
@@ -202,7 +202,7 @@ The edge shows what your discipline is resting on.
 
 ### What This Day Is Really About
 
-Stay with what you are doing. Nobody cheers the middle miles of a long run, and they are where the race is decided. The edge is where discipline changes: it stops being an effort and becomes part of who you are. Jesus told His disciples, who would face betrayal and prison, that by enduring they would gain their lives, and that kind of endurance is built on ordinary days.
+Stay with what you are doing. Nobody cheers the middle miles of a long run, and they are where the race is decided. The edge is where discipline changes: it stops being an effort and becomes part of who you are. Jesus told His disciples, who would face betrayal and prison, that by enduring they would gain their lives. That kind of endurance is built on ordinary days.
 
 Men who quit here mistake boredom for a warning sign.
 
@@ -213,7 +213,7 @@ Pick one discipline that has gone stale. Ask:
 - What result am I waiting for?
 - How do I stay faithful if nothing seems to change?
 
-**Today's Action:** Do that discipline today in full, at your normal pace: the whole run, the whole chapter. Then write today's date on a card by your bed, and add a date every day this week, results or no results. Do not try harder. Just stay with it.
+**Today's Action:** Do that discipline today in full, at your normal pace: the whole run, the whole chapter. Then start a card by your bed and write today's date on it.
 
 ### Healing Forge: When Quitting Felt Necessary
 

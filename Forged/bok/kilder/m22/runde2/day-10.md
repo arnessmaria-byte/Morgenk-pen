@@ -8,7 +8,7 @@ Few things shape you as steadily as what you take in without noticing. Your scre
 
 ### The Scenario
 
-It is 1:15 a.m. You have work at eight. The phone is an inch from your face, and your thumb keeps moving: one more clip, one more fight in the comments, the same feed you scrolled at midnight. None of it is fun anymore, and you keep going. In the morning the phone is in your hand before your feet hit the floor. Two verses into your Bible, your hand goes looking for it. The screen has trained you to expect interruption.
+It is 1:15 a.m. You have work at eight. The phone is an inch from your face, and your thumb keeps moving: one more clip, one more fight in the comments, the same feed you scrolled at midnight. None of it is fun anymore, and you keep going. In the morning the phone is in your hand before your feet hit the floor. Two verses into your Bible, you reach for it again.
 
 ### Digital Drift vs. Digital Discipline
 
@@ -17,7 +17,7 @@ It is 1:15 a.m. You have work at eight. The phone is an inch from your face, and
 | Eats your attention | Guards your attention |
 | Rewards quick reactions | Makes room to think |
 | Scatters your focus | Steadies your focus |
-| Feeds comparison | Builds good judgment |
+| Feeds comparison | Builds contentment |
 | Runs on autopilot | Is carefully chosen |
 
 Whatever surrounds you will end up teaching you.
@@ -26,11 +26,11 @@ Whatever surrounds you will end up teaching you.
 
 You do not have to give up technology. But the places you spend time online do shape you, so stop letting them do it without your permission. Your attention has a diet, just like your body, and the meals you never notice are the ones that set your appetite.
 
-If you do not decide what gets your attention, an app built to sell it will. Wisdom begins with what you keep out. Paul wrote "Look carefully then how you walk" to followers of Christ, and that walk includes every hour on a screen.
+If you do not decide what gets your attention, an app built to sell it will. Part of wisdom is what you keep out. Paul wrote "Look carefully then how you walk" to followers of Christ, and that walk includes every hour on a screen.
 
 ### The Practice
 
-Watch one digital habit today and ask:
+Track one digital habit today and ask:
 
 - When do I reach for my phone without meaning to?
 - What content keeps pulling my mood or focus off track?
@@ -40,6 +40,6 @@ Watch one digital habit today and ask:
 
 ### Healing Forge: When Escape Became a Habit
 
-Screens may have been your hiding place from chaos, loneliness, or rejection, and that made sense then. But a hiding place can become a cage. If the late hours have led you into sin, do not hide it again. Confess it to God and one brother, and the blood of Jesus washes it clean (1 John 1:7-9). Then guard tonight.
+Screens may have been your hiding place from chaos, loneliness, or rejection, and that made sense then. But a hiding place can become a cage. If the late hours have led you into sin, do not hide it again. Confess it to God, and the blood of Jesus washes it clean (1 John 1:7, 9).
 
 *End of Day 10*

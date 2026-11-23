@@ -12,11 +12,11 @@ You are not beyond repair. But you are being shaped, whether you choose it or no
 
 ## Where This Book Stands
 
-This book stands on Scripture, the only rule that judges everything else and is judged by nothing: "Scripture cannot be broken" (John 10:35). It stands on the faith the church confessed at Constantinople in 381 (Appendix B): one God, the Father, the one source of all; one Lord Jesus Christ, "God from God, Light from Light, true God from true God, begotten, not made, of one essence with the Father"; and the Holy Spirit, who proceeds from the Father and is given to us through the Son (John 15:26; Galatians 4:6).
+This book stands on Scripture, the only rule that is never itself put on trial: "Scripture cannot be broken" (John 10:35). It stands on the faith the church confessed at Constantinople in 381 (Appendix B): one God, the Father, the one source of all; one Lord Jesus Christ, "God from God, Light from Light, true God from true God, begotten, not made, of one essence with the Father"; and the Holy Spirit, who proceeds from the Father and is given to us through the Son (John 15:26; Galatians 4:6).
 
-In God there is order without lesser worth. The Father sends, the Son is sent, and the Spirit proceeds from the Father, yet the three are one God, equal in glory. Paul ties the order of creation to that order: "the head of every man is Christ, the head of a wife is her husband, and the head of Christ is God" (1 Corinthians 11:3). Order does not mean lesser worth, whatever a demasculinized culture tells you and many churches now repeat.
+In God there is order without lesser worth. The Father sends, the Son is sent, and the Spirit proceeds from the Father, yet the three are one God, equal in glory. Paul ties the creation order to that order: "the head of every man is Christ, the head of a wife is her husband, and the head of Christ is God" (1 Corinthians 11:3). Women and men bear God's image equally (Genesis 1:27). A demasculinized culture says order means lesser worth, and many churches repeat that lie.
 
-Postmodernism tells you that no truth binds you. Radical feminism and woke ideology call every God-given difference oppression. That same culture wants young men passive and easy to steer, and a feminized, apostate church has traded the apostles' teaching for the approval of the age. Christ rebuked the church in Thyatira for tolerating "that woman Jezebel, who calls herself a prophetess" (Revelation 2:20), and that spirit still reaches for the pulpit. Every reader is called to repent, and I am first in line: turn from the lies of the age and come back to the apostles' teaching.
+Postmodernism tells you that no truth binds you. Radical feminism and woke ideology call every God-given difference oppression. That same culture wants young men passive and easy to steer. A feminized, apostate church has traded the apostles' teaching for the approval of the age. Christ rebuked the church in Thyatira for tolerating "that woman Jezebel, who calls herself a prophetess" (Revelation 2:20), and her spirit still reaches for the pulpit. We all need to repent, and I am first in line. Turn from those lies and come back to Christ.
 
 ## Why Another Devotional Isn't Enough
 
@@ -63,7 +63,7 @@ Each day moves from a short opening and a scenario to a comparison, an explanati
 
 The practice is the point. You are not asked to feel anything, and the days you feel nothing count as much as the days everything feels clear. What you repeat becomes a reflex, and your reflexes decide who you are under pressure.
 
-Read one day at a time. Each practice takes about ten minutes: two or three questions, then one Today's Action. You can do every Today's Action before 10 p.m. the same day.
+Read one day at a time. Each practice takes about ten minutes: two or three questions, then one Today's Action you can finish before 10 p.m. that day.
 
 If you miss a day, do not go back to Day 1. Starting over again and again is how men quit for good. Reread the last day you finished, go on to the next one, and count coming back as part of the practice.
 
@@ -75,6 +75,6 @@ This book is not a counselor. If you carry deep trauma, harm done to you, grief 
 
 ## Before You Begin
 
-None of the forty days ahead earns you anything from God. He accepted you before you began, and that was settled at a cross you did not carry. Training is how you answer that love. A son trains because he lives in his father's house, not to get adopted.
+None of the forty days ahead earns you anything from God. In Christ you were accepted before you began, at a cross you did not carry. Training is how you answer that love. A son trains because he lives in his father's house, not to get adopted.
 
 Begin there.

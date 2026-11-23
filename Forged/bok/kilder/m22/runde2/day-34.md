@@ -39,6 +39,6 @@ Think about school, work, home, and your phone. Ask:
 
 ### Healing Forge: When Being Noticed Once Felt Unsafe
 
-Being seen may once have meant risk: being picked apart, misunderstood, or punished for being honest. So you learned to stay hidden. Being a witness asks you to be steady, not to put yourself on display. If what you hide is sin, bring it into the light and confess it. Jesus' blood cleanses all of it (1 John 1:7).
+Being seen may once have meant risk: being picked apart, misunderstood, or punished for being honest. So you learned to stay hidden. Being a witness asks you to be steady, not to put yourself on display. If you hide your own sin, bring it into the light and confess it. Jesus' blood cleanses all of it (1 John 1:7).
 
 *End of Day 34*

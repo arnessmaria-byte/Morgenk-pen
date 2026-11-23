@@ -8,7 +8,7 @@ Words shape more than results. They shape whether people trust you and whether a
 
 ### The Scenario
 
-Reid knew what he believed and could say it fast. One night his roommate admitted he was done with church. Reid talked for forty minutes: three verses, a podcast link, an answer for every doubt. His roommate nodded and put his earbuds in. In the group chat, Reid answered a two-line post with four paragraphs. He meant well, but people stopped bringing things up around him. His beliefs never pushed anyone away. The extra words did.
+Reid knew what he believed and could say it fast. One night his roommate admitted he was done with church. Reid talked for forty minutes: three verses, a podcast link, an answer for every doubt. His roommate nodded and put his earbuds in. In the group chat, Reid answered a two-line post with four paragraphs. He meant well, but people stopped bringing things up around him.
 
 ### Saying Everything vs. Saying It Right
 
@@ -24,7 +24,7 @@ Truth needs to be exact. Saying it louder or longer adds nothing.
 
 ### What This Day Is Really About
 
-Take care with your words. You do not have to go silent to do it. Well-chosen words carry weight and protect what you mean, and without that care even the truth can hurt people.
+Take care with your words. You do not have to go silent to do it. Careful words land and guard what you mean. Careless words can make even the truth hurt.
 
 Spiritual maturity shows in what you refuse to say. When you hold back, you are being responsible, not afraid. James tells believers to be "quick to hear, slow to speak," and Jesus often answered a trap with one short question.
 
@@ -40,7 +40,7 @@ Speak less today and mean more. Before you answer anyone, ask:
 
 ### Healing Forge: When Speech Once Meant Survival
 
-Some men learned to talk fast to protect themselves: defending, explaining, heading off misunderstandings. Silence felt risky. You can be exact with your words and still speak up. You are training your voice to come across clearly. Where your words have cut someone or bent the truth, call it sin and confess it. Christ's blood washes it clean (1 John 1:7-9).
+Some men learned to talk fast to protect themselves: defending, explaining, heading off misunderstandings. Silence felt risky. You can be exact with your words and still speak up. You are training your voice to come across clearly. Where your words now cut someone or bend the truth, call it sin and confess it. Christ's blood washes it clean (1 John 1:7-9).
 
 *End of Day 36*
 
@@ -51,11 +51,11 @@ Some men learned to talk fast to protect themselves: defending, explaining, head
 >
 > 2 Corinthians 4:18
 
-How far ahead you look decides how patient you are. Most anxiety shrinks your view to today. Growing in faith widens it.
+How far ahead you look decides how patient you are. Anxiety shrinks your view to today. Growing in faith widens it.
 
 ### The Scenario
 
-Your uncle's sailboat is eight miles out when the wind rises and the swells build to six feet. He hands you the wheel and goes forward to shorten the sail. You fight every wave. Your eyes lock on the next crest, and you spin the wheel hard one way, then hard the other. The bow slams and swings. Your stomach rolls. Your uncle climbs back, wipes the spray from his eyes, and points at the lighthouse on the headland. "Steer for that."
+Your uncle's sailboat is eight miles out when the wind rises and the swells build to six feet. He hands you the wheel and goes forward to reef the sail. You fight every wave. Your eyes lock on the next crest, and you spin the wheel hard one way, then hard the other. The bow slams and swings. Your stomach rolls. Your uncle climbs back, wipes the spray from his eyes, and points at the lighthouse on the headland. "Steer for that."
 
 ### Right Now vs. Eternity
 
@@ -64,8 +64,8 @@ Your uncle's sailboat is eight miles out when the wind rises and the swells buil
 | Wants it fixed today | Makes room to obey patiently |
 | Counts today's cost | Weighs how it ends |
 | Gets upset at delays | Can handle waiting |
-| Turns up every feeling | Keeps your view steady |
-| Shrinks what you see | Helps you hold out longer |
+| Follows every mood | Takes the long view |
+| Sees only what is near | Holds out longer |
 
 With eternity in view, urgent things take their proper place.
 
@@ -73,7 +73,7 @@ With eternity in view, urgent things take their proper place.
 
 A sailor steering by the wave in front of him is seasick within the hour. Steering by the horizon, he is steady in the same sea. When you only look at right now, everything feels heavier than it is. Thinking about eternity does not pull you out of your life. It shows each weight at its real size.
 
-With eternity in mind, you can handle a hassle without panic and pay a price without bitterness. You do not need to rush what was meant to take time. Paul looked "to the things that are unseen" because he knew the God who raised Jesus would raise him too.
+Then you can handle a hassle without panic and pay a price without bitterness. You do not need to rush what was meant to take time. Paul looked "to the things that are unseen" because he knew the God who raised Jesus would raise him too.
 
 ### The Practice
 
@@ -82,7 +82,7 @@ Think of the last time you felt rushed or annoyed. Ask:
 - What did I treat as urgent that could wait?
 - What part of it will still matter in eternity?
 
-**Today's Action:** Tonight, mute the app or chat you keep checking for an answer, and leave it muted until noon tomorrow. Then read 2 Corinthians 4:16-18 slowly and pray one sentence that hands the timing to God.
+**Today's Action:** Tonight, mute the app or chat you keep checking for an answer, and set the mute for a full day. Then read 2 Corinthians 4:16-18 slowly and pray one sentence that hands the timing to God.
 
 ### Healing Forge: When Rushing Was How You Survived
 
@@ -109,7 +109,7 @@ Grant stopped posting his workouts. At small group he quit hinting about his 5 a
 | :- | :- |
 | Wants credit | Builds trust over time |
 | Advertises conviction | Carries it quietly |
-| Needs approval | Has real weight |
+| Needs approval | Works unseen |
 | Rises and falls with reactions | Stays steady |
 | Demands attention | Holds others up |
 
@@ -121,7 +121,7 @@ As you grow, life puts weight on you: questions, requests, responsibility. Who y
 
 Be worth noticing, and do not chase being noticed. Jesus tells you to let your light shine so that people will "give glory to your Father," not to you.
 
-That light comes from the Spirit, whose gifts did not end with the apostles. The Spirit who filled the first believers so they "continued to speak the word of God with boldness" (Acts 4:31) still gives power to witness (Acts 1:8). The gifts are for serving others, not for show. Repent of chasing applause and ask Him for them.
+No man shines on his own. The Spirit who filled the first believers so they "continued to speak the word of God with boldness" (Acts 4:31) still gives power to witness (Acts 1:8). His gifts did not end with the apostles, and they are for serving others, not for show. Repent of chasing applause and ask Him for them.
 
 ### The Practice
 
@@ -165,7 +165,7 @@ A position opens doors. Authority decides what happens inside.
 
 ### What This Day Is Really About
 
-Authority rests on whether people can believe you. It builds when you keep doing what you say, even when you fall short. People notice who calms things down and who stirs them up.
+Authority rests on whether people can believe you. It builds when you keep doing what you say, flaws and all. People notice who calms things down and who stirs them up.
 
 Authority grows wherever someone carries responsibility without asking for credit. In Jesus' parable, the master gives more to the servant who was "faithful over a little," and trust still works that way. Your authority is on loan: "the head of every man is Christ" (1 Corinthians 11:3), and you will answer to Him for it.
 
@@ -176,7 +176,7 @@ Be careful what you promise today. Then ask:
 - What have I promised and not finished?
 - Where do I cut corners when no one checks?
 
-**Today's Action:** By 9 p.m., list every promise you have left open. Pick the smallest and finish it tonight: return the charger you borrowed, or send the text you promised. Authority often starts in jobs that feel too small to matter.
+**Today's Action:** By 9 p.m., list every promise you have left open. Pick the smallest and finish it tonight: return the tool you borrowed, or make the call you promised. Authority often starts in jobs that feel too small to matter.
 
 ### Healing Forge: When Authority Was Abused
 
@@ -205,7 +205,7 @@ Adam woke on the fortieth morning half expecting a rush, a sign, some sense of a
 | Stops the effort | Turns effort into a routine |
 | Celebrates being done | Picks a direction and goes |
 | Looks backward | Lives forward |
-| Wants it all wrapped up | Builds it into daily life |
+| Wants it all wrapped up | Keeps showing up |
 
 You keep growing after today. What you built these forty days settles in and gets stronger.
 

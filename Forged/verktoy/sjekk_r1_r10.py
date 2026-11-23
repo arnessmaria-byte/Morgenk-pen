@@ -101,6 +101,9 @@ print(f"  NOTE R8 to setninger i linja under tabellen på {len(flere)} dager: {f
 # Forfatterens komplette mesterordre 22.11.2026 ba om nye, konkrete scenarioer på Day 2-40.
 # Da er de gjenopprettede scenariosetningene på Day 19 og 40 og oktoberrettelse nr. 4
 # (scenariet på Day 4) erstattet etter ordre, og de meldes som merknad, ikke feil.
+# Ordren ba også om Healing Forge som omvendelse og Kristi rensing, uten terapifraser.
+# Oktoberrettelse nr. 13, 14, 15 og 19 (Healing Forge på Day 26, 27, 29 og 32) har derfor
+# fått en Kristus-setning og mistet terapifrasene; resten av avsnittet står.
 for d, s in TILBAKE.items():
     if s in under(D[d], "### The Scenario"):
         sjekk("R9", True, f"Day {d}: den godkjente teksten står i The Scenario")
@@ -108,7 +111,8 @@ for d, s in TILBAKE.items():
         print(f"  NOTE R9 Day {d}: scenariet er skrevet nytt etter mesterordren 22.11 (den gjenopprettede teksten fra 20.11 er erstattet)")
 for h in ("# Foreword", "# About the Author"):
     sjekk("R9", nivaa1(t).get(h) == nivaa1(grunn).get(h), f"{h[2:]} er uendret mot 20.11")
-ERSTATTET = {11: "R5", 4: "mesterordren 22.11 (nytt scenario på Day 4)"}
+HF = "mesterordren 22.11 (Healing Forge med omvendelse og Kristus, uten terapifraser)"
+ERSTATTET = {11: "R5", 4: "mesterordren 22.11 (nytt scenario på Day 4)", 13: HF, 14: HF, 15: HF, 19: HF}
 mangler = [c["n"] for c in okt if c["n"] not in ERSTATTET and n(c["new"]) not in n(t)]
 borte = [c["n"] for c in okt if c["n"] in ERSTATTET and n(c["new"]) not in n(t)]
 sjekk("R9", not mangler, f"oktoberrettelsene: {22 - len(mangler) - len(borte)} av 22 står ordrett"
