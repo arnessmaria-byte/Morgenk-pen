@@ -1,0 +1,19 @@
+---
+description: Redaksjonsordre 25. november 2026 fra ansvarlig redaktør. Gjelder alt arbeid for MANTELEN.
+alwaysApply: true
+---
+
+Les og følg `AGENTS.md` i rotmappen før du skriver, planlegger, publiserer eller sender noe for MANTELEN.
+
+Kortversjon:
+
+- MANTELENs egen teologiske vurdering publiseres bare når ansvarlig redaktør Elias Solbak Årnes
+  uttrykkelig har godkjent den ferdige versjonen. Innholdet avgjør, ikke overskriften. Gjelder også
+  ingress, tittel, bildetekst, videomanus, fortellerstemme, skjermtekst, undertekster, beskrivelse og Shorts.
+- Kjør `python redaksjonsport/port.py kontroller <sak.json> --fase planlegging` ved planlegging og
+  `--fase utsending` rett før noe går ut. Ved `HOLDES` blir innholdet liggende som utkast.
+- Fyll aldri ut eller signer en godkjenning på redaktørens vegne. Rør aldri nøklene porten stoler på.
+- Marias navn brukes bare når hun faktisk er journalist eller avsender. Byline: «Av Maria Solbak Årnes,
+  journalist i MANTELEN». E-post: avsendernavn «Maria Solbak Årnes, MANTELEN», signatur «Maria Solbak
+  Årnes, journalist i MANTELEN». «Redaksjonen» alene er utilstrekkelig for hennes saker.
+- Ingen test skal sende e-post eller publisere stoff.
