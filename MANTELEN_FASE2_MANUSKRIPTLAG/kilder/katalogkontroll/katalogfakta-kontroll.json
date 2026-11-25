@@ -1,0 +1,542 @@
+{
+  "reviewDate": "2026-11-25",
+  "scope": "Fem godkjente GT-piloter; kun ni fysiske vitner. Ingen bibeltekst, transkripsjon eller avbildning i denne leveransen.",
+  "localHashes": {
+    "registre/vitneregister.json": "05df47dfbafd7d3dc5e55bd061148c5c7b428fa83eb23f6abafa942dc487aebc",
+    "piloter/trinn0-10-piloter.json": "7937184eefe6ec18897149d861a5ba247f4058ba8e47a565025e1b7384885395",
+    "kilder/belegg/leon-levy-utdrag.json": "5f33a8f9772b0b9734ff53a73cd14966e7252ec87da557a87b3b95f04937319f",
+    "kilder/belegg/etcbc-dss-utdrag.json": "79c430c56cd02c7f3113b95dacea492b5e323032d7d991532274ed6fe0501f77"
+  },
+  "hashMethod": "rawResponseSha256 gjelder mottatte byte; factHash gjelder JSON av faktisk regex-avleste verdier (sorterte nøkler, kompakt, UTF-8). HTML kan endres uten at faktahashen endres.",
+  "witnesses": [
+    {
+      "siglum": "11QPsa",
+      "existing": {
+        "display": "11QPsᵃ",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": "11Q5",
+        "period": "Herodian",
+        "site": "Qumran, Cave 11",
+        "material": "Parchment",
+        "scriptType": "Square",
+        "catalogUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/11Q5-1",
+        "catalogRawSha256": "d645d56193431923d8936c252d8eb8555857729269890491b223ecc4127b47d4",
+        "publications": [
+          "Sanders 1965. DJD 4: 1-99.",
+          "Garcia Martinez, Tigchelaar, van der Woude 1998. DJD 23: 28-36."
+        ]
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-PSA-145-013-01",
+          "locator": "ETCBC-sted 17, linje 1–4"
+        }
+      ],
+      "candidateReferences": [
+        "IAA-11Q5",
+        "LOC-11Q5"
+      ]
+    },
+    {
+      "siglum": "1QIsaa",
+      "existing": {
+        "display": "1QIsaᵃ",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": "1Qisaa",
+        "period": null,
+        "site": null,
+        "material": null,
+        "scriptType": null,
+        "catalogUrl": null,
+        "catalogRawSha256": null,
+        "publications": []
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-ISA-053-011-01",
+          "locator": "ETCBC-sted 44, linje 19–20"
+        }
+      ],
+      "candidateReferences": [
+        "IMJ"
+      ]
+    },
+    {
+      "siglum": "1QIsab",
+      "existing": {
+        "display": "1QIsaᵇ",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": "1Q8",
+        "period": "Herodian",
+        "site": "Qumran, Cave 1",
+        "material": "Parchment",
+        "scriptType": "Square",
+        "catalogUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1",
+        "catalogRawSha256": "1ce2099679edd80c05ac6b34d520e922f6379f809a4d679e8de138c02c1fde86",
+        "publications": [
+          "Barthelemy 1955. DJD 1: 66-68.\nSukenik 1955. The Dead Sea Scrolls of the Hebrew University. DJD : pls. I-XII.\nUlrich, Flint 2009. . . 1-260, LV-LXXIV.",
+          "Barthelemy 1955. DJD 1: 66-68.\nUlrich, Flint 2009. DJD 32: 1-260.\nSukenik 1955. The Dead Sea Scrolls of the Hebrew University. Jerusalem. pls. I-XII."
+        ]
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-ISA-053-011-01",
+          "locator": "ETCBC-sted 23, linje 22–23"
+        }
+      ],
+      "candidateReferences": [
+        "SI-B-RENDER",
+        "SI-B",
+        "IAA-1Q8"
+      ]
+    },
+    {
+      "siglum": "4QDeutj",
+      "existing": {
+        "display": "4QDeutʲ",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": "4Q37",
+        "period": "Herodian",
+        "site": "Qumran, Cave 4",
+        "material": "Parchment",
+        "scriptType": "Square",
+        "catalogUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1",
+        "catalogRawSha256": "678837d8a0ce906a1b8674f7d96e777c5b9efa9171cc9a6b386dc356ff443813",
+        "publications": [
+          "Duncan 1995. DJD 14: 70-91."
+        ]
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-DEU-032-008-01",
+          "locator": "ETCBC-sted 12, linje 13–14"
+        }
+      ],
+      "candidateReferences": [
+        "SBL-4Q37-RENDER",
+        "IAA-4Q37",
+        "SBL-4Q37"
+      ]
+    },
+    {
+      "siglum": "4QDeutq",
+      "existing": {
+        "display": "4QDeutᑫ",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": "4Q44",
+        "period": "Herodian",
+        "site": "Qumran, Cave 4",
+        "material": "Parchment",
+        "scriptType": "Square",
+        "catalogUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1",
+        "catalogRawSha256": "8d5bc22687d2eaf4d07d64c770e36ba9dd34d6c9c2a113e7d83388690cc88c99",
+        "publications": [
+          "Skehan, Ulrich 1995. DJD 14: 137-142."
+        ]
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-DEU-032-043-01",
+          "locator": "ETCBC-sted f5ii, linje 6–11"
+        }
+      ],
+      "candidateReferences": [
+        "IAA-4Q44",
+        "AGDER-4Q44"
+      ]
+    },
+    {
+      "siglum": "4QIsad",
+      "existing": {
+        "display": "4QIsaᵈ",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": "4Q58",
+        "period": "Herodian",
+        "site": "Qumran, Cave 4",
+        "material": "Parchment",
+        "scriptType": "Square",
+        "catalogUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1",
+        "catalogRawSha256": "a9e9adc970bce8c934804f7d3f8bcc8e7c9d55f078d0b4c0c6beab7bb38ed4b3",
+        "publications": [
+          "Skehan, Ulrich 1997. DJD 15: 75-88."
+        ]
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-ISA-053-011-01",
+          "locator": "ETCBC-sted 8, linje 20–21"
+        }
+      ],
+      "candidateReferences": [
+        "IAA-4Q58"
+      ]
+    },
+    {
+      "siglum": "4QPsf",
+      "existing": {
+        "display": "4QPsᶠ",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": "4Q88",
+        "period": "Hasmonean",
+        "site": "Qumran, Cave 4",
+        "material": "Parchment",
+        "scriptType": "Square",
+        "catalogUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1",
+        "catalogRawSha256": "32c4bc7477fa20e3c4db84e116c380823f448b08d74621805edd0a001ad5c1db",
+        "publications": [
+          "Skehan, Ulrich, Flint 2000. DJD 16: 85-106."
+        ]
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-PSA-022-017-01",
+          "locator": "ETCBC-sted f1_2, linje 23–25"
+        }
+      ],
+      "candidateReferences": [
+        "IAA-4Q88"
+      ]
+    },
+    {
+      "siglum": "5/6HevPs",
+      "existing": {
+        "display": "5/6ḤevPs",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": "5/6hev1b",
+        "period": null,
+        "site": null,
+        "material": null,
+        "scriptType": null,
+        "catalogUrl": null,
+        "catalogRawSha256": null,
+        "publications": []
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-PSA-022-017-01",
+          "locator": "ETCBC-sted f8_9, linje 12"
+        }
+      ],
+      "candidateReferences": [
+        "YARDENI-RENDER",
+        "IAA-HEV-CATALOG",
+        "IAA-HEV",
+        "IAA-HEV-IMAGE",
+        "YARDENI"
+      ]
+    },
+    {
+      "siglum": "B19A",
+      "existing": {
+        "display": "B19ᴬ (Codex Leningradensis)",
+        "century": null,
+        "dateRange": null,
+        "repository": null,
+        "etcbcScrollCode": null,
+        "period": null,
+        "site": null,
+        "material": null,
+        "scriptType": null,
+        "catalogUrl": null,
+        "catalogRawSha256": null,
+        "publications": []
+      },
+      "pilotSources": [
+        {
+          "variantId": "GT-ISA-053-011-01",
+          "locator": null
+        },
+        {
+          "variantId": "GT-DEU-032-008-01",
+          "locator": null
+        },
+        {
+          "variantId": "GT-DEU-032-043-01",
+          "locator": null
+        },
+        {
+          "variantId": "GT-PSA-022-017-01",
+          "locator": null
+        },
+        {
+          "variantId": "GT-PSA-145-013-01",
+          "locator": null
+        }
+      ],
+      "candidateReferences": [
+        "NLR-RU",
+        "SEFARIA",
+        "NLR",
+        "NLI",
+        "UXLC",
+        "UXLCold"
+      ]
+    }
+  ],
+  "sourceFacts": [
+    {
+      "provider": "IAA-HEV-CATALOG",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=en_US",
+      "rawResponseSha256": "35162edfa31c7d6607c05df1bce21ae55ff202a47ee955e96515bc5b5adfcedd",
+      "factHash": "17982b4e1855b1bf7f69902f75dee7f101cc47cbde97678f05926d6f2fa6ec90",
+      "facts": {
+        "manuscript_id": "5/6Hev 1b 891-1",
+        "site": "Cave of Letters",
+        "period": "Herodian",
+        "material": "Parchment",
+        "script_type": "Square"
+      },
+      "allFieldsFound": true,
+      "requestedFields": [
+        "manuscript_id",
+        "site",
+        "period",
+        "material",
+        "script_type"
+      ]
+    },
+    {
+      "provider": "NLR-RU",
+      "url": "https://expositions.nlr.ru/ex_manus/firkovich/catalog.php",
+      "rawResponseSha256": "824395cc153b8855e38573cea1a74566833a398695c71fffc3d0b7a323c8bf8f",
+      "factHash": "15f286ae75ed78f48e94bbe14a508b25143ae8bf3251e292feb715b4ae437e05",
+      "facts": {
+        "dateLabel": "1008–1010",
+        "identity": "Ленинградский кодекс",
+        "shelfmark": "Евр. I В 19 А",
+        "repository": "Российской национальной библиотеке"
+      },
+      "allFieldsFound": true,
+      "requestedFields": [
+        "dateLabel",
+        "identity",
+        "shelfmark",
+        "repository"
+      ]
+    },
+    {
+      "provider": "NLR",
+      "url": "https://expositions.nlr.ru/eng/ex_manus/firkovich/catalog.php",
+      "error": "HTTP Error 404: Not Found",
+      "allFieldsFound": false,
+      "facts": {}
+    },
+    {
+      "provider": "NLI",
+      "url": "https://www.nli.org.il/en/discover/manuscripts/hebrew-manuscripts/itempage?SearchTxt=Leningrad+codex&docId=PNX_MANUSCRIPTS990001516230205171&scope=PNX_MANUSCRIPTS&vid=MANUSCRIPTS",
+      "error": "HTTP Error 403: Forbidden",
+      "allFieldsFound": false,
+      "facts": {}
+    },
+    {
+      "provider": "UXLC",
+      "url": "https://www.tanach.us/Pages/LC%20images.html",
+      "rawResponseSha256": "31db12739c9416957d1285923665b83788ae931d01ebd004029cd4cbd8928297",
+      "factHash": "18596e32b830265aca87caf634f3be46ceef234eeee0cf57f6ce9de7586afd89",
+      "facts": {
+        "shelfmark": "Firkovich B 19 A",
+        "repository": "Russian National Library (Saltykov-Shchedrin), St. Petersburg"
+      },
+      "allFieldsFound": true,
+      "requestedFields": [
+        "shelfmark",
+        "repository"
+      ]
+    },
+    {
+      "provider": "UXLCold",
+      "url": "https://tanach.us/PDFFiles/Genesis.acc.pdf",
+      "error": "HTTP Error 404: Not Found",
+      "allFieldsFound": false,
+      "facts": {}
+    },
+    {
+      "provider": "IMJ",
+      "url": "https://www.imj.org.il/sites/default/files/IMJ%20Great%20Isaiah%20Scroll%20Exhibition.pdf",
+      "rawResponseSha256": "23407751e3b62865c0b4c63294be5124b4d796e6602ed747ef800404204310bf",
+      "factHash": "3738c19fc602db1ccc2c6d2bb7eab8e93193f5b2a567d025a202450fb9ac68e2",
+      "facts": {
+        "dateLabel": "ca. 125 BCE",
+        "repository": "Israel Museum’s Shrine of the Book"
+      },
+      "allFieldsFound": true,
+      "requestedFields": [
+        "dateLabel",
+        "repository"
+      ]
+    },
+    {
+      "provider": "SI-B",
+      "url": "https://asia.si.edu/research/essays/the-dead-sea-scrolls-isaiah-scroll-manuscript-b/",
+      "error": "HTTP Error 403: Forbidden",
+      "allFieldsFound": false,
+      "facts": {}
+    },
+    {
+      "provider": "LOC-11Q5",
+      "url": "https://www.loc.gov/exhibits/scrolls/scr1.html",
+      "rawResponseSha256": "6493aea1ecb851477a4f027579ac4893b0cdc24b4459ce997956c0c2e67bdafb",
+      "factHash": "1459f1c574e703cd2c7d0d191a14e1c89af570d1dce5a68810ca8224c3eedf37",
+      "facts": {
+        "exhibitedColumns": "14-19",
+        "dateLabel": "ca. 30 - 50 C.E.",
+        "catalogId": "11QPs",
+        "lender": "Israel Antiquities Authority"
+      },
+      "allFieldsFound": true,
+      "requestedFields": [
+        "exhibitedColumns",
+        "dateLabel",
+        "catalogId",
+        "lender"
+      ]
+    }
+  ],
+  "publishedReferenceFacts": [
+    {
+      "provider": "SI-B-RENDER",
+      "url": "https://asia.si.edu/research/essays/the-dead-sea-scrolls-isaiah-scroll-manuscript-b/",
+      "siglum": "1QIsab",
+      "method": "Offentlig indeksert utstillingskatalog hos Smithsonian; Adolfo Roitman, kurator ved Shrine of the Book, står som forfatter. Direkte filtilgang ga 403. IAA har uavhengig, lokalt primærbelegg for manuskriptidentiteten 1Q8.",
+      "role": "navngitt kurator / utstillingskatalog",
+      "facts": {
+        "displayDate": "first century C.E.",
+        "repository": "Shrine of the Book",
+        "place": "Jerusalem",
+        "shelfmark": "95.57/26B",
+        "owner": "The Hebrew University of Jerusalem",
+        "catalogId": "1QIsab [1Q8]"
+      },
+      "rawResponseSha256": null,
+      "status": "INDEXED_PRIMARY_RECORD_ONLY",
+      "use": "Bibliografisk enkeltfakta med kilde. Ingen katalogprosa, tekstlesning eller bilde. Ingen CC0-påstand.",
+      "factHash": "c3972f11fc0c6da91d42c67346ec73554f1517a2e22e4dbc1318f5b4315ef125"
+    },
+    {
+      "provider": "YARDENI-RENDER",
+      "url": "https://bibleproject.huji.ac.il/sites/default/files/he_bible_project/files/m._segal1.1.pdf",
+      "doi": "10.1163/2589255X-02601004",
+      "siglum": "5/6HevPs",
+      "role": "separat signert paleografisk sammenligning; ikke eierkatalog",
+      "method": "Maskinell lesing av universitetsarkivets PDF-tekstvisning, linje 604–606, Ada Yardeni, fig. 6–7. Den lokale nedlasteren mottok ingen original-PDF å hashe.",
+      "facts": {
+        "comparisonFragment": "5/6Ḥev 1b, col. VII",
+        "qualification": "possible",
+        "dateLabel": "second half of the 1st century or the early 2nd century CE"
+      },
+      "rawResponseSha256": null,
+      "status": "PUBLISHED_COMPARISON_NOT_CATALOG",
+      "use": "Bare bibliografisk opplysning med uttrykkelig usikkerhet. Dette er ikke en årstallsverdi og gjelder ikke En-Gedi-rullens C14-datering.",
+      "factHash": "6d6e7b6dc3266e2e3d84c5c0400b11a8b32e8379b4196fdc9187f6f3f3951735"
+    },
+    {
+      "provider": "SBL-4Q37-RENDER",
+      "url": "https://www.sbl-site.org/wp-content/uploads/2024/11/SamaritanPentateuch_SBL_Anderson-Giles.pdf",
+      "siglum": "4QDeutj",
+      "role": "publisert fagreferanse; henviser til Duncan i DJD, ikke direkte eierkatalog eller selvstendig avlesing av DJD",
+      "method": "Kontekstbundet uttrekk fra Society of Biblical Literatures eget tekstsøk, avsnitt «4QDEUTʲ (4Q37)». Direkte filtilgang ga 403.",
+      "facts": {
+        "period": "late Herodian period",
+        "dateLabel": "ca. 50 C.E."
+      },
+      "status": "SECONDARY_REFERENCE_NOT_CATALOG",
+      "rawResponseSha256": null,
+      "use": "Ikke legg dato inn som eierdata. Cirka er ikke et intervall.",
+      "factHash": "1934dcda276bab1764e281d5db76c202331c55949991f1a062dc3f37ae4c3d9d"
+    }
+  ],
+  "B19AFolioReferences": [
+    {
+      "ref": "Isaiah.53.11",
+      "url": "https://www.sefaria.org/api/manuscripts/Isaiah.53.11",
+      "facts": [
+        {
+          "folio": "LC_Folio_241r",
+          "manuscriptTitle": "Leningrad Codex (1008 CE)",
+          "verseSpan": "Isaiah 52:12-54:10",
+          "imageLinkOnly": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F241A.jpg",
+          "source": "https://dornsife.usc.edu/wsrp/biblical-manuscripts"
+        }
+      ],
+      "rawResponseSha256": "ba8301b609a5bf3544706559db0a34adb57872d0ba295b84244cdf0480fbd416",
+      "factHash": "cafc8a8da830c8e3e18dfc6bcf9eb86d7d89f1fa2b097abb0aee1eaaa4ae4ba1"
+    },
+    {
+      "ref": "Deuteronomy.32.8",
+      "url": "https://www.sefaria.org/api/manuscripts/Deuteronomy.32.8",
+      "facts": [
+        {
+          "folio": "LC_Folio_118v",
+          "manuscriptTitle": "Leningrad Codex (1008 CE)",
+          "verseSpan": "Deuteronomy 31:28-32:23",
+          "imageLinkOnly": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F118B.jpg",
+          "source": "https://dornsife.usc.edu/wsrp/biblical-manuscripts"
+        }
+      ],
+      "rawResponseSha256": "bd0a90cb5b7cc60f098c42a9d715eb8ec2825d84d727a241dfee6585e2d37477",
+      "factHash": "8ad2c417bf919de0119cb14ee4c5c738a099a515a7f933ab2d754e2c7aa494c9"
+    },
+    {
+      "ref": "Deuteronomy.32.43",
+      "url": "https://www.sefaria.org/api/manuscripts/Deuteronomy.32.43",
+      "facts": [
+        {
+          "folio": "LC_Folio_119r",
+          "manuscriptTitle": "Leningrad Codex (1008 CE)",
+          "verseSpan": "Deuteronomy 32:23-52",
+          "imageLinkOnly": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F119A.jpg",
+          "source": "https://dornsife.usc.edu/wsrp/biblical-manuscripts"
+        }
+      ],
+      "rawResponseSha256": "22428dfae2af26918c26b66a2211af0d4c58c9a0460ed1e941e8d54d129cbbb1",
+      "factHash": "b6b3b60d041d2878d2520f34902617e3d0214b1fc5f9446e0663b57a05efc77e"
+    },
+    {
+      "ref": "Psalms.22.17",
+      "url": "https://www.sefaria.org/api/manuscripts/Psalms.22.17",
+      "facts": [
+        {
+          "folio": "LC_Folio_369v",
+          "manuscriptTitle": "Leningrad Codex (1008 CE)",
+          "verseSpan": "Psalms 22:4-24:7",
+          "imageLinkOnly": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F369B.jpg",
+          "source": "https://dornsife.usc.edu/wsrp/biblical-manuscripts"
+        }
+      ],
+      "rawResponseSha256": "453739da36bd0dd13119d931ba842344479d1c8de10d5bc252b8da61899d1c6c",
+      "factHash": "9fdad4c0318789d44274c65db2218bbe99066d6ea90ef37740d7bd5acf382554"
+    },
+    {
+      "ref": "Psalms.145.13",
+      "url": "https://www.sefaria.org/api/manuscripts/Psalms.145.13",
+      "facts": [
+        {
+          "folio": "LC_Folio_396r",
+          "manuscriptTitle": "Leningrad Codex (1008 CE)",
+          "verseSpan": "Psalms 144:11-147:5",
+          "imageLinkOnly": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F396A.jpg",
+          "source": "https://dornsife.usc.edu/wsrp/biblical-manuscripts"
+        }
+      ],
+      "rawResponseSha256": "16e108a624502494e1186774a43f2ffc128239467fe424742591aa2e1ab87485",
+      "factHash": "0093f894b9e787c1feaecd0130952656cc0e0b72e485fb3788f16affb4cd9196"
+    }
+  ],
+  "autoApply": false
+}

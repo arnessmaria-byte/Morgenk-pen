@@ -10,8 +10,8 @@
   "hebraisk_kodeks": 1,
   "oversettelse": 4,
   "kirkefar_verk": 9,
-  "medImportertDatering": 47,
-  "utenDatering": 22
+  "medImportertDatering": 56,
+  "utenDatering": 13
  },
  "witnesses": {
   "01": {
@@ -41,7 +41,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "commonName": "Codex Sinaiticus"
+   "commonName": "Codex Sinaiticus",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20001,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "017": {
    "siglum": "017",
@@ -69,7 +74,12 @@
     "sha256": "5b53065d17e18dedfddb30a8a8d2dce5b89aa7f8f1e9b601e5d38025ab9160cb",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20017,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "019": {
    "siglum": "019",
@@ -97,7 +107,12 @@
     "sha256": "a4ab17fd38abc1d81d467c38d60a7bc74e331c31e4370a74aa73cf97d7de3a62",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20019,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "02": {
    "siglum": "02",
@@ -126,7 +141,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "commonName": "Codex Alexandrinus"
+   "commonName": "Codex Alexandrinus",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20002,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "020": {
    "siglum": "020",
@@ -154,7 +174,12 @@
     "sha256": "77130f6b9694eb783cac5d20b41a3d22f516bc68fe61d80c27bdba9f264df079",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20020,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "025": {
    "siglum": "025",
@@ -183,7 +208,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "commonName": "Codex Porphyrianus"
+   "commonName": "Codex Porphyrianus",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20025,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "03": {
    "siglum": "03",
@@ -212,7 +242,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "commonName": "Codex Vaticanus"
+   "commonName": "Codex Vaticanus",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20003,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "032": {
    "siglum": "032",
@@ -246,7 +281,12 @@
     "sha256": "119ee96afcc05271d29d169b73b3b19de4fb938fdf65590182ee34456241608c",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20032,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "037": {
    "siglum": "037",
@@ -274,7 +314,12 @@
     "sha256": "c17f12f5b7f8f7063a8cbd083c2ba690865ef9308b39aa7cf40e8c1f4c1174f3",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20037,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "038": {
    "siglum": "038",
@@ -302,7 +347,12 @@
     "sha256": "1ca9e439f2af86969c911444a1dc0454a0990df470b80cb16f00e9018182474d",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20038,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "04": {
    "siglum": "04",
@@ -331,7 +381,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "commonName": "Codex Ephraemi Rescriptus"
+   "commonName": "Codex Ephraemi Rescriptus",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20004,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "041": {
    "siglum": "041",
@@ -359,7 +414,12 @@
     "sha256": "2586d12ff32b1107e112ec91d5c899c6cda3008859b1ac7b41a1134cb110c618",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20041,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "044": {
    "siglum": "044",
@@ -387,7 +447,12 @@
     "sha256": "7b65e612fcbae05d1cef7c2d65e8f77fdd36b7593c56fc02dfe93b90062c48e3",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20044,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "046": {
    "siglum": "046",
@@ -415,7 +480,12 @@
     "sha256": "205804b373af6c16159e2e2fe8cd89e19c1012489caba8adf26f1f71d3c53f2d",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20046,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "049": {
    "siglum": "049",
@@ -443,7 +513,12 @@
     "sha256": "9ad78828f402917f33e4ea192abbe5e202900e9d526da600bcb310037e347a94",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20049,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "05": {
    "siglum": "05",
@@ -472,7 +547,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "commonName": "Codex Bezae"
+   "commonName": "Codex Bezae",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20005,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "06": {
    "siglum": "06",
@@ -501,7 +581,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "commonName": "Codex Claromontanus"
+   "commonName": "Codex Claromontanus",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20006,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "08": {
    "siglum": "08",
@@ -530,7 +615,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "commonName": "Codex Laudianus"
+   "commonName": "Codex Laudianus",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 20008,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "1": {
    "siglum": "1",
@@ -558,7 +648,12 @@
     "sha256": "d32cb56a7557fa39871968aace64da43aa74fa7116751f434fe1ee4f15b00411",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30001,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "1006": {
    "siglum": "1006",
@@ -586,7 +681,12 @@
     "sha256": "c28dee5f6c6b10bf595925c3cc23c77f516416a28988d9fc5d9d3ab3bc316b55",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 31006,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "1175": {
    "siglum": "1175",
@@ -614,7 +714,12 @@
     "sha256": "f636caacb002f3bb198bc1fde389044d5e9c998358781c068148856d83e111b9",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 31175,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "13": {
    "siglum": "13",
@@ -642,7 +747,12 @@
     "sha256": "5ac2705d65b793994a7a9a9374b35945717e2b657f8ec3c6f0bf906ecb949621",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30013,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "1424": {
    "siglum": "1424",
@@ -670,7 +780,12 @@
     "sha256": "d90a94e01265016c72c2e54458762e37e04b9e19845be601b3929f4e670cf6bd",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 31424,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "1739": {
    "siglum": "1739",
@@ -698,7 +813,12 @@
     "sha256": "e2b5f93c807884e9579849ddb2d2066f5827d9ddee30063bc60d1bcedb591ed8",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 31739,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "18": {
    "siglum": "18",
@@ -726,7 +846,12 @@
     "sha256": "1c60ff776b693fcad974d46092e0e2c423a9033e149667eeb304765710583e3c",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30018,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "1854": {
    "siglum": "1854",
@@ -755,7 +880,12 @@
     "retrieved": "2026-11-25"
    },
    "verification": "IMPORTERT",
-   "registerNote": "INTF-posten oppgir århundre XI og årstallene 900–999. Begge er gjengitt slik de står."
+   "registerNote": "INTF-posten oppgir århundre XI og årstallene 900–999. Begge er gjengitt slik de står.",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 31854,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "1891": {
    "siglum": "1891",
@@ -789,7 +919,12 @@
     "sha256": "ecd7e5339698c5183a87dfffb4d3a5f791ca43672a625e3205cd89af580133bc",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 31891,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "2050": {
    "siglum": "2050",
@@ -817,7 +952,12 @@
     "sha256": "17174e873bd2781b60ea72e21fbafc0f9752a30ebcfddbc14d7cedf17bb5a776",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 32050,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "28": {
    "siglum": "28",
@@ -845,7 +985,12 @@
     "sha256": "d006dd46f6765727c75f3b3913cf100615706dd5c41008a8b5993e6ff96a9dea",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30028,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "2818": {
    "siglum": "2818",
@@ -873,7 +1018,12 @@
     "sha256": "eaff32dc676f0789fc9142c9cb224cb6152a6132b8e7e108884f133389974162",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 32818,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "307": {
    "siglum": "307",
@@ -901,7 +1051,12 @@
     "sha256": "8dd3aa7452bcfb35cdfd8bf3ea609d6de6bfa803632768ab3b208cc553b1dc5c",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30307,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "323": {
    "siglum": "323",
@@ -929,7 +1084,12 @@
     "sha256": "231c121c411fe607cca6383fb76b47fdcfa68030a0dcc4bec08cb4bfab797b52",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30323,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "33": {
    "siglum": "33",
@@ -957,7 +1117,12 @@
     "sha256": "6e0b5da84ae29a7a7aaa3422434339930204063fae4cb2d807bcc393c978aea7",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30033,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "35": {
    "siglum": "35",
@@ -985,7 +1150,12 @@
     "sha256": "dc4578f04e7db0b897e68d157e7cefcb8e11df0e90386739661689e311d5f695",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30035,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "453": {
    "siglum": "453",
@@ -1013,7 +1183,12 @@
     "sha256": "85e28936fc633be61d8798cf6ac9d5367179d69d5dd2dbb9bdd3eea53b530b03",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30453,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "469": {
    "siglum": "469",
@@ -1041,7 +1216,12 @@
     "sha256": "99c3dc800905fc8466f5278b851a8e27e9667afcfaa12698196aef4778723bff",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30469,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "565": {
    "siglum": "565",
@@ -1069,7 +1249,12 @@
     "sha256": "66a9b0c54e4f0cefb050727b8dabf14885aa91eac4ae4a6d5611a8a286c29a2a",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30565,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "6": {
    "siglum": "6",
@@ -1097,7 +1282,12 @@
     "sha256": "998716b4ace92039a3891272d6371960a681e454724207d8fd88b03f1aadaaf8",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30006,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "614": {
    "siglum": "614",
@@ -1125,7 +1315,12 @@
     "sha256": "2fdd328cbfcb48e9df83ea9dc913f340b715f5b05ce1fd4e94be051c76ec44d2",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30614,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "700": {
    "siglum": "700",
@@ -1153,7 +1348,12 @@
     "sha256": "f6135fad03d4c0eb0bcbe63b6a7e416fd8f17f17e393389ff4370cc717fc0c98",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30700,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "81": {
    "siglum": "81",
@@ -1187,7 +1387,12 @@
     "sha256": "4f6e22b3ee7af88c76c235cc9faa7c54f91397c4e1484ebd283dfc2155ca7c08",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30081,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "892": {
    "siglum": "892",
@@ -1215,7 +1420,12 @@
     "sha256": "782d592a5d418364cec97c52f5941ef75d64fa0b5545f9181cd12cfe77167fa8",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30892,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "945": {
    "siglum": "945",
@@ -1243,7 +1453,12 @@
     "sha256": "5ef8ccd8588ad0b16335b6e59217ebe8d674e3d9070fcbc9184c6a097ce64ada",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 30945,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "P45": {
    "siglum": "P45",
@@ -1277,7 +1492,12 @@
     "sha256": "27723c06b4fb38c658afefcb34447cc52058bee625e2347aca10e20eb17e2036",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 10045,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "P66": {
    "siglum": "P66",
@@ -1317,7 +1537,12 @@
     "sha256": "1c3c7b066b966c05df841695a83797d35157b8251cd730f42af4badbe25053da",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 10066,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "P74": {
    "siglum": "P74",
@@ -1345,7 +1570,12 @@
     "sha256": "ffee9ff741c88dbe6cf73dfaa4e0405ae02194c290c6f0642796cc6245dd20c5",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 10074,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "P75": {
    "siglum": "P75",
@@ -1373,7 +1603,12 @@
     "sha256": "07991911b1baee914a08628c790b3306204853aa0e523da28edfa83b4ad607d5",
     "retrieved": "2026-11-25"
    },
-   "verification": "IMPORTERT"
+   "verification": "IMPORTERT",
+   "catalogVerification": {
+    "file": "kilder/katalogkontroll/intf-direkte-kontroll.json",
+    "docID": 10075,
+    "scope": "INTF-katalogens oppgitte depot(er) og kodexdatering; ingen datering av korrekturhånd."
+   }
   },
   "11QPsa": {
    "siglum": "11QPsa",
@@ -1382,13 +1617,15 @@
    "tradition": "Q",
    "etcbcScrollCode": "11Q5",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "dateRange": {
+    "catalogLabel": "ca. 30 - 50 C.E."
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
    "repository": null,
    "referenceSource": {
-    "register": "ETCBC-DSS",
-    "note": "Rullen finnes under denne koden i datasettet.",
-    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+    "register": "LOC-11Q5",
+    "url": "https://www.loc.gov/exhibits/scrolls/scr1.html",
+    "sha256": "6493aea1ecb851477a4f027579ac4893b0cdc24b4459ce997956c0c2e67bdafb"
    },
    "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
    "verification": "DELVIS",
@@ -1406,6 +1643,50 @@
     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/11Q5-1",
     "sha256": "d645d56193431923d8936c252d8eb8555857729269890491b223ecc4127b47d4",
     "name": "11Q Psalms"
+   },
+   "bibliographicIdentification": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "sourceFacts",
+      8,
+      "facts",
+      "dateLabel"
+     ],
+     "value": "ca. 30 - 50 C.E.",
+     "source": {
+      "register": "LOC-11Q5",
+      "url": "https://www.loc.gov/exhibits/scrolls/scr1.html",
+      "sha256": "6493aea1ecb851477a4f027579ac4893b0cdc24b4459ce997956c0c2e67bdafb"
+     }
+    }
+   },
+   "repositoryStatus": "Ikke verifisert for pilotfragmentet; funnsted, digital vert og utlåner er ikke fysisk depot.",
+   "catalogReferences": [
+    {
+     "id": "IAA-11Q5",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/11Q5-1"
+    },
+    {
+     "id": "LOC-11Q5",
+     "url": "https://www.loc.gov/exhibits/scrolls/scr1.html"
+    }
+   ],
+   "historicalLoan": {
+    "exhibition": "Library of Congress, 1993",
+    "lender": "Israel Antiquities Authority",
+    "columns": "14-19",
+    "currentRepositoryProven": false,
+    "source": {
+     "register": "LOC-11Q5",
+     "url": "https://www.loc.gov/exhibits/scrolls/scr1.html",
+     "sha256": "6493aea1ecb851477a4f027579ac4893b0cdc24b4459ce997956c0c2e67bdafb"
+    }
    }
   },
   "1QIsaa": {
@@ -1415,16 +1696,65 @@
    "tradition": "Q",
    "etcbcScrollCode": "1Qisaa",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Ikke importert. Årstallsintervall hentes fra DJD eller Tov, Revised Lists, av navngitt leser.",
-   "repository": null,
+   "dateRange": {
+    "catalogLabel": "ca. 125 BCE"
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
+   "repository": [
+    {
+     "institution": "Israel Museum’s Shrine of the Book"
+    }
+   ],
    "referenceSource": {
+    "register": "IMJ",
+    "url": "https://www.imj.org.il/sites/default/files/IMJ%20Great%20Isaiah%20Scroll%20Exhibition.pdf",
+    "sha256": "23407751e3b62865c0b4c63294be5124b4d796e6602ed747ef800404204310bf"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS",
+   "bibliographicIdentification": {
     "register": "ETCBC-DSS",
     "note": "Rullen finnes under denne koden i datasettet.",
     "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
    },
-   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
-   "verification": "DELVIS"
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "sourceFacts",
+      6,
+      "facts",
+      "dateLabel"
+     ],
+     "value": "ca. 125 BCE",
+     "source": {
+      "register": "IMJ",
+      "url": "https://www.imj.org.il/sites/default/files/IMJ%20Great%20Isaiah%20Scroll%20Exhibition.pdf",
+      "sha256": "23407751e3b62865c0b4c63294be5124b4d796e6602ed747ef800404204310bf"
+     }
+    },
+    "repository": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "sourceFacts",
+      6,
+      "facts",
+      "repository"
+     ],
+     "value": "Israel Museum’s Shrine of the Book",
+     "source": {
+      "register": "IMJ",
+      "url": "https://www.imj.org.il/sites/default/files/IMJ%20Great%20Isaiah%20Scroll%20Exhibition.pdf",
+      "sha256": "23407751e3b62865c0b4c63294be5124b4d796e6602ed747ef800404204310bf"
+     }
+    }
+   },
+   "catalogReferences": [
+    {
+     "id": "IMJ",
+     "url": "https://www.imj.org.il/sites/default/files/IMJ%20Great%20Isaiah%20Scroll%20Exhibition.pdf"
+    }
+   ]
   },
   "1QIsab": {
    "siglum": "1QIsab",
@@ -1433,13 +1763,19 @@
    "tradition": "Q",
    "etcbcScrollCode": "1Q8",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
-   "repository": null,
+   "dateRange": {
+    "catalogLabel": "Herodian"
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
+   "repository": [
+    {
+     "institution": "Shrine of the Book"
+    }
+   ],
    "referenceSource": {
-    "register": "ETCBC-DSS",
-    "note": "Rullen finnes under denne koden i datasettet.",
-    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1",
+    "sha256": "1ce2099679edd80c05ac6b34d520e922f6379f809a4d679e8de138c02c1fde86"
    },
    "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
    "verification": "DELVIS",
@@ -1457,6 +1793,83 @@
     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1",
     "sha256": "1ce2099679edd80c05ac6b34d520e922f6379f809a4d679e8de138c02c1fde86",
     "name": "1Q Isaiah"
+   },
+   "bibliographicIdentification": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/belegg/leon-levy-utdrag.json",
+     "path": [
+      "records",
+      "1Q8",
+      "period"
+     ],
+     "value": "Herodian",
+     "source": {
+      "register": "LEON-LEVY",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1",
+      "sha256": "1ce2099679edd80c05ac6b34d520e922f6379f809a4d679e8de138c02c1fde86"
+     }
+    },
+    "repository": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "publishedReferenceFacts",
+      0,
+      "facts",
+      "repository"
+     ],
+     "value": "Shrine of the Book",
+     "source": {
+      "register": "SI-B-RENDER",
+      "url": "https://asia.si.edu/research/essays/the-dead-sea-scrolls-isaiah-scroll-manuscript-b/",
+      "factSha256": "c3972f11fc0c6da91d42c67346ec73554f1517a2e22e4dbc1318f5b4315ef125",
+      "method": "INDEXED_PRIMARY_RECORD_ONLY"
+     }
+    }
+   },
+   "repositoryStatus": "Som oppført for 1Q8 i publisert kuratorkatalog; indeksert oppslag, ikke ny fysisk inspeksjon av fragmentet.",
+   "catalogReferences": [
+    {
+     "id": "SI-B-RENDER",
+     "url": "https://asia.si.edu/research/essays/the-dead-sea-scrolls-isaiah-scroll-manuscript-b/"
+    },
+    {
+     "id": "SI-B",
+     "url": "https://asia.si.edu/research/essays/the-dead-sea-scrolls-isaiah-scroll-manuscript-b/"
+    },
+    {
+     "id": "IAA-1Q8",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1"
+    }
+   ],
+   "cataloguedHolding": {
+    "place": "Jerusalem",
+    "shelfmark": "95.57/26B",
+    "owner": "The Hebrew University of Jerusalem",
+    "catalogId": "1QIsab [1Q8]"
+   },
+   "publishedReferences": {
+    "SI-B-RENDER": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "publishedReferenceFacts",
+      0
+     ],
+     "factSha256": "c3972f11fc0c6da91d42c67346ec73554f1517a2e22e4dbc1318f5b4315ef125",
+     "role": "navngitt kurator / utstillingskatalog",
+     "facts": {
+      "displayDate": "first century C.E.",
+      "repository": "Shrine of the Book",
+      "place": "Jerusalem",
+      "shelfmark": "95.57/26B",
+      "owner": "The Hebrew University of Jerusalem",
+      "catalogId": "1QIsab [1Q8]"
+     }
+    }
    }
   },
   "4QDeutj": {
@@ -1466,13 +1879,15 @@
    "tradition": "Q",
    "etcbcScrollCode": "4Q37",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "dateRange": {
+    "catalogLabel": "Herodian"
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
    "repository": null,
    "referenceSource": {
-    "register": "ETCBC-DSS",
-    "note": "Rullen finnes under denne koden i datasettet.",
-    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1",
+    "sha256": "678837d8a0ce906a1b8674f7d96e777c5b9efa9171cc9a6b386dc356ff443813"
    },
    "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
    "verification": "DELVIS",
@@ -1489,6 +1904,57 @@
     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1",
     "sha256": "678837d8a0ce906a1b8674f7d96e777c5b9efa9171cc9a6b386dc356ff443813",
     "name": "4Q Deuteronomy"
+   },
+   "bibliographicIdentification": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/belegg/leon-levy-utdrag.json",
+     "path": [
+      "records",
+      "4Q37",
+      "period"
+     ],
+     "value": "Herodian",
+     "source": {
+      "register": "LEON-LEVY",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1",
+      "sha256": "678837d8a0ce906a1b8674f7d96e777c5b9efa9171cc9a6b386dc356ff443813"
+     }
+    }
+   },
+   "repositoryStatus": "Ikke verifisert for pilotfragmentet; funnsted, digital vert og utlåner er ikke fysisk depot.",
+   "catalogReferences": [
+    {
+     "id": "SBL-4Q37-RENDER",
+     "url": "https://www.sbl-site.org/wp-content/uploads/2024/11/SamaritanPentateuch_SBL_Anderson-Giles.pdf"
+    },
+    {
+     "id": "IAA-4Q37",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1"
+    },
+    {
+     "id": "SBL-4Q37",
+     "url": "https://www.sbl-site.org/wp-content/uploads/2024/11/SamaritanPentateuch_SBL_Anderson-Giles.pdf"
+    }
+   ],
+   "publishedReferences": {
+    "SBL-4Q37-RENDER": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "publishedReferenceFacts",
+      2
+     ],
+     "factSha256": "1934dcda276bab1764e281d5db76c202331c55949991f1a062dc3f37ae4c3d9d",
+     "role": "publisert fagreferanse; henviser til Duncan i DJD, ikke direkte eierkatalog eller selvstendig avlesing av DJD",
+     "facts": {
+      "period": "late Herodian period",
+      "dateLabel": "ca. 50 C.E."
+     }
+    }
    }
   },
   "4QDeutq": {
@@ -1498,13 +1964,15 @@
    "tradition": "Q",
    "etcbcScrollCode": "4Q44",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "dateRange": {
+    "catalogLabel": "Herodian"
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
    "repository": null,
    "referenceSource": {
-    "register": "ETCBC-DSS",
-    "note": "Rullen finnes under denne koden i datasettet.",
-    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1",
+    "sha256": "8d5bc22687d2eaf4d07d64c770e36ba9dd34d6c9c2a113e7d83388690cc88c99"
    },
    "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
    "verification": "DELVIS",
@@ -1521,7 +1989,39 @@
     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1",
     "sha256": "8d5bc22687d2eaf4d07d64c770e36ba9dd34d6c9c2a113e7d83388690cc88c99",
     "name": "4Q Deuteronomy"
-   }
+   },
+   "bibliographicIdentification": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/belegg/leon-levy-utdrag.json",
+     "path": [
+      "records",
+      "4Q44",
+      "period"
+     ],
+     "value": "Herodian",
+     "source": {
+      "register": "LEON-LEVY",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1",
+      "sha256": "8d5bc22687d2eaf4d07d64c770e36ba9dd34d6c9c2a113e7d83388690cc88c99"
+     }
+    }
+   },
+   "repositoryStatus": "Ikke verifisert for pilotfragmentet; funnsted, digital vert og utlåner er ikke fysisk depot.",
+   "catalogReferences": [
+    {
+     "id": "IAA-4Q44",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1"
+    },
+    {
+     "id": "AGDER-4Q44",
+     "url": "https://lyingpen.uia.no/dssinventoryproject/fascicle7/"
+    }
+   ]
   },
   "4QIsad": {
    "siglum": "4QIsad",
@@ -1530,13 +2030,15 @@
    "tradition": "Q",
    "etcbcScrollCode": "4Q58",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "dateRange": {
+    "catalogLabel": "Herodian"
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
    "repository": null,
    "referenceSource": {
-    "register": "ETCBC-DSS",
-    "note": "Rullen finnes under denne koden i datasettet.",
-    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1",
+    "sha256": "a9e9adc970bce8c934804f7d3f8bcc8e7c9d55f078d0b4c0c6beab7bb38ed4b3"
    },
    "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
    "verification": "DELVIS",
@@ -1553,7 +2055,35 @@
     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1",
     "sha256": "a9e9adc970bce8c934804f7d3f8bcc8e7c9d55f078d0b4c0c6beab7bb38ed4b3",
     "name": "4Q Isaiah"
-   }
+   },
+   "bibliographicIdentification": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/belegg/leon-levy-utdrag.json",
+     "path": [
+      "records",
+      "4Q58",
+      "period"
+     ],
+     "value": "Herodian",
+     "source": {
+      "register": "LEON-LEVY",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1",
+      "sha256": "a9e9adc970bce8c934804f7d3f8bcc8e7c9d55f078d0b4c0c6beab7bb38ed4b3"
+     }
+    }
+   },
+   "repositoryStatus": "Ikke verifisert for pilotfragmentet; funnsted, digital vert og utlåner er ikke fysisk depot.",
+   "catalogReferences": [
+    {
+     "id": "IAA-4Q58",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1"
+    }
+   ]
   },
   "4QPsf": {
    "siglum": "4QPsf",
@@ -1562,13 +2092,15 @@
    "tradition": "Q",
    "etcbcScrollCode": "4Q88",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Leon Levy oppgir perioden «Hasmonean». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "dateRange": {
+    "catalogLabel": "Hasmonean"
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
    "repository": null,
    "referenceSource": {
-    "register": "ETCBC-DSS",
-    "note": "Rullen finnes under denne koden i datasettet.",
-    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1",
+    "sha256": "32c4bc7477fa20e3c4db84e116c380823f448b08d74621805edd0a001ad5c1db"
    },
    "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
    "verification": "DELVIS",
@@ -1585,7 +2117,35 @@
     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1",
     "sha256": "32c4bc7477fa20e3c4db84e116c380823f448b08d74621805edd0a001ad5c1db",
     "name": "4Q Psalms"
-   }
+   },
+   "bibliographicIdentification": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/belegg/leon-levy-utdrag.json",
+     "path": [
+      "records",
+      "4Q88",
+      "period"
+     ],
+     "value": "Hasmonean",
+     "source": {
+      "register": "LEON-LEVY",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1",
+      "sha256": "32c4bc7477fa20e3c4db84e116c380823f448b08d74621805edd0a001ad5c1db"
+     }
+    }
+   },
+   "repositoryStatus": "Ikke verifisert for pilotfragmentet; funnsted, digital vert og utlåner er ikke fysisk depot.",
+   "catalogReferences": [
+    {
+     "id": "IAA-4Q88",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1"
+    }
+   ]
   },
   "5/6HevPs": {
    "siglum": "5/6HevPs",
@@ -1594,16 +2154,82 @@
    "tradition": "Q",
    "etcbcScrollCode": "5/6hev1b",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Ikke importert. Årstallsintervall hentes fra DJD eller Tov, Revised Lists, av navngitt leser.",
+   "dateRange": {
+    "catalogLabel": "Herodian"
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
    "repository": null,
    "referenceSource": {
+    "register": "IAA-HEV-CATALOG",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=en_US",
+    "sha256": "35162edfa31c7d6607c05df1bce21ae55ff202a47ee955e96515bc5b5adfcedd"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS",
+   "bibliographicIdentification": {
     "register": "ETCBC-DSS",
     "note": "Rullen finnes under denne koden i datasettet.",
     "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
    },
-   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
-   "verification": "DELVIS"
+   "repositoryStatus": "Ikke verifisert for pilotfragmentet; funnsted, digital vert og utlåner er ikke fysisk depot.",
+   "catalogReferences": [
+    {
+     "id": "YARDENI-RENDER",
+     "url": "https://bibleproject.huji.ac.il/sites/default/files/he_bible_project/files/m._segal1.1.pdf"
+    },
+    {
+     "id": "IAA-HEV-CATALOG",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=en_US"
+    },
+    {
+     "id": "IAA-HEV",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=he_IL"
+    },
+    {
+     "id": "IAA-HEV-IMAGE",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/image/B-366235"
+    },
+    {
+     "id": "YARDENI",
+     "url": "https://bibleproject.huji.ac.il/sites/default/files/he_bible_project/files/m._segal1.1.pdf"
+    }
+   ],
+   "period": "Herodian",
+   "site": "Cave of Letters",
+   "inventoryNumber": "5/6Hev 1b 891-1",
+   "publishedReferences": {
+    "YARDENI-RENDER": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "publishedReferenceFacts",
+      1
+     ],
+     "factSha256": "6d6e7b6dc3266e2e3d84c5c0400b11a8b32e8379b4196fdc9187f6f3f3951735",
+     "role": "separat signert paleografisk sammenligning; ikke eierkatalog",
+     "facts": {
+      "comparisonFragment": "5/6Ḥev 1b, col. VII",
+      "qualification": "possible",
+      "dateLabel": "second half of the 1st century or the early 2nd century CE"
+     }
+    }
+   },
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "sourceFacts",
+      0,
+      "facts",
+      "period"
+     ],
+     "value": "Herodian",
+     "source": {
+      "register": "IAA-HEV-CATALOG",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=en_US",
+      "sha256": "35162edfa31c7d6607c05df1bce21ae55ff202a47ee955e96515bc5b5adfcedd"
+     }
+    }
+   }
   },
   "B19A": {
    "siglum": "B19A",
@@ -1611,14 +2237,115 @@
    "type": "hebraisk_kodeks",
    "tradition": "M",
    "century": null,
-   "dateRange": null,
-   "dateStatus": "Ikke importert. Kolofonåret hentes fra WLC/UXLC-dokumentasjonen av navngitt leser.",
-   "repository": null,
+   "dateRange": {
+    "catalogLabel": "1008–1010"
+   },
+   "dateStatus": "Ordlyd importert fra angitt kildefelt. Ingen tallfesting utover katalogen.",
+   "repository": [
+    {
+     "institution": "Russian National Library (Saltykov-Shchedrin), St. Petersburg"
+    }
+   ],
    "referenceSource": {
+    "register": "NLR-RU",
+    "url": "https://expositions.nlr.ru/ex_manus/firkovich/catalog.php",
+    "sha256": "824395cc153b8855e38573cea1a74566833a398695c71fffc3d0b7a323c8bf8f"
+   },
+   "verification": "DELVIS",
+   "bibliographicIdentification": {
     "register": "WLC-OSHB",
     "note": "WLC er en transkripsjon av håndskriftet, og R10 bygger på WLC/OSHB."
    },
-   "verification": "DELVIS"
+   "catalogFields": {
+    "dateRange": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "sourceFacts",
+      1,
+      "facts",
+      "dateLabel"
+     ],
+     "value": "1008–1010",
+     "source": {
+      "register": "NLR-RU",
+      "url": "https://expositions.nlr.ru/ex_manus/firkovich/catalog.php",
+      "sha256": "824395cc153b8855e38573cea1a74566833a398695c71fffc3d0b7a323c8bf8f"
+     }
+    },
+    "repository": {
+     "file": "kilder/katalogkontroll/katalogfakta-kontroll.json",
+     "path": [
+      "sourceFacts",
+      4,
+      "facts",
+      "repository"
+     ],
+     "value": "Russian National Library (Saltykov-Shchedrin), St. Petersburg",
+     "source": {
+      "register": "UXLC",
+      "url": "https://www.tanach.us/Pages/LC%20images.html",
+      "sha256": "31db12739c9416957d1285923665b83788ae931d01ebd004029cd4cbd8928297"
+     }
+    }
+   },
+   "catalogReferences": [
+    {
+     "id": "NLR-RU",
+     "url": "https://expositions.nlr.ru/ex_manus/firkovich/catalog.php"
+    },
+    {
+     "id": "SEFARIA",
+     "url": "https://developers.sefaria.org/reference/get-manuscripts"
+    },
+    {
+     "id": "NLR",
+     "url": "https://expositions.nlr.ru/eng/ex_manus/firkovich/catalog.php"
+    },
+    {
+     "id": "NLI",
+     "url": "https://www.nli.org.il/en/discover/manuscripts/hebrew-manuscripts/itempage?SearchTxt=Leningrad+codex&docId=PNX_MANUSCRIPTS990001516230205171&scope=PNX_MANUSCRIPTS&vid=MANUSCRIPTS"
+    },
+    {
+     "id": "UXLC",
+     "url": "https://www.tanach.us/Pages/LC%20images.html"
+    },
+    {
+     "id": "UXLCold",
+     "url": "https://tanach.us/PDFFiles/Genesis.acc.pdf"
+    }
+   ],
+   "folioReferences": [
+    {
+     "ref": "Isaiah.53.11",
+     "folio": "LC_Folio_241r",
+     "url": "https://www.sefaria.org/api/manuscripts/Isaiah.53.11",
+     "sha256": "ba8301b609a5bf3544706559db0a34adb57872d0ba295b84244cdf0480fbd416"
+    },
+    {
+     "ref": "Deuteronomy.32.8",
+     "folio": "LC_Folio_118v",
+     "url": "https://www.sefaria.org/api/manuscripts/Deuteronomy.32.8",
+     "sha256": "bd0a90cb5b7cc60f098c42a9d715eb8ec2825d84d727a241dfee6585e2d37477"
+    },
+    {
+     "ref": "Deuteronomy.32.43",
+     "folio": "LC_Folio_119r",
+     "url": "https://www.sefaria.org/api/manuscripts/Deuteronomy.32.43",
+     "sha256": "22428dfae2af26918c26b66a2211af0d4c58c9a0460ed1e941e8d54d129cbbb1"
+    },
+    {
+     "ref": "Psalms.22.17",
+     "folio": "LC_Folio_369v",
+     "url": "https://www.sefaria.org/api/manuscripts/Psalms.22.17",
+     "sha256": "453739da36bd0dd13119d931ba842344479d1c8de10d5bc252b8da61899d1c6c"
+    },
+    {
+     "ref": "Psalms.145.13",
+     "folio": "LC_Folio_396r",
+     "url": "https://www.sefaria.org/api/manuscripts/Psalms.145.13",
+     "sha256": "16e108a624502494e1186774a43f2ffc128239467fe424742591aa2e1ab87485"
+    }
+   ]
   },
   "LXX": {
    "siglum": "LXX",
@@ -1633,7 +2360,9 @@
     "register": "SWETE",
     "note": "Lesningene er hentet fra Swetes utgave, som i hovedsak trykker Codex Vaticanus."
    },
-   "verification": "DELVIS"
+   "verification": "DELVIS",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "LXX-Od": {
    "siglum": "LXX-Od",
@@ -1648,7 +2377,9 @@
     "register": "SWETE",
     "note": "Odae 2 hos Swete."
    },
-   "verification": "DELVIS"
+   "verification": "DELVIS",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Vg-Clem": {
    "siglum": "Vg-Clem",
@@ -1663,7 +2394,9 @@
     "register": "VG-CLEM",
     "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766"
    },
-   "verification": "DELVIS"
+   "verification": "DELVIS",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "VL": {
    "siglum": "VL",
@@ -1678,7 +2411,9 @@
     "register": "PATR-UTG",
     "note": "Vetus Latina-utgaven (Beuron)."
    },
-   "verification": "IKKE_KONTROLLERT"
+   "verification": "IKKE_KONTROLLERT",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Chrys-Hom1Tim": {
    "siglum": "Chrys-Hom1Tim",
@@ -1706,7 +2441,9 @@
     "register": "CLAVIS",
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=4436"
    },
-   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Clem-Strom": {
    "siglum": "Clem-Strom",
@@ -1734,7 +2471,9 @@
     "register": "CLAVIS",
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1377"
    },
-   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Cypr-Quir": {
    "siglum": "Cypr-Quir",
@@ -1762,7 +2501,9 @@
     "register": "CLAVIS",
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=39"
    },
-   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "GregNyss-Eun": {
    "siglum": "GregNyss-Eun",
@@ -1790,7 +2531,9 @@
     "register": "CLAVIS",
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=3135"
    },
-   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Hipp-Noet": {
    "siglum": "Hipp-Noet",
@@ -1818,7 +2561,9 @@
     "register": "CLAVIS",
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1902"
    },
-   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Iren-AH": {
    "siglum": "Iren-AH",
@@ -1847,7 +2592,9 @@
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1306"
    },
    "verification": "IMPORTERT (Clavis-nummer og plassering)",
-   "transmissionNote": "Verket er skrevet på gresk og er i hovedsak bevart i latinsk oversettelse."
+   "transmissionNote": "Verket er skrevet på gresk og er i hovedsak bevart i latinsk oversettelse.",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Orig-Cels": {
    "siglum": "Orig-Cels",
@@ -1875,7 +2622,9 @@
     "register": "CLAVIS",
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1476"
    },
-   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Orig-CommJo": {
    "siglum": "Orig-CommJo",
@@ -1903,7 +2652,9 @@
     "register": "CLAVIS",
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1453"
    },
-   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   },
   "Tert-Prax": {
    "siglum": "Tert-Prax",
@@ -1931,7 +2682,22 @@
     "register": "CLAVIS",
     "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=26"
    },
-   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "repository": null,
+   "repositoryStatus": "Ikke ett fysisk håndskrift; feltet gjelder ikke for verket eller tradisjonen."
   }
+ },
+ "physicalCatalogue": {
+  "total": 56,
+  "withDateOrNamedPeriod": 56,
+  "repositoryMissing": [
+   "11QPsa",
+   "4QDeutj",
+   "4QDeutq",
+   "4QIsad",
+   "4QPsf",
+   "5/6HevPs"
+  ],
+  "dateMissing": []
  }
 }

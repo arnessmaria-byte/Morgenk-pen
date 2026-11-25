@@ -18,13 +18,14 @@ HANDS = {None: '', '*': '*', 'C': ' korr.', 'C1': ' korr. 1', 'C2': ' korr. 2', 
 
 def date_of(sig):
     e = W[sig]; d = e.get('dateRange')
+    if d and 'catalogLabel' in d: return d['catalogLabel']
     if d: return '%s–%s (%s)' % (d['notBefore'], d['notAfter'], e['century']) if d['notBefore'] != d['notAfter'] else str(d['notBefore'])
     return ('periode: %s' % e['period']) if e.get('period') else 'ikke registrert'
 
 
 def age(w):
     d = W[w['siglum']].get('dateRange')
-    return (d['notBefore'], d['notAfter']) if d else (99999, 99999)
+    return (d['notBefore'], d['notAfter']) if d and 'notBefore' in d and 'notAfter' in d else (99999, 99999)
 
 
 def short(t, n=46):
@@ -67,9 +68,15 @@ tot = sum(counts.values())
 M = []
 A = M.append
 A('# Trinn 0: ti pilotsteder i manuskriptlaget'); A('')
-A('MANTELEN fase 2, tekstkritisk og dokumentarisk manuskriptlag. Rapport fra fagledelsen (Fable), 25. november 2026.'); A('')
+A('Grunnregistrering: Fable. Kilde- og ankerkontroll: Codex. 25. november 2026.'); A('')
+A('Captain har gitt skriftlig tillatelse til innhenting innenfor lisensmatrisen. Ingen tillatelse fra tredjepart eller faglig låsing følger av dette. Den tekniske kontrollen gjelder de ti oppgitte stedene. Se også `kilder/katalogkontroll/` for kildefakta, avgrensninger og kontrollsummer.'); A('')
 A('Rapporten viser de ti pilotstedene som manuskriptkort, slik de er tenkt i leseren når «Manuskript- og grunnkildemodus» er slått på. Kortene er laget maskinelt fra `piloter/trinn0-10-piloter.json` og registrene. Ingen fil i låst R10/R11.1 er endret.'); A('')
 A('## Status'); A('')
+pc=reg['physicalCatalogue']
+A('%d av %d fysiske vitner har en kildedato eller navngitt periode. %d av %d har oppbevaringssted dokumentert i registeret. De tretten øvrige registeroppføringene gjelder verk eller tradisjoner.' % (pc['withDateOrNamedPeriod'],pc['total'],pc['total']-len(pc['repositoryMissing']),pc['total'])); A('')
+if pc['repositoryMissing']: A('Oppbevaringssted som gjenstår å bekrefte for pilotfragmentet: '+', '.join(pc['repositoryMissing'])+'.'); A('')
+if pc['dateMissing']: A('Katalogdatering som gjenstår: '+', '.join(pc['dateMissing'])+'.'); A('')
+A('Ved Joh 1,18 er Origenes, Contra Celsum II.71, en separat parallell uten stemme. Ved Mark 1,1 er II.4 registrert fra gresk. Se verskortene og kildebelegget.'); A('')
 A('Alle ti enhetene er **utkast**. De består skjema, anker og registerkontroll, men de kan ikke låses ennå. Planen krever at hvert vitne er lest i kilden av en navngitt person, og at hver enhet er registrert av to uavhengige lesere. Det er ikke gjort.'); A('')
 A('| Kontroll | Resultat |'); A('|---|---|')
 A('| JSON Schema | 10 av 10 pilotsteder består |'); A('| Ordanker mot låst R10/R11.1 (ord og SHA-256) | 10 av 10 treffer |')
@@ -92,7 +99,7 @@ for f in [
  '**1 Tim 3,16.** Bare 01, 02, 04 og minuskel 6 har publisert transkripsjon hos INTF. D* og D² er derfor ikke avlest. Ingen før-nikensk far er funnet med et ordrett sitat. De to fedrene med «Gud» er fra 300-tallet.',
  '**Sal 22,17.** R10-noten gjengir ὤρυξαν med «de gravde». Kortet har derfor to gjengivelser av lesningen: «de har gravd» (ordrett) og «de har gjennomboret» (tradisjonell, tolkende), slik planen krever.',
  '**5 Mos 32,43 og Hebr 1,6.** Sitatet i Hebr 1,6 er likt Odae 2:43 bortsett fra artikkelen. Etter planens regel er det ikke et uavhengig vitne. Den digitale Swete-teksten til 5 Mos 32:43 har OCR-tap og kan ikke brukes uten korrektur.',
- '**Datering av rullene.** Ingen av Qumran-rullene har fått årstall. Leon Levy oppgir bare periode («Herodian», «Hasmonean»). Årstallene må hentes fra DJD av en navngitt leser. Det samme gjelder B19ᴬ og fedrene.',
+ '**Datering og depot.** Ordlyden i katalogen beholdes når den oppgir en periode eller et omtrentlig tidspunkt. Funnsted og utlåner registreres ikke som fysisk depot uten eget belegg. Samlebetegnelser og fedreverk har ikke én håndskriftdato eller ett depot.',
  '**Pilotlisten.** Oppdraget og planens vedlegg B har ulike lister. Oppdraget har Mark 1,1, Joh 1,18, Apg 8,37 og 1 Tim 3,16 der vedlegg B har 1 Sam 10,27b, Luk 23,34a, Mark 16,9–20 og 1 Joh 5,7–8. Denne leveransen følger oppdraget.',
  '**Tekniske funn.** R10-filene har greske aksenttegn som NFC-normalisering endrer, så ankerord må sammenlignes byte for byte. Nettstedets mellomlager gir eldre kopier av `joh.json` og `1ti.json` når versjonsparameteren mangler. TAGNT og Robinson–Pierponts variantnote er uenige om NA28 har artikkelen i Mark 1,1.']:
     A('- ' + f)
@@ -127,7 +134,7 @@ for u in pil['units']:
                                                                       w['vorlage'], ST[w['verification']['status']], (' ' + w['witnessLimit']) if w.get('witnessLimit') else (' ' + w['note'] if w.get('note') else '')))
         for w in r['patristicWitnesses']:
             e = W[w['siglum']]
-            A('- Kirkefar: **%s** %s (%s %s, %s). %s, %s. I oversettelse: «%s». Status: %s.%s' % (e['display'], w['locator'], e['clavis']['series'], e['clavis']['number'], e['window'], w['quoteType'], {'grc': 'gresk', 'la': 'latin'}[w['lang']], w.get('wording', ''),
+            A('- Kirkefar: **%s** %s (%s %s, %s). %s, %s. %s: «%s». Status: %s.%s' % (e['display'], w['locator'], e['clavis']['series'], e['clavis']['number'], e['window'], w['quoteType'], {'grc': 'gresk', 'la': 'latin'}[w['lang']], 'Gresk utgavetekst' if w['verification']['status']=='BEKREFTET_UTGAVETEKST' else 'I oversettelse', w.get('wording', ''),
                                                                                              ST[w['verification']['status']], (' ' + w['witnessLimit']) if w.get('witnessLimit') else (' ' + w['note'] if w.get('note') else '')))
         if r['versionWitnesses'] or r['patristicWitnesses']: A('')
     A('**Vitnemønster (regnet ut):** %s' % u['witnessPattern']['code']); A('')
@@ -146,11 +153,11 @@ for u in pil['units']:
         A('')
 A('---'); A('')
 A('## Før enhetene kan låses'); A('')
-for x in ['Captain godkjenner lisensporten i `registre/kildelisenser.json` (%d kilder, alle med `captainApproval` tom).' % len(src['sources']),
+for x in ['Begrensningene for hver kilde gjelder også etter Captains skriftlige godkjenning. Publisering av manuskriptlaget er ikke godkjent.',
           'En navngitt leser leser de %d opplysningene som ikke er lest i kilden: fedresitatene i kritisk utgave, NA28 og THGNT i utgavene, D 06 og 046 på bilde eller i utgave, Swete 5 Mos 32:43 i trykt utgave.' % (tot - counts.get('BEKREFTET_TRANSKRIPSJON', 0) - counts.get('BEKREFTET_UTGAVETEKST', 0) - counts.get('BEKREFTET_ANKER', 0)),
-          'Dateringer for rullene, B19ᴬ og fedrene hentes fra DJD, Tov og utgavene og føres inn i registeret med kilde.',
+          'Uavklarte katalogfelt står åpne. Skill det fysiske håndskriftet fra verk, teksttradisjon og korrekturhånd.',
           'Andre leser registrerer de ti enhetene uavhengig (plan 7.4), og samsvaret måles.',
-          'Overdommeren avgjør om pilotlisten skal følge oppdraget eller planens vedlegg B, og setter eventuelle vurderinger i akse 3 med begrunnelse og litteratur.']:
+          'Pilotlisten følger Captains uttrykkelige bestilling. Overdommeren kan sette vurderinger i akse 3 etter dokumentert faglig gjennomgang.']:
     A('1. ' + x)
 A('')
 A('† Utgavevalg merket med † er hentet fra et annet fritt datasett (TAGNT eller Robinson–Pierponts variantnoter). Utgaven selv er ikke avlest.'); A('')
@@ -212,9 +219,9 @@ for u in pil['units']:
                 (' · ' + E(w.get('witnessLimit') or w.get('note'))) if (w.get('witnessLimit') or w.get('note')) else ''))
         for w in r['patristicWitnesses']:
             e = W[w['siglum']]
-            H.append('<li><span class="wn">%s <span class="tag">kirkefar</span></span><span class="st open">%s</span><span class="wd">%s · %s %s · %s · %s, %s · i oversettelse: «%s»%s</span></li>' % (
+            H.append('<li><span class="wn">%s <span class="tag">kirkefar</span></span><span class="st open">%s</span><span class="wd">%s · %s %s · %s · %s, %s · %s: «%s»%s</span></li>' % (
                 E(e['display']), E(ST[w['verification']['status']]), E(w['locator']), E(e['clavis']['series']), E(e['clavis']['number']), E(e['window']), E(w['quoteType']), {'grc': 'gresk', 'la': 'latin'}[w['lang']],
-                E(w.get('wording', '')), (' · ' + E(w.get('witnessLimit') or w.get('note'))) if (w.get('witnessLimit') or w.get('note')) else ''))
+                'gresk utgavetekst' if w['verification']['status']=='BEKREFTET_UTGAVETEKST' else 'i oversettelse', E(w.get('wording', '')), (' · ' + E(w.get('witnessLimit') or w.get('note'))) if (w.get('witnessLimit') or w.get('note')) else ''))
         H.append('</ul>')
         if r['editionSupport']:
             H.append('<p class="eds">Utgaver som har lesningen: %s</p>' % E(', '.join(EDS.get(e['edition'], e['edition']) + (' (%s)' % e['form'] if e.get('form') else '') for e in r['editionSupport'])))

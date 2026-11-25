@@ -1,10 +1,18 @@
 # Trinn 0: ti pilotsteder i manuskriptlaget
 
-MANTELEN fase 2, tekstkritisk og dokumentarisk manuskriptlag. Rapport fra fagledelsen (Fable), 25. november 2026.
+Grunnregistrering: Fable. Kilde- og ankerkontroll: Codex. 25. november 2026.
+
+Captain har gitt skriftlig tillatelse til innhenting innenfor lisensmatrisen. Ingen tillatelse fra tredjepart eller faglig låsing følger av dette. Den tekniske kontrollen gjelder de ti oppgitte stedene. Se også `kilder/katalogkontroll/` for kildefakta, avgrensninger og kontrollsummer.
 
 Rapporten viser de ti pilotstedene som manuskriptkort, slik de er tenkt i leseren når «Manuskript- og grunnkildemodus» er slått på. Kortene er laget maskinelt fra `piloter/trinn0-10-piloter.json` og registrene. Ingen fil i låst R10/R11.1 er endret.
 
 ## Status
+
+56 av 56 fysiske vitner har en kildedato eller navngitt periode. 50 av 56 har oppbevaringssted dokumentert i registeret. De tretten øvrige registeroppføringene gjelder verk eller tradisjoner.
+
+Oppbevaringssted som gjenstår å bekrefte for pilotfragmentet: 11QPsa, 4QDeutj, 4QDeutq, 4QIsad, 4QPsf, 5/6HevPs.
+
+Ved Joh 1,18 er Origenes, Contra Celsum II.71, en separat parallell uten stemme. Ved Mark 1,1 er II.4 registrert fra gresk. Se verskortene og kildebelegget.
 
 Alle ti enhetene er **utkast**. De består skjema, anker og registerkontroll, men de kan ikke låses ennå. Planen krever at hvert vitne er lest i kilden av en navngitt person, og at hver enhet er registrert av to uavhengige lesere. Det er ikke gjort.
 
@@ -17,15 +25,15 @@ Alle ti enhetene er **utkast**. De består skjema, anker og registerkontroll, me
 | Vurdering (akse 3) | «ikke vurdert» i alle ti |
 | Dobbel registrering | ikke kjørt |
 
-Av 161 vitne- og utgaveopplysninger i de ti enhetene:
+Av 160 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Status | Antall | Betydning |
 |---|---|---|
 | lest i transkripsjon | 79 | Lesningen er funnet maskinelt i en importert transkripsjon av håndskriftet (INTF, ETCBC, WLC). |
-| lest i utgavens tekst | 25 | Lesningen er funnet i utgavens egen digitale tekst. |
+| lest i utgavens tekst | 26 | Lesningen er funnet i utgavens egen digitale tekst. |
 | R10 | 10 | Lesningen er ankerordene i låst R10. |
 | oppgitt i annet datasett | 25 | Utgavens valg er hentet fra et annet fritt datasett. Utgaven selv er ikke avlest. |
-| funnet i oversettelse | 17 | Fedresitatet er funnet i engelsk oversettelse. Gresk eller latinsk ordlyd er ikke avlest. |
+| funnet i oversettelse | 15 | Fedresitatet er funnet i engelsk oversettelse. Gresk eller latinsk ordlyd er ikke avlest. |
 | delvis lest | 1 | Deler av lesningen er funnet. Resten må leses i trykt utgave. |
 | ikke avlest | 4 | Oppgitt i oppdraget eller håndbøkene. Ikke lest i noen kilde i Trinn 0. |
 
@@ -36,7 +44,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 - **1 Tim 3,16.** Bare 01, 02, 04 og minuskel 6 har publisert transkripsjon hos INTF. D* og D² er derfor ikke avlest. Ingen før-nikensk far er funnet med et ordrett sitat. De to fedrene med «Gud» er fra 300-tallet.
 - **Sal 22,17.** R10-noten gjengir ὤρυξαν med «de gravde». Kortet har derfor to gjengivelser av lesningen: «de har gravd» (ordrett) og «de har gjennomboret» (tradisjonell, tolkende), slik planen krever.
 - **5 Mos 32,43 og Hebr 1,6.** Sitatet i Hebr 1,6 er likt Odae 2:43 bortsett fra artikkelen. Etter planens regel er det ikke et uavhengig vitne. Den digitale Swete-teksten til 5 Mos 32:43 har OCR-tap og kan ikke brukes uten korrektur.
-- **Datering av rullene.** Ingen av Qumran-rullene har fått årstall. Leon Levy oppgir bare periode («Herodian», «Hasmonean»). Årstallene må hentes fra DJD av en navngitt leser. Det samme gjelder B19ᴬ og fedrene.
+- **Datering og depot.** Ordlyden i katalogen beholdes når den oppgir en periode eller et omtrentlig tidspunkt. Funnsted og utlåner registreres ikke som fysisk depot uten eget belegg. Samlebetegnelser og fedreverk har ikke én håndskriftdato eller ett depot.
 - **Pilotlisten.** Oppdraget og planens vedlegg B har ulike lister. Oppdraget har Mark 1,1, Joh 1,18, Apg 8,37 og 1 Tim 3,16 der vedlegg B har 1 Sam 10,27b, Luk 23,34a, Mark 16,9–20 og 1 Joh 5,7–8. Denne leveransen følger oppdraget.
 - **Tekniske funn.** R10-filene har greske aksenttegn som NFC-normalisering endrer, så ankerord må sammenlignes byte for byte. Nettstedets mellomlager gir eldre kopier av `joh.json` og `1ti.json` når versjonsparameteren mangler. TAGNT og Robinson–Pierponts variantnote er uenige om NA28 har artikkelen i Mark 1,1.
 
@@ -63,7 +71,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| B19ᴬ (Codex Leningradensis) | kodeks | ikke registrert |  | יראה ישבע | lest i transkripsjon |
+| B19ᴬ (Codex Leningradensis) | kodeks | 1008–1010 |  | יראה ישבע | lest i transkripsjon |
 
 ### Lesning b: «lys»
 
@@ -73,9 +81,9 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| 1QIsaᵃ | rulle | ikke registrert | ETCBC-sted 44, linje 19–20 | יראה אור | lest i transkripsjon |
-| 1QIsaᵇ | rulle | periode: Herodian | ETCBC-sted 23, linje 22–23 | יראה אור | lest i transkripsjon |
-| 4QIsaᵈ | rulle | periode: Herodian | ETCBC-sted 8, linje 20–21 | יראה או?[ר] (delvis rekonstruert) | lest i transkripsjon |
+| 1QIsaᵃ | rulle | ca. 125 BCE | ETCBC-sted 44, linje 19–20 | יראה אור | lest i transkripsjon |
+| 1QIsaᵇ | rulle | Herodian | ETCBC-sted 23, linje 22–23 | יראה אור | lest i transkripsjon |
+| 4QIsaᵈ | rulle | Herodian | ETCBC-sted 8, linje 20–21 | יראה או?[ר] (delvis rekonstruert) | lest i transkripsjon |
 
 - Oversettelse: **LXX** Isa 53:11: δεῖξαι αὐτῷ φῶς, «å vise ham lys» (ordrett). Forelegg: sannsynlig. Status: lest i utgavens tekst. Gresk har en annen setningsbygning (infinitiv). Ordet φῶς svarer til אור og kan ikke avledes av MT-ordlyden.
 
@@ -110,7 +118,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| B19ᴬ (Codex Leningradensis) | kodeks | ikke registrert |  | בני ישראל | lest i transkripsjon |
+| B19ᴬ (Codex Leningradensis) | kodeks | 1008–1010 |  | בני ישראל | lest i transkripsjon |
 
 ### Lesning b: «Guds sønner»
 
@@ -120,7 +128,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| 4QDeutʲ | rulle | periode: Herodian | ETCBC-sted 12, linje 13–14 | בני אלוהים | lest i transkripsjon |
+| 4QDeutʲ | rulle | Herodian | ETCBC-sted 12, linje 13–14 | בני אלוהים | lest i transkripsjon |
 
 - Oversettelse: **LXX** Deut 32:8: ἀγγέλων θεοῦ, «Guds engler» (ordrett). Forelegg: sannsynlig. Status: lest i utgavens tekst. Gresk har «engler», ikke «sønner». Ordlyden forutsetter et gudsnavn i forelegget og kan ikke avledes av «Israels sønner».
 
@@ -156,7 +164,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| B19ᴬ (Codex Leningradensis) | kodeks | ikke registrert |  | … י דם עבדיו יקום ונקם ישיב לצריו וכפר אדמתו עמו | lest i transkripsjon |
+| B19ᴬ (Codex Leningradensis) | kodeks | 1008–1010 |  | … י דם עבדיו יקום ונקם ישיב לצריו וכפר אדמתו עמו | lest i transkripsjon |
 
 ### Lesning b: 4QDeutᑫ: lengre tekst
 
@@ -166,7 +174,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| 4QDeutᑫ | rulle | periode: Herodian | ETCBC-sted f5ii, linje 6–11 | הרנינו שמים עמ׳ו ו השתחוו ל׳ו כל אלהים כי דם בני׳ו יקום ו נקם ישיב ל צרי׳ו ו ל משנאי׳ו ישלם ו יכפר אדמת עמ׳ו | lest i transkripsjon |
+| 4QDeutᑫ | rulle | Herodian | ETCBC-sted f5ii, linje 6–11 | הרנינו שמים עמ׳ו ו השתחוו ל׳ו כל אלהים כי דם בני׳ו יקום ו נקם ישיב ל צרי׳ו ו ל משנאי׳ו ישלם ו יכפר אדמת עמ׳ו | lest i transkripsjon |
 
 ### Lesning c: LXX: lengre tekst
 
@@ -213,7 +221,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| B19ᴬ (Codex Leningradensis) | kodeks | ikke registrert |  | כארי ידי ורגלי | lest i transkripsjon |
+| B19ᴬ (Codex Leningradensis) | kodeks | 1008–1010 |  | כארי ידי ורגלי | lest i transkripsjon |
 
 ### Lesning b: verbform med waw
 
@@ -223,7 +231,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| 5/6ḤevPs | rulle | ikke registrert | ETCBC-sted f8_9, linje 12 | כארו | lest i transkripsjon |
+| 5/6ḤevPs | rulle | Herodian | ETCBC-sted f8_9, linje 12 | כארו | lest i transkripsjon |
 
 - Oversettelse: **LXX** Ps 21:17: ὤρυξαν, «de gravde» (ordrett). Forelegg: sannsynlig. Status: lest i utgavens tekst. Gresk har et verb i 3. person flertall. Det forutsetter en verbform i forelegget, ikke «som en løve».
 
@@ -235,7 +243,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| 4QPsᶠ | rulle | periode: Hasmonean | ETCBC-sted f1_2, linje 23–25 | כ?ר?[ו] (delvis rekonstruert) | lest i transkripsjon |
+| 4QPsᶠ | rulle | Hasmonean | ETCBC-sted f1_2, linje 23–25 | כ?ר?[ו] (delvis rekonstruert) | lest i transkripsjon |
 
 **Vitnemønster (regnet ut):** Q = G ≠ M
 
@@ -263,7 +271,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| B19ᴬ (Codex Leningradensis) | kodeks | ikke registrert |  | (linjen står ikke) | lest i transkripsjon |
+| B19ᴬ (Codex Leningradensis) | kodeks | 1008–1010 |  | (linjen står ikke) | lest i transkripsjon |
 
 ### Lesning b: nun-linjen
 
@@ -273,7 +281,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 | Håndskrift | Type | Datering | Sted | Har på stedet | Status |
 |---|---|---|---|---|---|
-| 11QPsᵃ | rulle | periode: Herodian | ETCBC-sted 17, linje 1–4 | נאמן אלוהים ב דברי׳ו ו חסיד ב כול מעשי׳ו | lest i transkripsjon |
+| 11QPsᵃ | rulle | ca. 30 - 50 C.E. | ETCBC-sted 17, linje 1–4 | נאמן אלוהים ב דברי׳ו ו חסיד ב כול מעשי׳ו | lest i transkripsjon |
 
 - Oversettelse: **LXX** Ps 144:13a: πιστὸς Κύριος ἐν τοῖς λόγοις αὐτοῦ, καὶ ὅσιος ἐν πᾶσι τοῖς ἔργοις αὐτοῦ, «Trofast er Herren i sine ord, og hellig i alle sine gjerninger.» (ordrett). Forelegg: sannsynlig. Status: lest i utgavens tekst. Gresk har Κύριος der rullen har אלוהים. Det digitale datasettet fører linjen under v. 14.
 
@@ -352,7 +360,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 | 28 korr. | minuskel | håndskriftet 1000–1099 (XI); korrektoren er senere og ikke datert i registeret | fol. 84r | ευαγγελιου ‾ιυ ‾χυ | lest i transkripsjon |
 
 - Kirkefar: **Irenæus av Lyon, Adversus haereses** III.11.8 (CPG 1306, hovedvindu). sitat, latin. I oversettelse: «The beginning of the Gospel of Jesus Christ, as it is written in Esaias the prophet». Status: funnet i oversettelse.
-- Kirkefar: **Origenes, Contra Celsum** II.4 (CPG 1476, hovedvindu). sitat, gresk. I oversettelse: «The beginning of the Gospel of Jesus Christ, as it is written in the prophet Isaiah». Status: funnet i oversettelse.
+- Kirkefar: **Origenes, Contra Celsum** II.4 (CPG 1476, hovedvindu). sitat, gresk. Gresk utgavetekst: «ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ, ὡς γέγραπται». Status: lest i utgavens tekst. Navngitt Markus-sitat. Sønnsfrasen står ikke i sitatet. Et sitat er ikke et direkte vitne til ordlyden i et evangeliehåndskrift. Paul Koetschau (red.), Origenes Werke I (1899); Perseus Project / Trustees of Tufts University, CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/.
 - Kirkefar: **Origenes, Commentarii in Iohannem** I.14 (ANF-inndeling) (CPG 1453, hovedvindu). sitat, gresk. I oversettelse: «The beginning of the Gospel of Jesus Christ.». Status: funnet i oversettelse.
 
 **Vitnemønster (regnet ut):** TR = Byz; tidlige førstehender delt (a: 02; b: 03, 05, 032; c: 01)
@@ -394,7 +402,6 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 - Kirkefar: **Irenæus av Lyon, Adversus haereses** IV.20.6 (CPG 1306, hovedvindu). sitat, latin. I oversettelse: «the only-begotten Son, who is in the bosom of the Father». Status: funnet i oversettelse.
 - Kirkefar: **Tertullian, Adversus Praxean** 15 (CPL 26, hovedvindu). sitat, latin. I oversettelse: «the only begotten Son, who is in the bosom of the Father». Status: funnet i oversettelse.
 - Kirkefar: **Hippolyt av Roma, Contra Noetum** 5 (CPG 1902, hovedvindu). sitat, gresk. I oversettelse: «the only-begotten Son, which is in the bosom of the Father». Status: funnet i oversettelse.
-- Kirkefar: **Origenes, Contra Celsum** II.71 (CPG 1476, hovedvindu). omstridt, gresk. I oversettelse: «the only-begotten Son, who is in the bosom of the Father». Status: funnet i oversettelse. Oversettelsen bygger på en eldre utgave. Hva den kritiske utgaven har på stedet, må leses før sitatet teller for en lesning.
 
 ### Lesning b: μονογενὴς θεός
 
@@ -431,7 +438,7 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 **Vurdering:** ikke vurdert. Egen fane i leseren.
 
-**Filologisk notat.** R10 følger Scrivener: «Den eneste Sønnen». Robinson–Pierpont og Tischendorf har samme lesning, og TAGNT fører THGNT under den. De to tidligste papyrusene og første hånd i Sinaiticus, Vaticanus og Ephraemi har θεός, med eller uten artikkel. Alexandrinus har υἱός. I Ephraemi har en korrektor endret til υἱός, og i Sinaiticus har en korrektor lagt til artikkelen. Fedrene er delt, også innenfor samme verk hos Irenæus. Sitatene er bare funnet i engelsk oversettelse, og et latinsk eller oversatt sitat viser ikke artikkelen. R10-noten til verset omtaler de samme hovedvitnene.
+**Filologisk notat.** R10 følger Scrivener: «Den eneste Sønnen». Robinson–Pierpont og Tischendorf har samme lesning, og TAGNT fører THGNT under den. De to tidligste papyrusene og første hånd i Sinaiticus, Vaticanus og Ephraemi har θεός, med eller uten artikkel. Alexandrinus har υἱός. I Ephraemi har en korrektor endret til υἱός, og i Sinaiticus har en korrektor lagt til artikkelen. Fedrene er delt, også innenfor samme verk hos Irenæus. Et latinsk eller oversatt sitat avgjør ikke den greske artikkelen. R10-noten til verset omtaler de samme hovedvitnene. Origenes, Contra Celsum II.71 (I s. 193): «μονογενής γε ὢν θεὸς». ANF har «the only-begotten Son, who is in the bosom of the Father». Denne greske parallellen har θεός med innskutte ord; den er ikke ført som støtte for a, b eller c. Paul Koetschau (red.), Origenes Werke I (1899); Perseus Project / Trustees of Tufts University, CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/. Kilde: kilder/belegg/origenes-koetschau.json#Orig-Cels@II.71.
 
 **Må kontrolleres mot kilde:**
 
@@ -651,45 +658,48 @@ Av 161 vitne- og utgaveopplysninger i de ti enhetene:
 
 ## Før enhetene kan låses
 
-1. Captain godkjenner lisensporten i `registre/kildelisenser.json` (23 kilder, alle med `captainApproval` tom).
-1. En navngitt leser leser de 47 opplysningene som ikke er lest i kilden: fedresitatene i kritisk utgave, NA28 og THGNT i utgavene, D 06 og 046 på bilde eller i utgave, Swete 5 Mos 32:43 i trykt utgave.
-1. Dateringer for rullene, B19ᴬ og fedrene hentes fra DJD, Tov og utgavene og føres inn i registeret med kilde.
+1. Begrensningene for hver kilde gjelder også etter Captains skriftlige godkjenning. Publisering av manuskriptlaget er ikke godkjent.
+1. En navngitt leser leser de 45 opplysningene som ikke er lest i kilden: fedresitatene i kritisk utgave, NA28 og THGNT i utgavene, D 06 og 046 på bilde eller i utgave, Swete 5 Mos 32:43 i trykt utgave.
+1. Uavklarte katalogfelt står åpne. Skill det fysiske håndskriftet fra verk, teksttradisjon og korrekturhånd.
 1. Andre leser registrerer de ti enhetene uavhengig (plan 7.4), og samsvaret måles.
-1. Overdommeren avgjør om pilotlisten skal følge oppdraget eller planens vedlegg B, og setter eventuelle vurderinger i akse 3 med begrunnelse og litteratur.
+1. Pilotlisten følger Captains uttrykkelige bestilling. Overdommeren kan sette vurderinger i akse 3 etter dokumentert faglig gjennomgang.
 
 † Utgavevalg merket med † er hentet fra et annet fritt datasett (TAGNT eller Robinson–Pierponts variantnoter). Utgaven selv er ikke avlest.
 
 ## Utskrift fra validatoren
 
 ```text
+BESTÅTT  0. Bestilte pilotsteder, kildetillatelser og katalogfakta: 1 / 1
 MANTELEN fase 2, Trinn 0: validering av 10 pilotsteder
-R10-kilde: skrivebeskyttet kopi av de publiserte R10/R11.1-filene (SHA-256 lik R10-låsen)
+R10-kilde: C:/Users/elias/Documents/ChatGPT/BIBELAPPLIKASJON/android/app/src/main/assets/r10
 
+BESTÅTT     Uendret R10/R11.1-kildemanifest: 1 / 1
 BESTÅTT  1. JSON Schema, pilotsteder: 10 / 10
 BESTÅTT     JSON Schema, hele filen: 1 / 1
 BESTÅTT  2. Ordankre mot låst R10/R11.1 (ord og SHA-256): 10 / 10
          GT: 5 ankre med w[].id, toveis adresse mtRef ↔ stepPublicationRef prøvd for 5. NT: 5 ankre med wordIndex + g + bookSha256.
-BESTÅTT     R11.1-ordet i 1 Tim 3,16 (ord 9, Θεὸς, G2316): 1 / 1
+BESTÅTT     Råanker i 1 Tim 3,16 (ord 9, Θεὸς, G2316): 1 / 1
 BESTÅTT  3. Manuskriptsigla i vitneregister.json: 96 / 96
-BESTÅTT     Patristiske referanser med Clavis-nummer i registeret: 17 / 17
+BESTÅTT     Patristiske referanser med Clavis-nummer i registeret: 16 / 16
 BESTÅTT     Utgaver i kildelisenser.json: 61 / 61
          Uregistrerte sigla: 0. Andel registrert: 100 %.
-BESTÅTT  4. Dateringer hentet fra register med SHA-256 (av 47 daterte oppslag): 47 / 47
-BESTÅTT     Oppslag uten datering har merknad om hvor den skal hentes: 22 / 22
+BESTÅTT  4. Dateringer hentet fra register med SHA-256 (av 56 daterte oppslag): 56 / 56
+BESTÅTT     Oppslag uten datering har merknad om hvor den skal hentes: 13 / 13
 BESTÅTT     Dateringsfelt i pilotenhetene (skal være 0): 1 / 1
-BESTÅTT  5. Belegg bak bekreftede vitner og utgaver: 142 / 142
+BESTÅTT  5. Belegg bak bekreftede vitner og utgaver: 141 / 141
+BESTÅTT     Begge Origenes-steder; Joh 1,18 teller ikke som lesningsstøtte: 1 / 1
 BESTÅTT  6. Vitnemønster og mekanisk variantart regnet ut på nytt: 10 / 10
 
 Status for bekreftelsene (alle vitner og utgavefelt i de ti enhetene):
   BEKREFTET_ANKER             10
-  BEKREFTET_I_OVERSETTELSE    17
+  BEKREFTET_I_OVERSETTELSE    15
   BEKREFTET_SEKUNDAERT        25
   BEKREFTET_TRANSKRIPSJON     79
-  BEKREFTET_UTGAVETEKST       25
+  BEKREFTET_UTGAVETEKST       26
   DELVIS_BEKREFTET             1
   IKKE_AVLEST                  4
 Vurdering (akse 3): 10 av 10 enheter står som «ikke vurdert». Dobbel registrering: ikke kjørt.
-Åpne punkter før låsing: 47 opplysninger må leses i kilden av navngitt leser (ikke avlest, bare i oversettelse, delvis eller sekundært belagt).
+Åpne punkter før låsing: 45 opplysninger må leses i kilden av navngitt leser (ikke avlest, bare i oversettelse, delvis eller sekundært belagt).
 
 RESULTAT: ALLE KONTROLLER BESTÅTT
 ```

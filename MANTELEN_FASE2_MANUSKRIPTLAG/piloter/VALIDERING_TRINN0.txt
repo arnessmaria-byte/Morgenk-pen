@@ -1,30 +1,33 @@
+BESTÅTT  0. Bestilte pilotsteder, kildetillatelser og katalogfakta: 1 / 1
 MANTELEN fase 2, Trinn 0: validering av 10 pilotsteder
-R10-kilde: skrivebeskyttet kopi av de publiserte R10/R11.1-filene (SHA-256 lik R10-låsen)
+R10-kilde: C:/Users/elias/Documents/ChatGPT/BIBELAPPLIKASJON/android/app/src/main/assets/r10
 
+BESTÅTT     Uendret R10/R11.1-kildemanifest: 1 / 1
 BESTÅTT  1. JSON Schema, pilotsteder: 10 / 10
 BESTÅTT     JSON Schema, hele filen: 1 / 1
 BESTÅTT  2. Ordankre mot låst R10/R11.1 (ord og SHA-256): 10 / 10
          GT: 5 ankre med w[].id, toveis adresse mtRef ↔ stepPublicationRef prøvd for 5. NT: 5 ankre med wordIndex + g + bookSha256.
-BESTÅTT     R11.1-ordet i 1 Tim 3,16 (ord 9, Θεὸς, G2316): 1 / 1
+BESTÅTT     Råanker i 1 Tim 3,16 (ord 9, Θεὸς, G2316): 1 / 1
 BESTÅTT  3. Manuskriptsigla i vitneregister.json: 96 / 96
-BESTÅTT     Patristiske referanser med Clavis-nummer i registeret: 17 / 17
+BESTÅTT     Patristiske referanser med Clavis-nummer i registeret: 16 / 16
 BESTÅTT     Utgaver i kildelisenser.json: 61 / 61
          Uregistrerte sigla: 0. Andel registrert: 100 %.
-BESTÅTT  4. Dateringer hentet fra register med SHA-256 (av 47 daterte oppslag): 47 / 47
-BESTÅTT     Oppslag uten datering har merknad om hvor den skal hentes: 22 / 22
+BESTÅTT  4. Dateringer hentet fra register med SHA-256 (av 56 daterte oppslag): 56 / 56
+BESTÅTT     Oppslag uten datering har merknad om hvor den skal hentes: 13 / 13
 BESTÅTT     Dateringsfelt i pilotenhetene (skal være 0): 1 / 1
-BESTÅTT  5. Belegg bak bekreftede vitner og utgaver: 142 / 142
+BESTÅTT  5. Belegg bak bekreftede vitner og utgaver: 141 / 141
+BESTÅTT     Begge Origenes-steder; Joh 1,18 teller ikke som lesningsstøtte: 1 / 1
 BESTÅTT  6. Vitnemønster og mekanisk variantart regnet ut på nytt: 10 / 10
 
 Status for bekreftelsene (alle vitner og utgavefelt i de ti enhetene):
   BEKREFTET_ANKER             10
-  BEKREFTET_I_OVERSETTELSE    17
+  BEKREFTET_I_OVERSETTELSE    15
   BEKREFTET_SEKUNDAERT        25
   BEKREFTET_TRANSKRIPSJON     79
-  BEKREFTET_UTGAVETEKST       25
+  BEKREFTET_UTGAVETEKST       26
   DELVIS_BEKREFTET             1
   IKKE_AVLEST                  4
 Vurdering (akse 3): 10 av 10 enheter står som «ikke vurdert». Dobbel registrering: ikke kjørt.
-Åpne punkter før låsing: 47 opplysninger må leses i kilden av navngitt leser (ikke avlest, bare i oversettelse, delvis eller sekundært belagt).
+Åpne punkter før låsing: 45 opplysninger må leses i kilden av navngitt leser (ikke avlest, bare i oversettelse, delvis eller sekundært belagt).
 
 RESULTAT: ALLE KONTROLLER BESTÅTT

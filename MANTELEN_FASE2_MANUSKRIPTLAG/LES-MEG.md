@@ -8,7 +8,7 @@ Status 25. november 2026: registre, skjema og ti pilotenheter er bygd som **utka
 
 | Sti | Hva |
 |---|---|
-| `registre/kildelisenser.json` | Lisensporten: 23 kilder med status `fri_tekst`, `kun_henvisning` eller `krever_avtale`, med belegg. Venter på Captains godkjenning. |
+| `registre/kildelisenser.json` | Captains skriftlige godkjenning av intern forskning, med bruksgrense per kilde. Ingen publisering. |
 | `registre/vitneregister.json` | 69 oppslag: håndskrifter, ruller, oversettelser og fedreverk. Datering står bare her. |
 | `registre/schema-manuscript-layer.json` | JSON Schema for variantenhetene. |
 | `registre/r10-laas.json` | SHA-256 for de ni R10-bøkene og seks R11-ordlagene ankrene bygger på. |
@@ -38,6 +38,8 @@ Den avslutter med 0 bare når skjema, ordanker, sigla, dateringsregel, belegg og
 
 ## Bygge på nytt
 
+Bruk alltid en separat arbeidskopi. De opprinnelige byggeskriptene nedenfor gjenskaper førsteutkastet, ikke de kildekorrigerte kortene. Etter bygging av pilotene: bruk `migrer_origenes.py` med original pilot som inngang og en isolert lokal utmappe. Legg resultatets pilotfil og Koetschau-utdrag i arbeidskopien. Kjør så `verktoy/oppdater_katalog.py <arbeidskopien>` med vedleggene i `kilder/katalogkontroll/`, kjør validatoren, og lag rapporten på nytt. Behold kildegrunnlaget og de eldre kvitteringene. `SHA256SUMS.txt` gjelder gjeldende leveranse.
+
 ```bash
 python verktoy/bygg_registre.py .
 ```
@@ -54,7 +56,7 @@ python verktoy/rapport.py . piloter/VALIDERING_TRINN0.txt
 
 ## Regel null
 
-Ingen lesning, datering eller siglum kommer fra en språkmodell. Hver opplysning er prøvd mot et belegg, eller står med status `IKKE_AVLEST` og en henvisning til hvor den skal leses. Fedresitatene er bare funnet i engelsk oversettelse og må leses i kritisk utgave. Rullene har ingen årstall før de er hentet fra DJD.
+Se status på den enkelte opplysningen: maskinavlest utgave, transkripsjon, oversettelse, sekundærangivelse eller uavlest. Origenes II.4 og II.71 er sjekket i Koetschaus greske utgave. Ved II.71 avviker den engelske oversettelsen fra gresk. Katalogdato og paleografisk anslag må heller ikke blandes. Ingen pilot har to uavhengige menneskelige registreringer.
 
 ## Kjente begrensninger
 

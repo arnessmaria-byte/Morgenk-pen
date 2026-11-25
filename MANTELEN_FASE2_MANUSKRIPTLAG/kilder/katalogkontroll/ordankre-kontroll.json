@@ -1,0 +1,468 @@
+{
+  "status": "BESTÅTT",
+  "testedPrimary": 10,
+  "testedSupplementary": 1,
+  "sourceBooks": 9,
+  "supplements": 6,
+  "frozenBooks": {
+    "gt-isa": {
+      "path": "assets/data/gt/books/gt-isa.json",
+      "bookSha256": "fabad356560ce7d455c4311203b8541ebd813ac018bb9d118a6ccc49562d445c"
+    },
+    "gt-deut": {
+      "path": "assets/data/gt/books/gt-deut.json",
+      "bookSha256": "d2be7a831d84dd2b49a684a712c6711f1b4ed69ae92fc8c65766e1a3462fcb52"
+    },
+    "gt-ps": {
+      "path": "assets/data/gt/books/gt-ps.json",
+      "bookSha256": "abf8129c69586e15bb4b479264865206fb0443146c90fac11cd5db8c2f09a406"
+    },
+    "mrk": {
+      "path": "assets/data/bibelen/mrk.json",
+      "bookSha256": "1234146d2767b20303c08382d80bcbb8348ad1e15b2a6cce7cdc62c784c37f49",
+      "r11LayerPath": "assets/data/r11-nt/mrk.json",
+      "r11LayerSha256": "6ae2ed12f43e676ea10d0a74dd7e099f5f4fa69c8d90b40d844e005607e2d379"
+    },
+    "joh": {
+      "path": "assets/data/bibelen/joh.json",
+      "bookSha256": "bc9bfbb0c46b351198800911820e8991cd5743e5f5b14aa1208f0976c2fc3769",
+      "r11LayerPath": "assets/data/r11-nt/joh.json",
+      "r11LayerSha256": "79d6156cbd05bd2a7b58c37994fafb8748e4e718feb3f1e32556cbf94f690efc"
+    },
+    "act": {
+      "path": "assets/data/bibelen/act.json",
+      "bookSha256": "d6d752c61dece85011525f6b1908641ba730c609c1fc0ead5493d0716ee5f0e3",
+      "r11LayerPath": "assets/data/r11-nt/act.json",
+      "r11LayerSha256": "8afed24e70ea38b554e8057e29afe19241b7cdcfc3f8f1f96f332e964f1489a6"
+    },
+    "1ti": {
+      "path": "assets/data/bibelen/1ti.json",
+      "bookSha256": "c946198f226117120e38c8e0190255356ea4922e9feb8457019622d27d0db561",
+      "r11LayerPath": "assets/data/r11-nt/1ti.json",
+      "r11LayerSha256": "1a79f499c7dc10de7e1fa3bb1ae07edeac96d7fec5b4b9e099da7cca3120f0ac"
+    },
+    "rev": {
+      "path": "assets/data/bibelen/rev.json",
+      "bookSha256": "83c2945069e0ea6f82049bdc424e6a536d5426794a4b317003a5b565f0703520",
+      "r11LayerPath": "assets/data/r11-nt/rev.json",
+      "r11LayerSha256": "58e78ffeb3b82a816ecb058db226fb9f8a4d8e4f5c00f7c150dc24dbd7312884"
+    },
+    "heb": {
+      "path": "assets/data/bibelen/heb.json",
+      "bookSha256": "7519b55d10b6c273ceac044ef710d5e4c0e608f1d29d2bccd4b813721e6c0c90",
+      "r11LayerPath": "assets/data/r11-nt/heb.json",
+      "r11LayerSha256": "ca47795b6f4da3dc53621a4a9f0593aaa560b9ba24618977143fa301a0ffd9f8"
+    }
+  },
+  "readerDir": "C:\\Users\\elias\\Documents\\ChatGPT\\BIBELAPPLIKASJON\\android\\app\\src\\main\\assets\\r10",
+  "frozenArchives": {
+    "mantelen-skriften-r10.zip": "5704f12b80018fe790cce3a41d6b15d80de7099cf7a2f5a86d187fa897d6e396",
+    "mantelen-skriften-r11.zip": "fc6ff4473f05cb1bca7f623bed08c8148a4a3194a6932f315615e8215257ef96",
+    "mantelen-skriften-r111.zip": "b8c6708c83473f0f5f681e3dc39369b68efdf3bb210794f1a83428c4c27fdd55",
+    "SHA256SUMS.txt": "72107cdecd8e5e3c7f9f9674ecd017c9bcb3484c59f2c77f915f5f739ee190b0",
+    "byte-lock-web.json": "c06b8514560a95fbfc4e1708946177d52a83242dd6ab69f1109b2f0d1adad815",
+    "census.json": "3b6b16ccc13fb8ac943037a26ff8abddb07e4edad0c01f7736cd439225d5265b"
+  },
+  "pilotSha256": "7937184eefe6ec18897149d861a5ba247f4058ba8e47a565025e1b7384885395",
+  "registrySha256": "6877a83dd704f688e3d38460ea3f62439d1b816111ff00014f1eb01d89254f3f",
+  "units": [
+    {
+      "relation": "etter",
+      "bookId": "gt-isa",
+      "chapter": 53,
+      "verse": 11,
+      "firstOneBased": 3,
+      "lastOneBased": 3,
+      "words": [
+        "יִרְאֶ֣ה"
+      ],
+      "leftNeighbour": {
+        "chapter": 53,
+        "verse": 11,
+        "wordIndex": 2,
+        "g": "נַפְשׁוֹ֙",
+        "id": "23HKr"
+      },
+      "rightNeighbour": {
+        "chapter": 53,
+        "verse": 11,
+        "wordIndex": 4,
+        "g": "יִשְׂבָּ֔ע",
+        "id": "23Z82"
+      },
+      "meaning": "Innsetting etter «han skal se», før «han skal mettes». Ingen oppdiktet ID for lys i MT.",
+      "firstWordId": "23EFM",
+      "lastWordId": "23EFM",
+      "mtRef": "Isa.53.11",
+      "stepPublicationRef": "Isa.53.11",
+      "path": "assets/data/gt/books/gt-isa.json",
+      "bookSha256": "fabad356560ce7d455c4311203b8541ebd813ac018bb9d118a6ccc49562d445c",
+      "id": "GT-ISA-053-011-01"
+    },
+    {
+      "relation": "erstatter",
+      "bookId": "gt-deut",
+      "chapter": 32,
+      "verse": 8,
+      "firstOneBased": 11,
+      "lastOneBased": 12,
+      "words": [
+        "בְּנֵ֥י",
+        "יִשְׂרָאֵֽל׃"
+      ],
+      "leftNeighbour": {
+        "chapter": 32,
+        "verse": 8,
+        "wordIndex": 10,
+        "g": "לְמִסְפַּ֖ר",
+        "id": "05MNG"
+      },
+      "rightNeighbour": {
+        "chapter": 32,
+        "verse": 9,
+        "wordIndex": 1,
+        "g": "כִּ֛י",
+        "id": "05PHn"
+      },
+      "meaning": "Begge ledd i «Israels sønner»; genitivleddet er stedet som skiller lesningene.",
+      "firstWordId": "05K67",
+      "lastWordId": "05hVg",
+      "mtRef": "Deut.32.8",
+      "stepPublicationRef": "Deu.32.8",
+      "path": "assets/data/gt/books/gt-deut.json",
+      "bookSha256": "d2be7a831d84dd2b49a684a712c6711f1b4ed69ae92fc8c65766e1a3462fcb52",
+      "id": "GT-DEU-032-008-01"
+    },
+    {
+      "relation": "hele_verset",
+      "bookId": "gt-deut",
+      "chapter": 32,
+      "verse": 43,
+      "firstOneBased": 1,
+      "lastOneBased": 13,
+      "words": [
+        "הַרְנִ֤ינוּ",
+        "גוֹיִם֙",
+        "עַמּ֔וֹ",
+        "כִּ֥י",
+        "דַם־",
+        "עֲבָדָ֖יו",
+        "יִקּ֑וֹם",
+        "וְנָקָם֙",
+        "יָשִׁ֣יב",
+        "לְצָרָ֔יו",
+        "וְכִפֶּ֥ר",
+        "אַדְמָת֖וֹ",
+        "עַמּֽוֹ׃"
+      ],
+      "leftNeighbour": {
+        "chapter": 32,
+        "verse": 42,
+        "wordIndex": 12,
+        "g": "אוֹיֵֽב׃",
+        "id": "05ZVW"
+      },
+      "rightNeighbour": {
+        "chapter": 32,
+        "verse": 44,
+        "wordIndex": 1,
+        "g": "וַיָּבֹ֣א",
+        "id": "05Ksw"
+      },
+      "meaning": "Hele det kortere masoretiske verset for de utvidede formene; de ekstra leddene har ingen MT-ord-ID. Hebr 1,6 har separat sitatanker.",
+      "firstWordId": "05w7w",
+      "lastWordId": "05CFi",
+      "mtRef": "Deut.32.43",
+      "stepPublicationRef": "Deu.32.43",
+      "path": "assets/data/gt/books/gt-deut.json",
+      "bookSha256": "d2be7a831d84dd2b49a684a712c6711f1b4ed69ae92fc8c65766e1a3462fcb52",
+      "id": "GT-DEU-032-043-01",
+      "quoteAnchor": {
+        "relation": "erstatter",
+        "bookId": "heb",
+        "chapter": 1,
+        "verse": 6,
+        "firstOneBased": 11,
+        "lastOneBased": 16,
+        "words": [
+          "Καὶ",
+          "προσκυνησάτωσαν",
+          "αὐτῷ",
+          "πάντες",
+          "ἄγγελοι",
+          "Θεοῦ"
+        ],
+        "leftNeighbour": {
+          "chapter": 1,
+          "verse": 6,
+          "wordIndex": 10,
+          "g": "λέγει"
+        },
+        "rightNeighbour": {
+          "chapter": 1,
+          "verse": 7,
+          "wordIndex": 1,
+          "g": "καὶ"
+        },
+        "meaning": "Eget sitatanker for tilbedelseslinjen; ikke det samme som en uavhengig hebraisk håndskriftlesning.",
+        "path": "assets/data/bibelen/heb.json",
+        "bookSha256": "7519b55d10b6c273ceac044ef710d5e4c0e608f1d29d2bccd4b813721e6c0c90",
+        "r11LayerPath": "assets/data/r11-nt/heb.json",
+        "r11LayerSha256": "ca47795b6f4da3dc53621a4a9f0593aaa560b9ba24618977143fa301a0ffd9f8"
+      }
+    },
+    {
+      "relation": "erstatter",
+      "bookId": "gt-ps",
+      "chapter": 22,
+      "verse": 17,
+      "firstOneBased": 7,
+      "lastOneBased": 7,
+      "words": [
+        "כָּ֝אֲרִ֗י"
+      ],
+      "leftNeighbour": {
+        "chapter": 22,
+        "verse": 17,
+        "wordIndex": 6,
+        "g": "הִקִּיפ֑וּנִי",
+        "id": "19FwG"
+      },
+      "rightNeighbour": {
+        "chapter": 22,
+        "verse": 17,
+        "wordIndex": 8,
+        "g": "יָדַ֥י",
+        "id": "19H1T"
+      },
+      "meaning": "Det omstridte ordet «som en løve»; MT 22,17 svarer til vestlig 22,16.",
+      "firstWordId": "19dCM",
+      "lastWordId": "19dCM",
+      "mtRef": "Ps.22.17",
+      "stepPublicationRef": "Psa.22.16",
+      "path": "assets/data/gt/books/gt-ps.json",
+      "bookSha256": "abf8129c69586e15bb4b479264865206fb0443146c90fac11cd5db8c2f09a406",
+      "id": "GT-PSA-022-017-01"
+    },
+    {
+      "relation": "etter",
+      "bookId": "gt-ps",
+      "chapter": 145,
+      "verse": 13,
+      "firstOneBased": 8,
+      "lastOneBased": 8,
+      "words": [
+        "וָדֽוֹר׃"
+      ],
+      "leftNeighbour": {
+        "chapter": 145,
+        "verse": 13,
+        "wordIndex": 7,
+        "g": "דּ֥וֹר",
+        "id": "19eio"
+      },
+      "rightNeighbour": {
+        "chapter": 145,
+        "verse": 14,
+        "wordIndex": 1,
+        "g": "סוֹמֵ֣ךְ",
+        "id": "19719"
+      },
+      "meaning": "Avslutningsordet i 145,13 er venstre anker for den manglende nun-linjen før første ord i 145,14.",
+      "firstWordId": "19tHU",
+      "lastWordId": "19tHU",
+      "mtRef": "Ps.145.13",
+      "stepPublicationRef": "Psa.145.13",
+      "path": "assets/data/gt/books/gt-ps.json",
+      "bookSha256": "abf8129c69586e15bb4b479264865206fb0443146c90fac11cd5db8c2f09a406",
+      "id": "GT-PSA-145-013-01"
+    },
+    {
+      "relation": "erstatter",
+      "bookId": "mrk",
+      "chapter": 1,
+      "verse": 1,
+      "firstOneBased": 6,
+      "lastOneBased": 8,
+      "words": [
+        "υιου",
+        "του",
+        "θεου"
+      ],
+      "leftNeighbour": {
+        "chapter": 1,
+        "verse": 1,
+        "wordIndex": 5,
+        "g": "χριστου"
+      },
+      "rightNeighbour": {
+        "chapter": 1,
+        "verse": 2,
+        "wordIndex": 1,
+        "g": "ως"
+      },
+      "meaning": "Hele sluttfrasen «Guds Sønn», inkludert artikkelen; nødvendig også for lesninger uten frasen.",
+      "path": "assets/data/bibelen/mrk.json",
+      "bookSha256": "1234146d2767b20303c08382d80bcbb8348ad1e15b2a6cce7cdc62c784c37f49",
+      "r11LayerPath": "assets/data/r11-nt/mrk.json",
+      "r11LayerSha256": "6ae2ed12f43e676ea10d0a74dd7e099f5f4fa69c8d90b40d844e005607e2d379",
+      "id": "NT-MRK-001-001-01"
+    },
+    {
+      "relation": "erstatter",
+      "bookId": "joh",
+      "chapter": 1,
+      "verse": 18,
+      "firstOneBased": 5,
+      "lastOneBased": 7,
+      "words": [
+        "ὁ",
+        "μονογενὴς",
+        "υἱός"
+      ],
+      "leftNeighbour": {
+        "chapter": 1,
+        "verse": 18,
+        "wordIndex": 4,
+        "g": "πώποτε"
+      },
+      "rightNeighbour": {
+        "chapter": 1,
+        "verse": 18,
+        "wordIndex": 8,
+        "g": "ὁ"
+      },
+      "meaning": "Frasen fra artikkel til substantiv kan uttrykke både artikkelvariasjonen og sønn/Gud.",
+      "path": "assets/data/bibelen/joh.json",
+      "bookSha256": "bc9bfbb0c46b351198800911820e8991cd5743e5f5b14aa1208f0976c2fc3769",
+      "r11LayerPath": "assets/data/r11-nt/joh.json",
+      "r11LayerSha256": "79d6156cbd05bd2a7b58c37994fafb8748e4e718feb3f1e32556cbf94f690efc",
+      "id": "NT-JOH-001-018-01"
+    },
+    {
+      "relation": "hele_verset",
+      "bookId": "act",
+      "chapter": 8,
+      "verse": 37,
+      "firstOneBased": 1,
+      "lastOneBased": 23,
+      "words": [
+        "εἶπε",
+        "δὲ",
+        "ὁ",
+        "Φίλιππος",
+        "Εἰ",
+        "πιστεύεις",
+        "ἐξ",
+        "ὅλης",
+        "τῆς",
+        "καρδίας",
+        "ἔξεστιν",
+        "ἀποκριθεὶς",
+        "δὲ",
+        "εἶπε",
+        "Πιστεύω",
+        "τὸν",
+        "υἱὸν",
+        "τοῦ",
+        "Θεοῦ",
+        "εἶναι",
+        "τὸν",
+        "Ἰησοῦν",
+        "Χριστόν"
+      ],
+      "leftNeighbour": {
+        "chapter": 8,
+        "verse": 36,
+        "wordIndex": 20,
+        "g": "βαπτισθῆναι"
+      },
+      "rightNeighbour": {
+        "chapter": 8,
+        "verse": 38,
+        "wordIndex": 1,
+        "g": "καὶ"
+      },
+      "meaning": "Hele bekjennelsesverset finnes i R10; naboversene lokaliserer utelatelsen hos andre vitner uten å tildele fraværet et ord.",
+      "path": "assets/data/bibelen/act.json",
+      "bookSha256": "d6d752c61dece85011525f6b1908641ba730c609c1fc0ead5493d0716ee5f0e3",
+      "r11LayerPath": "assets/data/r11-nt/act.json",
+      "r11LayerSha256": "8afed24e70ea38b554e8057e29afe19241b7cdcfc3f8f1f96f332e964f1489a6",
+      "id": "NT-ACT-008-037-01"
+    },
+    {
+      "relation": "erstatter",
+      "bookId": "1ti",
+      "chapter": 3,
+      "verse": 16,
+      "firstOneBased": 9,
+      "lastOneBased": 9,
+      "words": [
+        "Θεὸς"
+      ],
+      "leftNeighbour": {
+        "chapter": 3,
+        "verse": 16,
+        "wordIndex": 8,
+        "g": "μυστήριον"
+      },
+      "rightNeighbour": {
+        "chapter": 3,
+        "verse": 16,
+        "wordIndex": 10,
+        "g": "ἐφανερώθη"
+      },
+      "meaning": "Bare Θεὸς, ord 9, Strong G2316; neste og forrige ord inngår ikke i varianten.",
+      "path": "assets/data/bibelen/1ti.json",
+      "bookSha256": "c946198f226117120e38c8e0190255356ea4922e9feb8457019622d27d0db561",
+      "r11LayerPath": "assets/data/r11-nt/1ti.json",
+      "r11LayerSha256": "1a79f499c7dc10de7e1fa3bb1ae07edeac96d7fec5b4b9e099da7cca3120f0ac",
+      "id": "NT-1TI-003-016-01"
+    },
+    {
+      "relation": "erstatter",
+      "bookId": "rev",
+      "chapter": 22,
+      "verse": 19,
+      "firstOneBased": 19,
+      "lastOneBased": 21,
+      "words": [
+        "βιβλου",
+        "της",
+        "ζωης"
+      ],
+      "leftNeighbour": {
+        "chapter": 22,
+        "verse": 19,
+        "wordIndex": 18,
+        "g": "απο"
+      },
+      "rightNeighbour": {
+        "chapter": 22,
+        "verse": 19,
+        "wordIndex": 22,
+        "g": "και"
+      },
+      "meaning": "Spennet «livets bok» er komplett. Det er bok/tre som varierer, med tilhørende artikkelbruk.",
+      "path": "assets/data/bibelen/rev.json",
+      "bookSha256": "83c2945069e0ea6f82049bdc424e6a536d5426794a4b317003a5b565f0703520",
+      "r11LayerPath": "assets/data/r11-nt/rev.json",
+      "r11LayerSha256": "58e78ffeb3b82a816ecb058db226fb9f8a4d8e4f5c00f7c150dc24dbd7312884",
+      "id": "NT-REV-022-019-01"
+    }
+  ],
+  "limits": "Kontroll av ordankre og utgavemateriale, ikke selvstendig manuskriptattestasjon eller faglig låsing.",
+  "effective1Ti316": {
+    "archivedClosedCensus": {
+      "book": "1ti",
+      "chapter": 3,
+      "verse": 16,
+      "ordinal": 9,
+      "greek": "Θεὸς",
+      "strong": 2316,
+      "before": "gudsfryktens",
+      "after": "Gud"
+    },
+    "rawGlossUnmodified": true
+  }
+}

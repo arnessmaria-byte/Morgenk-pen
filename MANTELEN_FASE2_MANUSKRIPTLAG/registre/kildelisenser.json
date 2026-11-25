@@ -1,7 +1,7 @@
 {
  "schemaVersion": "kildelisenser.v1-trinn0",
  "generated": "2026-11-25",
- "status": "FORSLAG: venter på Captains godkjenning av lisensporten",
+ "status": "Captain har godkjent intern kildebruk i Trinn 0 med grensene nedenfor.",
  "statusValues": {
   "fri_tekst": "Teksten kan hentes inn med kreditering og eventuelle vilkår som er oppført.",
   "kun_henvisning": "Kilden siteres og henvises til. Tekst, apparat og layout kopieres ikke.",
@@ -31,9 +31,11 @@
    ],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -61,9 +63,11 @@
     "Hvilke avsnitt Aleppo-kodeksen faktisk bevarer, hentes fra MAM-dokumentasjonen. Det er ikke registrert i Trinn 0."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -87,9 +91,11 @@
     "Den digitale teksten er OCR-avledet og har tap i 5 Mos 32:43. Den kan ikke importeres uten korrektur mot trykt utgave."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    },
    "qualityWarning": "Den digitale teksten er OCR-avledet. 5 Mos 32:43 har tydelige tap (linjeslutt mangler). Lesninger fra dette verset er ikke bekreftet før de er lest mot trykt utgave."
   },
@@ -110,9 +116,11 @@
     "Ingen maskinlesbar transkripsjon er funnet eller hentet."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -130,9 +138,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -152,9 +162,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -162,11 +174,11 @@
    "name": "The Greek New Testament, produced at Tyndale House, Cambridge",
    "layer": "NT utgavevalg og referanse",
    "status": "kun_henvisning",
-   "license": "Tekstens egen lisens er ikke lest i Trinn 0.",
-   "basis": "Utgavevalget hentes fra STEPBible TAGNT, som merker THGNT-ord med «Tyn».",
+   "license": "© Tyndale House, Cambridge 2017. Fri lisens for den ønskede tekstbruken er ikke dokumentert.",
+   "basis": "Utgiverens angivelse i STEP. Henvisning/sekundært utgavevalg i dette laget; ikke import av utgavetekst.",
    "evidence": {
-    "type": "ikke kontrollert i Trinn 0",
-    "ref": "kilder/belegg/nt-utgaver-utdrag.json (TAGNT)"
+    "type": "utgiverens kildeopplysning",
+    "ref": "https://www.stepbible.org/version.jsp?version=THGNT"
    },
    "useInLayer": "Bare hvilken lesning utgaven har, hentet fra TAGNT.",
    "conditions": [],
@@ -175,9 +187,11 @@
     "Utgavevalgene er belagt med én kilde (TAGNT) og bør leses mot utgaven."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -197,9 +211,11 @@
     "Lisensen for digital Tregelles-tekst leses før import."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -218,9 +234,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -238,9 +256,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -248,21 +268,23 @@
    "name": "SBL Greek New Testament (2010)",
    "layer": "NT utgavevalg",
    "status": "kun_henvisning",
-   "license": "Lisensen er ikke lest i Trinn 0.",
-   "basis": "Planens vedlegg A: avklares.",
+   "license": "Digital utgave fra utgiver: CC BY 4.0. Pilotens valg er fortsatt sekundært rapportert, ikke lest i utgaven.",
+   "basis": "Utgiverens lisens for dagens digitale utgave.",
    "evidence": {
-    "type": "ikke kontrollert i Trinn 0",
-    "ref": "TAGNT («SBL»)"
+    "type": "lisenstekst lest i Trinn 0",
+    "ref": "https://github.com/Faithlife/SBLGNT/blob/master/README.md#license"
    },
    "useInLayer": "Bare hvilken lesning utgaven har, hentet fra TAGNT.",
    "conditions": [],
    "openPoints": [
-    "Lisensen leses før tekst importeres."
+    "Pilotlesningene må kontrolleres direkte før de føres som lest i utgaven."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -290,9 +312,11 @@
     "Utgavefeltet for τοῦ i Mark 1:1 fører opp NA28, mens ordtypen i samme rad og Robinson–Pierponts variantnote sier at NA-teksten mangler artikkelen. Avviket er registrert i pilot 6."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -312,9 +336,11 @@
     "Skriftlig avklaring med INTF om bruk av API-et når laget settes i drift."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -335,9 +361,11 @@
    ],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -354,9 +382,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -381,10 +411,13 @@
     "Avtale med rettighetshaver før transkripsjonene importeres i et lag som følger en trykt utgave til salgs."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
-   }
+    "approved": false,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "ingen_import",
+    "thirdPartyGrant": false
+   },
+   "distribution": "Tidligere kontrollutdrag: ikke frigitt for nett, app eller trykk. Ingen ny import."
   },
   {
    "id": "LEON-LEVY",
@@ -401,9 +434,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -420,9 +455,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -441,9 +478,11 @@
     "NA28-valgene i pilotene er belagt sekundært og bør leses mot utgaven av navngitt leser."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -461,9 +500,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -480,9 +521,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -500,9 +543,11 @@
    "conditions": [],
    "openPoints": [],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
    }
   },
   {
@@ -522,9 +567,681 @@
     "Clementina er en utgave fra 1592. Håndskriftene bak leses i Stuttgart-utgavens apparat (vernet)."
    ],
    "captainApproval": {
-    "approved": null,
-    "by": null,
-    "date": null
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "SEFARIA",
+   "name": "SEFARIA",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://developers.sefaria.org/reference/get-manuscripts",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "SBL-4Q37",
+   "name": "SBL-4Q37",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.sbl-site.org/wp-content/uploads/2024/11/SamaritanPentateuch_SBL_Anderson-Giles.pdf",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "AGDER-4Q44",
+   "name": "AGDER-4Q44",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://lyingpen.uia.no/dssinventoryproject/fascicle7/",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "YARDENI",
+   "name": "YARDENI",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://bibleproject.huji.ac.il/sites/default/files/he_bible_project/files/m._segal1.1.pdf",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-HEV",
+   "name": "IAA-HEV",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=he_IL",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-HEV-IMAGE",
+   "name": "IAA-HEV-IMAGE",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/image/B-366235",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-1Q8",
+   "name": "IAA-1Q8",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-4Q58",
+   "name": "IAA-4Q58",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-4Q37",
+   "name": "IAA-4Q37",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-4Q44",
+   "name": "IAA-4Q44",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-4Q88",
+   "name": "IAA-4Q88",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-11Q5",
+   "name": "IAA-11Q5",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/11Q5-1",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "NLR-RU",
+   "name": "NLR-RU",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://expositions.nlr.ru/ex_manus/firkovich/catalog.php",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "NLR",
+   "name": "NLR",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://expositions.nlr.ru/eng/ex_manus/firkovich/catalog.php",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "NLI",
+   "name": "NLI",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.nli.org.il/en/discover/manuscripts/hebrew-manuscripts/itempage?SearchTxt=Leningrad+codex&docId=PNX_MANUSCRIPTS990001516230205171&scope=PNX_MANUSCRIPTS&vid=MANUSCRIPTS",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "UXLC",
+   "name": "UXLC",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.tanach.us/Pages/LC%20images.html",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "UXLCold",
+   "name": "UXLCold",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://tanach.us/PDFFiles/Genesis.acc.pdf",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IMJ",
+   "name": "IMJ",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.imj.org.il/sites/default/files/IMJ%20Great%20Isaiah%20Scroll%20Exhibition.pdf",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "SI-B",
+   "name": "SI-B",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://asia.si.edu/research/essays/the-dead-sea-scrolls-isaiah-scroll-manuscript-b/",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "LOC-11Q5",
+   "name": "LOC-11Q5",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.loc.gov/exhibits/scrolls/scr1.html",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "CATSS",
+   "name": "CATSS",
+   "status": "krever_avtale",
+   "evidence": {
+    "ref": null,
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": false,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "ingen_import",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IGNTP-transkripsjonene",
+   "name": "IGNTP-transkripsjonene",
+   "status": "krever_avtale",
+   "evidence": {
+    "ref": null,
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": false,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "ingen_import",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "Codex Sinaiticus Project",
+   "name": "Codex Sinaiticus Project",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": null,
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "CNTTS",
+   "name": "CNTTS",
+   "status": "krever_avtale",
+   "evidence": {
+    "ref": null,
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": false,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "ingen_import",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "Hodges–Farstad",
+   "name": "Hodges–Farstad",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": null,
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "BHS/BHQ",
+   "name": "BHS/BHQ",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": null,
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "PATR-PD",
+   "name": "Koetschau (1899), Origenes: Contra Celsum; andre frie utgaver må identifiseres særskilt",
+   "status": "fri_tekst",
+   "evidence": {
+    "type": "TEI-lisens kontrollert",
+    "ref": "https://api.github.com/repos/OpenGreekAndLatin/First1KGreek/git/blobs/f03439715629124306a0a6788e696d2c2f538ab6"
+   },
+   "useInLayer": "Bare identifisert fri utgave med dokumenterte vilkår.",
+   "conditions": [
+    "Perseus Project, Trustees of Tufts University (TEI i OpenGreekAndLatin/First1KGreek).",
+    "De to greske utdragene videreføres under CC BY-SA 4.0. Prosjektets redaksjonelle begrensninger er egne tilføyninger.",
+    "Avgrenset uttrekk, mellomrom samlet og Unicode NFC; ingen ord lagt til."
+   ],
+   "openPoints": [],
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "tekst_på_dokumenterte_vilkår",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "BL-CAT",
+   "name": "BL-CAT",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.bl.uk/",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "BAV-CAT",
+   "name": "BAV-CAT",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://digi.vatlib.it/",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "CB-CAT",
+   "name": "CB-CAT",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://chesterbeatty.ie/",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "BODMER-CAT",
+   "name": "BODMER-CAT",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://fondationbodmer.ch/",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "IAA-HEV-CATALOG",
+   "name": "IAA-HEV-CATALOG",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=en_US",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "SI-B-RENDER",
+   "name": "SI-B-RENDER",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://asia.si.edu/research/essays/the-dead-sea-scrolls-isaiah-scroll-manuscript-b/",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "YARDENI-RENDER",
+   "name": "YARDENI-RENDER",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://bibleproject.huji.ac.il/sites/default/files/he_bible_project/files/m._segal1.1.pdf",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
+   }
+  },
+  {
+   "id": "SBL-4Q37-RENDER",
+   "name": "SBL-4Q37-RENDER",
+   "status": "kun_henvisning",
+   "evidence": {
+    "ref": "https://www.sbl-site.org/wp-content/uploads/2024/11/SamaritanPentateuch_SBL_Anderson-Giles.pdf",
+    "type": "kildehenvisning; ingen generell tillatelse"
+   },
+   "useInLayer": "Ingen tekst eller bilder importeres.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": true,
+    "by": "Captain",
+    "date": "2026-11-25",
+    "scope": "katalogfakta_eller_henvisning",
+    "thirdPartyGrant": false
    }
   }
  ],
@@ -544,5 +1261,13 @@
   "Hodges–Farstad",
   "BHS/BHQ"
  ],
- "rule": "Ingen data hentes inn i laget før Captain har godkjent kilden skriftlig (plan 7.6)."
+ "rule": "Ingen data hentes inn i laget før Captain har godkjent kilden skriftlig (plan 7.6).",
+ "authorization": {
+  "scope": "trinn0_intern",
+  "by": "Captain",
+  "date": "2026-11-25",
+  "releaseAuthorized": false,
+  "catalogueScope": "Enkeltstående registrerte katalogfakta og kildehenvisning når vilkårene tillater det. Ingen beskyttede bilder, transkripsjoner eller apparater.",
+  "textScope": "Faktiske ordformer fra konkret fri utgave på dokumenterte vilkår. Godkjenningen gir ingen rettigheter fra en tredjepart."
+ }
 }

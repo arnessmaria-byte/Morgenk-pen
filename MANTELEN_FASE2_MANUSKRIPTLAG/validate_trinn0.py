@@ -67,11 +67,16 @@ def main():
     a = ap.parse_args()
     pil, reg, src, lock, schema = J('piloter', 'trinn0-10-piloter.json'), J('registre', 'vitneregister.json'), J('registre', 'kildelisenser.json'), J('registre', 'r10-laas.json'), J('registre', 'schema-manuscript-layer.json')
     units = pil['units']
+    from registerkontroll import avvik
+    registerfeil = avvik(HERE, units, reg, src)
+    result('0. Bestilte pilotsteder, kildetillatelser og katalogfakta', int(not registerfeil), 1, registerfeil)
     r10 = fetch_r10(lock['books']) if a.fetch else a.r10_dir
     if not r10:
         print('FEIL: oppgi --r10-dir eller --fetch.'); sys.exit(2)
     say('MANTELEN fase 2, Trinn 0: validering av %d pilotsteder' % len(units))
     say('R10-kilde: %s' % ('www.mantelen.no (hentet nå)' if a.fetch else r10)); say()
+    lockhash=hashlib.sha256(open(os.path.join(HERE,'registre','r10-laas.json'),'rb').read()).hexdigest()
+    result('   Uendret R10/R11.1-kildemanifest',int(lockhash=='6877a83dd704f688e3d38460ea3f62439d1b816111ff00014f1eb01d89254f3f'),1)
 
     # 1. skjema
     jsonschema.Draft202012Validator.check_schema(schema)
@@ -122,7 +127,9 @@ def main():
             meta = lock['books'][an['bookId']]
             if an.get('r11LayerSha256') != meta.get('r11LayerSha256'): errs.append('%s: SHA-256 for R11-ordlaget avviker fra låsen' % vid)
             lp = os.path.join(r10, meta.get('r11LayerPath', '-'))
-            if os.path.exists(lp):
+            if not os.path.isfile(lp):
+                errs.append('%s: påkrevd R11-ordlag mangler: %s' % (vid, meta.get('r11LayerPath')))
+            else:
                 raw = open(lp, 'rb').read(); side = json.loads(raw.decode('utf-8'))
                 if hashlib.sha256(raw).hexdigest() != meta['r11LayerSha256'] or side.get('book_sha256') != h: errs.append('%s: R11-ordlaget er ikke bundet til bokfilen' % vid)
                 row = side['verses'].get('%d:%d' % (an['chapter'], an['verse']))
@@ -132,16 +139,22 @@ def main():
     bad = []; n_gt = n_nt = 0; twoway = 0
     for u in units:
         e = check_anchor(u['anchor'], u['variantId'])
+        an=u['anchor']; chapters=book(an['bookId'])[0]['chapters']
+        if an['testament']=='GT':
+            printed=[x['t'] for c in chapters for x in c['v'] if x.get('mtRef')==an['mtRef']]
+        else:
+            printed=[x['t'] for c in chapters if c['n']==an['chapter'] for x in c['v'] if x['n']==an['verse']]
+        if printed != [u['r10Verse']]: e.append('Visningsverset avviker fra låst bokfil')
         for x in u.get('crossReferences', []):
             if 'anchor' in x: e += check_anchor(x['anchor'], u['variantId'] + ' (kryssreferanse %s)' % x['ref'])
         if u['anchor']['testament'] == 'GT': n_gt += 1; twoway += 1
         else: n_nt += 1
-        bad += e
-    result('2. Ordankre mot låst R10/R11.1 (ord og SHA-256)', len(units) - len({b.split(':')[0] for b in bad}), len(units), bad)
+        if e: bad.append(u['variantId'] + ': ' + '; '.join(e))
+    result('2. Ordankre mot låst R10/R11.1 (ord og SHA-256)', len(units) - len(bad), len(units), bad)
     say('         GT: %d ankre med w[].id, toveis adresse mtRef ↔ stepPublicationRef prøvd for %d. NT: %d ankre med wordIndex + g + bookSha256.' % (n_gt, twoway, n_nt))
     t = [u for u in units if u['variantId'] == 'NT-1TI-003-016-01'][0]['anchor']
     w9 = [x for c in book('1ti')[0]['chapters'] if c['n'] == 3 for x in c['v'] if x['n'] == 16][0]['w'][8]
-    result('   R11.1-ordet i 1 Tim 3,16 (ord 9, Θεὸς, G2316)', int(t['firstWordIndex'] == 9 and w9['g'] == 'Θεὸς' and w9['s'] == 2316), 1)
+    result('   Råanker i 1 Tim 3,16 (ord 9, Θεὸς, G2316)', int(t['firstWordIndex'] == 9 and w9['g'] == 'Θεὸς' and w9['s'] == 2316), 1)
 
     # 3. sigla, patristiske referanser og utgaver
     W = reg['witnesses']; eds = {s['id'] for s in src['sources']} | {s['id'] for s in src['internalEditions']}
@@ -201,6 +214,8 @@ def main():
                         elif 'etcbc' in f:
                             sc, ref = key.split('@'); rec = [x for x in d['records'] if x['scroll'] == sc and x['ref'] == ref][0]
                             good = rec['text'] == w.get('reading')
+                        elif f=='kilder/belegg/origenes-koetschau.json':
+                            row=d['records'][key]; good=(row['greek']==w.get('wording') and row['sourceSha256']==v.get('sha256')==d['sourceSha256'] and row['function']=='attestedQuotation')
                         elif 'fedre' in f:
                             good = d['records'][key]['found'] and d['volumeSha256'][d['records'][key]['volume']] == v.get('sha256')
                         elif 'nt-utgaver' in f:
@@ -212,6 +227,11 @@ def main():
                     except Exception as ex:
                         evbad.append('%s: belegg mangler: %s (%s)' % (u['variantId'], v['evidence'], ex))
     result('5. Belegg bak bekreftede vitner og utgaver', ev_ok, ev_total, evbad)
+    from migrer_origenes import verify as verifiser_origenes
+    from pathlib import Path
+    try: verifiser_origenes(Path(HERE),pil); oe=[]
+    except (AssertionError,KeyError,ValueError) as ex: oe=['Avvik i Origenes-fragment, oversettelse eller opptelling: '+str(ex)]
+    result('   Begge Origenes-steder; Joh 1,18 teller ikke som lesningsstøtte', int(not oe),1,oe)
 
     # 6. akse 1 og 2 kan regnes ut på nytt
     def recomputes(u):

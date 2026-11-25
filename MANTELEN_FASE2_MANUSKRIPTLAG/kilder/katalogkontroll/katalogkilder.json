@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "globalRights": "Intern forskningskontroll av enkeltstående katalogfakta. Ikke overfør dokumenttekst, bilder, transkripsjoner eller andre databaseutdrag til kommersielt produkt. Kilde-IDer med usikre vilkår eller som ikke er eierkatalog er henvisninger, ikke en godkjennelse av registerimport.",
+  "witnessSources": {
+    "B19A": [
+      "NLR-RU",
+      "SEFARIA",
+      "NLR",
+      "NLI",
+      "UXLC",
+      "UXLCold"
+    ],
+    "1QIsaa": [
+      "IMJ"
+    ],
+    "1QIsab": [
+      "SI-B-RENDER",
+      "SI-B",
+      "IAA-1Q8"
+    ],
+    "4QIsad": [
+      "IAA-4Q58"
+    ],
+    "4QDeutj": [
+      "SBL-4Q37-RENDER",
+      "IAA-4Q37",
+      "SBL-4Q37"
+    ],
+    "4QDeutq": [
+      "IAA-4Q44",
+      "AGDER-4Q44"
+    ],
+    "4QPsf": [
+      "IAA-4Q88"
+    ],
+    "5/6HevPs": [
+      "YARDENI-RENDER",
+      "IAA-HEV-CATALOG",
+      "IAA-HEV",
+      "IAA-HEV-IMAGE",
+      "YARDENI"
+    ],
+    "11QPsa": [
+      "IAA-11Q5",
+      "LOC-11Q5"
+    ]
+  },
+  "captureSources": {
+    "IAA-HEV-CATALOG":{
+      "url":"https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=en_US",
+      "capture":{"manuscript_id":null,"site":null,"period":null,"material":null,"script_type":null},
+      "fieldsFromInlineJson":true,"requireId":"5/6Hev 1b 891-1","terms":"https://www.deadseascrolls.org.il/terms",
+      "use":"Private enkeltfakta, ikke gjenbruk av kataloginnhold eller bilder. Behold Herodian som katalogens verbalperiode; påvist funnsted er ikke oppbevaringssted. Plate 891-IDen betegner denne katalogposten, ikke hele rullens tekst."
+    },
+    "NLR-RU": {
+      "url":"https://expositions.nlr.ru/ex_manus/firkovich/catalog.php",
+      "capture":{"dateLabel":"На древнееврейском языке\\.\\s*(1008[–—-]1010) г\\., Каир","identity":"(Ленинградский кодекс)","shelfmark":"(Евр\\. I В 19 А), л\\. 102","repository":"(Российской национальной библиотеке)"},
+      "terms":"https://expositions.nlr.ru/ve/RA3879/usloviya-ispolzovaniya",
+      "use":"Eierens egen katalog. Bare særskilt fakta til avgrenset forskningsbruk. Katalogen og tekstinnholdet er for personlig ikke-kommersiell bruk med henvisning. Denne posten gir ingen rett til distribusjon av katalogen eller dens tekst. Datoen er katalogens datering; ikke en presisering av ulike kolofontradisjoner."
+    },
+    "NLR": {
+      "url": "https://expositions.nlr.ru/eng/ex_manus/firkovich/catalog.php",
+      "capture": {
+        "dateLabel": "In Hebrew\\.\\s*(1008[–—-]1010),?\\s*Cairo",
+        "identity": "(Leningrad Codex)",
+        "shelfmark": "(I\\s+[ВB]\\s+19\\s+[АA])",
+        "repository": "(National Library of Russia)"
+      },
+      "use": "Eierkatalog for B19A. Belegg gjelder bare bibliografiske fakta; ingen side, utsmykning eller katalogprosa lagres."
+    },
+    "NLI": {
+      "url": "https://www.nli.org.il/en/discover/manuscripts/hebrew-manuscripts/itempage?SearchTxt=Leningrad+codex&docId=PNX_MANUSCRIPTS990001516230205171&scope=PNX_MANUSCRIPTS&vid=MANUSCRIPTS",
+      "capture": {
+        "repository": "(The National Library of Russia)",
+        "shelfmark": "(Ms\\. EVR I B 19a)"
+      },
+      "terms": "https://www.nli.org.il/en/discover/manuscripts/hebrew-manuscripts/terms-of-use",
+      "use": "Ktiv er katalogpartner, ikke fysisk eier. Ingen manuskriptbilder hentes. Krysskontroll for institusjon og signatur."
+    },
+    "UXLC": {
+      "url": "https://www.tanach.us/Pages/LC%20images.html",
+      "capture": {
+        "shelfmark": "(Firkovich B 19 A)",
+        "repository": "(Russian National Library \\(Saltykov-Shchedrin\\), St\\. Petersburg)"
+      },
+      "use": "Kun bibliografisk henvisning/krysskontroll: fri bruk av hebraisk tekst er ikke en fri lisens til denne dokumentasjonssiden.",
+      "terms": "https://www.tanach.us/License.html"
+    },
+    "UXLCold": {
+      "url": "https://tanach.us/PDFFiles/Genesis.acc.pdf",
+      "pages": [
+        0
+      ],
+      "capture": {
+        "dateLabel": "(ca\\.?\\s*1008)",
+        "specificDocumentLicence": "(This document is in the public domain)"
+      },
+      "use": "Referanse fra en konkret eldre UXLC-utgaves kolofon; ingen tekstutdrag fra bibel eller dokument distribueres. Cirkaår er ikke et presist intervall."
+    },
+    "IMJ": {
+      "url": "https://www.imj.org.il/sites/default/files/IMJ%20Great%20Isaiah%20Scroll%20Exhibition.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "capture": {
+        "dateLabel": "(ca\\.\\s*125 BCE)",
+        "repository": "housed in the (Israel Museum[’']s Shrine of the Book)"
+      },
+      "use": "Eierens utstillingsdokument; kun katalogfakta internt, ingen gjengivelse av tekst, galleri eller bilde. Offentlig gjenbruk av beskyttet materiale er ikke godkjent.",
+      "terms": "https://www.imj.org.il/en/content/usage-terms-israel-museum-website"
+    },
+    "SI-B": {
+      "url": "https://asia.si.edu/research/essays/the-dead-sea-scrolls-isaiah-scroll-manuscript-b/",
+      "capture": {
+        "shelfmark": "(1QIsab\\s*\\[1Q8\\])",
+        "dateLabel": "dated to the (first century C\\.E\\.)",
+        "repositoryCredit": "(Shrine of the Book[^.]{0,20}Israel Museum[^.]{0,20}Jerusalem)"
+      },
+      "use": "Utstillingskatalog, ikke automatisk eier. Herodiansk epoke eller før 73 er ikke lik nøyaktig kopiintervall. Ingen ny gjenbrukstillatelse av museumsprosa.",
+      "terms": "https://www.si.edu/termsofuse"
+    },
+    "LOC-11Q5": {
+      "url": "https://www.loc.gov/exhibits/scrolls/scr1.html",
+      "capture": {
+        "exhibitedColumns": "displayed here \\(cols\\.\\s*(14[-–]19)\\)",
+        "dateLabel": "Copied (ca\\.\\s*30\\s*[-–]\\s*50 C\\.E\\.)",
+        "catalogId": "(11QPs)",
+        "lender": "Courtesy of the (Israel Antiquities Authority)"
+      },
+      "use": "Utstillingskatalog: kolonnene 14–19, inkludert kol. XVII, var utstilt i 1993 med IAA som långiver. Ikke fyll nåværende repository fra dette utlånet.",
+      "terms": "https://www.loc.gov/legal/security-copyright-and-privacy/understanding-copyright/"
+    }
+  },
+  "references": {
+    "SEFARIA":{
+      "url":"https://developers.sefaria.org/reference/get-manuscripts",
+      "scope":"Offentlig API for oppslag mot digitaliseringen av B19A; utled per pilotvers når API-et identifiserer samme manuskriptslug. Kun faktiske foliosignaturer, kontrollert ekspandert bibeladresse og lenkemål. Ingen nedlasting av bildene eller annen tekst; katalogopplysning er ikke fotoavlesing."
+    },
+    "SBL-4Q37": {
+      "url": "https://www.sbl-site.org/wp-content/uploads/2024/11/SamaritanPentateuch_SBL_Anderson-Giles.pdf",
+      "scope": "Anderson/Giles, The Samaritan Pentateuch, avsnitt «4QDeutʲ (4Q37)»: ca. 50 e.Kr. Henviser til DJD. Sekundær, ikke eierkatalog; årstall kan ikke føres som verifisert DJD-datering."
+    },
+    "AGDER-4Q44": {
+      "url": "https://lyingpen.uia.no/dssinventoryproject/fascicle7/",
+      "scope": "DSS Inventory Project: PAM 41.209 og forstørrelsen 41.350, 4Q44, 5 Mos 32,37–43. Dette er en platereferanse, ikke oppbevaringssted."
+    },
+    "YARDENI": {
+      "url": "https://bibleproject.huji.ac.il/sites/default/files/he_bible_project/files/m._segal1.1.pdf",
+      "scope": "Ada Yardeni, paleografisk tillegg i An Early Leviticus Scroll from En-Gedi, sammenligning 1, fig. 6–7: en mulig datering av 5/6Ḥev 1b, kol. VII til sen 1. eller tidlig 2. århundre e.Kr. Knytter seg til sammenligningsfragmentet; ingen konstruert årsrekke eller fotografikontroll av variantord."
+    },
+    "IAA-HEV": {
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=he_IL",
+      "scope": "Offentlig IAA-katalogreferanse til 5/6Hev 1b, plate 891. Ikke utled repository av fotografens navn; IAA-vilkår privat bruk, ingen bilder/tekster/feltmasse kopiert."
+    },
+    "IAA-HEV-IMAGE": {
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/image/B-366235",
+      "scope": "Kandidat for inspeksjon: plate 891, bilde B-366235, IAA fragment 6; påstanden om selve ordet i kommentarer er ikke autoritetsdata. Identitet mellom IAA 6 og ETCBC f8_9 må bekreftes før stedene likestilles. Ikke avlest her."
+    },
+    "IAA-1Q8": {
+      "type": "already_existing",
+      "jsonPath": "kilder/belegg/leon-levy-utdrag.json#/records/1Q8",
+      "scope": "Kilde avlest fra eksisterende forskningspakke; katalogen gir en periode, ikke et år eller sikkert fysisk oppbevaringssted.",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1"
+    },
+    "IAA-4Q58": {
+      "type": "already_existing",
+      "jsonPath": "kilder/belegg/leon-levy-utdrag.json#/records/4Q58",
+      "scope": "Kilde avlest fra eksisterende forskningspakke; katalogen gir en periode, ikke et år eller sikkert fysisk oppbevaringssted.",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1"
+    },
+    "IAA-4Q37": {
+      "type": "already_existing",
+      "jsonPath": "kilder/belegg/leon-levy-utdrag.json#/records/4Q37",
+      "scope": "Kilde avlest fra eksisterende forskningspakke; katalogen gir en periode, ikke et år eller sikkert fysisk oppbevaringssted.",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1"
+    },
+    "IAA-4Q44": {
+      "type": "already_existing",
+      "jsonPath": "kilder/belegg/leon-levy-utdrag.json#/records/4Q44",
+      "scope": "Kilde avlest fra eksisterende forskningspakke; katalogen gir en periode, ikke et år eller sikkert fysisk oppbevaringssted.",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1"
+    },
+    "IAA-4Q88": {
+      "type": "already_existing",
+      "jsonPath": "kilder/belegg/leon-levy-utdrag.json#/records/4Q88",
+      "scope": "Kilde avlest fra eksisterende forskningspakke; katalogen gir en periode, ikke et år eller sikkert fysisk oppbevaringssted.",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1"
+    },
+    "IAA-11Q5": {
+      "type": "already_existing",
+      "jsonPath": "kilder/belegg/leon-levy-utdrag.json#/records/11Q5",
+      "scope": "Kilde avlest fra eksisterende forskningspakke; katalogen gir en periode, ikke et år eller sikkert fysisk oppbevaringssted.",
+      "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/11Q5-1"
+    }
+  },
+  "rightsIAA": "https://www.deadseascrolls.org.il/terms"
+}

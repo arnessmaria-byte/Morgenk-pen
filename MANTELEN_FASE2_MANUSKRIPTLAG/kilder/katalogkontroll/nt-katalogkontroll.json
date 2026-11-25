@@ -1,0 +1,2792 @@
+{
+  "directManuscriptImageReview": false,
+  "independentHumanCollations": 0,
+  "inputSha256": {
+    "kilder/belegg/clavis-utdrag.json": "2e5decc9b95797a1716d87823bf1178642207418987feb35215107e8c0218431",
+    "kilder/belegg/fedre-oversettelse-utdrag.json": "9deaecd9b31bcd8e119d6600cdcc53f74a6bcfa234cd0304cca330237a59b754",
+    "kilder/belegg/intf-liste.json": "889060164dea06bd8431658658a6fe3bded902081466282a895bf83a9dd5a566",
+    "kilder/belegg/intf-transkripsjoner.json": "6d7bd871b82e2a2b05de9a3d211f43ad2db7910b5a4e4f2c46c652ac1d7d208e",
+    "kilder/belegg/vulgata-clementina-utdrag.json": "5e9aa1855827d71aafb98d397b043f8a8d399bf8d05c4a605385a228621c6f8a",
+    "piloter/trinn0-10-piloter.json": "7937184eefe6ec18897149d861a5ba247f4058ba8e47a565025e1b7384885395",
+    "registre/kildelisenser.json": "c7a7ef062aea0eca8b9de95ed9b8b8ec1037369fca5d7ddf601eb0d645696dee",
+    "registre/vitneregister.json": "05df47dfbafd7d3dc5e55bd061148c5c7b428fa83eb23f6abafa942dc487aebc"
+  },
+  "nonphysical": {
+    "Chrys-Hom1Tim": {
+      "catalogueKey": "CPG 4436",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=4436",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Iohannes Chrysostomus In epistulam I ad Timotheum argumentum et homiliae 1-18",
+      "sourceResponseSha256": "30c2edbeb951a289db20e96585bace4c24e0fadbfa70fbe02bb6c4e2639e6de9",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "Clem-Strom": {
+      "catalogueKey": "CPG 1377",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1377",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Clemens Alexandrinus Patres Antenicaeni > Saecula I-III > Gnostici > Theodotus > Vide et Stromata",
+      "sourceResponseSha256": "93443a2cc6b2a68550714c71284796c5edaf17ade2247f932706be1b96f0be58",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "Cypr-Quir": {
+      "catalogueKey": "CPL 39",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=39",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Scriptores Antenicaeni > Cyprianus episcopus Carthaginensis > Genuina Personae aliae > Quirinus > Vide et Ad Quirinum (Testimoniorum libri iii)",
+      "sourceResponseSha256": "2d03757d99d184fbc25c793df4d33785a2f458eebc161aa49c89a62780dd9ab8",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "GregNyss-Eun": {
+      "catalogueKey": "CPG 3135",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=3135",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Patres Postnicaeni > Saeculum Quartum > Scriptores Asiae Minoris > Gregorius Nyssenus > Genuina Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Eunomius Cyzicenus > Vide et Contra Eunomium libri",
+      "sourceResponseSha256": "4644a13a12b77167a12e41e6e0b9e70dfcdf3f0d4a2d9ee08977923c724ebd9b",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "Hipp-Noet": {
+      "catalogueKey": "CPG 1902",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1902",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Personae aliae > Noetus > Vide et Patres Antenicaeni > Saecula I-III > Scriptores Romani > Hippolytus Romanus > Chronographica Et Polemica Contra Noetum",
+      "sourceResponseSha256": "5640ade63c87e9b349d988cd5ad339df3ceb75ed3a29475f6d70c96b95d8371c",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "Iren-AH": {
+      "catalogueKey": "CPG 1306",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1306",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Patres Antenicaeni > Saecula I-III > Antignostici > Irenaeus Lugdunensis > Genuina Aduersus haereses",
+      "sourceResponseSha256": "188a32213bf14f0649f62a105e37f403707feb76c462e07d9ef22c6f9c711b79",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "Orig-Cels": {
+      "catalogueKey": "CPG 1476",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1476",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Personae aliae > Celsus philosophus > Vide et Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Origenes > Tractatus et dialogi Contra Celsum",
+      "sourceResponseSha256": "9acd87bc66314a2fd038bb2f16db8dd411df1e642c58925089f532246bbe1cb2",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "Orig-CommJo": {
+      "catalogueKey": "CPG 1453",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1453",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Origenes > Exegetica In Novum Testamentum Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Theodorus Mopsuestenus > Vide et Commentarii in Iohannem",
+      "sourceResponseSha256": "03722d39ab3ec086eddd052b9484a8310700934b882d3d569c3b7ac29bf5c542",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "Tert-Prax": {
+      "catalogueKey": "CPL 26",
+      "catalogueURL": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=26",
+      "dateRange": null,
+      "kind": "verk",
+      "limitation": "Katalogen identifiserer verket; periodeplasseringen er ikke en importert årsdatering. Ikke en fysisk kodeks.",
+      "repository": null,
+      "sourcePlacement": "Scriptores Antenicaeni > Tertullianus > Opera montanistica Personae aliae > Praxeas > Vide et Aduersus Praxean",
+      "sourceResponseSha256": "b81808e51c20cc40cb6f0187d23288b40bf8d673e021265e938615276abc0449",
+      "sourceRetrieved": "2026-11-25"
+    },
+    "VL": {
+      "dateRange": null,
+      "kind": "oversettelsestradisjon",
+      "limitation": "Samlebetegnelse. Enkelthåndskrifter registreres med Beuron-nummer når de er lest.",
+      "referenceSource": {
+        "note": "Vetus Latina-utgaven (Beuron).",
+        "register": "PATR-UTG"
+      },
+      "repository": null
+    },
+    "Vg-Clem": {
+      "dateRange": null,
+      "kind": "trykt oversettelsesutgave",
+      "limitation": "Trykt utgave av den latinske oversettelsen. Vulgata-håndskriftene er ikke registrert.",
+      "referenceSource": {
+        "register": "VG-CLEM",
+        "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766"
+      },
+      "repository": null
+    }
+  },
+  "openEvidence": [
+    {
+      "action": "Tischendorfs utgave av Codex Claromontanus (1852) eller bildene hos BnF",
+      "hand": "C2",
+      "reading": "a",
+      "reason": "Katalogen bekrefter ikke lesningen; krever avlesing.",
+      "ref": "1 Tim 3,16",
+      "siglum": "06"
+    },
+    {
+      "action": "Tischendorfs utgave av Codex Claromontanus (1852) eller bildene hos BnF",
+      "hand": "*",
+      "reading": "c",
+      "reason": "Katalogen bekrefter ikke lesningen; krever avlesing.",
+      "ref": "1 Tim 3,16",
+      "siglum": "06"
+    },
+    {
+      "action": "Bildene hos Biblioteca Apostolica Vaticana (Vat. gr. 2066, fol. 268r) eller ECM Apokalypse",
+      "hand": null,
+      "reading": "b",
+      "reason": "Katalogen bekrefter ikke lesningen; krever avlesing.",
+      "ref": "Åp 22,19",
+      "siglum": "046"
+    }
+  ],
+  "physicalManuscripts": {
+    "01": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20001&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 399,
+        "notBefore": 300
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20001,
+      "repository": [
+        {
+          "country": "United Kingdom",
+          "institution": "British Library",
+          "place": "London",
+          "shelfmark": "Add. 43725"
+        }
+      ],
+      "sourceLabel": "IV",
+      "sourceResponseSha256": "7f0a4c62f8d8a4b78eb0425b5c21df4d25b2a4d9a5d7afd903b26289559a9aad",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "01",
+      "type": "majuskel"
+    },
+    "017": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20017&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 899,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20017,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 63"
+        }
+      ],
+      "sourceLabel": "IX",
+      "sourceResponseSha256": "5b53065d17e18dedfddb30a8a8d2dce5b89aa7f8f1e9b601e5d38025ab9160cb",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "017",
+      "type": "majuskel"
+    },
+    "019": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20019&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 799,
+        "notBefore": 700
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20019,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 62"
+        }
+      ],
+      "sourceLabel": "VIII",
+      "sourceResponseSha256": "a4ab17fd38abc1d81d467c38d60a7bc74e331c31e4370a74aa73cf97d7de3a62",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "019",
+      "type": "majuskel"
+    },
+    "02": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20002&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 499,
+        "notBefore": 400
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20002,
+      "repository": [
+        {
+          "country": "United Kingdom",
+          "institution": "British Library",
+          "place": "London",
+          "shelfmark": "Royal 1 D.VIII"
+        }
+      ],
+      "sourceLabel": "V",
+      "sourceResponseSha256": "abcf00dba486b48146bee86bd3b2c036076bc29df38d36af7af2702737d0d0cb",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "02",
+      "type": "majuskel"
+    },
+    "020": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20020&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 899,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20020,
+      "repository": [
+        {
+          "country": "Italy",
+          "institution": "Biblioteca Angelica",
+          "place": "Rome",
+          "shelfmark": "Ang. gr. 39"
+        }
+      ],
+      "sourceLabel": "IX",
+      "sourceResponseSha256": "77130f6b9694eb783cac5d20b41a3d22f516bc68fe61d80c27bdba9f264df079",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "020",
+      "type": "majuskel"
+    },
+    "025": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20025&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 899,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20025,
+      "onlyExcludedWitness": true,
+      "repository": [
+        {
+          "country": "Russia",
+          "institution": "National Library of Russia",
+          "place": "St. Petersburg",
+          "shelfmark": "Ф. № 906 / Gr. 225 "
+        }
+      ],
+      "sourceLabel": "IX",
+      "sourceResponseSha256": "361934a990f47cd6a28156e94477d1fc2065a0475739c1d08a3356478073eecf",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "025",
+      "type": "majuskel"
+    },
+    "03": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20003&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 399,
+        "notBefore": 300
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20003,
+      "repository": [
+        {
+          "country": "Vatican City",
+          "institution": "Biblioteca Apostolica Vaticana",
+          "place": "Città del Vaticano",
+          "shelfmark": "Vat. gr. 1209, p. 1235-1518"
+        }
+      ],
+      "sourceLabel": "IV",
+      "sourceResponseSha256": "98c28a426fed30e311e72137408d3a2dec63a5b993dd9bef21a43bd201a40509",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "03",
+      "type": "majuskel"
+    },
+    "032": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20032&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 499,
+        "notBefore": 400
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20032,
+      "repository": [
+        {
+          "country": "USA",
+          "institution": "Smithsonian Institution, Freer Gallery of Art",
+          "place": "Washington D.C.",
+          "shelfmark": "6.274"
+        },
+        {
+          "country": "USA",
+          "institution": "Smithsonian Institution, Freer Gallery of Art",
+          "place": "Washington D.C.",
+          "shelfmark": "F1906.274"
+        }
+      ],
+      "sourceLabel": "V",
+      "sourceResponseSha256": "119ee96afcc05271d29d169b73b3b19de4fb938fdf65590182ee34456241608c",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "032",
+      "type": "majuskel"
+    },
+    "037": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20037&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 899,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20037,
+      "repository": [
+        {
+          "country": "Switzerland",
+          "institution": "Stiftsbibliothek",
+          "place": "St. Gallen",
+          "shelfmark": "Cod. Sang. 48"
+        }
+      ],
+      "sourceLabel": "IX",
+      "sourceResponseSha256": "c17f12f5b7f8f7063a8cbd083c2ba690865ef9308b39aa7cf40e8c1f4c1174f3",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "037",
+      "type": "majuskel"
+    },
+    "038": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20038&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 899,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20038,
+      "repository": [
+        {
+          "country": "Georgia",
+          "institution": "National Center of Manuscripts",
+          "place": "Tbilisi",
+          "shelfmark": "Gr. 28"
+        }
+      ],
+      "sourceLabel": "IX",
+      "sourceResponseSha256": "1ca9e439f2af86969c911444a1dc0454a0990df470b80cb16f00e9018182474d",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "038",
+      "type": "majuskel"
+    },
+    "04": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20004&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 499,
+        "notBefore": 400
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20004,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 9"
+        }
+      ],
+      "sourceLabel": "V",
+      "sourceResponseSha256": "5aa5cde9f5590dbae5958cbc7ac8c4457bc51c3ac8582593a42dc8131fea55f8",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "04",
+      "type": "majuskel"
+    },
+    "041": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20041&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 899,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20041,
+      "repository": [
+        {
+          "country": "Russia",
+          "institution": "National Library of Russia",
+          "place": "St. Petersburg",
+          "shelfmark": "Ф. № 906 / Gr. 34"
+        }
+      ],
+      "sourceLabel": "IX",
+      "sourceResponseSha256": "2586d12ff32b1107e112ec91d5c899c6cda3008859b1ac7b41a1134cb110c618",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "041",
+      "type": "majuskel"
+    },
+    "044": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20044&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20044,
+      "repository": [
+        {
+          "country": "Greece",
+          "institution": "Great Lavra Monastery",
+          "place": "Athos",
+          "shelfmark": "B' 52"
+        }
+      ],
+      "sourceLabel": "IX/X",
+      "sourceResponseSha256": "7b65e612fcbae05d1cef7c2d65e8f77fdd36b7593c56fc02dfe93b90062c48e3",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "044",
+      "type": "majuskel"
+    },
+    "046": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20046&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 900
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20046,
+      "repository": [
+        {
+          "country": "Vatican City",
+          "institution": "Biblioteca Apostolica Vaticana",
+          "place": "Città del Vaticano",
+          "shelfmark": "Vat. gr. 2066, fol. 249-268"
+        }
+      ],
+      "sourceLabel": "X",
+      "sourceResponseSha256": "205804b373af6c16159e2e2fe8cd89e19c1012489caba8adf26f1f71d3c53f2d",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "046",
+      "type": "majuskel"
+    },
+    "049": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20049&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 900
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20049,
+      "repository": [
+        {
+          "country": "Greece",
+          "institution": "Great Lavra Monastery",
+          "place": "Athos",
+          "shelfmark": "A' 88"
+        }
+      ],
+      "sourceLabel": "X",
+      "sourceResponseSha256": "9ad78828f402917f33e4ea192abbe5e202900e9d526da600bcb310037e347a94",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "049",
+      "type": "majuskel"
+    },
+    "05": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20005&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 499,
+        "notBefore": 400
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20005,
+      "repository": [
+        {
+          "country": "United Kingdom",
+          "institution": "Cambridge University Library",
+          "place": "Cambridge",
+          "shelfmark": "Ms. Nn. 2.41"
+        }
+      ],
+      "sourceLabel": "V",
+      "sourceResponseSha256": "ed4a79613495af8a41dc066efde720d0df99c8a2c061ab0a3d0acba0dd06c937",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "05",
+      "type": "majuskel"
+    },
+    "06": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20006&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 599,
+        "notBefore": 500
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20006,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 107 AB"
+        }
+      ],
+      "sourceLabel": "VI",
+      "sourceResponseSha256": "c006c85e94f10e233f80966f558b0a1d6bf7e3f4624647ba43a0bd48cbc8bada",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "06",
+      "type": "majuskel"
+    },
+    "08": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20008&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 599,
+        "notBefore": 500
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 20008,
+      "repository": [
+        {
+          "country": "United Kingdom",
+          "institution": "Bodleian Library",
+          "place": "Oxford",
+          "shelfmark": "Ms. Laud. Gr. 35"
+        }
+      ],
+      "sourceLabel": "VI",
+      "sourceResponseSha256": "82b53931db326e509535f5c47d6936d37d7512a0bb0963b28640fe63356d62e1",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "08",
+      "type": "majuskel"
+    },
+    "1": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30001&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1199,
+        "notBefore": 1100
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30001,
+      "repository": [
+        {
+          "country": "Switzerland",
+          "institution": "Universitätsbibliothek",
+          "place": "Basel",
+          "shelfmark": "AN IV 2"
+        }
+      ],
+      "sourceLabel": "XII",
+      "sourceResponseSha256": "d32cb56a7557fa39871968aace64da43aa74fa7116751f434fe1ee4f15b00411",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "1",
+      "type": "minuskel"
+    },
+    "1006": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31006&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1099,
+        "notBefore": 1000
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 31006,
+      "repository": [
+        {
+          "country": "Greece",
+          "institution": "Iviron Monastery",
+          "place": "Athos",
+          "shelfmark": "56 (Monastery 728)"
+        }
+      ],
+      "sourceLabel": "XI",
+      "sourceResponseSha256": "c28dee5f6c6b10bf595925c3cc23c77f516416a28988d9fc5d9d3ab3bc316b55",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "1006",
+      "type": "minuskel"
+    },
+    "1175": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31175&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 900
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 31175,
+      "repository": [
+        {
+          "country": "Greece",
+          "institution": "St. John the Theologian Monastery",
+          "place": "Patmos",
+          "shelfmark": "16"
+        }
+      ],
+      "sourceLabel": "X",
+      "sourceResponseSha256": "f636caacb002f3bb198bc1fde389044d5e9c998358781c068148856d83e111b9",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "1175",
+      "type": "minuskel"
+    },
+    "13": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30013&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1299,
+        "notBefore": 1100
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30013,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 50"
+        }
+      ],
+      "sourceLabel": "XII/XIII",
+      "sourceResponseSha256": "5ac2705d65b793994a7a9a9374b35945717e2b657f8ec3c6f0bf906ecb949621",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "13",
+      "type": "minuskel"
+    },
+    "1424": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31424&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 31424,
+      "repository": [
+        {
+          "country": "Greece",
+          "institution": "Kosinitza Monastery",
+          "place": "Drama",
+          "shelfmark": "3 (3P)"
+        }
+      ],
+      "sourceLabel": "IX/X",
+      "sourceResponseSha256": "d90a94e01265016c72c2e54458762e37e04b9e19845be601b3929f4e670cf6bd",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "1424",
+      "type": "minuskel"
+    },
+    "1739": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31739&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 900
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 31739,
+      "repository": [
+        {
+          "country": "Greece",
+          "institution": "Great Lavra Monastery",
+          "place": "Athos",
+          "shelfmark": "B' 64"
+        }
+      ],
+      "sourceLabel": "X",
+      "sourceResponseSha256": "e2b5f93c807884e9579849ddb2d2066f5827d9ddee30063bc60d1bcedb591ed8",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "1739",
+      "type": "minuskel"
+    },
+    "18": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30018&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1364,
+        "notBefore": 1363
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30018,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 47, fol 1-346"
+        }
+      ],
+      "sourceLabel": "1363/4",
+      "sourceResponseSha256": "1c60ff776b693fcad974d46092e0e2c423a9033e149667eeb304765710583e3c",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "18",
+      "type": "minuskel"
+    },
+    "1854": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31854&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 900
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 31854,
+      "repository": [
+        {
+          "country": "Greece",
+          "institution": "Iviron Monastery",
+          "place": "Athos",
+          "shelfmark": "25 (Monastery 231)"
+        }
+      ],
+      "sourceLabel": "XI",
+      "sourceResponseSha256": "e3a1b5356e0b9448fe4ef4f158a5c028d08ad94c614bba5cfd09d1c9be57a541",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "1854",
+      "type": "minuskel"
+    },
+    "1891": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31891&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 900
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 31891,
+      "repository": [
+        {
+          "country": "Russia",
+          "institution": "National Library of Russia",
+          "place": "St. Petersburg",
+          "shelfmark": "Ф. № 906 / Gr. 317"
+        },
+        {
+          "country": "Israel",
+          "institution": "Patriarchate of Jerusalem",
+          "place": "Jerusalem",
+          "shelfmark": "Saba 107"
+        }
+      ],
+      "sourceLabel": "X",
+      "sourceResponseSha256": "ecd7e5339698c5183a87dfffb4d3a5f791ca43672a625e3205cd89af580133bc",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "1891",
+      "type": "minuskel"
+    },
+    "2050": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32050&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1107,
+        "notBefore": 1107
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 32050,
+      "repository": [
+        {
+          "country": "Spain",
+          "institution": "Real Biblioteca del Monasterio de El Escorial",
+          "place": "El Escorial",
+          "shelfmark": "X-III-6, fol. 235-241"
+        }
+      ],
+      "sourceLabel": "1107",
+      "sourceResponseSha256": "17174e873bd2781b60ea72e21fbafc0f9752a30ebcfddbc14d7cedf17bb5a776",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "2050",
+      "type": "minuskel"
+    },
+    "28": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30028&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1099,
+        "notBefore": 1000
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30028,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 379"
+        }
+      ],
+      "sourceLabel": "XI",
+      "sourceResponseSha256": "d006dd46f6765727c75f3b3913cf100615706dd5c41008a8b5993e6ff96a9dea",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "28",
+      "type": "minuskel"
+    },
+    "2818": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32818&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1199,
+        "notBefore": 1100
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 32818,
+      "repository": [
+        {
+          "country": "United Kingdom",
+          "institution": "New College ",
+          "place": "Oxford",
+          "shelfmark": "New College Ms. 58"
+        }
+      ],
+      "sourceLabel": "XII",
+      "sourceResponseSha256": "eaff32dc676f0789fc9142c9cb224cb6152a6132b8e7e108884f133389974162",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "2818",
+      "type": "minuskel"
+    },
+    "307": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30307&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 900
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30307,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Coislin Grec 25"
+        }
+      ],
+      "sourceLabel": "X",
+      "sourceResponseSha256": "8dd3aa7452bcfb35cdfd8bf3ea609d6de6bfa803632768ab3b208cc553b1dc5c",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "307",
+      "type": "minuskel"
+    },
+    "323": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30323&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1199,
+        "notBefore": 1100
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30323,
+      "repository": [
+        {
+          "country": "Switzerland",
+          "institution": "Bibliothèque publique et universitaire",
+          "place": "Genf",
+          "shelfmark": "Gr. 20"
+        }
+      ],
+      "sourceLabel": "XII",
+      "sourceResponseSha256": "231c121c411fe607cca6383fb76b47fdcfa68030a0dcc4bec08cb4bfab797b52",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "323",
+      "type": "minuskel"
+    },
+    "33": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30033&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 999,
+        "notBefore": 900
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30033,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 14, fol. 51r-143v"
+        }
+      ],
+      "sourceLabel": "X",
+      "sourceResponseSha256": "6e0b5da84ae29a7a7aaa3422434339930204063fae4cb2d807bcc393c978aea7",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "33",
+      "type": "minuskel"
+    },
+    "35": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30035&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1399,
+        "notBefore": 1300
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30035,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Coislin Grec 199"
+        }
+      ],
+      "sourceLabel": "XIV",
+      "sourceResponseSha256": "dc4578f04e7db0b897e68d157e7cefcb8e11df0e90386739661689e311d5f695",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "35",
+      "type": "minuskel"
+    },
+    "453": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30453&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1399,
+        "notBefore": 1300
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30453,
+      "repository": [
+        {
+          "country": "Vatican City",
+          "institution": "Biblioteca Apostolica Vaticana",
+          "place": "Città del Vaticano",
+          "shelfmark": "Barb. gr. 582"
+        }
+      ],
+      "sourceLabel": "XIV",
+      "sourceResponseSha256": "85e28936fc633be61d8798cf6ac9d5367179d69d5dd2dbb9bdd3eea53b530b03",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "453",
+      "type": "minuskel"
+    },
+    "469": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30469&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1299,
+        "notBefore": 1200
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30469,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 102A"
+        }
+      ],
+      "sourceLabel": "XIII",
+      "sourceResponseSha256": "99c3dc800905fc8466f5278b851a8e27e9667afcfaa12698196aef4778723bff",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "469",
+      "type": "minuskel"
+    },
+    "565": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30565&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 899,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30565,
+      "repository": [
+        {
+          "country": "Russia",
+          "institution": "National Library of Russia",
+          "place": "St. Petersburg",
+          "shelfmark": "Ф. № 906 /Gr. 53"
+        }
+      ],
+      "sourceLabel": "IX",
+      "sourceResponseSha256": "66a9b0c54e4f0cefb050727b8dabf14885aa91eac4ae4a6d5611a8a286c29a2a",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "565",
+      "type": "minuskel"
+    },
+    "6": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30006&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1299,
+        "notBefore": 1200
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30006,
+      "repository": [
+        {
+          "country": "France",
+          "institution": "Bibliothèque Nationale",
+          "place": "Paris",
+          "shelfmark": "Gr. 112"
+        }
+      ],
+      "sourceLabel": "XIII",
+      "sourceResponseSha256": "998716b4ace92039a3891272d6371960a681e454724207d8fd88b03f1aadaaf8",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "6",
+      "type": "minuskel"
+    },
+    "614": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30614&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1299,
+        "notBefore": 1200
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30614,
+      "repository": [
+        {
+          "country": "Italy",
+          "institution": "Biblioteca Ambrosiana",
+          "place": "Milan",
+          "shelfmark": "E. 97 sup."
+        }
+      ],
+      "sourceLabel": "XIII",
+      "sourceResponseSha256": "2fdd328cbfcb48e9df83ea9dc913f340b715f5b05ce1fd4e94be051c76ec44d2",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "614",
+      "type": "minuskel"
+    },
+    "700": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30700&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1099,
+        "notBefore": 1000
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30700,
+      "repository": [
+        {
+          "country": "United Kingdom",
+          "institution": "British Library",
+          "place": "London",
+          "shelfmark": "Egerton 2610"
+        }
+      ],
+      "sourceLabel": "XI",
+      "sourceResponseSha256": "f6135fad03d4c0eb0bcbe63b6a7e416fd8f17f17e393389ff4370cc717fc0c98",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "700",
+      "type": "minuskel"
+    },
+    "81": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30081&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1044,
+        "notBefore": 1044
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30081,
+      "repository": [
+        {
+          "country": "Egypt",
+          "institution": "Greek Orthodox Patriarchate of Alexandria",
+          "place": "Alexandria",
+          "shelfmark": "477"
+        },
+        {
+          "country": "United Kingdom",
+          "institution": "British Library",
+          "place": "London",
+          "shelfmark": "Add. 20003"
+        }
+      ],
+      "sourceLabel": "1044",
+      "sourceResponseSha256": "4f6e22b3ee7af88c76c235cc9faa7c54f91397c4e1484ebd283dfc2155ca7c08",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "81",
+      "type": "minuskel"
+    },
+    "892": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30892&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 899,
+        "notBefore": 800
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30892,
+      "repository": [
+        {
+          "country": "United Kingdom",
+          "institution": "British Library",
+          "place": "London",
+          "shelfmark": "Add. 33277"
+        }
+      ],
+      "sourceLabel": "IX",
+      "sourceResponseSha256": "782d592a5d418364cec97c52f5941ef75d64fa0b5545f9181cd12cfe77167fa8",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "892",
+      "type": "minuskel"
+    },
+    "945": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30945&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 1099,
+        "notBefore": 1000
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 30945,
+      "repository": [
+        {
+          "country": "Greece",
+          "institution": "Dionysiou Monastery",
+          "place": "Athos",
+          "shelfmark": "37 (Monastery 124)"
+        }
+      ],
+      "sourceLabel": "XI",
+      "sourceResponseSha256": "5ef8ccd8588ad0b16335b6e59217ebe8d674e3d9070fcbc9184c6a097ce64ada",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "945",
+      "type": "minuskel"
+    },
+    "P45": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10045&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 299,
+        "notBefore": 200
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 10045,
+      "repository": [
+        {
+          "country": "Austria",
+          "institution": "Österreichische Nationalbibliothek",
+          "place": "Wien",
+          "shelfmark": "Pap. G. 31974"
+        },
+        {
+          "country": "Ireland",
+          "institution": "Chester Beatty Library",
+          "place": "Dublin",
+          "shelfmark": "CBL BP I"
+        }
+      ],
+      "sourceLabel": "III",
+      "sourceResponseSha256": "27723c06b4fb38c658afefcb34447cc52058bee625e2347aca10e20eb17e2036",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "P45",
+      "type": "papyrus"
+    },
+    "P66": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10066&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 225,
+        "notBefore": 200
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 10066,
+      "repository": [
+        {
+          "country": "Switzerland",
+          "institution": "Bibliotheca Bodmeriana",
+          "place": "Cologny/Genf",
+          "shelfmark": "P. Bodmer II"
+        },
+        {
+          "country": "Ireland",
+          "institution": "Chester Beatty Library",
+          "place": "Dublin",
+          "shelfmark": "CBL BP XIX"
+        },
+        {
+          "country": "Germany",
+          "institution": "Institut für Altertumskunde",
+          "place": "Köln",
+          "shelfmark": "Inv. Nr. 4274/4298"
+        }
+      ],
+      "sourceLabel": "III (A)",
+      "sourceResponseSha256": "1c3c7b066b966c05df841695a83797d35157b8251cd730f42af4badbe25053da",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "P66",
+      "type": "papyrus"
+    },
+    "P74": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10074&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 699,
+        "notBefore": 600
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 10074,
+      "repository": [
+        {
+          "country": "Switzerland",
+          "institution": "Bibliotheca Bodmeriana",
+          "place": "Cologny/Genf",
+          "shelfmark": "P. Bodmer XVII"
+        }
+      ],
+      "sourceLabel": "VII",
+      "sourceResponseSha256": "ffee9ff741c88dbe6cf73dfaa4e0405ae02194c290c6f0642796cc6245dd20c5",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "P74",
+      "type": "papyrus"
+    },
+    "P75": {
+      "catalogueURL": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10075&detail=shelfInstance&format=json",
+      "dateRange": {
+        "notAfter": 225,
+        "notBefore": 200
+      },
+      "dateScope": "manuscript_not_correcting_hand",
+      "docID": 10075,
+      "repository": [
+        {
+          "country": "Vatican City",
+          "institution": "Biblioteca Apostolica Vaticana",
+          "place": "Città del Vaticano",
+          "shelfmark": "Pap. Hanna.1 (Mater.Verbi)"
+        }
+      ],
+      "sourceLabel": "III (A)",
+      "sourceResponseSha256": "07991911b1baee914a08628c790b3306204853aa0e523da28edfa83b4ad607d5",
+      "sourceRetrieved": "2026-11-25",
+      "sourceSiglum": "P75",
+      "type": "papyrus"
+    }
+  },
+  "schemaVersion": "nt-registerkontroll-1",
+  "scope": "Kun gjenkontroll av eksisterende godkjenningskandidat; ingen ny innhenting fra nettsteder, tekstimport eller lisensgodkjenning.",
+  "sourceDate": "2026-11-25",
+  "sourceGates": [
+    {
+      "captainApproval": {
+        "approved": null,
+        "by": null,
+        "date": null
+      },
+      "id": "INTF-LISTE",
+      "openPoints": [
+        "Skriftlig avklaring med INTF om bruk av API-et når laget settes i drift."
+      ],
+      "status": "kun_henvisning"
+    },
+    {
+      "captainApproval": {
+        "approved": null,
+        "by": null,
+        "date": null
+      },
+      "id": "INTF-TRANSKR",
+      "openPoints": [],
+      "status": "fri_tekst"
+    },
+    {
+      "captainApproval": {
+        "approved": null,
+        "by": null,
+        "date": null
+      },
+      "id": "CLAVIS",
+      "openPoints": [],
+      "status": "kun_henvisning"
+    },
+    {
+      "captainApproval": {
+        "approved": null,
+        "by": null,
+        "date": null
+      },
+      "id": "PATR-UTG",
+      "openPoints": [],
+      "status": "kun_henvisning"
+    },
+    {
+      "captainApproval": {
+        "approved": null,
+        "by": null,
+        "date": null
+      },
+      "id": "VG-CLEM",
+      "openPoints": [
+        "Clementina er en utgave fra 1592. Håndskriftene bak leses i Stuttgart-utgavens apparat (vernet)."
+      ],
+      "status": "fri_tekst"
+    }
+  ],
+  "statusCounts": {
+    "manuscriptWitnesses:BEKREFTET_TRANSKRIPSJON": 66,
+    "manuscriptWitnesses:IKKE_AVLEST": 3,
+    "patristicWitnesses:BEKREFTET_I_OVERSETTELSE": 17,
+    "versionWitnesses:BEKREFTET_UTGAVETEKST": 5,
+    "versionWitnesses:IKKE_AVLEST": 1
+  },
+  "units": [
+    {
+      "excluded": [],
+      "readings": [
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 20002,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#02@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 30r",
+              "mustReadIn": null,
+              "pageID": 130,
+              "recordedFolio": "30r",
+              "siglum": "02",
+              "sourceSha256": "2c18fe3762556e30ae08fc012dbf4e19aa04d585b32bf7c27f6c35b4a2aa338f",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20002&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20017,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#017@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 82r",
+              "mustReadIn": null,
+              "pageID": 1750,
+              "recordedFolio": "82r",
+              "siglum": "017",
+              "sourceSha256": "f051b9c4a6dba214c4236025ef862008830abfd083837ae623c694718dfd38d4",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20017&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20037,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#037@Mark.1.1",
+              "hand": null,
+              "locator": "INTF-side/blad 133",
+              "mustReadIn": null,
+              "pageID": 1350,
+              "recordedFolio": 133,
+              "siglum": "037",
+              "sourceSha256": "d3210ef7a44b3788150822fef20ae28c687b95acf3ad5b2c7ad3b16cd7cc9754",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20037&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20041,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#041@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 99r",
+              "mustReadIn": null,
+              "pageID": 2000,
+              "recordedFolio": "99r",
+              "siglum": "041",
+              "sourceSha256": "6c67a31cac8942f73783096a886b8eab72cc1476f4ffa544c6fdbe358d22b338",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20041&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30033,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#33@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 114v",
+              "mustReadIn": null,
+              "pageID": 2350,
+              "recordedFolio": "114v",
+              "siglum": "33",
+              "sourceSha256": "e4c30098618028809396d1ec6b01df2607c9439073041c08143e995224e9f237",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30033&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30565,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#565@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 131r",
+              "mustReadIn": null,
+              "pageID": 2580,
+              "recordedFolio": "131r",
+              "siglum": "565",
+              "sourceSha256": "61524e41c2e05dce773b97381bb3ca975ad49cf599e074fc40537d00c05bd543",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30565&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30892,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#892@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 114r",
+              "mustReadIn": null,
+              "pageID": 2320,
+              "recordedFolio": "114r",
+              "siglum": "892",
+              "sourceSha256": "14ab53114649e69584cce0cf20d544d9cbb4c672c4d5190e93d58eb306aa349e",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30892&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 31424,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#1424@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 56r",
+              "mustReadIn": null,
+              "pageID": 1110,
+              "recordedFolio": "56r",
+              "siglum": "1424",
+              "sourceSha256": "03a646aa9412b1d4691a2d5c99362a3a8dd645edc694ef9c1a5fe2235c8f6c65",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31424&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30700,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#700@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 092r",
+              "mustReadIn": null,
+              "pageID": 1880,
+              "recordedFolio": "092r",
+              "siglum": "700",
+              "sourceSha256": "9ba0042ea6d8d976b69993f56e28ac98d9e8655b7de3a59102702470daf97d95",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30700&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30001,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#1@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 199r",
+              "mustReadIn": null,
+              "pageID": 4050,
+              "recordedFolio": "199r",
+              "siglum": "1",
+              "sourceSha256": "b8efceea21f18fa10b5592b0943b627d246c889473aee8858c5bf4272c513331",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30001&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30013,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#13@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 042r",
+              "mustReadIn": null,
+              "pageID": 900,
+              "recordedFolio": "042r",
+              "siglum": "13",
+              "sourceSha256": "c0e269712a5762fde61936468907a55746a6a7362921b55321558b40c21ad18a",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30013&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "category": "versionWitnesses",
+              "certainty": null,
+              "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#Mark 1:1",
+              "hand": null,
+              "locator": "Mark 1:1",
+              "mustReadIn": null,
+              "siglum": "Vg-Clem",
+              "sourceSha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+              "status": "BEKREFTET_UTGAVETEKST",
+              "witnessLimit": "Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen."
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": [
+                "a",
+                "b"
+              ],
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.10.5",
+              "hand": null,
+              "locator": "III.10.5",
+              "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)",
+              "siglum": "Iren-AH",
+              "sourceSha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": "Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen."
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": [
+                "a",
+                "b"
+              ],
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.16.3",
+              "hand": null,
+              "locator": "III.16.3",
+              "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)",
+              "siglum": "Iren-AH",
+              "sourceSha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": "Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen."
+            }
+          ],
+          "isR10": true,
+          "label": "υἱοῦ τοῦ θεοῦ",
+          "readingId": "a"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 20001,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#01@Mark.1.1",
+              "hand": "C1",
+              "locator": "fol. 217v",
+              "mustReadIn": null,
+              "pageID": 360,
+              "recordedFolio": "217v",
+              "siglum": "01",
+              "sourceSha256": "f1e0094644c4b49232ca3823062e78d9e2a4806580fd2727fd890e1811714dd5",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20003,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#03@Mark.1.1",
+              "hand": null,
+              "locator": "INTF-side/blad 1277",
+              "mustReadIn": null,
+              "pageID": 460,
+              "recordedFolio": 1277,
+              "siglum": "03",
+              "sourceSha256": "292e28849409db2f520fd19456d9acff49029e3dfa07f8612ebe88d6b7a2e12e",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20003&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20005,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#05@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 285v",
+              "mustReadIn": null,
+              "pageID": 5850,
+              "recordedFolio": "285v",
+              "siglum": "05",
+              "sourceSha256": "3d41ab509987abcef87c96e28fb6267fe0acba741916320aea1dbfb720a0faa6",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20005&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20019,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#019@Mark.1.1",
+              "hand": null,
+              "locator": "fol. 70v",
+              "mustReadIn": null,
+              "pageID": 1450,
+              "recordedFolio": "70v",
+              "siglum": "019",
+              "sourceSha256": "839c00774c833a46a85c3a6bdae12a27aaa9c3dae59f9ed2301da69d29e5e570",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20019&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20032,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#032@Mark.1.1",
+              "hand": null,
+              "locator": "INTF-side/blad 311",
+              "mustReadIn": null,
+              "pageID": 3110,
+              "recordedFolio": 311,
+              "siglum": "032",
+              "sourceSha256": "b4b22024f7e02a0b4958e1462a14bd436363a788106f5999e3c2c03d27b8437e",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20032&indexContent=Mark.1.1&format=teiraw"
+            }
+          ],
+          "isR10": false,
+          "label": "υἱοῦ θεοῦ",
+          "readingId": "b"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 20001,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#01@Mark.1.1",
+              "hand": "*",
+              "locator": "fol. 217v",
+              "mustReadIn": null,
+              "pageID": 360,
+              "recordedFolio": "217v",
+              "siglum": "01",
+              "sourceSha256": "f1e0094644c4b49232ca3823062e78d9e2a4806580fd2727fd890e1811714dd5",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20038,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#038@Mark.1.1",
+              "hand": null,
+              "locator": null,
+              "mustReadIn": null,
+              "pageID": 1490,
+              "recordedFolio": "",
+              "siglum": "038",
+              "sourceSha256": "48a2590bb6df4be2228be96fd3717df227b763b1ca79ce2e6b7bfb3d5487080e",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20038&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30028,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#28@Mark.1.1",
+              "hand": "C",
+              "locator": "fol. 84r",
+              "mustReadIn": null,
+              "pageID": 1740,
+              "recordedFolio": "84r",
+              "siglum": "28",
+              "sourceSha256": "39a87c6b8fd6ff70cdb69967af127646c6386047c55d9383e152e650d432f8ec",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30028&indexContent=Mark.1.1&format=teiraw"
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.11.8",
+              "hand": null,
+              "locator": "III.11.8",
+              "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)",
+              "siglum": "Iren-AH",
+              "sourceSha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-Cels@II.4",
+              "hand": null,
+              "locator": "II.4",
+              "mustReadIn": "Borret, Sources Chrétiennes 132 flg.; Koetschau, GCS",
+              "siglum": "Orig-Cels",
+              "sourceSha256": "b9f385a048c18158c2f74dcd37062f48a1c68a5d05bdb07270a93692d172da2e",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-CommJo@I.14(ANF)",
+              "hand": null,
+              "locator": "I.14 (ANF-inndeling)",
+              "mustReadIn": "Blanc, Sources Chrétiennes 120 flg.; Preuschen, GCS",
+              "siglum": "Orig-CommJo",
+              "sourceSha256": "3861096b158e12bc13f4516baac913cbd3d921c607862a7eace4f0257b3aefa5",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            }
+          ],
+          "isR10": false,
+          "label": "uten «Guds Sønn»",
+          "readingId": "c"
+        }
+      ],
+      "ref": "Mark 1,1",
+      "variantId": "NT-MRK-001-001-01"
+    },
+    {
+      "excluded": [],
+      "readings": [
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 20002,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#02@John.1.18",
+              "hand": null,
+              "locator": "fol. 66r",
+              "mustReadIn": null,
+              "pageID": 490,
+              "recordedFolio": "66r",
+              "siglum": "02",
+              "sourceSha256": "668c70cdfb8a8e39f09881dd97d8ac1f9edd620092ff7fb0c2f8a91c323bdee5",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20002&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20004,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#04@John.1.18",
+              "hand": "C3",
+              "locator": "fol. 188r",
+              "mustReadIn": null,
+              "pageID": 1170,
+              "recordedFolio": "188r",
+              "siglum": "04",
+              "sourceSha256": "10c7f64411bfa4495b3e7a8d8e57eb0d48bc08b0e5b79eb35868a4909ad98fe4",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20004&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20037,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#037@John.1.18",
+              "hand": null,
+              "locator": "INTF-side/blad 319",
+              "mustReadIn": null,
+              "pageID": 3180,
+              "recordedFolio": 319,
+              "siglum": "037",
+              "sourceSha256": "9a919aeb2133270a30d8b04e59cd4b038ed2b7ab7c8e218e0fa67fadb85cb1fa",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20037&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20038,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#038@John.1.18",
+              "hand": null,
+              "locator": null,
+              "mustReadIn": null,
+              "pageID": 3960,
+              "recordedFolio": "",
+              "siglum": "038",
+              "sourceSha256": "e21ee6383eadfd885e3954a9289b10c681f16910256172b33cabca0c950a4371",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20038&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "category": "versionWitnesses",
+              "certainty": null,
+              "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#John 1:18",
+              "hand": null,
+              "locator": "John 1:18",
+              "mustReadIn": null,
+              "siglum": "Vg-Clem",
+              "sourceSha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+              "status": "BEKREFTET_UTGAVETEKST",
+              "witnessLimit": "Latin viser «Sønn» mot «Gud», men ikke artikkelen."
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.11.6",
+              "hand": null,
+              "locator": "III.11.6",
+              "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)",
+              "siglum": "Iren-AH",
+              "sourceSha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@IV.20.6",
+              "hand": null,
+              "locator": "IV.20.6",
+              "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)",
+              "siglum": "Iren-AH",
+              "sourceSha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Tert-Prax@15",
+              "hand": null,
+              "locator": "15",
+              "mustReadIn": "Kroymann–Evans, CCSL 2",
+              "siglum": "Tert-Prax",
+              "sourceSha256": "9299f3fae7c08024ea918e70d25433b7b110cc2b851d030cb22f3b1f080800c8",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Hipp-Noet@5",
+              "hand": null,
+              "locator": "5",
+              "mustReadIn": "Butterworth (1977); Schwartz",
+              "siglum": "Hipp-Noet",
+              "sourceSha256": "a02b61c36f07edd406a08138b9797151d6e808cb1618f1cc282fe9db5f6a87f8",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-Cels@II.71",
+              "hand": null,
+              "locator": "II.71",
+              "mustReadIn": "Borret, Sources Chrétiennes 132 flg.; Koetschau, GCS",
+              "siglum": "Orig-Cels",
+              "sourceSha256": "b9f385a048c18158c2f74dcd37062f48a1c68a5d05bdb07270a93692d172da2e",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            }
+          ],
+          "isR10": true,
+          "label": "ὁ μονογενὴς υἱός",
+          "readingId": "a"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 10066,
+              "category": "manuscriptWitnesses",
+              "certainty": "usikre bokstaver",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#P66@John.1.18",
+              "hand": null,
+              "locator": "INTF-side/blad 2",
+              "mustReadIn": null,
+              "pageID": 20,
+              "recordedFolio": 2,
+              "siglum": "P66",
+              "sourceSha256": "dd57ed8bd4032c86aa63aed00fa979651c39cf20403f703b01829314658780ed",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=10066&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20001,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#01@John.1.18",
+              "hand": "*",
+              "locator": "fol. 247r",
+              "mustReadIn": null,
+              "pageID": 950,
+              "recordedFolio": "247r",
+              "siglum": "01",
+              "sourceSha256": "97ad36dbbda1cb265cf98bc22686ed53cf853d0b956c376dc01595b8a9f2b78f",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20003,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#03@John.1.18",
+              "hand": "*",
+              "locator": "INTF-side/blad 1350",
+              "mustReadIn": null,
+              "pageID": 1190,
+              "recordedFolio": 1350,
+              "siglum": "03",
+              "sourceSha256": "29374766724ce5c0184b5c770a567a1ddd71abbbae0707c6614327a6c7459885",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20003&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20004,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#04@John.1.18",
+              "hand": "*",
+              "locator": "fol. 188r",
+              "mustReadIn": null,
+              "pageID": 1170,
+              "recordedFolio": "188r",
+              "siglum": "04",
+              "sourceSha256": "10c7f64411bfa4495b3e7a8d8e57eb0d48bc08b0e5b79eb35868a4909ad98fe4",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20004&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": [
+                "b",
+                "c"
+              ],
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@IV.20.11",
+              "hand": null,
+              "locator": "IV.20.11",
+              "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)",
+              "siglum": "Iren-AH",
+              "sourceSha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": "Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen."
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": [
+                "b",
+                "c"
+              ],
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Clem-Strom@V.12",
+              "hand": null,
+              "locator": "V.12",
+              "mustReadIn": "Stählin–Früchtel, GCS",
+              "siglum": "Clem-Strom",
+              "sourceSha256": "ae8e15414a21fe8d54a30fee7c3fbd1ee6a018e624dcd681d030da5c1cabbcac",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": "Oversettelsen viser ikke om gresk har artikkel."
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": [
+                "b",
+                "c"
+              ],
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-CommJo@II.29(ANF)",
+              "hand": null,
+              "locator": "II.29 (ANF-inndeling)",
+              "mustReadIn": "Blanc, Sources Chrétiennes 120 flg.; Preuschen, GCS",
+              "siglum": "Orig-CommJo",
+              "sourceSha256": "3861096b158e12bc13f4516baac913cbd3d921c607862a7eace4f0257b3aefa5",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": "Oversettelsen viser ikke om gresk har artikkel."
+            }
+          ],
+          "isR10": false,
+          "label": "μονογενὴς θεός",
+          "readingId": "b"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 10075,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#P75@John.1.18",
+              "hand": "*",
+              "locator": null,
+              "mustReadIn": null,
+              "pageID": null,
+              "recordedFolio": null,
+              "siglum": "P75",
+              "sourceSha256": "d3c520724f93410812279aacddab4102185dd8dbdbcda3b4387a82ca31a4c9e3",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=10075&indexContent=John.1.18&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20001,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#01@John.1.18",
+              "hand": "C2",
+              "locator": "fol. 247r",
+              "mustReadIn": null,
+              "pageID": 950,
+              "recordedFolio": "247r",
+              "siglum": "01",
+              "sourceSha256": "97ad36dbbda1cb265cf98bc22686ed53cf853d0b956c376dc01595b8a9f2b78f",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=John.1.18&format=teiraw"
+            }
+          ],
+          "isR10": false,
+          "label": "ὁ μονογενὴς θεός",
+          "readingId": "c"
+        }
+      ],
+      "ref": "Joh 1,18",
+      "variantId": "NT-JOH-001-018-01"
+    },
+    {
+      "excluded": [],
+      "readings": [
+        {
+          "attestations": [
+            {
+              "category": "versionWitnesses",
+              "certainty": null,
+              "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#Acts 8:37",
+              "hand": null,
+              "locator": "Acts 8:37",
+              "mustReadIn": null,
+              "siglum": "Vg-Clem",
+              "sourceSha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+              "status": "BEKREFTET_UTGAVETEKST",
+              "witnessLimit": "Clementina har «Philippus» og ikke «tuo», som Scrivener. Den viser at verset står i den trykte Vulgata, ikke hvilke håndskrifter som har det."
+            },
+            {
+              "category": "versionWitnesses",
+              "certainty": null,
+              "evidence": null,
+              "hand": null,
+              "locator": null,
+              "mustReadIn": "Vetus Latina-utgaven (Beuron) for Apostlenes gjerninger; håndskriftene må navngis med Beuron-nummer før de registreres.",
+              "siglum": "VL",
+              "sourceSha256": null,
+              "status": "IKKE_AVLEST",
+              "witnessLimit": null
+            }
+          ],
+          "isR10": true,
+          "label": "verset i Scriveners form",
+          "readingId": "a"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 31739,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#1739@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 9v",
+              "mustReadIn": null,
+              "pageID": 220,
+              "recordedFolio": "9v",
+              "siglum": "1739",
+              "sourceSha256": "acf3656f86ae796182ef247ca157ee4b2b17fd47b6e6118c4b570e64ab6012c0",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31739&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 31891,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#1891@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 26v",
+              "mustReadIn": null,
+              "pageID": 620,
+              "recordedFolio": "26v",
+              "siglum": "1891",
+              "sourceSha256": "aefbec4f29aac56e3551204d64a9bccce8eb9427c1359593640ab7319ee06a16",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31891&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30307,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#307@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 70r",
+              "mustReadIn": null,
+              "pageID": 1430,
+              "recordedFolio": "70r",
+              "siglum": "307",
+              "sourceSha256": "f1f18fa60726f7531644a117270d9faccd1941728f506f8a915a8b956a58b984",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30307&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30945,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#945@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 11v",
+              "mustReadIn": null,
+              "pageID": 260,
+              "recordedFolio": "11v",
+              "siglum": "945",
+              "sourceSha256": "c5d8b8be2662a4c6080b625a8f2d769ab1ee9416c604012f2383d270c0cc43e5",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30945&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30323,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#323@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 32v",
+              "mustReadIn": null,
+              "pageID": 660,
+              "recordedFolio": "32v",
+              "siglum": "323",
+              "sourceSha256": "eb87bdcf50b74fc3f9fb15315990692114927d6401535a5f9d7ebbdd14d7a3ed",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30323&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 32818,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#2818@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 59r",
+              "mustReadIn": null,
+              "pageID": 1190,
+              "recordedFolio": "59r",
+              "siglum": "2818",
+              "sourceSha256": "596e671eec230b05c5700a3718bbc655c44a95de5728116c110ba0ae9297a0eb",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=32818&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30453,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#453@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 88r",
+              "mustReadIn": null,
+              "pageID": 1830,
+              "recordedFolio": "88r",
+              "siglum": "453",
+              "sourceSha256": "a18f6981225434d41813396c82c50e5a40d095c37c6bc93e8949f5ad0dcfd7f2",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30453&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": [
+                "a",
+                "a2"
+              ],
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.12.8",
+              "hand": null,
+              "locator": "III.12.8",
+              "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)",
+              "siglum": "Iren-AH",
+              "sourceSha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": "Irenæus gjengir bare hoffmannens bekjennelse, ikke Filips vilkår."
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": [
+                "a",
+                "a2"
+              ],
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Cypr-Quir@III.43",
+              "hand": null,
+              "locator": "III.43",
+              "mustReadIn": "Weber, CCSL 3",
+              "siglum": "Cypr-Quir",
+              "sourceSha256": "a02b61c36f07edd406a08138b9797151d6e808cb1618f1cc282fe9db5f6a87f8",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": "Cyprian gjengir v. 36 og Filips vilkår, ikke bekjennelsen."
+            }
+          ],
+          "isR10": false,
+          "label": "verset i minuskelform",
+          "readingId": "a2"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 20008,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#08@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 70v",
+              "mustReadIn": null,
+              "pageID": 1430,
+              "recordedFolio": "70v",
+              "siglum": "08",
+              "sourceSha256": "d676efed77e5ac814772153a9d5a925a6aefdbbef1d2ea22b16f206301ca7079",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20008&indexContent=Acts.8.37&format=teiraw"
+            }
+          ],
+          "isR10": false,
+          "label": "verset i Laudianus’ form",
+          "readingId": "a3"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 10045,
+              "category": "manuscriptWitnesses",
+              "certainty": "rekonstruert",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#P45@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 22r",
+              "mustReadIn": null,
+              "pageID": 450,
+              "recordedFolio": "22r",
+              "siglum": "P45",
+              "sourceSha256": "7ff54463cbec8055fb63b7fc239a00f9e839e0bd1f1cabd1db7cc46e5f821e04",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=10045&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 10074,
+              "category": "manuscriptWitnesses",
+              "certainty": "delvis rekonstruert",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#P74@Acts.8.37",
+              "hand": null,
+              "locator": "INTF-side/blad 55",
+              "mustReadIn": null,
+              "pageID": 550,
+              "recordedFolio": 55,
+              "siglum": "P74",
+              "sourceSha256": "f7759c2d5becc205acd92b010c030a320ae151ee80be54250c2a45c45b86b121",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=10074&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20001,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#01@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 304r",
+              "mustReadIn": null,
+              "pageID": 2090,
+              "recordedFolio": "304r",
+              "siglum": "01",
+              "sourceSha256": "da0335caafbb0295011dd903a9dc1505b025adf9e35071e6fe38946223c8ace2",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20002,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#02@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 87r",
+              "mustReadIn": null,
+              "pageID": 680,
+              "recordedFolio": "87r",
+              "siglum": "02",
+              "sourceSha256": "e8f306c2121299f28db29cc0d61ca46f5bec050f4519f89f7f5537741400bf60",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20002&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20003,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#03@Acts.8.37",
+              "hand": null,
+              "locator": "INTF-side/blad 1394",
+              "mustReadIn": null,
+              "pageID": 1630,
+              "recordedFolio": 1394,
+              "siglum": "03",
+              "sourceSha256": "ad0e8dd02f49057ff20588fef6218c7bc01c6192e8fa8304362ff4a10beb3a39",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20003&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20004,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#04@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 182r",
+              "mustReadIn": null,
+              "pageID": 1490,
+              "recordedFolio": "182r",
+              "siglum": "04",
+              "sourceSha256": "64143f3f93f7f29048c146a4aa8ed580a12d8fd4a8c11a81f840563731eb01ec",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20004&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20020,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#020@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 2r",
+              "mustReadIn": null,
+              "pageID": 40,
+              "recordedFolio": "2r",
+              "siglum": "020",
+              "sourceSha256": "459333e8732c85b7fa58025929f663cf55256e54504b796815a8acf4d4a11ec5",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20020&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20044,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#044@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 116r",
+              "mustReadIn": null,
+              "pageID": 2350,
+              "recordedFolio": "116r",
+              "siglum": "044",
+              "sourceSha256": "c757d8be7cbf6191ecdf48d678b22ec382c54b57432234a85a5b0fccec1e7e1f",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20044&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20049,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#049@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 14r",
+              "mustReadIn": null,
+              "pageID": 480,
+              "recordedFolio": "14r",
+              "siglum": "049",
+              "sourceSha256": "8df559f2b832aa44324dfa4550c6ccccce58be8d7a8a321c45218d9e95324d7f",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20049&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30033,
+              "category": "manuscriptWitnesses",
+              "certainty": "delvis rekonstruert",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#33@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 80r",
+              "mustReadIn": null,
+              "pageID": 1660,
+              "recordedFolio": "80r",
+              "siglum": "33",
+              "sourceSha256": "30cb295a303b36d05381ed028c4fe89fb5e559aaeb528a008b2bb5a88fe32d07",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30033&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30081,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#81@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 14v",
+              "mustReadIn": null,
+              "pageID": 360,
+              "recordedFolio": "14v",
+              "siglum": "81",
+              "sourceSha256": "e1a454eba3071f5b0cb34839028a447e1c45a8070638fd620f99399873f88816",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30081&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 31175,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#1175@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 21r",
+              "mustReadIn": null,
+              "pageID": 430,
+              "recordedFolio": "21r",
+              "siglum": "1175",
+              "sourceSha256": "f04ed3f1cd9b22ad51c51958498beb06c213d9aef276912246727426b07b7dfe",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31175&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30614,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#614@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 26v",
+              "mustReadIn": null,
+              "pageID": 675,
+              "recordedFolio": "26v",
+              "siglum": "614",
+              "sourceSha256": "1a28b6e62428e9f5069af17a71fb9541f0d9cfe51f582b36dee0ac80e8f470e5",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30614&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30018,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#18@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 167v",
+              "mustReadIn": null,
+              "pageID": 3330,
+              "recordedFolio": "167v",
+              "siglum": "18",
+              "sourceSha256": "96ff91b6e1bc7a6ab1060ac20234b46f08c1b0e06db3835f25bf23faa70bce3c",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30018&indexContent=Acts.8.37&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30035,
+              "category": "manuscriptWitnesses",
+              "certainty": "utelatt",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#35@Acts.8.37",
+              "hand": null,
+              "locator": "fol. 170v",
+              "mustReadIn": null,
+              "pageID": 3560,
+              "recordedFolio": "170v",
+              "siglum": "35",
+              "sourceSha256": "3da479734512b31d1d7f22fcd60e57d6c6f1cc63a6c9e650ba97641ec7f3233c",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30035&indexContent=Acts.8.37&format=teiraw"
+            }
+          ],
+          "isR10": false,
+          "label": "uten verset",
+          "readingId": "b"
+        }
+      ],
+      "ref": "Apg 8,37",
+      "variantId": "NT-ACT-008-037-01"
+    },
+    {
+      "excluded": [],
+      "readings": [
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 20001,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#01@1Tim.3.16",
+              "hand": "C3",
+              "locator": "fol. 294v",
+              "mustReadIn": null,
+              "pageID": 1900,
+              "recordedFolio": "294v",
+              "siglum": "01",
+              "sourceSha256": "541f8d51c3d3c7b4c1d29a151c7fd4e9d24a08a1afc7fa115dda705b721f2cfb",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=1Tim.3.16&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20002,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#02@1Tim.3.16",
+              "hand": "C",
+              "locator": "fol. 145r",
+              "mustReadIn": null,
+              "pageID": 1270,
+              "recordedFolio": "145r",
+              "siglum": "02",
+              "sourceSha256": "5281318223bc52f32872038176870d30cfcf89ca9f63970322f30d35f93769e6",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20002&indexContent=1Tim.3.16&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20004,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#04@1Tim.3.16",
+              "hand": "C3",
+              "locator": "fol. 119r",
+              "mustReadIn": null,
+              "pageID": 2650,
+              "recordedFolio": "119r",
+              "siglum": "04",
+              "sourceSha256": "239e653a962305cb6e9e70664b29ec8683918842a4dbc0b36fb2770a714e7b3d",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20004&indexContent=1Tim.3.16&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30006,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#6@1Tim.3.16",
+              "hand": null,
+              "locator": "fol. 178r",
+              "mustReadIn": null,
+              "pageID": 3600,
+              "recordedFolio": "178r",
+              "siglum": "6",
+              "sourceSha256": "d56a659f1c5eb2d9d27d82aa38b37082f262827bb137a671c905ebedcb496445",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30006&indexContent=1Tim.3.16&format=teiraw"
+            },
+            {
+              "category": "manuscriptWitnesses",
+              "certainty": "ikke avlest",
+              "evidence": null,
+              "hand": "C2",
+              "locator": null,
+              "mustReadIn": "Tischendorfs utgave av Codex Claromontanus (1852) eller bildene hos BnF",
+              "siglum": "06",
+              "sourceSha256": null,
+              "status": "IKKE_AVLEST"
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Chrys-Hom1Tim@XI",
+              "hand": null,
+              "locator": "Hom. XI",
+              "mustReadIn": "Field; Migne PG 62",
+              "siglum": "Chrys-Hom1Tim",
+              "sourceSha256": "54274dd9aa73ca36e4da9e763e4a27d1818b09e42ffc73795529afec703a4210",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            },
+            {
+              "category": "patristicWitnesses",
+              "certainty": null,
+              "compatibleWith": null,
+              "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#GregNyss-Eun@XI(NPNF)",
+              "hand": null,
+              "locator": "bok XI (NPNF-inndeling)",
+              "mustReadIn": "Jaeger, GNO I–II",
+              "siglum": "GregNyss-Eun",
+              "sourceSha256": "cef974043e48a52d1b6d4ce3bdfb538fa5be2c3af8b53e3bb75181760d614484",
+              "status": "BEKREFTET_I_OVERSETTELSE",
+              "witnessLimit": null
+            }
+          ],
+          "isR10": true,
+          "label": "Θεός",
+          "readingId": "a"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 20001,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#01@1Tim.3.16",
+              "hand": "*",
+              "locator": "fol. 294v",
+              "mustReadIn": null,
+              "pageID": 1900,
+              "recordedFolio": "294v",
+              "siglum": "01",
+              "sourceSha256": "541f8d51c3d3c7b4c1d29a151c7fd4e9d24a08a1afc7fa115dda705b721f2cfb",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=1Tim.3.16&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20002,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#02@1Tim.3.16",
+              "hand": "*",
+              "locator": "fol. 145r",
+              "mustReadIn": null,
+              "pageID": 1270,
+              "recordedFolio": "145r",
+              "siglum": "02",
+              "sourceSha256": "5281318223bc52f32872038176870d30cfcf89ca9f63970322f30d35f93769e6",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20002&indexContent=1Tim.3.16&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20004,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#04@1Tim.3.16",
+              "hand": "*",
+              "locator": "fol. 119r",
+              "mustReadIn": null,
+              "pageID": 2650,
+              "recordedFolio": "119r",
+              "siglum": "04",
+              "sourceSha256": "239e653a962305cb6e9e70664b29ec8683918842a4dbc0b36fb2770a714e7b3d",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20004&indexContent=1Tim.3.16&format=teiraw"
+            }
+          ],
+          "isR10": false,
+          "label": "ὅς",
+          "readingId": "b"
+        },
+        {
+          "attestations": [
+            {
+              "category": "manuscriptWitnesses",
+              "certainty": "ikke avlest",
+              "evidence": null,
+              "hand": "*",
+              "locator": null,
+              "mustReadIn": "Tischendorfs utgave av Codex Claromontanus (1852) eller bildene hos BnF",
+              "siglum": "06",
+              "sourceSha256": null,
+              "status": "IKKE_AVLEST"
+            },
+            {
+              "category": "versionWitnesses",
+              "certainty": null,
+              "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#I Timothy 3:16",
+              "hand": null,
+              "locator": "I Timothy 3:16",
+              "mustReadIn": null,
+              "siglum": "Vg-Clem",
+              "sourceSha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+              "status": "BEKREFTET_UTGAVETEKST",
+              "witnessLimit": "Latin har relativpronomen i nøytrum, som viser til sacramentum. Det utelukker «Gud», men viser ikke sikkert om forelegget hadde ὅ eller ὅς."
+            }
+          ],
+          "isR10": false,
+          "label": "ὅ",
+          "readingId": "c"
+        }
+      ],
+      "ref": "1 Tim 3,16",
+      "variantId": "NT-1TI-003-016-01"
+    },
+    {
+      "excluded": [
+        {
+          "evidence": "kilder/belegg/intf-transkripsjoner.json#lacunaChecks/025@Rev.22.19",
+          "reason": "Lakune: siste indekserte side med Åpenbaringen er fol. 120v (Rev 22:2-6).",
+          "sha256": "c142e30d3c9a856d576d363df6dc43a9599024ac4474a303753c7882fcac2a59",
+          "siglum": "025"
+        },
+        {
+          "evidence": "kilder/belegg/intf-transkripsjoner.json#lacunaChecks/04@Rev.22.19",
+          "reason": "Lakune: siste indekserte side med Åpenbaringen er fol. 123v (Rev 18:15-24; Rev 19:1-5).",
+          "sha256": "f2c9e7980a99b5aaa24491a0dc2eecdd59d9d12844374b1c36c722e90e353c70",
+          "siglum": "04"
+        }
+      ],
+      "readings": [
+        {
+          "attestations": [
+            {
+              "category": "versionWitnesses",
+              "certainty": null,
+              "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#Revelation of John 22:19",
+              "hand": null,
+              "locator": "Revelation of John 22:19",
+              "mustReadIn": null,
+              "siglum": "Vg-Clem",
+              "sourceSha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+              "status": "BEKREFTET_UTGAVETEKST",
+              "witnessLimit": "Latin har liber, «bok». Det latinske ordet for «tre» er lignum, og de to ordene ligner hverandre i genitiv og ablativ (libro, ligno)."
+            }
+          ],
+          "isR10": true,
+          "label": "βίβλου τῆς ζωῆς",
+          "readingId": "a"
+        },
+        {
+          "attestations": [
+            {
+              "catalogueDocument": 20001,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#01@Rev.22.19",
+              "hand": null,
+              "locator": "fol. 333v",
+              "mustReadIn": null,
+              "pageID": 2680,
+              "recordedFolio": "333v",
+              "siglum": "01",
+              "sourceSha256": "55e9e45fbab9a6f8e6b6b47f8c307f1df41d10a6d43b8f3906655bec1eedf609",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=Rev.22.19&format=teiraw"
+            },
+            {
+              "catalogueDocument": 20002,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#02@Rev.22.19",
+              "hand": null,
+              "locator": "fol. 158v",
+              "mustReadIn": null,
+              "pageID": 1401,
+              "recordedFolio": "158v",
+              "siglum": "02",
+              "sourceSha256": "4f1d0c7794f1346dfb819f5fa74677dbc2d4e0d623d7cece2d044d6a953328cb",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20002&indexContent=Rev.22.19&format=teiraw"
+            },
+            {
+              "catalogueDocument": 31006,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#1006@Rev.22.19",
+              "hand": null,
+              "locator": "fol. 216v",
+              "mustReadIn": null,
+              "pageID": 4470,
+              "recordedFolio": "216v",
+              "siglum": "1006",
+              "sourceSha256": "06e4392fcaec6f1117463aa7c420488437667cde9525e7de9ed1cea52dee72d0",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31006&indexContent=Rev.22.19&format=teiraw"
+            },
+            {
+              "catalogueDocument": 31854,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#1854@Rev.22.19",
+              "hand": null,
+              "locator": "fol. 319v",
+              "mustReadIn": null,
+              "pageID": 6470,
+              "recordedFolio": "319v",
+              "siglum": "1854",
+              "sourceSha256": "ecb644a8aae97e8b77d43b0d952435cc748b69738f8ed4334a768d98855231da",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31854&indexContent=Rev.22.19&format=teiraw"
+            },
+            {
+              "catalogueDocument": 32050,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#2050@Rev.22.19",
+              "hand": null,
+              "locator": "fol. 241r",
+              "mustReadIn": null,
+              "pageID": 140,
+              "recordedFolio": "241r",
+              "siglum": "2050",
+              "sourceSha256": "109a67ea5e2ae098638c59384af2118c78a022e3fd51a0af121a9230d99af8b3",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=32050&indexContent=Rev.22.19&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30469,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#469@Rev.22.19",
+              "hand": null,
+              "locator": "fol. 229r",
+              "mustReadIn": null,
+              "pageID": 4580,
+              "recordedFolio": "229r",
+              "siglum": "469",
+              "sourceSha256": "2214e5394ea5495d7143c899e1dc51f08eb13faec6717a7a9195a865f80e8c28",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30469&indexContent=Rev.22.19&format=teiraw"
+            },
+            {
+              "catalogueDocument": 30035,
+              "category": "manuscriptWitnesses",
+              "certainty": "lest",
+              "evidence": "kilder/belegg/intf-transkripsjoner.json#35@Rev.22.19",
+              "hand": null,
+              "locator": "fol. 325v",
+              "mustReadIn": null,
+              "pageID": 6660,
+              "recordedFolio": "325v",
+              "siglum": "35",
+              "sourceSha256": "91b606d9079d6c28b35c35e29d2053546bcd7031abd941b208d4c0da4dd99f94",
+              "status": "BEKREFTET_TRANSKRIPSJON",
+              "transcriptionURL": "https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30035&indexContent=Rev.22.19&format=teiraw"
+            },
+            {
+              "category": "manuscriptWitnesses",
+              "certainty": "ikke avlest",
+              "evidence": null,
+              "hand": null,
+              "locator": null,
+              "mustReadIn": "Bildene hos Biblioteca Apostolica Vaticana (Vat. gr. 2066, fol. 268r) eller ECM Apokalypse",
+              "siglum": "046",
+              "sourceSha256": null,
+              "status": "IKKE_AVLEST"
+            }
+          ],
+          "isR10": false,
+          "label": "τοῦ ξύλου τῆς ζωῆς",
+          "readingId": "b"
+        }
+      ],
+      "ref": "Åp 22,19",
+      "variantId": "NT-REV-022-019-01"
+    }
+  ]
+}

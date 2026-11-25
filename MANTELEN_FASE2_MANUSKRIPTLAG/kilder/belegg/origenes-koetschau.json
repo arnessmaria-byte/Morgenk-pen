@@ -1,0 +1,80 @@
+{
+  "sourceTitle": "Origenes, Contra Celsum. Origenes Werke I–II, red. Paul Koetschau, Leipzig: J. C. Hinrichs, 1899.",
+  "digitalAttribution": "Perseus Project, Trustees of Tufts University (TEI i OpenGreekAndLatin/First1KGreek).",
+  "licence": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenceLocation": "TEI/teiHeader/fileDesc/publicationStmt/availability/licence/@target",
+  "licenceShareAlike": "De to greske utdragene videreføres under CC BY-SA 4.0. Prosjektets redaksjonelle begrensninger er egne tilføyninger.",
+  "changes": "Avgrenset uttrekk, mellomrom samlet og Unicode NFC; ingen ord lagt til.",
+  "source": "https://api.github.com/repos/OpenGreekAndLatin/First1KGreek/git/blobs/f03439715629124306a0a6788e696d2c2f538ab6",
+  "gitBlobSha1": "f03439715629124306a0a6788e696d2c2f538ab6",
+  "sourceSha256": "9ca7246da545316e6ec858f2485350948a4aceace694bb188ea1439c8431481d",
+  "records": {
+    "Orig-Cels@II.4": {
+      "bookRef": "Mark 1,1",
+      "pilotReadingUnderReview": "c",
+      "workSiglum": "Orig-Cels",
+      "cts": "urn:cts:greekLit:tlg2042.tlg001.perseus-grc1:2.4",
+      "locator": "Contra Celsum II.4",
+      "printPage": "v.1.p.131",
+      "wordIndexInTEIChapter1Based": 216,
+      "greek": "ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ, ὡς γέγραπται",
+      "limit": "Navngitt Markus-sitat. Sønnsfrasen står ikke i sitatet. Et sitat er ikke et direkte vitne til ordlyden i et evangeliehåndskrift.",
+      "sourceType": "digital kritisk utgave, ikke manuskriptbilde",
+      "status": "maskinelt lokalisert; ikke uavhengig filologisk attest",
+      "sourceSha256": "9ca7246da545316e6ec858f2485350948a4aceace694bb188ea1439c8431481d",
+      "function": "attestedQuotation",
+      "historicalANF": {
+        "siglum": "Orig-Cels",
+        "locator": "II.4",
+        "lang": "grc",
+        "quoteType": "sitat",
+        "wording": "The beginning of the Gospel of Jesus Christ, as it is written in the prophet Isaiah",
+        "verification": {
+          "status": "BEKREFTET_I_OVERSETTELSE",
+          "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-Cels@II.4",
+          "sha256": "b9f385a048c18158c2f74dcd37062f48a1c68a5d05bdb07270a93692d172da2e",
+          "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF04). Grunnspråksteksten er ikke avlest.",
+          "mustReadIn": "Borret, Sources Chrétiennes 132 flg.; Koetschau, GCS"
+        }
+      },
+      "provenanceInput": {
+        "file": "origenes-to-steder-cc-by-sa.json",
+        "sha256": "5ff4145b1ea58d0ea0ba254f158da182bbc0770d3c47178e5d7f7c2f8144af9c"
+      }
+    },
+    "Orig-Cels@II.71": {
+      "bookRef": "Joh 1,18",
+      "pilotReadingUnderReview": "a",
+      "workSiglum": "Orig-Cels",
+      "cts": "urn:cts:greekLit:tlg2042.tlg001.perseus-grc1:2.71",
+      "locator": "Contra Celsum II.71",
+      "printPage": "v.1.p.193",
+      "wordIndexInTEIChapter1Based": 28,
+      "greek": "μονογενής γε ὢν θεὸς",
+      "limit": "Konflikt med plasseringen ved lesning a (Sønn) i den engelske overleveringen brukt i piloten. I denne greske utgaven brukes ordet for Gud med innskudd; ikke ordrett belegg for verken b eller c. La faglig leser avgjøre før låsing.",
+      "sourceType": "digital kritisk utgave, ikke manuskriptbilde",
+      "status": "maskinelt lokalisert; ikke uavhengig filologisk attest",
+      "sourceSha256": "9ca7246da545316e6ec858f2485350948a4aceace694bb188ea1439c8431481d",
+      "function": "unassignedParallel",
+      "historicalANF": {
+        "siglum": "Orig-Cels",
+        "locator": "II.71",
+        "lang": "grc",
+        "quoteType": "omstridt",
+        "wording": "the only-begotten Son, who is in the bosom of the Father",
+        "verification": {
+          "status": "BEKREFTET_I_OVERSETTELSE",
+          "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-Cels@II.71",
+          "sha256": "b9f385a048c18158c2f74dcd37062f48a1c68a5d05bdb07270a93692d172da2e",
+          "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF04). Grunnspråksteksten er ikke avlest.",
+          "mustReadIn": "Borret, Sources Chrétiennes 132 flg.; Koetschau, GCS"
+        },
+        "note": "Oversettelsen bygger på en eldre utgave. Hva den kritiske utgaven har på stedet, må leses før sitatet teller for en lesning."
+      },
+      "provenanceInput": {
+        "file": "origenes-to-steder-cc-by-sa.json",
+        "sha256": "5ff4145b1ea58d0ea0ba254f158da182bbc0770d3c47178e5d7f7c2f8144af9c"
+      }
+    }
+  }
+}
