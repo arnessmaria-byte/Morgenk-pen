@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Tørrkjøring av redaksjonsporten.
 
-Alt skjer i en midlertidig mappe med testnøkler som slettes etterpå.
-Ingenting publiseres, planlegges eller sendes: porten har ingen nettverkskode,
-og denne filen kaller bare `kontroller`. Testnøklene er ikke redaktørens eller
-Marias nøkler, og resultatene her gir ingen godkjenning av noe innhold.
+Alt skjer i en midlertidig mappe som slettes etterpå. Ingenting publiseres,
+planlegges eller sendes: porten har ingen nettverkskode. Svarene som noteres
+her, er merket TEST og gir ingen godkjenning av noe innhold.
 
     python redaksjonsport/torrkjoring.py
 """
@@ -12,7 +11,6 @@ from __future__ import annotations
 
 import copy
 import json
-import subprocess
 import sys
 import tempfile
 from pathlib import Path
@@ -70,42 +68,14 @@ EPOST_KROPP = (
 )
 
 
-def _openssl(*args):
-    subprocess.run(["openssl", *args], check=True, capture_output=True)
+TEST_HVOR = "TEST i tørrkjøring, ikke et svar fra redaktøren"
 
 
-def _nokkel(mappe: Path, navn: str) -> Path:
-    priv = mappe / f"{navn}.testnokkel.pem"
-    _openssl("genpkey", "-algorithm", "ed25519", "-out", str(priv))
-    return priv
-
-
-def _signer(dok: Path, priv: Path):
-    _openssl("pkeyutl", "-sign", "-inkey", str(priv), "-rawin", "-in", str(dok), "-out", str(dok) + ".sig")
-
-
-def _godkjenn(rot: Path, sak: dict, priv: Path, navn: str, **endring) -> str:
-    """Stiller som redaktøren med en TESTNØKKEL. I drift gjør bare redaktøren dette, med egen nøkkel."""
-    g = {"type": "mantelen-teologisk-godkjenning", "sak_id": sak["id"], "kanal": sak["kanal"],
-         "versjon_sha256": port.versjon(sak, rot),
-         "topp100": {"fil": "Topp-100-Bibelen-og-tidligste-kirke.md", "versjon": "TESTVERSJON",
-                     "punkter": [35], "samsvar": "Testtekst, ikke en reell vurdering."},
-         "utover_listen": "", "godkjent_av": port.REDAKTOR, "dato": "TEST"}
-    g.update(endring)
-    dok = rot / navn
-    dok.write_text(json.dumps(g, ensure_ascii=False, indent=2), encoding="utf-8")
-    _signer(dok, priv)
-    return navn
-
-
-def _bekreft(rot: Path, sak: dict, priv: Path, navn: str) -> str:
-    """Stiller som Maria med en TESTNØKKEL."""
-    b = {"type": "mantelen-forfatterbekreftelse", "sak_id": sak["id"], "journalist": port.MARIA,
-         "versjon_sha256": port.versjon(sak, rot)}
-    dok = rot / navn
-    dok.write_text(json.dumps(b, ensure_ascii=False, indent=2), encoding="utf-8")
-    _signer(dok, priv)
-    return navn
+def _ja(rot: Path, sak: dict, svar: str = "ja", punkter=("35",), utover: str = "") -> tuple[bool, str]:
+    """Forelegger og noterer et TESTSVAR. I drift svarer bare redaktøren selv."""
+    _, grunnlag = port.forelegg(sak, rot, "TESTVERSJON", list(punkter), "Testtekst.", utover)
+    port._foreleggelsesfil(sak, rot).write_text(json.dumps(grunnlag, ensure_ascii=False), encoding="utf-8")
+    return port.noter_svar(sak, rot, svar, "Ja" if svar == "ja" else "Nei", TEST_HVOR)
 
 
 def kjor() -> int:
@@ -113,130 +83,122 @@ def kjor() -> int:
 
     def prov(nr, navn, sak, forventet, fase="planlegging", planlagt=None):
         res = port.kontroller(sak, rot, fase, planlagt, tillit)
-        ok = res["utfall"] == forventet
-        rader.append((nr, navn, fase, forventet, res["utfall"], ok, res["grunner"]))
+        rader.append((nr, navn, fase, res["utfall"], res["utfall"] == forventet, res["grunner"]))
         return res
 
     with tempfile.TemporaryDirectory(prefix="mantelen-torrkjoring-") as tmp:
         rot = Path(tmp)
-        tillit = rot / "tillit-TEST"
+        tillit = rot / "ingen-nokler"
         tillit.mkdir()
-        red = _nokkel(rot, "redaktor")
-        mar = _nokkel(rot, "maria")
-        fremmed = _nokkel(rot, "fremmed")
-        _openssl("pkey", "-in", str(red), "-pubout", "-out", str(tillit / port.NOKKEL_REDAKTOR))
-        _openssl("pkey", "-in", str(mar), "-pubout", "-out", str(tillit / port.NOKKEL_MARIA))
         (rot / "video.mp4").write_bytes(b"TESTVIDEO versjon 1")
 
-        # 1. Teologisk artikkel uten redaktørens ja
         art = {"id": "test-teologisk-artikkel", "kanal": "ghost-artikkel", "journalist": "redaksjonen",
                "byline": "Mantelen redaksjonen", "forfatter": "Mantelen redaksjonen",
                "egen_teologisk_vurdering": True, "tekst": TEOLOGISK_ARTIKKEL}
-        prov(1, "Teologisk artikkel uten redaktørens ja", art, port.HOLDES)
-
-        # 2. YouTube-video uten redaktørens ja
         vid = {"id": "test-video", "kanal": "youtube-video", "journalist": "redaksjonen",
                "egen_teologisk_vurdering": True, "tekst": VIDEO, "filer": {"video": "video.mp4"}}
-        prov(2, "YouTube-video uten redaktørens ja", vid, port.HOLDES)
         shorts = dict(vid, id="test-shorts", kanal="youtube-shorts")
+
+        # 1 og 2. Uten redaktørens ja
+        prov(1, "Teologisk artikkel uten redaktørens ja", art, port.HOLDES)
+        prov(2, "YouTube-video uten redaktørens ja", vid, port.HOLDES)
         prov(2, "Shorts-video uten redaktørens ja", shorts, port.HOLDES)
 
-        # 3. Godkjent versjon passerer
-        art_ok = dict(art, godkjenning=_godkjenn(rot, art, red, "godkjenning-artikkel.json"))
-        prov(3, "Godkjent artikkelversjon", art_ok, port.PASSERER)
-        vid_ok = dict(vid, godkjenning=_godkjenn(rot, vid, red, "godkjenning-video.json"))
-        r_vid = prov(3, "Godkjent videoversjon", vid_ok, port.PASSERER)
+        # 3. Redaktøren svarer ja: versjonen passerer
+        _ja(rot, art)
+        prov(3, "Artikkel etter redaktørens ja", art, port.PASSERER)
+        _ja(rot, vid)
+        r_vid = prov(3, "Video etter redaktørens ja", vid, port.PASSERER)
+        _ja(rot, shorts, "nei")
+        prov(3, "Shorts etter redaktørens nei", shorts, port.HOLDES)
 
         # 4. Senere innholdsendring stoppes
-        art_endret = copy.deepcopy(art_ok)
-        art_endret["tekst"]["brodtekst"] = art_endret["tekst"]["brodtekst"].replace("bør derfor", "må derfor")
-        prov(4, "Artikkel: ett ord endret etter godkjenning", art_endret, port.HOLDES, "utsending")
-        tittel_endret = copy.deepcopy(art_ok)
-        tittel_endret["tekst"]["tittel"] = "Skriften avviser den nye liturgien"
-        prov(4, "Artikkel: ny tittel etter godkjenning", tittel_endret, port.HOLDES, "utsending")
+        endret = copy.deepcopy(art)
+        endret["tekst"]["brodtekst"] = endret["tekst"]["brodtekst"].replace("bør derfor", "må derfor")
+        prov(4, "Artikkel: ett ord endret etter ja", endret, port.HOLDES, "utsending")
+        ny_tittel = copy.deepcopy(art)
+        ny_tittel["tekst"]["tittel"] = "Skriften avviser den nye liturgien"
+        prov(4, "Artikkel: ny tittel etter ja", ny_tittel, port.HOLDES, "utsending")
         (rot / "video.mp4").write_bytes(b"TESTVIDEO versjon 2, klippet om")
-        prov(4, "Video: ny fil etter godkjenning", vid_ok, port.HOLDES, "utsending", r_vid["versjon_sha256"])
+        prov(4, "Video: ny fil etter ja", vid, port.HOLDES, "utsending", r_vid["versjon_sha256"])
         (rot / "video.mp4").write_bytes(b"TESTVIDEO versjon 1")
+        ok, _ = port.noter_svar(endret, rot, "ja", "Ja", TEST_HVOR)
+        rader.append((4, "Gammelt ja kan ikke noteres på endret tekst", "svar", "avvist" if not ok else "notert",
+                      not ok, []))
 
-        # 5. Ren Maria-sak med riktig byline
+        # 5. Ren Maria-sak med riktig byline: trenger ikke redaktøren
         maria = {"id": "test-maria-sak", "kanal": "ghost-artikkel", "journalist": port.MARIA,
                  "byline": port.MARIA_BYLINE, "forfatter": port.MARIA,
                  "egen_teologisk_vurdering": False, "tekst": REN_MARIA_SAK}
-        maria["forfatterbekreftelse"] = _bekreft(rot, maria, mar, "bekreftelse-maria.json")
         prov(5, "Ren Maria-sak med riktig byline", maria, port.PASSERER)
-        feil_byline = dict(maria, byline="Mantelen redaksjonen", forfatter="Mantelen redaksjonen")
-        prov(5, "Maria-sak med bare «Redaksjonen» som byline", feil_byline, port.HOLDES)
-        ai_tildelt = {k: v for k, v in maria.items() if k != "forfatterbekreftelse"}
-        prov(5, "Maria-byline uten Marias egen bekreftelse", ai_tildelt, port.HOLDES)
+        prov(5, "Maria-sak med bare «Redaksjonen» som byline",
+             dict(maria, byline="Mantelen redaksjonen", forfatter="Mantelen redaksjonen"), port.HOLDES)
+        prov(5, "Marias navn i byline, men hun er ikke journalisten",
+             dict(maria, journalist="redaksjonen"), port.HOLDES)
 
         # 6. Blandingssak uten teologisk mellomtittel
         blanding = {"id": "test-blandingssak", "kanal": "ghost-artikkel", "journalist": "redaksjonen",
                     "byline": "Mantelen redaksjonen", "forfatter": "Mantelen redaksjonen",
                     "egen_teologisk_vurdering": False, "tekst": BLANDINGSSAK}
         prov(6, "Blandingssak uten teologisk mellomtittel", blanding, port.HOLDES)
-        maria_blanding = {"id": "test-maria-med-ai-tillegg", "kanal": "ghost-artikkel",
-                          "journalist": port.MARIA, "byline": port.MARIA_BYLINE, "forfatter": port.MARIA,
-                          "egen_teologisk_vurdering": False,
-                          "tekst": dict(REN_MARIA_SAK, brodtekst=REN_MARIA_SAK["brodtekst"]
-                                        + "\n\nKirken skylder menighetene et klart svar etter Guds ord.")}
-        maria_blanding["forfatterbekreftelse"] = _bekreft(rot, maria_blanding, mar, "bekreftelse-maria-2.json")
-        prov(6, "Teologisk tillegg i Marias tekst", maria_blanding, port.HOLDES)
-        bytte = dict(art, journalist=port.MARIA, byline=port.MARIA_BYLINE, forfatter=port.MARIA)
-        prov(6, "Teologisk artikkel med byline byttet til Maria", bytte, port.HOLDES)
+        maria_tillegg = dict(maria, id="test-maria-med-tillegg",
+                             tekst=dict(REN_MARIA_SAK, brodtekst=REN_MARIA_SAK["brodtekst"]
+                                        + "\n\nKirken skylder menighetene et klart svar etter Guds ord."))
+        prov(6, "Teologisk tillegg i Marias tekst", maria_tillegg, port.HOLDES)
+        prov(6, "Teologisk artikkel med byline byttet til Maria",
+             dict(art, id="test-byttet-byline", journalist=port.MARIA, byline=port.MARIA_BYLINE,
+                  forfatter=port.MARIA), port.HOLDES)
 
         # 7. Planlagt publisering: kontroll ved planlegging og rett før utsending
         plan = prov(7, "Planlagt Maria-sak, ved planlegging", maria, port.PASSERER, "planlegging")
         prov(7, "Samme sak uendret, rett før utsending", maria, port.PASSERER, "utsending",
              plan["versjon_sha256"])
-        prov(7, "Samme sak med teologisk tillegg i køen", dict(maria, tekst=maria_blanding["tekst"]),
+        prov(7, "Samme sak med teologisk tillegg i køen", dict(maria, tekst=maria_tillegg["tekst"]),
              port.HOLDES, "utsending", plan["versjon_sha256"])
-        prov(7, "Planlagt teologisk video uten ja, ved planlegging", shorts, port.HOLDES, "planlegging")
+        prov(7, "Planlagt teologisk video uten ja", dict(vid, id="test-planlagt-video"), port.HOLDES)
 
         # 8. Kilde-e-post
-        epost_red = {"id": "test-epost-redaksjonen", "kanal": "epost", "journalist": port.MARIA,
-                     "egen_teologisk_vurdering": False,
-                     "epost": {"avsendernavn": "MANTELEN", "signatur": "Redaksjonen"},
-                     "tekst": {"emne": "Spørsmål om vedtaket", "brodtekst": EPOST_KROPP + "Redaksjonen"}}
-        prov(8, "Kilde-e-post med bare «Redaksjonen» som signatur", epost_red, port.HOLDES)
-        epost_ok = {"id": "test-epost-maria", "kanal": "epost", "journalist": port.MARIA,
-                    "egen_teologisk_vurdering": False,
-                    "epost": {"avsendernavn": port.MARIA_AVSENDER, "signatur": port.MARIA_SIGNATUR},
-                    "tekst": {"emne": "Spørsmål om vedtaket", "brodtekst": EPOST_KROPP + port.MARIA_SIGNATUR}}
-        epost_ok["forfatterbekreftelse"] = _bekreft(rot, epost_ok, mar, "bekreftelse-epost.json")
-        prov(8, "Kilde-e-post fra Maria med riktig navn og signatur", epost_ok, port.PASSERER)
-        ai_signert = {k: v for k, v in epost_ok.items() if k != "forfatterbekreftelse"}
-        prov(8, "E-post signert som Maria uten hennes bekreftelse", ai_signert, port.HOLDES)
+        prov(8, "Kilde-e-post med bare «Redaksjonen» som signatur",
+             {"id": "test-epost-redaksjonen", "kanal": "epost", "journalist": port.MARIA,
+              "egen_teologisk_vurdering": False,
+              "epost": {"avsendernavn": "MANTELEN", "signatur": "Redaksjonen"},
+              "tekst": {"emne": "Spørsmål om vedtaket", "brodtekst": EPOST_KROPP + "Redaksjonen"}}, port.HOLDES)
+        prov(8, "Kilde-e-post fra Maria med riktig navn og signatur",
+             {"id": "test-epost-maria", "kanal": "epost", "journalist": port.MARIA,
+              "egen_teologisk_vurdering": False,
+              "epost": {"avsendernavn": port.MARIA_AVSENDER, "signatur": port.MARIA_SIGNATUR},
+              "tekst": {"emne": "Spørsmål om vedtaket", "brodtekst": EPOST_KROPP + port.MARIA_SIGNATUR}},
+             port.PASSERER)
 
-        # 9. En AI kan ikke fylle ut godkjenningen
-        usignert = rot / "godkjenning-usignert.json"
-        usignert.write_text((rot / "godkjenning-artikkel.json").read_text(encoding="utf-8"), encoding="utf-8")
-        prov(9, "Godkjenning skrevet uten signatur", dict(art, godkjenning=usignert.name), port.HOLDES)
-        prov(9, "Godkjenning signert med fremmed nøkkel",
-             dict(art, godkjenning=_godkjenn(rot, art, fremmed, "godkjenning-fremmed.json")), port.HOLDES)
-        prov(9, "Godkjenning uten grunnlag i Topp 100",
-             dict(art, godkjenning=_godkjenn(rot, art, red, "godkjenning-uten-liste.json",
-                                             topp100={"fil": "", "versjon": "", "punkter": []})), port.HOLDES)
-        prov(9, "Godkjenning for artikkelen brukt på videoen",
-             dict(vid, godkjenning="godkjenning-artikkel.json"), port.HOLDES)
-        tom_tillit = rot / "tom-tillit"
-        tom_tillit.mkdir()
-        res = port.kontroller(art_ok, rot, "utsending", None, tom_tillit)
-        rader.append((9, "Ingen redaktørnøkkel registrert", "utsending", port.HOLDES, res["utfall"],
-                      res["utfall"] == port.HOLDES, res["grunner"]))
+        # 9. Et ja som ikke holder
+        annen = dict(art, id="test-annen-sak")
+        port._godkjenningsfil(annen, rot).write_text(
+            port._godkjenningsfil(art, rot).read_text(encoding="utf-8"), encoding="utf-8")
+        prov(9, "Ja til en annen sak brukt på nytt", annen, port.HOLDES)
+        uten_ord = dict(art, id="test-uten-ord")
+        g = json.loads(port._godkjenningsfil(art, rot).read_text(encoding="utf-8"))
+        g.update(sak_id="test-uten-ord", redaktorens_ord="", gitt={})
+        port._godkjenningsfil(uten_ord, rot).write_text(json.dumps(g, ensure_ascii=False), encoding="utf-8")
+        prov(9, "Ja uten redaktørens ord, tid og sted", uten_ord, port.HOLDES)
+        uten_liste = dict(art, id="test-uten-liste")
+        _ja(rot, uten_liste, punkter=())
+        prov(9, "Ja uten grunnlag i Topp 100", uten_liste, port.HOLDES)
+        utover = dict(art, id="test-utover-listen")
+        _ja(rot, utover, punkter=(), utover="Spørsmålet er ikke behandlet i listen.")
+        prov(9, "Ja til noe som åpent går utover listen", utover, port.PASSERER)
 
-    # Porten skal ikke kunne sende eller publisere noe.
     kilde = Path(port.__file__).read_text(encoding="utf-8")
     forbudt = [m for m in ("import socket", "import smtplib", "import urllib", "import http", "import requests")
                if m in kilde]
-    rader.append((10, "Porten har ingen nettverkskode", "kildekode", "ingen", "ingen" if not forbudt else str(forbudt),
+    rader.append((10, "Porten har ingen nettverkskode", "kildekode", "ingen" if not forbudt else str(forbudt),
                   not forbudt, []))
 
     feil = 0
-    for nr, navn, fase, forventet, fikk, ok, grunner in rader:
+    for nr, navn, fase, fikk, ok, grunner in rader:
         print(f"{'OK  ' if ok else 'FEIL'} {nr:>2}  {fikk:<9} {fase:<12} {navn}")
         if "-v" in sys.argv:
-            for g in grunner:
-                print(f"            - {g}")
+            for grunn in grunner:
+                print(f"            - {grunn}")
         feil += 0 if ok else 1
     print(f"\n{len(rader) - feil} av {len(rader)} prøver ga forventet utfall. "
           "Ingenting ble publisert, planlagt eller sendt.")

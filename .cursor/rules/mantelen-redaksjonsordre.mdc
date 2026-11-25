@@ -7,12 +7,16 @@ Les og følg `AGENTS.md` i rotmappen før du skriver, planlegger, publiserer ell
 
 Kortversjon:
 
-- MANTELENs egen teologiske vurdering publiseres bare når ansvarlig redaktør Elias Solbak Årnes
-  uttrykkelig har godkjent den ferdige versjonen. Innholdet avgjør, ikke overskriften. Gjelder også
-  ingress, tittel, bildetekst, videomanus, fortellerstemme, skjermtekst, undertekster, beskrivelse og Shorts.
+- MANTELENs egen teologiske vurdering publiseres bare når ansvarlig redaktør Elias Solbak Årnes har
+  svart ja til den ferdige versjonen. Innholdet avgjør, ikke overskriften. Gjelder også ingress, tittel,
+  bildetekst, videomanus, fortellerstemme, skjermtekst, undertekster, beskrivelse og Shorts.
+- Spør kort: ett ja/nei-spørsmål per sak, setningene det gjelder, én linje om grunnlaget i Topp 100,
+  hele teksten under. `python redaksjonsport/port.py forelegg <sak.json>` lager spørsmålet.
+- Bare et tydelig ja er et ja, og det gjelder nøyaktig den versjonen han så. Noter aldri et svar han
+  ikke har gitt.
 - Kjør `python redaksjonsport/port.py kontroller <sak.json> --fase planlegging` ved planlegging og
   `--fase utsending` rett før noe går ut. Ved `HOLDES` blir innholdet liggende som utkast.
-- Fyll aldri ut eller signer en godkjenning på redaktørens vegne. Rør aldri nøklene porten stoler på.
+- Regelen gjelder fra 25. november 2026. Det som er publisert eller planlagt før det, røres ikke.
 - Marias navn brukes bare når hun faktisk er journalist eller avsender. Byline: «Av Maria Solbak Årnes,
   journalist i MANTELEN». E-post: avsendernavn «Maria Solbak Årnes, MANTELEN», signatur «Maria Solbak
   Årnes, journalist i MANTELEN». «Redaksjonen» alene er utilstrekkelig for hennes saker.

@@ -9,8 +9,8 @@ kaller den, skal la saken bli liggende som utkast når svaret er HOLDES.
 Bruk:
     python port.py kontroller sak.json --fase planlegging
     python port.py kontroller sak.json --fase utsending --planlagt-versjon <sha256>
-    python port.py forelegg sak.json          # tekst og versjon til redaktøren
-    python port.py tillit                     # hvilke nøkler porten stoler på
+    python port.py forelegg sak.json --topp100-versjon ... --punkter 35,41 --samsvar "..."
+    python port.py svar sak.json --svar ja --ord "Ja" --hvor "..."   # etter at redaktøren har svart
 
 Bare standardbiblioteket og `openssl` (3.0 eller nyere) brukes. Ingen nettverkskode.
 """
@@ -43,7 +43,6 @@ VIDEOTEKST = ("manus", "fortellerstemme", "undertekster")
 ARTIKKELKANALER = ("ghost-artikkel", "ghost-nyhetsbrev")
 
 NOKKEL_REDAKTOR = "redaktor.pub.pem"
-NOKKEL_MARIA = "journalist-maria.pub.pem"
 
 
 # --------------------------------------------------------------------------
@@ -174,11 +173,14 @@ def _kilde(setning: str):
 
 
 def _setninger(tekst: str):
-    uten_sitat = _SITAT.sub(" ", tekst)
-    for del_ in re.split(r"(?<=[.!?:])\s+|\n+", uten_sitat):
-        del_ = del_.strip()
-        if del_:
-            yield del_
+    """Gir (maskert, ordrett) for hver setning. I den maskerte er sitatene blanket ut."""
+    maskert = _SITAT.sub(lambda m: m.group()[0] + "~" * (len(m.group()) - 2) + m.group()[-1], tekst)
+    start = 0
+    grenser = [m.span() for m in re.finditer(r"(?<=[.!?:])\s+|(?<=[»”\"])\s+(?=[A-ZÆØÅ])|\n+", maskert)] + [(len(maskert), len(maskert))]
+    for a, b in grenser:
+        if maskert[start:a].strip():
+            yield maskert[start:a].strip(), tekst[start:a].strip()
+        start = b
 
 
 def skjerm(tekstfelt: dict) -> list[dict]:
@@ -195,7 +197,7 @@ def skjerm(tekstfelt: dict) -> list[dict]:
         for bit in biter:
             if not isinstance(bit, str):
                 continue
-            for s in _setninger(_norm(bit)):
+            for s, ordrett in _setninger(_norm(bit)):
                 kilde = _kilde(s)
                 grunn = None
                 if _MARKOR.search(s):
@@ -208,20 +210,16 @@ def skjerm(tekstfelt: dict) -> list[dict]:
                 elif kilde is None and _NORMATIV.search(s):
                     grunn = "konklusjon om hva kirken eller kristne bør, uten navngitt kilde"
                 if grunn:
-                    funn.append({"felt": felt, "grunn": grunn, "setning": s[:240]})
+                    funn.append({"felt": felt, "grunn": grunn, "setning": ordrett})
     return funn
 
 
 # --------------------------------------------------------------------------
-# Signaturer: bare den som har privatnøkkelen, kan godkjenne
+# Redaktørens svar: et kort ja eller nei, notert ordrett og bundet til versjonen
 # --------------------------------------------------------------------------
 
 def tillitsmappe() -> Path:
     return Path(os.environ.get("MANTELEN_TILLIT") or (Path.home() / ".mantelen" / "tillit"))
-
-
-def fingeravtrykk(pub: Path) -> str:
-    return hashlib.sha256(pub.read_bytes()).hexdigest()[:16] if pub.is_file() else ""
 
 
 def _signert(dokument: Path, pub: Path) -> bool:
@@ -245,50 +243,42 @@ def _les(sti: Path):
         return None
 
 
+def _godkjenningsfil(sak: dict, rot: Path) -> Path:
+    return rot / (sak.get("godkjenning") or f"{sak.get('id')}.godkjenning.json")
+
+
+def _foreleggelsesfil(sak: dict, rot: Path) -> Path:
+    return rot / f"{sak.get('id')}.foreleggelse.json"
+
+
 def _godkjenning(sak: dict, rot: Path, v: str, tillit: Path) -> list[str]:
-    """Tom liste betyr gyldig godkjenning fra ansvarlig redaktør for nettopp denne versjonen."""
-    ref = sak.get("godkjenning")
-    if not ref:
-        return ["ansvarlig redaktørs godkjenning mangler"]
-    dok = rot / ref
-    pub = tillit / NOKKEL_REDAKTOR
-    if not pub.is_file():
-        return [f"redaktørens offentlige nøkkel finnes ikke i {tillit}, så ingen godkjenning kan prøves"]
-    if not _signert(dok, pub):
-        return ["godkjenningen er ikke signert med redaktørens nøkkel"]
-    g = _les(dok) or {}
+    """Tom liste betyr at ansvarlig redaktør har svart ja til nettopp denne versjonen."""
+    dok = _godkjenningsfil(sak, rot)
+    g = _les(dok)
+    if not isinstance(g, dict):
+        return ["ansvarlig redaktør har ikke svart ja til denne versjonen"]
     feil = []
-    if g.get("godkjent_av") != REDAKTOR:
-        feil.append("godkjenningen er ikke utstedt av ansvarlig redaktør")
+    if g.get("svar") == "nei":
+        feil.append("ansvarlig redaktør har svart nei")
+    elif g.get("svar") != "ja":
+        feil.append("redaktørens svar er ikke et tydelig ja")
+    gitt = g.get("gitt") or {}
+    if not (g.get("redaktorens_ord") and gitt.get("nar") and gitt.get("hvor")):
+        feil.append("det er ikke notert hva redaktøren svarte, og når og hvor han svarte")
     if g.get("sak_id") != sak.get("id") or g.get("kanal") != sak.get("kanal"):
-        feil.append("godkjenningen gjelder en annen sak eller kanal")
+        feil.append("svaret gjelder en annen sak eller kanal")
     if g.get("versjon_sha256") != v:
-        feil.append("innholdet er endret etter godkjenningen, den nye versjonen må forelegges redaktøren")
+        feil.append("innholdet er endret etter at redaktøren svarte, den nye versjonen må forelegges ham")
     t = g.get("topp100") or {}
-    if not (t.get("fil") and t.get("versjon")):
-        feil.append("godkjenningen oppgir ikke hvilken versjon av Topp 100-listen den bygger på")
+    if not t.get("versjon"):
+        feil.append("det er ikke oppgitt hvilken versjon av Topp 100-listen vurderingen bygger på")
     if not (t.get("punkter") or g.get("utover_listen")):
-        feil.append("godkjenningen oppgir verken punkter i Topp 100-listen eller hva som går utover listen")
+        feil.append("det er verken oppgitt punkter i Topp 100-listen eller hva som går utover listen")
+    # Valgfri skjerping: har redaktøren lagt inn en nøkkel, må svaret også være signert med den.
+    pub = tillit / NOKKEL_REDAKTOR
+    if pub.is_file() and not _signert(dok, pub):
+        feil.append("redaktørens nøkkel er registrert, men svaret er ikke signert med den")
     return feil
-
-
-def _forfatterbekreftelse(sak: dict, rot: Path, v: str, tillit: Path) -> list[str]:
-    """Tom liste betyr at Maria selv har bekreftet at denne versjonen er hennes."""
-    ref = sak.get("forfatterbekreftelse")
-    if not ref:
-        return ["Marias egen bekreftelse av forfatterskapet mangler, en AI kan ikke tildele henne det"]
-    dok = rot / ref
-    pub = tillit / NOKKEL_MARIA
-    if not pub.is_file():
-        return [f"Marias offentlige nøkkel finnes ikke i {tillit}, så bekreftelsen kan ikke prøves"]
-    if not _signert(dok, pub):
-        return ["forfatterbekreftelsen er ikke signert med Marias nøkkel"]
-    b = _les(dok) or {}
-    if b.get("journalist") != MARIA or b.get("sak_id") != sak.get("id"):
-        return ["forfatterbekreftelsen gjelder en annen sak"]
-    if b.get("versjon_sha256") != v:
-        return ["teksten er endret etter at Maria bekreftet den"]
-    return []
 
 
 # --------------------------------------------------------------------------
@@ -343,7 +333,7 @@ def kontroller(sak: dict, rot: Path, fase: str = "planlegging",
             grunner.extend(uavklart)
             grunner.extend(mangler)
 
-    # 3. Marias navn: bare når hun faktisk er journalist eller avsender.
+    # 3. Marias navn: riktig byline, forfatter, avsendernavn og signatur.
     journalist = sak.get("journalist", "")
     if journalist == MARIA:
         if kanal in ARTIKKELKANALER:
@@ -358,7 +348,6 @@ def kontroller(sak: dict, rot: Path, fase: str = "planlegging",
             kropp = _norm(tekst.get("brodtekst", "")).rstrip()
             if epost.get("signatur") != MARIA_SIGNATUR or not kropp.endswith(MARIA_SIGNATUR):
                 grunner.append(f"e-posten skal signeres «{MARIA_SIGNATUR}», «Redaksjonen» alene er utilstrekkelig")
-        grunner.extend(_forfatterbekreftelse(sak, rot, v, tillit))
         if teologisk:
             grunner.append("teologisk vurdering i Marias tekst: hele denne versjonen skal til ansvarlig redaktør")
     elif _navnet_brukes(sak):
@@ -366,7 +355,6 @@ def kontroller(sak: dict, rot: Path, fase: str = "planlegging",
     if kanal == "epost" and not journalist:
         grunner.append("det er ikke oppgitt hvem som faktisk er avsender")
 
-    # Fjern like grunner, behold rekkefølgen.
     grunner = list(dict.fromkeys(grunner))
     return {
         "sak_id": sak.get("id"),
@@ -377,64 +365,109 @@ def kontroller(sak: dict, rot: Path, fase: str = "planlegging",
         "grunner": grunner,
         "merknader": merknader,
         "funn": funn,
-        "tillit": {"mappe": str(tillit),
-                   "redaktor": fingeravtrykk(tillit / NOKKEL_REDAKTOR),
-                   "maria": fingeravtrykk(tillit / NOKKEL_MARIA)},
         "kontrollert": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "handling": ("kan følge ordinær publiseringsvei" if not grunner
-                     else "skal bli liggende som utkast og legges frem for ansvarlig redaktør"),
+                     else "skal bli liggende som utkast til ansvarlig redaktør har svart ja"),
     }
 
 
-def forelegg(sak: dict, rot: Path) -> str:
-    """Teksten ansvarlig redaktør skal se, og godkjenningen han eventuelt signerer."""
+# --------------------------------------------------------------------------
+# Foreleggelse: ett kort spørsmål redaktøren kan svare ja eller nei på
+# --------------------------------------------------------------------------
+
+def forelegg(sak: dict, rot: Path, topp100_versjon: str = "", punkter: list[str] | None = None,
+             samsvar: str = "", utover: str = "") -> tuple[str, dict]:
+    """Lager spørsmålet til redaktøren. Kort først, hele teksten under."""
     v = versjon(sak, rot)
-    linjer = [f"FORELEGGELSE TIL ANSVARLIG REDAKTØR: {sak.get('id')} ({sak.get('kanal')})",
-              f"Versjon (SHA-256): {v}", ""]
-    for felt, verdi in (sak.get("tekst") or {}).items():
-        linjer.append(f"[{felt}]")
-        linjer.extend(verdi if isinstance(verdi, list) else [str(verdi)])
-        linjer.append("")
+    tekst = sak.get("tekst") or {}
+    funn = skjerm(tekst)
+    setninger = list(dict.fromkeys(f["setning"] for f in funn))
+    tittel = tekst.get("tittel") or sak.get("id")
+    kort = [f"TIL GODKJENNING: «{tittel}» ({sak.get('kanal')})",
+            "Godkjenner du denne teologiske vurderingen? Svar ja eller nei.", ""]
+    if setninger:
+        kort.append("Dette sier MANTELEN selv:")
+        kort += [f"  {n}. {s}" for n, s in enumerate(setninger, 1)]
+    else:
+        kort.append("Skjermen fant ingen enkeltsetninger. Vurderingen må pekes ut for hånd her.")
+    kort.append("")
+    if punkter:
+        kort.append(f"Topp 100 ({topp100_versjon or 'VERSJON MANGLER'}): punkt {', '.join(punkter)}. {samsvar}".rstrip())
+    if utover:
+        kort.append(f"Går utover listen: {utover}")
+    if not punkter and not utover:
+        kort.append("GRUNNLAG MANGLER: oppgi punkter i Topp 100 eller hva som går utover listen.")
+    kort.append(f"Versjon {v[:12]}. Hele teksten står under.")
+    full = ["", "-" * 60]
+    for felt, verdi in tekst.items():
+        full.append(f"[{felt}]")
+        full.extend(verdi if isinstance(verdi, list) else [str(verdi)])
+        full.append("")
     for navn, sti in (sak.get("filer") or {}).items():
-        p = rot / sti
-        linjer.append(f"[fil: {navn}] {sti} sha256={_filhash(p) if p.is_file() else 'MANGLER'}")
-    funn = skjerm(sak.get("tekst") or {})
-    linjer += ["", f"Funn i innholdsskjermen: {len(funn)}"]
-    linjer += [f"  ({f['felt']}) {f['grunn']}: {f['setning']}" for f in funn]
-    mal = {"type": "mantelen-teologisk-godkjenning", "sak_id": sak.get("id"), "kanal": sak.get("kanal"),
-           "versjon_sha256": v,
-           "topp100": {"fil": "", "versjon": "", "punkter": [], "samsvar": ""},
-           "utover_listen": "", "godkjent_av": REDAKTOR, "dato": ""}
-    linjer += ["", "Godkjenning til signering (fylles ut, leses og signeres av redaktøren selv):",
-               json.dumps(mal, ensure_ascii=False, indent=2)]
-    return "\n".join(linjer)
+        full.append(f"[fil: {navn}] {sti}")
+    grunnlag = {"type": "mantelen-foreleggelse", "sak_id": sak.get("id"), "kanal": sak.get("kanal"),
+                "versjon_sha256": v, "sporsmal": kort[1], "setninger": setninger,
+                "topp100": {"versjon": topp100_versjon, "punkter": punkter or [], "samsvar": samsvar},
+                "utover_listen": utover}
+    return "\n".join(kort + full), grunnlag
+
+
+def noter_svar(sak: dict, rot: Path, svar: str, ordrett: str, hvor: str) -> tuple[bool, str]:
+    """Noterer redaktørens svar på den foreleggelsen han faktisk så.
+
+    Kalles først etter at ansvarlig redaktør selv har svart. `ordrett` er svaret
+    slik han skrev det, og `hvor` er stedet det kan finnes igjen.
+    """
+    f = _les(_foreleggelsesfil(sak, rot))
+    if not isinstance(f, dict):
+        return False, "ingen foreleggelse funnet, kjør «forelegg» og vis den til redaktøren først"
+    if f.get("versjon_sha256") != versjon(sak, rot):
+        return False, "innholdet er endret siden foreleggelsen, legg den nye versjonen frem på nytt"
+    if svar not in ("ja", "nei") or not ordrett.strip() or not hvor.strip():
+        return False, "svaret må være ja eller nei, med redaktørens egne ord og hvor han svarte"
+    g = dict(f, type="mantelen-teologisk-godkjenning", svar=svar, redaktorens_ord=ordrett.strip(),
+             gitt={"nar": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "hvor": hvor.strip()},
+             godkjent_av=REDAKTOR)
+    _godkjenningsfil(sak, rot).write_text(json.dumps(g, ensure_ascii=False, indent=2), encoding="utf-8")
+    return True, "notert"
 
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="MANTELEN redaksjonsport. Publiserer og sender ingenting.")
     sub = ap.add_subparsers(dest="kommando", required=True)
-    k = sub.add_parser("kontroller")
+    k = sub.add_parser("kontroller", help="PASSERER eller HOLDES for den endelige kanalversjonen")
     k.add_argument("sak")
     k.add_argument("--fase", choices=["planlegging", "utsending"], required=True)
     k.add_argument("--planlagt-versjon")
-    f = sub.add_parser("forelegg")
+    f = sub.add_parser("forelegg", help="lag det korte spørsmålet til redaktøren")
     f.add_argument("sak")
-    sub.add_parser("tillit")
+    f.add_argument("--topp100-versjon", default="")
+    f.add_argument("--punkter", default="", help="for eksempel 35,41")
+    f.add_argument("--samsvar", default="", help="én setning om hvordan vurderingen samsvarer med punktene")
+    f.add_argument("--utover", default="", help="hva som går utover det listen avgjør")
+    n = sub.add_parser("svar", help="noter redaktørens ja eller nei etter at han har svart")
+    n.add_argument("sak")
+    n.add_argument("--svar", choices=["ja", "nei"], required=True)
+    n.add_argument("--ord", required=True, help="redaktørens svar, ordrett")
+    n.add_argument("--hvor", required=True, help="hvor svaret ble gitt, så det kan finnes igjen")
     a = ap.parse_args(argv)
 
-    if a.kommando == "tillit":
-        t = tillitsmappe()
-        print(json.dumps({"mappe": str(t), "redaktor": fingeravtrykk(t / NOKKEL_REDAKTOR),
-                          "maria": fingeravtrykk(t / NOKKEL_MARIA)}, ensure_ascii=False, indent=2))
-        return 0
     sti = Path(a.sak)
     sak = _les(sti)
     if not isinstance(sak, dict):
         print(json.dumps({"utfall": HOLDES, "grunner": ["saksfilen kan ikke leses"]}, ensure_ascii=False))
         return 1
     if a.kommando == "forelegg":
-        print(forelegg(sak, sti.parent))
+        punkter = [x.strip() for x in a.punkter.split(",") if x.strip()]
+        kort, grunnlag = forelegg(sak, sti.parent, a.topp100_versjon, punkter, a.samsvar, a.utover)
+        _foreleggelsesfil(sak, sti.parent).write_text(
+            json.dumps(grunnlag, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(kort)
         return 0
+    if a.kommando == "svar":
+        ok, melding = noter_svar(sak, sti.parent, a.svar, a.ord, a.hvor)
+        print(melding)
+        return 0 if ok else 1
     res = kontroller(sak, sti.parent, a.fase, a.planlagt_versjon)
     print(json.dumps(res, ensure_ascii=False, indent=2))
     return 0 if res["utfall"] == PASSERER else 1

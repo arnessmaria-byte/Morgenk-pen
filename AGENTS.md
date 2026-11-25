@@ -5,6 +5,10 @@ Gjelder MANTELENs journalistikk, kildekorrespondanse og YouTube-produksjon, og
 gjelder Cursor, Codex, Claude, Grok Bot og alle andre modeller og bakgrunnsjobber.
 Ordren går foran eldre instrukser der de strider mot den.
 
+Regelen gjelder det som lages, endres eller planlegges fra og med 25. november
+2026. Det som ble publisert eller planlagt før det, røres ikke på grunn av
+denne ordren.
+
 ## 1. Vis leseren hvem som sier hva
 
 - Gjengi en kildes beskrivelser og idealer som kildens. Redaksjonen overtar dem ikke.
@@ -31,20 +35,33 @@ En navngitt kildes teologiske utsagn kan gjengis som journalistikk når leseren
 tydelig ser hvem som hevder det. Bibelens forfattere er ikke kilder i denne
 forstand: bruker teksten Paulus til å si noe om frelse, tolker MANTELEN Skriften.
 
-Slik legges en vurdering frem:
+### Slik spør du redaktøren
 
-1. Legg frem den nøyaktige teksten eller den ferdige videoversjonen.
-2. Hent gjeldende versjon av hovedfilen for Guds Menighets Topp 100-liste ved
-   behandlingen, og noter versjonen i saken.
-3. Oppgi hvilke punkter vurderingen bygger på, hva punktene faktisk behandler,
-   og vis kort hvordan vurderingen samsvarer med dem.
-4. Går spørsmålet utover det listen avgjør, legges det åpent frem.
+Redaktøren skal kunne svare kort og raskt ja eller nei. Legg derfor frem ett
+spørsmål per sak, i denne formen, og ikke mer:
 
-Samtykke til listen, til en tidligere sak eller til en serie gir ingen
-godkjenning av et nytt resonnement. Endres den teologiske ordlyden etter
-godkjenning, skal den nye versjonen forelegges på nytt. En publisert sak med
-teologisk vurdering endres ikke før redaktøren har tatt stilling til et forelagt
-endringsutkast.
+1. Én linje: «Godkjenner du denne teologiske vurderingen i <sak>? Svar ja eller nei.»
+   Bruk ja/nei-knapper der verktøyet har det.
+2. Setningene som er MANTELENs egen vurdering, ordrett og nummerert. Bare dem.
+3. Én linje om grunnlaget: versjonen av Topp 100-hovedfilen (hentet ved
+   behandlingen), punktene vurderingen bygger på, og hva de faktisk behandler.
+4. Én linje om det som går utover det listen avgjør, hvis noe gjør det.
+5. Hele teksten eller den ferdige videoen under, som vedlegg eller lenke.
+
+`python redaksjonsport/port.py forelegg <sak.json>` lager dette spørsmålet.
+
+Slik leses svaret:
+
+- Bare et tydelig ja er et ja. Nei, taushet, forbehold og «ja, hvis» er ikke ja.
+  Da blir innholdet liggende som utkast.
+- Et ja gjelder nøyaktig den versjonen redaktøren så. Endres den teologiske
+  ordlyden etterpå, spør du på nytt.
+- Ved nei diskuterer du ikke. Du kan tilby å ta vurderingen ut, slik at det
+  kildebelagte kan gå videre.
+- Samtykke til listen, til en tidligere sak eller til en serie er ikke et ja
+  til et nytt resonnement.
+- Noter svaret ordrett, med tid og sted, med `port.py svar`. Noter aldri et
+  svar redaktøren ikke har gitt.
 
 ## 3. Marias journalistikk og e-post
 
@@ -69,14 +86,13 @@ endringsutkast.
 `redaksjonsport/README.md` for saksformat, kommandoer og innkobling.
 
 - Kjør kontrollen både ved planlegging og rett før noe går ut. Dette gjelder
-  også direktekall mot Ghost, YouTube og e-post, arbeid i nettleser,
-  bakgrunnsjobber og saker og videoer som allerede er planlagt.
+  også direktekall mot Ghost, YouTube og e-post, arbeid i nettleser og
+  bakgrunnsjobber.
 - Svarer porten `HOLDES`, eller kan den ikke kjøres, blir innholdet liggende
-  som utkast. Teologisk eller uavklart innhold holdes i utkast når redaktørens
-  godkjenning mangler.
-- En AI skal aldri fylle ut, signere, kopiere eller gjenbruke en godkjenning på
-  redaktørens vegne, og aldri røre nøklene porten stoler på. Det samme gjelder
-  Marias bekreftelse av eget forfatterskap.
+  som utkast. Teologisk eller uavklart innhold holdes i utkast til redaktøren
+  har svart ja.
+- En AI skal aldri notere, kopiere eller gjenbruke et ja redaktøren ikke selv
+  har gitt til den aktuelle versjonen.
 - Innholdsskjermen i porten er et gulv. At den ikke slår ut, er ingen
   godkjenning. Skriv aldri om en tekst for å komme forbi den.
 - Ingen test skal sende e-post eller publisere stoff til publikum.

@@ -5,6 +5,8 @@ Kontroll av den endelige kanalversjonen etter redaksjonsordren 25. november 2026
 svarer `PASSERER` (avslutningskode 0) eller `HOLDES` (avslutningskode 1), og
 verktøyet som kaller den, skal la innholdet ligge som utkast ved `HOLDES`.
 
+Regelen gjelder fra 25. november 2026 og virker ikke tilbake i tid.
+
 Status 25. november 2026: porten er skrevet og tørrkjørt i dette repoet. Den er
 ikke koblet inn i verktøyene som faktisk planlegger, publiserer og sender. De
 ligger utenfor dette repoet. Se «Innkobling» nederst.
@@ -18,16 +20,64 @@ ligger utenfor dette repoet. Se «Innkobling» nederst.
    beskrivelse. Sitater i anførselstegn og setninger som tilskrives en navngitt
    kilde, regnes som gjengivelse. Skriftsteder og teologiske utsagn i
    redaksjonens egen stemme gir funn. Bibelens forfattere regnes ikke som kilder.
-3. **Redaktørens godkjenning.** Ved funn, ved erklært teologisk vurdering eller
-   ved uavklart innhold kreves en godkjenning som er signert med ansvarlig
-   redaktørs nøkkel og bundet til nøyaktig denne versjonen (SHA-256). Endres
-   ett tegn eller én byte i videoen, gjelder ikke godkjenningen lenger.
-   Godkjenningen må oppgi Topp 100-filens versjon og punktene den bygger på,
-   eller si hva som går utover listen.
+3. **Redaktørens ja.** Ved funn, ved erklært teologisk vurdering eller ved
+   uavklart innhold kreves det at ansvarlig redaktør har svart ja til nøyaktig
+   denne versjonen (SHA-256). Endres ett tegn eller én byte i videoen, gjelder
+   ikke svaret lenger. Svaret må være notert ordrett, med tid og sted, sammen
+   med Topp 100-versjonen og punktene vurderingen bygger på, eller hva som går
+   utover listen.
 4. **Marias navn.** Når Maria er oppgitt som journalist, kreves riktig byline,
-   riktig forfatter i Ghost, riktig avsendernavn og signatur i e-post, og
-   hennes egen signerte bekreftelse av versjonen. Hennes navn brukt uten at hun
-   er oppgitt som journalist, holdes. Byttet byline endrer ikke punkt 2 og 3.
+   riktig forfatter i Ghost og riktig avsendernavn og signatur i e-post. Hennes
+   navn brukt uten at hun er oppgitt som journalist, holdes. Byttet byline
+   endrer ikke punkt 2 og 3.
+
+## Slik går en godkjenning
+
+1. Den som forbereder saken, lager spørsmålet:
+
+```bash
+python redaksjonsport/port.py forelegg sak.json --topp100-versjon "23.11.2026" --punkter 35,41 --samsvar "Én setning om hva punktene behandler." --utover "Hva som går utover listen."
+```
+
+2. Spørsmålet vises til redaktøren. Det er kort:
+
+```text
+TIL GODKJENNING: «Tittel» (ghost-artikkel)
+Godkjenner du denne teologiske vurderingen? Svar ja eller nei.
+
+Dette sier MANTELEN selv:
+  1. Paulus skriver i Romerbrevet 12,2 at ...
+  2. Kirken bør derfor ...
+
+Topp 100 (23.11.2026): punkt 35. Én setning om hva punktet behandler.
+Går utover listen: ...
+Versjon 910f6cb326d4. Hele teksten står under.
+```
+
+3. Redaktøren svarer ja eller nei. Svaret noteres ordrett:
+
+```bash
+python redaksjonsport/port.py svar sak.json --svar ja --ord "Ja" --hvor "Hvor svaret ble gitt"
+```
+
+4. Kontrollen kjøres ved planlegging og rett før utsending:
+
+```bash
+python redaksjonsport/port.py kontroller sak.json --fase planlegging
+```
+
+```bash
+python redaksjonsport/port.py kontroller sak.json --fase utsending --planlagt-versjon <sha256 fra planleggingen>
+```
+
+Er teksten endret etter foreleggelsen, kan svaret ikke noteres, og et ja som
+er notert, slutter å gjelde. Da spørres redaktøren på nytt.
+
+Tørrkjøring uten at noe sendes eller publiseres:
+
+```bash
+python redaksjonsport/torrkjoring.py -v
+```
 
 ## Saksfil
 
@@ -40,9 +90,7 @@ ligger utenfor dette repoet. Se «Innkobling» nederst.
   "forfatter": "Maria Solbak Årnes",
   "egen_teologisk_vurdering": false,
   "tekst": {"tittel": "", "ingress": "", "brodtekst": "", "bildetekster": []},
-  "filer": {},
-  "forfatterbekreftelse": "bekreftelse.json",
-  "godkjenning": "godkjenning.json"
+  "filer": {}
 }
 ```
 
@@ -52,77 +100,28 @@ Kanaler: `ghost-artikkel`, `ghost-nyhetsbrev`, `nyhetsstrom`, `youtube-video`,
 `undertekster`, i tillegg til `tittel`, `beskrivelse` og `skjermtekst`. E-post
 har i tillegg `"epost": {"avsendernavn": "", "signatur": ""}` og brødteksten i
 `tekst.brodtekst`. `egen_teologisk_vurdering` må oppgis. Mangler feltet, er
-saken uavklart.
-
-## Kommandoer
-
-```bash
-python redaksjonsport/port.py kontroller sak.json --fase planlegging
-```
-
-```bash
-python redaksjonsport/port.py kontroller sak.json --fase utsending --planlagt-versjon <sha256 fra planleggingen>
-```
-
-```bash
-python redaksjonsport/port.py forelegg sak.json
-```
-
-```bash
-python redaksjonsport/torrkjoring.py -v
-```
-
-`forelegg` skriver ut nøyaktig tekst, versjonshash, skjermens funn og en
-godkjenning til utfylling. Den som forbereder saken, fyller inn Topp 100-filens
-versjon, punktene, hva de faktisk behandler og hvordan vurderingen samsvarer.
-Redaktøren leser, retter og signerer selv.
-
-## Nøklene: hvorfor en AI ikke kan godkjenne
-
-Godkjenningen er en fil pluss en Ed25519-signatur. Porten stoler bare på de
-offentlige nøklene i tillitsmappen (`~/.mantelen/tillit/`, eller mappen i
-miljøvariabelen `MANTELEN_TILLIT`), som ligger utenfor repoet. Uten
-privatnøkkelen kan ingen lage en gyldig signatur. Finnes ingen redaktørnøkkel i
-tillitsmappen, holdes alt teologisk og uavklart innhold.
-
-Engangsoppsett, gjort av redaktøren selv (krever `openssl` 3, som følger med Git):
-
-```bash
-openssl genpkey -algorithm ed25519 -aes-256-cbc -out redaktor-privat.pem
-```
-
-```bash
-openssl pkey -in redaktor-privat.pem -pubout -out ~/.mantelen/tillit/redaktor.pub.pem
-```
-
-Godkjenne én versjon:
-
-```bash
-openssl pkeyutl -sign -inkey redaktor-privat.pem -rawin -in godkjenning.json -out godkjenning.json.sig
-```
-
-Maria gjør det samme med egen nøkkel. Den offentlige delen heter
-`journalist-maria.pub.pem`, og hun signerer en bekreftelse med feltene
-`sak_id`, `journalist` og `versjon_sha256`.
-
-Privatnøkkelen og passordfrasen skal aldri ligge der en AI kan lese dem, og
-aldri gis til en AI. Hver kvittering fra porten oppgir fingeravtrykket til
-nøklene som ble brukt, slik at et nøkkelbytte synes.
+saken uavklart. Foreleggelsen og svaret lagres ved siden av saksfilen som
+`<id>.foreleggelse.json` og `<id>.godkjenning.json`.
 
 ## Grenser
 
+- Svaret noteres av den som spurte, etter at redaktøren har svart. Porten kan
+  ikke selv vite at han svarte. Vernet er at svaret må gjengi hans ord og hvor
+  de ble gitt, at det er bundet til versjonen, og at instruksen forbyr å notere
+  et svar han ikke har gitt. Vil redaktøren ha et sterkere vern, kan han legge
+  en offentlig nøkkel i `~/.mantelen/tillit/redaktor.pub.pem`. Da krever porten
+  i tillegg at svaret er signert med nøkkelen hans.
 - Skjermen er et gulv. Den fanger skriftsteder og åpenbare teologiske utsagn i
   redaksjonens stemme, på norsk og engelsk. Den forstår ikke teksten. Det den
   ikke fanger, er fortsatt omfattet av ordren, og den som forbereder saken, har
   plikt til å erklære `egen_teologisk_vurdering` riktig.
-- Porten leser ikke lyd og bilde. For video binder godkjenningen filen byte for
-  byte, men det er den som forbereder saken, som må legge frem all tekst og tale.
+- Porten leser ikke lyd og bilde. For video binder svaret filen byte for byte,
+  men det er den som forbereder saken, som må legge frem all tekst og tale.
 - Porten virker bare der den er koblet inn. Publisering for hånd i Ghost Admin,
   YouTube Studio eller Gmail går utenom den.
-- Den som har full skrivetilgang til maskinen, kan endre portens kode eller
-  peke den mot en annen tillitsmappe. Signaturen hindrer at en godkjenning kan
-  fylles ut, men ikke at verktøyet saboteres. Fingeravtrykkene i kvitteringene
-  og git-historikken er kontrollen mot det.
+- Porten sjekker at Marias navn og signatur er riktig brukt. Den kan ikke vite
+  hvem som faktisk skrev teksten. Det er instruksen som forbyr en AI å tildele
+  henne forfatterskap.
 
 ## Innkobling
 
@@ -136,7 +135,6 @@ køer føres i den interne driftsdokumentasjonen og ikke her. Veiene som skal de
 - kortnyheter og redaksjonelle linjer som bakgrunnsjobber legger ut
 - opplasting og planlegging av video og Shorts, med tittel, beskrivelse og undertekster
 - kilde-e-post
-- saker og videoer som allerede ligger planlagt
 - sosiale kanaler
 
 Mønster for et verktøy:
