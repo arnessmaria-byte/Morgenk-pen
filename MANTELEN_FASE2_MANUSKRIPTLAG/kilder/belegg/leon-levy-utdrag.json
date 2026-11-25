@@ -1,0 +1,107 @@
+{
+ "source": "Leon Levy Dead Sea Scrolls Digital Library (Israel Antiquities Authority), manuskriptsider",
+ "retrieved": "2026-11-25",
+ "note": "Katalogopplysninger med henvisning og lenke. Bilder er ikke lagret.",
+ "records": {
+  "4Q88": {
+   "manuscript_id": "4Q88-1",
+   "name": "4Q Psalms",
+   "short_name": "4Q Ps",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "script_type": "Square",
+   "period": "Hasmonean",
+   "official_publications": [
+    "Skehan, Ulrich, Flint 2000. DJD 16: 85-106."
+   ],
+   "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1",
+   "rawSha256": "32c4bc7477fa20e3c4db84e116c380823f448b08d74621805edd0a001ad5c1db"
+  },
+  "1Q8": {
+   "manuscript_id": "1Q8-1",
+   "name": "1Q Isaiah",
+   "short_name": "1Q Isa",
+   "site": "Qumran, Cave 1",
+   "material": "Parchment",
+   "script_type": "Square",
+   "period": "Herodian",
+   "official_publications": [
+    "Barthelemy 1955. DJD 1: 66-68.\nSukenik 1955. The Dead Sea Scrolls of the Hebrew University. DJD : pls. I-XII.\nUlrich, Flint 2009. . . 1-260, LV-LXXIV.",
+    "Barthelemy 1955. DJD 1: 66-68.\nUlrich, Flint 2009. DJD 32: 1-260.\nSukenik 1955. The Dead Sea Scrolls of the Hebrew University. Jerusalem. pls. I-XII."
+   ],
+   "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1",
+   "rawSha256": "1ce2099679edd80c05ac6b34d520e922f6379f809a4d679e8de138c02c1fde86"
+  },
+  "4Q45": {
+   "manuscript_id": "4Q45-1",
+   "name": "4Q paleoDeuteronomy",
+   "short_name": "4Q paleoDeut",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "script_type": "Paleo-Hebrew",
+   "period": "Hasmonean",
+   "official_publications": [
+    "Skehan, Ulrich, Sanderson 1992. DJD 9: 131-152."
+   ],
+   "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q45-1",
+   "rawSha256": "b4342d5b7d51c924b6fe697b3027af7a24b5811bac29609707d5cdc681476c02"
+  },
+  "4Q37": {
+   "manuscript_id": "4Q37-1",
+   "name": "4Q Deuteronomy",
+   "short_name": "4Q Deut",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "script_type": "Square",
+   "period": "Herodian",
+   "official_publications": [
+    "Duncan 1995. DJD 14: 70-91."
+   ],
+   "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1",
+   "rawSha256": "678837d8a0ce906a1b8674f7d96e777c5b9efa9171cc9a6b386dc356ff443813"
+  },
+  "11Q5": {
+   "manuscript_id": "11Q5-1",
+   "name": "11Q Psalms",
+   "short_name": "11Q Ps",
+   "site": "Qumran, Cave 11",
+   "material": "Parchment",
+   "script_type": "Square",
+   "period": "Herodian",
+   "official_publications": [
+    "Sanders 1965. DJD 4: 1-99.",
+    "Garcia Martinez, Tigchelaar, van der Woude 1998. DJD 23: 28-36."
+   ],
+   "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/11Q5-1",
+   "rawSha256": "d645d56193431923d8936c252d8eb8555857729269890491b223ecc4127b47d4"
+  },
+  "4Q58": {
+   "manuscript_id": "4Q58-1",
+   "name": "4Q Isaiah",
+   "short_name": "4Q Isa",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "script_type": "Square",
+   "period": "Herodian",
+   "official_publications": [
+    "Skehan, Ulrich 1997. DJD 15: 75-88."
+   ],
+   "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1",
+   "rawSha256": "a9e9adc970bce8c934804f7d3f8bcc8e7c9d55f078d0b4c0c6beab7bb38ed4b3"
+  },
+  "4Q44": {
+   "manuscript_id": "4Q44-1",
+   "name": "4Q Deuteronomy",
+   "short_name": "4Q Deut",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "script_type": "Square",
+   "period": "Herodian",
+   "official_publications": [
+    "Skehan, Ulrich 1995. DJD 14: 137-142."
+   ],
+   "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1",
+   "rawSha256": "8d5bc22687d2eaf4d07d64c770e36ba9dd34d6c9c2a113e7d83388690cc88c99"
+  }
+ }
+}

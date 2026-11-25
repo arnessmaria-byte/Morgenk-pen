@@ -1,0 +1,1937 @@
+{
+ "schemaVersion": "vitneregister.v1-trinn0",
+ "generated": "2026-11-25",
+ "rule": "Datering, type og oppbevaringssted står bare her. Ingen datering er skrevet inn for hånd: feltene century og dateRange er enten importert fra et register med SHA-256, eller tomme med en merknad om hvor de skal hentes.",
+ "counts": {
+  "majuskel": 18,
+  "minuskel": 25,
+  "papyrus": 4,
+  "rulle": 8,
+  "hebraisk_kodeks": 1,
+  "oversettelse": 4,
+  "kirkefar_verk": 9,
+  "medImportertDatering": 47,
+  "utenDatering": 22
+ },
+ "witnesses": {
+  "01": {
+   "siglum": "01",
+   "display": "ℵ 01",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "01",
+   "intfDocId": 20001,
+   "century": "IV",
+   "dateRange": {
+    "notBefore": 300,
+    "notAfter": 399
+   },
+   "repository": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfmark": "Add. 43725"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20001&detail=shelfInstance&format=json",
+    "sha256": "7f0a4c62f8d8a4b78eb0425b5c21df4d25b2a4d9a5d7afd903b26289559a9aad",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "commonName": "Codex Sinaiticus"
+  },
+  "017": {
+   "siglum": "017",
+   "display": "K 017",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "017",
+   "intfDocId": 20017,
+   "century": "IX",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 899
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 63"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20017&detail=shelfInstance&format=json",
+    "sha256": "5b53065d17e18dedfddb30a8a8d2dce5b89aa7f8f1e9b601e5d38025ab9160cb",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "019": {
+   "siglum": "019",
+   "display": "L 019",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "019",
+   "intfDocId": 20019,
+   "century": "VIII",
+   "dateRange": {
+    "notBefore": 700,
+    "notAfter": 799
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 62"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20019&detail=shelfInstance&format=json",
+    "sha256": "a4ab17fd38abc1d81d467c38d60a7bc74e331c31e4370a74aa73cf97d7de3a62",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "02": {
+   "siglum": "02",
+   "display": "A 02",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "02",
+   "intfDocId": 20002,
+   "century": "V",
+   "dateRange": {
+    "notBefore": 400,
+    "notAfter": 499
+   },
+   "repository": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfmark": "Royal 1 D.VIII"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20002&detail=shelfInstance&format=json",
+    "sha256": "abcf00dba486b48146bee86bd3b2c036076bc29df38d36af7af2702737d0d0cb",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "commonName": "Codex Alexandrinus"
+  },
+  "020": {
+   "siglum": "020",
+   "display": "L 020",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "020",
+   "intfDocId": 20020,
+   "century": "IX",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 899
+   },
+   "repository": [
+    {
+     "institution": "Biblioteca Angelica",
+     "place": "Rome",
+     "country": "Italy",
+     "shelfmark": "Ang. gr. 39"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20020&detail=shelfInstance&format=json",
+    "sha256": "77130f6b9694eb783cac5d20b41a3d22f516bc68fe61d80c27bdba9f264df079",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "025": {
+   "siglum": "025",
+   "display": "P 025",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "025",
+   "intfDocId": 20025,
+   "century": "IX",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 899
+   },
+   "repository": [
+    {
+     "institution": "National Library of Russia",
+     "place": "St. Petersburg",
+     "country": "Russia",
+     "shelfmark": "Ф. № 906 / Gr. 225 "
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20025&detail=shelfInstance&format=json",
+    "sha256": "361934a990f47cd6a28156e94477d1fc2065a0475739c1d08a3356478073eecf",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "commonName": "Codex Porphyrianus"
+  },
+  "03": {
+   "siglum": "03",
+   "display": "B 03",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "03",
+   "intfDocId": 20003,
+   "century": "IV",
+   "dateRange": {
+    "notBefore": 300,
+    "notAfter": 399
+   },
+   "repository": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfmark": "Vat. gr. 1209, p. 1235-1518"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20003&detail=shelfInstance&format=json",
+    "sha256": "98c28a426fed30e311e72137408d3a2dec63a5b993dd9bef21a43bd201a40509",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "commonName": "Codex Vaticanus"
+  },
+  "032": {
+   "siglum": "032",
+   "display": "W 032",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "032",
+   "intfDocId": 20032,
+   "century": "V",
+   "dateRange": {
+    "notBefore": 400,
+    "notAfter": 499
+   },
+   "repository": [
+    {
+     "institution": "Smithsonian Institution, Freer Gallery of Art",
+     "place": "Washington D.C.",
+     "country": "USA",
+     "shelfmark": 6.274
+    },
+    {
+     "institution": "Smithsonian Institution, Freer Gallery of Art",
+     "place": "Washington D.C.",
+     "country": "USA",
+     "shelfmark": "F1906.274"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20032&detail=shelfInstance&format=json",
+    "sha256": "119ee96afcc05271d29d169b73b3b19de4fb938fdf65590182ee34456241608c",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "037": {
+   "siglum": "037",
+   "display": "Δ 037",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "037",
+   "intfDocId": 20037,
+   "century": "IX",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 899
+   },
+   "repository": [
+    {
+     "institution": "Stiftsbibliothek",
+     "place": "St. Gallen",
+     "country": "Switzerland",
+     "shelfmark": "Cod. Sang. 48"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20037&detail=shelfInstance&format=json",
+    "sha256": "c17f12f5b7f8f7063a8cbd083c2ba690865ef9308b39aa7cf40e8c1f4c1174f3",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "038": {
+   "siglum": "038",
+   "display": "Θ 038",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "038",
+   "intfDocId": 20038,
+   "century": "IX",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 899
+   },
+   "repository": [
+    {
+     "institution": "National Center of Manuscripts",
+     "place": "Tbilisi",
+     "country": "Georgia",
+     "shelfmark": "Gr. 28"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20038&detail=shelfInstance&format=json",
+    "sha256": "1ca9e439f2af86969c911444a1dc0454a0990df470b80cb16f00e9018182474d",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "04": {
+   "siglum": "04",
+   "display": "C 04",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "04",
+   "intfDocId": 20004,
+   "century": "V",
+   "dateRange": {
+    "notBefore": 400,
+    "notAfter": 499
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 9"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20004&detail=shelfInstance&format=json",
+    "sha256": "5aa5cde9f5590dbae5958cbc7ac8c4457bc51c3ac8582593a42dc8131fea55f8",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "commonName": "Codex Ephraemi Rescriptus"
+  },
+  "041": {
+   "siglum": "041",
+   "display": "Π 041",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "041",
+   "intfDocId": 20041,
+   "century": "IX",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 899
+   },
+   "repository": [
+    {
+     "institution": "National Library of Russia",
+     "place": "St. Petersburg",
+     "country": "Russia",
+     "shelfmark": "Ф. № 906 / Gr. 34"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20041&detail=shelfInstance&format=json",
+    "sha256": "2586d12ff32b1107e112ec91d5c899c6cda3008859b1ac7b41a1134cb110c618",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "044": {
+   "siglum": "044",
+   "display": "Ψ 044",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "044",
+   "intfDocId": 20044,
+   "century": "IX/X",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "Great Lavra Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfmark": "B' 52"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20044&detail=shelfInstance&format=json",
+    "sha256": "7b65e612fcbae05d1cef7c2d65e8f77fdd36b7593c56fc02dfe93b90062c48e3",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "046": {
+   "siglum": "046",
+   "display": "046",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "046",
+   "intfDocId": 20046,
+   "century": "X",
+   "dateRange": {
+    "notBefore": 900,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfmark": "Vat. gr. 2066, fol. 249-268"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20046&detail=shelfInstance&format=json",
+    "sha256": "205804b373af6c16159e2e2fe8cd89e19c1012489caba8adf26f1f71d3c53f2d",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "049": {
+   "siglum": "049",
+   "display": "049",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "049",
+   "intfDocId": 20049,
+   "century": "X",
+   "dateRange": {
+    "notBefore": 900,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "Great Lavra Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfmark": "A' 88"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20049&detail=shelfInstance&format=json",
+    "sha256": "9ad78828f402917f33e4ea192abbe5e202900e9d526da600bcb310037e347a94",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "05": {
+   "siglum": "05",
+   "display": "D 05",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "05",
+   "intfDocId": 20005,
+   "century": "V",
+   "dateRange": {
+    "notBefore": 400,
+    "notAfter": 499
+   },
+   "repository": [
+    {
+     "institution": "Cambridge University Library",
+     "place": "Cambridge",
+     "country": "United Kingdom",
+     "shelfmark": "Ms. Nn. 2.41"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20005&detail=shelfInstance&format=json",
+    "sha256": "ed4a79613495af8a41dc066efde720d0df99c8a2c061ab0a3d0acba0dd06c937",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "commonName": "Codex Bezae"
+  },
+  "06": {
+   "siglum": "06",
+   "display": "D 06",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "06",
+   "intfDocId": 20006,
+   "century": "VI",
+   "dateRange": {
+    "notBefore": 500,
+    "notAfter": 599
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 107 AB"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20006&detail=shelfInstance&format=json",
+    "sha256": "c006c85e94f10e233f80966f558b0a1d6bf7e3f4624647ba43a0bd48cbc8bada",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "commonName": "Codex Claromontanus"
+  },
+  "08": {
+   "siglum": "08",
+   "display": "E 08",
+   "type": "majuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "08",
+   "intfDocId": 20008,
+   "century": "VI",
+   "dateRange": {
+    "notBefore": 500,
+    "notAfter": 599
+   },
+   "repository": [
+    {
+     "institution": "Bodleian Library",
+     "place": "Oxford",
+     "country": "United Kingdom",
+     "shelfmark": "Ms. Laud. Gr. 35"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20008&detail=shelfInstance&format=json",
+    "sha256": "82b53931db326e509535f5c47d6936d37d7512a0bb0963b28640fe63356d62e1",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "commonName": "Codex Laudianus"
+  },
+  "1": {
+   "siglum": "1",
+   "display": "1",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "1",
+   "intfDocId": 30001,
+   "century": "XII",
+   "dateRange": {
+    "notBefore": 1100,
+    "notAfter": 1199
+   },
+   "repository": [
+    {
+     "institution": "Universitätsbibliothek",
+     "place": "Basel",
+     "country": "Switzerland",
+     "shelfmark": "AN IV 2"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30001&detail=shelfInstance&format=json",
+    "sha256": "d32cb56a7557fa39871968aace64da43aa74fa7116751f434fe1ee4f15b00411",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "1006": {
+   "siglum": "1006",
+   "display": "1006",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "1006",
+   "intfDocId": 31006,
+   "century": "XI",
+   "dateRange": {
+    "notBefore": 1000,
+    "notAfter": 1099
+   },
+   "repository": [
+    {
+     "institution": "Iviron Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfmark": "56 (Monastery 728)"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31006&detail=shelfInstance&format=json",
+    "sha256": "c28dee5f6c6b10bf595925c3cc23c77f516416a28988d9fc5d9d3ab3bc316b55",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "1175": {
+   "siglum": "1175",
+   "display": "1175",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "1175",
+   "intfDocId": 31175,
+   "century": "X",
+   "dateRange": {
+    "notBefore": 900,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "St. John the Theologian Monastery",
+     "place": "Patmos",
+     "country": "Greece",
+     "shelfmark": 16
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31175&detail=shelfInstance&format=json",
+    "sha256": "f636caacb002f3bb198bc1fde389044d5e9c998358781c068148856d83e111b9",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "13": {
+   "siglum": "13",
+   "display": "13",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "13",
+   "intfDocId": 30013,
+   "century": "XII/XIII",
+   "dateRange": {
+    "notBefore": 1100,
+    "notAfter": 1299
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 50"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30013&detail=shelfInstance&format=json",
+    "sha256": "5ac2705d65b793994a7a9a9374b35945717e2b657f8ec3c6f0bf906ecb949621",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "1424": {
+   "siglum": "1424",
+   "display": "1424",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "1424",
+   "intfDocId": 31424,
+   "century": "IX/X",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "Kosinitza Monastery",
+     "place": "Drama",
+     "country": "Greece",
+     "shelfmark": "3 (3P)"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31424&detail=shelfInstance&format=json",
+    "sha256": "d90a94e01265016c72c2e54458762e37e04b9e19845be601b3929f4e670cf6bd",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "1739": {
+   "siglum": "1739",
+   "display": "1739",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "1739",
+   "intfDocId": 31739,
+   "century": "X",
+   "dateRange": {
+    "notBefore": 900,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "Great Lavra Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfmark": "B' 64"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31739&detail=shelfInstance&format=json",
+    "sha256": "e2b5f93c807884e9579849ddb2d2066f5827d9ddee30063bc60d1bcedb591ed8",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "18": {
+   "siglum": "18",
+   "display": "18",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "18",
+   "intfDocId": 30018,
+   "century": "1363/4",
+   "dateRange": {
+    "notBefore": 1363,
+    "notAfter": 1364
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 47, fol 1-346"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30018&detail=shelfInstance&format=json",
+    "sha256": "1c60ff776b693fcad974d46092e0e2c423a9033e149667eeb304765710583e3c",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "1854": {
+   "siglum": "1854",
+   "display": "1854",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "1854",
+   "intfDocId": 31854,
+   "century": "XI",
+   "dateRange": {
+    "notBefore": 900,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "Iviron Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfmark": "25 (Monastery 231)"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31854&detail=shelfInstance&format=json",
+    "sha256": "e3a1b5356e0b9448fe4ef4f158a5c028d08ad94c614bba5cfd09d1c9be57a541",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT",
+   "registerNote": "INTF-posten oppgir århundre XI og årstallene 900–999. Begge er gjengitt slik de står."
+  },
+  "1891": {
+   "siglum": "1891",
+   "display": "1891",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "1891",
+   "intfDocId": 31891,
+   "century": "X",
+   "dateRange": {
+    "notBefore": 900,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "National Library of Russia",
+     "place": "St. Petersburg",
+     "country": "Russia",
+     "shelfmark": "Ф. № 906 / Gr. 317"
+    },
+    {
+     "institution": "Patriarchate of Jerusalem",
+     "place": "Jerusalem",
+     "country": "Israel",
+     "shelfmark": "Saba 107"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31891&detail=shelfInstance&format=json",
+    "sha256": "ecd7e5339698c5183a87dfffb4d3a5f791ca43672a625e3205cd89af580133bc",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "2050": {
+   "siglum": "2050",
+   "display": "2050",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "2050",
+   "intfDocId": 32050,
+   "century": "1107",
+   "dateRange": {
+    "notBefore": 1107,
+    "notAfter": 1107
+   },
+   "repository": [
+    {
+     "institution": "Real Biblioteca del Monasterio de El Escorial",
+     "place": "El Escorial",
+     "country": "Spain",
+     "shelfmark": "X-III-6, fol. 235-241"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32050&detail=shelfInstance&format=json",
+    "sha256": "17174e873bd2781b60ea72e21fbafc0f9752a30ebcfddbc14d7cedf17bb5a776",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "28": {
+   "siglum": "28",
+   "display": "28",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "28",
+   "intfDocId": 30028,
+   "century": "XI",
+   "dateRange": {
+    "notBefore": 1000,
+    "notAfter": 1099
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 379"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30028&detail=shelfInstance&format=json",
+    "sha256": "d006dd46f6765727c75f3b3913cf100615706dd5c41008a8b5993e6ff96a9dea",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "2818": {
+   "siglum": "2818",
+   "display": "2818",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "2818",
+   "intfDocId": 32818,
+   "century": "XII",
+   "dateRange": {
+    "notBefore": 1100,
+    "notAfter": 1199
+   },
+   "repository": [
+    {
+     "institution": "New College ",
+     "place": "Oxford",
+     "country": "United Kingdom",
+     "shelfmark": "New College Ms. 58"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32818&detail=shelfInstance&format=json",
+    "sha256": "eaff32dc676f0789fc9142c9cb224cb6152a6132b8e7e108884f133389974162",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "307": {
+   "siglum": "307",
+   "display": "307",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "307",
+   "intfDocId": 30307,
+   "century": "X",
+   "dateRange": {
+    "notBefore": 900,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Coislin Grec 25"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30307&detail=shelfInstance&format=json",
+    "sha256": "8dd3aa7452bcfb35cdfd8bf3ea609d6de6bfa803632768ab3b208cc553b1dc5c",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "323": {
+   "siglum": "323",
+   "display": "323",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "323",
+   "intfDocId": 30323,
+   "century": "XII",
+   "dateRange": {
+    "notBefore": 1100,
+    "notAfter": 1199
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque publique et universitaire",
+     "place": "Genf",
+     "country": "Switzerland",
+     "shelfmark": "Gr. 20"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30323&detail=shelfInstance&format=json",
+    "sha256": "231c121c411fe607cca6383fb76b47fdcfa68030a0dcc4bec08cb4bfab797b52",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "33": {
+   "siglum": "33",
+   "display": "33",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "33",
+   "intfDocId": 30033,
+   "century": "X",
+   "dateRange": {
+    "notBefore": 900,
+    "notAfter": 999
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 14, fol. 51r-143v"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30033&detail=shelfInstance&format=json",
+    "sha256": "6e0b5da84ae29a7a7aaa3422434339930204063fae4cb2d807bcc393c978aea7",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "35": {
+   "siglum": "35",
+   "display": "35",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "35",
+   "intfDocId": 30035,
+   "century": "XIV",
+   "dateRange": {
+    "notBefore": 1300,
+    "notAfter": 1399
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Coislin Grec 199"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30035&detail=shelfInstance&format=json",
+    "sha256": "dc4578f04e7db0b897e68d157e7cefcb8e11df0e90386739661689e311d5f695",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "453": {
+   "siglum": "453",
+   "display": "453",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "453",
+   "intfDocId": 30453,
+   "century": "XIV",
+   "dateRange": {
+    "notBefore": 1300,
+    "notAfter": 1399
+   },
+   "repository": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfmark": "Barb. gr. 582"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30453&detail=shelfInstance&format=json",
+    "sha256": "85e28936fc633be61d8798cf6ac9d5367179d69d5dd2dbb9bdd3eea53b530b03",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "469": {
+   "siglum": "469",
+   "display": "469",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "469",
+   "intfDocId": 30469,
+   "century": "XIII",
+   "dateRange": {
+    "notBefore": 1200,
+    "notAfter": 1299
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 102A"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30469&detail=shelfInstance&format=json",
+    "sha256": "99c3dc800905fc8466f5278b851a8e27e9667afcfaa12698196aef4778723bff",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "565": {
+   "siglum": "565",
+   "display": "565",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "565",
+   "intfDocId": 30565,
+   "century": "IX",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 899
+   },
+   "repository": [
+    {
+     "institution": "National Library of Russia",
+     "place": "St. Petersburg",
+     "country": "Russia",
+     "shelfmark": "Ф. № 906 /Gr. 53"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30565&detail=shelfInstance&format=json",
+    "sha256": "66a9b0c54e4f0cefb050727b8dabf14885aa91eac4ae4a6d5611a8a286c29a2a",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "6": {
+   "siglum": "6",
+   "display": "6",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "6",
+   "intfDocId": 30006,
+   "century": "XIII",
+   "dateRange": {
+    "notBefore": 1200,
+    "notAfter": 1299
+   },
+   "repository": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfmark": "Gr. 112"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30006&detail=shelfInstance&format=json",
+    "sha256": "998716b4ace92039a3891272d6371960a681e454724207d8fd88b03f1aadaaf8",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "614": {
+   "siglum": "614",
+   "display": "614",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "614",
+   "intfDocId": 30614,
+   "century": "XIII",
+   "dateRange": {
+    "notBefore": 1200,
+    "notAfter": 1299
+   },
+   "repository": [
+    {
+     "institution": "Biblioteca Ambrosiana",
+     "place": "Milan",
+     "country": "Italy",
+     "shelfmark": "E. 97 sup."
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30614&detail=shelfInstance&format=json",
+    "sha256": "2fdd328cbfcb48e9df83ea9dc913f340b715f5b05ce1fd4e94be051c76ec44d2",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "700": {
+   "siglum": "700",
+   "display": "700",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "700",
+   "intfDocId": 30700,
+   "century": "XI",
+   "dateRange": {
+    "notBefore": 1000,
+    "notAfter": 1099
+   },
+   "repository": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfmark": "Egerton 2610"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30700&detail=shelfInstance&format=json",
+    "sha256": "f6135fad03d4c0eb0bcbe63b6a7e416fd8f17f17e393389ff4370cc717fc0c98",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "81": {
+   "siglum": "81",
+   "display": "81",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "81",
+   "intfDocId": 30081,
+   "century": "1044",
+   "dateRange": {
+    "notBefore": 1044,
+    "notAfter": 1044
+   },
+   "repository": [
+    {
+     "institution": "Greek Orthodox Patriarchate of Alexandria",
+     "place": "Alexandria",
+     "country": "Egypt",
+     "shelfmark": 477
+    },
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfmark": "Add. 20003"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30081&detail=shelfInstance&format=json",
+    "sha256": "4f6e22b3ee7af88c76c235cc9faa7c54f91397c4e1484ebd283dfc2155ca7c08",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "892": {
+   "siglum": "892",
+   "display": "892",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "892",
+   "intfDocId": 30892,
+   "century": "IX",
+   "dateRange": {
+    "notBefore": 800,
+    "notAfter": 899
+   },
+   "repository": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfmark": "Add. 33277"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30892&detail=shelfInstance&format=json",
+    "sha256": "782d592a5d418364cec97c52f5941ef75d64fa0b5545f9181cd12cfe77167fa8",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "945": {
+   "siglum": "945",
+   "display": "945",
+   "type": "minuskel",
+   "tradition": "NT gresk",
+   "gaNumber": "945",
+   "intfDocId": 30945,
+   "century": "XI",
+   "dateRange": {
+    "notBefore": 1000,
+    "notAfter": 1099
+   },
+   "repository": [
+    {
+     "institution": "Dionysiou Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfmark": "37 (Monastery 124)"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30945&detail=shelfInstance&format=json",
+    "sha256": "5ef8ccd8588ad0b16335b6e59217ebe8d674e3d9070fcbc9184c6a097ce64ada",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "P45": {
+   "siglum": "P45",
+   "display": "𝔓45",
+   "type": "papyrus",
+   "tradition": "NT gresk",
+   "gaNumber": "P45",
+   "intfDocId": 10045,
+   "century": "III",
+   "dateRange": {
+    "notBefore": 200,
+    "notAfter": 299
+   },
+   "repository": [
+    {
+     "institution": "Österreichische Nationalbibliothek",
+     "place": "Wien",
+     "country": "Austria",
+     "shelfmark": "Pap. G. 31974"
+    },
+    {
+     "institution": "Chester Beatty Library",
+     "place": "Dublin",
+     "country": "Ireland",
+     "shelfmark": "CBL BP I"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10045&detail=shelfInstance&format=json",
+    "sha256": "27723c06b4fb38c658afefcb34447cc52058bee625e2347aca10e20eb17e2036",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "P66": {
+   "siglum": "P66",
+   "display": "𝔓66",
+   "type": "papyrus",
+   "tradition": "NT gresk",
+   "gaNumber": "P66",
+   "intfDocId": 10066,
+   "century": "III (A)",
+   "dateRange": {
+    "notBefore": 200,
+    "notAfter": 225
+   },
+   "repository": [
+    {
+     "institution": "Bibliotheca Bodmeriana",
+     "place": "Cologny/Genf",
+     "country": "Switzerland",
+     "shelfmark": "P. Bodmer II"
+    },
+    {
+     "institution": "Chester Beatty Library",
+     "place": "Dublin",
+     "country": "Ireland",
+     "shelfmark": "CBL BP XIX"
+    },
+    {
+     "institution": "Institut für Altertumskunde",
+     "place": "Köln",
+     "country": "Germany",
+     "shelfmark": "Inv. Nr. 4274/4298"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10066&detail=shelfInstance&format=json",
+    "sha256": "1c3c7b066b966c05df841695a83797d35157b8251cd730f42af4badbe25053da",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "P74": {
+   "siglum": "P74",
+   "display": "𝔓74",
+   "type": "papyrus",
+   "tradition": "NT gresk",
+   "gaNumber": "P74",
+   "intfDocId": 10074,
+   "century": "VII",
+   "dateRange": {
+    "notBefore": 600,
+    "notAfter": 699
+   },
+   "repository": [
+    {
+     "institution": "Bibliotheca Bodmeriana",
+     "place": "Cologny/Genf",
+     "country": "Switzerland",
+     "shelfmark": "P. Bodmer XVII"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10074&detail=shelfInstance&format=json",
+    "sha256": "ffee9ff741c88dbe6cf73dfaa4e0405ae02194c290c6f0642796cc6245dd20c5",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "P75": {
+   "siglum": "P75",
+   "display": "𝔓75",
+   "type": "papyrus",
+   "tradition": "NT gresk",
+   "gaNumber": "P75",
+   "intfDocId": 10075,
+   "century": "III (A)",
+   "dateRange": {
+    "notBefore": 200,
+    "notAfter": 225
+   },
+   "repository": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfmark": "Pap. Hanna.1 (Mater.Verbi)"
+    }
+   ],
+   "referenceSource": {
+    "register": "INTF-LISTE",
+    "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10075&detail=shelfInstance&format=json",
+    "sha256": "07991911b1baee914a08628c790b3306204853aa0e523da28edfa83b4ad607d5",
+    "retrieved": "2026-11-25"
+   },
+   "verification": "IMPORTERT"
+  },
+  "11QPsa": {
+   "siglum": "11QPsa",
+   "display": "11QPsᵃ",
+   "type": "rulle",
+   "tradition": "Q",
+   "etcbcScrollCode": "11Q5",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS",
+   "inventoryNumber": "11Q5",
+   "period": "Herodian",
+   "site": "Qumran, Cave 11",
+   "material": "Parchment",
+   "imageUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/11Q5-1",
+   "officialPublications": [
+    "Sanders 1965. DJD 4: 1-99.",
+    "Garcia Martinez, Tigchelaar, van der Woude 1998. DJD 23: 28-36."
+   ],
+   "catalogSource": {
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/11Q5-1",
+    "sha256": "d645d56193431923d8936c252d8eb8555857729269890491b223ecc4127b47d4",
+    "name": "11Q Psalms"
+   }
+  },
+  "1QIsaa": {
+   "siglum": "1QIsaa",
+   "display": "1QIsaᵃ",
+   "type": "rulle",
+   "tradition": "Q",
+   "etcbcScrollCode": "1Qisaa",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Årstallsintervall hentes fra DJD eller Tov, Revised Lists, av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS"
+  },
+  "1QIsab": {
+   "siglum": "1QIsab",
+   "display": "1QIsaᵇ",
+   "type": "rulle",
+   "tradition": "Q",
+   "etcbcScrollCode": "1Q8",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS",
+   "inventoryNumber": "1Q8",
+   "period": "Herodian",
+   "site": "Qumran, Cave 1",
+   "material": "Parchment",
+   "imageUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1",
+   "officialPublications": [
+    "Barthelemy 1955. DJD 1: 66-68.\nSukenik 1955. The Dead Sea Scrolls of the Hebrew University. DJD : pls. I-XII.\nUlrich, Flint 2009. . . 1-260, LV-LXXIV.",
+    "Barthelemy 1955. DJD 1: 66-68.\nUlrich, Flint 2009. DJD 32: 1-260.\nSukenik 1955. The Dead Sea Scrolls of the Hebrew University. Jerusalem. pls. I-XII."
+   ],
+   "catalogSource": {
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q8-1",
+    "sha256": "1ce2099679edd80c05ac6b34d520e922f6379f809a4d679e8de138c02c1fde86",
+    "name": "1Q Isaiah"
+   }
+  },
+  "4QDeutj": {
+   "siglum": "4QDeutj",
+   "display": "4QDeutʲ",
+   "type": "rulle",
+   "tradition": "Q",
+   "etcbcScrollCode": "4Q37",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS",
+   "inventoryNumber": "4Q37",
+   "period": "Herodian",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "imageUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1",
+   "officialPublications": [
+    "Duncan 1995. DJD 14: 70-91."
+   ],
+   "catalogSource": {
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q37-1",
+    "sha256": "678837d8a0ce906a1b8674f7d96e777c5b9efa9171cc9a6b386dc356ff443813",
+    "name": "4Q Deuteronomy"
+   }
+  },
+  "4QDeutq": {
+   "siglum": "4QDeutq",
+   "display": "4QDeutᑫ",
+   "type": "rulle",
+   "tradition": "Q",
+   "etcbcScrollCode": "4Q44",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS",
+   "inventoryNumber": "4Q44",
+   "period": "Herodian",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "imageUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1",
+   "officialPublications": [
+    "Skehan, Ulrich 1995. DJD 14: 137-142."
+   ],
+   "catalogSource": {
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q44-1",
+    "sha256": "8d5bc22687d2eaf4d07d64c770e36ba9dd34d6c9c2a113e7d83388690cc88c99",
+    "name": "4Q Deuteronomy"
+   }
+  },
+  "4QIsad": {
+   "siglum": "4QIsad",
+   "display": "4QIsaᵈ",
+   "type": "rulle",
+   "tradition": "Q",
+   "etcbcScrollCode": "4Q58",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Leon Levy oppgir perioden «Herodian». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS",
+   "inventoryNumber": "4Q58",
+   "period": "Herodian",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "imageUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1",
+   "officialPublications": [
+    "Skehan, Ulrich 1997. DJD 15: 75-88."
+   ],
+   "catalogSource": {
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q58-1",
+    "sha256": "a9e9adc970bce8c934804f7d3f8bcc8e7c9d55f078d0b4c0c6beab7bb38ed4b3",
+    "name": "4Q Isaiah"
+   }
+  },
+  "4QPsf": {
+   "siglum": "4QPsf",
+   "display": "4QPsᶠ",
+   "type": "rulle",
+   "tradition": "Q",
+   "etcbcScrollCode": "4Q88",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Leon Levy oppgir perioden «Hasmonean». Årstallsintervall er ikke importert og hentes fra DJD av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS",
+   "inventoryNumber": "4Q88",
+   "period": "Hasmonean",
+   "site": "Qumran, Cave 4",
+   "material": "Parchment",
+   "imageUrl": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1",
+   "officialPublications": [
+    "Skehan, Ulrich, Flint 2000. DJD 16: 85-106."
+   ],
+   "catalogSource": {
+    "register": "LEON-LEVY",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q88-1",
+    "sha256": "32c4bc7477fa20e3c4db84e116c380823f448b08d74621805edd0a001ad5c1db",
+    "name": "4Q Psalms"
+   }
+  },
+  "5/6HevPs": {
+   "siglum": "5/6HevPs",
+   "display": "5/6ḤevPs",
+   "type": "rulle",
+   "tradition": "Q",
+   "etcbcScrollCode": "5/6hev1b",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Årstallsintervall hentes fra DJD eller Tov, Revised Lists, av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "ETCBC-DSS",
+    "note": "Rullen finnes under denne koden i datasettet.",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d"
+   },
+   "siglumNote": "Bokstavindeksen følger vanlig nomenklatur og er ikke kontrollert mot Tov, Revised Lists.",
+   "verification": "DELVIS"
+  },
+  "B19A": {
+   "siglum": "B19A",
+   "display": "B19ᴬ (Codex Leningradensis)",
+   "type": "hebraisk_kodeks",
+   "tradition": "M",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Kolofonåret hentes fra WLC/UXLC-dokumentasjonen av navngitt leser.",
+   "repository": null,
+   "referenceSource": {
+    "register": "WLC-OSHB",
+    "note": "WLC er en transkripsjon av håndskriftet, og R10 bygger på WLC/OSHB."
+   },
+   "verification": "DELVIS"
+  },
+  "LXX": {
+   "siglum": "LXX",
+   "display": "LXX",
+   "type": "oversettelse",
+   "tradition": "G",
+   "language": "grc",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Oversettelsen registreres uten årstall. Håndskriftene bak Swetes tekst registreres først når de er lest i Rahlfs–Fraenkel, Verzeichnis.",
+   "referenceSource": {
+    "register": "SWETE",
+    "note": "Lesningene er hentet fra Swetes utgave, som i hovedsak trykker Codex Vaticanus."
+   },
+   "verification": "DELVIS"
+  },
+  "LXX-Od": {
+   "siglum": "LXX-Od",
+   "display": "LXX Odae",
+   "type": "oversettelse",
+   "tradition": "G",
+   "language": "grc",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Som LXX. Odene står etter Salmene i enkelte greske håndskrifter.",
+   "referenceSource": {
+    "register": "SWETE",
+    "note": "Odae 2 hos Swete."
+   },
+   "verification": "DELVIS"
+  },
+  "Vg-Clem": {
+   "siglum": "Vg-Clem",
+   "display": "Vulgata Clementina",
+   "type": "oversettelse",
+   "tradition": "Vg",
+   "language": "la",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Trykt utgave av den latinske oversettelsen. Vulgata-håndskriftene er ikke registrert.",
+   "referenceSource": {
+    "register": "VG-CLEM",
+    "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766"
+   },
+   "verification": "DELVIS"
+  },
+  "VL": {
+   "siglum": "VL",
+   "display": "Vetus Latina",
+   "type": "oversettelse",
+   "tradition": "VL",
+   "language": "la",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Samlebetegnelse. Enkelthåndskrifter registreres med Beuron-nummer når de er lest.",
+   "referenceSource": {
+    "register": "PATR-UTG",
+    "note": "Vetus Latina-utgaven (Beuron)."
+   },
+   "verification": "IKKE_KONTROLLERT"
+  },
+  "Chrys-Hom1Tim": {
+   "siglum": "Chrys-Hom1Tim",
+   "display": "Johannes Krysostomos, In epistulam I ad Timotheum homiliae",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Johannes Krysostomos",
+   "work": "In epistulam I ad Timotheum homiliae",
+   "language": "grc",
+   "clavis": {
+    "series": "CPG",
+    "number": "4436",
+    "placementAndTitle": "Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Iohannes Chrysostomus In epistulam I ad Timotheum argumentum et homiliae 1-18",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=4436",
+    "sha256": "30c2edbeb951a289db20e96585bace4c24e0fadbfa70fbe02bb6c4e2639e6de9",
+    "checked": "2026-11-25"
+   },
+   "window": "utenfor hovedvinduet",
+   "windowBasis": "Clavis Clavium fører verket under «Patres Postnicaeni».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Field; Migne PG 62",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=4436"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+  },
+  "Clem-Strom": {
+   "siglum": "Clem-Strom",
+   "display": "Klemens av Alexandria, Stromata",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Klemens av Alexandria",
+   "work": "Stromata",
+   "language": "grc",
+   "clavis": {
+    "series": "CPG",
+    "number": "1377",
+    "placementAndTitle": "Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Clemens Alexandrinus Patres Antenicaeni > Saecula I-III > Gnostici > Theodotus > Vide et Stromata",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1377",
+    "sha256": "93443a2cc6b2a68550714c71284796c5edaf17ade2247f932706be1b96f0be58",
+    "checked": "2026-11-25"
+   },
+   "window": "hovedvindu",
+   "windowBasis": "Clavis Clavium fører verket under «Patres Antenicaeni».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Stählin–Früchtel, GCS",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1377"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+  },
+  "Cypr-Quir": {
+   "siglum": "Cypr-Quir",
+   "display": "Cyprian av Karthago, Ad Quirinum (Testimoniorum libri III)",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Cyprian av Karthago",
+   "work": "Ad Quirinum (Testimoniorum libri III)",
+   "language": "la",
+   "clavis": {
+    "series": "CPL",
+    "number": "39",
+    "placementAndTitle": "Scriptores Antenicaeni > Cyprianus episcopus Carthaginensis > Genuina Personae aliae > Quirinus > Vide et Ad Quirinum (Testimoniorum libri iii)",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=39",
+    "sha256": "2d03757d99d184fbc25c793df4d33785a2f458eebc161aa49c89a62780dd9ab8",
+    "checked": "2026-11-25"
+   },
+   "window": "hovedvindu",
+   "windowBasis": "Clavis Clavium fører verket under «Scriptores Antenicaeni».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Weber, CCSL 3",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=39"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+  },
+  "GregNyss-Eun": {
+   "siglum": "GregNyss-Eun",
+   "display": "Gregor av Nyssa, Contra Eunomium",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Gregor av Nyssa",
+   "work": "Contra Eunomium",
+   "language": "grc",
+   "clavis": {
+    "series": "CPG",
+    "number": "3135",
+    "placementAndTitle": "Patres Postnicaeni > Saeculum Quartum > Scriptores Asiae Minoris > Gregorius Nyssenus > Genuina Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Eunomius Cyzicenus > Vide et Contra Eunomium libri",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=3135",
+    "sha256": "4644a13a12b77167a12e41e6e0b9e70dfcdf3f0d4a2d9ee08977923c724ebd9b",
+    "checked": "2026-11-25"
+   },
+   "window": "utenfor hovedvinduet",
+   "windowBasis": "Clavis Clavium fører verket under «Patres Postnicaeni».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Jaeger, GNO I–II",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=3135"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+  },
+  "Hipp-Noet": {
+   "siglum": "Hipp-Noet",
+   "display": "Hippolyt av Roma, Contra Noetum",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Hippolyt av Roma",
+   "work": "Contra Noetum",
+   "language": "grc",
+   "clavis": {
+    "series": "CPG",
+    "number": "1902",
+    "placementAndTitle": "Personae aliae > Noetus > Vide et Patres Antenicaeni > Saecula I-III > Scriptores Romani > Hippolytus Romanus > Chronographica Et Polemica Contra Noetum",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1902",
+    "sha256": "5640ade63c87e9b349d988cd5ad339df3ceb75ed3a29475f6d70c96b95d8371c",
+    "checked": "2026-11-25"
+   },
+   "window": "hovedvindu",
+   "windowBasis": "Clavis Clavium fører verket under «Personae aliae».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Butterworth (1977); Schwartz",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1902"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+  },
+  "Iren-AH": {
+   "siglum": "Iren-AH",
+   "display": "Irenæus av Lyon, Adversus haereses",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Irenæus av Lyon",
+   "work": "Adversus haereses",
+   "language": "grc",
+   "clavis": {
+    "series": "CPG",
+    "number": "1306",
+    "placementAndTitle": "Patres Antenicaeni > Saecula I-III > Antignostici > Irenaeus Lugdunensis > Genuina Aduersus haereses",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1306",
+    "sha256": "188a32213bf14f0649f62a105e37f403707feb76c462e07d9ef22c6f9c711b79",
+    "checked": "2026-11-25"
+   },
+   "window": "hovedvindu",
+   "windowBasis": "Clavis Clavium fører verket under «Patres Antenicaeni».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1306"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)",
+   "transmissionNote": "Verket er skrevet på gresk og er i hovedsak bevart i latinsk oversettelse."
+  },
+  "Orig-Cels": {
+   "siglum": "Orig-Cels",
+   "display": "Origenes, Contra Celsum",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Origenes",
+   "work": "Contra Celsum",
+   "language": "grc",
+   "clavis": {
+    "series": "CPG",
+    "number": "1476",
+    "placementAndTitle": "Personae aliae > Celsus philosophus > Vide et Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Origenes > Tractatus et dialogi Contra Celsum",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1476",
+    "sha256": "9acd87bc66314a2fd038bb2f16db8dd411df1e642c58925089f532246bbe1cb2",
+    "checked": "2026-11-25"
+   },
+   "window": "hovedvindu",
+   "windowBasis": "Clavis Clavium fører verket under «Personae aliae».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Borret, Sources Chrétiennes 132 flg.; Koetschau, GCS",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1476"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+  },
+  "Orig-CommJo": {
+   "siglum": "Orig-CommJo",
+   "display": "Origenes, Commentarii in Iohannem",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Origenes",
+   "work": "Commentarii in Iohannem",
+   "language": "grc",
+   "clavis": {
+    "series": "CPG",
+    "number": "1453",
+    "placementAndTitle": "Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Origenes > Exegetica In Novum Testamentum Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Theodorus Mopsuestenus > Vide et Commentarii in Iohannem",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1453",
+    "sha256": "03722d39ab3ec086eddd052b9484a8310700934b882d3d569c3b7ac29bf5c542",
+    "checked": "2026-11-25"
+   },
+   "window": "hovedvindu",
+   "windowBasis": "Clavis Clavium fører verket under «Patres Antenicaeni».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Blanc, Sources Chrétiennes 120 flg.; Preuschen, GCS",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1453"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+  },
+  "Tert-Prax": {
+   "siglum": "Tert-Prax",
+   "display": "Tertullian, Adversus Praxean",
+   "type": "kirkefar_verk",
+   "tradition": "fedre",
+   "author": "Tertullian",
+   "work": "Adversus Praxean",
+   "language": "la",
+   "clavis": {
+    "series": "CPL",
+    "number": "26",
+    "placementAndTitle": "Scriptores Antenicaeni > Tertullianus > Opera montanistica Personae aliae > Praxeas > Vide et Aduersus Praxean",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=26",
+    "sha256": "b81808e51c20cc40cb6f0187d23288b40bf8d673e021265e938615276abc0449",
+    "checked": "2026-11-25"
+   },
+   "window": "hovedvindu",
+   "windowBasis": "Clavis Clavium fører verket under «Scriptores Antenicaeni».",
+   "century": null,
+   "dateRange": null,
+   "dateStatus": "Ikke importert. Clavis-basen gir plassering, ikke årstall.",
+   "criticalEdition": "Kroymann–Evans, CCSL 2",
+   "referenceSource": {
+    "register": "CLAVIS",
+    "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=26"
+   },
+   "verification": "IMPORTERT (Clavis-nummer og plassering)"
+  }
+ }
+}

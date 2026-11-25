@@ -1,0 +1,13 @@
+{
+ "source": "Vulgata Clementina (digital tekst: scrollmapper/bible_databases, formats/json/VulgClementine.json)",
+ "retrieved": "2026-11-25",
+ "license": "Teksten er fri (1592-tradisjonen); repoet er MIT-lisensiert",
+ "fileSha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+ "records": {
+  "Mark 1:1": "Initium Evangelii Jesu Christi, Filii Dei.",
+  "John 1:18": "Deum nemo vidit umquam: unigenitus Filius, qui est in sinu Patris, ipse enarravit.",
+  "Acts 8:37": "Dixit autem Philippus: Si credis ex toto corde, licet. Et respondens ait: Credo Filium Dei esse Jesum Christum.",
+  "I Timothy 3:16": "Et manifeste magnum est pietatis sacramentum, quod manifestatum est in carne, justificatum est in spiritu, apparuit angelis, prædicatum est gentibus, creditum est in mundo, assumptum est in gloria.",
+  "Revelation of John 22:19": "Et si quis diminuerit de verbis libri prophetiæ hujus, auferet Deus partem ejus de libro vitæ, et de civitate sancta, et de his quæ scripta sunt in libro isto:"
+ }
+}

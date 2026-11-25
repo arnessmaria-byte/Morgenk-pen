@@ -1,0 +1,548 @@
+{
+ "schemaVersion": "kildelisenser.v1-trinn0",
+ "generated": "2026-11-25",
+ "status": "FORSLAG: venter på Captains godkjenning av lisensporten",
+ "statusValues": {
+  "fri_tekst": "Teksten kan hentes inn med kreditering og eventuelle vilkår som er oppført.",
+  "kun_henvisning": "Kilden siteres og henvises til. Tekst, apparat og layout kopieres ikke.",
+  "krever_avtale": "Kilden kan ikke importeres før det foreligger avtale eller lisens."
+ },
+ "evidenceTypes": [
+  "lisenstekst lest i Trinn 0",
+  "oppgitt i datasettet",
+  "oppgitt i låst R10",
+  "ikke kontrollert i Trinn 0"
+ ],
+ "sources": [
+  {
+   "id": "WLC-OSHB",
+   "name": "Westminster Leningrad Codex / Open Scriptures Hebrew Bible",
+   "layer": "GT hovedtekst (MT etter Leningrad B19A)",
+   "status": "fri_tekst",
+   "license": "WLC: public domain. OSHB lemma og morfologi: CC BY 4.0.",
+   "basis": "Kilden er allerede i låst R10 med kreditering.",
+   "evidence": {
+    "type": "oppgitt i låst R10",
+    "ref": "attribution-feltet i R10-bokfilene (gt-isa.json m.fl.), OSHB-revisjon 3d15126fb1ef74867fc1434be1942e837932691f"
+   },
+   "useInLayer": "Ankertekst. Laget leser R10-filene og endrer dem ikke.",
+   "conditions": [
+    "Navngivelse for OSHB-morfologien (CC BY 4.0)."
+   ],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "MAM",
+   "name": "Miqra according to the Masorah (MT etter Aleppo der kodeksen er bevart)",
+   "layer": "GT sammenligning",
+   "status": "fri_tekst",
+   "license": "CC BY-SA (slik Sefaria oppgir for versjonen «Miqra according to the Masorah»).",
+   "basis": "Lisensfeltet i API-svaret for de fem pilotversene.",
+   "evidence": {
+    "type": "oppgitt i datasettet",
+    "ref": "kilder/belegg/mam-utdrag.json",
+    "quote": [
+     "CC-BY-SA"
+    ]
+   },
+   "useInLayer": "Utgavefelt (hvilken lesning MAM har). Full sammenligning WLC–MAM hører til senere trinn.",
+   "conditions": [
+    "Navngivelse.",
+    "Del på samme vilkår (SA)."
+   ],
+   "openPoints": [
+    "Lisensversjonen (3.0 eller 4.0) må leses hos kilden på hebraisk Wikisource.",
+    "SA-vilkåret må vurderes før MAM-tekst legges i et lag som gis ut sammen med vernet materiale.",
+    "Hvilke avsnitt Aleppo-kodeksen faktisk bevarer, hentes fra MAM-dokumentasjonen. Det er ikke registrert i Trinn 0."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "SWETE",
+   "name": "H. B. Swete, The Old Testament in Greek according to the Septuagint",
+   "layer": "LXX grunntekst",
+   "status": "fri_tekst",
+   "license": "Trykt utgave: fri. Digital tekst (nathans/lxx-swete, avledet av First1KGreek): CC BY-SA 4.0.",
+   "basis": "README i datasettet oppgir lisensen for den digitale teksten.",
+   "evidence": {
+    "type": "lisenstekst lest i Trinn 0",
+    "ref": "kilder/belegg/swete-utdrag.json",
+    "commit": "26bad3eb42bba98471d154c954e36a6f30a0279d",
+    "quote": "The Greek text and its annotations in the data directory are published under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license."
+   },
+   "useInLayer": "LXX-lesninger med ordrett norsk. Brukes allerede i R10-notene.",
+   "conditions": [
+    "Navngivelse og del på samme vilkår for den digitale teksten."
+   ],
+   "openPoints": [
+    "Den digitale teksten er OCR-avledet og har tap i 5 Mos 32:43. Den kan ikke importeres uten korrektur mot trykt utgave."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   },
+   "qualityWarning": "Den digitale teksten er OCR-avledet. 5 Mos 32:43 har tydelige tap (linjeslutt mangler). Lesninger fra dette verset er ikke bekreftet før de er lest mot trykt utgave."
+  },
+  {
+   "id": "VON-GALL",
+   "name": "A. von Gall, Der hebräische Pentateuch der Samaritaner (1914–1918)",
+   "layer": "Den samaritanske Pentateuk, grunntekst",
+   "status": "fri_tekst",
+   "license": "Trykt utgave antatt fri på grunn av alder.",
+   "basis": "Planens vedlegg A. Ikke etterprøvd i Trinn 0.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0"
+   },
+   "useInLayer": "Ingen SP-lesning er registrert som bekreftet vitne i pilotene.",
+   "conditions": [],
+   "openPoints": [
+    "Vernetiden etter utgiverens dødsår er ikke kontrollert.",
+    "Ingen maskinlesbar transkripsjon er funnet eller hentet."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "SCR1894",
+   "name": "F. H. A. Scrivener, The New Testament in the Original Greek (1894)",
+   "layer": "NT hovedtekst (strøm 4)",
+   "status": "fri_tekst",
+   "license": "Fri.",
+   "basis": "Kilden er allerede i låst R10. Leseren krediterer datagrunnlaget.",
+   "evidence": {
+    "type": "oppgitt i låst R10",
+    "ref": "source-feltet i R10-bokfilene og krediteringen i den publiserte leseren («Scrivener 1894: Honza Pokorny (data til fri bruk)»)"
+   },
+   "useInLayer": "Ankertekst. Utgave, ikke vitne.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "RP2018",
+   "name": "Robinson–Pierpont, The New Testament in the Original Greek: Byzantine Textform (2018)",
+   "layer": "NT bysantinsk utgave (strøm 3)",
+   "status": "fri_tekst",
+   "license": "Public domain.",
+   "basis": "LICENSE i byztxt/byzantine-majority-text.",
+   "evidence": {
+    "type": "lisenstekst lest i Trinn 0",
+    "ref": "kilder/belegg/nt-utgaver-utdrag.json",
+    "commit": "788ffe7c909e4d9c564ebed7083e93dd13d10b7c",
+    "quote": "THIS REPOSITORY, INCLUDING CODE AND TEXTUAL CONTENTS, IS IN THE PUBLIC DOMAIN."
+   },
+   "useInLayer": "Utgavefelt. Utgave bygd på flertallet av vitnene, ikke et vitne.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "THGNT",
+   "name": "The Greek New Testament, produced at Tyndale House, Cambridge",
+   "layer": "NT utgavevalg og referanse",
+   "status": "kun_henvisning",
+   "license": "Tekstens egen lisens er ikke lest i Trinn 0.",
+   "basis": "Utgavevalget hentes fra STEPBible TAGNT, som merker THGNT-ord med «Tyn».",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "kilder/belegg/nt-utgaver-utdrag.json (TAGNT)"
+   },
+   "useInLayer": "Bare hvilken lesning utgaven har, hentet fra TAGNT.",
+   "conditions": [],
+   "openPoints": [
+    "Lisensen leses hos Tyndale House før THGNT-tekst importeres.",
+    "Utgavevalgene er belagt med én kilde (TAGNT) og bør leses mot utgaven."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "TREG",
+   "name": "S. P. Tregelles, The Greek New Testament (1857–1879)",
+   "layer": "NT utgavevalg",
+   "status": "fri_tekst",
+   "license": "Trykt utgave: fri.",
+   "basis": "Alder. Den digitale transkripsjonens lisens er ikke lest.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "TAGNT («Treg»)"
+   },
+   "useInLayer": "Bare hvilken lesning utgaven har, hentet fra TAGNT.",
+   "conditions": [],
+   "openPoints": [
+    "Lisensen for digital Tregelles-tekst leses før import."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "TISCH8",
+   "name": "C. Tischendorf, Novum Testamentum Graece, editio octava critica maior (1869–1872)",
+   "layer": "NT utgavevalg",
+   "status": "fri_tekst",
+   "license": "Public domain.",
+   "basis": "README i morphgnt/tischendorf-data (word-per-line 2.8) oppgir Public Domain.",
+   "evidence": {
+    "type": "lisenstekst lest i Trinn 0",
+    "ref": "kilder/belegg/nt-utgaver-utdrag.json",
+    "commit": "795f2f4f9fe7cb98bf8736b0c5cb59c43aa9c32e"
+   },
+   "useInLayer": "Utgavefelt. Tischendorfs apparat er ikke hentet.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "WH",
+   "name": "Westcott–Hort, The New Testament in the Original Greek (1881)",
+   "layer": "NT utgavevalg",
+   "status": "fri_tekst",
+   "license": "Trykt utgave: fri.",
+   "basis": "Alder.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "TAGNT («WH»)"
+   },
+   "useInLayer": "Bare hvilken lesning utgaven har, hentet fra TAGNT.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "SBLGNT",
+   "name": "SBL Greek New Testament (2010)",
+   "layer": "NT utgavevalg",
+   "status": "kun_henvisning",
+   "license": "Lisensen er ikke lest i Trinn 0.",
+   "basis": "Planens vedlegg A: avklares.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "TAGNT («SBL»)"
+   },
+   "useInLayer": "Bare hvilken lesning utgaven har, hentet fra TAGNT.",
+   "conditions": [],
+   "openPoints": [
+    "Lisensen leses før tekst importeres."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "TAGNT",
+   "name": "STEPBible TAGNT (Translators Amalgamated Greek NT), Tyndale House",
+   "layer": "NT utgavefelt per ord",
+   "status": "fri_tekst",
+   "license": "CC BY 4.0.",
+   "basis": "Filhodet i begge TAGNT-filene. Samme revisjon som R11-ordlaget bruker.",
+   "evidence": {
+    "type": "lisenstekst lest i Trinn 0",
+    "ref": "kilder/belegg/nt-utgaver-utdrag.json",
+    "revision": "efe428a0047bf7b9c3ce2624f60c252c6e435945",
+    "fileSha256": {
+     "TAGNT_Mat-Jhn.txt": "ab8eaaeb68e17a1dcfa34e1e9350358f22f03bc2a97244d848750ad81044bc8e",
+     "TAGNT_Act-Rev.txt": "524e32375361e6d3fa2f7ef00b87605fdc4317a762f395651a05fdc31ad031b7"
+    },
+    "quote": "TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC BY 4.0"
+   },
+   "useInLayer": "Kilde for hvilke utgaver som har hvilket ord (NA28, NA27, THGNT, SBLGNT, WH, Tregelles).",
+   "conditions": [
+    "Navngivelse."
+   ],
+   "openPoints": [
+    "Utgavefeltet for τοῦ i Mark 1:1 fører opp NA28, mens ordtypen i samme rad og Robinson–Pierponts variantnote sier at NA-teksten mangler artikkelen. Avviket er registrert i pilot 6."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "INTF-LISTE",
+   "name": "INTF, Kurzgefasste Liste der griechischen Handschriften des Neuen Testaments (via NTVMR)",
+   "layer": "Register over NT-håndskrifter",
+   "status": "kun_henvisning",
+   "license": "INTFs database. Ingen åpen lisens er oppgitt for registeret.",
+   "basis": "Laget gjengir siglum, datering og oppbevaringssted som faktaopplysninger med henvisning og lenke. Registeret kopieres ikke.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "kilder/belegg/intf-liste.json (hentet via NTVMR API 2026-11-25, SHA-256 per svar)"
+   },
+   "useInLayer": "Alle NT-sigla, dateringer og oppbevaringssteder i vitneregisteret.",
+   "conditions": [],
+   "openPoints": [
+    "Skriftlig avklaring med INTF om bruk av API-et når laget settes i drift."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "INTF-TRANSKR",
+   "name": "INTF/NTVMR, publiserte transkripsjoner av NT-håndskrifter",
+   "layer": "NT vitner (strøm 1)",
+   "status": "fri_tekst",
+   "license": "CC BY 4.0.",
+   "basis": "Oppgitt i TEI-hodet til hver transkripsjon som er hentet.",
+   "evidence": {
+    "type": "lisenstekst lest i Trinn 0",
+    "ref": "kilder/belegg/intf-transkripsjoner.json",
+    "quote": "(C) 2026 Institut für Neutestamentliche Textforschung. This work is licensed under a Creative Commons Attribution 4.0 Unported License"
+   },
+   "useInLayer": "Belegg for hva hver hånd har på stedet. Utdragene ligger i kilder/belegg med SHA-256 for hvert API-svar.",
+   "conditions": [
+    "Navngivelse."
+   ],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "DJD-TOV",
+   "name": "Discoveries in the Judaean Desert; Tov, Revised Lists of the Texts from the Judaean Desert; Ulrich, The Biblical Qumran Scrolls",
+   "layer": "Qumran: utgaver og register",
+   "status": "kun_henvisning",
+   "license": "Vernet.",
+   "basis": "Planens vedlegg A.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0"
+   },
+   "useInLayer": "Henvisning. Datering og bokstavindeks for rullene hentes herfra av navngitt leser.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "ETCBC-DSS",
+   "name": "ETCBC/dss (Text-Fabric), Martin Abeggs transkripsjoner av Dødehavsrullene",
+   "layer": "Qumran: maskinlesbar transkripsjon",
+   "status": "krever_avtale",
+   "license": "CC BY-NC 4.0.",
+   "basis": "README og LICENSE i datasettet.",
+   "evidence": {
+    "type": "lisenstekst lest i Trinn 0",
+    "ref": "kilder/belegg/etcbc-dss-utdrag.json",
+    "commit": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d",
+    "quote": "This dataset is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)."
+   },
+   "useInLayer": "I Trinn 0 bare kontroll av lesninger i fem vers (ikke-kommersiell forskningsbruk med kreditering). Laget lagrer lesningen og stedet, ikke datasettet.",
+   "conditions": [
+    "Navngivelse.",
+    "Ikke kommersiell bruk."
+   ],
+   "openPoints": [
+    "Avtale med rettighetshaver før transkripsjonene importeres i et lag som følger en trykt utgave til salgs."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "LEON-LEVY",
+   "name": "Leon Levy Dead Sea Scrolls Digital Library (Israel Antiquities Authority)",
+   "layer": "Qumran: bilder og katalog",
+   "status": "kun_henvisning",
+   "license": "Vernet. Ingen åpen lisens oppgitt.",
+   "basis": "Bare lenker og katalogopplysninger. Bilder lagres ikke.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "kilder/belegg/leon-levy-utdrag.json"
+   },
+   "useInLayer": "Bildelenker, periodebetegnelse og henvisning til offisiell utgave for rullene.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "RAHLFS-GOTT",
+   "name": "Rahlfs 1935; Rahlfs–Hanhart 2006; Septuaginta Gottingensis; Rahlfs–Fraenkel, Verzeichnis",
+   "layer": "LXX: utgaver og register",
+   "status": "kun_henvisning",
+   "license": "Rahlfs–Hanhart og Göttingen-utgavene er vernet. Rahlfs 1935 er ikke avklart.",
+   "basis": "Planens vedlegg A.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0"
+   },
+   "useInLayer": "Henvisning. LXX-håndskrifter registreres først når siglum og datering er lest i Verzeichnis.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "NA28",
+   "name": "Nestle–Aland 28 (med UBS5 og Editio Critica Maior)",
+   "layer": "NT eklektisk tekst og apparat",
+   "status": "kun_henvisning",
+   "license": "Vernet tekst og apparat.",
+   "basis": "Planens vedlegg A.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0"
+   },
+   "useInLayer": "Bare hvilken lesning NA-teksten har, hentet fra frie kilder (Robinson–Pierponts variantnoter og TAGNT). Apparat og notetekst kopieres ikke.",
+   "conditions": [],
+   "openPoints": [
+    "NA28-valgene i pilotene er belagt sekundært og bør leses mot utgaven av navngitt leser."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "CLAVIS",
+   "name": "Clavis Patrum Graecorum / Clavis Patrum Latinorum (Clavis Clavium, Brepols, åpen tilgang)",
+   "layer": "Register over fedre og verk",
+   "status": "kun_henvisning",
+   "license": "Vernet database med åpen lesetilgang.",
+   "basis": "Nummer, plassering og tittel gjengis som faktaopplysninger med lenke.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "kilder/belegg/clavis-utdrag.json"
+   },
+   "useInLayer": "Alle Clavis-numre i vitneregisteret er slått opp i basen 2026-11-25.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "PATR-UTG",
+   "name": "Kritiske utgaver av fedrene (Sources Chrétiennes, GCS, CCSL, GNO m.fl.)",
+   "layer": "Fedrenes tekst",
+   "status": "kun_henvisning",
+   "license": "Vernet.",
+   "basis": "Planens vedlegg A.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0"
+   },
+   "useInLayer": "Henvisning. Ordlyden på gresk og latin leses her av navngitt leser.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "ANF-NPNF",
+   "name": "Ante-Nicene Fathers og Nicene and Post-Nicene Fathers (engelsk, 1885–1900), tekstfiler fra CCEL",
+   "layer": "Fedrene i oversettelse",
+   "status": "fri_tekst",
+   "license": "Fri.",
+   "basis": "Alder.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "kilder/belegg/fedre-oversettelse-utdrag.json (SHA-256 per bind)"
+   },
+   "useInLayer": "Bare til å bekrefte at et sted finnes og hva oversettelsen har. Aldri som belegg for gresk eller latinsk ordlyd.",
+   "conditions": [],
+   "openPoints": [],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  },
+  {
+   "id": "VG-CLEM",
+   "name": "Vulgata Clementina (digital tekst: scrollmapper/bible_databases)",
+   "layer": "Latinsk oversettelse",
+   "status": "fri_tekst",
+   "license": "Teksten er fri. Repoet er MIT-lisensiert.",
+   "basis": "Alder og repoets lisens.",
+   "evidence": {
+    "type": "ikke kontrollert i Trinn 0",
+    "ref": "kilder/belegg/vulgata-clementina-utdrag.json"
+   },
+   "useInLayer": "Latinsk lesning i den trykte Vulgata-tradisjonen. Vulgata-håndskriftene er ikke registrert.",
+   "conditions": [],
+   "openPoints": [
+    "Clementina er en utgave fra 1592. Håndskriftene bak leses i Stuttgart-utgavens apparat (vernet)."
+   ],
+   "captainApproval": {
+    "approved": null,
+    "by": null,
+    "date": null
+   }
+  }
+ ],
+ "internalEditions": [
+  {
+   "id": "R10",
+   "name": "MANTELEN R10/R11.1 (låst)",
+   "note": "Prosjektets egen låste utgave: WLC/OSHB i GT og Scrivener 1894 i NT. Utgave, ikke vitne."
+  }
+ ],
+ "notTreatedInTrinn0": [
+  "UXLC",
+  "CATSS",
+  "IGNTP-transkripsjonene",
+  "Codex Sinaiticus Project",
+  "CNTTS",
+  "Hodges–Farstad",
+  "BHS/BHQ"
+ ],
+ "rule": "Ingen data hentes inn i laget før Captain har godkjent kilden skriftlig (plan 7.6)."
+}

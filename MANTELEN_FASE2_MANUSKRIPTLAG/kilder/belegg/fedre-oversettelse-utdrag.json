@@ -1,0 +1,102 @@
+{
+ "source": "Ante-Nicene Fathers / Nicene and Post-Nicene Fathers (engelsk oversettelse, fri), tekstfiler fra CCEL",
+ "retrieved": "2026-11-25",
+ "note": "Bekrefter at stedet finnes og hvilken ordlyd oversettelsen har. Dette er ikke kritisk utgave: ordlyden på gresk eller latin må leses i utgaven som registeret viser til.",
+ "volumeSha256": {
+  "anf01": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+  "anf02": "ae8e15414a21fe8d54a30fee7c3fbd1ee6a018e624dcd681d030da5c1cabbcac",
+  "anf03": "9299f3fae7c08024ea918e70d25433b7b110cc2b851d030cb22f3b1f080800c8",
+  "anf04": "b9f385a048c18158c2f74dcd37062f48a1c68a5d05bdb07270a93692d172da2e",
+  "anf05": "a02b61c36f07edd406a08138b9797151d6e808cb1618f1cc282fe9db5f6a87f8",
+  "anf09": "3861096b158e12bc13f4516baac913cbd3d921c607862a7eace4f0257b3aefa5",
+  "npnf113": "54274dd9aa73ca36e4da9e763e4a27d1818b09e42ffc73795529afec703a4210",
+  "npnf205": "cef974043e48a52d1b6d4ce3bdfb538fa5be2c3af8b53e3bb75181760d614484"
+ },
+ "records": {
+  "Iren-AH@III.12.8": {
+   "volume": "anf01",
+   "found": true,
+   "excerpt": "self: and, immediately requesting to be baptized, he said, \"I believe Jesus Christ to be the Son of God.\" [3502] This man was also sent into the regions of Ethiopi"
+  },
+  "Cypr-Quir@III.43": {
+   "volume": "anf05",
+   "found": true,
+   "excerpt": "nd peace). In the Acts of the Apostles: \"Lo, here is water; what is there which hinders me from being baptized? Then said Philip, If thou believest with all thine heart, thou mayest.\" [4418] __________________________________________________"
+  },
+  "Iren-AH@III.10.5": {
+   "volume": "anf01",
+   "found": true,
+   "excerpt": "Wherefore also Mark, the interpreter and follower of Peter, does thus commence his Gospel narrative: \"The beginning of the Gospel of Jesus Christ, the Son of God; as it is written in the prophets, Behold, I send My messen"
+  },
+  "Iren-AH@III.16.3": {
+   "volume": "anf01",
+   "found": true,
+   "excerpt": "0] sustaining, and receiving, and embracing the Son of God. Wherefore Mark also says: \"The beginning of the Gospel of Jesus Christ, the Son of God; as it is written in the prophets.\" [3581] Knowing one and "
+  },
+  "Iren-AH@III.11.8": {
+   "volume": "anf01",
+   "found": true,
+   "excerpt": "prophetical spirit coming down from on high to men, saying, \"The beginning of the Gospel of Jesus Christ, as it is written in Esaias the prophet,\"--pointing to the winged aspect of the Gospel; and on this a"
+  },
+  "Orig-Cels@II.4": {
+   "volume": "anf04",
+   "found": true,
+   "excerpt": "believe My words?\" [3221] Nay, even one of the evangelists--Mark--says: \"The beginning of the Gospel of Jesus Christ, as it is written in the prophet Isaiah, Behold, I send My messenger before Thy face, who shall pre"
+  },
+  "Orig-CommJo@I.14(ANF)": {
+   "volume": "anf09",
+   "found": true,
+   "excerpt": "t of Christ Jesus, the head of the whole body of the saved; as Mark says, [4521] \"The beginning of the Gospel of Jesus Christ.\" Then also it is the Gospel of the Apostles; whence Paul [45"
+  },
+  "Iren-AH@III.11.6": {
+   "volume": "anf01",
+   "found": true,
+   "excerpt": " For \"no man,\" he says, \"hath seen God at any time,\" unless \"the only-begotten Son of God, which is in the bosom of the Father, He hath declared [Him].\" [3444] For He, the Son who is in "
+  },
+  "Iren-AH@IV.20.6": {
+   "volume": "anf01",
+   "found": true,
+   "excerpt": "s written in the Gospel: \"No man hath seen God at any time, except the only-begotten Son, who is in the bosom of the Father; He has declared [Him].\" [4084] 7. Therefore the Son of the"
+  },
+  "Iren-AH@IV.20.11": {
+   "volume": "anf01",
+   "found": true,
+   "excerpt": "ghtness, and explained His purposes (as also the Lord said: \"The only-begotten God, [4097] which is in the bosom of the Father, He hath declared [Him];\" and He does Himself also interpre"
+  },
+  "Clem-Strom@V.12": {
+   "volume": "anf02",
+   "found": true,
+   "excerpt": "d John the apostle says: \"No man hath seen God at any time. The only-begotten God, who is in the bosom of the Father, He hath declared Him,\" [3095] --calling invisibility and ineffableness the bosom"
+  },
+  "Tert-Prax@15": {
+   "volume": "anf03",
+   "found": true,
+   "excerpt": "e mean? It is of course the Father, with whom was the Word, the only begotten Son, who is in the bosom of the Father, and has Himself declared Him. [7947] He was both heard and seen and, that He might not b"
+  },
+  "Hipp-Noet@5": {
+   "volume": "anf05",
+   "found": true,
+   "excerpt": "her. For John also says, \"No man hath seen God at any time; the only-begotten Son, which is in the bosom of the Father, He hath declared [1627] Him.\" [1628] And again: \"He who ca"
+  },
+  "Orig-Cels@II.71": {
+   "volume": "anf04",
+   "found": true,
+   "excerpt": "n;\" [3398] and in these, \"No man hath seen God at any time; the only-begotten Son, who is in the bosom of the Father, He hath declared Him.\" [3399] He, treating of Deity, stated to His true disciple"
+  },
+  "Orig-CommJo@II.29(ANF)": {
+   "volume": "anf09",
+   "found": true,
+   "excerpt": "ame through Jesus Christ. No one hath seen God at any time; the only-begotten God, who is in the bosom of the Father, He hath declared Him.\" This whole speech is from the mouth of the Baptist bearin"
+  },
+  "Chrys-Hom1Tim@XI": {
+   "volume": "npnf113",
+   "found": true,
+   "excerpt": "in Leviticus he refers the whole matter to Another, saying, \"God was manifest in the flesh.\" The Creator was seen incarnate. \"He was justified in the Spirit.\" As it is said, \"Wisdom i"
+  },
+  "GregNyss-Eun@XI(NPNF)": {
+   "volume": "npnf205",
+   "found": true,
+   "excerpt": " of Jesus Christ the great God and our Saviour [981] ,\" and to Timothy, proclaims in plain terms, \"God was manifest in the flesh, justified in the spirit [982] .\" Since then the fact has been demonstrated on every"
+  }
+ }
+}

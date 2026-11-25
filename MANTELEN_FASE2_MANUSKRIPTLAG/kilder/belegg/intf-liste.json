@@ -1,0 +1,1652 @@
+{
+ "source": "INTF, Kurzgefasste Liste, via NTVMR API (metadata/liste/search, detail=shelfInstance)",
+ "retrieved": "2026-11-25",
+ "note": "Faktaopplysninger fra registeret med henvisning. Selve registeret er ikke kopiert.",
+ "records": {
+  "1841": {
+   "docID": 31841,
+   "primaryName": "1841",
+   "orig": "IX/X",
+   "origEarly": 800,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Limonos Monastery",
+     "place": "Lesbos",
+     "country": "Greece",
+     "shelfNumber": 55,
+     "contentOverview": "apr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31841&detail=shelfInstance&format=json",
+   "rawSha256": "7869439edc5ffa39ee5b42091f14a03a0867566a7f5b182957928d16dc2a2058"
+  },
+  "05": {
+   "docID": 20005,
+   "primaryName": "5",
+   "orig": "V",
+   "origEarly": 400,
+   "origLate": 499,
+   "lang": "g-l",
+   "shelfInstances": [
+    {
+     "institution": "Cambridge University Library",
+     "place": "Cambridge",
+     "country": "United Kingdom",
+     "shelfNumber": "Ms. Nn. 2.41",
+     "contentOverview": "ea †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20005&detail=shelfInstance&format=json",
+   "rawSha256": "ed4a79613495af8a41dc066efde720d0df99c8a2c061ab0a3d0acba0dd06c937"
+  },
+  "1505": {
+   "docID": 31505,
+   "primaryName": "1505",
+   "orig": "XIII",
+   "origEarly": 1200,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Great Lavra Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": "B' 26",
+     "contentOverview": "eap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31505&detail=shelfInstance&format=json",
+   "rawSha256": "f4112f97878c8af89374dd56a42dc840bf0b4c55ee00b132435640261516d246"
+  },
+  "037": {
+   "docID": 20037,
+   "primaryName": "37",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g-l",
+   "shelfInstances": [
+    {
+     "institution": "Stiftsbibliothek",
+     "place": "St. Gallen",
+     "country": "Switzerland",
+     "shelfNumber": "Cod. Sang. 48",
+     "contentOverview": "e"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20037&detail=shelfInstance&format=json",
+   "rawSha256": "c17f12f5b7f8f7063a8cbd083c2ba690865ef9308b39aa7cf40e8c1f4c1174f3"
+  },
+  "1891": {
+   "docID": 31891,
+   "primaryName": "1891",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "National Library of Russia",
+     "place": "St. Petersburg",
+     "country": "Russia",
+     "shelfNumber": "Ф. № 906 / Gr. 317",
+     "contentOverview": "ap"
+    },
+    {
+     "institution": "Patriarchate of Jerusalem",
+     "place": "Jerusalem",
+     "country": "Israel",
+     "shelfNumber": "Saba 107",
+     "contentOverview": "ap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31891&detail=shelfInstance&format=json",
+   "rawSha256": "ecd7e5339698c5183a87dfffb4d3a5f791ca43672a625e3205cd89af580133bc"
+  },
+  "P45": {
+   "docID": 10045,
+   "primaryName": "P45",
+   "orig": "III",
+   "origEarly": 200,
+   "origLate": 299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Österreichische Nationalbibliothek",
+     "place": "Wien",
+     "country": "Austria",
+     "shelfNumber": "Pap. G. 31974",
+     "contentOverview": "Mt 25:41-26:39"
+    },
+    {
+     "institution": "Chester Beatty Library",
+     "place": "Dublin",
+     "country": "Ireland",
+     "shelfNumber": "CBL BP I",
+     "contentOverview": "Mt 20:24-32; 21:13-19; Mk 4:36-40; 5:15-26; 5:38-6:3,16-25,36-50; 7:3-15; 7:25-8:1,10-26; 8:34-9:9,18-31; 11:27-12:1,5-8,13-19,24-28; Lk 6:31-41; 6:45-7:7; 9:26-41; 9:45-10:1,6-22; 10:26-11:1,6-25,28-46; 11:50-12:12,18-37; 12:42-13:1,6-24; 13:29-14:10,17-33; Jn 4:51,54; 5:21,24; 10:7-25; 10:30-11:10,18-36,42-57; Ac 4:27-36; 5:10-21,30-39; 6:7-7:2,10-21,32-41; 7:52-8:1,14-25; 8:34-9:6,16-27; 9:35-10:2,10-23,31-41; 11:2-14; 11:24-12:5,13-22; 13:6-16,25-36; 13:46-14:3,15-23; 15:2-7,19-27; 15:38-16:4, 15-21, 32-40; 17:9-17"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10045&detail=shelfInstance&format=json",
+   "rawSha256": "27723c06b4fb38c658afefcb34447cc52058bee625e2347aca10e20eb17e2036"
+  },
+  "P66": {
+   "docID": 10066,
+   "primaryName": "P66",
+   "orig": "III (A)",
+   "origEarly": 200,
+   "origLate": 225,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliotheca Bodmeriana",
+     "place": "Cologny/Genf",
+     "country": "Switzerland",
+     "shelfNumber": "P. Bodmer II",
+     "contentOverview": "eP: J"
+    },
+    {
+     "institution": "Chester Beatty Library",
+     "place": "Dublin",
+     "country": "Ireland",
+     "shelfNumber": "CBL BP XIX",
+     "contentOverview": "eP: J"
+    },
+    {
+     "institution": "Institut für Altertumskunde",
+     "place": "Köln",
+     "country": "Germany",
+     "shelfNumber": "Inv. Nr. 4274/4298",
+     "contentOverview": "eP: J"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10066&detail=shelfInstance&format=json",
+   "rawSha256": "1c3c7b066b966c05df841695a83797d35157b8251cd730f42af4badbe25053da"
+  },
+  "075": {
+   "docID": 20075,
+   "primaryName": "75",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "National Library",
+     "place": "Athens",
+     "country": "Greece",
+     "shelfNumber": "EBE 100, fol. 46-378",
+     "contentOverview": "pK †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20075&detail=shelfInstance&format=json",
+   "rawSha256": "44b9d3e7385d82c2e52ffac292303702150257dd207e3235108b69af726ab686"
+  },
+  "1611": {
+   "docID": 31611,
+   "primaryName": "1611",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "National Library",
+     "place": "Athens",
+     "country": "Greece",
+     "shelfNumber": "EBE 94 ",
+     "contentOverview": "apr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31611&detail=shelfInstance&format=json",
+   "rawSha256": "b0722dd0988a9cc4af9fa6cd3553bc382deeb0b2961d59f679f19262b57924dc"
+  },
+  "82": {
+   "docID": 30082,
+   "primaryName": "82",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 237",
+     "contentOverview": "aprK"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30082&detail=shelfInstance&format=json",
+   "rawSha256": "a02ca152756cfd1c2c7317dac6fcb69184d7ecdcc65a771a60ce55be7ac990b9"
+  },
+  "021": {
+   "docID": 20021,
+   "primaryName": "21",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 48",
+     "contentOverview": "e"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20021&detail=shelfInstance&format=json",
+   "rawSha256": "154fe0808130484a4bd61d10d7dec89964a0414e70e07a6f9bfea821197da0bd"
+  },
+  "1006": {
+   "docID": 31006,
+   "primaryName": "1006",
+   "orig": "XI",
+   "origEarly": 1000,
+   "origLate": 1099,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Iviron Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": "56 (Monastery 728)",
+     "contentOverview": "er"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31006&detail=shelfInstance&format=json",
+   "rawSha256": "c28dee5f6c6b10bf595925c3cc23c77f516416a28988d9fc5d9d3ab3bc316b55"
+  },
+  "P133": {
+   "docID": 10133,
+   "primaryName": "P133",
+   "orig": "III",
+   "origEarly": 200,
+   "origLate": 299,
+   "lang": "grc",
+   "shelfInstances": [
+    {
+     "institution": "Bodleian Art, Archaeology and Ancient World Library",
+     "place": "Oxford",
+     "country": "United Kingdom",
+     "shelfNumber": "P. Oxy. 5259",
+     "contentOverview": "1 Tim 3,13-4,8"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10133&detail=shelfInstance&format=json",
+   "rawSha256": "1f29d7cde14b24dbe0587d6087fe7b5d66f6175a2702cc06b9a0920b85dc0c1c"
+  },
+  "630": {
+   "docID": 30630,
+   "primaryName": "630",
+   "orig": "XII/XIII",
+   "origEarly": 1100,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfNumber": "Ottob. gr. 325",
+     "contentOverview": "ap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30630&detail=shelfInstance&format=json",
+   "rawSha256": "2f149be19b04aec25b1a49632810985e2fe3d047634e53d3df0e3db944e5411e"
+  },
+  "35": {
+   "docID": 30035,
+   "primaryName": "35",
+   "orig": "XIV",
+   "origEarly": 1300,
+   "origLate": 1399,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Coislin Grec 199",
+     "contentOverview": "eapr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30035&detail=shelfInstance&format=json",
+   "rawSha256": "dc4578f04e7db0b897e68d157e7cefcb8e11df0e90386739661689e311d5f695"
+  },
+  "01": {
+   "docID": 20001,
+   "primaryName": "1",
+   "orig": "IV",
+   "origEarly": 300,
+   "origLate": 399,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfNumber": "Add. 43725",
+     "contentOverview": "eapr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20001&detail=shelfInstance&format=json",
+   "rawSha256": "7f0a4c62f8d8a4b78eb0425b5c21df4d25b2a4d9a5d7afd903b26289559a9aad"
+  },
+  "018": {
+   "docID": 20018,
+   "primaryName": "18",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "State Historical Museum",
+     "place": "Moscow",
+     "country": "Russia",
+     "shelfNumber": "Sinod. gr. 97 (Vlad. 093)",
+     "contentOverview": "apK †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20018&detail=shelfInstance&format=json",
+   "rawSha256": "2183706768f5f6accbda62200fdbf4f53bdaa9e2b682f7b35cd9efd385ea82cc"
+  },
+  "614": {
+   "docID": 30614,
+   "primaryName": "614",
+   "orig": "XIII",
+   "origEarly": 1200,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Ambrosiana",
+     "place": "Milan",
+     "country": "Italy",
+     "shelfNumber": "E. 97 sup.",
+     "contentOverview": "ap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30614&detail=shelfInstance&format=json",
+   "rawSha256": "2fdd328cbfcb48e9df83ea9dc913f340b715f5b05ce1fd4e94be051c76ec44d2"
+  },
+  "18": {
+   "docID": 30018,
+   "primaryName": "18",
+   "orig": "1363/4",
+   "origEarly": 1363,
+   "origLate": 1364,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 47, fol 1-346",
+     "contentOverview": "eapr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30018&detail=shelfInstance&format=json",
+   "rawSha256": "1c60ff776b693fcad974d46092e0e2c423a9033e149667eeb304765710583e3c"
+  },
+  "892": {
+   "docID": 30892,
+   "primaryName": "892",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfNumber": "Add. 33277",
+     "contentOverview": "e †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30892&detail=shelfInstance&format=json",
+   "rawSha256": "782d592a5d418364cec97c52f5941ef75d64fa0b5545f9181cd12cfe77167fa8"
+  },
+  "017": {
+   "docID": 20017,
+   "primaryName": "17",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 63",
+     "contentOverview": "e"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20017&detail=shelfInstance&format=json",
+   "rawSha256": "5b53065d17e18dedfddb30a8a8d2dce5b89aa7f8f1e9b601e5d38025ab9160cb"
+  },
+  "1424": {
+   "docID": 31424,
+   "primaryName": "1424",
+   "orig": "IX/X",
+   "origEarly": 800,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Kosinitza Monastery",
+     "place": "Drama",
+     "country": "Greece",
+     "shelfNumber": "3 (3P)",
+     "contentOverview": "eapr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31424&detail=shelfInstance&format=json",
+   "rawSha256": "d90a94e01265016c72c2e54458762e37e04b9e19845be601b3929f4e670cf6bd"
+  },
+  "051": {
+   "docID": 20051,
+   "primaryName": "51",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Pantokratoros Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": 44,
+     "contentOverview": "Ap 11,15-13,1.3-22,7.15-21"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20051&detail=shelfInstance&format=json",
+   "rawSha256": "fb050dc820f771ac1d07520e21efe53a17ed26fb7572cebc33e8ee748d1494f7"
+  },
+  "33": {
+   "docID": 30033,
+   "primaryName": "33",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 14, fol. 51r-143v",
+     "contentOverview": "eap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30033&detail=shelfInstance&format=json",
+   "rawSha256": "6e0b5da84ae29a7a7aaa3422434339930204063fae4cb2d807bcc393c978aea7"
+  },
+  "P74": {
+   "docID": 10074,
+   "primaryName": "P74",
+   "orig": "VII",
+   "origEarly": 600,
+   "origLate": 699,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliotheca Bodmeriana",
+     "place": "Cologny/Genf",
+     "country": "Switzerland",
+     "shelfNumber": "P. Bodmer XVII",
+     "contentOverview": "Act 1,2-28,31+; Jc 1,1-5,20+; 1P 1,1-2.7-8.13.19-20.25; 2,6-7.11-12.18.24; 3,4-5; 2P 2,21; 3,4.11. 16; 1J 1,1.6; 2,1-2.7.13-14.18-19. 25-26; 3,1-2.8. 14.19-20; 4,1.6-7.12.16-17; 5,3-4.9-10.17; 2J 1.6-7.13; 3J 6.12; Jd 3.7.12. 18.24"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10074&detail=shelfInstance&format=json",
+   "rawSha256": "ffee9ff741c88dbe6cf73dfaa4e0405ae02194c290c6f0642796cc6245dd20c5"
+  },
+  "296": {
+   "docID": 30296,
+   "primaryName": "296",
+   "orig": "XVI",
+   "origEarly": 1500,
+   "origLate": 1599,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 123",
+     "contentOverview": "eapr"
+    },
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 124",
+     "contentOverview": "eapr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30296&detail=shelfInstance&format=json",
+   "rawSha256": "899669bc4a52adee55edacf3bc741b66ea4c5956139e56aad80b3d9bbaad6298"
+  },
+  "6": {
+   "docID": 30006,
+   "primaryName": "6",
+   "orig": "XIII",
+   "origEarly": 1200,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 112",
+     "contentOverview": "eap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30006&detail=shelfInstance&format=json",
+   "rawSha256": "998716b4ace92039a3891272d6371960a681e454724207d8fd88b03f1aadaaf8"
+  },
+  "1828": {
+   "docID": 31828,
+   "primaryName": "1828",
+   "orig": "XI",
+   "origEarly": 1000,
+   "origLate": 1099,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "National Library",
+     "place": "Athens",
+     "country": "Greece",
+     "shelfNumber": "EBE 91",
+     "contentOverview": "apr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31828&detail=shelfInstance&format=json",
+   "rawSha256": "3b5e8de7ce60b748c6ef711b677857e4fa347ab61cf9f14fc7f1ba32acf6200a"
+  },
+  "1854": {
+   "docID": 31854,
+   "primaryName": "1854",
+   "orig": "XI",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Iviron Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": "25 (Monastery 231)",
+     "contentOverview": "apr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31854&detail=shelfInstance&format=json",
+   "rawSha256": "e3a1b5356e0b9448fe4ef4f158a5c028d08ad94c614bba5cfd09d1c9be57a541"
+  },
+  "94": {
+   "docID": 30094,
+   "primaryName": "94",
+   "orig": "r: XII; ap: XIII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Coislin Grec 202bis, fol. 27-328",
+     "contentOverview": "ap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30094&detail=shelfInstance&format=json",
+   "rawSha256": "78a4b82b42e4a7a754758c84490f90fb6808ec8b5d52d0df4ccc84263ebfebc4"
+  },
+  "2377": {
+   "docID": 32377,
+   "primaryName": "2377",
+   "orig": "XIV",
+   "origEarly": 1300,
+   "origLate": 1399,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Byzantine and Christian Museum",
+     "place": "Athens",
+     "country": "Greece",
+     "shelfNumber": "ΧΑΕ 5487 (MS 117), fol. 1-10",
+     "contentOverview": "r †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32377&detail=shelfInstance&format=json",
+   "rawSha256": "2c43df294bfb2a80248e13029b9facb93dca8e77761ca41df258aea74ecaeeec"
+  },
+  "1": {
+   "docID": 30001,
+   "primaryName": "1",
+   "orig": "XII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "grc",
+   "shelfInstances": [
+    {
+     "institution": "Universitätsbibliothek",
+     "place": "Basel",
+     "country": "Switzerland",
+     "shelfNumber": "AN IV 2",
+     "contentOverview": "eap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30001&detail=shelfInstance&format=json",
+   "rawSha256": "d32cb56a7557fa39871968aace64da43aa74fa7116751f434fe1ee4f15b00411"
+  },
+  "307": {
+   "docID": 30307,
+   "primaryName": "307",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Coislin Grec 25",
+     "contentOverview": "aK"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30307&detail=shelfInstance&format=json",
+   "rawSha256": "8dd3aa7452bcfb35cdfd8bf3ea609d6de6bfa803632768ab3b208cc553b1dc5c"
+  },
+  "04": {
+   "docID": 20004,
+   "primaryName": "4",
+   "orig": "V",
+   "origEarly": 400,
+   "origLate": 499,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 9",
+     "contentOverview": "eapr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20004&detail=shelfInstance&format=json",
+   "rawSha256": "5aa5cde9f5590dbae5958cbc7ac8c4457bc51c3ac8582593a42dc8131fea55f8"
+  },
+  "469": {
+   "docID": 30469,
+   "primaryName": "469",
+   "orig": "XIII",
+   "origEarly": 1200,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 102A",
+     "contentOverview": "apr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30469&detail=shelfInstance&format=json",
+   "rawSha256": "99c3dc800905fc8466f5278b851a8e27e9667afcfaa12698196aef4778723bff"
+  },
+  "61": {
+   "docID": 30061,
+   "primaryName": "61",
+   "orig": "XVI",
+   "origEarly": 1500,
+   "origLate": 1599,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Trinity College",
+     "place": "Dublin",
+     "country": "Ireland",
+     "shelfNumber": "MS 30",
+     "contentOverview": "eapr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30061&detail=shelfInstance&format=json",
+   "rawSha256": "d380811b38f591bb52425040b2d9967d392458e9f4445bc8858392d646f605a0"
+  },
+  "104": {
+   "docID": 30104,
+   "primaryName": "104",
+   "orig": "1087",
+   "origEarly": 1087,
+   "origLate": 1087,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfNumber": "Harley 5537",
+     "contentOverview": "apr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30104&detail=shelfInstance&format=json",
+   "rawSha256": "7efb94c8f58a1b82ff716f0d9dc8e30da70eff424f860855c47389c079e105dd"
+  },
+  "565": {
+   "docID": 30565,
+   "primaryName": "565",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "National Library of Russia",
+     "place": "St. Petersburg",
+     "country": "Russia",
+     "shelfNumber": "Ф. № 906 /Gr. 53",
+     "contentOverview": "e †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30565&detail=shelfInstance&format=json",
+   "rawSha256": "66a9b0c54e4f0cefb050727b8dabf14885aa91eac4ae4a6d5611a8a286c29a2a"
+  },
+  "453": {
+   "docID": 30453,
+   "primaryName": "453",
+   "orig": "XIV",
+   "origEarly": 1300,
+   "origLate": 1399,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfNumber": "Barb. gr. 582",
+     "contentOverview": "aK"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30453&detail=shelfInstance&format=json",
+   "rawSha256": "85e28936fc633be61d8798cf6ac9d5367179d69d5dd2dbb9bdd3eea53b530b03"
+  },
+  "2344": {
+   "docID": 32344,
+   "primaryName": "2344",
+   "orig": "XI",
+   "origEarly": 1000,
+   "origLate": 1099,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Coislin Grec 18, fol. 170-230",
+     "contentOverview": "apr"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32344&detail=shelfInstance&format=json",
+   "rawSha256": "d79bb1e929088884810d27a0c7b50b88d21bee214a9df19a125528084690ad5e"
+  },
+  "81": {
+   "docID": 30081,
+   "primaryName": "81",
+   "orig": "1044",
+   "origEarly": 1044,
+   "origLate": 1044,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Greek Orthodox Patriarchate of Alexandria",
+     "place": "Alexandria",
+     "country": "Egypt",
+     "shelfNumber": 477,
+     "contentOverview": "ap †"
+    },
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfNumber": "Add. 20003",
+     "contentOverview": "ap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30081&detail=shelfInstance&format=json",
+   "rawSha256": "4f6e22b3ee7af88c76c235cc9faa7c54f91397c4e1484ebd283dfc2155ca7c08"
+  },
+  "1241": {
+   "docID": 31241,
+   "primaryName": "1241",
+   "orig": "XII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Saint Catherine's Monastery",
+     "place": "Sinai",
+     "country": "Egypt",
+     "shelfNumber": "Gr. 260",
+     "contentOverview": "eap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31241&detail=shelfInstance&format=json",
+   "rawSha256": "9513ff8e8943fe178e74f277476dc3f6575fcb26042a87ab8632ba0a5c655a1c"
+  },
+  "010": {
+   "docID": 20010,
+   "primaryName": "10",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g-l",
+   "shelfInstances": [
+    {
+     "institution": "Trinity College",
+     "place": "Cambridge",
+     "country": "United Kingdom",
+     "shelfNumber": "B.17.1",
+     "contentOverview": "p †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20010&detail=shelfInstance&format=json",
+   "rawSha256": "f6e0822056ca02d05687105b400ca687a454c6b49c7cc933810effb83d9ec3d8"
+  },
+  "020": {
+   "docID": 20020,
+   "primaryName": "20",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Angelica",
+     "place": "Rome",
+     "country": "Italy",
+     "shelfNumber": "Ang. gr. 39",
+     "contentOverview": "ap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20020&detail=shelfInstance&format=json",
+   "rawSha256": "77130f6b9694eb783cac5d20b41a3d22f516bc68fe61d80c27bdba9f264df079"
+  },
+  "032": {
+   "docID": 20032,
+   "primaryName": "32",
+   "orig": "V",
+   "origEarly": 400,
+   "origLate": 499,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Smithsonian Institution, Freer Gallery of Art",
+     "place": "Washington D.C.",
+     "country": "USA",
+     "shelfNumber": 6.274,
+     "contentOverview": "e †"
+    },
+    {
+     "institution": "Smithsonian Institution, Freer Gallery of Art",
+     "place": "Washington D.C.",
+     "country": "USA",
+     "shelfNumber": "F1906.274",
+     "contentOverview": "e †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20032&detail=shelfInstance&format=json",
+   "rawSha256": "119ee96afcc05271d29d169b73b3b19de4fb938fdf65590182ee34456241608c"
+  },
+  "1739": {
+   "docID": 31739,
+   "primaryName": "1739",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Great Lavra Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": "B' 64",
+     "contentOverview": "ap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31739&detail=shelfInstance&format=json",
+   "rawSha256": "e2b5f93c807884e9579849ddb2d2066f5827d9ddee30063bc60d1bcedb591ed8"
+  },
+  "2030": {
+   "docID": 32030,
+   "primaryName": "2030",
+   "orig": "XII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Moscow State University Library",
+     "place": "Moscow",
+     "country": "Russia",
+     "shelfNumber": "Gr. 1, fol. 203-209",
+     "contentOverview": "rP"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32030&detail=shelfInstance&format=json",
+   "rawSha256": "5c9cae73a520aa35807d8aa0fa87f4109811e8d8a04fd0cc5433a7ea89c906b8"
+  },
+  "019": {
+   "docID": 20019,
+   "primaryName": "19",
+   "orig": "VIII",
+   "origEarly": 700,
+   "origLate": 799,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 62",
+     "contentOverview": "e †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20019&detail=shelfInstance&format=json",
+   "rawSha256": "a4ab17fd38abc1d81d467c38d60a7bc74e331c31e4370a74aa73cf97d7de3a62"
+  },
+  "28": {
+   "docID": 30028,
+   "primaryName": "28",
+   "orig": "XI",
+   "origEarly": 1000,
+   "origLate": 1099,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 379",
+     "contentOverview": "e †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30028&detail=shelfInstance&format=json",
+   "rawSha256": "d006dd46f6765727c75f3b3913cf100615706dd5c41008a8b5993e6ff96a9dea"
+  },
+  "69": {
+   "docID": 30069,
+   "primaryName": "69",
+   "orig": "XV",
+   "origEarly": 1400,
+   "origLate": 1499,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Leicestershire Record Office",
+     "place": "Leicester",
+     "country": "United Kingdom",
+     "shelfNumber": "6 D 32.1",
+     "contentOverview": "eapr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30069&detail=shelfInstance&format=json",
+   "rawSha256": "97ffb2285b21d3741d06d9cef4daad0d5644bd75cac6b77bf9a7a2c2ba8705d0"
+  },
+  "025": {
+   "docID": 20025,
+   "primaryName": "25",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "National Library of Russia",
+     "place": "St. Petersburg",
+     "country": "Russia",
+     "shelfNumber": "Ф. № 906 / Gr. 225 ",
+     "contentOverview": "apr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20025&detail=shelfInstance&format=json",
+   "rawSha256": "361934a990f47cd6a28156e94477d1fc2065a0475739c1d08a3356478073eecf"
+  },
+  "0150": {
+   "docID": 20150,
+   "primaryName": "150",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "St. John the Theologian Monastery",
+     "place": "Patmos",
+     "country": "Greece",
+     "shelfNumber": 61,
+     "contentOverview": "pK †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20150&detail=shelfInstance&format=json",
+   "rawSha256": "71c213f9fa22c19f41cbed52c6a57239b2cfd7517eaa3a68a05152a1619a1f32"
+  },
+  "945": {
+   "docID": 30945,
+   "primaryName": "945",
+   "orig": "XI",
+   "origEarly": 1000,
+   "origLate": 1099,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Dionysiou Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": "37 (Monastery 124)",
+     "contentOverview": "eap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30945&detail=shelfInstance&format=json",
+   "rawSha256": "5ef8ccd8588ad0b16335b6e59217ebe8d674e3d9070fcbc9184c6a097ce64ada"
+  },
+  "323": {
+   "docID": 30323,
+   "primaryName": "323",
+   "orig": "XII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque publique et universitaire",
+     "place": "Genf",
+     "country": "Switzerland",
+     "shelfNumber": "Gr. 20",
+     "contentOverview": "ap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30323&detail=shelfInstance&format=json",
+   "rawSha256": "231c121c411fe607cca6383fb76b47fdcfa68030a0dcc4bec08cb4bfab797b52"
+  },
+  "038": {
+   "docID": 20038,
+   "primaryName": "38",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "National Center of Manuscripts",
+     "place": "Tbilisi",
+     "country": "Georgia",
+     "shelfNumber": "Gr. 28",
+     "contentOverview": "e"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20038&detail=shelfInstance&format=json",
+   "rawSha256": "1ca9e439f2af86969c911444a1dc0454a0990df470b80cb16f00e9018182474d"
+  },
+  "046": {
+   "docID": 20046,
+   "primaryName": "46",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfNumber": "Vat. gr. 2066, fol. 249-268",
+     "contentOverview": "r"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20046&detail=shelfInstance&format=json",
+   "rawSha256": "205804b373af6c16159e2e2fe8cd89e19c1012489caba8adf26f1f71d3c53f2d"
+  },
+  "2329": {
+   "docID": 32329,
+   "primaryName": "2329",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Great Meteoron Monastery",
+     "place": "Meteora",
+     "country": "Greece",
+     "shelfNumber": "573, fol. 210-245r",
+     "contentOverview": "r"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32329&detail=shelfInstance&format=json",
+   "rawSha256": "e3a52e4c492299acaf16ea00d105a36508437cfd84b7a7438e0db47afe856dc1"
+  },
+  "012": {
+   "docID": 20012,
+   "primaryName": "12",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g-l",
+   "shelfInstances": [
+    {
+     "institution": "Sächsische Landesbibliothek",
+     "place": "Dresden",
+     "country": "Germany",
+     "shelfNumber": "A 145b",
+     "contentOverview": "p †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20012&detail=shelfInstance&format=json",
+   "rawSha256": "b4a45afc23c970994828de63d70ffdc4acc3d92098d6fb515b3560f434300c55"
+  },
+  "03": {
+   "docID": 20003,
+   "primaryName": "3",
+   "orig": "IV",
+   "origEarly": 300,
+   "origLate": 399,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfNumber": "Vat. gr. 1209, p. 1235-1518",
+     "contentOverview": "eap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20003&detail=shelfInstance&format=json",
+   "rawSha256": "98c28a426fed30e311e72137408d3a2dec63a5b993dd9bef21a43bd201a40509"
+  },
+  "2053": {
+   "docID": 32053,
+   "primaryName": "2053",
+   "orig": "XIII",
+   "origEarly": 1200,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Regionale Universitaria",
+     "place": "Messina",
+     "country": "Italy",
+     "shelfNumber": "S. Salv. 99",
+     "contentOverview": "rK"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32053&detail=shelfInstance&format=json",
+   "rawSha256": "b2bb9ba9ae858ee7364404afe0858d07459709626208a50fdcdd79f705b8a537"
+  },
+  "08": {
+   "docID": 20008,
+   "primaryName": "8",
+   "orig": "VI",
+   "origEarly": 500,
+   "origLate": 599,
+   "lang": "g-l",
+   "shelfInstances": [
+    {
+     "institution": "Bodleian Library",
+     "place": "Oxford",
+     "country": "United Kingdom",
+     "shelfNumber": "Ms. Laud. Gr. 35",
+     "contentOverview": "a †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20008&detail=shelfInstance&format=json",
+   "rawSha256": "82b53931db326e509535f5c47d6936d37d7512a0bb0963b28640fe63356d62e1"
+  },
+  "044": {
+   "docID": 20044,
+   "primaryName": "44",
+   "orig": "IX/X",
+   "origEarly": 800,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Great Lavra Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": "B' 52",
+     "contentOverview": "eap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20044&detail=shelfInstance&format=json",
+   "rawSha256": "7b65e612fcbae05d1cef7c2d65e8f77fdd36b7593c56fc02dfe93b90062c48e3"
+  },
+  "2067": {
+   "docID": 32067,
+   "primaryName": "2067",
+   "orig": "XV",
+   "origEarly": 1400,
+   "origLate": 1499,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfNumber": "Pal. gr. 346",
+     "contentOverview": "rK"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32067&detail=shelfInstance&format=json",
+   "rawSha256": "3fbacc4bb715d5468f695a5b6152382126865a04de0ac0e57920ef18ff78d21f"
+  },
+  "1881": {
+   "docID": 31881,
+   "primaryName": "1881",
+   "orig": "XIV",
+   "origEarly": 1300,
+   "origLate": 1399,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Saint Catherine's Monastery",
+     "place": "Sinai",
+     "country": "Egypt",
+     "shelfNumber": "Gr. 300",
+     "contentOverview": "apP: 1P-H"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31881&detail=shelfInstance&format=json",
+   "rawSha256": "8f722fb185c21887a62e9e90375aaad24af58b5923fc4ae0e3a073aaeb281045"
+  },
+  "2816": {
+   "docID": 32816,
+   "primaryName": "2816",
+   "orig": "XV",
+   "origEarly": 1400,
+   "origLate": 1499,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Universitätsbibliothek",
+     "place": "Basel",
+     "country": "Switzerland",
+     "shelfNumber": "AN IV 5",
+     "contentOverview": "ap"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32816&detail=shelfInstance&format=json",
+   "rawSha256": "d9d67e29bc7dc65f696f1b5a6b5fc1059bf970d8e32e310e8273979dff478668"
+  },
+  "2464": {
+   "docID": 32464,
+   "primaryName": "2464",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "St. John the Theologian Monastery",
+     "place": "Patmos",
+     "country": "Greece",
+     "shelfNumber": 742,
+     "contentOverview": "apP †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32464&detail=shelfInstance&format=json",
+   "rawSha256": "8c65d58cad622fd12907d1d2951c6b19865164b38b8e8633e17702f579ae2ce5"
+  },
+  "365": {
+   "docID": 30365,
+   "primaryName": "365",
+   "orig": "XII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Medicea Laurenziana",
+     "place": "Florence",
+     "country": "Italy",
+     "shelfNumber": "Pluteo  VI. 36",
+     "contentOverview": "eap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30365&detail=shelfInstance&format=json",
+   "rawSha256": "b3d22e2d626c2ee46bdcbf229c538c13f6c45ff415d52ca7ca1ba4417f4ffb14"
+  },
+  "049": {
+   "docID": 20049,
+   "primaryName": "49",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Great Lavra Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": "A' 88",
+     "contentOverview": "ap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20049&detail=shelfInstance&format=json",
+   "rawSha256": "9ad78828f402917f33e4ea192abbe5e202900e9d526da600bcb310037e347a94"
+  },
+  "13": {
+   "docID": 30013,
+   "primaryName": "13",
+   "orig": "XII/XIII",
+   "origEarly": 1100,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 50",
+     "contentOverview": "e †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30013&detail=shelfInstance&format=json",
+   "rawSha256": "5ac2705d65b793994a7a9a9374b35945717e2b657f8ec3c6f0bf906ecb949621"
+  },
+  "2818": {
+   "docID": 32818,
+   "primaryName": "2818",
+   "orig": "XII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "New College ",
+     "place": "Oxford",
+     "country": "United Kingdom",
+     "shelfNumber": "New College Ms. 58",
+     "contentOverview": "a"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32818&detail=shelfInstance&format=json",
+   "rawSha256": "eaff32dc676f0789fc9142c9cb224cb6152a6132b8e7e108884f133389974162"
+  },
+  "579": {
+   "docID": 30579,
+   "primaryName": "579",
+   "orig": "XIII",
+   "origEarly": 1200,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 97",
+     "contentOverview": "e"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30579&detail=shelfInstance&format=json",
+   "rawSha256": "e0972a3a4fa8c87e036188c6faf42af46d3b639af4ffa6271623a34364eb29e2"
+  },
+  "2814": {
+   "docID": 32814,
+   "primaryName": "2814",
+   "orig": "XII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Universitätsbibliothek",
+     "place": "Augsburg",
+     "country": "Germany",
+     "shelfNumber": "Cod. I.1.4.1",
+     "contentOverview": "rK"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32814&detail=shelfInstance&format=json",
+   "rawSha256": "92938bdc90b1d39891d5cc5f4f42885b61f0b20a768afdd19f2d724792e36082"
+  },
+  "2186": {
+   "docID": 32186,
+   "primaryName": "2186",
+   "orig": "XII",
+   "origEarly": 1100,
+   "origLate": 1199,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Vatopedi Monastery",
+     "place": "Athos",
+     "country": "Greece",
+     "shelfNumber": "333, fol. 83-176",
+     "contentOverview": "arPK (o. Act)"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32186&detail=shelfInstance&format=json",
+   "rawSha256": "01e0a1471d28d56402ac8f57f1eb25a9b93b9c248b27fb138d8754f43c82e287"
+  },
+  "627": {
+   "docID": 30627,
+   "primaryName": "627",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfNumber": "Vat. gr. 2062, fol. 1-187",
+     "contentOverview": "apr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30627&detail=shelfInstance&format=json",
+   "rawSha256": "a84cff135ed317200524908520037b72a8bbc0ba64c0b4eb94615847ac785ec8"
+  },
+  "06": {
+   "docID": 20006,
+   "primaryName": "6",
+   "orig": "VI",
+   "origEarly": 500,
+   "origLate": 599,
+   "lang": "g-l",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Gr. 107 AB",
+     "contentOverview": "p †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20006&detail=shelfInstance&format=json",
+   "rawSha256": "c006c85e94f10e233f80966f558b0a1d6bf7e3f4624647ba43a0bd48cbc8bada"
+  },
+  "2062": {
+   "docID": 32062,
+   "primaryName": "2062",
+   "orig": "XIII",
+   "origEarly": 1200,
+   "origLate": 1299,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfNumber": "Vat. gr. 1426, fol. 131-159",
+     "contentOverview": "rK"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32062&detail=shelfInstance&format=json",
+   "rawSha256": "dae3626e2c502b39878cd8a2701656e8178478289b3c963bf18e89495b5313e5"
+  },
+  "2050": {
+   "docID": 32050,
+   "primaryName": "2050",
+   "orig": "1107",
+   "origEarly": 1107,
+   "origLate": 1107,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Real Biblioteca del Monasterio de El Escorial",
+     "place": "El Escorial",
+     "country": "Spain",
+     "shelfNumber": "X-III-6, fol. 235-241",
+     "contentOverview": "rP"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32050&detail=shelfInstance&format=json",
+   "rawSha256": "17174e873bd2781b60ea72e21fbafc0f9752a30ebcfddbc14d7cedf17bb5a776"
+  },
+  "700": {
+   "docID": 30700,
+   "primaryName": "700",
+   "orig": "XI",
+   "origEarly": 1000,
+   "origLate": 1099,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfNumber": "Egerton 2610",
+     "contentOverview": "e"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30700&detail=shelfInstance&format=json",
+   "rawSha256": "f6135fad03d4c0eb0bcbe63b6a7e416fd8f17f17e393389ff4370cc717fc0c98"
+  },
+  "36": {
+   "docID": 30036,
+   "primaryName": "36",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Bibliothèque Nationale",
+     "place": "Paris",
+     "country": "France",
+     "shelfNumber": "Coislin Grec 20",
+     "contentOverview": "eK"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=30036&detail=shelfInstance&format=json",
+   "rawSha256": "60eced06a1d661ee43e14a0e23dd35d7e99d2d20b3603c72b4783bbd862e80fe"
+  },
+  "P75": {
+   "docID": 10075,
+   "primaryName": "P75",
+   "orig": "III (A)",
+   "origEarly": 200,
+   "origLate": 225,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Biblioteca Apostolica Vaticana",
+     "place": "Città del Vaticano",
+     "country": "Vatican City",
+     "shelfNumber": "Pap. Hanna.1 (Mater.Verbi)",
+     "contentOverview": "L 3,18-4,2+; 4,34-5,10; 5,37-18,18+; 22,4-24, 53; J 1,1-11,45. 48-57; 12,3-13, 10; 14,8-15,10"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=10075&detail=shelfInstance&format=json",
+   "rawSha256": "07991911b1baee914a08628c790b3306204853aa0e523da28edfa83b4ad607d5"
+  },
+  "2049": {
+   "docID": 32049,
+   "primaryName": "2049",
+   "orig": "XVI",
+   "origEarly": 1500,
+   "origLate": 1599,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "Hellenic Parliament Library",
+     "place": "Athens",
+     "country": "Greece",
+     "shelfNumber": "45, fol. 232-254",
+     "contentOverview": "r"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=32049&detail=shelfInstance&format=json",
+   "rawSha256": "74527b5c4d6fc8cf13e8ccf7230d72c0643aa2d8fd04575e35e9b172be34646e"
+  },
+  "1175": {
+   "docID": 31175,
+   "primaryName": "1175",
+   "orig": "X",
+   "origEarly": 900,
+   "origLate": 999,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "St. John the Theologian Monastery",
+     "place": "Patmos",
+     "country": "Greece",
+     "shelfNumber": 16,
+     "contentOverview": "ap †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=31175&detail=shelfInstance&format=json",
+   "rawSha256": "f636caacb002f3bb198bc1fde389044d5e9c998358781c068148856d83e111b9"
+  },
+  "02": {
+   "docID": 20002,
+   "primaryName": "2",
+   "orig": "V",
+   "origEarly": 400,
+   "origLate": 499,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "British Library",
+     "place": "London",
+     "country": "United Kingdom",
+     "shelfNumber": "Royal 1 D.VIII",
+     "contentOverview": "eapr †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20002&detail=shelfInstance&format=json",
+   "rawSha256": "abcf00dba486b48146bee86bd3b2c036076bc29df38d36af7af2702737d0d0cb"
+  },
+  "041": {
+   "docID": 20041,
+   "primaryName": "41",
+   "orig": "IX",
+   "origEarly": 800,
+   "origLate": 899,
+   "lang": "g",
+   "shelfInstances": [
+    {
+     "institution": "National Library of Russia",
+     "place": "St. Petersburg",
+     "country": "Russia",
+     "shelfNumber": "Ф. № 906 / Gr. 34",
+     "contentOverview": "e †"
+    }
+   ],
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?docID=20041&detail=shelfInstance&format=json",
+   "rawSha256": "2586d12ff32b1107e112ec91d5c899c6cda3008859b1ac7b41a1134cb110c618"
+  }
+ }
+}

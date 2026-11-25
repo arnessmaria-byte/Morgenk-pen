@@ -1,0 +1,124 @@
+{
+ "source": "Clavis Clavium (Brepols, åpen tilgang): Clavis Patrum Graecorum / Latinorum",
+ "retrieved": "2026-11-25",
+ "note": "Nummer, plassering og tittel slik basen oppgir dem. Tittelfeltet er siste ledd i basens plassering og kan inneholde krysshenvisning.",
+ "records": {
+  "CPG 1453": {
+   "series": "CPG",
+   "number": "1453",
+   "treeAndTitle": "Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Origenes > Exegetica In Novum Testamentum Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Theodorus Mopsuestenus > Vide et Commentarii in Iohannem",
+   "title": "Vide et Commentarii in Iohannem",
+   "anteNicene": true,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1453",
+   "rawSha256": "03722d39ab3ec086eddd052b9484a8310700934b882d3d569c3b7ac29bf5c542"
+  },
+  "CPG 3135": {
+   "series": "CPG",
+   "number": "3135",
+   "treeAndTitle": "Patres Postnicaeni > Saeculum Quartum > Scriptores Asiae Minoris > Gregorius Nyssenus > Genuina Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Eunomius Cyzicenus > Vide et Contra Eunomium libri",
+   "title": "Vide et Contra Eunomium libri",
+   "anteNicene": false,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=3135",
+   "rawSha256": "4644a13a12b77167a12e41e6e0b9e70dfcdf3f0d4a2d9ee08977923c724ebd9b"
+  },
+  "CPG 1306": {
+   "series": "CPG",
+   "number": "1306",
+   "treeAndTitle": "Patres Antenicaeni > Saecula I-III > Antignostici > Irenaeus Lugdunensis > Genuina Aduersus haereses",
+   "title": "Genuina Aduersus haereses",
+   "anteNicene": true,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1306",
+   "rawSha256": "188a32213bf14f0649f62a105e37f403707feb76c462e07d9ef22c6f9c711b79"
+  },
+  "CPL 873": {
+   "series": "CPL",
+   "number": "873",
+   "treeAndTitle": "A Concilio Chalcedonensi ad Gregorium Magnum > Scriptores Africae > Primasius episcopus Hadrumetinus > Genuina Commentarius in Apocalypsin",
+   "title": "Genuina Commentarius in Apocalypsin",
+   "anteNicene": false,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=873",
+   "rawSha256": "f389568f9cefe61460c39ae5adbc2179557a4e134a93f9ba3725959302921a21"
+  },
+  "CPG 1476": {
+   "series": "CPG",
+   "number": "1476",
+   "treeAndTitle": "Personae aliae > Celsus philosophus > Vide et Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Origenes > Tractatus et dialogi Contra Celsum",
+   "title": "Tractatus et dialogi Contra Celsum",
+   "anteNicene": true,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1476",
+   "rawSha256": "9acd87bc66314a2fd038bb2f16db8dd411df1e642c58925089f532246bbe1cb2"
+  },
+  "CPG 1902": {
+   "series": "CPG",
+   "number": "1902",
+   "treeAndTitle": "Personae aliae > Noetus > Vide et Patres Antenicaeni > Saecula I-III > Scriptores Romani > Hippolytus Romanus > Chronographica Et Polemica Contra Noetum",
+   "title": "Chronographica Et Polemica Contra Noetum",
+   "anteNicene": true,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1902",
+   "rawSha256": "5640ade63c87e9b349d988cd5ad339df3ceb75ed3a29475f6d70c96b95d8371c"
+  },
+  "CPL 39": {
+   "series": "CPL",
+   "number": "39",
+   "treeAndTitle": "Scriptores Antenicaeni > Cyprianus episcopus Carthaginensis > Genuina Personae aliae > Quirinus > Vide et Ad Quirinum (Testimoniorum libri iii)",
+   "title": "Vide et Ad Quirinum (Testimoniorum libri iii)",
+   "anteNicene": true,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=39",
+   "rawSha256": "2d03757d99d184fbc25c793df4d33785a2f458eebc161aa49c89a62780dd9ab8"
+  },
+  "CPG 3745": {
+   "series": "CPG",
+   "number": "3745",
+   "treeAndTitle": "Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Epiphanius episcopus Constantiae seu Salaminae in Cypro Panarion (Aduersus haereses)",
+   "title": "Epiphanius episcopus Constantiae seu Salaminae in Cypro Panarion (Aduersus haereses)",
+   "anteNicene": false,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=3745",
+   "rawSha256": "cb2122cc99ccb56f5afb0a8b299732cda2da752b9f14c52d58522e31d0d246df"
+  },
+  "CPG 4436": {
+   "series": "CPG",
+   "number": "4436",
+   "treeAndTitle": "Patres Postnicaeni > Saeculum Quartum > Scriptores Antiocheni et Syri > Iohannes Chrysostomus In epistulam I ad Timotheum argumentum et homiliae 1-18",
+   "title": "Iohannes Chrysostomus In epistulam I ad Timotheum argumentum et homiliae 1-18",
+   "anteNicene": false,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=4436",
+   "rawSha256": "30c2edbeb951a289db20e96585bace4c24e0fadbfa70fbe02bb6c4e2639e6de9"
+  },
+  "CPG 1139": {
+   "series": "CPG",
+   "number": "1139",
+   "treeAndTitle": "Patres Antenicaeni > Saecula I-III > Gnostici > Theodotus Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Clemens Alexandrinus Excerpta e Theodoto",
+   "title": "Clemens Alexandrinus Excerpta e Theodoto",
+   "anteNicene": true,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1139",
+   "rawSha256": "3e269d7c0ba7faa33769340385b4835d02d76bf8302e47f6d2a637928705572d"
+  },
+  "CPG 1377": {
+   "series": "CPG",
+   "number": "1377",
+   "treeAndTitle": "Patres Antenicaeni > Saecula I-III > Scriptores Alexandrini > Clemens Alexandrinus Patres Antenicaeni > Saecula I-III > Gnostici > Theodotus > Vide et Stromata",
+   "title": "Vide et Stromata",
+   "anteNicene": true,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPG&number=1377",
+   "rawSha256": "93443a2cc6b2a68550714c71284796c5edaf17ade2247f932706be1b96f0be58"
+  },
+  "CPL 26": {
+   "series": "CPL",
+   "number": "26",
+   "treeAndTitle": "Scriptores Antenicaeni > Tertullianus > Opera montanistica Personae aliae > Praxeas > Vide et Aduersus Praxean",
+   "title": "Vide et Aduersus Praxean",
+   "anteNicene": true,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=26",
+   "rawSha256": "b81808e51c20cc40cb6f0187d23288b40bf8d673e021265e938615276abc0449"
+  },
+  "CPL 124": {
+   "series": "CPL",
+   "number": "124",
+   "treeAndTitle": "A Concilio Nicaeno ad Concilium Chalcedonense > Scriptores Italiae > Ambrosius episcopus Mediolanensis > Genuina > Opera exegetica De paradiso",
+   "title": "Opera exegetica De paradiso",
+   "anteNicene": false,
+   "url": "https://clavis.brepols.net/clacla/OA/Link.aspx?clavis=CPL&number=124",
+   "rawSha256": "5b48eacd9f0cc3be65c38c62313a80285e38084670fe0478e8442709c7f2c568"
+  }
+ }
+}

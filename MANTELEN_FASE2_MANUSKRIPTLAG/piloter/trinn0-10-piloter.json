@@ -1,0 +1,3760 @@
+{
+ "schemaVersion": "mlag.schema.v1-trinn0",
+ "generated": "2026-11-25",
+ "r10ReleaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+ "status": "UTKAST",
+ "notice": "Utkast fra første registrering. Enhetene kan ikke låses før hvert vitne merket IKKE_AVLEST eller BEKREFTET_I_OVERSETTELSE er lest i kilden av navngitt leser, og før dobbel registrering er kjørt (plan 7.4).",
+ "registers": {
+  "witnesses": "registre/vitneregister.json",
+  "sources": "registre/kildelisenser.json",
+  "schema": "registre/schema-manuscript-layer.json",
+  "r10Lock": "registre/r10-laas.json"
+ },
+ "units": [
+  {
+   "variantId": "GT-ISA-053-011-01",
+   "pilotNr": 1,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "Jes 53,11",
+    "mtRef": "Isa.53.11",
+    "stepPublicationRef": "Isa.53.11",
+    "lxxRef": "Isa 53:11"
+   },
+   "anchor": {
+    "testament": "GT",
+    "bookId": "gt-isa",
+    "bookSha256": "fabad356560ce7d455c4311203b8541ebd813ac018bb9d118a6ccc49562d445c",
+    "mtRef": "Isa.53.11",
+    "stepPublicationRef": "Isa.53.11",
+    "firstWordId": "23EFM",
+    "lastWordId": "23EFM",
+    "relation": "etter",
+    "words": [
+     {
+      "id": "23EFM",
+      "position": 3,
+      "g": "יִרְאֶ֣ה"
+     }
+    ]
+   },
+   "r10Verse": "Etter sin sjels møye skal han se og mettes. Ved sin kunnskap skal min rettferdige tjener rettferdiggjøre de mange, og deres misgjerninger skal han selv bære.",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "MT: uten objekt",
+     "text": "יִרְאֶה",
+     "lang": "he",
+     "morphology": "Verb, Qal, yiqtol, 3. person maskulinum entall. Verbet står uten objekt.",
+     "norwegian": [
+      {
+       "text": "skal han se",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      },
+      {
+       "edition": "MAM",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/mam-utdrag.json#Isaiah.53.11",
+        "sha256": "a47dd600cc11d8bec2700f47426ab310bf509565eea9de75c9e6992772efd1fa",
+        "basis": "Utgavens tekst hentet via Sefaria."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "B19A",
+       "hand": null,
+       "locator": null,
+       "reading": "יראה ישבע",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "basis": "WLC/OSHB er en transkripsjon av dette håndskriftet. Lesningen er ordene i låst R10."
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [],
+     "isR10": true
+    },
+    {
+     "readingId": "b",
+     "label": "«lys»",
+     "text": "יראה אור",
+     "lang": "he",
+     "morphology": "Samme verb med objektet אוֹר: substantiv, maskulinum entall, absolutt form.",
+     "norwegian": [
+      {
+       "text": "skal han se lys",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "1QIsaa",
+       "hand": null,
+       "locator": "ETCBC-sted 44, linje 19–20",
+       "reading": "מ עמל נפש׳וה יראה אור ו ישבע ו ב דעת׳ו יצדיק צדיק עבד׳ו ל רבים ו עוונות׳ם הואה יסבול ׃",
+       "attested": "יראה אור",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/etcbc-dss-utdrag.json#1Qisaa@Is 53:11",
+        "sha256": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+       }
+      },
+      {
+       "siglum": "1QIsab",
+       "hand": null,
+       "locator": "ETCBC-sted 23, linje 22–23",
+       "reading": "מ עמל נפש׳ו יראה אור יש?[בע] [ב] [דעת׳ו] [יצדיק] [צדיק] ע?ב?ד׳י ל? ר?[בי]ם ו עונת׳ם הוא יסבול ׃",
+       "attested": "יראה אור",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/etcbc-dss-utdrag.json#1Q8@Is 53:11",
+        "sha256": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+       }
+      },
+      {
+       "siglum": "4QIsad",
+       "hand": null,
+       "locator": "ETCBC-sted 8, linje 20–21",
+       "reading": "מ עמל נפ?ש׳ו יראה או?[ר] ו? שבע? ב דעת׳ו יצדיק צדיק עבד׳י? ל ר?[בים] [ו] [עונת׳ם] הוא יסבול ׃",
+       "attested": "יראה או?[ר]",
+       "certainty": "delvis rekonstruert",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/etcbc-dss-utdrag.json#4Q58@Is 53:11",
+        "sha256": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+       }
+      }
+     ],
+     "versionWitnesses": [
+      {
+       "siglum": "LXX",
+       "text": "δεῖξαι αὐτῷ φῶς",
+       "lang": "grc",
+       "norwegian": [
+        {
+         "text": "å vise ham lys",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "SWETE",
+       "locator": "Isa 53:11",
+       "vorlage": "sannsynlig",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/swete-utdrag.json#Isa 53:11",
+        "basis": "Swetes tekst i digital form."
+       },
+       "witnessLimit": "Gresk har en annen setningsbygning (infinitiv). Ordet φῶς svarer til אור og kan ikke avledes av MT-ordlyden."
+      }
+     ],
+     "patristicWitnesses": []
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "GT (plan 2.3, akse 1)",
+    "code": "Q = G ≠ M",
+    "traditionsByReading": {
+     "a": {
+      "M": [
+       "B19A"
+      ]
+     },
+     "b": {
+      "Q": [
+       "1QIsaa",
+       "1QIsab",
+       "4QIsad"
+      ],
+      "G": [
+       "LXX"
+      ]
+     }
+    },
+    "rule": "Bare vitner som er bekreftet mot belegg, teller, og ikke steder som er helt rekonstruert. Lesninger merket agreesWith regnes sammen med lesningen de viser til."
+   },
+   "variantKind": {
+    "computed": "pluss_minus",
+    "assigned": "pluss",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "Etter יִרְאֶה har tre Jesaja-ruller ordet אור, «lys», og Septuaginta har φῶς på samme sted. Den masoretiske teksten har verbet uten objekt, og R10 følger den: «skal han se». I 1QIsaᵃ og 4QIsaᵈ står det dessuten «og» foran det neste verbet, mens 1QIsaᵇ og MT ikke har det. I 4QIsaᵈ er siste bokstav i אור rekonstruert i transkripsjonen. 4QIsaᵇ (4Q56) har bare slutten av verset og er ikke vitne på dette stedet. Om «lys» er falt ut i MT eller lagt til i de andre vitnene, er en vurdering og er ikke gjort her.",
+   "leads": [
+    "Dateringen av de tre rullene hentes fra DJD XV og DJD XXXII av navngitt leser. Leon Levy oppgir bare periode."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "GT-DEU-032-008-01",
+   "pilotNr": 2,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "5 Mos 32,8",
+    "mtRef": "Deut.32.8",
+    "stepPublicationRef": "Deu.32.8",
+    "lxxRef": "Deut 32:8"
+   },
+   "anchor": {
+    "testament": "GT",
+    "bookId": "gt-deut",
+    "bookSha256": "d2be7a831d84dd2b49a684a712c6711f1b4ed69ae92fc8c65766e1a3462fcb52",
+    "mtRef": "Deut.32.8",
+    "stepPublicationRef": "Deu.32.8",
+    "firstWordId": "05K67",
+    "lastWordId": "05hVg",
+    "relation": "erstatter",
+    "words": [
+     {
+      "id": "05K67",
+      "position": 11,
+      "g": "בְּנֵ֥י"
+     },
+     {
+      "id": "05hVg",
+      "position": 12,
+      "g": "יִשְׂרָאֵֽל׃"
+     }
+    ]
+   },
+   "r10Verse": "Da Den Høyeste ga folkeslagene arv, da han skilte menneskenes sønner fra hverandre, fastsatte han folkenes grenser etter tallet på Israels sønner.",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "MT: «Israels sønner»",
+     "text": "בְּנֵי יִשְׂרָאֵל",
+     "lang": "he",
+     "morphology": "Substantiv, maskulinum flertall, konstruktus + egennavn.",
+     "norwegian": [
+      {
+       "text": "Israels sønner",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      },
+      {
+       "edition": "MAM",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/mam-utdrag.json#Deuteronomy.32.8",
+        "sha256": "5bf6358d759b4097375d4ef73b9bd53a54dadc9ed5d532f0a933dfc244ed5a85",
+        "basis": "Utgavens tekst hentet via Sefaria."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "B19A",
+       "hand": null,
+       "locator": null,
+       "reading": "בני ישראל",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "basis": "WLC/OSHB er en transkripsjon av dette håndskriftet. Lesningen er ordene i låst R10."
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [],
+     "isR10": true
+    },
+    {
+     "readingId": "b",
+     "label": "«Guds sønner»",
+     "text": "בני אלוהים",
+     "lang": "he",
+     "morphology": "Substantiv, maskulinum flertall, konstruktus + אלוהים (plene skrivemåte).",
+     "norwegian": [
+      {
+       "text": "Guds sønner",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "4QDeutj",
+       "hand": null,
+       "locator": "ETCBC-sted 12, linje 13–14",
+       "reading": "ב הנחי[ל] [עליון] [גוים] [ב] [הפריד׳ו] [בני] [אדם] [יצב] [גבלת] [עמים] [ל] [מספר] בני אלוהים [ε] ׃",
+       "attested": "בני אלוהים",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/etcbc-dss-utdrag.json#4Q37@Deut 32:8",
+        "sha256": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+       },
+       "note": "De to ordene er lest. Resten av verset er rekonstruert i transkripsjonen."
+      }
+     ],
+     "versionWitnesses": [
+      {
+       "siglum": "LXX",
+       "text": "ἀγγέλων θεοῦ",
+       "lang": "grc",
+       "norwegian": [
+        {
+         "text": "Guds engler",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "SWETE",
+       "locator": "Deut 32:8",
+       "vorlage": "sannsynlig",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/swete-utdrag.json#Deut 32:8",
+        "basis": "Swetes tekst i digital form."
+       },
+       "witnessLimit": "Gresk har «engler», ikke «sønner». Ordlyden forutsetter et gudsnavn i forelegget og kan ikke avledes av «Israels sønner»."
+      }
+     ],
+     "patristicWitnesses": []
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "GT (plan 2.3, akse 1)",
+    "code": "Q = G ≠ M",
+    "traditionsByReading": {
+     "a": {
+      "M": [
+       "B19A"
+      ]
+     },
+     "b": {
+      "Q": [
+       "4QDeutj"
+      ],
+      "G": [
+       "LXX"
+      ]
+     }
+    },
+    "rule": "Bare vitner som er bekreftet mot belegg, teller, og ikke steder som er helt rekonstruert. Lesninger merket agreesWith regnes sammen med lesningen de viser til."
+   },
+   "variantKind": {
+    "computed": "leksikalsk_eller_morfologisk",
+    "assigned": "leksikalsk",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "Forskjellen gjelder hvem tallet viser til. MT har «Israels sønner», og R10 følger den. 4QDeutʲ har בני אלוהים, «Guds sønner». Swetes greske tekst har ἀγγέλων θεοῦ, «Guds engler». R10-noten til verset viser til Tovs drøfting av stedet. 4QpaleoDeutʳ (4Q45) har deler av verset, men ordene det gjelder, er rekonstruert der, så rullen er ikke vitne. 4QDeutᑫ har ikke bevart verset. Vurderingen av hvilken lesning som er eldst, hører til akse 3 og er ikke gjort.",
+   "leads": [
+    "Greske håndskrifter med υἱῶν θεοῦ, «Guds sønner», oppgis i Wevers’ Göttingen-utgave. Sigla og datering må leses der og i Rahlfs–Fraenkel før de registreres.",
+    "Den samaritanske Pentateuk oppgis å lese som MT. Stedet må leses i von Gall."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "GT-DEU-032-043-01",
+   "pilotNr": 3,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "5 Mos 32,43",
+    "mtRef": "Deut.32.43",
+    "stepPublicationRef": "Deu.32.43",
+    "lxxRef": "Deut 32:43; Odae 2:43"
+   },
+   "anchor": {
+    "testament": "GT",
+    "bookId": "gt-deut",
+    "bookSha256": "d2be7a831d84dd2b49a684a712c6711f1b4ed69ae92fc8c65766e1a3462fcb52",
+    "mtRef": "Deut.32.43",
+    "stepPublicationRef": "Deu.32.43",
+    "firstWordId": "05w7w",
+    "lastWordId": "05CFi",
+    "relation": "hele_verset",
+    "words": [
+     {
+      "id": "05w7w",
+      "position": 1,
+      "g": "הַרְנִ֤ינוּ"
+     },
+     {
+      "id": "059mv",
+      "position": 2,
+      "g": "גוֹיִם֙"
+     },
+     {
+      "id": "05nRN",
+      "position": 3,
+      "g": "עַמּ֔וֹ"
+     },
+     {
+      "id": "05vJe",
+      "position": 4,
+      "g": "כִּ֥י"
+     },
+     {
+      "id": "05iPK",
+      "position": 5,
+      "g": "דַם־"
+     },
+     {
+      "id": "05n6v",
+      "position": 6,
+      "g": "עֲבָדָ֖יו"
+     },
+     {
+      "id": "05V76",
+      "position": 7,
+      "g": "יִקּ֑וֹם"
+     },
+     {
+      "id": "05g48",
+      "position": 8,
+      "g": "וְנָקָם֙"
+     },
+     {
+      "id": "05enX",
+      "position": 9,
+      "g": "יָשִׁ֣יב"
+     },
+     {
+      "id": "059J8",
+      "position": 10,
+      "g": "לְצָרָ֔יו"
+     },
+     {
+      "id": "05Gat",
+      "position": 11,
+      "g": "וְכִפֶּ֥ר"
+     },
+     {
+      "id": "05kwx",
+      "position": 12,
+      "g": "אַדְמָת֖וֹ"
+     },
+     {
+      "id": "05CFi",
+      "position": 13,
+      "g": "עַמּֽוֹ׃"
+     }
+    ]
+   },
+   "r10Verse": "Juble, folkeslag, over hans folk! For han skal hevne sine tjeneres blod og vende hevn tilbake over sine motstandere; han skal gjøre soning for sitt land og sitt folk.»",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "MT: kortere tekst",
+     "text": "הַרְנִ֤ינוּ גוֹיִם֙ עַמּ֔וֹ כִּ֥י דַם־עֲבָדָ֖יו יִקּ֑וֹם וְנָקָם֙ יָשִׁ֣יב לְצָרָ֔יו וְכִפֶּ֥ר אַדְמָת֖וֹ עַמּֽוֹ׃",
+     "lang": "he",
+     "morphology": "Fire ledd: oppfordring til folkeslagene, hevn for tjenernes blod, gjengjeldelse, soning for land og folk.",
+     "norwegian": [
+      {
+       "text": "Juble, folkeslag, over hans folk! For han skal hevne sine tjeneres blod og vende hevn tilbake over sine motstandere; han skal gjøre soning for sitt land og sitt folk.»",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      },
+      {
+       "edition": "MAM",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/mam-utdrag.json#Deuteronomy.32.43",
+        "sha256": "c6c597d6b4e3695ad52253d6f9f8fb059245f205d89fda8bf34ea66d9dcea7ef",
+        "basis": "Utgavens tekst hentet via Sefaria."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "B19A",
+       "hand": null,
+       "locator": null,
+       "reading": "הרנינו גוים עמו כי דם עבדיו יקום ונקם ישיב לצריו וכפר אדמתו עמו",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "basis": "WLC/OSHB er en transkripsjon av dette håndskriftet. Lesningen er ordene i låst R10."
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [],
+     "isR10": true
+    },
+    {
+     "readingId": "b",
+     "label": "4QDeutᑫ: lengre tekst",
+     "text": "הרנינו שמים עמו והשתחוו לו כל אלהים כי דם בניו יקום ונקם ישיב לצריו ולמשנאיו ישלם ויכפר אדמת עמו",
+     "lang": "he",
+     "morphology": "Seks ledd. Oppfordringen går til himlene, ikke folkeslagene. Leddet om tilbedelse og leddet om dem som hater ham, står ikke i MT. «Sønner» der MT har «tjenere».",
+     "norwegian": [
+      {
+       "text": "Juble, himler, med ham, og tilbe ham, alle guder! For sine sønners blod skal han hevne, og hevn skal han vende tilbake over sine motstandere; dem som hater ham, skal han gjengjelde, og han skal gjøre soning for sitt folks land.",
+       "kind": "ordrett"
+      },
+      {
+       "text": "Juble, himler, over hans folk …",
+       "kind": "tolkende",
+       "note": "עמו er uvokalisert og kan leses «med ham» (slik gresk har) eller «hans folk» (slik MT vokaliserer ordet)."
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "4QDeutq",
+       "hand": null,
+       "locator": "ETCBC-sted f5ii, linje 6–11",
+       "reading": "הרנינו שמים עמ׳ו ו השתחוו ל׳ו כל אלהים כי דם בני׳ו יקום ו נקם ישיב ל צרי׳ו ו ל משנאי׳ו ישלם ו יכפר אדמת עמ׳ו ׃",
+       "attested": "הרנינו שמים עמ׳ו ו השתחוו ל׳ו כל אלהים כי דם בני׳ו יקום ו נקם ישיב ל צרי׳ו ו ל משנאי׳ו ישלם ו יכפר אדמת עמ׳ו",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/etcbc-dss-utdrag.json#4Q44@Deut 32:43",
+        "sha256": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": []
+    },
+    {
+     "readingId": "c",
+     "label": "LXX: lengre tekst",
+     "text": "εὐφράνθητε, οὐρανοί, ἅμα αὐτῷ, καὶ προσκυνησάτωσαν αὐτῷ πάντες οἱ ἄγγελοι θεοῦ· εὐφράνθητε, ἔθνη, μετὰ τοῦ λαοῦ αὐτοῦ, καὶ ἐνισχυσάτωσαν αὐτῷ πάντες υἱοὶ θεοῦ· ὅτι τὸ αἷμα τῶν υἱῶν αὐτοῦ ἐκδικεῖται, καὶ ἐκδικήσει, καὶ ἀνταποδώσει δίκην τοῖς ἐχθροῖς· καὶ τοῖς μισοῦσιν ἀνταποδώσει δίκην, καὶ ἐκκαθαριεῖ Κύριος τὴν γῆν τοῦ λαοῦ αὐτοῦ.",
+     "lang": "grc",
+     "morphology": "Åtte ledd. Teksten er gjengitt etter Odae 2:43 hos Swete, der den er hel. Imperativ 3. person flertall i προσκυνησάτωσαν og ἐνισχυσάτωσαν.",
+     "norwegian": [
+      {
+       "text": "Gled dere, himler, sammen med ham, og alle Guds engler skal tilbe ham. Gled dere, folkeslag, sammen med hans folk, og alle Guds sønner skal styrke seg i ham. For hans sønners blod blir hevnet, og han skal hevne og gjengjelde fiendene med dom; dem som hater, skal han gjengjelde med dom, og Herren skal rense sitt folks land.",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [],
+     "versionWitnesses": [
+      {
+       "siglum": "LXX-Od",
+       "text": "καὶ προσκυνησάτωσαν αὐτῷ πάντες οἱ ἄγγελοι θεοῦ",
+       "lang": "grc",
+       "readIn": "SWETE",
+       "locator": "Odae 2:43",
+       "vorlage": "kan ikke avgjøres",
+       "norwegian": [
+        {
+         "text": "og alle Guds engler skal tilbe ham",
+         "kind": "ordrett"
+        }
+       ],
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/swete-utdrag.json#Odae 2:43",
+        "basis": "Swetes tekst i digital form. Verset er helt i datasettet."
+       }
+      },
+      {
+       "siglum": "LXX",
+       "text": "καὶ προσκυνησάτωσαν αὐτῷ ⟨…⟩ υἱοὶ ⟨…⟩",
+       "lang": "grc",
+       "readIn": "SWETE",
+       "locator": "Deut 32:43",
+       "vorlage": "sannsynlig",
+       "witnessLimit": "Den digitale Swete-teksten har OCR-tap i dette verset. ⟨…⟩ markerer tapene. Seks ledd er funnet i teksten, resten må leses i trykt utgave.",
+       "verification": {
+        "status": "DELVIS_BEKREFTET",
+        "evidence": "kilder/belegg/swete-utdrag.json#Deut 32:43",
+        "basis": "Leddene som er funnet: ευφρανθητε ουρανοι αμα αυτω; και προσκυνησατωσαν αυτω υιοι; ευφρανθητε εθνη μετα του λαου αυτου; το αιμα των υιων αυτου; και τοισ μισουσιν ανταποδωσει; εκκαθαριει κυριοσ την γην του λαου αυτου.",
+        "mustReadIn": "Swete, The Old Testament in Greek, bind I, 5 Mos 32:43"
+       }
+      }
+     ],
+     "patristicWitnesses": []
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "GT (plan 2.3, akse 1)",
+    "code": "Q ≠ G ≠ M",
+    "traditionsByReading": {
+     "a": {
+      "M": [
+       "B19A"
+      ]
+     },
+     "b": {
+      "Q": [
+       "4QDeutq"
+      ]
+     },
+     "c": {
+      "G": [
+       "LXX-Od",
+       "LXX"
+      ]
+     }
+    },
+    "rule": "Bare vitner som er bekreftet mot belegg, teller, og ikke steder som er helt rekonstruert. Lesninger merket agreesWith regnes sammen med lesningen de viser til."
+   },
+   "variantKind": {
+    "computed": "pluss_minus_og_annet_ord",
+    "assigned": "pluss",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "Verset finnes i tre former. MT har fire ledd, og R10 følger MT. 4QDeutᑫ har seks ledd, og den greske teksten har åtte. De to lange formene er ikke like: rullen har «alle guder» der gresk har «Guds engler» og «Guds sønner». Den greske teksten er her gjengitt etter Odae 2:43 hos Swete, fordi den digitale Swete-teksten til 5 Mos 32:43 har tap. I 5 Mos-formen står «sønner» i tilbedelsesleddet, i Odae-formen «engler». Hebr 1,6 i R10 har ordlyden «Καὶ προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι Θεοῦ». Den er lik Odae 2:43 bortsett fra artikkelen οἱ. Etter planens regel er et NT-sitat som kan avledes av kjent gresk tekst, ikke et uavhengig vitne.",
+   "crossReferences": [
+    {
+     "ref": "Hebr 1,6",
+     "relation": "NT-sitat",
+     "independentWitness": false,
+     "computed": true,
+     "anchor": {
+      "testament": "NT",
+      "bookId": "heb",
+      "bookSha256": "7519b55d10b6c273ceac044ef710d5e4c0e608f1d29d2bccd4b813721e6c0c90",
+      "r11LayerSha256": "ca47795b6f4da3dc53621a4a9f0593aaa560b9ba24618977143fa301a0ffd9f8",
+      "chapter": 1,
+      "verse": 6,
+      "firstWordIndex": 11,
+      "lastWordIndex": 16,
+      "relation": "erstatter",
+      "words": [
+       {
+        "wordIndex": 11,
+        "g": "Καὶ"
+       },
+       {
+        "wordIndex": 12,
+        "g": "προσκυνησάτωσαν"
+       },
+       {
+        "wordIndex": 13,
+        "g": "αὐτῷ"
+       },
+       {
+        "wordIndex": 14,
+        "g": "πάντες"
+       },
+       {
+        "wordIndex": 15,
+        "g": "ἄγγελοι"
+       },
+       {
+        "wordIndex": 16,
+        "g": "Θεοῦ"
+       }
+      ]
+     },
+     "comparison": {
+      "hebr": "και προσκυνησατωσαν αυτω παντεσ αγγελοι θεου",
+      "odae": "και προσκυνησατωσαν αυτω παντεσ οι αγγελοι θεου",
+      "differsOnlyBy": [
+       "οι"
+      ]
+     },
+     "basis": "Plan 2.3 og punkt 3 i planens innledning: sitatet avviker ikke fra kjent gresk tekst utover artikkelen."
+    }
+   ],
+   "leads": [
+    "Sal 96:7 LXX er en annen mulig kilde for ordlyden i Hebr 1,6. Stedet er ikke hentet i Trinn 0.",
+    "Swete-teksten til 5 Mos 32:43 må leses i trykt utgave før LXX-lesningen kan låses."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "GT-PSA-022-017-01",
+   "pilotNr": 4,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "Sal 22,17",
+    "mtRef": "Ps.22.17",
+    "stepPublicationRef": "Psa.22.16",
+    "western": "Sal 22,16",
+    "lxxRef": "Ps 21:17"
+   },
+   "anchor": {
+    "testament": "GT",
+    "bookId": "gt-ps",
+    "bookSha256": "abf8129c69586e15bb4b479264865206fb0443146c90fac11cd5db8c2f09a406",
+    "mtRef": "Ps.22.17",
+    "stepPublicationRef": "Psa.22.16",
+    "firstWordId": "19dCM",
+    "lastWordId": "19dCM",
+    "relation": "erstatter",
+    "words": [
+     {
+      "id": "19dCM",
+      "position": 7,
+      "g": "כָּ֝אֲרִ֗י"
+     }
+    ]
+   },
+   "r10Verse": "For hunder har omringet meg, en flokk av ugjerningsmenn har sluttet seg om meg; som en løve er de over mine hender og mine føtter.",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "MT: «som en løve»",
+     "text": "כָּאֲרִי",
+     "lang": "he",
+     "morphology": "Preposisjon כְּ med artikkel + substantiv, maskulinum entall, absolutt form.",
+     "norwegian": [
+      {
+       "text": "som en løve",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      },
+      {
+       "edition": "MAM",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/mam-utdrag.json#Psalms.22.17",
+        "sha256": "eb06eaf06c7c8e328f38fa60fc5495f6bc321250c974409368ec0c79b131ea85",
+        "basis": "Utgavens tekst hentet via Sefaria."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "B19A",
+       "hand": null,
+       "locator": null,
+       "reading": "כארי ידי ורגלי",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "basis": "WLC/OSHB er en transkripsjon av dette håndskriftet. Lesningen er ordene i låst R10."
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [],
+     "isR10": true
+    },
+    {
+     "readingId": "b",
+     "label": "verbform med waw",
+     "text": "כארו",
+     "lang": "he",
+     "morphology": "Sluttbokstaven er waw, ikke jod. Formen leses som verb, 3. person flertall, qatal. Rot og betydning er omstridt.",
+     "norwegian": [
+      {
+       "text": "de har gravd",
+       "kind": "ordrett",
+       "note": "Hvis formen hører til en rot for «grave». BDB drøfter rot og betydning med forbehold."
+      },
+      {
+       "text": "de har gjennomboret",
+       "kind": "tolkende",
+       "note": "Den tradisjonelle gjengivelsen i KJV og Bibelen 1930. Den tar stilling til hva gravingen betyr."
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "5/6HevPs",
+       "hand": null,
+       "locator": "ETCBC-sted f8_9, linje 12",
+       "reading": "[כי] [סבבו׳ני] [כלבי]ם? עדת מרעים הקיפו׳ני כארו ידי׳ה? ו רגל׳י ׃",
+       "attested": "כארו",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/etcbc-dss-utdrag.json#5/6hev1b@Ps 22:17",
+        "sha256": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+       }
+      }
+     ],
+     "versionWitnesses": [
+      {
+       "siglum": "LXX",
+       "text": "ὤρυξαν",
+       "lang": "grc",
+       "norwegian": [
+        {
+         "text": "de gravde",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "SWETE",
+       "locator": "Ps 21:17",
+       "vorlage": "sannsynlig",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/swete-utdrag.json#Ps 21:17",
+        "basis": "Swetes tekst i digital form."
+       },
+       "witnessLimit": "Gresk har et verb i 3. person flertall. Det forutsetter en verbform i forelegget, ikke «som en løve»."
+      }
+     ],
+     "patristicWitnesses": []
+    },
+    {
+     "readingId": "b2",
+     "label": "verbform uten alef (usikker)",
+     "text": "כר[ו]",
+     "lang": "he",
+     "morphology": "Tre bokstaver, de to første usikre og den siste rekonstruert i transkripsjonen.",
+     "norwegian": [
+      {
+       "text": "de har gravd",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "4QPsf",
+       "hand": null,
+       "locator": "ETCBC-sted f1_2, linje 23–25",
+       "reading": "[כי] [סבבו׳ני] כלבים עדת מר[עים] ה?ק?י?פ?׳נ?י? כ?ר?[ו] יד׳י ו ר?גל?׳י? ׃",
+       "attested": "כ?ר?[ו]",
+       "certainty": "delvis rekonstruert",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/etcbc-dss-utdrag.json#4Q88@Ps 22:17",
+        "sha256": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+       },
+       "note": "Lesningen er usikker. Bare en ny avlesing av fragmentet kan avgjøre om rullen støtter verbformen."
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [],
+     "agreesWith": "b"
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "GT (plan 2.3, akse 1)",
+    "code": "Q = G ≠ M",
+    "traditionsByReading": {
+     "a": {
+      "M": [
+       "B19A"
+      ]
+     },
+     "b": {
+      "Q": [
+       "5/6HevPs",
+       "4QPsf"
+      ],
+      "G": [
+       "LXX"
+      ]
+     }
+    },
+    "rule": "Bare vitner som er bekreftet mot belegg, teller, og ikke steder som er helt rekonstruert. Lesninger merket agreesWith regnes sammen med lesningen de viser til."
+   },
+   "variantKind": {
+    "computed": "leksikalsk_eller_morfologisk",
+    "assigned": "leksikalsk",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "Lesningen og tolkningen holdes adskilt. MT har כָּאֲרִי, «som en løve», og R10 følger MT: «som en løve er de over mine hender og mine føtter». Verbet i R10-setningen er en norsk utfylling. Salmerullen fra Nahal Hever har כארו med waw, og Swetes greske tekst har ὤρυξαν, «de gravde». Derfor har lesning b to gjengivelser: den ordrette og den tradisjonelle. 4QPsᶠ har bare usikre bokstaver på stedet. Adressen er Sal 22,17 i MT og 22,16 i vestlig nummerering. I gresk er det Sal 21,17.",
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "GT-PSA-145-013-01",
+   "pilotNr": 5,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "Sal 145,13",
+    "mtRef": "Ps.145.13",
+    "stepPublicationRef": "Psa.145.13",
+    "lxxRef": "Ps 144:13a"
+   },
+   "anchor": {
+    "testament": "GT",
+    "bookId": "gt-ps",
+    "bookSha256": "abf8129c69586e15bb4b479264865206fb0443146c90fac11cd5db8c2f09a406",
+    "mtRef": "Ps.145.13",
+    "stepPublicationRef": "Psa.145.13",
+    "firstWordId": "19tHU",
+    "lastWordId": "19tHU",
+    "relation": "etter",
+    "words": [
+     {
+      "id": "19tHU",
+      "position": 8,
+      "g": "וָדֽוֹר׃"
+     }
+    ]
+   },
+   "r10Verse": "Ditt rike er et rike for alle tider, og ditt herredømme varer fra slekt til slekt.",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "MT: uten nun-linjen",
+     "text": "",
+     "lang": "he",
+     "morphology": "Akrostikonet går fra mem-linjen (v. 13) rett til samek-linjen (v. 14).",
+     "norwegian": [
+      {
+       "text": "(linjen står ikke i teksten)",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      },
+      {
+       "edition": "MAM",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/mam-utdrag.json#Psalms.145.13",
+        "sha256": "311f635a7ad964a242a1d5d430afe308140fed573d0c80bd99201ab947fd028e",
+        "basis": "Vers 13 slutter med ודר. Nun-linjen står ikke i verset."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "B19A",
+       "hand": null,
+       "locator": null,
+       "reading": "",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "basis": "WLC/OSHB er en transkripsjon av dette håndskriftet. Lesningen er ordene i låst R10."
+       },
+       "note": "Ingen linje mellom v. 13 og v. 14."
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [],
+     "isR10": true,
+     "textNote": "Tom lesning: linjen mangler."
+    },
+    {
+     "readingId": "b",
+     "label": "nun-linjen",
+     "text": "נאמן אלוהים בדבריו וחסיד בכול מעשיו",
+     "lang": "he",
+     "morphology": "Nominalsetning i to ledd. Første ord begynner på nun. Gudsnavnet er אלוהים.",
+     "norwegian": [
+      {
+       "text": "Trofast er Gud i sine ord og god i alle sine gjerninger.",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "11QPsa",
+       "hand": null,
+       "locator": "ETCBC-sted 17, linje 1–4",
+       "reading": "מלכות׳כה מלכות כול עולמים ו ממשלת׳כה ב כול דור ו דור ברוך יהוה ו ברוך שמ׳ו ל עולם ו עד ׃ נאמן אלוהים ב דברי׳ו ו חסיד ב כול מעשי׳ו ברוך יהוה ו ברוך שמ׳ו ל עולם ו עד ׃",
+       "attested": "נאמן אלוהים ב דברי׳ו ו חסיד ב כול מעשי׳ו",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/etcbc-dss-utdrag.json#11Q5@Ps 145:13",
+        "sha256": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+       },
+       "note": "Rullen har også et omkved etter hvert vers: «Velsignet være HERREN, og velsignet være hans navn for evig og alltid.»"
+      }
+     ],
+     "versionWitnesses": [
+      {
+       "siglum": "LXX",
+       "text": "πιστὸς Κύριος ἐν τοῖς λόγοις αὐτοῦ, καὶ ὅσιος ἐν πᾶσι τοῖς ἔργοις αὐτοῦ",
+       "lang": "grc",
+       "norwegian": [
+        {
+         "text": "Trofast er Herren i sine ord, og hellig i alle sine gjerninger.",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "SWETE",
+       "locator": "Ps 144:13a",
+       "vorlage": "sannsynlig",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/swete-utdrag.json#Ps 144:14 (trykt 13a + 14)",
+        "basis": "Swetes tekst i digital form."
+       },
+       "witnessLimit": "Gresk har Κύριος der rullen har אלוהים. Det digitale datasettet fører linjen under v. 14."
+      }
+     ],
+     "patristicWitnesses": []
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "GT (plan 2.3, akse 1)",
+    "code": "Q = G ≠ M",
+    "traditionsByReading": {
+     "a": {
+      "M": [
+       "B19A"
+      ]
+     },
+     "b": {
+      "Q": [
+       "11QPsa"
+      ],
+      "G": [
+       "LXX"
+      ]
+     }
+    },
+    "rule": "Bare vitner som er bekreftet mot belegg, teller, og ikke steder som er helt rekonstruert. Lesninger merket agreesWith regnes sammen med lesningen de viser til."
+   },
+   "variantKind": {
+    "computed": "pluss_minus",
+    "assigned": "pluss",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "Salmen følger alfabetet, og mellom mem-linjen og samek-linjen mangler nun-linjen i MT. R10 følger MT. 11QPsᵃ har en nun-linje, og Swetes greske tekst har linjen som 144:13a. De to er ikke like i gudsnavnet: rullen har «Gud», gresk «Herren». חסיד er gjengitt «god», slik R10 gjengir ordet i vers 17. R10-noten til verset omtaler de samme vitnene.",
+   "leads": [
+    "Et middelaldersk hebraisk håndskrift (Kennicott) og den syriske oversettelsen oppgis også å ha linjen. De er ikke avlest."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "NT-MRK-001-001-01",
+   "pilotNr": 6,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "Mark 1,1",
+    "ntRef": "Mark 1,1"
+   },
+   "anchor": {
+    "testament": "NT",
+    "bookId": "mrk",
+    "bookSha256": "1234146d2767b20303c08382d80bcbb8348ad1e15b2a6cce7cdc62c784c37f49",
+    "r11LayerSha256": "6ae2ed12f43e676ea10d0a74dd7e099f5f4fa69c8d90b40d844e005607e2d379",
+    "chapter": 1,
+    "verse": 1,
+    "firstWordIndex": 6,
+    "lastWordIndex": 8,
+    "relation": "erstatter",
+    "words": [
+     {
+      "wordIndex": 6,
+      "g": "υιου"
+     },
+     {
+      "wordIndex": 7,
+      "g": "του"
+     },
+     {
+      "wordIndex": 8,
+      "g": "θεου"
+     }
+    ]
+   },
+   "r10Verse": "Begynnelsen på evangeliet om Jesus Kristus, Guds Sønn.",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "υἱοῦ τοῦ θεοῦ",
+     "text": "υἱοῦ τοῦ θεοῦ",
+     "lang": "grc",
+     "morphology": "Substantiv, genitiv entall maskulinum + artikkel + substantiv, genitiv entall maskulinum.",
+     "norwegian": [
+      {
+       "text": "Guds Sønn",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      },
+      {
+       "edition": "RP2018",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Mark 1,1/RP2018",
+        "basis": "Utgavens digitale tekst."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "02",
+       "hand": null,
+       "locator": "fol. 30r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ ‾υυ του ‾θυ",
+       "attested": "‾χυ ‾υυ του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#02@Mark.1.1",
+        "sha256": "2c18fe3762556e30ae08fc012dbf4e19aa04d585b32bf7c27f6c35b4a2aa338f"
+       }
+      },
+      {
+       "siglum": "017",
+       "hand": null,
+       "locator": "fol. 82r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ υιου του ‾θυ",
+       "attested": "‾χυ υιου του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#017@Mark.1.1",
+        "sha256": "f051b9c4a6dba214c4236025ef862008830abfd083837ae623c694718dfd38d4"
+       }
+      },
+      {
+       "siglum": "037",
+       "hand": null,
+       "locator": "INTF-side/blad 133",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ ‾υυ του ‾θυ",
+       "attested": "‾χυ ‾υυ του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#037@Mark.1.1",
+        "sha256": "d3210ef7a44b3788150822fef20ae28c687b95acf3ad5b2c7ad3b16cd7cc9754"
+       }
+      },
+      {
+       "siglum": "041",
+       "hand": null,
+       "locator": "fol. 99r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ ‾υυ του ‾θυ",
+       "attested": "‾χυ ‾υυ του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#041@Mark.1.1",
+        "sha256": "6c67a31cac8942f73783096a886b8eab72cc1476f4ffa544c6fdbe358d22b338"
+       }
+      },
+      {
+       "siglum": "33",
+       "hand": null,
+       "locator": "fol. 114v",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ ‾υυ του ‾θυ",
+       "attested": "‾χυ ‾υυ του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#33@Mark.1.1",
+        "sha256": "e4c30098618028809396d1ec6b01df2607c9439073041c08143e995224e9f237"
+       }
+      },
+      {
+       "siglum": "565",
+       "hand": null,
+       "locator": "fol. 131r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ υιου του ‾θυ",
+       "attested": "‾χυ υιου του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#565@Mark.1.1",
+        "sha256": "61524e41c2e05dce773b97381bb3ca975ad49cf599e074fc40537d00c05bd543"
+       }
+      },
+      {
+       "siglum": "892",
+       "hand": null,
+       "locator": "fol. 114r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ ‾υυ του ‾θυ",
+       "attested": "‾χυ ‾υυ του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#892@Mark.1.1",
+        "sha256": "14ab53114649e69584cce0cf20d544d9cbb4c672c4d5190e93d58eb306aa349e"
+       }
+      },
+      {
+       "siglum": "1424",
+       "hand": null,
+       "locator": "fol. 56r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ ‾υυ του ‾θυ",
+       "attested": "‾χυ ‾υυ του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#1424@Mark.1.1",
+        "sha256": "03a646aa9412b1d4691a2d5c99362a3a8dd645edc694ef9c1a5fe2235c8f6c65"
+       }
+      },
+      {
+       "siglum": "700",
+       "hand": null,
+       "locator": "fol. 092r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ υιου του ‾θυ",
+       "attested": "‾χυ υιου του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#700@Mark.1.1",
+        "sha256": "9ba0042ea6d8d976b69993f56e28ac98d9e8655b7de3a59102702470daf97d95"
+       }
+      },
+      {
+       "siglum": "1",
+       "hand": null,
+       "locator": "fol. 199r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ υιου του ‾θυ",
+       "attested": "‾χυ υιου του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#1@Mark.1.1",
+        "sha256": "b8efceea21f18fa10b5592b0943b627d246c889473aee8858c5bf4272c513331"
+       }
+      },
+      {
+       "siglum": "13",
+       "hand": null,
+       "locator": "fol. 042r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ υιου του ‾θυ",
+       "attested": "‾χυ υιου του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#13@Mark.1.1",
+        "sha256": "c0e269712a5762fde61936468907a55746a6a7362921b55321558b40c21ad18a"
+       }
+      }
+     ],
+     "versionWitnesses": [
+      {
+       "siglum": "Vg-Clem",
+       "text": "Filii Dei",
+       "lang": "la",
+       "norwegian": [
+        {
+         "text": "Guds Sønn",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "VG-CLEM",
+       "locator": "Mark 1:1",
+       "vorlage": "kan ikke avgjøres",
+       "witnessLimit": "Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen.",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#Mark 1:1",
+        "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+        "basis": "Clementinas digitale tekst. Vulgata-håndskriftene er ikke avlest."
+       },
+       "compatibleWith": [
+        "a",
+        "b"
+       ]
+      }
+     ],
+     "patristicWitnesses": [
+      {
+       "siglum": "Iren-AH",
+       "locator": "III.10.5",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "The beginning of the Gospel of Jesus Christ, the Son of God",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.10.5",
+        "sha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF01). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)"
+       },
+       "witnessLimit": "Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen.",
+       "compatibleWith": [
+        "a",
+        "b"
+       ]
+      },
+      {
+       "siglum": "Iren-AH",
+       "locator": "III.16.3",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "The beginning of the Gospel of Jesus Christ, the Son of God",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.16.3",
+        "sha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF01). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)"
+       },
+       "witnessLimit": "Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen.",
+       "compatibleWith": [
+        "a",
+        "b"
+       ]
+      }
+     ],
+     "isR10": true
+    },
+    {
+     "readingId": "b",
+     "label": "υἱοῦ θεοῦ",
+     "text": "υἱοῦ θεοῦ",
+     "lang": "grc",
+     "morphology": "Samme ord uten artikkel.",
+     "norwegian": [
+      {
+       "text": "Guds Sønn",
+       "kind": "ordrett",
+       "note": "Norsk gjengivelse er lik lesning a."
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "THGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Mark 1,1/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Tyn». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "TREG",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Mark 1,1/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Treg». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "NA28",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Mark 1,1/RP2018_variantnoter",
+        "basis": "Robinson–Pierponts variantnote «{NA υἱοῦ τοῦ θεοῦ > [υἱοῦ θεοῦ] }». NA28 selv er ikke avlest."
+       },
+       "form": "i hakeparentes"
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "01",
+       "hand": "C1",
+       "locator": "fol. 217v",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ ‾υυ ‾θυ",
+       "attested": "‾χυ ‾υυ ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#01@Mark.1.1",
+        "sha256": "f1e0094644c4b49232ca3823062e78d9e2a4806580fd2727fd890e1811714dd5"
+       }
+      },
+      {
+       "siglum": "03",
+       "hand": null,
+       "locator": "INTF-side/blad 1277",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ υιου ‾θυ",
+       "attested": "‾χυ υιου ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#03@Mark.1.1",
+        "sha256": "292e28849409db2f520fd19456d9acff49029e3dfa07f8612ebe88d6b7a2e12e"
+       }
+      },
+      {
+       "siglum": "05",
+       "hand": null,
+       "locator": "fol. 285v",
+       "reading": "αρχη του ευαγγελιου ‾ιηυ ‾χρυ υιου ‾θυ",
+       "attested": "‾χρυ υιου ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#05@Mark.1.1",
+        "sha256": "3d41ab509987abcef87c96e28fb6267fe0acba741916320aea1dbfb720a0faa6"
+       }
+      },
+      {
+       "siglum": "019",
+       "hand": null,
+       "locator": "fol. 70v",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ ‾υυ ‾θυ",
+       "attested": "‾χυ ‾υυ ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#019@Mark.1.1",
+        "sha256": "839c00774c833a46a85c3a6bdae12a27aaa9c3dae59f9ed2301da69d29e5e570"
+       }
+      },
+      {
+       "siglum": "032",
+       "hand": null,
+       "locator": "INTF-side/blad 311",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ υιου ‾θυ",
+       "attested": "‾χυ υιου ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#032@Mark.1.1",
+        "sha256": "b4b22024f7e02a0b4958e1462a14bd436363a788106f5999e3c2c03d27b8437e"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": []
+    },
+    {
+     "readingId": "c",
+     "label": "uten «Guds Sønn»",
+     "text": "",
+     "lang": "grc",
+     "morphology": "Verset slutter med Ἰησοῦ Χριστοῦ.",
+     "norwegian": [
+      {
+       "text": "(ordene står ikke)",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "TISCH8",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Mark 1,1/TISCH8",
+        "basis": "Utgavens digitale tekst."
+       }
+      },
+      {
+       "edition": "SBLGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Mark 1,1/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «SBL». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "WH",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Mark 1,1/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «WH». Utgaven selv er ikke avlest."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "01",
+       "hand": "*",
+       "locator": "fol. 217v",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ",
+       "attested": "ευαγγελιου ‾ιυ ‾χυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#01@Mark.1.1",
+        "sha256": "f1e0094644c4b49232ca3823062e78d9e2a4806580fd2727fd890e1811714dd5"
+       }
+      },
+      {
+       "siglum": "038",
+       "hand": null,
+       "locator": null,
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ",
+       "attested": "ευαγγελιου ‾ιυ ‾χυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#038@Mark.1.1",
+        "sha256": "48a2590bb6df4be2228be96fd3717df227b763b1ca79ce2e6b7bfb3d5487080e"
+       }
+      },
+      {
+       "siglum": "28",
+       "hand": "C",
+       "locator": "fol. 84r",
+       "reading": "αρχη του ευαγγελιου ‾ιυ ‾χυ",
+       "attested": "ευαγγελιου ‾ιυ ‾χυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#28@Mark.1.1",
+        "sha256": "39a87c6b8fd6ff70cdb69967af127646c6386047c55d9383e152e650d432f8ec"
+       },
+       "note": "Første hånd i 28 har bare ιυ. Korrektoren har lagt til χυ."
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [
+      {
+       "siglum": "Iren-AH",
+       "locator": "III.11.8",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "The beginning of the Gospel of Jesus Christ, as it is written in Esaias the prophet",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.11.8",
+        "sha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF01). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)"
+       }
+      },
+      {
+       "siglum": "Orig-Cels",
+       "locator": "II.4",
+       "lang": "grc",
+       "quoteType": "sitat",
+       "wording": "The beginning of the Gospel of Jesus Christ, as it is written in the prophet Isaiah",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-Cels@II.4",
+        "sha256": "b9f385a048c18158c2f74dcd37062f48a1c68a5d05bdb07270a93692d172da2e",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF04). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Borret, Sources Chrétiennes 132 flg.; Koetschau, GCS"
+       }
+      },
+      {
+       "siglum": "Orig-CommJo",
+       "locator": "I.14 (ANF-inndeling)",
+       "lang": "grc",
+       "quoteType": "sitat",
+       "wording": "The beginning of the Gospel of Jesus Christ.",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-CommJo@I.14(ANF)",
+        "sha256": "3861096b158e12bc13f4516baac913cbd3d921c607862a7eace4f0257b3aefa5",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF09). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Blanc, Sources Chrétiennes 120 flg.; Preuschen, GCS"
+       }
+      }
+     ],
+     "textNote": "Tom lesning: ordene mangler."
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "NT (strømmene i plan 3.1)",
+    "code": "TR = Byz; tidlige førstehender delt (a: 02; b: 03, 05, 032; c: 01)",
+    "trReading": "a",
+    "byzReading": "a",
+    "earlyCutoffYear": 500,
+    "earlyFirstHands": {
+     "a": [
+      "02"
+     ],
+     "b": [
+      "03",
+      "05",
+      "032"
+     ],
+     "c": [
+      "01"
+     ]
+    },
+    "laterFirstHands": {
+     "a": [
+      "017",
+      "037",
+      "041",
+      "33",
+      "565",
+      "892",
+      "1424",
+      "700",
+      "1",
+      "13"
+     ],
+     "b": [
+      "019"
+     ],
+     "c": [
+      "038"
+     ]
+    },
+    "correctors": {
+     "b": [
+      "01C1"
+     ],
+     "c": [
+      "28C"
+     ]
+    },
+    "fathersMainWindow": {
+     "a": [
+      "Iren-AH III.10.5",
+      "Iren-AH III.16.3"
+     ],
+     "c": [
+      "Iren-AH III.11.8",
+      "Orig-Cels II.4",
+      "Orig-CommJo I.14 (ANF-inndeling)"
+     ]
+    },
+    "fathersOutsideWindow": {},
+    "versions": {
+     "a": [
+      "Vg-Clem"
+     ]
+    },
+    "rule": "Tidlig = første hånd i gresk håndskrift med INTF-datering som slutter før år 500. Bare vitner bekreftet mot belegg teller, og ikke steder som er helt rekonstruert. Antall er ikke vekt."
+   },
+   "variantKind": {
+    "computed": "pluss_minus",
+    "assigned": "minus",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "R10 følger Scrivener: «Guds Sønn» med artikkel foran θεοῦ. Robinson–Pierpont har det samme. Lesning b har de samme ordene uten artikkel og gir samme norske tekst. Lesning c har ikke ordene. Første hånd i Sinaiticus har ikke ordene, og en korrektor har lagt dem til uten artikkel. Irenæus er delt i oversettelsen: to steder har «Guds Sønn», ett har det ikke. Minuskel 1241 har ifølge transkripsjonen υἱοῦ τοῦ κυρίου og er ikke ført under noen av lesningene.",
+   "dataConflicts": [
+    "TAGNT fører opp NA28 i utgavefeltet for artikkelen τοῦ, mens ordtypen i samme rad og Robinson–Pierponts variantnote sier at NA-teksten har [υἱοῦ θεοῦ] uten artikkel. NA28 er ført under lesning b etter variantnoten og må leses i utgaven."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "NT-JOH-001-018-01",
+   "pilotNr": 7,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "Joh 1,18",
+    "ntRef": "Joh 1,18"
+   },
+   "anchor": {
+    "testament": "NT",
+    "bookId": "joh",
+    "bookSha256": "bc9bfbb0c46b351198800911820e8991cd5743e5f5b14aa1208f0976c2fc3769",
+    "r11LayerSha256": "79d6156cbd05bd2a7b58c37994fafb8748e4e718feb3f1e32556cbf94f690efc",
+    "chapter": 1,
+    "verse": 18,
+    "firstWordIndex": 5,
+    "lastWordIndex": 7,
+    "relation": "erstatter",
+    "words": [
+     {
+      "wordIndex": 5,
+      "g": "ὁ"
+     },
+     {
+      "wordIndex": 6,
+      "g": "μονογενὴς"
+     },
+     {
+      "wordIndex": 7,
+      "g": "υἱός"
+     }
+    ]
+   },
+   "r10Verse": "Ingen har noen gang sett Gud. Den eneste Sønnen, som er i Faderens favn, han har gjort Gud kjent.",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "ὁ μονογενὴς υἱός",
+     "text": "ὁ μονογενὴς υἱός",
+     "lang": "grc",
+     "morphology": "Artikkel + adjektiv + substantiv, alle nominativ entall maskulinum.",
+     "norwegian": [
+      {
+       "text": "Den eneste Sønnen",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      },
+      {
+       "edition": "RP2018",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Joh 1,18/RP2018",
+        "basis": "Utgavens digitale tekst."
+       }
+      },
+      {
+       "edition": "TISCH8",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Joh 1,18/TISCH8",
+        "basis": "Utgavens digitale tekst."
+       }
+      },
+      {
+       "edition": "THGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Joh 1,18/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Tyn». Utgaven selv er ikke avlest."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "02",
+       "hand": null,
+       "locator": "fol. 66r",
+       "reading": "‾θν ουδεις εωρακεν πωποτε ο μονογενης υιος ο ων εις τον κολπον του ‾πρς εκεινος εξηγησατο",
+       "attested": "ο μονογενης υιος",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#02@John.1.18",
+        "sha256": "668c70cdfb8a8e39f09881dd97d8ac1f9edd620092ff7fb0c2f8a91c323bdee5"
+       }
+      },
+      {
+       "siglum": "04",
+       "hand": "C3",
+       "locator": "fol. 188r",
+       "reading": "‾θν ουδεις εωρακεν πωποτε ο μονογενης ‾υς ο ων εις τον κολπον του ‾πρς εκεινος εξηγησατο",
+       "attested": "ο μονογενης ‾υς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#04@John.1.18",
+        "sha256": "10c7f64411bfa4495b3e7a8d8e57eb0d48bc08b0e5b79eb35868a4909ad98fe4"
+       }
+      },
+      {
+       "siglum": "037",
+       "hand": null,
+       "locator": "INTF-side/blad 319",
+       "reading": "‾θν ουδεις εωρακεν πωποτε ο μονογενης ‾υς ο ων εις τον κολπον του ‾πρς εκεινος εξηγησατο",
+       "attested": "ο μονογενης ‾υς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#037@John.1.18",
+        "sha256": "9a919aeb2133270a30d8b04e59cd4b038ed2b7ab7c8e218e0fa67fadb85cb1fa"
+       }
+      },
+      {
+       "siglum": "038",
+       "hand": null,
+       "locator": null,
+       "reading": "‾θν ουδεις εω ρακεν πωπο τε ο μονογε νης υιος ο ων εις τον κολπον του ‾πρς εκειν ος εξηγησατο",
+       "attested": "ο μονογε νης υιος",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#038@John.1.18",
+        "sha256": "e21ee6383eadfd885e3954a9289b10c681f16910256172b33cabca0c950a4371"
+       }
+      }
+     ],
+     "versionWitnesses": [
+      {
+       "siglum": "Vg-Clem",
+       "text": "unigenitus Filius",
+       "lang": "la",
+       "norwegian": [
+        {
+         "text": "den enbårne Sønn",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "VG-CLEM",
+       "locator": "John 1:18",
+       "vorlage": "kan ikke avgjøres",
+       "witnessLimit": "Latin viser «Sønn» mot «Gud», men ikke artikkelen.",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#John 1:18",
+        "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+        "basis": "Clementinas digitale tekst. Vulgata-håndskriftene er ikke avlest."
+       }
+      }
+     ],
+     "patristicWitnesses": [
+      {
+       "siglum": "Iren-AH",
+       "locator": "III.11.6",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "the only-begotten Son of God, which is in the bosom of the Father",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.11.6",
+        "sha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF01). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)"
+       },
+       "note": "Oversettelsen har «Son of God»."
+      },
+      {
+       "siglum": "Iren-AH",
+       "locator": "IV.20.6",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "the only-begotten Son, who is in the bosom of the Father",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@IV.20.6",
+        "sha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF01). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)"
+       }
+      },
+      {
+       "siglum": "Tert-Prax",
+       "locator": "15",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "the only begotten Son, who is in the bosom of the Father",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Tert-Prax@15",
+        "sha256": "9299f3fae7c08024ea918e70d25433b7b110cc2b851d030cb22f3b1f080800c8",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF03). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Kroymann–Evans, CCSL 2"
+       }
+      },
+      {
+       "siglum": "Hipp-Noet",
+       "locator": "5",
+       "lang": "grc",
+       "quoteType": "sitat",
+       "wording": "the only-begotten Son, which is in the bosom of the Father",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Hipp-Noet@5",
+        "sha256": "a02b61c36f07edd406a08138b9797151d6e808cb1618f1cc282fe9db5f6a87f8",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF05). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Butterworth (1977); Schwartz"
+       }
+      },
+      {
+       "siglum": "Orig-Cels",
+       "locator": "II.71",
+       "lang": "grc",
+       "quoteType": "omstridt",
+       "wording": "the only-begotten Son, who is in the bosom of the Father",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-Cels@II.71",
+        "sha256": "b9f385a048c18158c2f74dcd37062f48a1c68a5d05bdb07270a93692d172da2e",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF04). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Borret, Sources Chrétiennes 132 flg.; Koetschau, GCS"
+       },
+       "note": "Oversettelsen bygger på en eldre utgave. Hva den kritiske utgaven har på stedet, må leses før sitatet teller for en lesning."
+      }
+     ],
+     "isR10": true
+    },
+    {
+     "readingId": "b",
+     "label": "μονογενὴς θεός",
+     "text": "μονογενὴς θεός",
+     "lang": "grc",
+     "morphology": "Adjektiv + substantiv, nominativ entall maskulinum, uten artikkel.",
+     "norwegian": [
+      {
+       "text": "den eneste Gud",
+       "kind": "ordrett",
+       "note": "Slik R10-noten gjengir lesningen formnært."
+      },
+      {
+       "text": "den eneste, som er Gud",
+       "kind": "tolkende",
+       "note": "Forklarende gjengivelse fra R10-noten."
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "NA28",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Joh 1,18/RP2018_variantnoter",
+        "basis": "Robinson–Pierponts variantnote «{NA ὁ μονογενὴς υἱός > μονογενὴς θεός }». NA28 selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "SBLGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Joh 1,18/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «SBL». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "WH",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Joh 1,18/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «WH». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "TREG",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Joh 1,18/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Treg». Utgaven selv er ikke avlest."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "P66",
+       "hand": null,
+       "locator": "INTF-side/blad 2",
+       "reading": "‾θν ουδεις εωρακεν πωποται μ(ο)νογενης ‾θς ο ων εις τον κολπον τ[ου] ‾πρς εκινος εξηγησατο",
+       "attested": "πωποται μ(ο)νογενης ‾θς",
+       "certainty": "usikre bokstaver",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#P66@John.1.18",
+        "sha256": "dd57ed8bd4032c86aa63aed00fa979651c39cf20403f703b01829314658780ed"
+       }
+      },
+      {
+       "siglum": "01",
+       "hand": "*",
+       "locator": "fol. 247r",
+       "reading": "‾θν ουδεις εωρακεν πωποτε μονογενης ‾θς εις τον κολπον του πατρος εκεινος εξηγησατο",
+       "attested": "πωποτε μονογενης ‾θς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#01@John.1.18",
+        "sha256": "97ad36dbbda1cb265cf98bc22686ed53cf853d0b956c376dc01595b8a9f2b78f"
+       }
+      },
+      {
+       "siglum": "03",
+       "hand": "*",
+       "locator": "INTF-side/blad 1350",
+       "reading": "‾θν ουδεις εορακεν πωποτε μονογενης ‾θς ο ων εις τον κολπον του πατρος εκεινος εξηγησατο",
+       "attested": "πωποτε μονογενης ‾θς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#03@John.1.18",
+        "sha256": "29374766724ce5c0184b5c770a567a1ddd71abbbae0707c6614327a6c7459885"
+       }
+      },
+      {
+       "siglum": "04",
+       "hand": "*",
+       "locator": "fol. 188r",
+       "reading": "‾θν ουδεις εωρακεν πωποτε μονογενης ‾θς ο ων εις τον κολπον του ‾πρς εκεινος εξηγησατο",
+       "attested": "πωποτε μονογενης ‾θς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#04@John.1.18",
+        "sha256": "10c7f64411bfa4495b3e7a8d8e57eb0d48bc08b0e5b79eb35868a4909ad98fe4"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [
+      {
+       "siglum": "Iren-AH",
+       "locator": "IV.20.11",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "The only-begotten God, which is in the bosom of the Father",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@IV.20.11",
+        "sha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF01). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)"
+       },
+       "witnessLimit": "Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen.",
+       "compatibleWith": [
+        "b",
+        "c"
+       ]
+      },
+      {
+       "siglum": "Clem-Strom",
+       "locator": "V.12",
+       "lang": "grc",
+       "quoteType": "sitat",
+       "wording": "The only-begotten God, who is in the bosom of the Father",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Clem-Strom@V.12",
+        "sha256": "ae8e15414a21fe8d54a30fee7c3fbd1ee6a018e624dcd681d030da5c1cabbcac",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF02). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Stählin–Früchtel, GCS"
+       },
+       "witnessLimit": "Oversettelsen viser ikke om gresk har artikkel.",
+       "compatibleWith": [
+        "b",
+        "c"
+       ]
+      },
+      {
+       "siglum": "Orig-CommJo",
+       "locator": "II.29 (ANF-inndeling)",
+       "lang": "grc",
+       "quoteType": "sitat",
+       "wording": "the only-begotten God, who is in the bosom of the Father",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Orig-CommJo@II.29(ANF)",
+        "sha256": "3861096b158e12bc13f4516baac913cbd3d921c607862a7eace4f0257b3aefa5",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF09). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Blanc, Sources Chrétiennes 120 flg.; Preuschen, GCS"
+       },
+       "witnessLimit": "Oversettelsen viser ikke om gresk har artikkel.",
+       "compatibleWith": [
+        "b",
+        "c"
+       ]
+      }
+     ]
+    },
+    {
+     "readingId": "c",
+     "label": "ὁ μονογενὴς θεός",
+     "text": "ὁ μονογενὴς θεός",
+     "lang": "grc",
+     "morphology": "Som b, med artikkel.",
+     "norwegian": [
+      {
+       "text": "den eneste Gud",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "P75",
+       "hand": "*",
+       "locator": null,
+       "reading": "‾θν ουδεις πωποτε εορακεν ο μονογενης ‾θς ο ων εις τον κολπον του πατρος εκεινος εξηγησατο",
+       "attested": "ο μονογενης ‾θς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#P75@John.1.18",
+        "sha256": "d3c520724f93410812279aacddab4102185dd8dbdbcda3b4387a82ca31a4c9e3"
+       }
+      },
+      {
+       "siglum": "01",
+       "hand": "C2",
+       "locator": "fol. 247r",
+       "reading": "‾θν ουδεις εωρακεν πωποτε ο μονογενης ‾θς εις τον κολπον του πατρος εκεινος εξηγησατο",
+       "attested": "πωποτε ο μονογενης ‾θς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#01@John.1.18",
+        "sha256": "97ad36dbbda1cb265cf98bc22686ed53cf853d0b956c376dc01595b8a9f2b78f"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": []
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "NT (strømmene i plan 3.1)",
+    "code": "TR = Byz; tidlige førstehender delt (a: 02; b: P66, 01, 03, 04; c: P75)",
+    "trReading": "a",
+    "byzReading": "a",
+    "earlyCutoffYear": 500,
+    "earlyFirstHands": {
+     "a": [
+      "02"
+     ],
+     "b": [
+      "P66",
+      "01",
+      "03",
+      "04"
+     ],
+     "c": [
+      "P75"
+     ]
+    },
+    "laterFirstHands": {
+     "a": [
+      "037",
+      "038"
+     ]
+    },
+    "correctors": {
+     "a": [
+      "04C3"
+     ],
+     "c": [
+      "01C2"
+     ]
+    },
+    "fathersMainWindow": {
+     "a": [
+      "Iren-AH III.11.6",
+      "Iren-AH IV.20.6",
+      "Tert-Prax 15",
+      "Hipp-Noet 5",
+      "Orig-Cels II.71"
+     ],
+     "b": [
+      "Iren-AH IV.20.11",
+      "Clem-Strom V.12",
+      "Orig-CommJo II.29 (ANF-inndeling)"
+     ]
+    },
+    "fathersOutsideWindow": {},
+    "versions": {
+     "a": [
+      "Vg-Clem"
+     ]
+    },
+    "rule": "Tidlig = første hånd i gresk håndskrift med INTF-datering som slutter før år 500. Bare vitner bekreftet mot belegg teller, og ikke steder som er helt rekonstruert. Antall er ikke vekt."
+   },
+   "variantKind": {
+    "computed": "leksikalsk_eller_morfologisk+pluss_minus_og_annet_ord",
+    "assigned": "leksikalsk",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "R10 følger Scrivener: «Den eneste Sønnen». Robinson–Pierpont og Tischendorf har samme lesning, og TAGNT fører THGNT under den. De to tidligste papyrusene og første hånd i Sinaiticus, Vaticanus og Ephraemi har θεός, med eller uten artikkel. Alexandrinus har υἱός. I Ephraemi har en korrektor endret til υἱός, og i Sinaiticus har en korrektor lagt til artikkelen. Fedrene er delt, også innenfor samme verk hos Irenæus. Sitatene er bare funnet i engelsk oversettelse, og et latinsk eller oversatt sitat viser ikke artikkelen. R10-noten til verset omtaler de samme hovedvitnene.",
+   "leads": [
+    "Tatians, Klemens’ (Excerpta ex Theodoto) og Origenes’ øvrige sitater av verset må leses i kritiske utgaver før de registreres.",
+    "THGNT-valget er belagt med én kilde (TAGNT) og bør leses i utgaven."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "NT-ACT-008-037-01",
+   "pilotNr": 8,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "Apg 8,37",
+    "ntRef": "Apg 8,37"
+   },
+   "anchor": {
+    "testament": "NT",
+    "bookId": "act",
+    "bookSha256": "d6d752c61dece85011525f6b1908641ba730c609c1fc0ead5493d0716ee5f0e3",
+    "r11LayerSha256": "8afed24e70ea38b554e8057e29afe19241b7cdcfc3f8f1f96f332e964f1489a6",
+    "chapter": 8,
+    "verse": 37,
+    "firstWordIndex": 1,
+    "lastWordIndex": 23,
+    "relation": "hele_verset",
+    "words": [
+     {
+      "wordIndex": 1,
+      "g": "εἶπε"
+     },
+     {
+      "wordIndex": 2,
+      "g": "δὲ"
+     },
+     {
+      "wordIndex": 3,
+      "g": "ὁ"
+     },
+     {
+      "wordIndex": 4,
+      "g": "Φίλιππος"
+     },
+     {
+      "wordIndex": 5,
+      "g": "Εἰ"
+     },
+     {
+      "wordIndex": 6,
+      "g": "πιστεύεις"
+     },
+     {
+      "wordIndex": 7,
+      "g": "ἐξ"
+     },
+     {
+      "wordIndex": 8,
+      "g": "ὅλης"
+     },
+     {
+      "wordIndex": 9,
+      "g": "τῆς"
+     },
+     {
+      "wordIndex": 10,
+      "g": "καρδίας"
+     },
+     {
+      "wordIndex": 11,
+      "g": "ἔξεστιν"
+     },
+     {
+      "wordIndex": 12,
+      "g": "ἀποκριθεὶς"
+     },
+     {
+      "wordIndex": 13,
+      "g": "δὲ"
+     },
+     {
+      "wordIndex": 14,
+      "g": "εἶπε"
+     },
+     {
+      "wordIndex": 15,
+      "g": "Πιστεύω"
+     },
+     {
+      "wordIndex": 16,
+      "g": "τὸν"
+     },
+     {
+      "wordIndex": 17,
+      "g": "υἱὸν"
+     },
+     {
+      "wordIndex": 18,
+      "g": "τοῦ"
+     },
+     {
+      "wordIndex": 19,
+      "g": "Θεοῦ"
+     },
+     {
+      "wordIndex": 20,
+      "g": "εἶναι"
+     },
+     {
+      "wordIndex": 21,
+      "g": "τὸν"
+     },
+     {
+      "wordIndex": 22,
+      "g": "Ἰησοῦν"
+     },
+     {
+      "wordIndex": 23,
+      "g": "Χριστόν"
+     }
+    ]
+   },
+   "r10Verse": "Og Filip sa: «Hvis du tror av hele hjertet, er det tillatt.» Og han svarte og sa: «Jeg tror at Jesus Kristus er Guds Sønn.»",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "verset i Scriveners form",
+     "text": "εἶπε δὲ ὁ Φίλιππος Εἰ πιστεύεις ἐξ ὅλης τῆς καρδίας ἔξεστιν ἀποκριθεὶς δὲ εἶπε Πιστεύω τὸν υἱὸν τοῦ Θεοῦ εἶναι τὸν Ἰησοῦν Χριστόν",
+     "lang": "grc",
+     "morphology": "Hele verset. Scrivener har ὁ Φίλιππος som subjekt og ikke σου etter καρδίας.",
+     "norwegian": [
+      {
+       "text": "Og Filip sa: «Hvis du tror av hele hjertet, er det tillatt.» Og han svarte og sa: «Jeg tror at Jesus Kristus er Guds Sønn.»",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [],
+     "versionWitnesses": [
+      {
+       "siglum": "Vg-Clem",
+       "text": "Dixit autem Philippus: Si credis ex toto corde, licet. Et respondens ait: Credo Filium Dei esse Jesum Christum.",
+       "lang": "la",
+       "norwegian": [
+        {
+         "text": "Og Filip sa: Hvis du tror av hele hjertet, er det tillatt. Og han svarte og sa: Jeg tror at Jesus Kristus er Guds Sønn.",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "VG-CLEM",
+       "locator": "Acts 8:37",
+       "vorlage": "kan ikke avgjøres",
+       "witnessLimit": "Clementina har «Philippus» og ikke «tuo», som Scrivener. Den viser at verset står i den trykte Vulgata, ikke hvilke håndskrifter som har det.",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#Acts 8:37",
+        "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+        "basis": "Clementinas digitale tekst. Vulgata-håndskriftene er ikke avlest."
+       }
+      },
+      {
+       "siglum": "VL",
+       "lang": "la",
+       "vorlage": "kan ikke avgjøres",
+       "note": "Oppdraget nevner Vetus Latina som vitne. Ingen gammellatinsk tekst er hentet i Trinn 0.",
+       "verification": {
+        "status": "IKKE_AVLEST",
+        "mustReadIn": "Vetus Latina-utgaven (Beuron) for Apostlenes gjerninger; håndskriftene må navngis med Beuron-nummer før de registreres."
+       }
+      }
+     ],
+     "patristicWitnesses": [],
+     "isR10": true
+    },
+    {
+     "readingId": "a2",
+     "label": "verset i minuskelform",
+     "text": "εἶπε δὲ αὐτῷ· εἰ πιστεύεις ἐξ ὅλης τῆς καρδίας σου, ἔξεστιν· ἀποκριθεὶς δὲ εἶπε· πιστεύω τὸν υἱὸν τοῦ θεοῦ εἶναι Ἰησοῦν Χριστόν",
+     "lang": "grc",
+     "morphology": "Som a, men med αὐτῷ og uten ὁ Φίλιππος. De fleste har σου. Tre av håndskriftene har ikke τῆς.",
+     "norwegian": [
+      {
+       "text": "Og han sa til ham: «Hvis du tror av hele ditt hjerte, er det tillatt.» Og han svarte og sa: «Jeg tror at Jesus Kristus er Guds Sønn.»",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "1739",
+       "hand": null,
+       "locator": "fol. 9v",
+       "reading": "ειπεν δε αυτω ει πιστευεις εξ ολης της καρδιας σου εξεστιν αποκριθεις δε ειπεν πιστευω τον ‾υν του ‾θυ ειναι ‾ιν ‾χν",
+       "attested": "ειπεν δε αυτω ει πιστευεις εξ ολης της καρδιας σου εξεστιν αποκριθεις δε ειπεν πιστευω τον ‾υν του ‾θυ ειναι ‾ιν ‾χν",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#1739@Acts.8.37",
+        "sha256": "acf3656f86ae796182ef247ca157ee4b2b17fd47b6e6118c4b570e64ab6012c0"
+       }
+      },
+      {
+       "siglum": "1891",
+       "hand": null,
+       "locator": "fol. 26v",
+       "reading": "ειπεν δε αυτωι ει πιστευεις εξ ολης της καρδιας σου εξεστιν αποκριθεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν",
+       "attested": "ειπεν δε αυτωι ει πιστευεις εξ ολης της καρδιας σου εξεστιν αποκριθεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#1891@Acts.8.37",
+        "sha256": "aefbec4f29aac56e3551204d64a9bccce8eb9427c1359593640ab7319ee06a16"
+       }
+      },
+      {
+       "siglum": "307",
+       "hand": null,
+       "locator": "fol. 70r",
+       "reading": "ειπεν δε αυτω ει πιστευεις εξ ολης καρδιας σου εξεστιν αποκριθεις δε ειπεν πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν",
+       "attested": "ειπεν δε αυτω ει πιστευεις εξ ολης καρδιας σου εξεστιν αποκριθεις δε ειπεν πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#307@Acts.8.37",
+        "sha256": "f1f18fa60726f7531644a117270d9faccd1941728f506f8a915a8b956a58b984"
+       }
+      },
+      {
+       "siglum": "945",
+       "hand": null,
+       "locator": "fol. 11v",
+       "reading": "ειπε δε αυτω· ει πιστευεις εξ ολης της καρδιας σου, εξεστιν· απο κριθεις δε ειπε· πιστευω τον υιον του ‾θυ ειναι, ‾ιν ‾χν·",
+       "attested": "ειπε δε αυτω· ει πιστευεις εξ ολης της καρδιας σου, εξεστιν· απο κριθεις δε ειπε· πιστευω τον υιον του ‾θυ ειναι, ‾ιν ‾χν·",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#945@Acts.8.37",
+        "sha256": "c5d8b8be2662a4c6080b625a8f2d769ab1ee9416c604012f2383d270c0cc43e5"
+       }
+      },
+      {
+       "siglum": "323",
+       "hand": null,
+       "locator": "fol. 32v",
+       "reading": "ειπε δε αυτω ει πιστευεις εξ ο λης της καρδιας εξεστιν απο κριθεις δε ειπε πιστευω τον ‾υν του ‾θυ ειναι ‾ιν ‾χν",
+       "attested": "ειπε δε αυτω ει πιστευεις εξ ο λης της καρδιας εξεστιν απο κριθεις δε ειπε πιστευω τον ‾υν του ‾θυ ειναι ‾ιν ‾χν",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#323@Acts.8.37",
+        "sha256": "eb87bdcf50b74fc3f9fb15315990692114927d6401535a5f9d7ebbdd14d7a3ed"
+       }
+      },
+      {
+       "siglum": "2818",
+       "hand": null,
+       "locator": "fol. 59r",
+       "reading": "ειπε δε αυτω ει πιστευεις εξ ολης καρδιας σου εξεστιν αποκρι θεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν",
+       "attested": "ειπε δε αυτω ει πιστευεις εξ ολης καρδιας σου εξεστιν αποκρι θεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#2818@Acts.8.37",
+        "sha256": "596e671eec230b05c5700a3718bbc655c44a95de5728116c110ba0ae9297a0eb"
+       }
+      },
+      {
+       "siglum": "453",
+       "hand": null,
+       "locator": "fol. 88r",
+       "reading": "ειπε δε αυτω ει πιστευεις εξ ολης καρδιας σου εξε στιν αποκριθεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν",
+       "attested": "ειπε δε αυτω ει πιστευεις εξ ολης καρδιας σου εξε στιν αποκριθεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#453@Acts.8.37",
+        "sha256": "a18f6981225434d41813396c82c50e5a40d095c37c6bc93e8949f5ad0dcfd7f2"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [
+      {
+       "siglum": "Iren-AH",
+       "locator": "III.12.8",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "I believe Jesus Christ to be the Son of God",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Iren-AH@III.12.8",
+        "sha256": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF01). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Rousseau–Doutreleau, Sources Chrétiennes (bok III: SC 211; bok IV: SC 100)"
+       },
+       "witnessLimit": "Irenæus gjengir bare hoffmannens bekjennelse, ikke Filips vilkår.",
+       "compatibleWith": [
+        "a",
+        "a2"
+       ]
+      },
+      {
+       "siglum": "Cypr-Quir",
+       "locator": "III.43",
+       "lang": "la",
+       "quoteType": "sitat",
+       "wording": "Then said Philip, If thou believest with all thine heart, thou mayest",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Cypr-Quir@III.43",
+        "sha256": "a02b61c36f07edd406a08138b9797151d6e808cb1618f1cc282fe9db5f6a87f8",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (ANF05). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Weber, CCSL 3"
+       },
+       "witnessLimit": "Cyprian gjengir v. 36 og Filips vilkår, ikke bekjennelsen.",
+       "compatibleWith": [
+        "a",
+        "a2"
+       ]
+      }
+     ],
+     "agreesWith": "a"
+    },
+    {
+     "readingId": "a3",
+     "label": "verset i Laudianus’ form",
+     "text": "εἶπεν δὲ αὐτῷ ὁ Φίλιππος· ἐὰν πιστεύεις ἐξ ὅλης τῆς καρδίας σου, σωθήσει· ἀποκριθεὶς δὲ εἶπεν· πιστεύω εἰς τὸν Χριστὸν τὸν υἱὸν τοῦ θεοῦ",
+     "lang": "grc",
+     "morphology": "Annen ordlyd: ἐάν, σωθήσει (futurum passiv 2. person entall) og πιστεύω εἰς.",
+     "norwegian": [
+      {
+       "text": "Og Filip sa til ham: «Hvis du tror av hele ditt hjerte, skal du bli frelst.» Og han svarte og sa: «Jeg tror på Kristus, Guds Sønn.»",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "08",
+       "hand": null,
+       "locator": "fol. 70v",
+       "reading": "ειπεν δε αυτω ο φιλιππος εαν πιστευεις εξ ολης της καρδιας σου σωθησει αποκριθεις δε ειπεν πιστευω εις τον ‾χν τον υιον του ‾θυ",
+       "attested": "ειπεν δε αυτω ο φιλιππος εαν πιστευεις εξ ολης της καρδιας σου σωθησει αποκριθεις δε ειπεν πιστευω εις τον ‾χν τον υιον του ‾θυ",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#08@Acts.8.37",
+        "sha256": "d676efed77e5ac814772153a9d5a925a6aefdbbef1d2ea22b16f206301ca7079"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [],
+     "agreesWith": "a"
+    },
+    {
+     "readingId": "b",
+     "label": "uten verset",
+     "text": "",
+     "lang": "grc",
+     "morphology": "Teksten går fra v. 36 rett til v. 38.",
+     "norwegian": [
+      {
+       "text": "(verset står ikke)",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "RP2018",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Apg 8,37/RP2018",
+        "basis": "Verset står ikke i utgavens digitale tekst."
+       }
+      },
+      {
+       "edition": "TISCH8",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Apg 8,37/TISCH8",
+        "basis": "Verset står ikke i utgavens digitale tekst."
+       }
+      },
+      {
+       "edition": "NA28",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Apg 8,37/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «NA28». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "THGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Apg 8,37/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Tyn». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "SBLGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Apg 8,37/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «SBL». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "WH",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Apg 8,37/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «WH». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "TREG",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Apg 8,37/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Treg». Utgaven selv er ikke avlest."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "P45",
+       "hand": null,
+       "locator": "fol. 22r",
+       "reading": "",
+       "certainty": "rekonstruert",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#P45@Acts.8.37",
+        "sha256": "7ff54463cbec8055fb63b7fc239a00f9e839e0bd1f1cabd1db7cc46e5f821e04"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen. Overgangen er delvis rekonstruert, så utelatelsen bygger på utgiverens linjeberegning."
+      },
+      {
+       "siglum": "P74",
+       "hand": null,
+       "locator": "INTF-side/blad 55",
+       "reading": "",
+       "certainty": "delvis rekonstruert",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#P74@Acts.8.37",
+        "sha256": "f7759c2d5becc205acd92b010c030a320ae151ee80be54250c2a45c45b86b121"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen. Overgangen er delvis rekonstruert, så utelatelsen bygger på utgiverens linjeberegning."
+      },
+      {
+       "siglum": "01",
+       "hand": null,
+       "locator": "fol. 304r",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#01@Acts.8.37",
+        "sha256": "da0335caafbb0295011dd903a9dc1505b025adf9e35071e6fe38946223c8ace2"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "02",
+       "hand": null,
+       "locator": "fol. 87r",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#02@Acts.8.37",
+        "sha256": "e8f306c2121299f28db29cc0d61ca46f5bec050f4519f89f7f5537741400bf60"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "03",
+       "hand": null,
+       "locator": "INTF-side/blad 1394",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#03@Acts.8.37",
+        "sha256": "ad0e8dd02f49057ff20588fef6218c7bc01c6192e8fa8304362ff4a10beb3a39"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "04",
+       "hand": null,
+       "locator": "fol. 182r",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#04@Acts.8.37",
+        "sha256": "64143f3f93f7f29048c146a4aa8ed580a12d8fd4a8c11a81f840563731eb01ec"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "020",
+       "hand": null,
+       "locator": "fol. 2r",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#020@Acts.8.37",
+        "sha256": "459333e8732c85b7fa58025929f663cf55256e54504b796815a8acf4d4a11ec5"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "044",
+       "hand": null,
+       "locator": "fol. 116r",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#044@Acts.8.37",
+        "sha256": "c757d8be7cbf6191ecdf48d678b22ec382c54b57432234a85a5b0fccec1e7e1f"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "049",
+       "hand": null,
+       "locator": "fol. 14r",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#049@Acts.8.37",
+        "sha256": "8df559f2b832aa44324dfa4550c6ccccce58be8d7a8a321c45218d9e95324d7f"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "33",
+       "hand": null,
+       "locator": "fol. 80r",
+       "reading": "",
+       "certainty": "delvis rekonstruert",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#33@Acts.8.37",
+        "sha256": "30cb295a303b36d05381ed028c4fe89fb5e559aaeb528a008b2bb5a88fe32d07"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen. Overgangen er delvis rekonstruert, så utelatelsen bygger på utgiverens linjeberegning."
+      },
+      {
+       "siglum": "81",
+       "hand": null,
+       "locator": "fol. 14v",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#81@Acts.8.37",
+        "sha256": "e1a454eba3071f5b0cb34839028a447e1c45a8070638fd620f99399873f88816"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "1175",
+       "hand": null,
+       "locator": "fol. 21r",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#1175@Acts.8.37",
+        "sha256": "f04ed3f1cd9b22ad51c51958498beb06c213d9aef276912246727426b07b7dfe"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "614",
+       "hand": null,
+       "locator": "fol. 26v",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#614@Acts.8.37",
+        "sha256": "1a28b6e62428e9f5069af17a71fb9541f0d9cfe51f582b36dee0ac80e8f470e5"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "18",
+       "hand": null,
+       "locator": "fol. 167v",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#18@Acts.8.37",
+        "sha256": "96ff91b6e1bc7a6ab1060ac20234b46f08c1b0e06db3835f25bf23faa70bce3c"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      },
+      {
+       "siglum": "35",
+       "hand": null,
+       "locator": "fol. 170v",
+       "reading": "",
+       "certainty": "utelatt",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#35@Acts.8.37",
+        "sha256": "3da479734512b31d1d7f22fcd60e57d6c6f1cc63a6c9e650ba97641ec7f3233c"
+       },
+       "note": "Versene før og etter følger rett på hverandre i transkripsjonen."
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [],
+     "textNote": "Tom lesning: verset mangler."
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "NT (strømmene i plan 3.1)",
+    "code": "TR ≠ Byz; Byz = tidlige førstehender",
+    "trReading": "a",
+    "byzReading": "b",
+    "earlyCutoffYear": 500,
+    "earlyFirstHands": {
+     "b": [
+      "01",
+      "02",
+      "03",
+      "04"
+     ]
+    },
+    "laterFirstHands": {
+     "a": [
+      "1739",
+      "1891",
+      "307",
+      "945",
+      "323",
+      "2818",
+      "453",
+      "08"
+     ],
+     "b": [
+      "P74",
+      "020",
+      "044",
+      "049",
+      "33",
+      "81",
+      "1175",
+      "614",
+      "18",
+      "35"
+     ]
+    },
+    "correctors": {},
+    "fathersMainWindow": {
+     "a": [
+      "Iren-AH III.12.8",
+      "Cypr-Quir III.43"
+     ]
+    },
+    "fathersOutsideWindow": {},
+    "versions": {
+     "a": [
+      "Vg-Clem"
+     ]
+    },
+    "rule": "Tidlig = første hånd i gresk håndskrift med INTF-datering som slutter før år 500. Bare vitner bekreftet mot belegg teller, og ikke steder som er helt rekonstruert. Antall er ikke vekt."
+   },
+   "variantKind": {
+    "computed": "pluss_minus",
+    "assigned": "pluss",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "R10 følger Scrivener og har hele verset. Robinson–Pierpont har det ikke, og de andre utgavene har det heller ikke. Blant de transkriberte greske håndskriftene står verset i tre former, og ingen av dem har nøyaktig Scriveners ordlyd. Codex Laudianus fra 500-tallet er det eldste greske vitnet og har en egen form («skal du bli frelst»). Minusklene 1739 og 1891 fra 900-tallet har formen som ligger nærmest Scrivener. Irenæus og Cyprian gjengir hver sin del av verset. Begge er bare funnet i engelsk oversettelse, og begge skrev eller er overlevert på latin. Papyrus 45 er svært fragmentarisk her, så utelatelsen der bygger på utgiverens linjeberegning. Bezae mangler denne delen av Apostlenes gjerninger.",
+   "leads": [
+    "Minuskel 2816, som Erasmus brukte, har ingen publisert transkripsjon hos INTF. Margen der bør leses, fordi Scriveners ordlyd går tilbake til Erasmus.",
+    "Vetus Latina-håndskriftene og Vulgata-håndskriftene må leses i utgavene før de registreres."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "NT-1TI-003-016-01",
+   "pilotNr": 9,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "1 Tim 3,16",
+    "ntRef": "1 Tim 3,16"
+   },
+   "anchor": {
+    "testament": "NT",
+    "bookId": "1ti",
+    "bookSha256": "c946198f226117120e38c8e0190255356ea4922e9feb8457019622d27d0db561",
+    "r11LayerSha256": "1a79f499c7dc10de7e1fa3bb1ae07edeac96d7fec5b4b9e099da7cca3120f0ac",
+    "chapter": 3,
+    "verse": 16,
+    "firstWordIndex": 9,
+    "lastWordIndex": 9,
+    "relation": "erstatter",
+    "words": [
+     {
+      "wordIndex": 9,
+      "g": "Θεὸς"
+     }
+    ],
+    "r111Note": "R11.1 retter ordkortet for dette ordet til «Gud». Rettelsen ligger i leseren og er bundet til bokfilens SHA-256. Bokfilen er uendret."
+   },
+   "r10Verse": "Og uimotsigelig stort er gudsfryktens mysterium: Gud ble åpenbart i kjød, rettferdiggjort i ånd, sett av engler, forkynt blant folkeslagene, trodd i verden, tatt opp i herlighet.",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "Θεός",
+     "text": "Θεός",
+     "lang": "grc",
+     "morphology": "Substantiv, nominativ entall maskulinum. I majuskelskrift ΘΣ med strek over.",
+     "norwegian": [
+      {
+       "text": "Gud",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      },
+      {
+       "edition": "RP2018",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#1 Tim 3,16/RP2018",
+        "basis": "Utgavens digitale tekst."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "01",
+       "hand": "C3",
+       "locator": "fol. 294v",
+       "reading": "και ομολογουμενως μεγα εστιν το της ευσεβειας μυστηριον θεος εφανερωθη εν σαρκι εδικαιωθη εν ‾πνι ωφθη αγγελοις εκηρυχθη εν εθνεσιν επιστευθη ε(ν) κοσμω ανελημφθη εν δοξη",
+       "attested": "θεος",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#01@1Tim.3.16",
+        "sha256": "541f8d51c3d3c7b4c1d29a151c7fd4e9d24a08a1afc7fa115dda705b721f2cfb"
+       }
+      },
+      {
+       "siglum": "02",
+       "hand": "C",
+       "locator": "fol. 145r",
+       "reading": "και ομολογου[μεν](ω)ς μεγα εστιν το της ευσε[βεια]ς μυστηριον ‾θς εφανερω[θη] [ε]ν σαρκι εδικα(ι)ωθη εν ‾πνι [ωφ]θη αγγελοις (εκη)ρυχθη εν [εθ]νεσιν επιστευθη εν κοσμω [αν]ελημφθη εν δοξη",
+       "attested": "‾θς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#02@1Tim.3.16",
+        "sha256": "5281318223bc52f32872038176870d30cfcf89ca9f63970322f30d35f93769e6"
+       }
+      },
+      {
+       "siglum": "04",
+       "hand": "C3",
+       "locator": "fol. 119r",
+       "reading": "και ομολογουμενως μεγα εστιν το της ευσεβειας μυστηριον ‾θς εφανερωθη εν σαρκι εδικαιωθη εν ‾πνι ωφθη αγγελοις εκηρυχθη εν εθνεσιν επιστευθη εν κοσμω ανελημφθη εν δοξη",
+       "attested": "‾θς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#04@1Tim.3.16",
+        "sha256": "239e653a962305cb6e9e70664b29ec8683918842a4dbc0b36fb2770a714e7b3d"
+       }
+      },
+      {
+       "siglum": "6",
+       "hand": null,
+       "locator": "fol. 178r",
+       "reading": "και ομολογουμενως μεγα εστι το της ευσεβειας μυστηριον ‾θς εφανερωθη εν σαρκι εδικαιωθη εν ‾πνι ωφθη αγγελοις εκηρυχθη εν εθνεσιν επιστευθη εν κοσμω ανεληφθη εν δοξη",
+       "attested": "‾θς",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#6@1Tim.3.16",
+        "sha256": "d56a659f1c5eb2d9d27d82aa38b37082f262827bb137a671c905ebedcb496445"
+       }
+      },
+      {
+       "siglum": "06",
+       "hand": "C2",
+       "locator": null,
+       "certainty": "ikke avlest",
+       "note": "Oppdraget fører D² under denne lesningen. INTF har ingen publisert transkripsjon av stedet.",
+       "verification": {
+        "status": "IKKE_AVLEST",
+        "mustReadIn": "Tischendorfs utgave av Codex Claromontanus (1852) eller bildene hos BnF"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": [
+      {
+       "siglum": "Chrys-Hom1Tim",
+       "locator": "Hom. XI",
+       "lang": "grc",
+       "quoteType": "sitat",
+       "wording": "God was manifest in the flesh",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#Chrys-Hom1Tim@XI",
+        "sha256": "54274dd9aa73ca36e4da9e763e4a27d1818b09e42ffc73795529afec703a4210",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (NPNF113). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Field; Migne PG 62"
+       }
+      },
+      {
+       "siglum": "GregNyss-Eun",
+       "locator": "bok XI (NPNF-inndeling)",
+       "lang": "grc",
+       "quoteType": "sitat",
+       "wording": "God was manifest in the flesh, justified in the spirit",
+       "verification": {
+        "status": "BEKREFTET_I_OVERSETTELSE",
+        "evidence": "kilder/belegg/fedre-oversettelse-utdrag.json#GregNyss-Eun@XI(NPNF)",
+        "sha256": "cef974043e48a52d1b6d4ce3bdfb538fa5be2c3af8b53e3bb75181760d614484",
+        "basis": "Stedet og ordlyden er funnet i den engelske oversettelsen (NPNF205). Grunnspråksteksten er ikke avlest.",
+        "mustReadIn": "Jaeger, GNO I–II"
+       }
+      }
+     ],
+     "isR10": true
+    },
+    {
+     "readingId": "b",
+     "label": "ὅς",
+     "text": "ὅς",
+     "lang": "grc",
+     "morphology": "Relativpronomen, nominativ entall maskulinum. I majuskelskrift ΟΣ.",
+     "norwegian": [
+      {
+       "text": "han som",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "TISCH8",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#1 Tim 3,16/TISCH8",
+        "basis": "Utgavens digitale tekst."
+       }
+      },
+      {
+       "edition": "NA28",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#1 Tim 3,16/RP2018_variantnoter",
+        "basis": "Robinson–Pierponts variantnote «{NA θεὸς > ὃς }». NA28 selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "THGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#1 Tim 3,16/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Tyn». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "SBLGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#1 Tim 3,16/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «SBL». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "WH",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#1 Tim 3,16/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «WH». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "TREG",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#1 Tim 3,16/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Treg». Utgaven selv er ikke avlest."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "01",
+       "hand": "*",
+       "locator": "fol. 294v",
+       "reading": "και ομολογουμενως μεγα εστιν το της ευσεβειας μυστηριον ος εφανερωθη εν σαρκι εδικαιωθη εν ‾πνι ωφθη αγγελοις εκηρυχθη εν εθνεσιν επιστευθη ε(ν) κοσμω ανελημφθη εν δοξη",
+       "attested": "ος",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#01@1Tim.3.16",
+        "sha256": "541f8d51c3d3c7b4c1d29a151c7fd4e9d24a08a1afc7fa115dda705b721f2cfb"
+       }
+      },
+      {
+       "siglum": "02",
+       "hand": "*",
+       "locator": "fol. 145r",
+       "reading": "και ομολογου[μεν](ω)ς μεγα εστιν το της ευσε[βεια]ς μυστηριον ος εφανερω[θη] [ε]ν σαρκι εδικα(ι)ωθη εν ‾πνι [ωφ]θη αγγελοις (εκη)ρυχθη εν [εθ]νεσιν επιστευθη εν κοσμω [αν]ελημφθη εν δοξη",
+       "attested": "ος",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#02@1Tim.3.16",
+        "sha256": "5281318223bc52f32872038176870d30cfcf89ca9f63970322f30d35f93769e6"
+       }
+      },
+      {
+       "siglum": "04",
+       "hand": "*",
+       "locator": "fol. 119r",
+       "reading": "και ομολογουμενως μεγα εστιν το της ευσεβειας μυστηριον ος εφανερωθη εν σαρκι εδικαιωθη εν ‾πνι ωφθη αγγελοις εκηρυχθη εν εθνεσιν επιστευθη εν κοσμω ανελημφθη εν δοξη",
+       "attested": "ος",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#04@1Tim.3.16",
+        "sha256": "239e653a962305cb6e9e70664b29ec8683918842a4dbc0b36fb2770a714e7b3d"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": []
+    },
+    {
+     "readingId": "c",
+     "label": "ὅ",
+     "text": "ὅ",
+     "lang": "grc",
+     "morphology": "Relativpronomen, nominativ entall nøytrum, som viser til μυστήριον.",
+     "norwegian": [
+      {
+       "text": "det som",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "06",
+       "hand": "*",
+       "locator": null,
+       "certainty": "ikke avlest",
+       "note": "Oppdraget fører D* under denne lesningen. INTF har ingen publisert transkripsjon av stedet.",
+       "verification": {
+        "status": "IKKE_AVLEST",
+        "mustReadIn": "Tischendorfs utgave av Codex Claromontanus (1852) eller bildene hos BnF"
+       }
+      }
+     ],
+     "versionWitnesses": [
+      {
+       "siglum": "Vg-Clem",
+       "text": "quod manifestatum est",
+       "lang": "la",
+       "norwegian": [
+        {
+         "text": "det som ble åpenbart",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "VG-CLEM",
+       "locator": "I Timothy 3:16",
+       "vorlage": "kan ikke avgjøres",
+       "witnessLimit": "Latin har relativpronomen i nøytrum, som viser til sacramentum. Det utelukker «Gud», men viser ikke sikkert om forelegget hadde ὅ eller ὅς.",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#I Timothy 3:16",
+        "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+        "basis": "Clementinas digitale tekst. Vulgata-håndskriftene er ikke avlest."
+       },
+       "compatibleWith": [
+        "b",
+        "c"
+       ]
+      }
+     ],
+     "patristicWitnesses": []
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "NT (strømmene i plan 3.1)",
+    "code": "TR = Byz; tidlige førstehender har lesning b mot TR og Byz",
+    "trReading": "a",
+    "byzReading": "a",
+    "earlyCutoffYear": 500,
+    "earlyFirstHands": {
+     "b": [
+      "01",
+      "02",
+      "04"
+     ]
+    },
+    "laterFirstHands": {
+     "a": [
+      "6"
+     ]
+    },
+    "correctors": {
+     "a": [
+      "01C3",
+      "02C",
+      "04C3"
+     ]
+    },
+    "fathersMainWindow": {},
+    "fathersOutsideWindow": {
+     "a": [
+      "Chrys-Hom1Tim Hom. XI",
+      "GregNyss-Eun bok XI (NPNF-inndeling)"
+     ]
+    },
+    "versions": {
+     "c": [
+      "Vg-Clem"
+     ]
+    },
+    "rule": "Tidlig = første hånd i gresk håndskrift med INTF-datering som slutter før år 500. Bare vitner bekreftet mot belegg teller, og ikke steder som er helt rekonstruert. Antall er ikke vekt."
+   },
+   "variantKind": {
+    "computed": "leksikalsk_eller_morfologisk",
+    "assigned": "leksikalsk",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "R10 følger Scrivener: «Gud ble åpenbart i kjød». Robinson–Pierpont har samme lesning. I Sinaiticus, Alexandrinus og Ephraemi har første hånd ὅς, «han som», og en korrektor har endret til θεός i alle tre. I majuskelskrift skiller ΘΣ med strek seg fra ΟΣ med to streker. Minuskel 6 fra 1200-tallet er det eneste transkriberte håndskriftet med θεός i første hånd. De bysantinske majusklene har ingen publisert transkripsjon hos INTF. De to fedrene som er funnet med «Gud», er fra 300-tallet og ligger utenfor hovedvinduet. Ingen før-nikensk far er funnet med et ordrett sitat av stedet.",
+   "leads": [
+    "Oppdraget bruker betegnelsene ℵᵉ, A², C² og D². INTF-transkripsjonene kaller hendene korrektor 3 (01), korrektor (02) og korrektor 3 (04). Samsvaret mellom Tischendorfs, NA28s og INTFs korrektorbetegnelser må leses i utgavene.",
+    "De bysantinske majusklene K 018, L 020, P 025 og Ψ 044 har ingen publisert transkripsjon av verset hos INTF og er derfor ikke registrert.",
+    "Fedre som oppgis for ὅς i håndbøkene, må leses i kritiske utgaver før de registreres.",
+    "Papyrus 133 har verset, men stedet er rekonstruert i transkripsjonen."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  },
+  {
+   "variantId": "NT-REV-022-019-01",
+   "pilotNr": 10,
+   "status": "UTKAST",
+   "ref": {
+    "r10": "Åp 22,19",
+    "ntRef": "Åp 22,19"
+   },
+   "anchor": {
+    "testament": "NT",
+    "bookId": "rev",
+    "bookSha256": "83c2945069e0ea6f82049bdc424e6a536d5426794a4b317003a5b565f0703520",
+    "r11LayerSha256": "58e78ffeb3b82a816ecb058db226fb9f8a4d8e4f5c00f7c150dc24dbd7312884",
+    "chapter": 22,
+    "verse": 19,
+    "firstWordIndex": 19,
+    "lastWordIndex": 21,
+    "relation": "erstatter",
+    "words": [
+     {
+      "wordIndex": 19,
+      "g": "βιβλου"
+     },
+     {
+      "wordIndex": 20,
+      "g": "της"
+     },
+     {
+      "wordIndex": 21,
+      "g": "ζωης"
+     }
+    ]
+   },
+   "r10Verse": "Og hvis noen tar noe bort fra ordene i denne profetiens bok, skal Gud ta bort hans del fra livets bok og fra den hellige byen og fra de tingene som er skrevet i denne boken.",
+   "readings": [
+    {
+     "readingId": "a",
+     "label": "βίβλου τῆς ζωῆς",
+     "text": "βίβλου τῆς ζωῆς",
+     "lang": "grc",
+     "morphology": "Substantiv, genitiv entall femininum + artikkel + substantiv, genitiv entall femininum.",
+     "norwegian": [
+      {
+       "text": "livets bok",
+       "kind": "r10"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "R10",
+       "verification": {
+        "status": "BEKREFTET_ANKER",
+        "basis": "Lesningen er ankerordene i låst R10."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [],
+     "versionWitnesses": [
+      {
+       "siglum": "Vg-Clem",
+       "text": "de libro vitæ",
+       "lang": "la",
+       "norwegian": [
+        {
+         "text": "fra livets bok",
+         "kind": "ordrett"
+        }
+       ],
+       "readIn": "VG-CLEM",
+       "locator": "Revelation of John 22:19",
+       "vorlage": "kan ikke avgjøres",
+       "witnessLimit": "Latin har liber, «bok». Det latinske ordet for «tre» er lignum, og de to ordene ligner hverandre i genitiv og ablativ (libro, ligno).",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/vulgata-clementina-utdrag.json#Revelation of John 22:19",
+        "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766",
+        "basis": "Clementinas digitale tekst. Vulgata-håndskriftene er ikke avlest."
+       }
+      }
+     ],
+     "patristicWitnesses": [],
+     "isR10": true
+    },
+    {
+     "readingId": "b",
+     "label": "τοῦ ξύλου τῆς ζωῆς",
+     "text": "τοῦ ξύλου τῆς ζωῆς",
+     "lang": "grc",
+     "morphology": "Artikkel + substantiv, genitiv entall nøytrum + artikkel + substantiv, genitiv entall femininum.",
+     "norwegian": [
+      {
+       "text": "livets tre",
+       "kind": "ordrett"
+      }
+     ],
+     "editionSupport": [
+      {
+       "edition": "RP2018",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Åp 22,19/RP2018",
+        "basis": "Utgavens digitale tekst."
+       }
+      },
+      {
+       "edition": "TISCH8",
+       "verification": {
+        "status": "BEKREFTET_UTGAVETEKST",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Åp 22,19/TISCH8",
+        "basis": "Utgavens digitale tekst."
+       }
+      },
+      {
+       "edition": "NA28",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Åp 22,19/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «NA28». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "THGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Åp 22,19/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Tyn». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "SBLGNT",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Åp 22,19/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «SBL». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "WH",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Åp 22,19/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «WH». Utgaven selv er ikke avlest."
+       }
+      },
+      {
+       "edition": "TREG",
+       "verification": {
+        "status": "BEKREFTET_SEKUNDAERT",
+        "evidence": "kilder/belegg/nt-utgaver-utdrag.json#Åp 22,19/TAGNT",
+        "basis": "STEPBible TAGNT, utgavefeltet «Treg». Utgaven selv er ikke avlest."
+       }
+      }
+     ],
+     "manuscriptWitnesses": [
+      {
+       "siglum": "01",
+       "hand": null,
+       "locator": "fol. 333v",
+       "reading": "και αν τις αφελη απο των λογων τουτων του βιβλιου της προφητιας ταυτης αφελι ο ‾θς το μερος αυτου απο του ξυλου της ζωης και εκ της πολεως της αγιας των γεγραμμενων εν τω βιβλιω τουτω",
+       "attested": "απο του ξυλου της ζωης",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#01@Rev.22.19",
+        "sha256": "55e9e45fbab9a6f8e6b6b47f8c307f1df41d10a6d43b8f3906655bec1eedf609"
+       }
+      },
+      {
+       "siglum": "02",
+       "hand": null,
+       "locator": "fol. 158v",
+       "reading": "και εαν τις αφελη απο των λογων του βιβλιου της προφητειας ταυτης αφελει ο ‾θς το μερος αυτου απο του ξυλου της ζωης και της πολεως της αγιας των γεγραμμενων εν τω βιβλιω τουτω",
+       "attested": "απο του ξυλου της ζωης",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#02@Rev.22.19",
+        "sha256": "4f1d0c7794f1346dfb819f5fa74677dbc2d4e0d623d7cece2d044d6a953328cb"
+       }
+      },
+      {
+       "siglum": "1006",
+       "hand": null,
+       "locator": "fol. 216v",
+       "reading": "και εαν τις αφελη απο των λογων του βιβλιου της προφητειας ταυτης αφελει ο ‾θς το μερος αυτου απο του ξυλου της ζωης και εκ της πολεως της αγιας των γεγραμμενων εν τωι βιβλιω τουτωι",
+       "attested": "απο του ξυλου της ζωης",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#1006@Rev.22.19",
+        "sha256": "06e4392fcaec6f1117463aa7c420488437667cde9525e7de9ed1cea52dee72d0"
+       }
+      },
+      {
+       "siglum": "1854",
+       "hand": null,
+       "locator": "fol. 319v",
+       "reading": "και εαν τις αφελη απο των λογων του βιβλιου της προφητειας ταυτης αφελ(ο)ι ο ‾θς το μερος αυτου απο του ξυλου της ζωης και εκ της πολεως της αγιας των γεγραμμενων εν τω βιβλιω τουτω",
+       "attested": "απο του ξυλου της ζωης",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#1854@Rev.22.19",
+        "sha256": "ecb644a8aae97e8b77d43b0d952435cc748b69738f8ed4334a768d98855231da"
+       }
+      },
+      {
+       "siglum": "2050",
+       "hand": null,
+       "locator": "fol. 241r",
+       "reading": "και εαν τις αφελει τον λογον του βιβλιου της προφητειας ταυτης αφελει ο ‾θς το μερος αυτου απο του ξυλου της ζωης και εκ της πολεως αυτου της αγιας των γεγραμμενων τω βιβλιω τουτω",
+       "attested": "απο του ξυλου της ζωης",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#2050@Rev.22.19",
+        "sha256": "109a67ea5e2ae098638c59384af2118c78a022e3fd51a0af121a9230d99af8b3"
+       }
+      },
+      {
+       "siglum": "469",
+       "hand": null,
+       "locator": "fol. 229r",
+       "reading": "και εαν τις αφελη απο των λογων του βιβλιου της προφητειας ταυτης αφελει ο ‾θς το μερος αυτου απο του ξυλου της ζωης και εκ της πολεως της αγιας των γεγραμμενων εν τω βιβλιω τουτω",
+       "attested": "απο του ξυλου της ζωης",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#469@Rev.22.19",
+        "sha256": "2214e5394ea5495d7143c899e1dc51f08eb13faec6717a7a9195a865f80e8c28"
+       }
+      },
+      {
+       "siglum": "35",
+       "hand": null,
+       "locator": "fol. 325v",
+       "reading": "και εαν τις αφελη απο των λογων του βιβλιου της προφητειας ταυτης αφελοι ο ‾θς το μερος αυτου απο του ξυλου της ζωης και εκ της πολεως της αγιας των γεγραμμενων εν τω βιβλιω τουτω",
+       "attested": "απο του ξυλου της ζωης",
+       "certainty": "lest",
+       "verification": {
+        "status": "BEKREFTET_TRANSKRIPSJON",
+        "evidence": "kilder/belegg/intf-transkripsjoner.json#35@Rev.22.19",
+        "sha256": "91b606d9079d6c28b35c35e29d2053546bcd7031abd941b208d4c0da4dd99f94"
+       }
+      },
+      {
+       "siglum": "046",
+       "hand": null,
+       "locator": null,
+       "certainty": "ikke avlest",
+       "note": "Bladet med Åp 22,7–21 er bevart ifølge INTFs sideindeks, men stedet har ingen publisert transkripsjon.",
+       "verification": {
+        "status": "IKKE_AVLEST",
+        "mustReadIn": "Bildene hos Biblioteca Apostolica Vaticana (Vat. gr. 2066, fol. 268r) eller ECM Apokalypse"
+       }
+      }
+     ],
+     "versionWitnesses": [],
+     "patristicWitnesses": []
+    }
+   ],
+   "witnessPattern": {
+    "computed": true,
+    "scheme": "NT (strømmene i plan 3.1)",
+    "code": "TR ≠ Byz; Byz = tidlige førstehender",
+    "trReading": "a",
+    "byzReading": "b",
+    "earlyCutoffYear": 500,
+    "earlyFirstHands": {
+     "b": [
+      "01",
+      "02"
+     ]
+    },
+    "laterFirstHands": {
+     "b": [
+      "1006",
+      "1854",
+      "2050",
+      "469",
+      "35"
+     ]
+    },
+    "correctors": {},
+    "fathersMainWindow": {},
+    "fathersOutsideWindow": {},
+    "versions": {
+     "a": [
+      "Vg-Clem"
+     ]
+    },
+    "rule": "Tidlig = første hånd i gresk håndskrift med INTF-datering som slutter før år 500. Bare vitner bekreftet mot belegg teller, og ikke steder som er helt rekonstruert. Antall er ikke vekt."
+   },
+   "variantKind": {
+    "computed": "pluss_minus_og_annet_ord",
+    "assigned": "leksikalsk",
+    "assignedBy": "Fable (fagledelsen), utkast 2026-11-25"
+   },
+   "significance": "betydning",
+   "evaluation": {
+    "class": "ikke vurdert",
+    "by": null,
+    "date": null,
+    "arguments": [],
+    "literature": [],
+    "dissent": []
+   },
+   "philologicalNote": "R10 følger Scrivener: «livets bok». Alle de transkriberte greske håndskriftene har «livets tre», også de to eldste, og Robinson–Pierpont har samme lesning. Scriveners lesning er her belagt i den latinske Clementina. Ingen gresk håndskrift med βίβλου er bekreftet i Trinn 0. Oppdraget nevner P (025) som vitne for «livets tre». INTFs sideindeks viser at håndskriftet slutter med Åp 22,2–6, så stedet er ikke bevart der. Ephraemi slutter i Åp 19,5.",
+   "excludedWitnesses": [
+    {
+     "siglum": "025",
+     "reason": "Lakune: siste indekserte side med Åpenbaringen er fol. 120v (Rev 22:2-6).",
+     "evidence": "kilder/belegg/intf-transkripsjoner.json#lacunaChecks/025@Rev.22.19",
+     "sha256": "c142e30d3c9a856d576d363df6dc43a9599024ac4474a303753c7882fcac2a59"
+    },
+    {
+     "siglum": "04",
+     "reason": "Lakune: siste indekserte side med Åpenbaringen er fol. 123v (Rev 18:15-24; Rev 19:1-5).",
+     "evidence": "kilder/belegg/intf-transkripsjoner.json#lacunaChecks/04@Rev.22.19",
+     "sha256": "f2c9e7980a99b5aaa24491a0dc2eecdd59d9d12844374b1c36c722e90e353c70"
+    }
+   ],
+   "leads": [
+    "Minusklene 296 og 2049 oppgis å ha βίβλου og å være avskrifter av trykte utgaver. Ingen av dem har publisert transkripsjon av stedet hos INTF.",
+    "Latinske fedre som oppgis for «libro» (Ambrosius, De paradiso, CPL 124; Primasius, kommentaren til Åpenbaringen, CPL 873), er ikke avlest. Clavis-numrene er slått opp.",
+    "Hvilke Vulgata-håndskrifter som har libro og hvilke som har ligno, leses i Stuttgart-utgavens apparat."
+   ],
+   "provenance": [
+    {
+     "built": "2026-11-25",
+     "builder": "verktoy/bygg_piloter.py",
+     "enteredBy": "Fable (fagledelsen), første registrering",
+     "secondReader": null
+    }
+   ],
+   "checks": {
+    "sigla": "KJØRES AV validate_trinn0.py",
+    "anchor": "KJØRES AV validate_trinn0.py",
+    "unicode": "NFC ved bygg",
+    "doubleEntry": "IKKE KJØRT"
+   }
+  }
+ ]
+}

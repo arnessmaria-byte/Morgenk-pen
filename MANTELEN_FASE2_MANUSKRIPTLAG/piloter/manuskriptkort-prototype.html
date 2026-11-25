@@ -1,0 +1,389 @@
+<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Manuskriptkort, prototype</title><style>
+:root{--bg:#f7f4ec;--card:#fffdf8;--ink:#1c1a17;--muted:#5d564a;--line:#d9d0bd;--gold:#8a6a1f;--mark:#b08a2e;--chip:#efe8d6;--warn:#7a3b12}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0b0b;--card:#151412;--ink:#f1ead9;--muted:#b3a88f;--line:#3a3529;--gold:#d9b65a;--mark:#d9b65a;--chip:#24211a;--warn:#f0b27a}}
+:root[data-theme="dark"]{--bg:#0b0b0b;--card:#151412;--ink:#f1ead9;--muted:#b3a88f;--line:#3a3529;--gold:#d9b65a;--mark:#d9b65a;--chip:#24211a;--warn:#f0b27a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:"EB Garamond",Georgia,"Times New Roman",serif;font-size:18px;line-height:1.5}
+main{max-width:860px;margin:0 auto;padding:20px 16px 80px}h1{font-size:1.7rem;margin:.2em 0 .1em}h2{font-size:1.25rem;margin:0}
+.sub{color:var(--muted);margin:0 0 1em}.bar{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;z-index:2}
+.bar button{font:inherit;background:var(--card);color:var(--ink);border:1px solid var(--gold);border-radius:999px;padding:6px 14px;cursor:pointer}
+.bar button[aria-pressed="true"]{background:var(--gold);color:var(--bg)}
+.verse{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:18px 0}
+.ref{font-variant:small-caps;letter-spacing:.04em;color:var(--gold)}.r10{font-size:1.15rem;margin:.3em 0}
+.anchor{color:var(--muted);font-size:.95rem}.anchor span[lang]{color:var(--ink);border-bottom:2px solid transparent;font-size:1.15rem}
+body.mlag .anchor span[lang]{border-bottom-color:var(--mark)}
+.count{display:none;font-size:.85rem;border:1px solid var(--mark);border-radius:999px;padding:0 8px;margin-left:8px}body.mlag .count{display:inline-block}
+details.card{display:none;margin-top:12px;border-top:1px solid var(--line);padding-top:8px}body.mlag details.card{display:block}
+summary{cursor:pointer;color:var(--gold);font-weight:700}
+.reading{border-left:3px solid var(--line);padding:4px 0 4px 12px;margin:14px 0}.reading.r10r{border-left-color:var(--gold)}
+.lbl{font-weight:700}.tag{font-size:.8rem;background:var(--chip);border-radius:4px;padding:1px 6px;margin-left:6px;white-space:nowrap}
+.gt{font-size:1.3rem;margin:.2em 0}.no{margin:.1em 0}.form,.small{color:var(--muted);font-size:.9rem;margin:.1em 0}
+ul.w{list-style:none;padding:0;margin:8px 0}ul.w li{padding:6px 0;border-top:1px dotted var(--line);display:grid;grid-template-columns:1fr auto;gap:2px 10px}
+.wn{font-weight:700}.wd{color:var(--muted);font-size:.9rem;grid-column:1/-1}.st{font-size:.8rem;color:var(--muted);text-align:right}.st.open{color:var(--warn);font-weight:700}
+.eds{font-size:.92rem;border-top:1px solid var(--line);padding-top:6px;margin-top:6px}.axis{margin:.5em 0}.note{margin:.6em 0}
+details.eval{margin:.6em 0;border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+[lang=he]{direction:rtl;unicode-bidi:isolate;font-family:"SBL Hebrew","Ezra SIL","Times New Roman",serif}[lang=grc]{font-family:"SBL Greek","Gentium Plus",Georgia,serif}
+@media (max-width:560px){body{font-size:17px}ul.w li{grid-template-columns:1fr}.st{text-align:left}}
+</style></head><body class="mlag">
+<div class="bar"><button id="t" type="button" aria-pressed="true">Manuskript- og grunnkildemodus: på</button><span class="small">Filter: endrer betydningen · prototype fra Trinn 0, utkast</span></div><main>
+<h1>Manuskriptkort for ti pilotsteder</h1><p class="sub">Prototype av kortvisningen i mantelen.no/bibelen. Laget fra pilotfilen og registrene. R10 vises uendret når modusen er av.</p>
+<section class="verse" aria-labelledby="h1"><h2 id="h1"><span class="ref">Jes 53,11</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Etter sin sjels møye skal han se og mettes. Ved sin kunnskap skal min rettferdige tjener rettferdiggjøre de mange, og deres misgjerninger skal han selv bære.</p><p class="anchor">Grunntekst: <span lang="he" translate="no" title="variant i dette ordet">יִרְאֶ֣ה</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: MT: uten objekt</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="he" translate="no">יִרְאֶה</p>
+<p class="no">«skal han se»</p>
+<p class="form">Verb, Qal, yiqtol, 3. person maskulinum entall. Verbet står uten objekt.</p><ul class="w">
+<li><span class="wn">B19ᴬ (Codex Leningradensis) <span class="tag">kodeks</span></span><span class="st">lest i transkripsjon</span><span class="wd">ikke registrert · <span lang="he" translate="no">יראה ישבע</span></span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10), MAM</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: «lys»</span></p>
+<p class="gt" lang="he" translate="no">יראה אור</p>
+<p class="no">«skal han se lys» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Samme verb med objektet אוֹר: substantiv, maskulinum entall, absolutt form.</p><ul class="w">
+<li><span class="wn">1QIsaᵃ <span class="tag">rulle</span></span><span class="st">lest i transkripsjon</span><span class="wd">ikke registrert · ETCBC-sted 44, linje 19–20 · <span lang="he" translate="no">יראה אור</span></span></li>
+<li><span class="wn">1QIsaᵇ <span class="tag">rulle</span></span><span class="st">lest i transkripsjon</span><span class="wd">periode: Herodian · ETCBC-sted 23, linje 22–23 · <span lang="he" translate="no">יראה אור</span></span></li>
+<li><span class="wn">4QIsaᵈ <span class="tag">rulle</span></span><span class="st">lest i transkripsjon</span><span class="wd">periode: Herodian · ETCBC-sted 8, linje 20–21 · <span lang="he" translate="no">יראה או?[ר]</span> (delvis rekonstruert)</span></li>
+<li><span class="wn">LXX <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">Isa 53:11 · <span lang="grc" translate="no">δεῖξαι αὐτῷ φῶς</span> · «å vise ham lys» (ordrett) · forelegg: sannsynlig · Gresk har en annen setningsbygning (infinitiv). Ordet φῶς svarer til אור og kan ikke avledes av MT-ordlyden.</span></li>
+</ul>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> Q = G ≠ M</p><p class="axis"><strong>Variantart:</strong> pluss · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">Etter יִרְאֶה har tre Jesaja-ruller ordet אור, «lys», og Septuaginta har φῶς på samme sted. Den masoretiske teksten har verbet uten objekt, og R10 følger den: «skal han se». I 1QIsaᵃ og 4QIsaᵈ står det dessuten «og» foran det neste verbet, mens 1QIsaᵇ og MT ikke har det. I 4QIsaᵈ er siste bokstav i אור rekonstruert i transkripsjonen. 4QIsaᵇ (4Q56) har bare slutten av verset og er ikke vitne på dette stedet. Om «lys» er falt ut i MT eller lagt til i de andre vitnene, er en vurdering og er ikke gjort her.</p>
+<p class="small"><strong>Må kontrolleres mot kilde:</strong> Dateringen av de tre rullene hentes fra DJD XV og DJD XXXII av navngitt leser. Leon Levy oppgir bare periode.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h2"><h2 id="h2"><span class="ref">5 Mos 32,8</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Da Den Høyeste ga folkeslagene arv, da han skilte menneskenes sønner fra hverandre, fastsatte han folkenes grenser etter tallet på Israels sønner.</p><p class="anchor">Grunntekst: <span lang="he" translate="no" title="variant i dette ordet">בְּנֵ֥י יִשְׂרָאֵֽל׃</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: MT: «Israels sønner»</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="he" translate="no">בְּנֵי יִשְׂרָאֵל</p>
+<p class="no">«Israels sønner»</p>
+<p class="form">Substantiv, maskulinum flertall, konstruktus + egennavn.</p><ul class="w">
+<li><span class="wn">B19ᴬ (Codex Leningradensis) <span class="tag">kodeks</span></span><span class="st">lest i transkripsjon</span><span class="wd">ikke registrert · <span lang="he" translate="no">בני ישראל</span></span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10), MAM</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: «Guds sønner»</span></p>
+<p class="gt" lang="he" translate="no">בני אלוהים</p>
+<p class="no">«Guds sønner» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Substantiv, maskulinum flertall, konstruktus + אלוהים (plene skrivemåte).</p><ul class="w">
+<li><span class="wn">4QDeutʲ <span class="tag">rulle</span></span><span class="st">lest i transkripsjon</span><span class="wd">periode: Herodian · ETCBC-sted 12, linje 13–14 · <span lang="he" translate="no">בני אלוהים</span> · De to ordene er lest. Resten av verset er rekonstruert i transkripsjonen.</span></li>
+<li><span class="wn">LXX <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">Deut 32:8 · <span lang="grc" translate="no">ἀγγέλων θεοῦ</span> · «Guds engler» (ordrett) · forelegg: sannsynlig · Gresk har «engler», ikke «sønner». Ordlyden forutsetter et gudsnavn i forelegget og kan ikke avledes av «Israels sønner».</span></li>
+</ul>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> Q = G ≠ M</p><p class="axis"><strong>Variantart:</strong> leksikalsk · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">Forskjellen gjelder hvem tallet viser til. MT har «Israels sønner», og R10 følger den. 4QDeutʲ har בני אלוהים, «Guds sønner». Swetes greske tekst har ἀγγέλων θεοῦ, «Guds engler». R10-noten til verset viser til Tovs drøfting av stedet. 4QpaleoDeutʳ (4Q45) har deler av verset, men ordene det gjelder, er rekonstruert der, så rullen er ikke vitne. 4QDeutᑫ har ikke bevart verset. Vurderingen av hvilken lesning som er eldst, hører til akse 3 og er ikke gjort.</p>
+<p class="small"><strong>Må kontrolleres mot kilde:</strong> Greske håndskrifter med υἱῶν θεοῦ, «Guds sønner», oppgis i Wevers’ Göttingen-utgave. Sigla og datering må leses der og i Rahlfs–Fraenkel før de registreres. Den samaritanske Pentateuk oppgis å lese som MT. Stedet må leses i von Gall.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h3"><h2 id="h3"><span class="ref">5 Mos 32,43</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Juble, folkeslag, over hans folk! For han skal hevne sine tjeneres blod og vende hevn tilbake over sine motstandere; han skal gjøre soning for sitt land og sitt folk.»</p><p class="anchor">Grunntekst: <span lang="he" translate="no" title="variant i dette ordet">הַרְנִ֤ינוּ … עַמּֽוֹ׃</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: MT: kortere tekst</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="he" translate="no">הַרְנִ֤ינוּ גוֹיִם֙ עַמּ֔וֹ כִּ֥י דַם־עֲבָדָ֖יו יִקּ֑וֹם וְנָקָם֙ יָשִׁ֣יב לְצָרָ֔יו וְכִפֶּ֥ר אַדְמָת֖וֹ עַמּֽוֹ׃</p>
+<p class="no">«Juble, folkeslag, over hans folk! For han skal hevne sine tjeneres blod og vende hevn tilbake over sine motstandere; han skal gjøre soning for sitt land og sitt folk.»»</p>
+<p class="form">Fire ledd: oppfordring til folkeslagene, hevn for tjenernes blod, gjengjeldelse, soning for land og folk.</p><ul class="w">
+<li><span class="wn">B19ᴬ (Codex Leningradensis) <span class="tag">kodeks</span></span><span class="st">lest i transkripsjon</span><span class="wd">ikke registrert · <span lang="he" translate="no">… י דם עבדיו יקום ונקם ישיב לצריו וכפר אדמתו עמו</span></span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10), MAM</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: 4QDeutᑫ: lengre tekst</span></p>
+<p class="gt" lang="he" translate="no">הרנינו שמים עמו והשתחוו לו כל אלהים כי דם בניו יקום ונקם ישיב לצריו ולמשנאיו ישלם ויכפר אדמת עמו</p>
+<p class="no">«Juble, himler, med ham, og tilbe ham, alle guder! For sine sønners blod skal han hevne, og hevn skal han vende tilbake over sine motstandere; dem som hater ham, skal han gjengjelde, og han skal gjøre soning for sitt folks land.» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="no">«Juble, himler, over hans folk …» <span class="tag">tolkende gjengivelse</span> <span class="small">עמו er uvokalisert og kan leses «med ham» (slik gresk har) eller «hans folk» (slik MT vokaliserer ordet).</span></p>
+<p class="form">Seks ledd. Oppfordringen går til himlene, ikke folkeslagene. Leddet om tilbedelse og leddet om dem som hater ham, står ikke i MT. «Sønner» der MT har «tjenere».</p><ul class="w">
+<li><span class="wn">4QDeutᑫ <span class="tag">rulle</span></span><span class="st">lest i transkripsjon</span><span class="wd">periode: Herodian · ETCBC-sted f5ii, linje 6–11 · <span lang="he" translate="no">הרנינו שמים עמ׳ו ו השתחוו ל׳ו כל אלהים כי דם בני׳ו יקום ו נקם ישיב ל צרי׳ו ו ל משנאי׳ו ישלם ו יכפר אדמת עמ׳ו</span></span></li>
+</ul>
+</div>
+<div class="reading"><p><span class="lbl">Lesning c: LXX: lengre tekst</span></p>
+<p class="gt" lang="grc" translate="no">εὐφράνθητε, οὐρανοί, ἅμα αὐτῷ, καὶ προσκυνησάτωσαν αὐτῷ πάντες οἱ ἄγγελοι θεοῦ· εὐφράνθητε, ἔθνη, μετὰ τοῦ λαοῦ αὐτοῦ, καὶ ἐνισχυσάτωσαν αὐτῷ πάντες υἱοὶ θεοῦ· ὅτι τὸ αἷμα τῶν υἱῶν αὐτοῦ ἐκδικεῖται, καὶ ἐκδικήσει, καὶ ἀνταποδώσει δίκην τοῖς ἐχθροῖς· καὶ τοῖς μισοῦσιν ἀνταποδώσει δίκην, καὶ ἐκκαθαριεῖ Κύριος τὴν γῆν τοῦ λαοῦ αὐτοῦ.</p>
+<p class="no">«Gled dere, himler, sammen med ham, og alle Guds engler skal tilbe ham. Gled dere, folkeslag, sammen med hans folk, og alle Guds sønner skal styrke seg i ham. For hans sønners blod blir hevnet, og han skal hevne og gjengjelde fiendene med dom; dem som hater, skal han gjengjelde med dom, og Herren skal rense sitt folks land.» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Åtte ledd. Teksten er gjengitt etter Odae 2:43 hos Swete, der den er hel. Imperativ 3. person flertall i προσκυνησάτωσαν og ἐνισχυσάτωσαν.</p><ul class="w">
+<li><span class="wn">LXX Odae <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">Odae 2:43 · <span lang="grc" translate="no">καὶ προσκυνησάτωσαν αὐτῷ πάντες οἱ ἄγγελοι θεοῦ</span> · «og alle Guds engler skal tilbe ham» (ordrett) · forelegg: kan ikke avgjøres</span></li>
+<li><span class="wn">LXX <span class="tag">oversettelse</span></span><span class="st open">delvis lest</span><span class="wd">Deut 32:43 · <span lang="grc" translate="no">καὶ προσκυνησάτωσαν αὐτῷ ⟨…⟩ υἱοὶ ⟨…⟩</span> · forelegg: sannsynlig · Den digitale Swete-teksten har OCR-tap i dette verset. ⟨…⟩ markerer tapene. Seks ledd er funnet i teksten, resten må leses i trykt utgave.</span></li>
+</ul>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> Q ≠ G ≠ M</p><p class="axis"><strong>Variantart:</strong> pluss · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">Verset finnes i tre former. MT har fire ledd, og R10 følger MT. 4QDeutᑫ har seks ledd, og den greske teksten har åtte. De to lange formene er ikke like: rullen har «alle guder» der gresk har «Guds engler» og «Guds sønner». Den greske teksten er her gjengitt etter Odae 2:43 hos Swete, fordi den digitale Swete-teksten til 5 Mos 32:43 har tap. I 5 Mos-formen står «sønner» i tilbedelsesleddet, i Odae-formen «engler». Hebr 1,6 i R10 har ordlyden «Καὶ προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι Θεοῦ». Den er lik Odae 2:43 bortsett fra artikkelen οἱ. Etter planens regel er et NT-sitat som kan avledes av kjent gresk tekst, ikke et uavhengig vitne.</p>
+<p class="small"><strong>Må kontrolleres mot kilde:</strong> Sal 96:7 LXX er en annen mulig kilde for ordlyden i Hebr 1,6. Stedet er ikke hentet i Trinn 0. Swete-teksten til 5 Mos 32:43 må leses i trykt utgave før LXX-lesningen kan låses.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h4"><h2 id="h4"><span class="ref">Sal 22,17 (vestlig Sal 22,16)</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">For hunder har omringet meg, en flokk av ugjerningsmenn har sluttet seg om meg; som en løve er de over mine hender og mine føtter.</p><p class="anchor">Grunntekst: <span lang="he" translate="no" title="variant i dette ordet">כָּ֝אֲרִ֗י</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: MT: «som en løve»</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="he" translate="no">כָּאֲרִי</p>
+<p class="no">«som en løve»</p>
+<p class="form">Preposisjon כְּ med artikkel + substantiv, maskulinum entall, absolutt form.</p><ul class="w">
+<li><span class="wn">B19ᴬ (Codex Leningradensis) <span class="tag">kodeks</span></span><span class="st">lest i transkripsjon</span><span class="wd">ikke registrert · <span lang="he" translate="no">כארי ידי ורגלי</span></span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10), MAM</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: verbform med waw</span></p>
+<p class="gt" lang="he" translate="no">כארו</p>
+<p class="no">«de har gravd» <span class="tag">ordrett gjengivelse av lesningen</span> <span class="small">Hvis formen hører til en rot for «grave». BDB drøfter rot og betydning med forbehold.</span></p>
+<p class="no">«de har gjennomboret» <span class="tag">tolkende gjengivelse</span> <span class="small">Den tradisjonelle gjengivelsen i KJV og Bibelen 1930. Den tar stilling til hva gravingen betyr.</span></p>
+<p class="form">Sluttbokstaven er waw, ikke jod. Formen leses som verb, 3. person flertall, qatal. Rot og betydning er omstridt.</p><ul class="w">
+<li><span class="wn">5/6ḤevPs <span class="tag">rulle</span></span><span class="st">lest i transkripsjon</span><span class="wd">ikke registrert · ETCBC-sted f8_9, linje 12 · <span lang="he" translate="no">כארו</span></span></li>
+<li><span class="wn">LXX <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">Ps 21:17 · <span lang="grc" translate="no">ὤρυξαν</span> · «de gravde» (ordrett) · forelegg: sannsynlig · Gresk har et verb i 3. person flertall. Det forutsetter en verbform i forelegget, ikke «som en løve».</span></li>
+</ul>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b2: verbform uten alef (usikker)</span></p>
+<p class="gt" lang="he" translate="no">כר[ו]</p>
+<p class="no">«de har gravd» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Tre bokstaver, de to første usikre og den siste rekonstruert i transkripsjonen.</p><ul class="w">
+<li><span class="wn">4QPsᶠ <span class="tag">rulle</span></span><span class="st">lest i transkripsjon</span><span class="wd">periode: Hasmonean · ETCBC-sted f1_2, linje 23–25 · <span lang="he" translate="no">כ?ר?[ו]</span> (delvis rekonstruert) · Lesningen er usikker. Bare en ny avlesing av fragmentet kan avgjøre om rullen støtter verbformen.</span></li>
+</ul>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> Q = G ≠ M</p><p class="axis"><strong>Variantart:</strong> leksikalsk · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">Lesningen og tolkningen holdes adskilt. MT har כָּאֲרִי, «som en løve», og R10 følger MT: «som en løve er de over mine hender og mine føtter». Verbet i R10-setningen er en norsk utfylling. Salmerullen fra Nahal Hever har כארו med waw, og Swetes greske tekst har ὤρυξαν, «de gravde». Derfor har lesning b to gjengivelser: den ordrette og den tradisjonelle. 4QPsᶠ har bare usikre bokstaver på stedet. Adressen er Sal 22,17 i MT og 22,16 i vestlig nummerering. I gresk er det Sal 21,17.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h5"><h2 id="h5"><span class="ref">Sal 145,13</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Ditt rike er et rike for alle tider, og ditt herredømme varer fra slekt til slekt.</p><p class="anchor">Grunntekst: <span lang="he" translate="no" title="variant i dette ordet">וָדֽוֹר׃</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: MT: uten nun-linjen</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="no">«(linjen står ikke i teksten)»</p>
+<p class="form">Akrostikonet går fra mem-linjen (v. 13) rett til samek-linjen (v. 14).</p><ul class="w">
+<li><span class="wn">B19ᴬ (Codex Leningradensis) <span class="tag">kodeks</span></span><span class="st">lest i transkripsjon</span><span class="wd">ikke registrert · <span lang="he" translate="no">(linjen står ikke)</span> · Ingen linje mellom v. 13 og v. 14.</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10), MAM</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: nun-linjen</span></p>
+<p class="gt" lang="he" translate="no">נאמן אלוהים בדבריו וחסיד בכול מעשיו</p>
+<p class="no">«Trofast er Gud i sine ord og god i alle sine gjerninger.» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Nominalsetning i to ledd. Første ord begynner på nun. Gudsnavnet er אלוהים.</p><ul class="w">
+<li><span class="wn">11QPsᵃ <span class="tag">rulle</span></span><span class="st">lest i transkripsjon</span><span class="wd">periode: Herodian · ETCBC-sted 17, linje 1–4 · <span lang="he" translate="no">נאמן אלוהים ב דברי׳ו ו חסיד ב כול מעשי׳ו</span> · Rullen har også et omkved etter hvert vers: «Velsignet være HERREN, og velsignet være hans navn for evig og alltid.»</span></li>
+<li><span class="wn">LXX <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">Ps 144:13a · <span lang="grc" translate="no">πιστὸς Κύριος ἐν τοῖς λόγοις αὐτοῦ, καὶ ὅσιος ἐν πᾶσι τοῖς ἔργοις αὐτοῦ</span> · «Trofast er Herren i sine ord, og hellig i alle sine gjerninger.» (ordrett) · forelegg: sannsynlig · Gresk har Κύριος der rullen har אלוהים. Det digitale datasettet fører linjen under v. 14.</span></li>
+</ul>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> Q = G ≠ M</p><p class="axis"><strong>Variantart:</strong> pluss · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">Salmen følger alfabetet, og mellom mem-linjen og samek-linjen mangler nun-linjen i MT. R10 følger MT. 11QPsᵃ har en nun-linje, og Swetes greske tekst har linjen som 144:13a. De to er ikke like i gudsnavnet: rullen har «Gud», gresk «Herren». חסיד er gjengitt «god», slik R10 gjengir ordet i vers 17. R10-noten til verset omtaler de samme vitnene.</p>
+<p class="small"><strong>Må kontrolleres mot kilde:</strong> Et middelaldersk hebraisk håndskrift (Kennicott) og den syriske oversettelsen oppgis også å ha linjen. De er ikke avlest.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h6"><h2 id="h6"><span class="ref">Mark 1,1</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Begynnelsen på evangeliet om Jesus Kristus, Guds Sønn.</p><p class="anchor">Grunntekst: <span lang="grc" translate="no" title="variant i dette ordet">υιου του θεου</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: υἱοῦ τοῦ θεοῦ</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="grc" translate="no">υἱοῦ τοῦ θεοῦ</p>
+<p class="no">«Guds Sønn»</p>
+<p class="form">Substantiv, genitiv entall maskulinum + artikkel + substantiv, genitiv entall maskulinum.</p><ul class="w">
+<li><span class="wn">A 02 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 30r · <span lang="grc" translate="no">‾χυ ‾υυ του ‾θυ</span></span></li>
+<li><span class="wn">K 017 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · fol. 82r · <span lang="grc" translate="no">‾χυ υιου του ‾θυ</span></span></li>
+<li><span class="wn">Δ 037 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · INTF-side/blad 133 · <span lang="grc" translate="no">‾χυ ‾υυ του ‾θυ</span></span></li>
+<li><span class="wn">Π 041 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · fol. 99r · <span lang="grc" translate="no">‾χυ ‾υυ του ‾θυ</span></span></li>
+<li><span class="wn">565 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · fol. 131r · <span lang="grc" translate="no">‾χυ υιου του ‾θυ</span></span></li>
+<li><span class="wn">892 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · fol. 114r · <span lang="grc" translate="no">‾χυ ‾υυ του ‾θυ</span></span></li>
+<li><span class="wn">1424 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–999 (IX/X) · fol. 56r · <span lang="grc" translate="no">‾χυ ‾υυ του ‾θυ</span></span></li>
+<li><span class="wn">33 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">900–999 (X) · fol. 114v · <span lang="grc" translate="no">‾χυ ‾υυ του ‾θυ</span></span></li>
+<li><span class="wn">700 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1000–1099 (XI) · fol. 092r · <span lang="grc" translate="no">‾χυ υιου του ‾θυ</span></span></li>
+<li><span class="wn">1 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1100–1199 (XII) · fol. 199r · <span lang="grc" translate="no">‾χυ υιου του ‾θυ</span></span></li>
+<li><span class="wn">13 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1100–1299 (XII/XIII) · fol. 042r · <span lang="grc" translate="no">‾χυ υιου του ‾θυ</span></span></li>
+<li><span class="wn">Vulgata Clementina <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">Mark 1:1 · <span lang="la" translate="no">Filii Dei</span> · «Guds Sønn» (ordrett) · forelegg: kan ikke avgjøres · Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen.</span></li>
+<li><span class="wn">Irenæus av Lyon, Adversus haereses <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">III.10.5 · CPG 1306 · hovedvindu · sitat, latin · i oversettelse: «The beginning of the Gospel of Jesus Christ, the Son of God» · Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen.</span></li>
+<li><span class="wn">Irenæus av Lyon, Adversus haereses <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">III.16.3 · CPG 1306 · hovedvindu · sitat, latin · i oversettelse: «The beginning of the Gospel of Jesus Christ, the Son of God» · Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen.</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10), Robinson–Pierpont 2018</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: υἱοῦ θεοῦ</span></p>
+<p class="gt" lang="grc" translate="no">υἱοῦ θεοῦ</p>
+<p class="no">«Guds Sønn» <span class="tag">ordrett gjengivelse av lesningen</span> <span class="small">Norsk gjengivelse er lik lesning a.</span></p>
+<p class="form">Samme ord uten artikkel.</p><ul class="w">
+<li><span class="wn">ℵ 01 korr. 1 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">håndskriftet 300–399 (IV); korrektoren er senere og ikke datert i registeret · fol. 217v · <span lang="grc" translate="no">‾χυ ‾υυ ‾θυ</span></span></li>
+<li><span class="wn">B 03 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">300–399 (IV) · INTF-side/blad 1277 · <span lang="grc" translate="no">‾χυ υιου ‾θυ</span></span></li>
+<li><span class="wn">D 05 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 285v · <span lang="grc" translate="no">‾χρυ υιου ‾θυ</span></span></li>
+<li><span class="wn">W 032 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · INTF-side/blad 311 · <span lang="grc" translate="no">‾χυ υιου ‾θυ</span></span></li>
+<li><span class="wn">L 019 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">700–799 (VIII) · fol. 70v · <span lang="grc" translate="no">‾χυ ‾υυ ‾θυ</span></span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: THGNT, Tregelles, NA28 (i hakeparentes)</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning c: uten «Guds Sønn»</span></p>
+<p class="no">«(ordene står ikke)» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Verset slutter med Ἰησοῦ Χριστοῦ.</p><ul class="w">
+<li><span class="wn">ℵ 01* <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">300–399 (IV) · fol. 217v · <span lang="grc" translate="no">ευαγγελιου ‾ιυ ‾χυ</span></span></li>
+<li><span class="wn">Θ 038 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · <span lang="grc" translate="no">ευαγγελιου ‾ιυ ‾χυ</span></span></li>
+<li><span class="wn">28 korr. <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">håndskriftet 1000–1099 (XI); korrektoren er senere og ikke datert i registeret · fol. 84r · <span lang="grc" translate="no">ευαγγελιου ‾ιυ ‾χυ</span> · Første hånd i 28 har bare ιυ. Korrektoren har lagt til χυ.</span></li>
+<li><span class="wn">Irenæus av Lyon, Adversus haereses <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">III.11.8 · CPG 1306 · hovedvindu · sitat, latin · i oversettelse: «The beginning of the Gospel of Jesus Christ, as it is written in Esaias the prophet»</span></li>
+<li><span class="wn">Origenes, Contra Celsum <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">II.4 · CPG 1476 · hovedvindu · sitat, gresk · i oversettelse: «The beginning of the Gospel of Jesus Christ, as it is written in the prophet Isaiah»</span></li>
+<li><span class="wn">Origenes, Commentarii in Iohannem <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">I.14 (ANF-inndeling) · CPG 1453 · hovedvindu · sitat, gresk · i oversettelse: «The beginning of the Gospel of Jesus Christ.»</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: Tischendorf 8, SBLGNT, Westcott–Hort</p>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> TR = Byz; tidlige førstehender delt (a: 02; b: 03, 05, 032; c: 01)</p><p class="axis"><strong>Variantart:</strong> minus · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">R10 følger Scrivener: «Guds Sønn» med artikkel foran θεοῦ. Robinson–Pierpont har det samme. Lesning b har de samme ordene uten artikkel og gir samme norske tekst. Lesning c har ikke ordene. Første hånd i Sinaiticus har ikke ordene, og en korrektor har lagt dem til uten artikkel. Irenæus er delt i oversettelsen: to steder har «Guds Sønn», ett har det ikke. Minuskel 1241 har ifølge transkripsjonen υἱοῦ τοῦ κυρίου og er ikke ført under noen av lesningene.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h7"><h2 id="h7"><span class="ref">Joh 1,18</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Ingen har noen gang sett Gud. Den eneste Sønnen, som er i Faderens favn, han har gjort Gud kjent.</p><p class="anchor">Grunntekst: <span lang="grc" translate="no" title="variant i dette ordet">ὁ μονογενὴς υἱός</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: ὁ μονογενὴς υἱός</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="grc" translate="no">ὁ μονογενὴς υἱός</p>
+<p class="no">«Den eneste Sønnen»</p>
+<p class="form">Artikkel + adjektiv + substantiv, alle nominativ entall maskulinum.</p><ul class="w">
+<li><span class="wn">A 02 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 66r · <span lang="grc" translate="no">ο μονογενης υιος</span></span></li>
+<li><span class="wn">C 04 korr. 3 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">håndskriftet 400–499 (V); korrektoren er senere og ikke datert i registeret · fol. 188r · <span lang="grc" translate="no">ο μονογενης ‾υς</span></span></li>
+<li><span class="wn">Δ 037 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · INTF-side/blad 319 · <span lang="grc" translate="no">ο μονογενης ‾υς</span></span></li>
+<li><span class="wn">Θ 038 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · <span lang="grc" translate="no">ο μονογε νης υιος</span></span></li>
+<li><span class="wn">Vulgata Clementina <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">John 1:18 · <span lang="la" translate="no">unigenitus Filius</span> · «den enbårne Sønn» (ordrett) · forelegg: kan ikke avgjøres · Latin viser «Sønn» mot «Gud», men ikke artikkelen.</span></li>
+<li><span class="wn">Irenæus av Lyon, Adversus haereses <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">III.11.6 · CPG 1306 · hovedvindu · sitat, latin · i oversettelse: «the only-begotten Son of God, which is in the bosom of the Father» · Oversettelsen har «Son of God».</span></li>
+<li><span class="wn">Irenæus av Lyon, Adversus haereses <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">IV.20.6 · CPG 1306 · hovedvindu · sitat, latin · i oversettelse: «the only-begotten Son, who is in the bosom of the Father»</span></li>
+<li><span class="wn">Tertullian, Adversus Praxean <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">15 · CPL 26 · hovedvindu · sitat, latin · i oversettelse: «the only begotten Son, who is in the bosom of the Father»</span></li>
+<li><span class="wn">Hippolyt av Roma, Contra Noetum <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">5 · CPG 1902 · hovedvindu · sitat, gresk · i oversettelse: «the only-begotten Son, which is in the bosom of the Father»</span></li>
+<li><span class="wn">Origenes, Contra Celsum <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">II.71 · CPG 1476 · hovedvindu · omstridt, gresk · i oversettelse: «the only-begotten Son, who is in the bosom of the Father» · Oversettelsen bygger på en eldre utgave. Hva den kritiske utgaven har på stedet, må leses før sitatet teller for en lesning.</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10), Robinson–Pierpont 2018, Tischendorf 8, THGNT</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: μονογενὴς θεός</span></p>
+<p class="gt" lang="grc" translate="no">μονογενὴς θεός</p>
+<p class="no">«den eneste Gud» <span class="tag">ordrett gjengivelse av lesningen</span> <span class="small">Slik R10-noten gjengir lesningen formnært.</span></p>
+<p class="no">«den eneste, som er Gud» <span class="tag">tolkende gjengivelse</span> <span class="small">Forklarende gjengivelse fra R10-noten.</span></p>
+<p class="form">Adjektiv + substantiv, nominativ entall maskulinum, uten artikkel.</p><ul class="w">
+<li><span class="wn">𝔓66 <span class="tag">papyrus</span></span><span class="st">lest i transkripsjon</span><span class="wd">200–225 (III (A)) · INTF-side/blad 2 · <span lang="grc" translate="no">πωποται μ(ο)νογενης ‾θς</span> (usikre bokstaver)</span></li>
+<li><span class="wn">ℵ 01* <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">300–399 (IV) · fol. 247r · <span lang="grc" translate="no">πωποτε μονογενης ‾θς</span></span></li>
+<li><span class="wn">B 03* <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">300–399 (IV) · INTF-side/blad 1350 · <span lang="grc" translate="no">πωποτε μονογενης ‾θς</span></span></li>
+<li><span class="wn">C 04* <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 188r · <span lang="grc" translate="no">πωποτε μονογενης ‾θς</span></span></li>
+<li><span class="wn">Irenæus av Lyon, Adversus haereses <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">IV.20.11 · CPG 1306 · hovedvindu · sitat, latin · i oversettelse: «The only-begotten God, which is in the bosom of the Father» · Latin har ingen artikkel og kan ikke skille mellom greske lesninger som bare avviker i artikkelen.</span></li>
+<li><span class="wn">Klemens av Alexandria, Stromata <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">V.12 · CPG 1377 · hovedvindu · sitat, gresk · i oversettelse: «The only-begotten God, who is in the bosom of the Father» · Oversettelsen viser ikke om gresk har artikkel.</span></li>
+<li><span class="wn">Origenes, Commentarii in Iohannem <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">II.29 (ANF-inndeling) · CPG 1453 · hovedvindu · sitat, gresk · i oversettelse: «the only-begotten God, who is in the bosom of the Father» · Oversettelsen viser ikke om gresk har artikkel.</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: NA28, SBLGNT, Westcott–Hort, Tregelles</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning c: ὁ μονογενὴς θεός</span></p>
+<p class="gt" lang="grc" translate="no">ὁ μονογενὴς θεός</p>
+<p class="no">«den eneste Gud» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Som b, med artikkel.</p><ul class="w">
+<li><span class="wn">𝔓75* <span class="tag">papyrus</span></span><span class="st">lest i transkripsjon</span><span class="wd">200–225 (III (A)) · <span lang="grc" translate="no">ο μονογενης ‾θς</span></span></li>
+<li><span class="wn">ℵ 01 korr. 2 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">håndskriftet 300–399 (IV); korrektoren er senere og ikke datert i registeret · fol. 247r · <span lang="grc" translate="no">πωποτε ο μονογενης ‾θς</span></span></li>
+</ul>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> TR = Byz; tidlige førstehender delt (a: 02; b: P66, 01, 03, 04; c: P75)</p><p class="axis"><strong>Variantart:</strong> leksikalsk · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">R10 følger Scrivener: «Den eneste Sønnen». Robinson–Pierpont og Tischendorf har samme lesning, og TAGNT fører THGNT under den. De to tidligste papyrusene og første hånd i Sinaiticus, Vaticanus og Ephraemi har θεός, med eller uten artikkel. Alexandrinus har υἱός. I Ephraemi har en korrektor endret til υἱός, og i Sinaiticus har en korrektor lagt til artikkelen. Fedrene er delt, også innenfor samme verk hos Irenæus. Sitatene er bare funnet i engelsk oversettelse, og et latinsk eller oversatt sitat viser ikke artikkelen. R10-noten til verset omtaler de samme hovedvitnene.</p>
+<p class="small"><strong>Må kontrolleres mot kilde:</strong> Tatians, Klemens’ (Excerpta ex Theodoto) og Origenes’ øvrige sitater av verset må leses i kritiske utgaver før de registreres. THGNT-valget er belagt med én kilde (TAGNT) og bør leses i utgaven.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h8"><h2 id="h8"><span class="ref">Apg 8,37</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Og Filip sa: «Hvis du tror av hele hjertet, er det tillatt.» Og han svarte og sa: «Jeg tror at Jesus Kristus er Guds Sønn.»</p><p class="anchor">Grunntekst: <span lang="grc" translate="no" title="variant i dette ordet">εἶπε … Χριστόν</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: verset i Scriveners form</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="grc" translate="no">εἶπε δὲ ὁ Φίλιππος Εἰ πιστεύεις ἐξ ὅλης τῆς καρδίας ἔξεστιν ἀποκριθεὶς δὲ εἶπε Πιστεύω τὸν υἱὸν τοῦ Θεοῦ εἶναι τὸν Ἰησοῦν Χριστόν</p>
+<p class="no">«Og Filip sa: «Hvis du tror av hele hjertet, er det tillatt.» Og han svarte og sa: «Jeg tror at Jesus Kristus er Guds Sønn.»»</p>
+<p class="form">Hele verset. Scrivener har ὁ Φίλιππος som subjekt og ikke σου etter καρδίας.</p><ul class="w">
+<li><span class="wn">Vulgata Clementina <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">Acts 8:37 · <span lang="la" translate="no">Dixit autem Philippus: Si credis ex toto corde, licet. Et respondens ait: Credo Filium Dei esse Jesum Christum.</span> · «Og Filip sa: Hvis du tror av hele hjertet, er det tillatt. Og han svarte og sa: Jeg tror at Jesus Kristus er Guds Sønn.» (ordrett) · forelegg: kan ikke avgjøres · Clementina har «Philippus» og ikke «tuo», som Scrivener. Den viser at verset står i den trykte Vulgata, ikke hvilke håndskrifter som har det.</span></li>
+<li><span class="wn">Vetus Latina <span class="tag">oversettelse</span></span><span class="st open">ikke avlest</span><span class="wd"> · forelegg: kan ikke avgjøres · Oppdraget nevner Vetus Latina som vitne. Ingen gammellatinsk tekst er hentet i Trinn 0.</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10)</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning a2: verset i minuskelform</span></p>
+<p class="gt" lang="grc" translate="no">εἶπε δὲ αὐτῷ· εἰ πιστεύεις ἐξ ὅλης τῆς καρδίας σου, ἔξεστιν· ἀποκριθεὶς δὲ εἶπε· πιστεύω τὸν υἱὸν τοῦ θεοῦ εἶναι Ἰησοῦν Χριστόν</p>
+<p class="no">«Og han sa til ham: «Hvis du tror av hele ditt hjerte, er det tillatt.» Og han svarte og sa: «Jeg tror at Jesus Kristus er Guds Sønn.»» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Som a, men med αὐτῷ og uten ὁ Φίλιππος. De fleste har σου. Tre av håndskriftene har ikke τῆς.</p><ul class="w">
+<li><span class="wn">1739 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">900–999 (X) · fol. 9v · <span lang="grc" translate="no">ειπεν δε αυτω ει πιστευεις εξ ολης της καρδιας σου εξεστιν αποκριθεις δε ειπεν πιστευω τον ‾υν του ‾θυ ειναι ‾ιν ‾χν</span></span></li>
+<li><span class="wn">1891 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">900–999 (X) · fol. 26v · <span lang="grc" translate="no">ειπεν δε αυτωι ει πιστευεις εξ ολης της καρδιας σου εξεστιν αποκριθεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν</span></span></li>
+<li><span class="wn">307 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">900–999 (X) · fol. 70r · <span lang="grc" translate="no">ειπεν δε αυτω ει πιστευεις εξ ολης καρδιας σου εξεστιν αποκριθεις δε ειπεν πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν</span></span></li>
+<li><span class="wn">945 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1000–1099 (XI) · fol. 11v · <span lang="grc" translate="no">ειπε δε αυτω· ει πιστευεις εξ ολης της καρδιας σου, εξεστιν· απο κριθεις δε ειπε· πιστευω τον υιον του ‾θυ ειναι, ‾ιν ‾χν·</span></span></li>
+<li><span class="wn">323 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1100–1199 (XII) · fol. 32v · <span lang="grc" translate="no">ειπε δε αυτω ει πιστευεις εξ ο λης της καρδιας εξεστιν απο κριθεις δε ειπε πιστευω τον ‾υν του ‾θυ ειναι ‾ιν ‾χν</span></span></li>
+<li><span class="wn">2818 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1100–1199 (XII) · fol. 59r · <span lang="grc" translate="no">ειπε δε αυτω ει πιστευεις εξ ολης καρδιας σου εξεστιν αποκρι θεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν</span></span></li>
+<li><span class="wn">453 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1300–1399 (XIV) · fol. 88r · <span lang="grc" translate="no">ειπε δε αυτω ει πιστευεις εξ ολης καρδιας σου εξε στιν αποκριθεις δε ειπε πιστευω τον υιον του ‾θυ ειναι ‾ιν ‾χν</span></span></li>
+<li><span class="wn">Irenæus av Lyon, Adversus haereses <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">III.12.8 · CPG 1306 · hovedvindu · sitat, latin · i oversettelse: «I believe Jesus Christ to be the Son of God» · Irenæus gjengir bare hoffmannens bekjennelse, ikke Filips vilkår.</span></li>
+<li><span class="wn">Cyprian av Karthago, Ad Quirinum (Testimoniorum libri III) <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">III.43 · CPL 39 · hovedvindu · sitat, latin · i oversettelse: «Then said Philip, If thou believest with all thine heart, thou mayest» · Cyprian gjengir v. 36 og Filips vilkår, ikke bekjennelsen.</span></li>
+</ul>
+</div>
+<div class="reading"><p><span class="lbl">Lesning a3: verset i Laudianus’ form</span></p>
+<p class="gt" lang="grc" translate="no">εἶπεν δὲ αὐτῷ ὁ Φίλιππος· ἐὰν πιστεύεις ἐξ ὅλης τῆς καρδίας σου, σωθήσει· ἀποκριθεὶς δὲ εἶπεν· πιστεύω εἰς τὸν Χριστὸν τὸν υἱὸν τοῦ θεοῦ</p>
+<p class="no">«Og Filip sa til ham: «Hvis du tror av hele ditt hjerte, skal du bli frelst.» Og han svarte og sa: «Jeg tror på Kristus, Guds Sønn.»» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Annen ordlyd: ἐάν, σωθήσει (futurum passiv 2. person entall) og πιστεύω εἰς.</p><ul class="w">
+<li><span class="wn">E 08 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">500–599 (VI) · fol. 70v · <span lang="grc" translate="no">ειπεν δε αυτω ο φιλιππος εαν πιστευεις εξ ολης της καρδιας σου σωθησει αποκριθεις δε ειπεν πιστευω εις τον ‾χν τον υιον του ‾θυ</span></span></li>
+</ul>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: uten verset</span></p>
+<p class="no">«(verset står ikke)» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Teksten går fra v. 36 rett til v. 38.</p><ul class="w">
+<li><span class="wn">𝔓45 <span class="tag">papyrus</span></span><span class="st">lest i transkripsjon</span><span class="wd">200–299 (III) · fol. 22r · <span lang="grc" translate="no">(verset står ikke)</span> (rekonstruert) · Versene før og etter følger rett på hverandre i transkripsjonen. Overgangen er delvis rekonstruert, så utelatelsen bygger på utgiverens linjeberegning.</span></li>
+<li><span class="wn">ℵ 01 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">300–399 (IV) · fol. 304r · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">B 03 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">300–399 (IV) · INTF-side/blad 1394 · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">A 02 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 87r · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">C 04 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 182r · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">𝔓74 <span class="tag">papyrus</span></span><span class="st">lest i transkripsjon</span><span class="wd">600–699 (VII) · INTF-side/blad 55 · <span lang="grc" translate="no">(verset står ikke)</span> (delvis rekonstruert) · Versene før og etter følger rett på hverandre i transkripsjonen. Overgangen er delvis rekonstruert, så utelatelsen bygger på utgiverens linjeberegning.</span></li>
+<li><span class="wn">L 020 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–899 (IX) · fol. 2r · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">Ψ 044 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">800–999 (IX/X) · fol. 116r · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">049 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">900–999 (X) · fol. 14r · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">33 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">900–999 (X) · fol. 80r · <span lang="grc" translate="no">(verset står ikke)</span> (delvis rekonstruert) · Versene før og etter følger rett på hverandre i transkripsjonen. Overgangen er delvis rekonstruert, så utelatelsen bygger på utgiverens linjeberegning.</span></li>
+<li><span class="wn">1175 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">900–999 (X) · fol. 21r · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">81 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1044 · fol. 14v · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">614 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1200–1299 (XIII) · fol. 26v · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">35 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1300–1399 (XIV) · fol. 170v · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+<li><span class="wn">18 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1363–1364 (1363/4) · fol. 167v · <span lang="grc" translate="no">(verset står ikke)</span> · Versene før og etter følger rett på hverandre i transkripsjonen.</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: Robinson–Pierpont 2018, Tischendorf 8, NA28, THGNT, SBLGNT, Westcott–Hort, Tregelles</p>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> TR ≠ Byz; Byz = tidlige førstehender</p><p class="axis"><strong>Variantart:</strong> pluss · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">R10 følger Scrivener og har hele verset. Robinson–Pierpont har det ikke, og de andre utgavene har det heller ikke. Blant de transkriberte greske håndskriftene står verset i tre former, og ingen av dem har nøyaktig Scriveners ordlyd. Codex Laudianus fra 500-tallet er det eldste greske vitnet og har en egen form («skal du bli frelst»). Minusklene 1739 og 1891 fra 900-tallet har formen som ligger nærmest Scrivener. Irenæus og Cyprian gjengir hver sin del av verset. Begge er bare funnet i engelsk oversettelse, og begge skrev eller er overlevert på latin. Papyrus 45 er svært fragmentarisk her, så utelatelsen der bygger på utgiverens linjeberegning. Bezae mangler denne delen av Apostlenes gjerninger.</p>
+<p class="small"><strong>Må kontrolleres mot kilde:</strong> Minuskel 2816, som Erasmus brukte, har ingen publisert transkripsjon hos INTF. Margen der bør leses, fordi Scriveners ordlyd går tilbake til Erasmus. Vetus Latina-håndskriftene og Vulgata-håndskriftene må leses i utgavene før de registreres.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h9"><h2 id="h9"><span class="ref">1 Tim 3,16</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Og uimotsigelig stort er gudsfryktens mysterium: Gud ble åpenbart i kjød, rettferdiggjort i ånd, sett av engler, forkynt blant folkeslagene, trodd i verden, tatt opp i herlighet.</p><p class="anchor">Grunntekst: <span lang="grc" translate="no" title="variant i dette ordet">Θεὸς</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: Θεός</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="grc" translate="no">Θεός</p>
+<p class="no">«Gud»</p>
+<p class="form">Substantiv, nominativ entall maskulinum. I majuskelskrift ΘΣ med strek over.</p><ul class="w">
+<li><span class="wn">ℵ 01 korr. 3 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">håndskriftet 300–399 (IV); korrektoren er senere og ikke datert i registeret · fol. 294v · <span lang="grc" translate="no">θεος</span></span></li>
+<li><span class="wn">A 02 korr. <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">håndskriftet 400–499 (V); korrektoren er senere og ikke datert i registeret · fol. 145r · <span lang="grc" translate="no">‾θς</span></span></li>
+<li><span class="wn">C 04 korr. 3 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">håndskriftet 400–499 (V); korrektoren er senere og ikke datert i registeret · fol. 119r · <span lang="grc" translate="no">‾θς</span></span></li>
+<li><span class="wn">D 06 korr. 2 <span class="tag">majuskel</span></span><span class="st open">ikke avlest</span><span class="wd">håndskriftet 500–599 (VI); korrektoren er senere og ikke datert i registeret · <span lang="grc" translate="no"></span> (ikke avlest) · Oppdraget fører D² under denne lesningen. INTF har ingen publisert transkripsjon av stedet.</span></li>
+<li><span class="wn">6 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1200–1299 (XIII) · fol. 178r · <span lang="grc" translate="no">‾θς</span></span></li>
+<li><span class="wn">Johannes Krysostomos, In epistulam I ad Timotheum homiliae <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">Hom. XI · CPG 4436 · utenfor hovedvinduet · sitat, gresk · i oversettelse: «God was manifest in the flesh»</span></li>
+<li><span class="wn">Gregor av Nyssa, Contra Eunomium <span class="tag">kirkefar</span></span><span class="st open">funnet i oversettelse</span><span class="wd">bok XI (NPNF-inndeling) · CPG 3135 · utenfor hovedvinduet · sitat, gresk · i oversettelse: «God was manifest in the flesh, justified in the spirit»</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10), Robinson–Pierpont 2018</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: ὅς</span></p>
+<p class="gt" lang="grc" translate="no">ὅς</p>
+<p class="no">«han som» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Relativpronomen, nominativ entall maskulinum. I majuskelskrift ΟΣ.</p><ul class="w">
+<li><span class="wn">ℵ 01* <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">300–399 (IV) · fol. 294v · <span lang="grc" translate="no">ος</span></span></li>
+<li><span class="wn">A 02* <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 145r · <span lang="grc" translate="no">ος</span></span></li>
+<li><span class="wn">C 04* <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 119r · <span lang="grc" translate="no">ος</span></span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: Tischendorf 8, NA28, THGNT, SBLGNT, Westcott–Hort, Tregelles</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning c: ὅ</span></p>
+<p class="gt" lang="grc" translate="no">ὅ</p>
+<p class="no">«det som» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Relativpronomen, nominativ entall nøytrum, som viser til μυστήριον.</p><ul class="w">
+<li><span class="wn">D 06* <span class="tag">majuskel</span></span><span class="st open">ikke avlest</span><span class="wd">500–599 (VI) · <span lang="grc" translate="no"></span> (ikke avlest) · Oppdraget fører D* under denne lesningen. INTF har ingen publisert transkripsjon av stedet.</span></li>
+<li><span class="wn">Vulgata Clementina <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">I Timothy 3:16 · <span lang="la" translate="no">quod manifestatum est</span> · «det som ble åpenbart» (ordrett) · forelegg: kan ikke avgjøres · Latin har relativpronomen i nøytrum, som viser til sacramentum. Det utelukker «Gud», men viser ikke sikkert om forelegget hadde ὅ eller ὅς.</span></li>
+</ul>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> TR = Byz; tidlige førstehender har lesning b mot TR og Byz</p><p class="axis"><strong>Variantart:</strong> leksikalsk · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">R10 følger Scrivener: «Gud ble åpenbart i kjød». Robinson–Pierpont har samme lesning. I Sinaiticus, Alexandrinus og Ephraemi har første hånd ὅς, «han som», og en korrektor har endret til θεός i alle tre. I majuskelskrift skiller ΘΣ med strek seg fra ΟΣ med to streker. Minuskel 6 fra 1200-tallet er det eneste transkriberte håndskriftet med θεός i første hånd. De bysantinske majusklene har ingen publisert transkripsjon hos INTF. De to fedrene som er funnet med «Gud», er fra 300-tallet og ligger utenfor hovedvinduet. Ingen før-nikensk far er funnet med et ordrett sitat av stedet.</p>
+<p class="small"><strong>Må kontrolleres mot kilde:</strong> Oppdraget bruker betegnelsene ℵᵉ, A², C² og D². INTF-transkripsjonene kaller hendene korrektor 3 (01), korrektor (02) og korrektor 3 (04). Samsvaret mellom Tischendorfs, NA28s og INTFs korrektorbetegnelser må leses i utgavene. De bysantinske majusklene K 018, L 020, P 025 og Ψ 044 har ingen publisert transkripsjon av verset hos INTF og er derfor ikke registrert. Fedre som oppgis for ὅς i håndbøkene, må leses i kritiske utgaver før de registreres. Papyrus 133 har verset, men stedet er rekonstruert i transkripsjonen.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<section class="verse" aria-labelledby="h10"><h2 id="h10"><span class="ref">Åp 22,19</span><span class="count" title="variantenheter i verset">1 variant</span></h2>
+<p class="r10">Og hvis noen tar noe bort fra ordene i denne profetiens bok, skal Gud ta bort hans del fra livets bok og fra den hellige byen og fra de tingene som er skrevet i denne boken.</p><p class="anchor">Grunntekst: <span lang="grc" translate="no" title="variant i dette ordet">βιβλου της ζωης</span></p>
+<details class="card"><summary>Åpne manuskriptkortet</summary>
+<div class="reading r10r"><p><span class="lbl">Lesning a: βίβλου τῆς ζωῆς</span><span class="tag">MANTELEN (R10)</span></p>
+<p class="gt" lang="grc" translate="no">βίβλου τῆς ζωῆς</p>
+<p class="no">«livets bok»</p>
+<p class="form">Substantiv, genitiv entall femininum + artikkel + substantiv, genitiv entall femininum.</p><ul class="w">
+<li><span class="wn">Vulgata Clementina <span class="tag">oversettelse</span></span><span class="st">lest i utgavens tekst</span><span class="wd">Revelation of John 22:19 · <span lang="la" translate="no">de libro vitæ</span> · «fra livets bok» (ordrett) · forelegg: kan ikke avgjøres · Latin har liber, «bok». Det latinske ordet for «tre» er lignum, og de to ordene ligner hverandre i genitiv og ablativ (libro, ligno).</span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: MANTELEN (R10)</p>
+</div>
+<div class="reading"><p><span class="lbl">Lesning b: τοῦ ξύλου τῆς ζωῆς</span></p>
+<p class="gt" lang="grc" translate="no">τοῦ ξύλου τῆς ζωῆς</p>
+<p class="no">«livets tre» <span class="tag">ordrett gjengivelse av lesningen</span></p>
+<p class="form">Artikkel + substantiv, genitiv entall nøytrum + artikkel + substantiv, genitiv entall femininum.</p><ul class="w">
+<li><span class="wn">ℵ 01 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">300–399 (IV) · fol. 333v · <span lang="grc" translate="no">απο του ξυλου της ζωης</span></span></li>
+<li><span class="wn">A 02 <span class="tag">majuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">400–499 (V) · fol. 158v · <span lang="grc" translate="no">απο του ξυλου της ζωης</span></span></li>
+<li><span class="wn">1854 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">900–999 (XI) · fol. 319v · <span lang="grc" translate="no">απο του ξυλου της ζωης</span></span></li>
+<li><span class="wn">046 <span class="tag">majuskel</span></span><span class="st open">ikke avlest</span><span class="wd">900–999 (X) · <span lang="grc" translate="no"></span> (ikke avlest) · Bladet med Åp 22,7–21 er bevart ifølge INTFs sideindeks, men stedet har ingen publisert transkripsjon.</span></li>
+<li><span class="wn">1006 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1000–1099 (XI) · fol. 216v · <span lang="grc" translate="no">απο του ξυλου της ζωης</span></span></li>
+<li><span class="wn">2050 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1107 · fol. 241r · <span lang="grc" translate="no">απο του ξυλου της ζωης</span></span></li>
+<li><span class="wn">469 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1200–1299 (XIII) · fol. 229r · <span lang="grc" translate="no">απο του ξυλου της ζωης</span></span></li>
+<li><span class="wn">35 <span class="tag">minuskel</span></span><span class="st">lest i transkripsjon</span><span class="wd">1300–1399 (XIV) · fol. 325v · <span lang="grc" translate="no">απο του ξυλου της ζωης</span></span></li>
+</ul>
+<p class="eds">Utgaver som har lesningen: Robinson–Pierpont 2018, Tischendorf 8, NA28, THGNT, SBLGNT, Westcott–Hort, Tregelles</p>
+</div>
+<p class="axis"><strong>Vitnemønster (regnet ut):</strong> TR ≠ Byz; Byz = tidlige førstehender</p><p class="axis"><strong>Variantart:</strong> leksikalsk · <strong>betydningsgrad:</strong> betydning</p>
+<p class="note">R10 følger Scrivener: «livets bok». Alle de transkriberte greske håndskriftene har «livets tre», også de to eldste, og Robinson–Pierpont har samme lesning. Scriveners lesning er her belagt i den latinske Clementina. Ingen gresk håndskrift med βίβλου er bekreftet i Trinn 0. Oppdraget nevner P (025) som vitne for «livets tre». INTFs sideindeks viser at håndskriftet slutter med Åp 22,2–6, så stedet er ikke bevart der. Ephraemi slutter i Åp 19,5.</p>
+<p class="small"><strong>Utelukket vitne:</strong> P 025. Lakune: siste indekserte side med Åpenbaringen er fol. 120v (Rev 22:2-6).</p>
+<p class="small"><strong>Utelukket vitne:</strong> C 04. Lakune: siste indekserte side med Åpenbaringen er fol. 123v (Rev 18:15-24; Rev 19:1-5).</p>
+<p class="small"><strong>Må kontrolleres mot kilde:</strong> Minusklene 296 og 2049 oppgis å ha βίβλου og å være avskrifter av trykte utgaver. Ingen av dem har publisert transkripsjon av stedet hos INTF. Latinske fedre som oppgis for «libro» (Ambrosius, De paradiso, CPL 124; Primasius, kommentaren til Åpenbaringen, CPL 873), er ikke avlest. Clavis-numrene er slått opp. Hvilke Vulgata-håndskrifter som har libro og hvilke som har ligno, leses i Stuttgart-utgavens apparat.</p>
+<details class="eval"><summary>Vurdering</summary><p>Klasse: ikke vurdert. Ingen vurdering er satt. En vurdering krever signatur, begrunnelse og litteratur.</p></details></details></section>
+<p class="small">Statusordene står som tekst, ikke bare som farge. «Funnet i oversettelse» betyr at gresk eller latinsk ordlyd ikke er avlest.</p></main>
+<script>var b=document.getElementById("t");b.addEventListener("click",function(){var on=document.body.classList.toggle("mlag");b.setAttribute("aria-pressed",on);b.textContent="Manuskript- og grunnkildemodus: "+(on?"på":"av")});</script></body></html>

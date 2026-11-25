@@ -1,0 +1,119 @@
+{
+ "purpose": "Utdrag av R10-låsen for de bokfilene Trinn 0 ankrer i. Ingen R10/R11.1-fil er endret eller kopiert inn i Fase 2-mappen.",
+ "r10ReleaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+ "lockSources": [
+  {
+   "what": "local-r10-lock.json (CODEX, status PASS, time_utc 2026-11-25T18:25:33Z), lest fra Min disk 2026-11-25",
+   "driveFileId": "1ugYtIGdeMmf2Ul1VwQmbXsFmI8ghrOFh",
+   "r10PackageSha256": "5704f12b80018fe790cce3a41d6b15d80de7099cf7a2f5a86d187fa897d6e396",
+   "result": "r10_sha256 for alle ni bøkene under er lik SHA-256 nedenfor (sammenlignet i Trinn 0-økten)."
+  },
+  {
+   "what": "Manifestet som er bygd inn i den publiserte leseren (assets/built/bibelen.js): [R10-bok, R11-ordlag] per NT-bok",
+   "result": "Likt for alle seks NT-bøkene under (maskinelt sammenlignet)."
+  },
+  {
+   "what": "Publiserte filer på www.mantelen.no, hentet 2026-11-25 med leserens versjonsparameter",
+   "note": "Uten versjonsparameteren svarer mellomlageret med eldre kopier av joh.json og 1ti.json. Bruk alltid adressen leseren selv bruker, eller den låste pakken."
+  }
+ ],
+ "r111": {
+  "what": "R11.1 retter ordkortet for Θεὸς i 1 Tim 3,16 (ord 9) til «Gud». Rettelsen ligger i leseren og er bundet til 1ti.json med SHA-256 under. Bokfilen og R11-ordlaget er uendret.",
+  "evidenceManifestSha256": "72107cdecd8e5e3c7f9f9674ecd017c9bcb3484c59f2c77f915f5f739ee190b0"
+ },
+ "books": {
+  "gt-isa": {
+   "testament": "GT",
+   "publishedPath": "assets/data/gt/books/gt-isa.json",
+   "sha256": "fabad356560ce7d455c4311203b8541ebd813ac018bb9d118a6ccc49562d445c",
+   "bytes": 11211170,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "locked": true,
+   "sourceHash": "0807678DE609BDEF284BED5400B94DDAB570D101B593C7F59AE1939015572FA2"
+  },
+  "gt-deut": {
+   "testament": "GT",
+   "publishedPath": "assets/data/gt/books/gt-deut.json",
+   "sha256": "d2be7a831d84dd2b49a684a712c6711f1b4ed69ae92fc8c65766e1a3462fcb52",
+   "bytes": 9318354,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "locked": true,
+   "sourceHash": "04F8087442A1E67A631CD70F2AC4E42FE0A780AE132EDB165A3A29F3F290358F"
+  },
+  "gt-ps": {
+   "testament": "GT",
+   "publishedPath": "assets/data/gt/books/gt-ps.json",
+   "sha256": "abf8129c69586e15bb4b479264865206fb0443146c90fac11cd5db8c2f09a406",
+   "bytes": 13211261,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "locked": true,
+   "sourceHash": "FE55EEF316A65FB0F46D833D526CA2FD722E86FF7339F1A39F0C5B7F9062CED2"
+  },
+  "mrk": {
+   "testament": "NT",
+   "publishedPath": "assets/data/bibelen/mrk.json",
+   "sha256": "1234146d2767b20303c08382d80bcbb8348ad1e15b2a6cce7cdc62c784c37f49",
+   "bytes": 1318405,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "sourceHash": "cbeb679348ec0917e97ecd88f98045d51da0d454de77247f2e6b65b1571c5421",
+   "r11LayerPath": "assets/data/r11-nt/mrk.json",
+   "r11LayerSha256": "6ae2ed12f43e676ea10d0a74dd7e099f5f4fa69c8d90b40d844e005607e2d379",
+   "r11BindsToBookSha256": "1234146d2767b20303c08382d80bcbb8348ad1e15b2a6cce7cdc62c784c37f49"
+  },
+  "joh": {
+   "testament": "NT",
+   "publishedPath": "assets/data/bibelen/joh.json",
+   "sha256": "bc9bfbb0c46b351198800911820e8991cd5743e5f5b14aa1208f0976c2fc3769",
+   "bytes": 1524491,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "sourceHash": "018d943c3a07a656960aca5ee3bd45e0488c1d1a861487b5732e64f1f0a5c35a",
+   "r11LayerPath": "assets/data/r11-nt/joh.json",
+   "r11LayerSha256": "79d6156cbd05bd2a7b58c37994fafb8748e4e718feb3f1e32556cbf94f690efc",
+   "r11BindsToBookSha256": "bc9bfbb0c46b351198800911820e8991cd5743e5f5b14aa1208f0976c2fc3769"
+  },
+  "act": {
+   "testament": "NT",
+   "publishedPath": "assets/data/bibelen/act.json",
+   "sha256": "d6d752c61dece85011525f6b1908641ba730c609c1fc0ead5493d0716ee5f0e3",
+   "bytes": 1596087,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "sourceHash": "cd85325dda2b98b0050136bdbe5f0a185e52f1366f02f5205e6d6ffa6ce2dfa8",
+   "r11LayerPath": "assets/data/r11-nt/act.json",
+   "r11LayerSha256": "8afed24e70ea38b554e8057e29afe19241b7cdcfc3f8f1f96f332e964f1489a6",
+   "r11BindsToBookSha256": "d6d752c61dece85011525f6b1908641ba730c609c1fc0ead5493d0716ee5f0e3"
+  },
+  "1ti": {
+   "testament": "NT",
+   "publishedPath": "assets/data/bibelen/1ti.json",
+   "sha256": "c946198f226117120e38c8e0190255356ea4922e9feb8457019622d27d0db561",
+   "bytes": 177429,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "sourceHash": "65a8cc9b17a4653a3ef73865c3bdd42d9f82886afb6cb603bd6079821e3a40a7",
+   "r11LayerPath": "assets/data/r11-nt/1ti.json",
+   "r11LayerSha256": "1a79f499c7dc10de7e1fa3bb1ae07edeac96d7fec5b4b9e099da7cca3120f0ac",
+   "r11BindsToBookSha256": "c946198f226117120e38c8e0190255356ea4922e9feb8457019622d27d0db561"
+  },
+  "rev": {
+   "testament": "NT",
+   "publishedPath": "assets/data/bibelen/rev.json",
+   "sha256": "83c2945069e0ea6f82049bdc424e6a536d5426794a4b317003a5b565f0703520",
+   "bytes": 1173284,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "sourceHash": "6cd6069505e97c6c8c5315f827dd39295830cdca225473acd436581a66e063ee",
+   "r11LayerPath": "assets/data/r11-nt/rev.json",
+   "r11LayerSha256": "58e78ffeb3b82a816ecb058db226fb9f8a4d8e4f5c00f7c150dc24dbd7312884",
+   "r11BindsToBookSha256": "83c2945069e0ea6f82049bdc424e6a536d5426794a4b317003a5b565f0703520"
+  },
+  "heb": {
+   "testament": "NT",
+   "publishedPath": "assets/data/bibelen/heb.json",
+   "sha256": "7519b55d10b6c273ceac044ef710d5e4c0e608f1d29d2bccd4b813721e6c0c90",
+   "bytes": 520749,
+   "releaseId": "MANTELEN-66-PRODUCTION-2026-11-22",
+   "sourceHash": "c45a9467841bf80110ceb9b4705191f5c019ddd8bb8852cdcffff700ae6280d5",
+   "r11LayerPath": "assets/data/r11-nt/heb.json",
+   "r11LayerSha256": "ca47795b6f4da3dc53621a4a9f0593aaa560b9ba24618977143fa301a0ffd9f8",
+   "r11BindsToBookSha256": "7519b55d10b6c273ceac044ef710d5e4c0e608f1d29d2bccd4b813721e6c0c90"
+  }
+ }
+}

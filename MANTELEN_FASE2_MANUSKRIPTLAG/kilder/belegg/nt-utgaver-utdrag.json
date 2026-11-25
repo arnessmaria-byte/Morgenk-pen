@@ -1,0 +1,824 @@
+{
+ "sources": {
+  "RP2018": {
+   "name": "Robinson–Pierpont, bysantinsk tekstform (byztxt/byzantine-majority-text, csv-unicode/ccat)",
+   "commit": "788ffe7c909e4d9c564ebed7083e93dd13d10b7c",
+   "license": "Public domain (LICENSE i repoet)"
+  },
+  "TISCH8": {
+   "name": "Tischendorf, Editio octava (morphgnt/tischendorf-data, word-per-line 2.8)",
+   "commit": "795f2f4f9fe7cb98bf8736b0c5cb59c43aa9c32e",
+   "license": "Public domain (README i datasettet)"
+  },
+  "TAGNT": {
+   "name": "STEPBible TAGNT, utgavefelt per ord (NA28, NA27, Tyn=THGNT, SBL, WH, Treg, TR, Byz)",
+   "revision": "efe428a0047bf7b9c3ce2624f60c252c6e435945",
+   "license": "CC BY 4.0 (Tyndale House, STEPBible)",
+   "fileSha256": {
+    "TAGNT_Mat-Jhn.txt": "ab8eaaeb68e17a1dcfa34e1e9350358f22f03bc2a97244d848750ad81044bc8e",
+    "TAGNT_Act-Rev.txt": "524e32375361e6d3fa2f7ef00b87605fdc4317a762f395651a05fdc31ad031b7"
+   }
+  }
+ },
+ "note": "Tom RP2018/TISCH8-verdi betyr at verset ikke står i utgavens tekst. RP2018_variantnoter gjengir utgivernes egne merknader om NA-tekstens lesning.",
+ "records": {
+  "Mark 1,1": {
+   "RP2018": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ χριστοῦ, υἱοῦ τοῦ θεοῦ.",
+   "RP2018_variantnoter": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ χριστοῦ, υἱοῦ {NA υἱοῦ τοῦ θεοῦ > [υἱοῦ θεοῦ] } τοῦ θεοῦ.",
+   "TISCH8": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ,",
+   "TAGNT": [
+    {
+     "id": "Mrk.1.1#01=NKO",
+     "greek": "Ἀρχὴ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Mrk.1.1#02=NKO",
+     "greek": "τοῦ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Mrk.1.1#03=NKO",
+     "greek": "εὐαγγελίου",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Mrk.1.1#04=NKO",
+     "greek": "Ἰησοῦ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Mrk.1.1#05=NKO",
+     "greek": "Χριστοῦ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Mrk.1.1#06=NKO",
+     "greek": "υἱοῦ",
+     "editions": "NA28+NA27+Tyn+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Mrk.1.1#07=ko",
+     "greek": "τοῦ",
+     "editions": "NA28+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Mrk.1.1#08=NKO",
+     "greek": "θεοῦ·",
+     "editions": "NA28+NA27+Tyn+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    }
+   ]
+  },
+  "Joh 1,18": {
+   "RP2018": "Θεὸν οὐδεὶς ἑώρακεν πώποτε· ὁ μονογενὴς υἱός, ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός, ἐκεῖνος ἐξηγήσατο.",
+   "RP2018_variantnoter": "Θεὸν οὐδεὶς ἑώρακεν πώποτε· ὁ {NA ὁ μονογενὴς υἱός > μονογενὴς θεός } μονογενὴς υἱός, ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός, ἐκεῖνος ἐξηγήσατο.",
+   "TISCH8": "θεὸν οὐδεὶς ἑώρακεν πώποτε· ὁ μονογενὴς υἱὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός, ἐκεῖνος ἐξηγήσατο.",
+   "TAGNT": [
+    {
+     "id": "Jhn.1.18#01=NKO",
+     "greek": "Θεὸν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#02=NKO",
+     "greek": "οὐδεὶς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#03=NKO",
+     "greek": "ἑώρακεν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#04=NKO",
+     "greek": "πώποτε·",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#05=ko",
+     "greek": "ὁ",
+     "editions": "Tyn+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#06=NKO",
+     "greek": "μονογενὴς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#07=N(K)O",
+     "greek": "θεὸς",
+     "editions": "NA28+NA27+SBL+WH+Treg",
+     "meaningVariants": "υἱός (T=huios) son - G5207=N-NSM in: Tyn+TR+Byz",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#08=NKO",
+     "greek": "ὁ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#09=NKO",
+     "greek": "ὢν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#10=NKO",
+     "greek": "εἰς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#11=NKO",
+     "greek": "τὸν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#12=NKO",
+     "greek": "κόλπον",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#13=NKO",
+     "greek": "τοῦ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#14=NKO",
+     "greek": "πατρός,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#15=NKO",
+     "greek": "ἐκεῖνος",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Jhn.1.18#16=NKO",
+     "greek": "ἐξηγήσατο.",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    }
+   ]
+  },
+  "Apg 8,37": {
+   "RP2018": "",
+   "RP2018_variantnoter": "",
+   "TISCH8": "",
+   "TAGNT": [
+    {
+     "id": "Act.8.37#01=K",
+     "greek": "εἶπε",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#02=K",
+     "greek": "δὲ",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#03=K",
+     "greek": "ὁ",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#04=K",
+     "greek": "Φίλιππος·",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#05=K",
+     "greek": "εἰ",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#06=K",
+     "greek": "πιστεύεις",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#07=K",
+     "greek": "ἐξ",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#08=K",
+     "greek": "ὅλης",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#09=K",
+     "greek": "τῆς",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#10=K",
+     "greek": "καρδίας,",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#11=K",
+     "greek": "ἔξεστιν.",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#12=K",
+     "greek": "ἀποκριθεὶς",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#13=K",
+     "greek": "δὲ",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#14=K",
+     "greek": "εἶπε·",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#15=K",
+     "greek": "πιστεύω",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#16=K",
+     "greek": "τὸν",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#17=K",
+     "greek": "υἱὸν",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#18=K",
+     "greek": "τοῦ",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#19=K",
+     "greek": "θεοῦ",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#20=K",
+     "greek": "εἶναι",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#21=K",
+     "greek": "τὸν",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#22=K",
+     "greek": "Ἰησοῦν",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Act.8.37#23=K",
+     "greek": "Χριστόν.",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    }
+   ]
+  },
+  "1 Tim 3,16": {
+   "RP2018": "Καὶ ὁμολογουμένως μέγα ἐστὶν τὸ τῆς εὐσεβείας μυστήριον· θεὸς ἐφανερώθη ἐν σαρκί, ἐδικαιώθη ἐν πνεύματι, ὤφθη ἀγγέλοις, ἐκηρύχθη ἐν ἔθνεσιν, ἐπιστεύθη ἐν κόσμῳ, ἀνελήφθη ἐν δόξῃ.",
+   "RP2018_variantnoter": "Καὶ ὁμολογουμένως μέγα ἐστὶν τὸ τῆς εὐσεβείας μυστήριον· θεὸς {NA θεὸς > ὃς } ἐφανερώθη ἐν σαρκί, ἐδικαιώθη ἐν πνεύματι, ὤφθη ἀγγέλοις, ἐκηρύχθη ἐν ἔθνεσιν, ἐπιστεύθη ἐν κόσμῳ, ἀνελήφθη {NA ἀνελήφθη > ἀνελήμφθη } ἐν δόξῃ.",
+   "TISCH8": "καὶ ὁμολογουμένως μέγα ἐστὶν τὸ τῆς εὐσεβείας μυστήριον· ὃς ἐφανερώθη ἐν σαρκί, ἐδικαιώθη ἐν πνεύματι, ὤφθη ἀγγέλοις, ἐκηρύχθη ἐν ἔθνεσιν, ἐπιστεύθη ἐν κόσμῳ, ἀνελήμφθη ἐν δόξῃ.",
+   "TAGNT": [
+    {
+     "id": "1Ti.3.16#01=NKO",
+     "greek": "Καὶ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#02=NKO",
+     "greek": "ὁμολογουμένως",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#03=NKO",
+     "greek": "μέγα",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#04=NKO",
+     "greek": "ἐστὶν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#05=NKO",
+     "greek": "τὸ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#06=NKO",
+     "greek": "τῆς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#07=NKO",
+     "greek": "εὐσεβείας",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#08=NKO",
+     "greek": "μυστήριον,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#09=N(K)O",
+     "greek": "ὃς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg",
+     "meaningVariants": "θεὸς (T=theos) God - G2316=N-NSM-T in: TR+Byz",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#10=NKO",
+     "greek": "ἐφανερώθη",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#11=NKO",
+     "greek": "ἐν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#12=NKO",
+     "greek": "σαρκί,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#13=NKO",
+     "greek": "ἐδικαιώθη",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#14=NKO",
+     "greek": "ἐν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#15=NKO",
+     "greek": "πνεύματι,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#16=NKO",
+     "greek": "ὤφθη",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#17=NKO",
+     "greek": "ἀγγέλοις,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#18=NKO",
+     "greek": "ἐκηρύχθη",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#19=NKO",
+     "greek": "ἐν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#20=NKO",
+     "greek": "ἔθνεσιν,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#21=NKO",
+     "greek": "ἐπιστεύθη",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#22=NKO",
+     "greek": "ἐν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#23=NKO",
+     "greek": "κόσμῳ,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#24=NKO",
+     "greek": "ἀνελήμφθη",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": "TR: ἀνελήφθη ;"
+    },
+    {
+     "id": "1Ti.3.16#25=NKO",
+     "greek": "ἐν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "1Ti.3.16#26=NKO",
+     "greek": "δόξῃ.¶",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    }
+   ]
+  },
+  "Åp 22,19": {
+   "RP2018": "καὶ ἐάν τις ἀφέλῃ ἀπὸ τῶν λόγων τοῦ βιβλίου τῆς προφητείας ταύτης, ἀφέλοι ὁ θεὸς τὸ μέρος αὐτοῦ ἀπὸ τοῦ ξύλου τῆς ζωῆς, καὶ ἐκ τῆς πόλεως τῆς ἁγίας, τῶν γεγραμμένων ἐν τῷ βιβλίῳ τούτῳ.",
+   "RP2018_variantnoter": "καὶ ἐάν τις ἀφέλῃ ἀπὸ τῶν λόγων τοῦ βιβλίου τῆς προφητείας ταύτης, ἀφέλοι {Byz ἀφέλοι > ἀφελεῖ } {NA ἀφέλοι > ἀφελεῖ } ὁ θεὸς τὸ μέρος αὐτοῦ ἀπὸ τοῦ ξύλου τῆς ζωῆς, καὶ ἐκ τῆς πόλεως τῆς ἁγίας, τῶν γεγραμμένων ἐν τῷ βιβλίῳ τούτῳ.",
+   "TISCH8": "καὶ ἐάν τις ἀφέλῃ ἀπὸ τῶν λόγων τοῦ βιβλίου τῆς προφητείας ταύτης, ἀφελεῖ ὁ θεὸς τὸ μέρος αὐτοῦ ἀπὸ τοῦ ξύλου τῆς ζωῆς καὶ ἐκ τῆς πόλεως τῆς ἁγίας, τῶν γεγραμμένων ἐν τῷ βιβλίῳ τούτῳ.",
+   "TAGNT": [
+    {
+     "id": "Rev.22.19#01=NKO",
+     "greek": "καὶ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#02=NKO",
+     "greek": "ἐάν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#03=NKO",
+     "greek": "τις",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#04=N(k)O",
+     "greek": "ἀφέλῃ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+Byz",
+     "meaningVariants": "ἀφαιρῇ (t=aphairēa) shall take away - G0851=V-PAS-3S in: TR",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#05=NKO",
+     "greek": "ἀπὸ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#06=NKO",
+     "greek": "τῶν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#07=NKO",
+     "greek": "λόγων",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#08=NKO",
+     "greek": "τοῦ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+Byz+KJV",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#09=N(k)O",
+     "greek": "βιβλίου",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+Byz",
+     "meaningVariants": "βίβλου (t=biblou) book - G0976=N-GSF in: TR",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#10=NKO",
+     "greek": "τῆς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#11=NKO",
+     "greek": "προφητείας",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#12=NKO",
+     "greek": "ταύτης,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#13=NK(o)",
+     "greek": "ἀφελεῖ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR",
+     "meaningVariants": "ἀφέλοι (o=apheloi) would take away - G0851=V-AAO-3S in: Byz",
+     "spellingVariants": "TR: ἀφαιρήσει ;"
+    },
+    {
+     "id": "Rev.22.19#14=NKO",
+     "greek": "ὁ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#15=NKO",
+     "greek": "θεὸς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#16=NKO",
+     "greek": "τὸ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#17=NKO",
+     "greek": "μέρος",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#18=NKO",
+     "greek": "αὐτοῦ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#19=NKO",
+     "greek": "ἀπὸ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#20=NKO",
+     "greek": "τοῦ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+Byz+KJV",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#21=N(K)O",
+     "greek": "ξύλου",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+Byz",
+     "meaningVariants": "βίβλου (T=biblou) book - G0976=N-GSF in: TR",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#22=NKO",
+     "greek": "τῆς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#23=NKO",
+     "greek": "ζωῆς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#24=NKO",
+     "greek": "καὶ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#25=NKO",
+     "greek": "ἐκ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#26=NKO",
+     "greek": "τῆς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#27=NKO",
+     "greek": "πόλεως",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#28=NKO",
+     "greek": "τῆς",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#29=NKO",
+     "greek": "ἁγίας,",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#30=k",
+     "greek": "καὶ",
+     "editions": "TR",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#31=NKO",
+     "greek": "τῶν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#32=NKO",
+     "greek": "γεγραμμένων",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#33=NKO",
+     "greek": "ἐν",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#34=NKO",
+     "greek": "τῷ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+Byz+KJV",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#35=NKO",
+     "greek": "βιβλίῳ",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    },
+    {
+     "id": "Rev.22.19#36=NKO",
+     "greek": "τούτῳ.¶",
+     "editions": "NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz",
+     "meaningVariants": "",
+     "spellingVariants": ""
+    }
+   ]
+  }
+ }
+}

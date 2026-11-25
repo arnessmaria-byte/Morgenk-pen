@@ -1,0 +1,41 @@
+{
+ "source": "Miqra according to the Masorah (MAM), hentet via Sefaria API v3",
+ "retrieved": "2026-11-25",
+ "records": {
+  "Deuteronomy.32.8": {
+   "text": "בְּהַנְחֵ֤ל עֶלְיוֹן֙ גּוֹיִ֔ם בְּהַפְרִיד֖וֹ בְּנֵ֣י אָדָ֑ם יַצֵּב֙ גְּבֻלֹ֣ת עַמִּ֔ים לְמִסְפַּ֖ר בְּנֵ֥י יִשְׂרָאֵֽל׃",
+   "versionTitle": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "versionSource": "https://he.wikisource.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94",
+   "rawSha256": "5bf6358d759b4097375d4ef73b9bd53a54dadc9ed5d532f0a933dfc244ed5a85"
+  },
+  "Psalms.22.17": {
+   "text": "כִּ֥י סְבָב֗וּנִי כְּלָ֫בִ֥ים עֲדַ֣ת מְ֭רֵעִים הִקִּיפ֑וּנִי כָּ֝אֲרִ֗י יָדַ֥י וְרַגְלָֽי׃",
+   "versionTitle": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "versionSource": "https://he.wikisource.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94",
+   "rawSha256": "eb06eaf06c7c8e328f38fa60fc5495f6bc321250c974409368ec0c79b131ea85"
+  },
+  "Deuteronomy.32.43": {
+   "text": "הַרְנִ֤ינוּ גוֹיִם֙ עַמּ֔וֹ כִּ֥י דַם־עֲבָדָ֖יו יִקּ֑וֹם וְנָקָם֙ יָשִׁ֣יב לְצָרָ֔יו וְכִפֶּ֥ר אַדְמָת֖וֹ עַמּֽוֹ׃ {פ}",
+   "versionTitle": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "versionSource": "https://he.wikisource.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94",
+   "rawSha256": "c6c597d6b4e3695ad52253d6f9f8fb059245f205d89fda8bf34ea66d9dcea7ef"
+  },
+  "Psalms.145.13": {
+   "text": "מַֽלְכוּתְךָ֗ מַלְכ֥וּת כׇּל־עֹלָמִ֑ים וּ֝מֶֽמְשַׁלְתְּךָ֗ בְּכׇל־דּ֥וֹר וָדֹֽר׃",
+   "versionTitle": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "versionSource": "https://he.wikisource.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94",
+   "rawSha256": "311f635a7ad964a242a1d5d430afe308140fed573d0c80bd99201ab947fd028e"
+  },
+  "Isaiah.53.11": {
+   "text": "מֵעֲמַ֤ל נַפְשׁוֹ֙ יִרְאֶ֣ה יִשְׂבָּ֔ע בְּדַעְתּ֗וֹ יַצְדִּ֥יק צַדִּ֛יק עַבְדִּ֖י לָרַבִּ֑ים וַעֲוֺנֹתָ֖ם ה֥וּא יִסְבֹּֽל׃",
+   "versionTitle": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "versionSource": "https://he.wikisource.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94",
+   "rawSha256": "a47dd600cc11d8bec2700f47426ab310bf509565eea9de75c9e6992772efd1fa"
+  }
+ }
+}

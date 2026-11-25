@@ -1,0 +1,88 @@
+{
+ "generated": "2026-11-25",
+ "datasets": [
+  {
+   "id": "INTF-NTVMR",
+   "what": "Liste-poster (84) og verstranskripsjoner (157)",
+   "url": "https://ntvmr.uni-muenster.de/community/vmr/api/",
+   "retrieved": "2026-11-25",
+   "sha256": "per post (rawSha256)"
+  },
+  {
+   "id": "ETCBC-DSS",
+   "url": "https://github.com/ETCBC/dss",
+   "revision": "0b7774a72b6d0e91712aa2156d2a1d354f1f5e6d",
+   "retrieved": "2026-11-25",
+   "sha256": {
+    "tf/1.9/glyph.tf": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92"
+   }
+  },
+  {
+   "id": "LEON-LEVY",
+   "url": "https://www.deadseascrolls.org.il/",
+   "retrieved": "2026-11-25",
+   "sha256": "per side (rawSha256)"
+  },
+  {
+   "id": "SWETE-DIGITAL",
+   "url": "https://github.com/nathans/lxx-swete",
+   "revision": "26bad3eb42bba98471d154c954e36a6f30a0279d",
+   "retrieved": "2026-11-25"
+  },
+  {
+   "id": "RP2018",
+   "url": "https://github.com/byztxt/byzantine-majority-text",
+   "revision": "788ffe7c909e4d9c564ebed7083e93dd13d10b7c",
+   "retrieved": "2026-11-25"
+  },
+  {
+   "id": "TISCH8",
+   "url": "https://github.com/morphgnt/tischendorf-data",
+   "revision": "795f2f4f9fe7cb98bf8736b0c5cb59c43aa9c32e",
+   "retrieved": "2026-11-25"
+  },
+  {
+   "id": "TAGNT",
+   "url": "https://github.com/STEPBible/STEPBible-Data",
+   "revision": "efe428a0047bf7b9c3ce2624f60c252c6e435945",
+   "retrieved": "2026-11-25",
+   "sha256": {
+    "TAGNT_Mat-Jhn.txt": "ab8eaaeb68e17a1dcfa34e1e9350358f22f03bc2a97244d848750ad81044bc8e",
+    "TAGNT_Act-Rev.txt": "524e32375361e6d3fa2f7ef00b87605fdc4317a762f395651a05fdc31ad031b7"
+   }
+  },
+  {
+   "id": "MAM-SEFARIA",
+   "url": "https://www.sefaria.org/api/v3/texts/",
+   "retrieved": "2026-11-25",
+   "sha256": "per vers (rawSha256)"
+  },
+  {
+   "id": "VG-CLEM",
+   "url": "https://github.com/scrollmapper/bible_databases",
+   "retrieved": "2026-11-25",
+   "sha256": "3138786288b72205f5944d629319dbadb3f49881317539789675162c44e0c766"
+  },
+  {
+   "id": "CLAVIS",
+   "url": "https://clavis.brepols.net/clacla/OA/",
+   "retrieved": "2026-11-25",
+   "sha256": "per post (rawSha256)"
+  },
+  {
+   "id": "ANF-NPNF",
+   "url": "https://ccel.org/ccel/s/schaff/",
+   "retrieved": "2026-11-25",
+   "sha256": {
+    "anf01": "ee9c7f0ac3f4df08d07ddf81cd7e061e82a35e0d27de611cae06f1e05b2fb991",
+    "anf02": "ae8e15414a21fe8d54a30fee7c3fbd1ee6a018e624dcd681d030da5c1cabbcac",
+    "anf03": "9299f3fae7c08024ea918e70d25433b7b110cc2b851d030cb22f3b1f080800c8",
+    "anf04": "b9f385a048c18158c2f74dcd37062f48a1c68a5d05bdb07270a93692d172da2e",
+    "anf05": "a02b61c36f07edd406a08138b9797151d6e808cb1618f1cc282fe9db5f6a87f8",
+    "anf09": "3861096b158e12bc13f4516baac913cbd3d921c607862a7eace4f0257b3aefa5",
+    "npnf113": "54274dd9aa73ca36e4da9e763e4a27d1818b09e42ffc73795529afec703a4210",
+    "npnf205": "cef974043e48a52d1b6d4ce3bdfb538fa5be2c3af8b53e3bb75181760d614484"
+   }
+  }
+ ]
+}

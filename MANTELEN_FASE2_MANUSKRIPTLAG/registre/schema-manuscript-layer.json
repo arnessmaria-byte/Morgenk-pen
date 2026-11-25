@@ -1,0 +1,980 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://mantelen.no/schema/mlag.schema.v1-trinn0.json",
+ "title": "MANTELEN manuskriptlag: variantenheter (Trinn 0)",
+ "description": "Validerer skillet mellom utgaver og vitner, de tre adskilte aksene og ordankrene mot låst R10/R11.1. Datering, type og oppbevaringssted lagres bare i vitneregisteret, aldri i enheten.",
+ "type": "object",
+ "required": [
+  "schemaVersion",
+  "r10ReleaseId",
+  "status",
+  "units"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "schemaVersion": {
+   "const": "mlag.schema.v1-trinn0"
+  },
+  "generated": {
+   "type": "string"
+  },
+  "r10ReleaseId": {
+   "type": "string"
+  },
+  "status": {
+   "enum": [
+    "UTKAST",
+    "LÅST"
+   ]
+  },
+  "registers": {
+   "type": "object"
+  },
+  "notice": {
+   "type": "string"
+  },
+  "units": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "$ref": "#/$defs/unit"
+   }
+  }
+ },
+ "$defs": {
+  "verification": {
+   "type": "object",
+   "required": [
+    "status"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "status": {
+     "enum": [
+      "BEKREFTET_ANKER",
+      "BEKREFTET_TRANSKRIPSJON",
+      "BEKREFTET_UTGAVETEKST",
+      "BEKREFTET_SEKUNDAERT",
+      "BEKREFTET_I_OVERSETTELSE",
+      "DELVIS_BEKREFTET",
+      "IKKE_AVLEST"
+     ]
+    },
+    "evidence": {
+     "type": "string"
+    },
+    "sha256": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{64}$"
+    },
+    "basis": {
+     "type": "string"
+    },
+    "mustReadIn": {
+     "type": "string"
+    }
+   }
+  },
+  "gtAnchor": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "testament",
+    "bookId",
+    "bookSha256",
+    "mtRef",
+    "firstWordId",
+    "lastWordId",
+    "relation",
+    "words"
+   ],
+   "properties": {
+    "testament": {
+     "const": "GT"
+    },
+    "bookId": {
+     "type": "string",
+     "pattern": "^gt-[a-z0-9]+$"
+    },
+    "bookSha256": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{64}$"
+    },
+    "mtRef": {
+     "type": "string"
+    },
+    "stepPublicationRef": {
+     "type": "string"
+    },
+    "firstWordId": {
+     "type": "string",
+     "pattern": "^[0-9A-Za-z]{5}$"
+    },
+    "lastWordId": {
+     "type": "string",
+     "pattern": "^[0-9A-Za-z]{5}$"
+    },
+    "relation": {
+     "enum": [
+      "erstatter",
+      "etter",
+      "hele_verset"
+     ]
+    },
+    "words": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "id",
+       "position",
+       "g"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "id": {
+        "type": "string",
+        "pattern": "^[0-9A-Za-z]{5}$"
+       },
+       "position": {
+        "type": "integer",
+        "minimum": 1
+       },
+       "g": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    }
+   }
+  },
+  "ntAnchor": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "testament",
+    "bookId",
+    "bookSha256",
+    "chapter",
+    "verse",
+    "firstWordIndex",
+    "lastWordIndex",
+    "relation",
+    "words"
+   ],
+   "properties": {
+    "testament": {
+     "const": "NT"
+    },
+    "bookId": {
+     "type": "string",
+     "pattern": "^[0-9a-z]{3}$"
+    },
+    "bookSha256": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{64}$"
+    },
+    "r11LayerSha256": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{64}$"
+    },
+    "r111Note": {
+     "type": "string"
+    },
+    "chapter": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "verse": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "firstWordIndex": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "lastWordIndex": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "relation": {
+     "enum": [
+      "erstatter",
+      "etter",
+      "hele_verset"
+     ]
+    },
+    "words": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "wordIndex",
+       "g"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "wordIndex": {
+        "type": "integer",
+        "minimum": 1
+       },
+       "g": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    }
+   }
+  },
+  "editionSupport": {
+   "type": "object",
+   "required": [
+    "edition",
+    "verification"
+   ],
+   "additionalProperties": false,
+   "description": "En utgave som har valgt lesningen. Utgaver er ikke vitner og har ikke siglum.",
+   "properties": {
+    "edition": {
+     "type": "string"
+    },
+    "form": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    },
+    "verification": {
+     "type": "object",
+     "required": [
+      "status"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "status": {
+       "enum": [
+        "BEKREFTET_ANKER",
+        "BEKREFTET_TRANSKRIPSJON",
+        "BEKREFTET_UTGAVETEKST",
+        "BEKREFTET_SEKUNDAERT",
+        "BEKREFTET_I_OVERSETTELSE",
+        "DELVIS_BEKREFTET",
+        "IKKE_AVLEST"
+       ]
+      },
+      "evidence": {
+       "type": "string"
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      },
+      "basis": {
+       "type": "string"
+      },
+      "mustReadIn": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "manuscriptWitness": {
+   "type": "object",
+   "required": [
+    "siglum",
+    "verification"
+   ],
+   "additionalProperties": false,
+   "description": "Et fysisk håndskrift. Datering og oppbevaringssted hentes fra vitneregisteret via siglum.",
+   "properties": {
+    "siglum": {
+     "type": "string",
+     "minLength": 1
+    },
+    "hand": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^(\\*|C[0-9]?)$"
+    },
+    "locator": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "reading": {
+     "type": "string",
+     "description": "Hele verset slik transkripsjonen har det for denne hånden."
+    },
+    "attested": {
+     "type": "string",
+     "description": "Utdraget der lesningen står, slik transkripsjonen har det."
+    },
+    "certainty": {
+     "enum": [
+      "lest",
+      "usikre bokstaver",
+      "delvis rekonstruert",
+      "rekonstruert",
+      "utelatt",
+      "ikke avlest"
+     ]
+    },
+    "note": {
+     "type": "string"
+    },
+    "verification": {
+     "type": "object",
+     "required": [
+      "status"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "status": {
+       "enum": [
+        "BEKREFTET_ANKER",
+        "BEKREFTET_TRANSKRIPSJON",
+        "BEKREFTET_UTGAVETEKST",
+        "BEKREFTET_SEKUNDAERT",
+        "BEKREFTET_I_OVERSETTELSE",
+        "DELVIS_BEKREFTET",
+        "IKKE_AVLEST"
+       ]
+      },
+      "evidence": {
+       "type": "string"
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      },
+      "basis": {
+       "type": "string"
+      },
+      "mustReadIn": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "versionWitness": {
+   "type": "object",
+   "required": [
+    "siglum",
+    "lang",
+    "vorlage",
+    "verification"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "siglum": {
+     "type": "string",
+     "minLength": 1
+    },
+    "text": {
+     "type": "string"
+    },
+    "lang": {
+     "enum": [
+      "grc",
+      "la",
+      "syr",
+      "cop"
+     ]
+    },
+    "norwegian": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "text",
+       "kind"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "text": {
+        "type": "string",
+        "minLength": 1
+       },
+       "kind": {
+        "enum": [
+         "ordrett",
+         "tolkende",
+         "r10"
+        ]
+       },
+       "note": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "readIn": {
+     "type": "string"
+    },
+    "locator": {
+     "type": "string"
+    },
+    "vorlage": {
+     "enum": [
+      "sikker",
+      "sannsynlig",
+      "kan ikke avgjøres"
+     ]
+    },
+    "witnessLimit": {
+     "type": "string"
+    },
+    "compatibleWith": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "note": {
+     "type": "string"
+    },
+    "verification": {
+     "type": "object",
+     "required": [
+      "status"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "status": {
+       "enum": [
+        "BEKREFTET_ANKER",
+        "BEKREFTET_TRANSKRIPSJON",
+        "BEKREFTET_UTGAVETEKST",
+        "BEKREFTET_SEKUNDAERT",
+        "BEKREFTET_I_OVERSETTELSE",
+        "DELVIS_BEKREFTET",
+        "IKKE_AVLEST"
+       ]
+      },
+      "evidence": {
+       "type": "string"
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      },
+      "basis": {
+       "type": "string"
+      },
+      "mustReadIn": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "patristicWitness": {
+   "type": "object",
+   "required": [
+    "siglum",
+    "locator",
+    "lang",
+    "quoteType",
+    "verification"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "siglum": {
+     "type": "string",
+     "minLength": 1
+    },
+    "locator": {
+     "type": "string",
+     "minLength": 1
+    },
+    "lang": {
+     "enum": [
+      "grc",
+      "la",
+      "syr"
+     ]
+    },
+    "quoteType": {
+     "enum": [
+      "sitat",
+      "parafrase",
+      "omtale",
+      "omstridt"
+     ]
+    },
+    "wording": {
+     "type": "string"
+    },
+    "witnessLimit": {
+     "type": "string"
+    },
+    "compatibleWith": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "note": {
+     "type": "string"
+    },
+    "verification": {
+     "type": "object",
+     "required": [
+      "status"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "status": {
+       "enum": [
+        "BEKREFTET_ANKER",
+        "BEKREFTET_TRANSKRIPSJON",
+        "BEKREFTET_UTGAVETEKST",
+        "BEKREFTET_SEKUNDAERT",
+        "BEKREFTET_I_OVERSETTELSE",
+        "DELVIS_BEKREFTET",
+        "IKKE_AVLEST"
+       ]
+      },
+      "evidence": {
+       "type": "string"
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      },
+      "basis": {
+       "type": "string"
+      },
+      "mustReadIn": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "reading": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "readingId",
+    "label",
+    "text",
+    "lang",
+    "morphology",
+    "norwegian",
+    "editionSupport",
+    "manuscriptWitnesses",
+    "versionWitnesses",
+    "patristicWitnesses"
+   ],
+   "properties": {
+    "readingId": {
+     "type": "string",
+     "pattern": "^[a-z][0-9]?$"
+    },
+    "label": {
+     "type": "string"
+    },
+    "isR10": {
+     "type": "boolean"
+    },
+    "agreesWith": {
+     "type": "string"
+    },
+    "text": {
+     "type": "string"
+    },
+    "textNote": {
+     "type": "string"
+    },
+    "lang": {
+     "enum": [
+      "he",
+      "grc"
+     ]
+    },
+    "morphology": {
+     "type": "string",
+     "minLength": 1
+    },
+    "norwegian": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "text",
+       "kind"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "text": {
+        "type": "string",
+        "minLength": 1
+       },
+       "kind": {
+        "enum": [
+         "ordrett",
+         "tolkende",
+         "r10"
+        ]
+       },
+       "note": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "editionSupport": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/editionSupport"
+     }
+    },
+    "manuscriptWitnesses": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/manuscriptWitness"
+     }
+    },
+    "versionWitnesses": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/versionWitness"
+     }
+    },
+    "patristicWitnesses": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/patristicWitness"
+     }
+    }
+   },
+   "anyOf": [
+    {
+     "properties": {
+      "manuscriptWitnesses": {
+       "minItems": 1
+      }
+     }
+    },
+    {
+     "properties": {
+      "versionWitnesses": {
+       "minItems": 1
+      }
+     }
+    },
+    {
+     "properties": {
+      "patristicWitnesses": {
+       "minItems": 1
+      }
+     }
+    }
+   ],
+   "$comment": "Minst ett vitne per lesning (plan 1.2 regel 1). En lesning som bare står i utgaver, kan ikke registreres."
+  },
+  "unit": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "variantId",
+    "pilotNr",
+    "status",
+    "ref",
+    "anchor",
+    "readings",
+    "witnessPattern",
+    "variantKind",
+    "significance",
+    "evaluation",
+    "philologicalNote",
+    "checks"
+   ],
+   "properties": {
+    "variantId": {
+     "type": "string",
+     "pattern": "^(GT|NT)-[A-Z0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{2}$"
+    },
+    "pilotNr": {
+     "type": "integer"
+    },
+    "status": {
+     "enum": [
+      "UTKAST",
+      "LÅST"
+     ]
+    },
+    "ref": {
+     "type": "object",
+     "required": [
+      "r10"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "r10": {
+       "type": "string"
+      },
+      "mtRef": {
+       "type": "string"
+      },
+      "stepPublicationRef": {
+       "type": "string"
+      },
+      "western": {
+       "type": "string"
+      },
+      "lxxRef": {
+       "type": "string"
+      },
+      "ntRef": {
+       "type": "string"
+      }
+     }
+    },
+    "anchor": {
+     "oneOf": [
+      {
+       "$ref": "#/$defs/gtAnchor"
+      },
+      {
+       "$ref": "#/$defs/ntAnchor"
+      }
+     ]
+    },
+    "r10Verse": {
+     "type": "string"
+    },
+    "readings": {
+     "type": "array",
+     "minItems": 2,
+     "items": {
+      "$ref": "#/$defs/reading"
+     }
+    },
+    "witnessPattern": {
+     "type": "object",
+     "required": [
+      "computed",
+      "code"
+     ],
+     "properties": {
+      "computed": {
+       "const": true
+      },
+      "code": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "description": "Akse 1. Regnes maskinelt ut fra vitnene. Skrives aldri for hånd."
+    },
+    "variantKind": {
+     "type": "object",
+     "required": [
+      "computed",
+      "assigned"
+     ],
+     "additionalProperties": false,
+     "description": "Akse 2. Beskrivende.",
+     "properties": {
+      "computed": {
+       "type": "string"
+      },
+      "assigned": {
+       "enum": [
+        "ortografisk",
+        "morfologisk",
+        "leksikalsk",
+        "pluss",
+        "minus",
+        "ordfølge",
+        "harmonisering",
+        "skrivefeil",
+        "eksegetisk"
+       ]
+      },
+      "assignedBy": {
+       "type": "string"
+      },
+      "note": {
+       "type": "string"
+      }
+     }
+    },
+    "significance": {
+     "enum": [
+      "betydning",
+      "form",
+      "ortografi"
+     ]
+    },
+    "evaluation": {
+     "type": "object",
+     "required": [
+      "class",
+      "by",
+      "date",
+      "arguments",
+      "literature",
+      "dissent"
+     ],
+     "additionalProperties": false,
+     "description": "Akse 3. Signert faglig skjønn. Settes aldri maskinelt.",
+     "properties": {
+      "class": {
+       "enum": [
+        "ikke vurdert",
+        "A",
+        "B",
+        "C",
+        "omstridt"
+       ]
+      },
+      "by": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "date": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "arguments": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "literature": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "dissent": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     },
+     "if": {
+      "properties": {
+       "class": {
+        "const": "ikke vurdert"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "by": {
+        "type": "null"
+       },
+       "date": {
+        "type": "null"
+       }
+      }
+     },
+     "else": {
+      "properties": {
+       "by": {
+        "type": "string",
+        "minLength": 1
+       },
+       "date": {
+        "type": "string",
+        "minLength": 1
+       },
+       "arguments": {
+        "minItems": 1
+       },
+       "literature": {
+        "minItems": 1
+       }
+      }
+     }
+    },
+    "philologicalNote": {
+     "type": "string",
+     "minLength": 40
+    },
+    "crossReferences": {
+     "type": "array",
+     "items": {
+      "type": "object"
+     }
+    },
+    "excludedWitnesses": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "siglum",
+       "reason"
+      ],
+      "properties": {
+       "siglum": {
+        "type": "string",
+        "minLength": 1
+       },
+       "reason": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "leads": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Spor som må kontrolleres mot kilde. De er ikke vitner og teller ikke i vitnemønsteret."
+    },
+    "dataConflicts": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "provenance": {
+     "type": "array",
+     "items": {
+      "type": "object"
+     }
+    },
+    "checks": {
+     "type": "object",
+     "required": [
+      "sigla",
+      "anchor",
+      "unicode",
+      "doubleEntry"
+     ],
+     "properties": {
+      "doubleEntry": {
+       "enum": [
+        "IKKE KJØRT",
+        "BESTÅTT"
+       ]
+      }
+     }
+    }
+   }
+  }
+ }
+}
